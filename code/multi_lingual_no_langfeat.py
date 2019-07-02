@@ -32,19 +32,26 @@ maxwordlen = 400
 
 tokenizer_re = re.compile("\w+|\S")
 
+# Use this as arg
+data_path = "..\Datasets"
 
-data_path = "../data"
 
 def read_data():
+    """
+    Reads the data from the argv and transform it into a list of lists containing the documents, labels and lg_labels
+    :return: a list with three lists: documents - list of the text from the documents,
+                                      labels - list of the CEFR levels assigned,
+                                      lg_labels - list of the language labels for the documents
+    """
     labels = []
     lg_labels = []
     documents = []
     for data_file in glob.iglob(sys.argv[1]+"/*/*"):
-        lang_label = data_file.split("/")[-2]
+        lang_label = data_file.split("\\")[-2]
 
         if "RemovedFiles" in data_file: continue
         if "parsed" in data_file: continue
-        doc = open(data_file, "r").read().strip()
+        doc = open(data_file, "r", encoding="utf-8").read().strip()
         wrds = doc.split(" ")
 
         label = data_file.split("/")[-1].split(".txt")[0].split("_")[-1]
@@ -56,12 +63,24 @@ def read_data():
         lg_labels.append(lang_label)
         documents.append(doc)
         
-    return (documents, labels, lg_labels)
+    return documents, labels, lg_labels
+
 
 def char_tokenizer(s):
+    """
+    Transforms a string into a list of characters
+    :param s: The string to be transformed
+    :return: List of the characters of the string
+    """
     return list(s)
 
+
 def word_tokenizer(s):
+    """
+    Transforms a string into a list of words
+    :param s: The string to be transformed
+    :return: List of the words of the string
+    """
     return tokenizer_re.findall(s)
 
 def getWords(D):
@@ -86,9 +105,23 @@ def getChars(D):
             max_features += 1
     return charSet, max_features
 
+
 def transform(D, vocab, minfreq, tokenizer="char"):
+    """
+    Transforms the documents in a list of lists of integers where every list corresponds to a document
+    :param D: list of documents
+    :param vocab: the vocabulary to be used
+    :param minfreq: the minimum frequence for a item of the vocabulary to be considered feature
+    :param tokenizer: the token to be considered for a document
+    :return: X list of lists of integers where every list is a document and :
+                                        1 indicates the beginning of a document
+                                        2 indicates a non-feature item
+                                        > 3 indicates a feature with the given index
+    """
     features = defaultdict(int)
     count = 0
+    # Gives an index to every features (vocab element with frequence > minfreq)
+    # The indexes begin at 0 increase by 1 for every feature found
     for i, k in enumerate(vocab.keys()):
         if vocab[k] > minfreq:
             features[k] = count
@@ -97,10 +130,18 @@ def transform(D, vocab, minfreq, tokenizer="char"):
     start_char = 1
     oov_char = 2
     index_from = 3
-    
+
+    # X is the list of lists of integers where every list is a document and
+    # start_char indicates the beginning of a document
+    # oov_char represent a vocab element that is not a feature
+    # value different from oov_char and start_char - it is the index of a feature+3
     X = []
     for j, d in enumerate(D):
+        # x is the list of integers where if the value is oov_char then it is not a feature
+        # if the value is start_char - it indicates the beginning of the document
+        # if the value is different from oov_char and start_char - it is the index of a feature+3
         x = [start_char]
+        # z is the list of vocab elements for every document
         z = None
         if tokenizer == "word":
             z = word_tokenizer(d)
@@ -137,6 +178,8 @@ print(len(x_char_train), 'train sequences')
 print(time.time() - pt)
 
 print('Pad sequences (samples x time)')
+# Transforms the lists in 2D array where every row is a list of the list (a document)
+# If the list is smaller than maxlen, it adds 0 elements at the beginning till it gets to maxlen
 x_char_train = sequence.pad_sequences(x_char_train, maxlen=maxlen)
 x_word_train = sequence.pad_sequences(x_word_train, maxlen=maxwordlen)
 print('x_train shape:', x_char_train.shape)
@@ -152,15 +195,19 @@ n_grp_classes = len(lang_labels)
 
 grp_train, grp_test = [], []
 
+# Transforms y_labels and y_lang_labels to lists of integer where the integer corresponds
+# to the index of the label unique_labels or lang_labels
 y_labels = [unique_labels.index(y) for y in y_labels]
 y_lang_labels = [lang_labels.index(y) for y in y_lang_labels]
 
+# One-hot-encoding for every value of the list y_labels, y_lang_labels
 y_train = np_utils.to_categorical(np.array(y_labels), len(unique_labels))
 lng_train = np_utils.to_categorical(np.array(y_lang_labels), len(lang_labels))
 
 print(time.time() - pt)
 
 cv_accs, cv_f1 = [], []
+# Cross-validation object. Provides train/test indices to split the data
 k_fold = StratifiedKFold(10,random_state=seed)
 n_iter = 1
 all_golds = []
