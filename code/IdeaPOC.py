@@ -257,11 +257,6 @@ def getScoringFeatures(dirpath,lang,err):
             featureslist.append(features_for_this_file)
     return fileslist, featureslist
 
-
-"""
-Function to get n-gram like features for Word, POS, and Dependency representations
-option takes: word, pos, dep. default is word
-"""
 def getLangData(dirpath, option):
     """
         we read all files by calling function os.listdir()
