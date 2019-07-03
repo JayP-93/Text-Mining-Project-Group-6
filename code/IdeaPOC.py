@@ -236,10 +236,6 @@ def getErrorFeatures(conllufilepath, lang):
     return [numerr, numspellerr]
 
 
-"""
-get features that are typically used in scoring models using getErrorFeatures and getLexFeatures functions.
-err - indicates whether or not error features should be extracted. Boolean. True/False
-"""
 def getScoringFeatures(dirpath,lang,err):
     """
         read all text from files from the given directory
