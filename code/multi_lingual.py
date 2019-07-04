@@ -6,11 +6,9 @@ from keras.preprocessing import sequence
 from keras.models import Sequential, Model
 from keras.layers import Dense, Flatten, Dropout, Activation, Input, concatenate
 from keras.layers import Embedding, Convolution1D, MaxPooling1D
-from keras.layers import AveragePooling1D, LSTM, GRU
 from keras.utils import np_utils
 import sys, time, re, glob
 from collections import defaultdict
-from gensim.utils import simple_preprocess
 from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import f1_score, confusion_matrix
 from keras.layers import SpatialDropout1D
@@ -29,6 +27,7 @@ minwordfreq = 15
 mincharfreq = 0
 maxwordlen = 400
 
+# Any word character or not white space
 tokenizer_re = re.compile("\w+|\S")
 
 # Use this as arg
@@ -233,33 +232,12 @@ for train, test in k_fold.split(x_word_train, y_labels):
     wordx = Embedding(max_word_features, 32, input_length=maxwordlen)(word_input)
     wordx = SpatialDropout1D(0.25)(wordx)
 
-    # charx = Convolution1D(nb_filter=128, filter_length=9, activation="relu")(charx)
-    # charx = MaxPooling1D(pool_length=maxlen-6)(charx)#Or Max-pooling
-    # charx = GRU(embedding_dims, dropout_W=0.2, dropout_U=0.2, return_sequences=True)(charx)
-    # charx = AveragePooling1D(pool_length=maxlen)(charx)
     charx = Flatten()(charx)
-    # charx = Dense(160, activation="relu")(charx)
-    # charx = Dropout(0.25)(charx)
-
-    # wordx = Convolution1D(nb_filter=128, filter_length=2)(wordx)
-    # wordx = Convolution1D(nb_filter=256, filter_length=2, activation="relu")(wordx)
-    # wordx = GRU(128, dropout_W=0.25, dropout_U=0.25, return_sequences=True)(wordx)
-    # wordx = AveragePooling1D(pool_length=maxwordlen)(wordx)#Or Max-pooling
-    # wordx = MaxPooling1D(pool_length=2)(wordx)#Or Max-pooling
-    # wordx1 = LSTM(32)(wordx)
-    # wordx2 = LSTM(32, go_backwards=True)(wordx)
-    # wordx = AveragePooling1D(pool_length=4)(wordx)#Or Max-pooling
     wordx = Flatten()(wordx)
-    # wordx = Dense(256, activation="relu")(wordx)
-    # wordx = Dropout(0.25)(wordx)
-
     y = concatenate([charx, wordx])
     grp_predictions = Dense(n_grp_classes, activation='softmax')(y)
-    # grp_predictions1 = Dense(32, activation='relu')(grp_predictions)
     y = concatenate([y, grp_predictions])
-    # y = Dense(20, activation="relu")(y)
 
-    # y = Dense(50, activation='relu', name='hidden_layer')(y)
     y = Dropout(0.25)(y)
     y_predictions = Dense(n_classes, activation='softmax')(y)
 
@@ -286,7 +264,6 @@ for train, test in k_fold.split(x_word_train, y_labels):
     all_preds.extend(pred_labels)
     cv_f1.append(f1_score(y_gold, y_classes, average="weighted"))
     print(confusion_matrix(gold_labels, pred_labels, labels=unique_labels))
-    # print("All done!\n{}".format(hist.history), file=sys.stderr)
     n_iter += 1
 
 print("\nF1-scores", cv_f1, sep="\n")
