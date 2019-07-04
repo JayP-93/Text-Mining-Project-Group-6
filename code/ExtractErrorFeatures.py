@@ -1,7 +1,7 @@
 """
 Get error features for a given text file, by passing it through Language Tool,
-and counting the occurrences of different rule matches.
-Saves results as numpy array
+and counting the occurrences of different rule matches. Saves results as numpy array.
+The results (.npy files) are in the features/ folder in this repo
 """
 
 import language_check

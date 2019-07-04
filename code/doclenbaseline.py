@@ -18,18 +18,12 @@ from sklearn.svm import LinearSVC
 seed = 1234
 
 
-def getdoclen(path):
+def getdoclen(conllufilepath):
     """
-    Returns number of words in the text file (NB: numbers are not counted as words)
-    :param path: path to file
+    Returns number of words in the text file
+    :param conllufilepath: path to the file
     :return: number of words in the file
     """
-    file = open(path, encoding="utf-8").read()
-    number_of_words = sum([word.strip(string.punctuation).isalpha() for word in file.split()])
-    return number_of_words
-
-
-def getdoclen_OLD(conllufilepath):
     fh = open(conllufilepath, encoding="utf-8")
     allText = []
     sent_id = 0
@@ -120,7 +114,6 @@ def main():
     # Crosslingual classification baseline
     print("*** Train with DE, test with IT baseline******")
     crossLangClassificationWithoutVectorizer(defeats, delabels, itfeats, itlabels)
-
     print("*** Train with DE, test with CZ baseline ******")
     crossLangClassificationWithoutVectorizer(defeats, delabels, czfeats, czlabels)
 

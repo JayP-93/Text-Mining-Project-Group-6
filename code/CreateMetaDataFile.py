@@ -1,13 +1,14 @@
 """
 Create a metadata file (for each language) for MERLIN corpus data, listing all other proficiency labels.
+The results (metadata files) are in the Datasets/ folder in this repo
 """
 
 import os
 
-dirpath = "/Users/macbookg/Downloads/meta_ltext"  # path to original corpora folder
-outputdirpath = "/Users/macbookg//Downloads/Renamed/"  # path to folder with output files
+dirpath = "/Users/sowmya/Research/CrossLing-Scoring/Corpora/"  # path to original corpora folder
+outputdirpath = "/Users/sowmya/Research/CrossLing-Scoring/Corpora/"  # path to folder with output files
 
-inputdirs = ["czech", ]  # names of input folders
+inputdirs = ["CZ_ltext_txt", "DE_ltext_txt", "IT_ltext_txt"]  # names of input folders
 outputnames = ["CZMetadata.txt", "DEMetadata.txt", "ITMetadata.txt"]  # names of output files
 
 for i in range(0, len(inputdirs)):

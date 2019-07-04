@@ -7,11 +7,11 @@ http://www.merlin-platform.eu/C_data.php
 
 import os
 
-dirpath = "/Users/macbookg/Downloads/meta_ltext"  # path to original corpora folder
-outputdirpath = "/Users/macbookg//Downloads/Renamed/"  # path to folder with output files
+dirpath = "/Users/sowmya/Research/CrossLing-Scoring/Corpora/"  # path to original corpora folder
+outputdirpath = "/Users/sowmya/Research/CrossLing-Scoring/Corpora/Renamed/"  # path to folder with output files
 files = os.listdir(dirpath)
 
-inputdirs = ["czech", ]  # names of input folders
+inputdirs = ["CZ_ltext_txt", "DE_ltext_txt", "IT_ltext_txt"]  # names of input folders
 outputdirs = ["CZ", "DE", "IT"]  # names of output folders
 
 for i in range(0, len(inputdirs)):
@@ -25,9 +25,9 @@ for i in range(0, len(inputdirs)):
         print(file)
         if file.endswith(".txt"):
             content = open(os.path.join(dirpath, inputdirs[i], file), "r").read()
-            cefr = content.split("Learner text:")[0].split("Overall CEFR rating: ")[1].split("\n")[0]
+            cefr = content.split("Learner text:")[0].split("Overall CEFR rating: ")[1].split("\n")[0]  # language level
             newname = file.replace(".txt", "") + "_" + outputdirs[i] + "_" + cefr + ".txt"  # name of new file
-            fh = open(os.path.join(new_folder, newname), "w")  # new file
+            fh = open(os.path.join(outputdirpath, outputdirs[i], newname), "w")  # new file
             text = content.split("Learner text:")[1].strip()  # raw text
             fh.write(text)  # write to new file
             fh.close()

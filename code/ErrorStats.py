@@ -1,6 +1,7 @@
 """
 Saves information about errors (using Language check) in DE and IT data to text files.
 The main purpose: knowledge about error statistics in the data for DE and IT.
+The results (text files) are in the features/ folder in this repo
 """
 
 import language_check
@@ -51,8 +52,8 @@ def error_stats(inputpath, lang, output_path):
 
 
 def main():
-    inputpath_de = "../Datasets/DE/"
-    inputpath_it = "../Datasets/IT/"
+    inputpath_de = "/home/bangaru/GitProjects/CrossLingualScoring/Datasets/DE/"
+    inputpath_it = "/home/bangaru/GitProjects/CrossLingualScoring/Datasets/IT/"
 
     error_stats(inputpath_de, "de", "../features/")
     error_stats(inputpath_it, "it", "../features/")
