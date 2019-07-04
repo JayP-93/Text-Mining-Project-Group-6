@@ -509,7 +509,9 @@ def cross_lang_testing_classification(train_labels, train_data, test_labels, tes
     vectorizers = [uni_to_tri_vectorizer]
     classifiers = [RandomForestClassifier(class_weight="balanced", n_estimators=300, random_state=seed),
                    LinearSVC(class_weight="balanced", random_state=seed), LogisticRegression(class_weight="balanced",
-                                                                                             random_state=seed)]  # , LinearSVC()RandomForestClassifier(), RandomForestClassifier(class_weight="balanced"), GradientBoostingClassifier()] #Side note: gradient boosting needs a dense array. Testing fails for that. Should modifiy the pipeline later to account for this.
+                                                                                             random_state=seed)]
+    # LinearSVC(), RandomForestClassifier(), RandomForestClassifier(class_weight="balanced"), GradientBoostingClassifier()]
+    # #Side note: gradient boosting needs a dense array. Testing fails for that. Should modifiy the pipeline later to account for this.
     # Check this discussion for handling the sparseness issue: https://stackoverflow.com/questions/28384680/scikit-learns-pipeline-a-sparse-matrix-was-passed-but-dense-data-is-required
     for vectorizer in vectorizers:
         for classifier in classifiers:
@@ -585,9 +587,9 @@ def singleLangClassificationWithoutVectorizer(train_vector, train_labels):  # te
     """
          train and test on one language, classification
     :param train_vector: we use the matrix where Y axis - texts, X - scoring features to train cassifier
-    :param train_labels:  labels of texts representing CEFR levels to train
+    :param train_labels: labels of texts representing CEFR levels to train
     """
-    # Provides train/test indices to split data in train/test sets, use 1/10 for traning
+    # Provides train/test indices to split data in train/test sets, use 1/10 for training
     k_fold = StratifiedKFold(10, random_state=seed)
     classifiers = [RandomForestClassifier(class_weight="balanced", n_estimators=300, random_state=seed),
                    LinearSVC(class_weight="balanced", random_state=seed),
@@ -614,12 +616,21 @@ def singleLangClassificationWithoutVectorizer(train_vector, train_labels):  # te
 
 # cross lingual classification evaluation for non ngram features
 def crossLangClassificationWithoutVectorizer(train_vector, train_labels, test_vector, test_labels):
+    """
+    train classifiers on one language and test on another language
+    :param train_vector: we use the matrix where Y axis - texts, X - scoring features for training
+    :param train_labels: labels of texts representing CEFR levels for training
+    :param test_vector: we use the matrix where Y axis - texts, X - scoring features for testing
+    :param test_labels: labels of texts representing CEFR levels for testing
+    """
     print("CROSS LANG EVAL")
     classifiers = [RandomForestClassifier(class_weight="balanced", n_estimators=300, random_state=seed),
                    LinearSVC(class_weight="balanced", random_state=seed),
                    LogisticRegression(class_weight="balanced", random_state=seed)]
     for classifier in classifiers:
+        # Train classifier on train set
         classifier.fit(train_vector, train_labels)
+        # Test classifier on test set and compute mean matches, confusion matrix and F1 score
         predicted = classifier.predict(test_vector)
         print(np.mean(predicted == test_labels, dtype=float))
         print(confusion_matrix(test_labels, predicted))
@@ -628,6 +639,13 @@ def crossLangClassificationWithoutVectorizer(train_vector, train_labels, test_ve
 
 # cross lingual regression evaluation for non ngram features
 def crossLangRegressionWithoutVectorizer(train_vector, train_scores, test_vector, test_scores):
+    """
+    train regressors on one language and test on another language
+    :param train_vector: we use the matrix where Y axis - texts, X - scoring features for training
+    :param train_scores: scores of texts representing CEFR levels for training
+    :param test_vector: we use the matrix where Y axis - texts, X - scoring features for testing
+    :param test_scores: scores of texts representing CEFR levels for testing
+    """
     print("CROSS LANG EVAL")
     regressors = [RandomForestRegressor()]
     k_fold = StratifiedKFold(10, random_state=seed)
@@ -646,6 +664,13 @@ def crossLangRegressionWithoutVectorizer(train_vector, train_scores, test_vector
 
 # add label features as one hot vector. de - 1 0 0, it - 0 1 0, cz - 0 0 1 as sklearn has issues with combination of cat and num features.
 def enhance_features_withcat(features, language=None, langslist=None):
+    """
+    Adds label features to the features vector as one hot vector defined as de - 1 0 0, it - 0 1 0, cz - 0 0 1
+    :param features: Existing features vector to be extended with the label features
+    :param language: The language label to be added
+    :param langslist: The language labels to be added
+    :return: The extended features vector
+    """
     addition = {'de': [1, 0, 0], 'it': [0, 1, 0], 'cz': [0, 0, 1]}
     if language:
         for i in range(0, len(features)):
@@ -667,6 +692,19 @@ labelascat = true, false (to indicate whether to add label as a categorical feat
 
 def do_mega_multilingual_model_all_features(lang1path, lang1, lang2path, lang2, lang3path, lang3, modelas, setting,
                                             labelascat):
+    """
+    Prepare dataset of multiple languages and train and test classifiers on it
+    :param lang1path: Directory path to the first language
+    :param lang1: Abbreviation of the first language (label)
+    :param lang2path: Directory path to the second language
+    :param lang2: Abbreviation of the second language (label)
+    :param lang3path: Directory path of the third language
+    :param lang3: Abbreviation of the third language (label)
+    :param modelas: not used
+    :param setting: which setting to use (to determine features) possible values: pos, dep, domain
+    :param labelascat: boolean value to indicate whether to add label as a categorical feature or not
+    """
+
     print("Doing: take all data as if it belongs to one large dataset, and do classification")
     if not setting == "domain":
         lang1files, lang1features = getLangData(lang1path, setting)
@@ -684,13 +722,14 @@ def do_mega_multilingual_model_all_features(lang1path, lang1, lang2path, lang2, 
         lang3files, lang3features = getScoringFeatures(lang3path, lang3, False)
         lang3labels = getcatlist(lang3files)
 
-    megalabels = []
+    # Add all the languages to a single dataset
     megalabels = lang1labels + lang2labels + lang3labels
     megalangs = getlangslist(lang1files) + getlangslist(lang2files) + getlangslist(lang3files)
+
+    # Add label features
     if labelascat and setting == "domain":
-        megadata = enhance_features_withcat(lang1features, "de") + enhance_features_withcat(lang2features,
-                                                                                            "it") + enhance_features_withcat(
-            lang3features, "cz")
+        megadata = enhance_features_withcat(lang1features, "de") + enhance_features_withcat(lang2features, "it") \
+                   + enhance_features_withcat(lang3features, "cz")
     else:
         megadata = lang1features + lang2features + lang3features
     print("Mega classification for: ", setting, " features")
@@ -699,6 +738,8 @@ def do_mega_multilingual_model_all_features(lang1path, lang1, lang2path, lang2, 
 
     print("Distribution of labels: ")
     print(collections.Counter(megalabels))
+
+    # Train and test classifiers
     if setting == "domain":
         singleLangClassificationWithoutVectorizer(megadata, megalabels)
     else:
@@ -715,6 +756,14 @@ modelas: "class" for classification, "regr" for regression
 
 
 def do_cross_lang_all_features(sourcelangdirpath, sourcelang, modelas, targetlangdirpath, targetlang):
+    """
+    Prepare dataset of 2 languages: one to train on and one to test on. Then do training and testing.
+    :param sourcelangdirpath: Directory path to the train language
+    :param sourcelang: Abbreviation of the train language (label)
+    :param modelas: Flag to indicate what kind of learners (classifiers or regressors) to use. Values: class, regr (regr not implemented yet)
+    :param targetlangdirpath: Directory path to the test language
+    :param targetlang: Abbreviation of the test language (label)
+    """
     # Read source language data
     sourcelangfiles, sourcelangposngrams = getLangData(sourcelangdirpath, "pos")
     sourcelangfiles, sourcelangdepngrams = getLangData(sourcelangdirpath, "dep")
@@ -725,6 +774,7 @@ def do_cross_lang_all_features(sourcelangdirpath, sourcelang, modelas, targetlan
     sourcelanglabels = getcatlist(sourcelangfiles)
     targetlanglabels = getcatlist(targetlangfiles)
 
+    # Because cz has no error check so error features cannot be collected
     if "cz" not in [sourcelang, targetlang]:
         sourcelangfiles, sourcelangdomain = getScoringFeatures(sourcelangdirpath, sourcelang, True)
         targetlangfiles, targetlangdomain = getScoringFeatures(targetlangdirpath, targetlang, True)
@@ -738,6 +788,7 @@ def do_cross_lang_all_features(sourcelangdirpath, sourcelang, modelas, targetlan
         #   targetlangdomain = imputed_df
         #   print("Modified domain feature vector for Italian")
         # TODO: it can be sourcelang too! I am ignoring that for now.
+
     if modelas == "class":
         print("Printing cross-corpus classification evaluation results: ")
 
@@ -761,6 +812,12 @@ modelas: "class" for classification, "regr" for regression
 
 
 def do_single_lang_all_features(langdirpath, lang, modelas):
+    """
+    Prepare dataset from a single language with different features vectors (word, post, dep). Then do training and testing.
+    :param langdirpath: Directory path to the train/test language
+    :param lang: Abbreviation of the train/test language (label)
+    :param modelas: modelas: Flag to indicate what kind of learners (classifiers or regressors) to use. Values: class, regr
+    """
     langfiles, langwordngrams = getLangData(langdirpath, "word")
     langfiles, langposngrams = getLangData(langdirpath, "pos")
     langfiles, langdepngrams = getLangData(langdirpath, "dep")
@@ -821,6 +878,7 @@ def do_single_lang_all_features(langdirpath, lang, modelas):
 
 
 def main():
+    # TODO(JayP): adapt this when you want to run it!
     itdirpath = "/home/bangaru/CrossLingualScoring/Datasets/IT-Parsed"
     dedirpath = "/home/bangaru/CrossLingualScoring/Datasets/DE-Parsed"
     czdirpath = "/home/bangaru/CrossLingualScoring/Datasets/CZ-Parsed"
