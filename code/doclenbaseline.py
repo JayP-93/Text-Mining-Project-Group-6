@@ -1,84 +1,130 @@
-#Adding a document length baseline for final version.
+"""
+Perform monolingual, multilingual and crosslingual classification,
+using length of document (number of words) as a feature.
+The results are baseline for next parts.
+"""
+
 import os
-import collections
+import string
+
 import numpy as np
-from sklearn.ensemble import GradientBoostingClassifier, GradientBoostingRegressor, RandomForestClassifier, RandomForestRegressor
-from sklearn.linear_model import LogisticRegression, LinearRegression
-from sklearn.pipeline import Pipeline
-from sklearn.model_selection import cross_val_score,cross_val_predict,StratifiedKFold 
-from sklearn.metrics import f1_score,classification_report,accuracy_score,confusion_matrix, mean_absolute_error
+from sklearn.ensemble import RandomForestClassifier
+
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import cross_val_score, cross_val_predict, StratifiedKFold
+from sklearn.metrics import f1_score, confusion_matrix
 from sklearn.svm import LinearSVC
 
 seed = 1234
 
-def getdoclen(conllufilepath):
-    fh =  open(conllufilepath, encoding="utf-8")
+
+def getdoclen(path):
+    """
+    Returns number of words in the text file (NB: numbers are not counted as words)
+    :param path: path to file
+    :return: number of words in the file
+    """
+    file = open(path, encoding="utf-8").read()
+    number_of_words = sum([word.strip(string.punctuation).isalpha() for word in file.split()])
+    return number_of_words
+
+
+def getdoclen_OLD(conllufilepath):
+    fh = open(conllufilepath, encoding="utf-8")
     allText = []
     sent_id = 0
     for line in fh:
         if line == "\n":
-            sent_id = sent_id+1
+            sent_id = sent_id + 1
         elif not line.startswith("#") and line.split("\t")[3] != "PUNCT":
             word = line.split("\t")[1]
             allText.append(word)
     fh.close()
     return len(allText)
 
+
 def getfeatures(dirpath):
+    """
+    Returns lists with features (document lengths and language levels) of the text files
+    :param dirpath: path to folder with text files
+    :return: two lists: with documents lengths and with language levels
+    """
     files = os.listdir(dirpath)
-    cats = []
-    doclenfeaturelist = []
+    cats = []  # list with language levels
+    doclenfeaturelist = []  # list with documents lengths
     for filename in files:
         if filename.endswith(".txt"):
-            doclenfeaturelist.append([getdoclen(os.path.join(dirpath,filename))])
+            doclenfeaturelist.append([getdoclen(os.path.join(dirpath, filename))])
             cats.append(filename.split(".txt")[0].split("_")[-1])
-    return doclenfeaturelist,cats
+    return doclenfeaturelist, cats
 
-def singleLangClassificationWithoutVectorizer(train_vector,train_labels): #test_vector,test_labels):
-    k_fold = StratifiedKFold(10,random_state=seed)
-    classifiers = [RandomForestClassifier(class_weight="balanced",n_estimators=300,random_state=seed), LinearSVC(class_weight="balanced",random_state=seed), LogisticRegression(class_weight="balanced",random_state=seed)] #Add more later
-    #classifiers = [MLPClassifier(max_iter=500)]
-    #RandomForestClassifer(), GradientBoostClassifier()
-    #Not useful: SVC with kernels - poly, sigmoid, rbf.
+
+def singleLangClassificationWithoutVectorizer(train_vector, train_labels):
+    """
+    Classification using different classifiers and k-fold validation.
+    Prints out metrics like cross validation score, confusion matrix and F1 score
+    :param train_vector: list with features
+    :param train_labels: list with labels
+    """
+    k_fold = StratifiedKFold(10, random_state=seed)  # split data into tran/test
+    classifiers = [RandomForestClassifier(class_weight="balanced", n_estimators=300, random_state=seed),
+                   LinearSVC(class_weight="balanced", random_state=seed),
+                   LogisticRegression(class_weight="balanced", random_state=seed)]
+    # Not useful: SVC with kernels - poly, sigmoid, rbf.
     for classifier in classifiers:
         print(classifier)
         cross_val = cross_val_score(classifier, train_vector, train_labels, cv=k_fold, n_jobs=1)
         predicted = cross_val_predict(classifier, train_vector, train_labels, cv=k_fold)
-        print(cross_val)
-        print(sum(cross_val)/float(len(cross_val)))
-        print(confusion_matrix(train_labels, predicted))
-        print(f1_score(train_labels,predicted,average='macro'))
+        print('Cross validation score:\n', cross_val, '\n')
+        print('Average cross validation score: ', sum(cross_val) / float(len(cross_val)), '\n')
+        print('Confusion matrix:\n', confusion_matrix(train_labels, predicted), '\n')
+        print('F1 score: ', f1_score(train_labels, predicted, average='macro'), '\n')
+
 
 def crossLangClassificationWithoutVectorizer(train_vector, train_labels, test_vector, test_labels):
-    classifiers = [RandomForestClassifier(class_weight="balanced",n_estimators=300,random_state=seed), LinearSVC(class_weight="balanced",random_state=seed), LogisticRegression(class_weight="balanced",random_state=seed)]
+    """
+    Classification using different classifiers. Performs training and testing on different data sets.
+    Prints out metrics like accuracy, confusion matrix and F1 score
+    :param train_vector: list with features for training
+    :param train_labels: list with labels for training
+    :param test_vector: list with features for testing
+    :param test_labels: list with labels for testing
+    """
+    classifiers = [RandomForestClassifier(class_weight="balanced", n_estimators=300, random_state=seed),
+                   LinearSVC(class_weight="balanced", random_state=seed),
+                   LogisticRegression(class_weight="balanced", random_state=seed)]
     for classifier in classifiers:
-        classifier.fit(train_vector,train_labels)
+        classifier.fit(train_vector, train_labels)
         predicted = classifier.predict(test_vector)
-        print(np.mean(predicted == test_labels,dtype=float))
-        print(confusion_matrix(test_labels,predicted))
-        print(f1_score(test_labels,predicted,average='weighted'))
+        print('Accuracy: ', np.mean(predicted == test_labels, dtype=float), '\n')
+        print('Confusion matrix:\n', confusion_matrix(test_labels, predicted), '\n')
+        print('F1 score: ', f1_score(test_labels, predicted, average='weighted'), '\n')
 
 
 def main():
     itdirpath = "../Datasets/IT-Parsed"
     dedirpath = "../Datasets//DE-Parsed"
     czdirpath = "../Datasets/CZ-Parsed"
-    print("************DE baseline:****************")
-    defeats,delabels = getfeatures(dedirpath)
-    singleLangClassificationWithoutVectorizer(defeats,delabels)
-    print("************IT baseline:****************")
-    itfeats,itlabels = getfeatures(itdirpath)
-    singleLangClassificationWithoutVectorizer(itfeats,itlabels)
-    print("************CZ baseline:****************")
-    czfeats,czlabels = getfeatures(czdirpath)
-    singleLangClassificationWithoutVectorizer(czfeats,czlabels)
 
+    # Monolingual classification baseline
+    print("************DE baseline:****************")
+    defeats, delabels = getfeatures(dedirpath)
+    singleLangClassificationWithoutVectorizer(defeats, delabels)
+    print("************IT baseline:****************")
+    itfeats, itlabels = getfeatures(itdirpath)
+    singleLangClassificationWithoutVectorizer(itfeats, itlabels)
+    print("************CZ baseline:****************")
+    czfeats, czlabels = getfeatures(czdirpath)
+    singleLangClassificationWithoutVectorizer(czfeats, czlabels)
+
+    # Crosslingual classification baseline
     print("*** Train with DE, test with IT baseline******")
-    crossLangClassificationWithoutVectorizer(defeats,delabels, itfeats,itlabels)
-     
+    crossLangClassificationWithoutVectorizer(defeats, delabels, itfeats, itlabels)
+
     print("*** Train with DE, test with CZ baseline ******")
-    crossLangClassificationWithoutVectorizer(defeats,delabels, czfeats,czlabels)
-    
+    crossLangClassificationWithoutVectorizer(defeats, delabels, czfeats, czlabels)
+
+    # Multilingual classification baseline
     bigfeats = []
     bigcats = []
     bigfeats.extend(defeats)
@@ -88,9 +134,8 @@ def main():
     bigcats.extend(itlabels)
     bigcats.extend(czlabels)
     print("****Multilingual classification baseline*************")
-    singleLangClassificationWithoutVectorizer(bigfeats,bigcats)
+    singleLangClassificationWithoutVectorizer(bigfeats, bigcats)
 
-    
-    
-main()
 
+if __name__ == "__main__":
+    main()
