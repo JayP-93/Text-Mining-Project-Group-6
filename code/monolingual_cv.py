@@ -1,20 +1,16 @@
 from __future__ import print_function
-
-import glob
-import re
-import sys
-import time
-from collections import defaultdict
-
 import numpy as np
-from gensim.utils import simple_preprocess
-from keras.layers import Dense, Flatten
-from keras.layers import Embedding
-from keras.models import Sequential
 from keras.preprocessing import sequence
+from keras.models import Sequential, Model
+from keras.layers import Dense, Flatten, Dropout, Activation, Input, merge
+from keras.layers import Embedding, Convolution1D, MaxPooling1D
+from keras.layers import AveragePooling1D, LSTM, GRU
 from keras.utils import np_utils
-from sklearn.metrics import f1_score, confusion_matrix
+import sys, time, re, glob
+from collections import defaultdict
+from gensim.utils import simple_preprocess
 from sklearn.model_selection import StratifiedKFold
+from sklearn.metrics import f1_score, confusion_matrix
 
 # Just a regex for finding all whitespace characters [ \t\n\r\f\v]
 _white_spaces = re.compile(r"\s\s+")
