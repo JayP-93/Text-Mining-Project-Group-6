@@ -31,7 +31,7 @@ seed = 1234
 
 
 # Use this as arg
-# data_path = "..\Datasets\DE-Parsed"
+# data_path = "..\Datasets\CZ"
 
 def read_data():
     """
