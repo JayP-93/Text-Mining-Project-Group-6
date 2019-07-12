@@ -48,6 +48,7 @@ def makePOSsentences(conllufilepath):
     return " ".join(everything_POS)  # Returns a string which contains one sentence as POS tag sequence per line
 
 
+
 def makeTextOnly(conllufilepath):
     """
         go through all lines and read each line of the table which represents information of the text.
@@ -527,7 +528,6 @@ def cross_lang_testing_classification(train_labels, train_data, test_labels, tes
             # firstly do tokenization and then predict new data
             predicted = text_clf.predict(test_data)
             # print(vectorizer.get_feature_names())
-
             print(np.mean(predicted == test_labels, dtype=float))
             print(confusion_matrix(test_labels, predicted, labels=["A1", "A2", "B1", "B2", "C1", "C2"]))
             print("CROSS LANG EVAL DONE. F1score: ")
@@ -781,6 +781,17 @@ def do_cross_lang_all_features(sourcelangdirpath, sourcelang, modelas, targetlan
     else:
         sourcelangfiles, sourcelangdomain = getScoringFeatures(sourcelangdirpath, sourcelang, False)
         targetlangfiles, targetlangdomain = getScoringFeatures(targetlangdirpath, targetlang, False)
+
+    # Begin of Cristina's code. Comment to delete at the end.
+    diff_labels = set(targetlanglabels) - set(sourcelanglabels)  # Cristina code
+    if diff_labels:
+        indices = [i for i, x in enumerate(targetlanglabels) if x in diff_labels]
+        targetlangposngrams = [i for j, i in enumerate(targetlangposngrams) if j not in indices]
+        targetlangdepngrams = [i for j, i in enumerate(targetlangdepngrams) if j not in indices]
+        targetlanglabels = [x for x in targetlanglabels if x not in diff_labels]
+        targetlangdomain = [i for j,i in enumerate(targetlangdomain) if j not in indices]
+    # End of Cristina's code. Comment to delete at the end
+
         # if targetlang == "it": #Those two files where langtool throws error
         #   mean_imputer = Imputer(missing_values='NaN', strategy='mean', axis=0)
         #   mean_imputer = mean_imputer.fit(targetlangdomain)
@@ -791,7 +802,6 @@ def do_cross_lang_all_features(sourcelangdirpath, sourcelang, modelas, targetlan
 
     if modelas == "class":
         print("Printing cross-corpus classification evaluation results: ")
-
         print("*******", "\n", "Setting - Train with: ", sourcelang, " Test with: ", targetlang, " ******", "\n")
         print("Features: pos")
         cross_lang_testing_classification(sourcelanglabels, sourcelangposngrams, targetlanglabels, targetlangposngrams)
@@ -879,13 +889,13 @@ def do_single_lang_all_features(langdirpath, lang, modelas):
 
 def main():
     # TODO(JayP): adapt this when you want to run it!
-    itdirpath = "/home/bangaru/CrossLingualScoring/Datasets/IT-Parsed"
-    dedirpath = "/home/bangaru/CrossLingualScoring/Datasets/DE-Parsed"
-    czdirpath = "/home/bangaru/CrossLingualScoring/Datasets/CZ-Parsed"
+    itdirpath = "../Datasets/IT-Parsed"
+    dedirpath = "../Datasets/DE-Parsed"
+    czdirpath = "../Datasets/CZ-Parsed"
     # do_single_lang_all_features(czdirpath,"cz", "class")
-    # do_cross_lang_all_features(dedirpath,"de","class", itdirpath, "it")
+    do_cross_lang_all_features(itdirpath, "cz", "class", dedirpath, "de")
     # do_cross_lang_all_features(dedirpath,"de","class", czdirpath, "cz")
-    do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", "class", "pos", True)
+    # do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", "class", "pos", True)
 
 
 if __name__ == "__main__":
