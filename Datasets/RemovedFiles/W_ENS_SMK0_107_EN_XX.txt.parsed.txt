@@ -1,0 +1,274 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_ENS_SMK0_107_EN_XX.txt
+# newpar
+# sent_id = 1
+# text = ﻿Two reasons why we should ban smoking Let me see I remember my last trip to Paris: smoking there has effectively been banned in all restaurants and somehow life goes on
+1	﻿Two	﻿Two	NUM	CD	NumType=Card	2	nummod	_	_
+2	reasons	reason	NOUN	NNS	Number=Plur	0	root	_	_
+3	why	why	ADV	WRB	PronType=Rel	6	advmod	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+5	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	ban	ban	VERB	VB	VerbForm=Inf	2	acl:relcl	_	_
+7	smoking	smoke	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+8	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	7	parataxis	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+10	see	see	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	remember	remember	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	last	last	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	trip	trip	NOUN	NN	Number=Sing	12	obj	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	Paris	Paris	PROPN	NNP	Number=Sing	12	nmod	_	SpaceAfter=No
+18	:	:	PUNCT	:	_	12	punct	_	_
+19	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	31	nsubj	_	_
+20	there	there	PRON	EX	_	24	nsubj:pass	_	_
+21	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+22	effectively	effectively	ADV	RB	_	24	advmod	_	_
+23	been	be	AUX	VBN	Tense=Past|VerbForm=Part	24	aux:pass	_	_
+24	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	acl:relcl	_	_
+25	in	in	ADP	IN	_	27	case	_	_
+26	all	all	DET	DT	_	27	det	_	_
+27	restaurants	restaurant	NOUN	NNS	Number=Plur	24	obl	_	_
+28	and	and	CCONJ	CC	_	30	cc	_	_
+29	somehow	somehow	ADV	RB	_	30	advmod	_	_
+30	life	life	NOUN	NN	Number=Sing	27	conj	_	_
+31	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
+32	on	on	ADV	RB	_	31	advmod	_	_
+
+# sent_id = 2
+# text = So how is it that even in the home of the Gitanes and the famous Tabac Gris, almost synonymous with French culture, the French themselves have decided to butt out?
+1	So	so	ADV	RB	_	2	advmod	_	_
+2	how	how	ADV	WRB	PronType=Int	9	advmod	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+5	that	that	ADV	RB	_	9	advmod	_	_
+6	even	even	ADV	RB	_	9	advmod	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	home	home	NOUN	NN	Number=Sing	29	nsubj	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	Gitanes	Gitanes	PROPN	NNPS	Number=Plur	9	nmod	_	_
+13	and	and	CCONJ	CC	_	17	cc	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+15	famous	famous	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	Tabac	Tabac	PROPN	NNP	Number=Sing	17	compound	_	_
+17	Gris	Gris	PROPN	NNP	Number=Sing	9	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	9	punct	_	_
+19	almost	almost	ADV	RB	_	20	advmod	_	_
+20	synonymous	synonymous	ADJ	JJ	Degree=Pos	9	parataxis	_	_
+21	with	with	ADP	IN	_	23	case	_	_
+22	French	french	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	culture	culture	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	9	punct	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+26	French	french	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	themselves	themselves	PRON	PRP	Number=Plur|Person=3|PronType=Prs	9	nmod:npmod	_	_
+28	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	decided	decide	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+30	to	to	PART	TO	_	31	mark	_	_
+31	butt	butt	VERB	VB	VerbForm=Inf	29	xcomp	_	_
+32	out	out	ADP	RP	_	31	compound:prt	_	SpaceAfter=No
+33	?	?	PUNCT	.	_	29	punct	_	_
+
+# sent_id = 3
+# text = Many feel that banning smoking is an attack on personal freedoms Perhaps, but states are there both to preserve freedoms and keep their citizens safe (whether it be from outside dangers or from themselves!).
+1	Many	many	ADJ	JJ	Degree=Pos	2	nsubj	_	_
+2	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	8	mark	_	_
+4	banning	ban	VERB	VBG	VerbForm=Ger	5	amod	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	attack	attack	NOUN	NN	Number=Sing	2	ccomp	_	_
+9	on	on	ADP	IN	_	11	case	_	_
+10	personal	personal	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	freedoms	freedom	NOUN	NNS	Number=Plur	8	nmod	_	_
+12	Perhaps	perhaps	ADV	RB	_	8	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	but	but	CCONJ	CC	_	17	cc	_	_
+15	states	state	NOUN	NNS	Number=Plur	17	nsubj	_	_
+16	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	there	there	ADV	RB	PronType=Dem	2	conj	_	_
+18	both	both	ADV	RB	_	20	advmod	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	preserve	preserve	VERB	VB	VerbForm=Inf	17	advcl	_	_
+21	freedoms	freedom	NOUN	NNS	Number=Plur	20	obj	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	keep	keep	VERB	VB	VerbForm=Inf	20	conj	_	_
+24	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	citizens	citizen	NOUN	NNS	Number=Plur	23	obj	_	_
+26	safe	safe	ADJ	JJ	Degree=Pos	23	xcomp	_	_
+27	(	(	PUNCT	-LRB-	_	23	punct	_	SpaceAfter=No
+28	whether	whether	SCONJ	IN	_	33	mark	_	_
+29	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+30	be	be	AUX	VB	VerbForm=Inf	33	cop	_	_
+31	from	from	ADP	IN	_	33	case	_	_
+32	outside	outside	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	dangers	dangers	NOUN	NNS	Number=Plur	23	parataxis	_	_
+34	or	or	CCONJ	CC	_	36	cc	_	_
+35	from	from	ADP	IN	_	36	case	_	_
+36	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	33	conj	_	SpaceAfter=No
+37	!	!	PUNCT	.	_	33	punct	_	SpaceAfter=No
+38	)	)	PUNCT	-RRB-	_	33	punct	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = In this case the logic is this: smoking will undeniably damage your health (there are countless studies to prove it) and bring you no benefits (the rush that smokers get from feeding their addiction could hardly be considered a positive thing).
+1	In	in	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	case	case	NOUN	NN	Number=Sing	7	obl	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	logic	logic	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	:	_	12	punct	_	_
+9	smoking	smoke	NOUN	NN	Number=Sing	12	nsubj	_	_
+10	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	undeniably	undeniably	ADV	RB	_	12	advmod	_	_
+12	damage	damage	VERB	VB	VerbForm=Inf	7	parataxis	_	_
+13	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	health	health	NOUN	NN	Number=Sing	12	obj	_	_
+15	(	(	PUNCT	-LRB-	_	12	punct	_	SpaceAfter=No
+16	there	there	PRON	EX	_	17	expl	_	_
+17	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
+18	countless	countless	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	studies	study	NOUN	NNS	Number=Plur	17	nsubj	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	prove	prove	VERB	VB	VerbForm=Inf	19	acl	_	_
+22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	_	SpaceAfter=No
+23	)	)	PUNCT	-RRB-	_	17	punct	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	bring	bring	VERB	VB	VerbForm=Inf	12	conj	_	_
+26	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	25	iobj	_	_
+27	no	no	DET	DT	_	28	det	_	_
+28	benefits	benefit	NOUN	NNS	Number=Plur	25	obj	_	_
+29	(	(	PUNCT	-LRB-	_	31	punct	_	SpaceAfter=No
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	rush	rush	NOUN	NN	Number=Sing	12	parataxis	_	_
+32	that	that	SCONJ	IN	_	34	mark	_	_
+33	smokers	smoker	NOUN	NNS	Number=Plur	34	nsubj	_	_
+34	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	31	acl	_	_
+35	from	from	SCONJ	IN	_	36	mark	_	_
+36	feeding	feed	VERB	VBG	VerbForm=Ger	42	advcl	_	_
+37	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	38	nmod:poss	_	_
+38	addiction	addiction	NOUN	NN	Number=Sing	36	obj	_	_
+39	could	could	AUX	MD	VerbForm=Fin	42	aux	_	_
+40	hardly	hardly	ADV	RB	_	42	advmod	_	_
+41	be	be	AUX	VB	VerbForm=Inf	42	aux:pass	_	_
+42	considered	consider	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	34	conj	_	_
+43	a	a	DET	DT	Definite=Ind|PronType=Art	45	det	_	_
+44	positive	positive	ADJ	JJ	Degree=Pos	45	amod	_	_
+45	thing	thing	NOUN	NN	Number=Sing	42	xcomp	_	SpaceAfter=No
+46	)	)	PUNCT	-RRB-	_	31	punct	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = so we will make you stop!
+1	so	so	ADV	RB	_	4	advmod	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	_
+6	stop	stop	VERB	VB	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Safety and welfare over personal freedom, and it's that simple.
+1	Safety	Safety	PROPN	NNP	Number=Sing	0	root	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	welfare	welfare	NOUN	NN	Number=Sing	1	conj	_	_
+4	over	over	ADP	IN	_	6	case	_	_
+5	personal	personal	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	freedom	freedom	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	and	and	CCONJ	CC	_	12	cc	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	SpaceAfter=No
+10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	that	that	ADV	RB	_	12	advmod	_	_
+12	simple	simple	ADJ	JJ	Degree=Pos	1	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = From there I derive my two reasons for banning smoking:
+1	From	from	ADP	IN	_	2	case	_	_
+2	there	there	ADV	RB	PronType=Dem	4	obl	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	derive	derive	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	two	two	NUM	CD	NumType=Card	7	nummod	_	_
+7	reasons	reason	NOUN	NNS	Number=Plur	4	obj	_	_
+8	for	for	SCONJ	IN	_	9	mark	_	_
+9	banning	banning	VERB	VBG	VerbForm=Ger	7	acl	_	_
+10	smoking	smoke	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+11	:	:	PUNCT	:	_	4	punct	_	_
+
+# sent_id = 8
+# text = I feel that banning smoking in restaurants will be good for people's health, and this in itself should be sufficient.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	10	mark	_	_
+4	banning	ban	VERB	VBG	VerbForm=Ger	5	amod	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	10	nsubj	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	restaurants	restaurant	NOUN	NNS	Number=Plur	5	nmod	_	_
+8	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+10	good	good	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+11	for	for	ADP	IN	_	14	case	_	_
+12	people	people	NOUN	NNS	Number=Plur	14	nmod:poss	_	SpaceAfter=No
+13	's	's	PART	POS	_	12	case	_	_
+14	health	health	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	22	punct	_	_
+16	and	and	CCONJ	CC	_	22	cc	_	_
+17	this	this	PRON	DT	Number=Sing|PronType=Dem	22	nsubj	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	17	nmod	_	_
+20	should	should	AUX	MD	VerbForm=Fin	22	aux	_	_
+21	be	be	AUX	VB	VerbForm=Inf	22	cop	_	_
+22	sufficient	sufficient	ADJ	JJ	Degree=Pos	2	conj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Secondly, and I think more importantly, a ban on smoking shows to all that we have a government that cares and functions properly and intelligently, imposing rules when its citizens are not inclined behave responsibly themselves.
+1	Secondly	secondly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	more	more	ADV	RBR	_	7	advmod	_	_
+7	importantly	importantly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	ban	ban	NOUN	NN	Number=Sing	38	nsubj	_	_
+11	on	on	ADP	IN	_	13	case	_	_
+12	smoking	smoking	NOUN	NN	Number=Sing	13	compound	_	_
+13	shows	show	NOUN	NNS	Number=Plur	10	nmod	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	all	all	DET	DT	_	10	nmod	_	_
+16	that	that	PRON	WDT	PronType=Rel	18	obj	_	_
+17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
+18	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	government	government	NOUN	NN	Number=Sing	18	obj	_	_
+21	that	that	PRON	WDT	PronType=Rel	22	nsubj	_	_
+22	cares	care	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	functions	function	NOUN	NNS	Number=Plur	22	conj	_	_
+25	properly	properly	ADV	RB	_	22	advmod	_	_
+26	and	and	CCONJ	CC	_	30	cc	_	_
+27	intelligently	intelligently	ADV	RB	_	30	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	30	punct	_	_
+29	imposing	impose	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	rules	rule	NOUN	NNS	Number=Plur	22	conj	_	_
+31	when	when	ADV	WRB	PronType=Int	36	mark	_	_
+32	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	citizens	citizen	NOUN	NNS	Number=Plur	36	nsubj:pass	_	_
+34	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	36	aux:pass	_	_
+35	not	not	PART	RB	_	36	advmod	_	_
+36	inclined	incline	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	advcl	_	_
+37	behave	behave	AUX	VB	VerbForm=Inf	38	aux	_	_
+38	responsibly	responsibly	VERB	VBN	Tense=Past|VerbForm=Part	5	ccomp	_	_
+39	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	38	obj	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

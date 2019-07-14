@@ -1,0 +1,243 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_ENS_SMK0_140_EN_XX.txt
+# newpar
+# sent_id = 1
+# text = ﻿I am not trying to forbid smokers from smoking anywhere.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	forbid	forbid	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	smokers	smoker	NOUN	NNS	Number=Plur	6	obj	_	_
+8	from	from	ADP	IN	_	10	case	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	10	compound	_	_
+10	anywhere	anywhere	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = I just agree that there should be limits to where they can smoke so that it doesn't affect the health of others.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	just	just	ADV	RB	_	3	advmod	_	_
+3	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	there	there	PRON	EX	_	7	expl	_	_
+6	should	should	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	be	be	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+8	limits	limit	NOUN	NNS	Number=Plur	7	nsubj	_	_
+9	to	to	SCONJ	IN	_	13	mark	_	_
+10	where	where	ADV	WRB	PronType=Int	13	advmod	_	_
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+12	can	can	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	smoke	smoke	VERB	VB	VerbForm=Inf	8	acl	_	_
+14	so	so	SCONJ	IN	_	19	mark	_	_
+15	that	that	SCONJ	IN	_	14	fixed	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+17	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	SpaceAfter=No
+18	n't	not	PART	RB	_	19	advmod	_	_
+19	affect	affect	VERB	VB	VerbForm=Inf	13	advcl	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	health	health	NOUN	NN	Number=Sing	19	obj	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	others	other	NOUN	NNS	Number=Plur	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = It has been proven that passive smokers, breathing in the smoke exhaled by smokers, are then put in the same danger that smokers are health wise.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	proven	prove	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	that	that	SCONJ	IN	_	19	mark	_	_
+6	passive	passive	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	smokers	smoker	NOUN	NNS	Number=Plur	19	nsubj:pass	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	breathing	breath	VERB	VBG	VerbForm=Ger	7	acl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	smoke	smoke	NOUN	NN	Number=Sing	9	obl	_	_
+13	exhaled	exhal	VERB	VBN	Tense=Past|VerbForm=Part	12	acl	_	_
+14	by	by	ADP	IN	_	15	case	_	_
+15	smokers	smoker	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+18	then	then	ADV	RB	PronType=Dem	19	advmod	_	_
+19	put	put	VERB	VBN	Tense=Past|VerbForm=Part	4	ccomp	_	_
+20	in	in	ADP	IN	_	23	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	same	same	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	danger	danger	NOUN	NN	Number=Sing	19	obl	_	_
+24	that	that	PRON	WDT	PronType=Rel	28	nsubj	_	_
+25	smokers	smoker	NOUN	NNS	Number=Plur	28	nsubj	_	_
+26	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	28	cop	_	_
+27	health	health	NOUN	NN	Number=Sing	28	obl:npmod	_	_
+28	wise	wise	ADJ	JJ	Degree=Pos	23	acl:relcl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Smoking in Japan's public places is really becoming a serious issue and needs to be dealt with swiftly.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	9	csubj	_	_
+2	in	in	ADP	IN	_	6	case	_	_
+3	Japan	Japan	PROPN	NNP	Number=Sing	6	nmod:poss	_	SpaceAfter=No
+4	's	's	PART	POS	_	3	case	_	_
+5	public	public	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	places	place	NOUN	NNS	Number=Plur	1	obl	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	really	really	ADV	RB	_	9	advmod	_	_
+9	becoming	become	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	serious	serious	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	issue	issue	NOUN	NN	Number=Sing	9	obj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+15	to	to	PART	TO	_	17	mark	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	aux:pass	_	_
+17	dealt	deal	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	xcomp	_	_
+18	with	with	ADP	IN	_	17	obl	_	_
+19	swiftly	swiftly	ADV	RB	_	17	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 5
+# text = Everybody has the right to live in a healthy manner and though smokers have the right to smoke, that doesn't mean that they should be allowed to put others in danger.
+1	Everybody	everybody	PRON	NN	Number=Sing	2	nsubj	_	_
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	right	right	NOUN	NN	Number=Sing	2	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	live	live	VERB	VB	VerbForm=Inf	4	acl	_	_
+7	in	in	ADP	IN	_	10	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	healthy	healthy	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	manner	manner	NOUN	NN	Number=Sing	6	obl	_	_
+11	and	and	CCONJ	CC	_	23	cc	_	_
+12	though	though	SCONJ	IN	_	14	mark	_	_
+13	smokers	smoker	NOUN	NNS	Number=Plur	14	nsubj	_	_
+14	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	right	right	NOUN	NN	Number=Sing	14	obj	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	smoke	smoke	VERB	VB	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	23	punct	_	_
+20	that	that	PRON	DT	Number=Sing|PronType=Dem	23	nsubj	_	_
+21	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	SpaceAfter=No
+22	n't	not	PART	RB	_	23	advmod	_	_
+23	mean	mean	VERB	VB	VerbForm=Inf	2	conj	_	_
+24	that	that	SCONJ	IN	_	28	mark	_	_
+25	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	28	nsubj:pass	_	_
+26	should	should	AUX	MD	VerbForm=Fin	28	aux	_	_
+27	be	be	AUX	VB	VerbForm=Inf	28	aux:pass	_	_
+28	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	ccomp	_	_
+29	to	to	PART	TO	_	30	mark	_	_
+30	put	put	VERB	VB	VerbForm=Inf	28	xcomp	_	_
+31	others	other	NOUN	NNS	Number=Plur	30	obj	_	_
+32	in	in	ADP	IN	_	33	case	_	_
+33	danger	danger	NOUN	NN	Number=Sing	30	obl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = This is exactly what they do when they walk down the street smoking and the people walking behind them end up inhaling the smoke as well and it is the same in Japanese restaurants where the division of smoking and non-smoking sections is an absolute joke and totally meaningless as well as completely ineffective.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	exactly	exactly	ADV	RB	_	4	advmod	_	_
+4	what	what	PRON	WP	PronType=Int	0	root	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	when	when	ADV	WRB	PronType=Int	9	mark	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+9	walk	walk	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+10	down	down	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	street	street	NOUN	NN	Number=Sing	13	compound	_	_
+13	smoking	smoke	NOUN	NN	Number=Sing	9	obl	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	people	people	NOUN	NNS	Number=Plur	13	conj	_	_
+17	walking	walk	VERB	VBG	VerbForm=Ger	16	acl	_	_
+18	behind	behind	ADP	IN	_	20	case	_	_
+19	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+20	end	end	NOUN	NN	Number=Sing	17	obl	_	_
+21	up	up	ADP	RP	_	20	compound:prt	_	_
+22	inhaling	inhal	VERB	VBG	VerbForm=Ger	20	acl	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	smoke	smoke	NOUN	NN	Number=Sing	22	obj	_	_
+25	as	as	ADV	RB	_	22	advmod	_	_
+26	well	well	ADV	RB	Degree=Pos	25	fixed	_	_
+27	and	and	CCONJ	CC	_	31	cc	_	_
+28	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+29	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	same	same	ADJ	JJ	Degree=Pos	4	conj	_	_
+32	in	in	ADP	IN	_	34	case	_	_
+33	Japanese	japanese	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	restaurants	restaurant	NOUN	NNS	Number=Plur	31	obl	_	_
+35	where	where	ADV	WRB	PronType=Rel	46	advmod	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	division	division	NOUN	NN	Number=Sing	46	nsubj	_	_
+38	of	of	ADP	IN	_	39	case	_	_
+39	smoking	smoking	NOUN	NN	Number=Sing	37	nmod	_	_
+40	and	and	CCONJ	CC	_	42	cc	_	_
+41	non-smoking	non-smoking	ADJ	JJ	Degree=Pos	42	amod	_	_
+42	sections	section	NOUN	NNS	Number=Plur	39	conj	_	_
+43	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	cop	_	_
+44	an	a	DET	DT	Definite=Ind|PronType=Art	46	det	_	_
+45	absolute	absolute	ADJ	JJ	Degree=Pos	46	amod	_	_
+46	joke	joke	NOUN	NN	Number=Sing	34	acl:relcl	_	_
+47	and	and	CCONJ	CC	_	49	cc	_	_
+48	totally	totally	ADV	RB	_	49	advmod	_	_
+49	meaningless	meaningless	ADV	RBR	Degree=Cmp	46	conj	_	_
+50	as	as	ADV	RB	_	54	cc	_	_
+51	well	well	ADV	RB	Degree=Pos	50	fixed	_	_
+52	as	as	ADP	IN	_	50	fixed	_	_
+53	completely	completely	ADV	RB	_	54	advmod	_	_
+54	ineffective	ineffective	ADJ	JJ	Degree=Pos	49	conj	_	SpaceAfter=No
+55	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = I think that if there were a lot more smoking related lawsuits against restaurant owners, we would see some changes quick smart.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	19	mark	_	_
+4	if	if	SCONJ	IN	_	6	mark	_	_
+5	there	there	PRON	EX	_	6	expl	_	_
+6	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	advcl	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	lot	lot	NOUN	NN	Number=Sing	9	obl:npmod	_	_
+9	more	more	ADJ	JJR	Degree=Cmp	12	amod	_	_
+10	smoking	smoke	NOUN	NN	Number=Sing	12	compound	_	_
+11	related	related	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	lawsuits	lawsuit	NOUN	NNS	Number=Plur	6	nsubj	_	_
+13	against	against	ADP	IN	_	15	case	_	_
+14	restaurant	restaurant	NOUN	NN	Number=Sing	15	compound	_	_
+15	owners	owner	NOUN	NNS	Number=Plur	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
+18	would	would	AUX	MD	VerbForm=Fin	19	aux	_	_
+19	see	see	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+20	some	some	DET	DT	_	21	det	_	_
+21	changes	change	NOUN	NNS	Number=Plur	19	obj	_	_
+22	quick	quick	ADV	RB	_	23	advmod	_	_
+23	smart	smart	ADJ	JJ	Degree=Pos	21	amod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Until that happens, it is up to Japan's government to do something meaningful to minimize the danger.
+1	Until	until	SCONJ	IN	_	3	mark	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+3	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	11	punct	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+7	up	up	ADV	RB	_	11	advmod	_	_
+8	to	to	ADP	IN	_	11	case	_	_
+9	Japan	Japan	PROPN	NNP	Number=Sing	11	nmod:poss	_	SpaceAfter=No
+10	's	's	PART	POS	_	9	case	_	_
+11	government	government	NOUN	NN	Number=Sing	3	obj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	do	do	VERB	VB	VerbForm=Inf	11	acl	_	_
+14	something	something	PRON	NN	Number=Sing	13	obj	_	_
+15	meaningful	meaningful	ADJ	JJ	Degree=Pos	14	amod	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	minimize	minimize	VERB	VB	VerbForm=Inf	15	advcl	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	danger	danger	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

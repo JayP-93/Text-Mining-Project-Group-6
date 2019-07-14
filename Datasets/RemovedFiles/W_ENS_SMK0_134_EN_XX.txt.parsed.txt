@@ -1,0 +1,274 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_ENS_SMK0_134_EN_XX.txt
+# newpar
+# sent_id = 1
+# text = ﻿I agree and it should have been done a long time ago.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	and	and	CCONJ	CC	_	8	cc	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj:pass	_	_
+5	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+6	have	have	AUX	VB	VerbForm=Inf	8	aux	_	_
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	long	long	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	time	time	NOUN	NN	Number=Sing	12	obl:npmod	_	_
+12	ago	ago	ADV	RB	_	8	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I think there have to be some places where people can smoke though, just not public places.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	there	there	PRON	EX	_	4	expl	_	_
+4	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	be	be	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	some	some	DET	DT	_	8	det	_	_
+8	places	place	NOUN	NNS	Number=Plur	6	nsubj	_	_
+9	where	where	ADV	WRB	PronType=Rel	12	advmod	_	_
+10	people	people	NOUN	NNS	Number=Plur	12	nsubj	_	_
+11	can	can	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	smoke	smoke	VERB	VB	VerbForm=Inf	8	acl:relcl	_	_
+13	though	though	ADV	RB	_	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	12	punct	_	_
+15	just	just	ADV	RB	_	17	advmod	_	_
+16	not	not	PART	RB	_	17	advmod	_	_
+17	public	public	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	places	place	NOUN	NNS	Number=Plur	12	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Smoking should be limited to designated areas or at the very least, away from those that don't smoke and the young and elderly.
+1	Smoking	smoking	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	_	_
+4	limited	limit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	designated	designate	VERB	VBN	Tense=Past|VerbForm=Part	7	amod	_	_
+7	areas	area	NOUN	NNS	Number=Plur	4	obl	_	_
+8	or	or	CCONJ	CC	_	14	cc	_	_
+9	at	at	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	very	very	ADV	RB	_	12	advmod	_	_
+12	least	least	ADV	RBS	Degree=Sup	14	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	away	away	ADV	RB	_	7	conj	_	_
+15	from	from	ADP	IN	_	16	case	_	_
+16	those	those	PRON	DT	Number=Plur|PronType=Dem	14	obl	_	_
+17	that	that	PRON	WDT	PronType=Rel	20	nsubj	_	_
+18	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	SpaceAfter=No
+19	n't	not	PART	RB	_	20	advmod	_	_
+20	smoke	smoke	VERB	VB	VerbForm=Inf	16	acl:relcl	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	young	young	ADJ	JJ	Degree=Pos	14	conj	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	elderly	elderly	ADJ	JJ	Degree=Pos	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = I understand that there is a democracy in Japan and that all citizens have rights.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	understand	understand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	5	mark	_	_
+4	there	there	PRON	EX	_	5	expl	_	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	democracy	democracy	NOUN	NN	Number=Sing	5	nsubj	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	Japan	Japan	PROPN	NNP	Number=Sing	7	nmod	_	_
+10	and	and	CCONJ	CC	_	14	cc	_	_
+11	that	that	SCONJ	IN	_	14	mark	_	_
+12	all	all	DET	DT	_	13	det	_	_
+13	citizens	citizen	NOUN	NNS	Number=Plur	14	nsubj	_	_
+14	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	_	_
+15	rights	rights	NOUN	NNS	Number=Plur	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = I would add that those rights also extend to people who don't smoke and especially children who are not only easily influenced when they see their peers smoking but are also still developing and do not always have a choice as to the kind of air that they breathe in.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	add	add	VERB	VB	VerbForm=Inf	0	root	_	_
+4	that	that	SCONJ	IN	_	8	mark	_	_
+5	those	those	DET	DT	Number=Plur|PronType=Dem	6	det	_	_
+6	rights	rights	NOUN	NNS	Number=Plur	8	nsubj	_	_
+7	also	also	ADV	RB	_	8	advmod	_	_
+8	extend	extend	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	people	people	NOUN	NNS	Number=Plur	8	obl	_	_
+11	who	who	PRON	WP	PronType=Rel	14	nsubj	_	_
+12	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
+13	n't	not	PART	RB	_	14	advmod	_	_
+14	smoke	smoke	VERB	VB	VerbForm=Inf	10	acl:relcl	_	_
+15	and	and	CCONJ	CC	_	14	cc	_	_
+16	especially	especially	ADV	RB	_	17	advmod	_	_
+17	children	child	NOUN	NNS	Number=Plur	14	obj	_	_
+18	who	who	PRON	WP	PronType=Rel	23	nsubj:pass	_	_
+19	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux:pass	_	_
+20	not	not	PART	RB	_	23	advmod	_	_
+21	only	only	ADV	RB	_	23	advmod	_	_
+22	easily	easily	ADV	RB	_	23	advmod	_	_
+23	influenced	influence	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	acl:relcl	_	_
+24	when	when	ADV	WRB	PronType=Int	26	mark	_	_
+25	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	_
+26	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+27	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+28	peers	peer	NOUN	NNS	Number=Plur	29	compound	_	_
+29	smoking	smoke	NOUN	NN	Number=Sing	26	obj	_	_
+30	but	but	CCONJ	CC	_	34	cc	_	_
+31	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	34	aux	_	_
+32	also	also	ADV	RB	_	34	advmod	_	_
+33	still	still	ADV	RB	_	34	advmod	_	_
+34	developing	develop	VERB	VBG	Tense=Pres|VerbForm=Part	8	conj	_	_
+35	and	and	CCONJ	CC	_	39	cc	_	_
+36	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	39	aux	_	_
+37	not	not	PART	RB	_	39	advmod	_	_
+38	always	always	ADV	RB	_	39	advmod	_	_
+39	have	have	VERB	VB	VerbForm=Inf	34	conj	_	_
+40	a	a	DET	DT	Definite=Ind|PronType=Art	41	det	_	_
+41	choice	choice	NOUN	NN	Number=Sing	39	obj	_	_
+42	as	as	ADP	IN	_	45	case	_	_
+43	to	to	ADP	IN	_	42	fixed	_	_
+44	the	the	DET	DT	Definite=Def|PronType=Art	45	det	_	_
+45	kind	kind	NOUN	NN	Number=Sing	41	nmod	_	_
+46	of	of	ADP	IN	_	47	case	_	_
+47	air	air	NOUN	NN	Number=Sing	45	nmod	_	_
+48	that	that	SCONJ	IN	_	50	mark	_	_
+49	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	50	nsubj	_	_
+50	breathe	breathe	VERB	VB	VerbForm=Inf	41	acl	_	_
+51	in	in	ADV	RB	_	50	advmod	_	SpaceAfter=No
+52	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = I feel that it is high time that all governments and not only Japan played a more aggressive role in cleaning up the air that we breathe on a daily basis.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	7	mark	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	high	high	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	time	time	NOUN	NN	Number=Sing	2	ccomp	_	_
+8	that	that	PRON	WDT	PronType=Rel	15	obj	_	_
+9	all	all	DET	DT	_	10	det	_	_
+10	governments	government	NOUN	NNS	Number=Plur	15	nsubj	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	not	not	ADV	RB	_	13	advmod	_	_
+13	only	only	ADV	RB	_	14	cc:preconj	_	_
+14	Japan	Japan	PROPN	NNP	Number=Sing	10	conj	_	_
+15	played	play	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+17	more	more	ADV	RBR	_	18	advmod	_	_
+18	aggressive	aggressive	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	role	role	NOUN	NN	Number=Sing	15	obj	_	_
+20	in	in	SCONJ	IN	_	21	mark	_	_
+21	cleaning	clean	VERB	VBG	VerbForm=Ger	19	acl	_	_
+22	up	up	ADP	RP	_	21	compound:prt	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	air	air	NOUN	NN	Number=Sing	21	obj	_	_
+25	that	that	PRON	WDT	PronType=Rel	27	obj	_	_
+26	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	_
+27	breathe	breathe	VERB	VB	Mood=Imp|VerbForm=Fin	24	acl:relcl	_	_
+28	on	on	ADP	IN	_	31	case	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+30	daily	daily	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	basis	basis	NOUN	NN	Number=Sing	27	obl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = We see and hear about many environmental concerns ranging from industrial to household wastage yet there are thousands of smokers exhaling contaminated smoke into the air everyday which we hear less about.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	hear	hear	VERB	VB	VerbForm=Inf	2	conj	_	_
+5	about	about	ADP	IN	_	8	case	_	_
+6	many	many	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	environmental	environmental	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	concerns	concern	NOUN	NNS	Number=Plur	4	obl	_	_
+9	ranging	range	VERB	VBG	VerbForm=Ger	8	acl	_	_
+10	from	from	ADP	IN	_	11	case	_	_
+11	industrial	industrial	ADJ	JJ	Degree=Pos	9	obl	_	_
+12	to	to	ADP	IN	_	14	case	_	_
+13	household	household	NOUN	NN	Number=Sing	14	compound	_	_
+14	wastage	wastage	NOUN	NN	Number=Sing	9	obl	_	_
+15	yet	yet	CCONJ	CC	_	17	cc	_	_
+16	there	there	PRON	EX	_	17	expl	_	_
+17	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+18	thousands	thousand	NOUN	NNS	Number=Plur	17	nsubj	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	smokers	smoker	NOUN	NNS	Number=Plur	18	nmod	_	_
+21	exhaling	exhaling	VERB	VBG	VerbForm=Ger	18	acl	_	_
+22	contaminated	contaminate	VERB	VBN	Tense=Past|VerbForm=Part	23	amod	_	_
+23	smoke	smoke	NOUN	NN	Number=Sing	21	obj	_	_
+24	into	into	ADP	IN	_	27	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+26	air	air	NOUN	NN	Number=Sing	27	compound	_	_
+27	everyday	everyday	NOUN	NN	Number=Sing	21	obl	_	_
+28	which	which	PRON	WDT	PronType=Rel	30	obj	_	_
+29	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	30	nsubj	_	_
+30	hear	hear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+31	less	less	ADV	RBR	Degree=Cmp	32	advmod	_	_
+32	about	about	ADV	RB	_	30	advmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Smoking endangers not only smokers, but those who choose to live a smoke free existence as well.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	2	amod	_	_
+2	endangers	endangers	NOUN	NNS	Number=Plur	0	root	_	_
+3	not	not	ADV	RB	_	5	advmod	_	_
+4	only	only	ADV	RB	_	5	advmod	_	_
+5	smokers	smoker	NOUN	NNS	Number=Plur	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	but	but	CCONJ	CC	_	8	cc	_	_
+8	those	those	PRON	DT	Number=Plur|PronType=Dem	2	conj	_	_
+9	who	who	PRON	WP	PronType=Rel	10	nsubj	_	_
+10	choose	choose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	live	live	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+14	smoke	smoke	NOUN	NN	Number=Sing	16	compound	_	_
+15	free	free	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	existence	existence	NOUN	NN	Number=Sing	12	obj	_	_
+17	as	as	ADV	RB	_	16	advmod	_	_
+18	well	well	ADV	RB	Degree=Pos	17	fixed	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Japan should not only issue a restaurant ban, but a complete smoking ban in all public places including parks, which is where most people go to get some fresh air and exercise.
+1	Japan	Japan	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	only	only	ADV	RB	_	5	advmod	_	_
+5	issue	issue	VERB	VB	VerbForm=Inf	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	restaurant	restaurant	NOUN	NN	Number=Sing	8	compound	_	_
+8	ban	ban	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	but	but	CCONJ	CC	_	14	cc	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+12	complete	complete	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	smoking	smoking	NOUN	NN	Number=Sing	14	compound	_	_
+14	ban	ban	NOUN	NN	Number=Sing	5	conj	_	_
+15	in	in	ADP	IN	_	18	case	_	_
+16	all	all	DET	DT	_	18	det	_	_
+17	public	public	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	places	place	NOUN	NNS	Number=Plur	14	nmod	_	_
+19	including	include	VERB	VBG	VerbForm=Ger	20	case	_	_
+20	parks	park	NOUN	NNS	Number=Plur	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	20	punct	_	_
+22	which	which	PRON	WDT	PronType=Rel	24	nsubj	_	_
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	where	where	ADV	WRB	PronType=Int	20	acl:relcl	_	_
+25	most	most	ADJ	JJS	Degree=Sup	26	amod	_	_
+26	people	people	NOUN	NNS	Number=Plur	27	nsubj	_	_
+27	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	get	get	VERB	VB	VerbForm=Inf	27	xcomp	_	_
+30	some	some	DET	DT	_	32	det	_	_
+31	fresh	fresh	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	air	air	NOUN	NN	Number=Sing	29	obj	_	_
+33	and	and	CCONJ	CC	_	34	cc	_	_
+34	exercise	exercise	NOUN	NN	Number=Sing	32	conj	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

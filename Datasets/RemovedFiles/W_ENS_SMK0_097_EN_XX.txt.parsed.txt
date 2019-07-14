@@ -1,0 +1,287 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_ENS_SMK0_097_EN_XX.txt
+# newpar
+# sent_id = 1
+# text = ﻿I disagree with this opinion.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	disagree	disagree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	with	with	ADP	IN	_	5	case	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	opinion	opinion	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I have three opinions.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	three	three	NUM	CD	NumType=Card	4	nummod	_	_
+4	opinions	opinion	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = First, if smoking is banned in all restaurants this may begin a trend in other establishments such as bars and nightclubs.
+1	First	first	ADV	RB	_	12	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	12	punct	_	_
+3	if	if	SCONJ	IN	_	6	mark	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	all	all	DET	DT	_	9	det	_	_
+9	restaurants	restaurant	NOUN	NNS	Number=Plur	12	obl	_	_
+10	this	this	PRON	DT	Number=Sing|PronType=Dem	12	nsubj	_	_
+11	may	may	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	begin	begin	VERB	VB	VerbForm=Inf	0	root	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	trend	trend	NOUN	NN	Number=Sing	12	obj	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	other	other	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	establishments	establishment	NOUN	NNS	Number=Plur	14	nmod	_	_
+18	such	such	ADJ	JJ	Degree=Pos	20	case	_	_
+19	as	as	ADP	IN	_	18	fixed	_	_
+20	bars	bar	NOUN	NNS	Number=Plur	14	nmod	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	nightclubs	nightclub	NOUN	NNS	Number=Plur	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 4
+# text = Eventually retailers would follow the trend to ban smoking in shopping malls.
+1	Eventually	eventually	ADV	RB	_	4	advmod	_	_
+2	retailers	retailer	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	follow	follow	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	trend	trend	NOUN	NN	Number=Sing	4	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	ban	ban	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+9	smoking	smoke	NOUN	NN	Number=Sing	8	obj	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	shopping	shopping	NOUN	NN	Number=Sing	12	compound	_	_
+12	malls	mall	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Shoppers could also enjoy a smoke free shopping experience.
+1	Shoppers	shoppers	NOUN	NNS	Number=Plur	4	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	also	also	ADV	RB	_	4	advmod	_	_
+4	enjoy	enjoy	VERB	VB	VerbForm=Inf	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+6	smoke	smoke	NOUN	NN	Number=Sing	9	compound	_	_
+7	free	free	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	shopping	shopping	NOUN	NN	Number=Sing	9	compound	_	_
+9	experience	experience	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Franchises and larger operations may be able to survive the decline in business.
+1	Franchises	Franchise	PROPN	NNP	Number=Sing	7	nsubj	_	_
+2	and	and	CCONJ	CC	_	4	cc	_	_
+3	larger	larger	ADJ	JJR	Degree=Cmp	4	amod	_	_
+4	operations	operation	NOUN	NNS	Number=Plur	1	conj	_	_
+5	may	may	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+7	able	able	ADJ	JJ	Degree=Pos	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	survive	survive	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	decline	decline	NOUN	NN	Number=Sing	9	obj	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	business	business	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 7
+# text = However, the small restaurateur would struggle with the lost sales from smokers.
+1	However	however	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	small	small	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	restaurateur	restaurateur	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	would	would	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	struggle	struggle	VERB	VB	VerbForm=Inf	0	root	_	_
+8	with	with	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	11	amod	_	_
+11	sales	sale	NOUN	NNS	Number=Plur	7	obl	_	_
+12	from	from	ADP	IN	_	13	case	_	_
+13	smokers	smoker	NOUN	NNS	Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 8
+# text = The restaurant industry would suffer not only from local business but could also lose business from tourists.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	restaurant	restaurant	NOUN	NN	Number=Sing	3	compound	_	_
+3	industry	industry	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	suffer	suffer	VERB	VB	VerbForm=Inf	0	root	_	_
+6	not	not	ADV	RB	_	7	advmod	_	_
+7	only	only	ADV	RB	_	10	cc:preconj	_	_
+8	from	from	ADP	IN	_	10	case	_	_
+9	local	local	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	business	business	NOUN	NN	Number=Sing	5	obl	_	_
+11	but	but	CCONJ	CC	_	14	cc	_	_
+12	could	could	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	also	also	ADV	RB	_	14	advmod	_	_
+14	lose	lose	VERB	VB	VerbForm=Inf	5	conj	_	_
+15	business	business	NOUN	NN	Number=Sing	14	obj	_	_
+16	from	from	ADP	IN	_	17	case	_	_
+17	tourists	tourist	NOUN	NNS	Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = Second, business tax revenue for the government would be reduced due to slow business.
+1	Second	second	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	business	business	NOUN	NN	Number=Sing	5	compound	_	_
+4	tax	tax	NOUN	NN	Number=Sing	5	compound	_	_
+5	revenue	revenue	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	government	government	NOUN	NN	Number=Sing	5	nmod	_	_
+9	would	would	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	_	_
+11	reduced	reduce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+12	due	due	ADP	IN	_	15	case	_	_
+13	to	to	ADP	IN	_	12	fixed	_	_
+14	slow	slow	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	business	business	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 10
+# text = Small restaurateurs would be forced to close their businesses.
+1	Small	small	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	restaurateurs	restaurateur	NOUN	NNS	Number=Plur	5	nsubj:pass	_	_
+3	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	forced	force	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	close	close	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	businesses	business	NOUN	NNS	Number=Plur	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 11
+# text = Some would even go bankrupt by attempting to turn the business around.
+1	Some	some	DET	DT	_	4	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	even	even	ADV	RB	_	4	advmod	_	_
+4	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+5	bankrupt	bankrupt	ADJ	JJ	Degree=Pos	4	xcomp	_	_
+6	by	by	SCONJ	IN	_	7	mark	_	_
+7	attempting	attempt	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	turn	turn	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	business	business	NOUN	NN	Number=Sing	9	obj	_	_
+12	around	around	ADV	RB	_	9	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 12
+# text = The government would need to offer incentives for restaurateurs to remain in business.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	government	government	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	need	need	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	offer	offer	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	incentives	incentive	NOUN	NNS	Number=Plur	6	obj	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	restaurateurs	restaurateur	NOUN	NNS	Number=Plur	7	nmod	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	remain	remain	VERB	VB	VerbForm=Inf	9	acl	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	business	business	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = Third, the casualty insurance industry would also profit less due to lower premiums.
+1	Third	third	ADV	RB	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	9	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+4	casualty	casualty	NOUN	NN	Number=Sing	5	compound	_	_
+5	insurance	insurance	NOUN	NN	Number=Sing	6	compound	_	_
+6	industry	industry	NOUN	NN	Number=Sing	9	nsubj	_	_
+7	would	would	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	also	also	ADV	RB	_	9	advmod	_	_
+9	profit	profit	VERB	VB	VerbForm=Inf	0	root	_	_
+10	less	less	ADV	RBR	Degree=Cmp	14	advmod	_	_
+11	due	due	ADP	IN	_	14	case	_	_
+12	to	to	ADP	IN	_	11	fixed	_	_
+13	lower	lower	ADJ	JJR	Degree=Cmp	14	amod	_	_
+14	premiums	premiums	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 14
+# text = Many small insurance brokers serving the commercial business community would suffer from lower profits.
+1	Many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+2	small	small	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	insurance	insurance	NOUN	NN	Number=Sing	4	compound	_	_
+4	brokers	broker	NOUN	NNS	Number=Plur	11	nsubj	_	_
+5	serving	serve	VERB	VBG	VerbForm=Ger	4	acl	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+7	commercial	commercial	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	business	business	NOUN	NN	Number=Sing	9	compound	_	_
+9	community	community	NOUN	NN	Number=Sing	5	obj	_	_
+10	would	would	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	suffer	suffer	VERB	VB	VerbForm=Inf	0	root	_	_
+12	from	from	ADP	IN	_	14	case	_	_
+13	lower	lower	ADJ	JJR	Degree=Cmp	14	amod	_	_
+14	profits	profit	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 15
+# text = A non smoking establishment would have zero probability of a fire due to smoking.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+2	non	non	X	AFX	_	3	goeswith	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	4	compound	_	_
+4	establishment	establishment	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	would	would	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+7	zero	zero	NUM	CD	NumType=Card	8	nummod	_	_
+8	probability	probability	NOUN	NN	Number=Sing	6	obj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	fire	fire	NOUN	NN	Number=Sing	8	nmod	_	_
+12	due	due	ADP	IN	_	14	case	_	_
+13	to	to	ADP	IN	_	12	fixed	_	_
+14	smoking	smoking	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 16
+# text = Therefore, there would be less liability from customer negligence.
+1	Therefore	therefore	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	there	there	PRON	EX	_	5	expl	_	_
+4	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+6	less	less	ADJ	JJR	Degree=Cmp	7	amod	_	_
+7	liability	liability	NOUN	NN	Number=Sing	5	nsubj	_	_
+8	from	from	ADP	IN	_	10	case	_	_
+9	customer	customer	NOUN	NN	Number=Sing	10	compound	_	_
+10	negligence	negligence	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 17
+# text = Based on the above reasons, I am against the opinion.
+1	Based	base	VERB	VBN	Tense=Past|VerbForm=Part	5	case	_	_
+2	on	on	ADP	IN	_	5	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	above	above	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	reasons	reason	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+8	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	against	against	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	opinion	opinion	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 18
+# text = This is supporting the business community.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	supporting	support	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	business	business	NOUN	NN	Number=Sing	6	compound	_	_
+6	community	community	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

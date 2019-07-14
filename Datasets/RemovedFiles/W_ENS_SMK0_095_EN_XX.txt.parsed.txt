@@ -1,0 +1,285 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_ENS_SMK0_095_EN_XX.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking must be allowed in restaurants.
+1	﻿Smoking	﻿Smoking	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+2	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	_	_
+4	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	restaurants	restaurant	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Smokers have the same basic rights as non-smokers; to deny smokers the right to smoke is to deny their basic human right.
+1	Smokers	smoker	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+4	same	same	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	basic	basic	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	rights	rights	NOUN	NNS	Number=Plur	2	obj	_	_
+7	as	as	ADP	IN	_	8	case	_	_
+8	non-smokers	non-smoker	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	2	punct	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	deny	deny	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+12	smokers	smoker	NOUN	NNS	Number=Plur	11	obj	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	right	right	NOUN	NN	Number=Sing	17	nsubj	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	smoke	smoke	VERB	VB	VerbForm=Inf	14	acl	_	_
+17	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	deny	deny	VERB	VB	VerbForm=Inf	17	ccomp	_	_
+20	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+21	basic	basic	ADJ	JJ	Degree=Pos	23	amod	_	_
+22	human	human	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	right	right	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = In addition, by denying smokers their right to smoke, we are denying them their basic needs; nicotine is addictive, and smokers need to smoke to satisfy a physical craving.
+1	In	in	ADP	IN	_	2	case	_	_
+2	addition	addition	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	14	punct	_	_
+4	by	by	SCONJ	IN	_	5	mark	_	_
+5	denying	deny	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+6	smokers	smoker	NOUN	NNS	Number=Plur	5	obj	_	_
+7	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	right	right	ADJ	JJ	Degree=Pos	6	amod	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	smoke	smoke	VERB	VB	VerbForm=Inf	8	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
+13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	denying	deny	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	iobj	_	_
+16	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+17	basic	basic	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	needs	need	NOUN	NNS	Number=Plur	14	obj	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	14	punct	_	_
+20	nicotine	nicotine	PRON	PRP	_	22	nsubj	_	_
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	addictive	addictive	ADJ	JJ	Degree=Pos	14	parataxis	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	26	punct	_	_
+24	and	and	CCONJ	CC	_	26	cc	_	_
+25	smokers	smoker	NOUN	NNS	Number=Plur	26	nsubj	_	_
+26	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	conj	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	smoke	smoke	VERB	VB	VerbForm=Inf	26	xcomp	_	_
+29	to	to	PART	TO	_	30	mark	_	_
+30	satisfy	satisfy	VERB	VB	VerbForm=Inf	28	advcl	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+32	physical	physical	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	craving	craving	NOUN	NN	Number=Sing	30	obj	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 4
+# text = So far, I don't think there has been any effort denying fat people entry to McDonald's restaurants, why treat the smokers this way?
+1	So	so	ADV	RB	_	2	advmod	_	_
+2	far	far	ADV	RB	Degree=Pos	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
+6	n't	not	PART	RB	_	7	advmod	_	_
+7	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+8	there	there	PRON	EX	_	10	expl	_	_
+9	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	been	be	VERB	VBN	Tense=Past|VerbForm=Part	7	ccomp	_	_
+11	any	any	DET	DT	_	12	det	_	_
+12	effort	effort	NOUN	NN	Number=Sing	10	nsubj	_	_
+13	denying	deny	VERB	VBG	VerbForm=Ger	12	acl	_	_
+14	fat	fat	ADJ	JJ	Degree=Pos	16	amod	_	_
+15	people	people	NOUN	NNS	Number=Plur	16	compound	_	_
+16	entry	entry	NOUN	NN	Number=Sing	13	obj	_	_
+17	to	to	ADP	IN	_	20	case	_	_
+18	McDonald	McDonald	PROPN	NNP	Number=Sing	20	nmod:poss	_	SpaceAfter=No
+19	's	's	PART	POS	_	18	case	_	_
+20	restaurants	restaurant	NOUN	NNS	Number=Plur	16	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	10	punct	_	_
+22	why	why	ADV	WRB	PronType=Int	23	advmod	_	_
+23	treat	treat	VERB	VB	VerbForm=Inf	10	parataxis	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	smokers	smoker	NOUN	NNS	Number=Plur	23	obj	_	_
+26	this	this	DET	DT	Number=Sing|PronType=Dem	27	det	_	_
+27	way	way	NOUN	NN	Number=Sing	25	nmod:npmod	_	SpaceAfter=No
+28	?	?	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = Society cannot dictate what is good or bad, and it cannot enforce those standards and rules on individuals.
+1	Society	society	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	not	not	PART	RB	_	4	advmod	_	_
+4	dictate	dictate	VERB	VB	VerbForm=Inf	0	root	_	_
+5	what	what	PRON	WP	PronType=Int	7	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	good	good	ADJ	JJ	Degree=Pos	4	ccomp	_	_
+8	or	or	CCONJ	CC	_	9	cc	_	_
+9	bad	bad	ADJ	JJ	Degree=Pos	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	15	punct	_	_
+11	and	and	CCONJ	CC	_	15	cc	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	can	can	AUX	MD	VerbForm=Fin	15	aux	_	SpaceAfter=No
+14	not	not	PART	RB	_	15	advmod	_	_
+15	enforce	enforce	VERB	VB	VerbForm=Inf	4	conj	_	_
+16	those	those	DET	DT	Number=Plur|PronType=Dem	17	det	_	_
+17	standards	standard	NOUN	NNS	Number=Plur	15	obj	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	rules	rule	NOUN	NNS	Number=Plur	17	conj	_	_
+20	on	on	ADP	IN	_	21	case	_	_
+21	individuals	individual	NOUN	NNS	Number=Plur	17	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Rather, society must facilitate and accommodate the needs of all groups; smokers and non-smokers.
+1	Rather	Rather	PROPN	NNP	Number=Sing	5	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	society	society	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	must	must	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	facilitate	facilitate	VERB	VB	VerbForm=Inf	0	root	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	accommodate	accommodate	VERB	VB	VerbForm=Inf	5	conj	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	needs	need	NOUN	NNS	Number=Plur	5	obj	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	all	all	DET	DT	_	12	det	_	_
+12	groups	group	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	14	punct	_	_
+14	smokers	smoker	NOUN	NNS	Number=Plur	5	appos	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	non-smokers	non-smoker	NOUN	NNS	Number=Plur	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 7
+# text = Restaurants already provide two completely separated and insulated areas, one for smokers and one for non-smokers.
+1	Restaurants	restaurant	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	already	already	ADV	RB	_	3	advmod	_	_
+3	provide	provide	VERB	VB	VerbForm=Inf	0	root	_	_
+4	two	two	NUM	CD	NumType=Card	9	nummod	_	_
+5	completely	completely	ADV	RB	_	6	advmod	_	_
+6	separated	separate	VERB	VBN	Tense=Past|VerbForm=Part	9	amod	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	insulated	insulate	VERB	VBN	Tense=Past|VerbForm=Part	6	conj	_	_
+9	areas	area	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	one	one	NUM	CD	NumType=Card	9	amod	_	_
+12	for	for	ADP	IN	_	13	case	_	_
+13	smokers	smoker	NOUN	NNS	Number=Plur	11	nmod	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	one	one	NUM	CD	NumType=Card	11	conj	_	_
+16	for	for	ADP	IN	_	17	case	_	_
+17	non-smokers	non-smoker	NOUN	NNS	Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Failing to recognize the needs and the rights of the two camps can be very costly for restaurants, in particular; they lose clientele from both groups.
+1	Failing	fail	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	to	to	PART	TO	_	3	mark	_	_
+3	recognize	recognize	VERB	VB	VerbForm=Inf	1	advcl	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	needs	need	NOUN	NNS	Number=Plur	3	obj	_	_
+6	and	and	CCONJ	CC	_	16	cc	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	rights	rights	NOUN	NNS	Number=Plur	16	nsubj	_	_
+9	of	of	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	two	two	NUM	CD	NumType=Card	12	nummod	_	_
+12	camps	camp	NOUN	NNS	Number=Plur	8	nmod	_	_
+13	can	can	AUX	MD	VerbForm=Fin	16	aux	_	_
+14	be	be	AUX	VB	VerbForm=Inf	16	cop	_	_
+15	very	very	ADV	RB	_	16	advmod	_	_
+16	costly	costly	ADJ	JJ	Degree=Pos	5	conj	_	_
+17	for	for	ADP	IN	_	18	case	_	_
+18	restaurants	restaurant	NOUN	NNS	Number=Plur	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	16	punct	_	_
+20	in	in	ADP	IN	_	21	case	_	_
+21	particular	particular	ADJ	JJ	Degree=Pos	16	obl	_	SpaceAfter=No
+22	;	;	PUNCT	,	_	1	punct	_	_
+23	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
+24	lose	lose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+25	clientele	clientele	NOUN	NN	Number=Sing	24	obj	_	_
+26	from	from	ADP	IN	_	28	case	_	_
+27	both	both	DET	DT	_	28	det	_	_
+28	groups	group	NOUN	NNS	Number=Plur	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 9
+# text = If anything, it is those who are supporting such drastic restrictions on personal freedoms who need help: societies thrive when variety and tolerance are present, they wither and fall apart without these.
+1	If	if	SCONJ	IN	_	2	mark	_	_
+2	anything	anything	PRON	NN	Number=Sing	6	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	those	those	PRON	DT	Number=Plur|PronType=Dem	0	root	_	_
+7	who	who	PRON	WP	PronType=Rel	9	nsubj	_	_
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	supporting	support	VERB	VBG	Tense=Pres|VerbForm=Part	6	acl:relcl	_	_
+10	such	such	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	drastic	drastic	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	restrictions	restriction	NOUN	NNS	Number=Plur	9	obj	_	_
+13	on	on	ADP	IN	_	15	case	_	_
+14	personal	personal	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	freedoms	freedom	NOUN	NNS	Number=Plur	12	nmod	_	_
+16	who	who	PRON	WP	PronType=Rel	17	nsubj	_	_
+17	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+18	help	help	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+19	:	:	PUNCT	:	_	18	punct	_	_
+20	societies	societie	NOUN	NNS	Number=Plur	21	nsubj	_	_
+21	thrive	thrive	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	parataxis	_	_
+22	when	when	ADV	WRB	PronType=Int	27	mark	_	_
+23	variety	variety	NOUN	NN	Number=Sing	27	nsubj	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	tolerance	tolerance	NOUN	NN	Number=Sing	23	conj	_	_
+26	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	27	cop	_	_
+27	present	present	ADJ	JJ	Degree=Pos	21	advcl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	18	punct	_	_
+29	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	30	nsubj	_	_
+30	wither	wither	DET	DT	_	18	parataxis	_	_
+31	and	and	CCONJ	CC	_	32	cc	_	_
+32	fall	fall	VERB	VB	VerbForm=Inf	30	conj	_	_
+33	apart	apart	ADV	RB	_	32	advmod	_	_
+34	without	without	ADP	IN	_	35	case	_	_
+35	these	these	PRON	DT	Number=Plur|PronType=Dem	30	obl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 10
+# text = Clearly, restaurants are places where customers want to enjoy their time; let us make them available to both smokers and non-smokers alike.
+1	Clearly	clearly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	restaurants	restaurant	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	places	place	NOUN	NNS	Number=Plur	0	root	_	_
+6	where	where	ADV	WRB	PronType=Rel	8	advmod	_	_
+7	customers	customers	NOUN	NNS	Number=Plur	8	nsubj	_	_
+8	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	enjoy	enjoy	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	time	time	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	5	punct	_	_
+14	let	let	VERB	VB	VerbForm=Inf	5	acl	_	_
+15	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	14	obj	_	_
+16	make	make	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+17	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
+18	available	available	ADJ	JJ	Degree=Pos	16	xcomp	_	_
+19	to	to	ADP	IN	_	21	case	_	_
+20	both	both	DET	DT	_	21	det	_	_
+21	smokers	smoker	NOUN	NNS	Number=Plur	16	obl	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	non-smoker	non-smoker	NOUN	NN	Number=Sing	21	conj	_	SpaceAfter=No
+24	s	s	PART	POS	_	23	case	_	_
+25	alike	alike	ADJ	JJ	Degree=Pos	21	amod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 11
+# text = Let both smokers and non-smokers enjoy their meals.
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	both	both	DET	DT	_	3	det	_	_
+3	smokers	smoker	NOUN	NNS	Number=Plur	1	obj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	non-smokers	non-smoker	NOUN	NNS	Number=Plur	3	conj	_	_
+6	enjoy	enjoy	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	xcomp	_	_
+7	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	meals	meal	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

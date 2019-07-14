@@ -1,0 +1,331 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_ENS_SMK0_110_EN_XX.txt
+# newpar
+# sent_id = 1
+# text = ﻿One of the biggest reasons I believe smoking should be permitted in restaurants is because restaurants are considered places to relax.
+1	﻿One	﻿One	NUM	CD	NumType=Card	14	nsubj	_	_
+2	of	of	ADP	IN	_	5	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	biggest	biggest	ADJ	JJS	Degree=Sup	5	amod	_	_
+5	reasons	reason	NOUN	NNS	Number=Plur	1	nmod	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
+9	should	should	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	_	_
+11	permitted	permit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	ccomp	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	restaurants	restaurant	NOUN	NNS	Number=Plur	11	obl	_	_
+14	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	because	because	SCONJ	IN	_	19	mark	_	_
+16	restaurants	restaurant	NOUN	NNS	Number=Plur	19	nsubj	_	_
+17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	considered	consider	VERB	VBN	Tense=Past|VerbForm=Part	19	amod	_	_
+19	places	place	NOUN	NNS	Number=Plur	14	advcl	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	relax	relax	VERB	VB	VerbForm=Inf	19	acl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = They are designed to provide an atmosphere for paying customers to come in and enjoy the freedom of having someone serve them.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	designed	design	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	provide	provide	VERB	VB	VerbForm=Inf	3	advcl	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	atmosphere	atmosphere	NOUN	NN	Number=Sing	5	obj	_	_
+8	for	for	SCONJ	IN	_	9	mark	_	_
+9	paying	pay	VERB	VBG	VerbForm=Ger	7	acl	_	_
+10	customers	customer	NOUN	NNS	Number=Plur	9	obj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	come	come	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+13	in	in	ADV	RB	_	12	advmod	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	enjoy	enjoy	VERB	VB	VerbForm=Inf	12	conj	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	freedom	freedom	NOUN	NN	Number=Sing	15	obj	_	_
+18	of	of	SCONJ	IN	_	19	mark	_	_
+19	having	have	VERB	VBG	VerbForm=Ger	17	acl	_	_
+20	someone	someone	PRON	NN	Number=Sing	19	obj	_	_
+21	serve	serve	VERB	VB	VerbForm=Inf	20	acl:relcl	_	_
+22	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Being served, not being responsible for food preparation, or cleanup are a few of the additional services we pay for when we go to a restaurant.
+1	Being	be	AUX	VBG	VerbForm=Ger	2	aux:pass	_	_
+2	served	serve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	not	not	ADV	RB	_	6	advmod	_	_
+5	being	be	AUX	VBG	VerbForm=Ger	6	cop	_	_
+6	responsible	responsible	ADJ	JJ	Degree=Pos	2	conj	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	food	food	NOUN	NN	Number=Sing	9	compound	_	_
+9	preparation	preparation	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	15	punct	_	_
+11	or	or	CCONJ	CC	_	15	cc	_	_
+12	cleanup	cleanup	NOUN	NN	Number=Sing	15	nsubj	_	_
+13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	few	few	NOUN	NN	Number=Sing	2	conj	_	_
+16	of	of	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	additional	additional	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	services	service	NOUN	NNS	Number=Plur	15	nmod	_	_
+20	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
+21	pay	pay	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+22	for	for	SCONJ	IN	_	25	mark	_	_
+23	when	when	ADV	WRB	PronType=Int	25	mark	_	_
+24	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	_
+25	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+26	to	to	ADP	IN	_	28	case	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	restaurant	restaurant	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = In addition, having the freedom to enjoy a drink, or having a cigarette are added reasons why we pay to support restaurants.
+1	In	in	ADP	IN	_	2	case	_	_
+2	addition	addition	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	17	punct	_	_
+4	having	have	VERB	VBG	VerbForm=Ger	17	advcl	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	freedom	freedom	NOUN	NN	Number=Sing	4	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	enjoy	enjoy	VERB	VB	VerbForm=Inf	6	acl	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	drink	drink	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	or	or	CCONJ	CC	_	13	cc	_	_
+13	having	have	VERB	VBG	VerbForm=Ger	8	conj	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	cigarette	cigarette	NOUN	NN	Number=Sing	13	obj	_	_
+16	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	added	add	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+18	reasons	reason	NOUN	NNS	Number=Plur	17	obj	_	_
+19	why	why	ADV	WRB	PronType=Rel	21	advmod	_	_
+20	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
+21	pay	pay	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	support	support	VERB	VB	VerbForm=Inf	21	advcl	_	_
+24	restaurants	restaurant	NOUN	NNS	Number=Plur	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 5
+# text = If restaurants took away smoking privileges we now enjoy, in my opinion, many people would stop going to these establishments designed to encourage relaxation simply because they would be much less relaxing for smokers, and even stressful for many smokers.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	restaurants	restaurant	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	advcl	_	_
+4	away	away	ADV	RB	_	3	advmod	_	_
+5	smoking	smoke	NOUN	NN	Number=Sing	6	compound	_	_
+6	privileges	privileg	NOUN	NNS	Number=Plur	3	obj	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+8	now	now	ADV	RB	_	9	advmod	_	_
+9	enjoy	enjoy	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	18	punct	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	opinion	opinion	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	many	many	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	people	people	NOUN	NNS	Number=Plur	18	nsubj	_	_
+17	would	would	AUX	MD	VerbForm=Fin	18	aux	_	_
+18	stop	stop	VERB	VB	VerbForm=Inf	0	root	_	_
+19	going	go	VERB	VBG	VerbForm=Ger	18	xcomp	_	_
+20	to	to	ADP	IN	_	22	case	_	_
+21	these	these	DET	DT	Number=Plur|PronType=Dem	22	det	_	_
+22	establishments	establishment	NOUN	NNS	Number=Plur	19	obl	_	_
+23	designed	design	VERB	VBN	Tense=Past|VerbForm=Part	22	acl	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	encourage	encourage	VERB	VB	VerbForm=Inf	23	advcl	_	_
+26	relaxation	relaxation	NOUN	NN	Number=Sing	25	obj	_	_
+27	simply	simply	ADV	RB	_	25	advmod	_	_
+28	because	because	SCONJ	IN	_	34	mark	_	_
+29	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	34	nsubj	_	_
+30	would	would	AUX	MD	VerbForm=Fin	34	aux	_	_
+31	be	be	AUX	VB	VerbForm=Inf	34	aux	_	_
+32	much	much	ADV	RB	_	33	advmod	_	_
+33	less	less	ADV	RBR	Degree=Cmp	34	advmod	_	_
+34	relaxing	relaxing	VERB	VBG	VerbForm=Ger	18	advcl	_	_
+35	for	for	ADP	IN	_	36	case	_	_
+36	smokers	smoker	NOUN	NNS	Number=Plur	34	obl	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	40	punct	_	_
+38	and	and	CCONJ	CC	_	40	cc	_	_
+39	even	even	ADV	RB	_	40	advmod	_	_
+40	stressful	stressful	ADJ	JJ	Degree=Pos	18	conj	_	_
+41	for	for	ADP	IN	_	43	case	_	_
+42	many	many	ADJ	JJ	Degree=Pos	43	amod	_	_
+43	smokers	smoker	NOUN	NNS	Number=Plur	40	obl	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 6
+# text = Banning smoking would be bad for the economy, as less and less people would want to eat out.
+1	Banning	Banning	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	smoking	smoking	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	bad	bad	ADJ	JJ	Degree=Pos	0	root	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	economy	economy	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	5	punct	_	_
+10	as	as	ADV	RB	_	11	advmod	_	_
+11	less	less	ADV	RBR	Degree=Cmp	16	advmod	_	_
+12	and	and	CCONJ	CC	_	16	cc	_	_
+13	less	less	ADJ	JJR	Degree=Cmp	14	amod	_	_
+14	people	people	NOUN	NNS	Number=Plur	16	nsubj	_	_
+15	would	would	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	want	want	VERB	VB	VerbForm=Inf	5	conj	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	eat	eat	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	out	out	ADP	RP	_	18	compound:prt	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 7
+# text = In addition, going to a restaurant is a personal choice, as is the freedom to smoke.
+1	In	in	ADP	IN	_	2	case	_	_
+2	addition	addition	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	11	punct	_	_
+4	going	go	VERB	VBG	VerbForm=Ger	11	csubj	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	restaurant	restaurant	NOUN	NN	Number=Sing	4	obl	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	personal	personal	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	choice	choice	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	as	as	SCONJ	IN	_	16	mark	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	freedom	freedom	NOUN	NN	Number=Sing	11	advcl	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	smoke	smoke	VERB	VB	VerbForm=Inf	16	acl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 8
+# text = If people dislike smoke for whatever reason, they do not have to frequent restaurants.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	people	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	dislike	dislike	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+4	smoke	smoke	NOUN	NN	Number=Sing	3	obj	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	whatever	whatever	DET	WDT	PronType=Int	7	det	_	_
+7	reason	reason	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
+10	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	not	not	PART	RB	_	12	advmod	_	_
+12	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+13	to	to	ADP	IN	_	15	case	_	_
+14	frequent	frequent	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	restaurants	restaurant	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 9
+# text = They can simply create their own smoke-free environment.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	simply	simply	ADV	RB	_	4	advmod	_	_
+4	create	create	VERB	VB	VerbForm=Inf	0	root	_	_
+5	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+6	own	own	ADJ	JJ	Degree=Pos	10	amod	_	_
+7	smoke	smoke	NOUN	NN	Number=Sing	9	obl:npmod	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	_	SpaceAfter=No
+9	free	free	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	environment	environment	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 10
+# text = Nonsmokers can ban together and form a group to avoid smoky areas.
+1	Nonsmokers	Nonsmoker	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	ban	ban	VERB	VB	VerbForm=Inf	0	root	_	_
+4	together	together	ADV	RB	_	3	advmod	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	form	form	VERB	VB	VerbForm=Inf	3	conj	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	group	group	NOUN	NN	Number=Sing	6	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	avoid	avoid	VERB	VB	VerbForm=Inf	6	advcl	_	_
+11	smoky	smoky	NUM	CD	NumType=Card	12	nummod	_	_
+12	areas	area	NOUN	NNS	Number=Plur	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = For example, nonsmokers can reserve a restaurant that will only accommodate their group, free of smokers.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	nonsmokers	nonsmoker	NOUN	NNS	Number=Plur	6	nsubj	_	_
+5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	reserve	reserve	VERB	VB	VerbForm=Inf	0	root	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	restaurant	restaurant	NOUN	NN	Number=Sing	6	obj	_	_
+9	that	that	PRON	WDT	PronType=Rel	12	nsubj	_	_
+10	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	only	only	ADV	RB	_	12	advmod	_	_
+12	accommodate	accommodate	VERB	VB	VerbForm=Inf	8	acl:relcl	_	_
+13	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	group	group	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	12	punct	_	_
+16	free	free	ADJ	JJ	Degree=Pos	12	conj	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	smokers	smoker	NOUN	NNS	Number=Plur	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 12
+# text = This is one solution nonsmokers have to acquire a smoke-free environment.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	one	one	NUM	CD	NumType=Card	5	nummod	_	_
+4	solution	solution	NOUN	NN	Number=Sing	5	compound	_	_
+5	nonsmokers	nonsmoker	NOUN	NNS	Number=Plur	6	nsubj	_	_
+6	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	acquire	acquire	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+10	smoke	smoke	NOUN	NN	Number=Sing	12	obl:npmod	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	free	free	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	environment	environment	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 13
+# text = There are countless ways to achieve smoke free environments.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	countless	countless	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	ways	way	NOUN	NNS	Number=Plur	2	nsubj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	achieve	achieve	VERB	VB	VerbForm=Inf	4	acl	_	_
+7	smoke	smoke	NOUN	NN	Number=Sing	9	compound	_	_
+8	free	free	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	environments	environments	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 14
+# text = But as it stands now, we have the freedom to go into any restaurant and light up if we desire.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	as	as	SCONJ	IN	_	4	mark	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	stands	stand	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+5	now	now	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+8	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	freedom	freedom	NOUN	NN	Number=Sing	8	obj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	go	go	VERB	VB	VerbForm=Inf	10	acl	_	_
+13	into	into	ADP	IN	_	15	case	_	_
+14	any	any	DET	DT	_	15	det	_	_
+15	restaurant	restaurant	NOUN	NN	Number=Sing	12	obl	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	light	light	NOUN	NN	Number=Sing	12	conj	_	_
+18	up	up	ADP	RP	_	17	compound:prt	_	_
+19	if	if	SCONJ	IN	_	21	mark	_	_
+20	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
+21	desire	desire	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	advcl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

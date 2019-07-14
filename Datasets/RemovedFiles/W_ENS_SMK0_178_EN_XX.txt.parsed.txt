@@ -1,0 +1,256 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_ENS_SMK0_178_EN_XX.txt
+# newpar
+# sent_id = 1
+# text = ﻿I'd like to see that happen.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	'd	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	see	see	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	_
+7	happen	happen	VERB	VB	VerbForm=Inf	5	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = I mean I do agree with the ban, we have had similar bans in the UK for sometime now.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	agree	agree	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+6	with	with	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	ban	ban	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+11	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	had	have	VERB	VBN	Tense=Past|VerbForm=Part	2	parataxis	_	_
+13	similar	similar	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	bans	ban	NOUN	NNS	Number=Plur	12	obj	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	UK	UK	PROPN	NNP	Number=Sing	14	nmod	_	_
+18	for	for	ADP	IN	_	20	case	_	_
+19	sometime	sometime	ADV	RB	_	20	advmod	_	_
+20	now	now	ADV	RB	_	12	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = What I am thinking is that Japan has one of the largest populations of smokers in the world.
+1	What	what	PRON	WP	PronType=Int	5	nsubj	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	thinking	think	VERB	VBG	Tense=Pres|VerbForm=Part	1	acl:relcl	_	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	that	that	SCONJ	IN	_	8	mark	_	_
+7	Japan	Japan	PROPN	NNP	Number=Sing	8	nsubj	_	_
+8	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+9	one	one	NUM	CD	NumType=Card	8	obj	_	_
+10	of	of	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	largest	largest	ADJ	JJS	Degree=Sup	13	amod	_	_
+13	populations	population	NOUN	NNS	Number=Plur	9	nmod	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	smokers	smoker	NOUN	NNS	Number=Plur	13	nmod	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	world	world	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Would the Japanese government consider alienating all those potential voters to introduce a smoking ban in restaurants?
+1	Would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	Japanese	japanese	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	government	government	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	consider	consider	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	alienating	alienate	VERB	VBG	VerbForm=Ger	5	xcomp	_	_
+7	all	all	DET	PDT	_	10	det:predet	_	_
+8	those	those	DET	DT	Number=Plur|PronType=Dem	10	det	_	_
+9	potential	potential	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	voters	voter	NOUN	NNS	Number=Plur	6	obj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	introduce	introduce	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	smoking	smoking	NOUN	NN	Number=Sing	15	compound	_	_
+15	ban	ban	NOUN	NN	Number=Sing	12	obj	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	restaurants	restaurant	NOUN	NNS	Number=Plur	15	nmod	_	SpaceAfter=No
+18	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = If they do, more power to them I say.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	more	more	ADJ	JJR	Degree=Cmp	6	amod	_	_
+6	power	power	NOUN	NN	Number=Sing	3	obj	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	nmod	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 6
+# text = My understanding is that Japan already has some smoking bans in some areas of Tokyo and other cities so I see that they are taking some steps.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	understanding	understanding	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	Japan	Japan	PROPN	NNP	Number=Sing	7	nsubj	_	_
+6	already	already	ADV	RB	_	7	advmod	_	_
+7	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	some	some	DET	DT	_	10	det	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	10	compound	_	_
+10	bans	ban	NOUN	NNS	Number=Plur	7	obj	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	some	some	DET	DT	_	13	det	_	_
+13	areas	area	NOUN	NNS	Number=Plur	10	nmod	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	Tokyo	Tokyo	PROPN	NNP	Number=Sing	13	nmod	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	other	other	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	cities	city	NOUN	NNS	Number=Plur	15	conj	_	_
+19	so	so	ADV	RB	_	21	advmod	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+22	that	that	SCONJ	IN	_	25	mark	_	_
+23	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	_
+24	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part	21	ccomp	_	_
+26	some	some	DET	DT	_	27	det	_	_
+27	steps	step	NOUN	NNS	Number=Plur	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = A restaurant ban is a huge leap though with so many restaurants strung out across Japan so I wonder how they would be able to monitor the ban.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	restaurant	restaurant	NOUN	NN	Number=Sing	3	compound	_	_
+3	ban	ban	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	huge	huge	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	leap	leap	NOUN	NN	Number=Sing	0	root	_	_
+8	though	though	ADV	RB	_	7	advmod	_	_
+9	with	with	ADP	IN	_	12	case	_	_
+10	so	so	ADV	RB	_	11	advmod	_	_
+11	many	many	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	restaurants	restaurant	NOUN	NNS	Number=Plur	7	nmod	_	_
+13	strung	string	VERB	VBN	Tense=Past|VerbForm=Part	12	acl	_	_
+14	out	out	ADP	RP	_	13	compound:prt	_	_
+15	across	across	ADP	IN	_	16	case	_	_
+16	Japan	Japan	PROPN	NNP	Number=Sing	13	obl	_	_
+17	so	so	ADV	RB	_	19	advmod	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	wonder	wonder	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	_	_
+20	how	how	ADV	WRB	PronType=Int	24	advmod	_	_
+21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
+22	would	would	AUX	MD	VerbForm=Fin	24	aux	_	_
+23	be	be	AUX	VB	VerbForm=Inf	24	cop	_	_
+24	able	able	ADJ	JJ	Degree=Pos	19	ccomp	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	monitor	monitor	VERB	VB	VerbForm=Inf	24	xcomp	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	ban	ban	NOUN	NN	Number=Sing	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 8
+# text = Are they going to train a special restaurant smoking squad to travel throughout Japan and keep an eye on the restaurants?
+1	Are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	train	train	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+7	special	special	ADJ	JJ	Degree=Pos	10	amod	_	_
+8	restaurant	restaurant	NOUN	NN	Number=Sing	10	compound	_	_
+9	smoking	smoke	NOUN	NN	Number=Sing	10	compound	_	_
+10	squad	squad	NOUN	NN	Number=Sing	5	obj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	travel	travel	VERB	VB	VerbForm=Inf	10	acl	_	_
+13	throughout	throughout	ADP	IN	_	14	case	_	_
+14	Japan	Japan	PROPN	NNP	Number=Sing	12	obl	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	keep	keep	VERB	VB	VerbForm=Inf	3	conj	_	_
+17	an	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	eye	eye	NOUN	NN	Number=Sing	16	obj	_	_
+19	on	on	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	restaurants	restaurant	NOUN	NNS	Number=Plur	16	obl	_	SpaceAfter=No
+22	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = It would need to be a large squad to cover that much land mass.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	need	need	VERB	VB	VerbForm=Inf	0	root	_	_
+4	to	to	PART	TO	_	8	mark	_	_
+5	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	large	large	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	squad	squad	NOUN	NN	Number=Sing	3	xcomp	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	cover	cover	VERB	VB	VerbForm=Inf	8	acl	_	_
+11	that	that	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+12	much	much	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	land	land	NOUN	NN	Number=Sing	14	compound	_	_
+14	mass	mass	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Don't get me wrong, anything is possible so I will adopt a wait and see attitude and hope that it does come about.
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	aux	_	SpaceAfter=No
+2	n't	not	PART	RB	_	3	advmod	_	_
+3	get	get	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	wrong	wrong	ADJ	JJ	Degree=Pos	3	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	anything	anything	PRON	NN	Number=Sing	9	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	possible	possible	ADJ	JJ	Degree=Pos	3	parataxis	_	_
+10	so	so	SCONJ	IN	_	13	mark	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	will	will	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	adopt	adopt	VERB	VB	VerbForm=Inf	9	advcl	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	wait	wait	NOUN	NN	Number=Sing	13	obj	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	see	see	VERB	VB	VerbForm=Inf	13	conj	_	_
+18	attitude	attitude	ADV	RB	_	17	advmod	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+21	that	that	SCONJ	IN	_	24	mark	_	_
+22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+23	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	come	come	VERB	VB	VerbForm=Inf	20	ccomp	_	_
+25	about	about	ADV	RB	_	24	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = If it does, then full kudos to the Japanese government and all of those who pushed for this to finally take effect.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	then	then	ADV	RB	PronType=Dem	7	advmod	_	_
+6	full	full	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	kudos	kudo	NOUN	NNS	Number=Plur	0	root	_	_
+8	to	to	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	Japanese	japanese	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	government	government	NOUN	NN	Number=Sing	7	nmod	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	all	all	DET	DT	_	7	conj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	those	those	PRON	DT	Number=Plur|PronType=Dem	13	nmod	_	_
+16	who	who	PRON	WP	PronType=Rel	17	nsubj	_	_
+17	pushed	push	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+18	for	for	ADP	IN	_	19	case	_	_
+19	this	this	PRON	DT	Number=Sing|PronType=Dem	17	obl	_	_
+20	to	to	PART	TO	_	22	mark	_	_
+21	finally	finally	ADV	RB	_	22	advmod	_	_
+22	take	take	VERB	VB	VerbForm=Inf	17	advcl	_	_
+23	effect	effect	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,388 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_ENS_PTJ0_124_EN_XX.txt
+# newpar
+# sent_id = 1
+# text = ﻿I agree.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Having a part-time job is an important experience for college students which will give them valuable skills and help prepare them for entering the workforce after graduation.
+1	Having	have	VERB	VBG	VerbForm=Ger	10	csubj	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+3	part	part	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	time	time	NOUN	NN	Number=Sing	6	compound	_	_
+6	job	job	NOUN	NN	Number=Sing	1	obj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	important	important	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	experience	experience	NOUN	NN	Number=Sing	0	root	_	_
+11	for	for	ADP	IN	_	13	case	_	_
+12	college	college	NOUN	NN	Number=Sing	13	compound	_	_
+13	students	student	NOUN	NNS	Number=Plur	10	nmod	_	_
+14	which	which	PRON	WDT	PronType=Rel	16	nsubj	_	_
+15	will	will	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	give	give	VERB	VB	VerbForm=Inf	13	acl:relcl	_	_
+17	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	iobj	_	_
+18	valuable	valuable	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	skills	skill	NOUN	NNS	Number=Plur	16	obj	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	help	help	VERB	VB	VerbForm=Inf	16	conj	_	_
+22	prepare	prepare	VERB	VB	VerbForm=Inf	21	ccomp	_	_
+23	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	22	obj	_	_
+24	for	for	SCONJ	IN	_	25	mark	_	_
+25	entering	enter	VERB	VBG	VerbForm=Ger	22	advcl	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	workforce	workforce	NOUN	NN	Number=Sing	25	obj	_	_
+28	after	after	ADP	IN	_	29	case	_	_
+29	graduation	graduation	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = First, students seeking part-time employment will get acquainted with the process of gaining employment: finding job openings, filling out a job application, and interviewing.
+1	First	first	ADV	RB	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	10	punct	_	_
+3	students	student	NOUN	NNS	Number=Plur	8	compound	_	_
+4	seeking	seek	VERB	VBG	VerbForm=Ger	8	amod	_	_
+5	part	part	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	time	time	NOUN	NN	Number=Sing	8	compound	_	_
+8	employment	employment	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+11	acquainted	acquainted	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	process	process	NOUN	NN	Number=Sing	11	obl	_	_
+15	of	of	SCONJ	IN	_	16	mark	_	_
+16	gaining	gain	VERB	VBG	VerbForm=Ger	14	acl	_	_
+17	employment	employment	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+18	:	:	PUNCT	:	_	10	punct	_	_
+19	finding	find	VERB	VBG	VerbForm=Ger	10	parataxis	_	_
+20	job	job	NOUN	NN	Number=Sing	21	compound	_	_
+21	openings	opening	NOUN	NNS	Number=Plur	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	19	punct	_	_
+23	filling	fill	VERB	VBG	VerbForm=Ger	19	advcl	_	_
+24	out	out	ADP	RP	_	23	compound:prt	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+26	job	job	NOUN	NN	Number=Sing	27	compound	_	_
+27	application	application	NOUN	NN	Number=Sing	23	obj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	30	punct	_	_
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	interviewing	interview	NOUN	NN	Number=Sing	19	conj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 4
+# text = Looking for work usually involves searching online, scanning classified ads in a newspaper, asking friends and relatives, or visiting businesses directly and asking if they are hiring.
+1	Looking	look	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	for	for	ADP	IN	_	3	case	_	_
+3	work	work	NOUN	NN	Number=Sing	1	obl	_	_
+4	usually	usually	ADV	RB	_	5	advmod	_	_
+5	involves	involves	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+6	searching	search	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+7	online	online	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	6	punct	_	_
+9	scanning	scan	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+10	classified	classified	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	ads	ads	NOUN	NNS	Number=Plur	9	obj	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	newspaper	newspaper	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	_	_
+16	asking	ask	VERB	VBG	VerbForm=Ger	6	conj	_	_
+17	friends	friend	NOUN	NNS	Number=Plur	16	obj	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	relatives	relative	NOUN	NNS	Number=Plur	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	_
+21	or	or	CCONJ	CC	_	22	cc	_	_
+22	visiting	visit	VERB	VBG	VerbForm=Ger	6	conj	_	_
+23	businesses	business	NOUN	NNS	Number=Plur	22	obj	_	_
+24	directly	directly	ADV	RB	_	22	advmod	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	asking	ask	VERB	VBG	VerbForm=Ger	22	conj	_	_
+27	if	if	SCONJ	IN	_	30	mark	_	_
+28	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	30	nsubj	_	_
+29	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	hiring	hire	VERB	VBG	Tense=Pres|VerbForm=Part	26	advcl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = If the student is interested, he or she needs to fill out a job application and arrange an interview.
+1	If	if	SCONJ	IN	_	5	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	student	student	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	interested	interested	ADJ	JJ	Degree=Pos	10	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+8	or	or	CCONJ	CC	_	10	cc	_	_
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	fill	fill	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	out	out	ADP	RP	_	12	compound:prt	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	job	job	NOUN	NN	Number=Sing	16	compound	_	_
+16	application	application	NOUN	NN	Number=Sing	12	obj	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	arrange	arrange	VERB	VB	VerbForm=Inf	12	conj	_	_
+19	an	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	interview	interview	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 6
+# text = Interviewing for a job is an important skill as it's a necessary step for every job they will apply for later in their lives.
+1	Interviewing	interview	VERB	VBG	VerbForm=Ger	8	csubj	_	_
+2	for	for	ADP	IN	_	4	case	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	job	job	NOUN	NN	Number=Sing	1	obl	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	important	important	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	skill	skill	NOUN	NN	Number=Sing	0	root	_	_
+9	as	as	SCONJ	IN	_	14	mark	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	SpaceAfter=No
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	necessary	necessary	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	step	step	NOUN	NN	Number=Sing	8	advcl	_	_
+15	for	for	ADP	IN	_	17	case	_	_
+16	every	every	DET	DT	_	17	det	_	_
+17	job	job	NOUN	NN	Number=Sing	14	nmod	_	_
+18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+19	will	will	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	apply	apply	VERB	VB	VerbForm=Inf	8	acl:relcl	_	_
+21	for	for	ADP	IN	_	22	case	_	_
+22	later	later	ADV	RBR	Degree=Cmp	20	obl	_	_
+23	in	in	ADP	IN	_	25	case	_	_
+24	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	lives	life	NOUN	NNS	Number=Plur	20	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 7
+# text = At the job interview the applicant should try to make a good impression.
+1	At	at	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	job	job	NOUN	NN	Number=Sing	4	compound	_	_
+4	interview	interview	NOUN	NN	Number=Sing	8	obl	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	applicant	applicant	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	try	try	VERB	VB	VerbForm=Inf	0	root	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	make	make	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	good	good	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	impression	impression	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 8
+# text = He or she needs to look professional, be courteous, and answer questions in a thoughtful and positive manner.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	or	or	CCONJ	CC	_	4	cc	_	_
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	look	look	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	professional	professional	ADJ	JJ	Degree=Pos	6	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+10	courteous	courteous	ADJ	JJ	Degree=Pos	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	answer	answer	VERB	VB	VerbForm=Inf	4	conj	_	_
+14	questions	question	NOUN	NNS	Number=Plur	13	obj	_	_
+15	in	in	ADP	IN	_	20	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+17	thoughtful	thoughtful	ADJ	JJ	Degree=Pos	20	amod	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	positive	positive	ADJ	JJ	Degree=Pos	17	conj	_	_
+20	manner	manner	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Second, if students are hired they will need to deal with the responsibilities (and stress) that goes along with a job: learning new skills, performing job duties, getting along with their boss and co-workers, interacting with customers, and coordinating their work and study schedules.
+1	Second	second	ADV	RB	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	9	punct	_	_
+3	if	if	SCONJ	IN	_	6	mark	_	_
+4	students	student	NOUN	NNS	Number=Plur	6	nsubj:pass	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	hired	hire	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	advcl	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+8	will	will	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	need	need	VERB	VB	VerbForm=Inf	0	root	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	deal	deal	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	responsibilities	responsibility	NOUN	NNS	Number=Plur	11	obl	_	_
+15	(	(	PUNCT	-LRB-	_	11	punct	_	SpaceAfter=No
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	stress	stress	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+18	)	)	PUNCT	-RRB-	_	17	punct	_	_
+19	that	that	PRON	WDT	PronType=Rel	20	nsubj	_	_
+20	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+21	along	along	ADV	RB	_	20	advmod	_	_
+22	with	with	ADP	IN	_	24	case	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	job	job	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+25	:	:	PUNCT	:	_	9	punct	_	_
+26	learning	learn	VERB	VBG	VerbForm=Ger	28	amod	_	_
+27	new	new	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	skills	skill	NOUN	NNS	Number=Plur	30	obj	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	28	punct	_	_
+30	performing	perform	VERB	VBG	VerbForm=Ger	9	parataxis	_	_
+31	job	job	NOUN	NN	Number=Sing	32	compound	_	_
+32	duties	duty	NOUN	NNS	Number=Plur	30	obj	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	30	punct	_	_
+34	getting	get	VERB	VBG	VerbForm=Ger	30	advcl	_	_
+35	along	along	ADV	RB	_	34	advmod	_	_
+36	with	with	ADP	IN	_	38	case	_	_
+37	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	38	nmod:poss	_	_
+38	boss	boss	NOUN	NN	Number=Sing	34	obl	_	_
+39	and	and	CCONJ	CC	_	40	cc	_	_
+40	co-workers	co-worker	NOUN	NNS	Number=Plur	38	conj	_	SpaceAfter=No
+41	,	,	PUNCT	,	_	34	punct	_	_
+42	interacting	interact	VERB	VBG	VerbForm=Ger	34	amod	_	_
+43	with	with	ADP	IN	_	44	case	_	_
+44	customers	customer	NOUN	NNS	Number=Plur	42	obl	_	SpaceAfter=No
+45	,	,	PUNCT	,	_	47	punct	_	_
+46	and	and	CCONJ	CC	_	47	cc	_	_
+47	coordinating	coordinate	VERB	VBG	VerbForm=Ger	30	conj	_	_
+48	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	52	nmod:poss	_	_
+49	work	work	NOUN	NN	Number=Sing	52	compound	_	_
+50	and	and	CCONJ	CC	_	51	cc	_	_
+51	study	study	NOUN	NN	Number=Sing	49	conj	_	_
+52	schedules	schedule	NOUN	NNS	Number=Plur	47	obj	_	SpaceAfter=No
+53	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 10
+# text = Juggling part-time work and school can also teach students valuable time management skills.
+1	Juggling	juggl	VERB	VBG	VerbForm=Ger	5	amod	_	_
+2	part	part	NOUN	NN	Number=Sing	4	compound	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+4	time	time	NOUN	NN	Number=Sing	5	compound	_	_
+5	work	work	NOUN	NN	Number=Sing	10	nsubj	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	school	school	NOUN	NN	Number=Sing	5	conj	_	_
+8	can	can	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	also	also	ADV	RB	_	10	advmod	_	_
+10	teach	teach	VERB	VB	VerbForm=Inf	0	root	_	_
+11	students	student	NOUN	NNS	Number=Plur	15	compound	_	_
+12	valuable	valuable	ADJ	JJ	Degree=Pos	15	amod	_	_
+13	time	time	NOUN	NN	Number=Sing	15	compound	_	_
+14	management	management	NOUN	NN	Number=Sing	15	compound	_	_
+15	skills	skill	NOUN	NNS	Number=Plur	10	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 11
+# text = Lastly, students can acquire job skills and earn money.
+1	Lastly	Lastly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	students	student	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	acquire	acquire	VERB	VB	VerbForm=Inf	0	root	_	_
+6	job	job	NOUN	NN	Number=Sing	7	compound	_	_
+7	skills	skill	NOUN	NNS	Number=Plur	5	obj	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	earn	earn	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	money	money	NOUN	NN	Number=Sing	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 12
+# text = Most jobs will involve the chance to get some training and learn some news skills, whether it's waiting on customers at a restaurant, handling money as a cashier, or selling shoes in a department store.
+1	Most	most	ADJ	JJS	Degree=Sup	2	amod	_	_
+2	jobs	job	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	involve	involve	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	chance	chance	NOUN	NN	Number=Sing	4	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	get	get	VERB	VB	VerbForm=Inf	6	acl	_	_
+9	some	some	DET	DT	_	10	det	_	_
+10	training	training	NOUN	NN	Number=Sing	8	obj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	learn	learn	VERB	VB	VerbForm=Inf	8	conj	_	_
+13	some	some	DET	DT	_	15	det	_	_
+14	news	news	NOUN	NN	Number=Sing	15	compound	_	_
+15	skills	skill	NOUN	NNS	Number=Plur	12	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	4	punct	_	_
+17	whether	whether	SCONJ	IN	_	20	mark	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	SpaceAfter=No
+19	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	waiting	wait	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	_	_
+21	on	on	ADP	IN	_	22	case	_	_
+22	customers	customer	NOUN	NNS	Number=Plur	20	obl	_	_
+23	at	at	ADP	IN	_	25	case	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	restaurant	restaurant	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	20	punct	_	_
+27	handling	handle	VERB	VBG	VerbForm=Ger	20	advcl	_	_
+28	money	money	NOUN	NN	Number=Sing	27	obj	_	_
+29	as	as	ADP	IN	_	31	case	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+31	cashier	cashier	NOUN	NN	Number=Sing	27	obl	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	27	punct	_	_
+33	or	or	CCONJ	CC	_	34	cc	_	_
+34	selling	sell	VERB	VBG	VerbForm=Ger	27	conj	_	_
+35	shoes	shoe	NOUN	NNS	Number=Plur	34	obj	_	_
+36	in	in	ADP	IN	_	39	case	_	_
+37	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+38	department	department	NOUN	NN	Number=Sing	39	compound	_	_
+39	store	store	NOUN	NN	Number=Sing	34	obl	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = Any money earned can be used towards paying rent, bills, tuition, or for savings.
+1	Any	any	DET	DT	_	2	det	_	_
+2	money	money	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
+3	earned	earn	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	_
+4	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+6	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	towards	towards	SCONJ	IN	_	8	mark	_	_
+8	paying	pay	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+9	rent	rent	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	bills	bills	NOUN	NNS	Number=Plur	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	tuition	tuition	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	or	or	CCONJ	CC	_	17	cc	_	_
+16	for	for	ADP	IN	_	17	case	_	_
+17	savings	savings	NOUN	NNS	Number=Plur	9	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 14
+# text = In conclusion, it's clear that college students with part-time jobs learn important skills and will be better prepared for the job market after graduation.
+1	In	in	ADP	IN	_	2	case	_	_
+2	conclusion	conclusion	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	SpaceAfter=No
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	clear	clear	ADJ	JJ	Degree=Pos	0	root	_	_
+7	that	that	SCONJ	IN	_	15	mark	_	_
+8	college	college	NOUN	NN	Number=Sing	9	compound	_	_
+9	students	student	NOUN	NNS	Number=Plur	15	nsubj	_	_
+10	with	with	ADP	IN	_	13	case	_	_
+11	part	part	NOUN	NN	Number=Sing	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	13	punct	_	SpaceAfter=No
+13	time	time	NOUN	NN	Number=Sing	9	nmod	_	_
+14	jobs	job	NOUN	NNS	Number=Plur	15	nsubj	_	_
+15	learn	learn	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+16	important	important	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	skills	skill	NOUN	NNS	Number=Plur	15	obj	_	_
+18	and	and	CCONJ	CC	_	22	cc	_	_
+19	will	will	AUX	MD	VerbForm=Fin	22	aux	_	_
+20	be	be	AUX	VB	VerbForm=Inf	22	cop	_	_
+21	better	better	ADV	RBR	Degree=Cmp	22	advmod	_	_
+22	prepared	prepare	ADJ	JJ	Degree=Pos	15	conj	_	_
+23	for	for	ADP	IN	_	26	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+25	job	job	NOUN	NN	Number=Sing	26	compound	_	_
+26	market	market	NOUN	NN	Number=Sing	22	obl	_	_
+27	after	after	ADP	IN	_	28	case	_	_
+28	graduation	graduation	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

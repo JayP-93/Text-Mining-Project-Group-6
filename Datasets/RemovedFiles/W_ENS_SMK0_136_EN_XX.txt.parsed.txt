@@ -1,0 +1,305 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_ENS_SMK0_136_EN_XX.txt
+# newpar
+# sent_id = 1
+# text = ﻿Most reasonable people would agree just as I do.
+1	﻿Most	﻿Most	ADJ	JJS	Degree=Sup	3	amod	_	_
+2	reasonable	reasonable	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	people	people	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	agree	agree	VERB	VB	VerbForm=Inf	0	root	_	_
+6	just	just	ADV	RB	_	9	advmod	_	_
+7	as	as	SCONJ	IN	_	9	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = I know that any non-smoker who has ever been in a restaurant, enjoying their meal when suddenly, just as they were about to eat a mouthful of food, got a face full of smoke instead, would also agree.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	32	mark	_	_
+4	any	any	DET	DT	_	5	det	_	_
+5	non-smoker	non-smoker	NOUN	NN	Number=Sing	32	nsubj	_	_
+6	who	who	PRON	WP	PronType=Rel	12	nsubj	_	_
+7	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+8	ever	ever	ADV	RB	_	12	advmod	_	_
+9	been	be	AUX	VBN	Tense=Past|VerbForm=Part	12	cop	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	restaurant	restaurant	NOUN	NN	Number=Sing	5	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	32	punct	_	_
+14	enjoying	enjoy	VERB	VBG	VerbForm=Ger	32	advcl	_	_
+15	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	meal	meal	NOUN	NN	Number=Sing	14	obj	_	_
+17	when	when	ADV	WRB	PronType=Int	18	mark	_	_
+18	suddenly	suddenly	ADV	RB	_	26	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	just	just	ADV	RB	_	26	advmod	_	_
+21	as	as	SCONJ	IN	_	26	mark	_	_
+22	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	_
+23	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	cop	_	_
+24	about	about	ADV	RB	_	26	advmod	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	eat	eat	VERB	VB	VerbForm=Inf	14	advcl	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	mouthful	mouthful	NOUN	NN	Number=Sing	26	obj	_	_
+29	of	of	ADP	IN	_	30	case	_	_
+30	food	food	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	32	punct	_	_
+32	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+33	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	_
+34	face	face	NOUN	NN	Number=Sing	32	obj	_	_
+35	full	full	ADJ	JJ	Degree=Pos	32	xcomp	_	_
+36	of	of	ADP	IN	_	37	case	_	_
+37	smoke	smoke	NOUN	NN	Number=Sing	35	obl	_	_
+38	instead	instead	ADV	RB	_	2	advmod	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	2	punct	_	_
+40	would	would	AUX	MD	VerbForm=Fin	42	aux	_	_
+41	also	also	ADV	RB	_	42	advmod	_	_
+42	agree	agree	VERB	VB	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = This is one of the most common complaints received by restaurant owners from their non-smoking patrons.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	one	one	NUM	CD	NumType=Card	0	root	_	_
+4	of	of	ADP	IN	_	8	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+6	most	most	ADV	RBS	_	7	advmod	_	_
+7	common	common	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	complaints	complaint	NOUN	NNS	Number=Plur	3	nmod	_	_
+9	received	receive	VERB	VBN	Tense=Past|VerbForm=Part	8	acl	_	_
+10	by	by	ADP	IN	_	12	case	_	_
+11	restaurant	restaurant	NOUN	NN	Number=Sing	12	compound	_	_
+12	owners	owner	NOUN	NNS	Number=Plur	9	obl	_	_
+13	from	from	ADP	IN	_	16	case	_	_
+14	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+15	non-smoking	non-smoking	NOUN	NN	Number=Sing	16	compound	_	_
+16	patrons	patron	NOUN	NNS	Number=Plur	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Yes, we all know about individual rights to smoke and not smoke, at least as consenting adults anyway.
+1	Yes	yes	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+4	all	all	DET	DT	_	3	det	_	_
+5	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	about	about	ADP	IN	_	8	case	_	_
+7	individual	individual	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	rights	rights	NOUN	NNS	Number=Plur	5	obl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	smoke	smoke	VERB	VB	VerbForm=Inf	8	acl	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	not	not	PART	RB	_	13	advmod	_	_
+13	smoke	smoke	VERB	VB	VerbForm=Inf	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	5	punct	_	_
+15	at	at	ADV	RB	_	5	ccomp	_	_
+16	least	least	ADV	RBS	Degree=Sup	15	fixed	_	_
+17	as	as	SCONJ	IN	_	18	mark	_	_
+18	consenting	consent	VERB	VBG	VerbForm=Ger	15	advcl	_	_
+19	adults	adult	NOUN	NNS	Number=Plur	18	obj	_	_
+20	anyway	anyway	ADV	RB	_	18	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = How about the rights of others though, like say, thousands of non-smokers who like to dine out?
+1	How	how	ADV	WRB	PronType=Int	10	advmod	_	_
+2	about	about	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	rights	right	NOUN	NNS	Number=Plur	1	obl	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	others	other	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	though	though	ADV	RB	_	4	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	like	like	INTJ	UH	_	10	discourse	_	_
+10	say	say	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	thousands	thousand	NOUN	NNS	Number=Plur	10	appos	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	non-smokers	non-smoker	NOUN	NNS	Number=Plur	12	nmod	_	_
+15	who	who	PRON	WP	PronType=Rel	16	nsubj	_	_
+16	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	dine	dine	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	out	out	ADP	RP	_	18	compound:prt	_	SpaceAfter=No
+20	?	?	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 6
+# text = While I have never heard of anybody dying because of not smoking, I have most certainly heard of many deaths and illnesses related to smoking.
+1	While	while	SCONJ	IN	_	5	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	never	never	ADV	RB	_	5	advmod	_	_
+5	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	18	advcl	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	anybody	anybody	PRON	NN	Number=Sing	5	obl	_	_
+8	dying	die	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+9	because	because	ADP	IN	_	12	case	_	_
+10	of	of	ADP	IN	_	9	fixed	_	_
+11	not	not	ADV	RB	_	12	advmod	_	_
+12	smoking	smoke	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	18	punct	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+15	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	most	most	ADV	RBS	_	17	advmod	_	_
+17	certainly	certainly	ADV	RB	_	18	advmod	_	_
+18	heard	heard	NOUN	NN	Number=Sing	0	root	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	many	many	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	deaths	death	NOUN	NNS	Number=Plur	18	nmod	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	illnesses	illness	NOUN	NNS	Number=Plur	21	conj	_	_
+24	related	related	ADJ	JJ	Degree=Pos	21	amod	_	_
+25	to	to	ADP	IN	_	26	case	_	_
+26	smoking	smoke	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 7
+# text = In itself, that should be enough reason for Japan to ban smoking in restaurants and all public places without argument or debate.
+1	In	in	ADP	IN	_	2	case	_	_
+2	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	_	_
+5	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+7	enough	enough	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	reason	reason	NOUN	NN	Number=Sing	0	root	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	Japan	Japan	PROPN	NNP	Number=Sing	8	nmod	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	ban	ban	VERB	VB	VerbForm=Inf	8	acl	_	_
+13	smoking	smoke	NOUN	NN	Number=Sing	12	obj	_	_
+14	in	in	ADP	IN	_	15	case	_	_
+15	restaurants	restaurant	NOUN	NNS	Number=Plur	13	nmod	_	_
+16	and	and	CCONJ	CC	_	19	cc	_	_
+17	all	all	DET	DT	_	19	det	_	_
+18	public	public	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	places	place	NOUN	NNS	Number=Plur	15	conj	_	_
+20	without	without	ADP	IN	_	21	case	_	_
+21	argument	argument	NOUN	NN	Number=Sing	19	nmod	_	_
+22	or	or	CCONJ	CC	_	23	cc	_	_
+23	debate	debate	NOUN	NN	Number=Sing	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 8
+# text = Yes, we know that Japan has a nation full of chain smokers and so I say, so what?
+1	Yes	yes	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	IN	_	7	mark	_	_
+6	Japan	Japan	PROPN	NNP	Number=Sing	7	nsubj	_	_
+7	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	nation	nation	NOUN	NN	Number=Sing	10	compound	_	_
+10	full	full	NOUN	NN	Number=Sing	7	obj	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	chain	chain	NOUN	NN	Number=Sing	13	compound	_	_
+13	smokers	smoker	NOUN	NNS	Number=Plur	10	nmod	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	so	so	ADV	RB	_	17	advmod	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	so	so	ADV	RB	_	20	advmod	_	_
+20	what	what	PRON	WP	PronType=Int	4	conj	_	SpaceAfter=No
+21	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = If smokers can't take care of themselves then the least the Japanese Government can do or for that matter, any government is to minimize the danger to others.
+1	If	if	SCONJ	IN	_	5	mark	_	_
+2	smokers	smoker	NOUN	NNS	Number=Plur	5	nsubj	_	_
+3	ca	can	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n't	not	PART	RB	_	5	advmod	_	_
+5	take	take	VERB	VB	VerbForm=Inf	16	advcl	_	_
+6	care	care	NOUN	NN	Number=Sing	5	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	5	obl	_	_
+9	then	then	ADV	RB	PronType=Dem	16	advmod	_	_
+10	the	the	ADV	RB	_	16	advmod	_	_
+11	least	least	ADV	RBS	Degree=Sup	10	fixed	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	Japanese	japanese	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	Government	government	NOUN	NN	Number=Sing	16	nsubj	_	_
+15	can	can	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+17	or	or	CCONJ	CC	_	20	cc	_	_
+18	for	for	ADP	IN	_	20	case	_	_
+19	that	that	DET	DT	Number=Sing|PronType=Dem	20	det	_	_
+20	matter	matter	NOUN	NN	Number=Sing	16	conj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	16	punct	_	_
+22	any	any	DET	DT	_	23	det	_	_
+23	government	government	NOUN	NN	Number=Sing	24	nsubj	_	_
+24	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	minimize	minimize	VERB	VB	VerbForm=Inf	24	ccomp	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	danger	danger	NOUN	NN	Number=Sing	26	obj	_	_
+29	to	to	ADP	IN	_	30	case	_	_
+30	others	other	NOUN	NNS	Number=Plur	26	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 10
+# text = Stand up and be counted and lead the way, regardless of how high the vote count is for smokers and against non-smokers or vice versa.
+1	Stand	stand	VERB	VB	VerbForm=Inf	0	root	_	_
+2	up	up	ADP	RP	_	1	compound:prt	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	counted	count	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	conj	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	lead	lead	VERB	VB	VerbForm=Inf	1	conj	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	way	way	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	1	punct	_	_
+11	regardless	regardless	ADV	RB	_	20	advmod	_	_
+12	of	of	SCONJ	IN	_	20	mark	_	_
+13	how	how	ADV	WRB	PronType=Int	14	advmod	_	_
+14	high	high	ADV	RB	Degree=Pos	20	advmod	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	vote	vote	NOUN	NN	Number=Sing	17	compound	_	_
+17	count	count	NOUN	NN	Number=Sing	20	nsubj	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	for	for	ADP	IN	_	20	case	_	_
+20	smokers	smoker	NOUN	NNS	Number=Plur	1	parataxis	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	against	against	ADP	IN	_	23	case	_	_
+23	non-smokers	non-smoker	NOUN	NNS	Number=Plur	20	conj	_	_
+24	or	or	CCONJ	CC	_	25	cc	_	_
+25	vice	vice	NOUN	NN	Number=Sing	20	conj	_	_
+26	versa	versa	ADV	RB	_	25	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 11
+# text = Do it for the good of the people or for one of the very reasons that all taxpayers pay governments for and that is to protect the citizens.
+1	Do	do	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	for	for	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	good	good	NOUN	NN	Number=Sing	1	obl	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	people	people	NOUN	NNS	Number=Plur	5	nmod	_	_
+9	or	or	CCONJ	CC	_	11	cc	_	_
+10	for	for	ADP	IN	_	11	case	_	_
+11	one	one	NUM	CD	NumType=Card	5	conj	_	_
+12	of	of	ADP	IN	_	15	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	very	very	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	reasons	reason	NOUN	NNS	Number=Plur	11	nmod	_	_
+16	that	that	PRON	WDT	PronType=Rel	19	obj	_	_
+17	all	all	DET	DT	_	18	det	_	_
+18	taxpayers	taxpayer	NOUN	NNS	Number=Plur	19	nsubj	_	_
+19	pay	pay	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+20	governments	government	NOUN	NNS	Number=Plur	19	obj	_	_
+21	for	for	ADP	IN	_	19	case	_	_
+22	and	and	CCONJ	CC	_	24	cc	_	_
+23	that	that	PRON	DT	Number=Sing|PronType=Dem	24	nsubj	_	_
+24	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	protect	protect	VERB	VB	VerbForm=Inf	24	ccomp	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	citizens	citizen	NOUN	NNS	Number=Plur	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

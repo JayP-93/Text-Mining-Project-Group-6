@@ -1,0 +1,279 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_ENS_SMK0_190_EN_XX.txt
+# newpar
+# sent_id = 1
+# text = ﻿I agree that this is what needs to be done.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	5	mark	_	_
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	what	what	PRON	WP	PronType=Int	7	nsubj	_	_
+7	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+8	to	to	PART	TO	_	10	mark	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+10	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = This is not a case of civil rights, smokers' rights or non-smoker's rights.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	case	case	NOUN	NN	Number=Sing	0	root	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	civil	civil	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	rights	rights	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	smokers	smoker	NOUN	NNS	Number=Plur	5	appos	_	SpaceAfter=No
+11	'	'	PUNCT	''	_	10	punct	_	_
+12	rights	right	NOUN	NNS	Number=Plur	16	compound	_	_
+13	or	or	CCONJ	CC	_	14	cc	_	_
+14	non-smoker	non-smoker	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+15	's	's	PART	POS	_	14	case	_	_
+16	rights	right	NOUN	NNS	Number=Plur	10	appos	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = It is a case of every ones right to life and to live and work in areas that are as conducive to their well being as possible.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	case	case	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	every	every	DET	DT	_	7	det	_	_
+7	ones	one	NOUN	NNS	Number=Plur	4	nmod	_	_
+8	right	right	ADV	RB	_	4	advmod	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	life	life	NOUN	NN	Number=Sing	8	obl	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	live	live	VERB	VB	VerbForm=Inf	4	conj	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	work	work	VERB	VB	VerbForm=Inf	13	conj	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	areas	area	NOUN	NNS	Number=Plur	15	obl	_	_
+18	that	that	PRON	WDT	PronType=Rel	21	nsubj	_	_
+19	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	as	as	ADV	RB	_	21	advmod	_	_
+21	conducive	conducive	ADJ	JJ	Degree=Pos	17	acl:relcl	_	_
+22	to	to	ADP	IN	_	24	case	_	_
+23	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	well	well	ADV	RB	Degree=Pos	21	obl	_	_
+25	being	be	AUX	VBG	VerbForm=Ger	27	cop	_	_
+26	as	as	ADV	RB	_	27	advmod	_	_
+27	possible	possible	ADJ	JJ	Degree=Pos	24	advcl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Having smoke in restaurants, public places or in the workplace, is not conducive to people's well being, not even the smokers.
+1	Having	have	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	smoke	smoke	NOUN	NN	Number=Sing	1	obj	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	restaurants	restaurant	NOUN	NNS	Number=Plur	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	1	punct	_	_
+6	public	public	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	places	place	NOUN	NNS	Number=Plur	1	parataxis	_	_
+8	or	or	CCONJ	CC	_	11	cc	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	workplace	workplace	NOUN	NN	Number=Sing	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	not	not	PART	RB	_	15	advmod	_	_
+15	conducive	conducive	ADJ	JJ	Degree=Pos	1	conj	_	_
+16	to	to	ADP	IN	_	25	case	_	_
+17	people	people	NOUN	NNS	Number=Plur	25	nmod:poss	_	SpaceAfter=No
+18	's	's	PART	POS	_	17	case	_	_
+19	well	well	ADV	RB	Degree=Pos	25	advmod	_	_
+20	being	be	AUX	VBG	VerbForm=Ger	25	cop	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	25	punct	_	_
+22	not	not	ADV	RB	_	25	advmod	_	_
+23	even	even	ADV	RB	_	25	advmod	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	smokers	smoker	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Smoking related illnesses and deaths are completely preventable and this is an irrefutably supported fact that thousands of doctors can attest to.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	3	amod	_	_
+2	related	related	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	illnesses	illness	NOUN	NNS	Number=Plur	8	nsubj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	deaths	death	NOUN	NNS	Number=Plur	3	conj	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	completely	completely	ADV	RB	_	8	advmod	_	_
+8	preventable	preventable	ADJ	JJ	Degree=Pos	0	root	_	_
+9	and	and	CCONJ	CC	_	15	cc	_	_
+10	this	this	PRON	DT	Number=Sing|PronType=Dem	15	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+12	an	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+13	irrefutably	irrefutably	ADV	RB	_	14	advmod	_	_
+14	supported	support	VERB	VBN	Tense=Past|VerbForm=Part	15	amod	_	_
+15	fact	fact	NOUN	NN	Number=Sing	8	conj	_	_
+16	that	that	SCONJ	IN	_	21	mark	_	_
+17	thousands	thousand	NOUN	NNS	Number=Plur	21	nsubj	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	doctors	doctor	NOUN	NNS	Number=Plur	17	nmod	_	_
+20	can	can	AUX	MD	VerbForm=Fin	21	aux	_	_
+21	attest	attest	VERB	VB	VerbForm=Inf	15	acl	_	_
+22	to	to	ADP	IN	_	21	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 6
+# text = Nobody that I know of, is trying to stick it to smokers, they are just trying to prolong their lives by cleaning up their immediate environments wherever they may be.
+1	Nobody	nobody	PRON	NN	Number=Sing	8	nsubj	_	_
+2	that	that	SCONJ	IN	_	4	mark	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	of	of	ADP	IN	_	4	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	stick	stick	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	smokers	smoker	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	8	punct	_	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
+16	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	just	just	ADV	RB	_	18	advmod	_	_
+18	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	8	ccomp	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	prolong	prolong	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+21	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	lives	life	NOUN	NNS	Number=Plur	20	obj	_	_
+23	by	by	SCONJ	IN	_	24	mark	_	_
+24	cleaning	clean	VERB	VBG	VerbForm=Ger	20	advcl	_	_
+25	up	up	ADP	RP	_	24	compound:prt	_	_
+26	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+27	immediate	immediate	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	environments	environments	NOUN	NNS	Number=Plur	24	obj	_	_
+29	wherever	wherever	ADV	WRB	PronType=Int	32	advmod	_	_
+30	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	32	nsubj	_	_
+31	may	may	AUX	MD	VerbForm=Fin	32	aux	_	_
+32	be	be	VERB	VB	VerbForm=Inf	18	advcl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 7
+# text = I believe that most sensible smokers would understand this and would be happy to oblige.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	8	mark	_	_
+4	most	most	ADJ	JJS	Degree=Sup	6	amod	_	_
+5	sensible	sensible	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	smokers	smoker	NOUN	NNS	Number=Plur	8	nsubj	_	_
+7	would	would	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	understand	understand	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	8	obj	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	would	would	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	be	be	AUX	VB	VerbForm=Inf	13	cop	_	_
+13	happy	happy	ADJ	JJ	Degree=Pos	8	conj	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	oblige	oblige	VERB	VB	VerbForm=Inf	13	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = I trust that there are a large number of sensible people in Japan who would also see this for what it is and that is that it's not a smokers' vendetta, just a long overdue clean up that need s to take place now without the need for any more bickering or political manoeuvring.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	trust	trust	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	5	mark	_	_
+4	there	there	PRON	EX	_	5	expl	_	_
+5	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	large	large	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	number	number	NOUN	NN	Number=Sing	5	nsubj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	sensible	sensible	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	people	people	NOUN	NNS	Number=Plur	8	nmod	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	Japan	Japan	PROPN	NNP	Number=Sing	11	nmod	_	_
+14	who	who	PRON	WP	PronType=Rel	17	nsubj	_	_
+15	would	would	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	also	also	ADV	RB	_	17	advmod	_	_
+17	see	see	VERB	VB	VerbForm=Inf	8	acl:relcl	_	_
+18	this	this	PRON	DT	Number=Sing|PronType=Dem	17	obj	_	_
+19	for	for	SCONJ	IN	_	20	case	_	_
+20	what	what	PRON	WP	PronType=Int	17	advcl	_	_
+21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+23	and	and	CCONJ	CC	_	25	cc	_	_
+24	that	that	PRON	DT	Number=Sing|PronType=Dem	25	nsubj	_	_
+25	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+26	that	that	SCONJ	IN	_	33	mark	_	_
+27	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	SpaceAfter=No
+28	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+29	not	not	PART	RB	_	31	advmod	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+31	smokers	smoker	NOUN	NNS	Number=Plur	33	nmod:poss	_	SpaceAfter=No
+32	'	'	PART	POS	_	31	case	_	_
+33	vendetta	vendetta	NOUN	NN	Number=Sing	25	ccomp	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	33	punct	_	_
+35	just	just	ADV	RB	_	39	advmod	_	_
+36	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+37	long	long	ADJ	JJ	Degree=Pos	39	amod	_	_
+38	overdue	overdue	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	clean	clean	NOUN	NN	Number=Sing	33	parataxis	_	_
+40	up	up	ADP	RP	_	41	case	_	_
+41	that	that	PRON	WDT	PronType=Rel	42	obl	_	_
+42	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	39	acl:relcl	_	_
+43	s	s	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	42	obl	_	_
+44	to	to	PART	TO	_	45	mark	_	_
+45	take	take	VERB	VB	VerbForm=Inf	42	xcomp	_	_
+46	place	place	NOUN	NN	Number=Sing	45	obj	_	_
+47	now	now	ADV	RB	_	45	advmod	_	_
+48	without	without	ADP	IN	_	50	case	_	_
+49	the	the	DET	DT	Definite=Def|PronType=Art	50	det	_	_
+50	need	need	NOUN	NN	Number=Sing	45	obl	_	_
+51	for	for	ADP	IN	_	57	case	_	_
+52	any	any	DET	DT	_	57	det	_	_
+53	more	more	ADV	RBR	_	54	advmod	_	_
+54	bickering	bickering	ADJ	JJ	Degree=Pos	57	amod	_	_
+55	or	or	CCONJ	CC	_	56	cc	_	_
+56	political	political	ADJ	JJ	Degree=Pos	54	conj	_	_
+57	manoeuvring	manoeuvring	NOUN	NN	Number=Sing	50	nmod	_	SpaceAfter=No
+58	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = This is not a game or an election and it should be given high priority because these deaths are preventable and there is no law that states that people should die needlessly that I am aware of.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	game	game	NOUN	NN	Number=Sing	0	root	_	_
+6	or	or	CCONJ	CC	_	8	cc	_	_
+7	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	election	election	NOUN	NN	Number=Sing	5	conj	_	_
+9	and	and	CCONJ	CC	_	13	cc	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj:pass	_	_
+11	should	should	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	be	be	AUX	VB	VerbForm=Inf	13	aux:pass	_	_
+13	given	give	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	_
+14	high	high	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	priority	priority	NOUN	NN	Number=Sing	13	obj	_	_
+16	because	because	SCONJ	IN	_	20	mark	_	_
+17	these	these	DET	DT	Number=Plur|PronType=Dem	18	det	_	_
+18	deaths	death	NOUN	NNS	Number=Plur	20	nsubj	_	_
+19	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	preventable	preventable	ADJ	JJ	Degree=Pos	13	advcl	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	there	there	PRON	EX	_	23	expl	_	_
+23	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+24	no	no	DET	DT	_	25	det	_	_
+25	law	law	NOUN	NN	Number=Sing	23	nsubj	_	_
+26	that	that	PRON	WDT	PronType=Rel	27	nsubj	_	_
+27	states	state	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+28	that	that	SCONJ	IN	_	31	mark	_	_
+29	people	people	NOUN	NNS	Number=Plur	31	nsubj	_	_
+30	should	should	AUX	MD	VerbForm=Fin	31	aux	_	_
+31	die	die	VERB	VB	VerbForm=Inf	27	ccomp	_	_
+32	needlessly	needlessly	ADV	RB	_	31	advmod	_	_
+33	that	that	SCONJ	IN	_	36	mark	_	_
+34	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj	_	_
+35	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	36	cop	_	_
+36	aware	aware	ADJ	JJ	Degree=Pos	31	ccomp	_	_
+37	of	of	ADP	IN	_	36	obl	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,328 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_ENS_PTJ0_001_EN_XX.txt
+# newpar
+# sent_id = 1
+# text = ﻿It's not important at all in my view.
+1	﻿It	﻿It	PROPN	NNP	Number=Sing	4	nsubj	_	SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+5	at	at	ADP	IN	_	6	case	_	_
+6	all	all	DET	DT	_	4	obl	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	view	view	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Students have far too much to worry about just trying to pass their exams let alone also trying to hold down a job while they study.
+1	Students	student	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	far	far	ADV	RB	Degree=Pos	5	advmod	_	_
+4	too	too	ADV	RB	_	5	advmod	_	_
+5	much	much	ADJ	JJ	Degree=Pos	2	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	worry	worry	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+8	about	about	SCONJ	IN	_	10	mark	_	_
+9	just	just	ADV	RB	_	10	advmod	_	_
+10	trying	try	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	pass	pass	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	exams	exams	NOUN	NNS	Number=Plur	12	obj	_	_
+15	let	let	VERB	VB	VerbForm=Inf	18	cc	_	_
+16	alone	alone	ADV	RB	_	15	fixed	_	_
+17	also	also	ADV	RB	_	18	advmod	_	_
+18	trying	try	VERB	VBG	VerbForm=Ger	12	xcomp	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	hold	hold	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+21	down	down	ADP	RP	_	20	compound:prt	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	job	job	NOUN	NN	Number=Sing	20	obj	_	_
+24	while	while	SCONJ	IN	_	26	mark	_	_
+25	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	_
+26	study	study	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	advcl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Some folks may disagree I know, but the fact still remains that in today's society, students are being taught to perform at high levels from primary school to university and/or college and quite frankly, it is a big ask.
+1	Some	some	DET	DT	_	2	det	_	_
+2	folks	folks	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	may	may	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	disagree	disagree	VERB	VB	VerbForm=Inf	0	root	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	but	but	CCONJ	CC	_	12	cc	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	fact	fact	NOUN	NN	Number=Sing	12	nsubj	_	_
+11	still	still	ADV	RB	_	12	advmod	_	_
+12	remains	remain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+13	that	that	PRON	DT	Number=Sing|PronType=Dem	12	obj	_	_
+14	in	in	ADP	IN	_	17	case	_	_
+15	today	today	NOUN	NN	Number=Sing	17	nmod:poss	_	SpaceAfter=No
+16	's	's	PART	POS	_	15	case	_	_
+17	society	society	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	students	student	NOUN	NNS	Number=Plur	22	nsubj:pass	_	_
+20	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	being	be	AUX	VBG	VerbForm=Ger	22	aux:pass	_	_
+22	taught	teach	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	ccomp	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	perform	perform	VERB	VB	VerbForm=Inf	22	xcomp	_	_
+25	at	at	ADP	IN	_	27	case	_	_
+26	high	high	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	levels	level	NOUN	NNS	Number=Plur	24	obl	_	_
+28	from	from	ADP	IN	_	30	case	_	_
+29	primary	primary	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	school	school	NOUN	NN	Number=Sing	24	obl	_	_
+31	to	to	ADP	IN	_	32	case	_	_
+32	university	university	NOUN	NN	Number=Sing	24	obl	_	_
+33	and	and	CCONJ	CC	_	36	cc	_	SpaceAfter=No
+34	/	/	PUNCT	,	_	35	punct	_	SpaceAfter=No
+35	or	or	CCONJ	CC	_	33	conj	_	_
+36	college	college	NOUN	NN	Number=Sing	32	conj	_	_
+37	and	and	CCONJ	CC	_	39	cc	_	_
+38	quite	quite	ADV	RB	_	39	advmod	_	_
+39	frankly	frankly	ADV	RB	_	24	advmod	_	SpaceAfter=No
+40	,	,	PUNCT	,	_	4	punct	_	_
+41	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	45	nsubj	_	_
+42	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	cop	_	_
+43	a	a	DET	DT	Definite=Ind|PronType=Art	45	det	_	_
+44	big	big	ADJ	JJ	Degree=Pos	45	amod	_	_
+45	ask	ask	NOUN	NN	Number=Sing	4	parataxis	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = This is particularly true when students are studying for more comprehensive careers such as in medicine etc where study loads are quite heavy and competition is high.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	particularly	particularly	ADV	RB	_	4	advmod	_	_
+4	true	true	ADJ	JJ	Degree=Pos	0	root	_	_
+5	when	when	ADV	WRB	PronType=Int	8	mark	_	_
+6	students	student	NOUN	NNS	Number=Plur	8	nsubj	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	studying	study	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	_	_
+9	for	for	ADP	IN	_	12	case	_	_
+10	more	more	ADJ	JJR	Degree=Cmp	12	amod	_	_
+11	comprehensive	comprehensive	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	careers	careers	NOUN	NNS	Number=Plur	8	obl	_	_
+13	such	such	ADJ	JJ	Degree=Pos	12	amod	_	_
+14	as	as	ADP	IN	_	13	fixed	_	_
+15	in	in	ADP	IN	_	16	case	_	_
+16	medicine	medicine	NOUN	NN	Number=Sing	13	obl	_	_
+17	etc	etc	X	FW	_	16	advmod	_	_
+18	where	where	ADV	WRB	PronType=Int	23	mark	_	_
+19	study	study	NOUN	NN	Number=Sing	20	compound	_	_
+20	loads	load	NOUN	NNS	Number=Plur	23	nsubj	_	_
+21	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	quite	quite	ADV	RB	_	23	advmod	_	_
+23	heavy	heavy	ADJ	JJ	Degree=Pos	16	advcl	_	_
+24	and	and	CCONJ	CC	_	27	cc	_	_
+25	competition	competition	NOUN	NN	Number=Sing	27	nsubj	_	_
+26	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+27	high	high	ADJ	JJ	Degree=Pos	23	conj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Being a student myself, I can't imagine trying to get within the top ten percent of my course and hold down a job as well, even if it is only for a few hours a week.
+1	Being	be	AUX	VBG	VerbForm=Ger	3	cop	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	student	student	NOUN	NN	Number=Sing	9	advcl	_	_
+4	myself	myself	PRON	PRP	Number=Sing|Person=1|PronType=Prs	3	nmod:npmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+7	ca	can	AUX	MD	VerbForm=Fin	9	aux	_	SpaceAfter=No
+8	n't	not	PART	RB	_	9	advmod	_	_
+9	imagine	imagine	VERB	VB	VerbForm=Inf	0	root	_	_
+10	trying	try	VERB	VBG	VerbForm=Ger	9	xcomp	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	get	get	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	within	within	ADP	IN	_	17	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+15	top	top	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	ten	ten	NOUN	NN	Number=Sing	17	compound	_	_
+17	percent	percent	NOUN	NN	Number=Sing	12	obl	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	course	course	NOUN	NN	Number=Sing	17	nmod	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	hold	hold	VERB	VB	VerbForm=Inf	12	conj	_	_
+23	down	down	ADP	RP	_	22	compound:prt	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	job	job	NOUN	NN	Number=Sing	22	obj	_	_
+26	as	as	ADV	RB	_	22	advmod	_	_
+27	well	well	ADV	RB	Degree=Pos	26	fixed	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	12	punct	_	_
+29	even	even	ADV	RB	_	37	advmod	_	_
+30	if	if	SCONJ	IN	_	37	mark	_	_
+31	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
+32	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+33	only	only	ADV	RB	_	37	advmod	_	_
+34	for	for	ADP	IN	_	37	case	_	_
+35	a	a	DET	DT	Definite=Ind|PronType=Art	37	det	_	_
+36	few	few	ADJ	JJ	Degree=Pos	37	amod	_	_
+37	hours	hour	NOUN	NNS	Number=Plur	12	advcl	_	_
+38	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+39	week	week	NOUN	NN	Number=Sing	37	nmod:npmod	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 6
+# text = It takes me all my time just to complete my study schedule on any given day without having to trundle off to a job at the local fast food shop.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	all	all	DET	PDT	_	6	det:predet	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	time	time	NOUN	NN	Number=Sing	2	obj	_	_
+7	just	just	ADV	RB	_	9	advmod	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	complete	complete	VERB	VB	VerbForm=Inf	2	advcl	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+11	study	study	NOUN	NN	Number=Sing	12	compound	_	_
+12	schedule	schedule	NOUN	NN	Number=Sing	9	obj	_	_
+13	on	on	ADP	IN	_	16	case	_	_
+14	any	any	DET	DT	_	16	det	_	_
+15	given	give	VERB	VBN	Tense=Past|VerbForm=Part	16	amod	_	_
+16	day	day	NOUN	NN	Number=Sing	9	obl	_	_
+17	without	without	SCONJ	IN	_	18	mark	_	_
+18	having	have	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	trundle	trundle	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+21	off	off	ADP	RP	_	20	compound:prt	_	_
+22	to	to	ADP	IN	_	24	case	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	job	job	NOUN	NN	Number=Sing	20	obl	_	_
+25	at	at	ADP	IN	_	30	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+27	local	local	ADJ	JJ	Degree=Pos	30	amod	_	_
+28	fast	fast	ADJ	JJ	Degree=Pos	30	amod	_	_
+29	food	food	NOUN	NN	Number=Sing	30	compound	_	_
+30	shop	shop	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = I know that several of my fellow students are in the same boat and feel the same way that I do.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	13	mark	_	_
+4	several	several	ADJ	JJ	Degree=Pos	13	nsubj	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	fellow	fellow	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	students	student	NOUN	NNS	Number=Plur	4	nmod	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	_
+10	in	in	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	same	same	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	boat	boat	NOUN	NN	Number=Sing	2	ccomp	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	conj	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	same	same	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	way	way	NOUN	NN	Number=Sing	15	obj	_	_
+19	that	that	PRON	WDT	PronType=Rel	21	obj	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = We have a tremendous amount of reading to do, just to try to keep up with our workload.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	tremendous	tremendous	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	amount	amount	NOUN	NN	Number=Sing	2	obj	_	_
+6	of	of	SCONJ	IN	_	7	mark	_	_
+7	reading	reading	VERB	VBG	VerbForm=Ger	5	acl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	do	do	VERB	VB	VerbForm=Inf	7	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	just	just	ADV	RB	_	13	advmod	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	try	try	VERB	VB	VerbForm=Inf	2	advcl	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	keep	keep	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+16	up	up	ADP	RP	_	15	compound:prt	_	_
+17	with	with	ADP	IN	_	19	case	_	_
+18	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	workload	workload	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = For me to pass with high scores, I know that I couldn't possibly take on a job and still perform at a high level.
+1	For	for	ADP	IN	_	2	case	_	_
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obl	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	pass	pass	VERB	VB	VerbForm=Inf	2	advcl	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	high	high	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	scores	score	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	that	that	SCONJ	IN	_	16	mark	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+13	could	could	AUX	MD	VerbForm=Fin	16	aux	_	SpaceAfter=No
+14	n't	not	PART	RB	_	16	advmod	_	_
+15	possibly	possibly	ADV	RB	_	16	advmod	_	_
+16	take	take	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+17	on	on	ADP	RP	_	19	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	job	job	NOUN	NN	Number=Sing	16	obl	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	still	still	ADV	RB	_	22	advmod	_	_
+22	perform	perform	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	conj	_	_
+23	at	at	ADP	IN	_	26	case	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+25	high	high	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	level	level	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 10
+# text = On that basis, I don't believe that it is important for students to have a part-time job because I believe, for me anyway, that it is more important to focus on studies and let the jobs come later.
+1	On	on	ADP	IN	_	3	case	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	basis	basis	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
+7	n't	not	PART	RB	_	8	advmod	_	_
+8	believe	believe	VERB	VB	VerbForm=Inf	0	root	_	_
+9	that	that	SCONJ	IN	_	12	mark	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	important	important	ADJ	JJ	Degree=Pos	8	ccomp	_	_
+13	for	for	SCONJ	IN	_	16	mark	_	_
+14	students	student	NOUN	NNS	Number=Plur	16	nsubj	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	have	have	VERB	VB	VerbForm=Inf	12	csubj	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+18	part	part	NOUN	NN	Number=Sing	20	compound	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	20	punct	_	SpaceAfter=No
+20	time	time	NOUN	NN	Number=Sing	21	compound	_	_
+21	job	job	NOUN	NN	Number=Sing	16	obj	_	_
+22	because	because	SCONJ	IN	_	24	mark	_	_
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+24	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	24	punct	_	_
+26	for	for	ADP	IN	_	27	case	_	_
+27	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	obl	_	_
+28	anyway	anyway	ADV	RB	_	24	advmod	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	24	punct	_	_
+30	that	that	SCONJ	IN	_	34	mark	_	_
+31	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
+32	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+33	more	more	ADV	RBR	_	34	advmod	_	_
+34	important	important	ADJ	JJ	Degree=Pos	24	ccomp	_	_
+35	to	to	PART	TO	_	36	mark	_	_
+36	focus	focus	VERB	VB	VerbForm=Inf	34	advcl	_	_
+37	on	on	ADP	IN	_	38	case	_	_
+38	studies	study	NOUN	NNS	Number=Plur	36	obl	_	_
+39	and	and	CCONJ	CC	_	40	cc	_	_
+40	let	let	VERB	VB	VerbForm=Inf	36	conj	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+42	jobs	job	NOUN	NNS	Number=Plur	40	obj	_	_
+43	come	come	VERB	VB	VerbForm=Inf	40	xcomp	_	_
+44	later	later	ADV	RB	_	43	advmod	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

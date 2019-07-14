@@ -1,0 +1,249 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_ENS_PTJ0_015_EN_XX.txt
+# newpar
+# sent_id = 1
+# text = ﻿For the majority of college students, a part-time job is an important part of the college experience.
+1	﻿For	﻿For	CCONJ	CC	_	3	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	majority	majority	NOUN	NN	Number=Sing	0	root	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	college	college	NOUN	NN	Number=Sing	6	compound	_	_
+6	students	student	NOUN	NNS	Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+9	part	part	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	-time	-time	NOUN	NN	Number=Sing	11	compound	_	_
+11	job	job	NOUN	NN	Number=Sing	15	nsubj	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	an	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	important	important	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	part	part	NOUN	NN	Number=Sing	3	parataxis	_	_
+16	of	of	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	college	college	NOUN	NN	Number=Sing	19	compound	_	_
+19	experience	experience	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = This is because they can meet a variety of new people with a variety of new opinions and ideas.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	because	because	SCONJ	IN	_	6	mark	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	meet	meet	VERB	VB	VerbForm=Inf	2	advcl	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	variety	variety	NOUN	NN	Number=Sing	6	obj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	new	new	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	people	people	NOUN	NNS	Number=Plur	8	nmod	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	variety	variety	NOUN	NN	Number=Sing	8	nmod	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	new	new	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	opinions	opinion	NOUN	NNS	Number=Plur	14	nmod	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	ideas	idea	NOUN	NNS	Number=Plur	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Having a part-time job allows you to meet people you might never have met if you do not have one.
+1	Having	have	VERB	VBG	VerbForm=Ger	7	csubj	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+3	part	part	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	time	time	NOUN	NN	Number=Sing	6	compound	_	_
+6	job	job	NOUN	NN	Number=Sing	1	obj	_	_
+7	allows	allow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	meet	meet	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+11	people	people	NOUN	NNS	Number=Plur	10	obj	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+13	might	might	AUX	MD	VerbForm=Fin	16	aux	_	_
+14	never	never	ADV	RB	_	16	advmod	_	_
+15	have	have	AUX	VB	VerbForm=Inf	16	aux	_	_
+16	met	meet	VERB	VBN	Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+17	if	if	SCONJ	IN	_	21	mark	_	_
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	21	nsubj	_	_
+19	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	not	not	PART	RB	_	21	advmod	_	_
+21	have	have	VERB	VB	VerbForm=Inf	16	advcl	_	_
+22	one	one	NUM	CD	NumType=Card	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = For example, I work in the call center at the university, and a lot of the people I've met there are not from the United States.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	work	work	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	call	call	NOUN	NN	Number=Sing	9	compound	_	_
+9	center	center	NOUN	NN	Number=Sing	5	obl	_	_
+10	at	at	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	university	university	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	lot	lot	NOUN	NN	Number=Sing	5	conj	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	people	people	NOUN	NNS	Number=Plur	16	nmod	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	SpaceAfter=No
+21	've	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	met	meet	VERB	VBN	Tense=Past|VerbForm=Part	24	acl:relcl	_	_
+23	there	there	PRON	EX	_	24	expl	_	_
+24	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+25	not	not	PART	RB	_	24	advmod	_	_
+26	from	from	ADP	IN	_	29	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+28	United	United	PROPN	NNP	Number=Sing	29	compound	_	_
+29	States	States	PROPN	NNP	Number=Sing	24	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = It is extremely interesting to talk to people who are not from the same country as you because they have a very different culture and a very different way of thinking.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	extremely	extremely	ADV	RB	_	4	advmod	_	_
+4	interesting	interesting	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	talk	talk	VERB	VB	VerbForm=Inf	4	csubj	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	people	people	NOUN	NNS	Number=Plur	6	obl	_	_
+9	who	who	PRON	WP	PronType=Rel	15	nsubj	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	_
+11	not	not	PART	RB	_	15	advmod	_	_
+12	from	from	ADP	IN	_	15	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	same	same	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	country	country	NOUN	NN	Number=Sing	8	acl:relcl	_	_
+16	as	as	ADP	IN	_	17	case	_	_
+17	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	15	obl	_	_
+18	because	because	SCONJ	IN	_	20	mark	_	_
+19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+20	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+22	very	very	ADV	RB	_	23	advmod	_	_
+23	different	different	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	culture	culture	NOUN	NN	Number=Sing	20	obj	_	_
+25	and	and	CCONJ	CC	_	29	cc	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+27	very	very	ADV	RB	_	28	advmod	_	_
+28	different	different	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	way	way	NOUN	NN	Number=Sing	24	conj	_	_
+30	of	of	SCONJ	IN	_	31	mark	_	_
+31	thinking	think	VERB	VBG	VerbForm=Ger	29	acl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = If I never had a part-time job like this, I would never have made these friends and I would not have had the opportunity to learn about all these different ways of thinking.
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	advcl	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+6	part	part	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	time	time	NOUN	NN	Number=Sing	9	compound	_	_
+9	job	job	NOUN	NN	Number=Sing	4	obj	_	_
+10	like	like	ADP	IN	_	11	case	_	_
+11	this	this	PRON	DT	Number=Sing|PronType=Dem	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	17	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+14	would	would	AUX	MD	VerbForm=Fin	17	aux	_	_
+15	never	never	ADV	RB	_	17	advmod	_	_
+16	have	have	AUX	VB	VerbForm=Inf	17	aux	_	_
+17	made	make	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+18	these	these	DET	DT	Number=Plur|PronType=Dem	19	det	_	_
+19	friends	friend	NOUN	NNS	Number=Plur	17	obj	_	_
+20	and	and	CCONJ	CC	_	25	cc	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+22	would	would	AUX	MD	VerbForm=Fin	25	aux	_	_
+23	not	not	PART	RB	_	25	advmod	_	_
+24	have	have	AUX	VB	VerbForm=Inf	25	aux	_	_
+25	had	have	VERB	VBN	Tense=Past|VerbForm=Part	17	conj	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	opportunity	opportunity	NOUN	NN	Number=Sing	25	obj	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	learn	learn	VERB	VB	VerbForm=Inf	27	acl	_	_
+30	about	about	ADP	IN	_	34	case	_	_
+31	all	all	DET	PDT	_	34	det:predet	_	_
+32	these	these	DET	DT	Number=Plur|PronType=Dem	34	det	_	_
+33	different	different	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	ways	way	NOUN	NNS	Number=Plur	29	obl	_	_
+35	of	of	SCONJ	IN	_	36	mark	_	_
+36	thinking	think	VERB	VBG	VerbForm=Ger	34	acl	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 7
+# text = The only problem is that sometimes I feel very stressed with school and work and I feel like I don't have enough time to do everything I need to do.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	only	only	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	problem	problem	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	sometimes	sometimes	ADV	RB	_	8	advmod	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+9	very	very	ADV	RB	_	10	advmod	_	_
+10	stressed	stressed	ADJ	JJ	Degree=Pos	8	xcomp	_	_
+11	with	with	ADP	IN	_	12	case	_	_
+12	school	school	NOUN	NN	Number=Sing	10	obl	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	work	work	NOUN	NN	Number=Sing	12	conj	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	_
+18	like	like	SCONJ	IN	_	22	mark	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+20	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	SpaceAfter=No
+21	n't	not	PART	RB	_	22	advmod	_	_
+22	have	have	VERB	VB	VerbForm=Inf	17	advcl	_	_
+23	enough	enough	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	time	time	NOUN	NN	Number=Sing	22	obj	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	do	do	VERB	VB	VerbForm=Inf	22	xcomp	_	_
+27	everything	everything	PRON	NN	Number=Sing	26	obj	_	_
+28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
+29	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+30	to	to	PART	TO	_	31	mark	_	_
+31	do	do	VERB	VB	VerbForm=Inf	29	xcomp	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = However, it is very nice to make a little bit of extra money for going out on the weekends and having a good time with your friends.
+1	However	however	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	nice	nice	ADJ	JJ	Degree=Pos	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	make	make	VERB	VB	VerbForm=Inf	6	csubj	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	little	little	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	bit	bit	NOUN	NN	Number=Sing	8	obj	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	extra	extra	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	money	money	NOUN	NN	Number=Sing	11	nmod	_	_
+15	for	for	SCONJ	IN	_	16	mark	_	_
+16	going	go	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+17	out	out	ADV	RB	_	16	advmod	_	_
+18	on	on	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	weekends	weekend	NOUN	NNS	Number=Plur	16	obl	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	having	have	VERB	VBG	VerbForm=Ger	16	conj	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+24	good	good	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	time	time	NOUN	NN	Number=Sing	22	obj	_	_
+26	with	with	ADP	IN	_	28	case	_	_
+27	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	friends	friend	NOUN	NNS	Number=Plur	22	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

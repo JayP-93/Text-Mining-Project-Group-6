@@ -1,0 +1,346 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_ENS_SMK0_104_EN_XX.txt
+# newpar
+# sent_id = 1
+# text = ﻿I totally agree with this opinion.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	totally	totally	ADV	RB	_	3	advmod	_	_
+3	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	opinion	opinion	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Recent studies have shown that second-hand smoke is a major contributor to lung cancer and other diseases associated with tobacco and the cancerous carcinogens produced from its burning.
+1	Recent	recent	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	studies	study	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	shown	show	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	that	that	SCONJ	IN	_	13	mark	_	_
+6	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	8	amod	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	hand	hand	NOUN	NN	Number=Sing	9	compound	_	_
+9	smoke	smoke	NOUN	NN	Number=Sing	13	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	major	major	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	contributor	contributor	NOUN	NN	Number=Sing	4	ccomp	_	_
+14	to	to	ADP	IN	_	16	case	_	_
+15	lung	ling	NOUN	NN	Number=Sing	16	compound	_	_
+16	cancer	cancer	NOUN	NN	Number=Sing	13	nmod	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	other	other	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	diseases	diseases	NOUN	NNS	Number=Plur	16	conj	_	_
+20	associated	associate	VERB	VBN	Tense=Past|VerbForm=Part	19	acl	_	_
+21	with	with	ADP	IN	_	22	case	_	_
+22	tobacco	tobacco	NOUN	NN	Number=Sing	20	obl	_	_
+23	and	and	CCONJ	CC	_	26	cc	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+25	cancerous	cancerous	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	carcinogens	carcinogen	NOUN	NNS	Number=Plur	22	conj	_	_
+27	produced	produce	VERB	VBN	Tense=Past|VerbForm=Part	26	acl	_	_
+28	from	from	ADP	IN	_	30	case	_	_
+29	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	burning	burning	VERB	VBG	VerbForm=Ger	27	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Restaurants, though privately owned, are opened to the general public.
+1	Restaurants	restaurant	NOUN	NNS	Number=Plur	8	nsubj:pass	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	though	though	SCONJ	IN	_	5	mark	_	_
+4	privately	privately	ADV	RB	_	5	advmod	_	_
+5	owned	own	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	opened	open	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	to	to	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	general	general	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	public	public	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 4
+# text = In the case of allowing smokers to freely smoke and fill the air that is commonly breathed by all customers, smokers and non-smokers alike, restaurant owners are exposing the innocent to hazardous and life-threatening conditions.
+1	In	in	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	case	case	NOUN	NN	Number=Sing	0	root	_	_
+4	of	of	SCONJ	IN	_	5	mark	_	_
+5	allowing	allow	VERB	VBG	VerbForm=Ger	3	acl	_	_
+6	smokers	smoker	NOUN	NNS	Number=Plur	5	obj	_	_
+7	to	to	PART	TO	_	9	mark	_	_
+8	freely	freely	ADV	RB	_	9	advmod	_	_
+9	smoke	smoke	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	fill	fill	VERB	VB	VerbForm=Inf	9	conj	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	air	air	NOUN	NN	Number=Sing	11	obj	_	_
+14	that	that	PRON	WDT	PronType=Rel	17	nsubj:pass	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+16	commonly	commonly	ADV	RB	_	17	advmod	_	_
+17	breathed	breath	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	acl:relcl	_	_
+18	by	by	ADP	IN	_	20	case	_	_
+19	all	all	DET	DT	_	20	det	_	_
+20	customers	customer	NOUN	NNS	Number=Plur	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	_	_
+22	smokers	smoker	NOUN	NNS	Number=Plur	20	conj	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	non-smokers	non-smoker	NOUN	NNS	Number=Plur	20	conj	_	_
+25	alike	alike	ADJ	JJ	Degree=Pos	27	amod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	27	punct	_	_
+27	restaurant	restaurant	NOUN	NN	Number=Sing	20	conj	_	_
+28	owners	owner	NOUN	NNS	Number=Plur	30	nsubj	_	_
+29	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	exposing	expose	VERB	VBG	Tense=Pres|VerbForm=Part	27	parataxis	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	innocent	innocent	NOUN	NN	Number=Sing	30	obj	_	_
+33	to	to	ADP	IN	_	34	case	_	_
+34	hazardous	hazardous	NOUN	NNS	Number=Plur	30	obl	_	_
+35	and	and	CCONJ	CC	_	38	cc	_	_
+36	life	life	NOUN	NN	Number=Sing	37	compound	_	SpaceAfter=No
+37	-threatening	-threaten	VERB	VBG	VerbForm=Ger	38	amod	_	_
+38	conditions	condition	NOUN	NNS	Number=Plur	34	conj	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	30	punct	_	_
+
+# sent_id = 5
+# text = It is not sufficient to merely partition off areas for smokers when the air can freely pass throughout the establishment.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	sufficient	sufficient	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	7	mark	_	_
+6	merely	merely	ADV	RB	_	7	advmod	_	_
+7	partition	partition	VERB	VB	VerbForm=Inf	4	csubj	_	_
+8	off	off	ADP	RP	_	9	case	_	_
+9	areas	area	NOUN	NNS	Number=Plur	7	obl	_	_
+10	for	for	ADP	IN	_	11	case	_	_
+11	smokers	smoker	NOUN	NNS	Number=Plur	7	obl	_	_
+12	when	when	ADV	WRB	PronType=Int	17	mark	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	air	air	NOUN	NN	Number=Sing	17	nsubj	_	_
+15	can	can	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	freely	freely	ADV	RB	_	17	advmod	_	_
+17	pass	pass	VERB	VB	VerbForm=Inf	7	advcl	_	_
+18	throughout	throughout	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	establishment	establishment	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = In addition to exposing non-smokers to the hazards of cancer causing carcinogens restaurant owners are also bringing the foul smell of smoke filled air onto the clothing and bodies of non-smoking customers.
+1	In	in	ADP	IN	_	2	case	_	_
+2	addition	addition	NOUN	NN	Number=Sing	33	obl	_	_
+3	to	to	SCONJ	IN	_	4	mark	_	_
+4	exposing	expose	VERB	VBG	VerbForm=Ger	2	acl	_	_
+5	non-smokers	non-smoker	NOUN	NNS	Number=Plur	4	obj	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	hazards	hazard	NOUN	NNS	Number=Plur	4	obl	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	cancer	cancer	NOUN	NN	Number=Sing	8	nmod	_	_
+11	causing	cause	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+12	carcinogens	carcinogen	NOUN	NNS	Number=Plur	13	compound	_	_
+13	restaurant	restaurant	NOUN	NN	Number=Sing	14	compound	_	_
+14	owners	owner	NOUN	NNS	Number=Plur	17	nsubj	_	_
+15	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	also	also	ADV	RB	_	17	advmod	_	_
+17	bringing	bring	VERB	VBG	Tense=Pres|VerbForm=Part	11	ccomp	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	foul	foul	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	smell	smell	NOUN	NN	Number=Sing	17	obj	_	_
+21	of	of	ADP	IN	_	24	case	_	_
+22	smoke	smoke	NOUN	NN	Number=Sing	24	compound	_	_
+23	filled	fill	VERB	VBN	Tense=Past|VerbForm=Part	24	amod	_	_
+24	air	air	NOUN	NN	Number=Sing	20	nmod	_	_
+25	onto	onto	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	clothing	clothing	NOUN	NN	Number=Sing	17	obl	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	bodies	body	NOUN	NNS	Number=Plur	27	conj	_	_
+30	of	of	ADP	IN	_	32	case	_	_
+31	non-smoking	non-smoking	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	customers	customer	NOUN	NNS	Number=Plur	27	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 7
+# text = Non-smoking customers will be forced to pay cleaning costs to rid their clothing of these foul smells.
+1	Non-smoking	Non-smoking	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	customers	customer	NOUN	NNS	Number=Plur	5	nsubj:pass	_	_
+3	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	forced	force	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	pay	pay	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	cleaning	clean	VERB	VBG	VerbForm=Ger	9	amod	_	_
+9	costs	cost	NOUN	NNS	Number=Plur	7	obj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	rid	ry	VERB	VB	VerbForm=Inf	7	advcl	_	_
+12	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	clothing	clothing	NOUN	NN	Number=Sing	11	obj	_	_
+14	of	of	ADP	IN	_	17	case	_	_
+15	these	these	DET	DT	Number=Plur|PronType=Dem	17	det	_	_
+16	foul	foul	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	smells	smell	NOUN	NNS	Number=Plur	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = Furthermore, it has been proved that nicotine contained in tobacco has addictive properties.
+1	Furthermore	furthermore	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	_
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	proved	prove	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	that	that	SCONJ	IN	_	12	mark	_	_
+8	nicotine	nicotine	NUM	CD	NumType=Card	12	nsubj	_	_
+9	contained	contain	VERB	VBN	Tense=Past|VerbForm=Part	8	acl	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	tobacco	tobacco	NOUN	NN	Number=Sing	9	obl	_	_
+12	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+13	addictive	addictive	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	properties	property	NOUN	NNS	Number=Plur	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 9
+# text = I suppose a case could be made that restaurants which allow smoke filled air to mingle with non-smoking customers could be accused of contributing to the non-voluntary addiction to nicotine of their non-smoking cliental.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	case	case	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+5	could	could	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+8	that	that	SCONJ	IN	_	22	mark	_	_
+9	restaurants	restaurant	NOUN	NNS	Number=Plur	22	nsubj:pass	_	_
+10	which	which	PRON	WDT	PronType=Rel	11	nsubj	_	_
+11	allow	allow	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	smoke	smoke	NOUN	NN	Number=Sing	11	obj	_	_
+13	filled	fill	VERB	VBN	Tense=Past|VerbForm=Part	14	amod	_	_
+14	air	air	NOUN	NN	Number=Sing	12	obj	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	mingle	mingle	VERB	VB	VerbForm=Inf	14	acl	_	_
+17	with	with	ADP	IN	_	19	case	_	_
+18	non-smoking	non-smoking	NOUN	NN	Number=Sing	19	compound	_	_
+19	customers	customer	NOUN	NNS	Number=Plur	16	obl	_	_
+20	could	could	AUX	MD	VerbForm=Fin	22	aux	_	_
+21	be	be	AUX	VB	VerbForm=Inf	22	aux:pass	_	_
+22	accused	accuse	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	ccomp	_	_
+23	of	of	SCONJ	IN	_	24	mark	_	_
+24	contributing	contribut	VERB	VBG	VerbForm=Ger	22	advcl	_	_
+25	to	to	ADP	IN	_	28	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+27	non-voluntary	non-voluntary	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	addiction	addiction	NOUN	NN	Number=Sing	24	obl	_	_
+29	to	to	ADP	IN	_	30	case	_	_
+30	nicotine	nicotine	NUM	CD	NumType=Card	24	obl	_	_
+31	of	of	ADP	IN	_	34	case	_	_
+32	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+33	non-smoking	non-smoking	NOUN	NN	Number=Sing	34	compound	_	_
+34	cliental	cliental	NOUN	NN	Number=Sing	30	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = Finally, there is the issue of health costs.
+1	Finally	finally	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	there	there	PRON	EX	_	4	expl	_	_
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	issue	issue	NOUN	NN	Number=Sing	9	nsubj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	health	health	NOUN	NN	Number=Sing	6	nmod	_	_
+9	costs	cost	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = With the national government (Japan) bearing the largest burden of health care, allowing restaurants to continue a free smoking policy will only place a larger financial burden on all citizens, i.
+1	With	with	SCONJ	IN	_	8	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	national	national	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	government	government	NOUN	NN	Number=Sing	8	nsubj	_	_
+5	(	(	PUNCT	-LRB-	_	6	punct	_	SpaceAfter=No
+6	Japan	Japan	PROPN	NNP	Number=Sing	4	appos	_	SpaceAfter=No
+7	)	)	PUNCT	-RRB-	_	6	punct	_	_
+8	bearing	bear	VERB	VBG	VerbForm=Ger	26	advcl	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	largest	largest	ADJ	JJS	Degree=Sup	11	amod	_	_
+11	burden	burden	NOUN	NN	Number=Sing	8	obj	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	health	health	NOUN	NN	Number=Sing	14	compound	_	_
+14	care	care	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	26	punct	_	_
+16	allowing	allow	VERB	VBG	VerbForm=Ger	17	amod	_	_
+17	restaurants	restaurant	NOUN	NNS	Number=Plur	26	nsubj	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	continue	continue	VERB	VB	VerbForm=Inf	17	acl	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+21	free	free	ADJ	JJ	Degree=Pos	23	amod	_	_
+22	smoking	smoking	NOUN	NN	Number=Sing	23	compound	_	_
+23	policy	policy	NOUN	NN	Number=Sing	19	obj	_	_
+24	will	will	AUX	MD	VerbForm=Fin	26	aux	_	_
+25	only	only	ADV	RB	_	26	advmod	_	_
+26	place	place	VERB	VB	VerbForm=Inf	0	root	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+28	larger	larger	ADJ	JJR	Degree=Cmp	30	amod	_	_
+29	financial	financial	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	burden	burden	NOUN	NN	Number=Sing	26	obj	_	_
+31	on	on	ADP	IN	_	33	case	_	_
+32	all	all	DET	DT	_	33	det	_	_
+33	citizens	citizen	NOUN	NNS	Number=Plur	30	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	26	punct	_	_
+35	i	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	26	punct	_	_
+
+# sent_id = 12
+# text = e. increased taxes to cover these costs.
+1	e.	e.	X	FW	_	3	advmod	_	_
+2	increased	increase	VERB	VBN	Tense=Past|VerbForm=Part	3	amod	_	_
+3	taxes	tax	NOUN	NNS	Number=Plur	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	cover	cover	VERB	VB	VerbForm=Inf	3	acl	_	_
+6	these	these	DET	DT	Number=Plur|PronType=Dem	7	det	_	_
+7	costs	cost	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 13
+# text = With these potential complaints and even law-suits, not to mention the financial burden associated with increased health care costs, it seems in the best interest of all to totally ban smoking in all restaurants.
+1	With	with	SCONJ	IN	_	13	mark	_	_
+2	these	these	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+3	potential	potential	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	complaints	complaint	NOUN	NNS	Number=Plur	13	nsubj	_	_
+5	and	and	CCONJ	CC	_	9	cc	_	_
+6	even	even	ADV	RB	_	9	advmod	_	_
+7	law	law	NOUN	NN	Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	_	SpaceAfter=No
+9	suits	suit	NOUN	NNS	Number=Plur	4	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	_
+11	not	not	ADV	RB	_	13	advmod	_	_
+12	to	to	PART	TO	_	11	fixed	_	_
+13	mention	mention	VERB	VB	VerbForm=Inf	25	advcl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	financial	financial	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	burden	burden	NOUN	NN	Number=Sing	22	nsubj	_	_
+17	associated	associate	VERB	VBN	Tense=Past|VerbForm=Part	16	acl	_	_
+18	with	with	ADP	IN	_	21	case	_	_
+19	increased	increase	VERB	VBN	Tense=Past|VerbForm=Part	21	amod	_	_
+20	health	health	NOUN	NN	Number=Sing	21	compound	_	_
+21	care	care	NOUN	NN	Number=Sing	17	obl	_	_
+22	costs	cost	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	25	punct	_	_
+24	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+25	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+26	in	in	ADP	IN	_	29	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+28	best	best	ADJ	JJS	Degree=Sup	29	amod	_	_
+29	interest	interest	NOUN	NN	Number=Sing	25	obl	_	_
+30	of	of	ADP	IN	_	31	case	_	_
+31	all	all	DET	DT	_	29	nmod	_	_
+32	to	to	ADP	IN	_	35	case	_	_
+33	totally	totally	ADV	RB	_	34	advmod	_	_
+34	ban	ban	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	smoking	smoke	NOUN	NN	Number=Sing	29	nmod	_	_
+36	in	in	ADP	IN	_	38	case	_	_
+37	all	all	DET	DT	_	38	det	_	_
+38	restaurants	restaurant	NOUN	NNS	Number=Plur	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	25	punct	_	SpacesAfter=\n
+

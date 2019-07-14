@@ -1,0 +1,268 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_ENS_SMK0_158_EN_XX.txt
+# newpar
+# sent_id = 1
+# text = ﻿Being and ex-smoker, I agree.
+1	﻿Being	﻿Being	PROPN	NNP	Number=Sing	0	root	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	ex-smoker	ex-smoker	NOUN	NN	Number=Sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = I am not agreeing just because I have stopped smoking though.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	agreeing	agree	VERB	VBG	VerbForm=Ger	0	root	_	_
+5	just	just	ADV	RB	_	4	advmod	_	_
+6	because	because	SCONJ	IN	_	9	mark	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	stopped	stop	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	_	_
+10	smoking	smoke	VERB	VBG	VerbForm=Ger	9	xcomp	_	_
+11	though	though	ADV	RB	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I am agreeing because I think that even if I was still smoking, it is not fair to others that they should have to suffer for my bad habits.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	agreeing	agree	VERB	VBG	VerbForm=Ger	0	root	_	_
+4	because	because	SCONJ	IN	_	6	mark	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7	that	that	SCONJ	IN	_	13	mark	_	_
+8	even	even	ADV	RB	_	13	advmod	_	_
+9	if	if	SCONJ	IN	_	13	mark	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	aux	_	_
+12	still	still	ADV	RB	_	13	advmod	_	_
+13	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	6	ccomp	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	3	punct	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	not	not	PART	RB	_	18	advmod	_	_
+18	fair	fair	ADJ	JJ	Degree=Pos	3	parataxis	_	_
+19	to	to	ADP	IN	_	20	case	_	_
+20	others	other	NOUN	NNS	Number=Plur	18	obl	_	_
+21	that	that	SCONJ	IN	_	24	mark	_	_
+22	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
+23	should	should	AUX	MD	VerbForm=Fin	24	aux	_	_
+24	have	have	VERB	VB	VerbForm=Inf	18	ccomp	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	suffer	suffer	VERB	VB	VerbForm=Inf	24	xcomp	_	_
+27	for	for	ADP	IN	_	30	case	_	_
+28	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+29	bad	bad	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	habits	habit	NOUN	NNS	Number=Plur	26	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = There are the kids to think of as well as people who may have some sort of illness like asthma or bronchitis which we don't always know about because we don't know them personally.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	kids	kid	NOUN	NNS	Number=Plur	2	nsubj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	think	think	VERB	VB	VerbForm=Inf	4	acl	_	_
+7	of	of	ADP	IN	_	6	obl	_	_
+8	as	as	ADV	RB	_	11	advmod	_	_
+9	well	well	ADV	RB	Degree=Pos	8	fixed	_	_
+10	as	as	ADP	IN	_	11	case	_	_
+11	people	people	NOUN	NNS	Number=Plur	6	obl	_	_
+12	who	who	PRON	WP	PronType=Rel	14	nsubj	_	_
+13	may	may	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	have	have	VERB	VB	VerbForm=Inf	11	acl:relcl	_	_
+15	some	some	DET	DT	_	16	det	_	_
+16	sort	sort	NOUN	NN	Number=Sing	14	obj	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	illness	illness	NOUN	NN	Number=Sing	16	nmod	_	_
+19	like	like	ADP	IN	_	20	case	_	_
+20	asthma	asthma	NOUN	NN	Number=Sing	18	nmod	_	_
+21	or	or	CCONJ	CC	_	22	cc	_	_
+22	bronchitis	bronchitis	NOUN	NNS	Number=Plur	20	conj	_	_
+23	which	which	PRON	WDT	PronType=Rel	28	obj	_	_
+24	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	28	nsubj	_	_
+25	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	28	aux	_	SpaceAfter=No
+26	n't	not	PART	RB	_	28	advmod	_	_
+27	always	always	ADV	RB	_	28	advmod	_	_
+28	know	know	VERB	VB	VerbForm=Inf	20	acl:relcl	_	_
+29	about	about	ADV	RB	_	14	obl	_	_
+30	because	because	SCONJ	IN	_	34	mark	_	_
+31	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	34	nsubj	_	_
+32	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	34	aux	_	SpaceAfter=No
+33	n't	not	PART	RB	_	34	advmod	_	_
+34	know	know	VERB	VB	VerbForm=Inf	14	advcl	_	_
+35	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	34	obj	_	_
+36	personally	personally	ADV	RB	_	34	advmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = I reckon that if I want to smoke, then that is my business, but it is everybody's business if I start puffing smoke at them or in their air space.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	reckon	reckon	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	14	mark	_	_
+4	if	if	SCONJ	IN	_	6	mark	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	smoke	smoke	VERB	VB	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	then	then	ADV	RB	PronType=Dem	14	advmod	_	_
+11	that	that	PRON	DT	Number=Sing|PronType=Dem	14	nsubj	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	business	business	NOUN	NN	Number=Sing	2	ccomp	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	but	but	CCONJ	CC	_	18	cc	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	_
+18	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+19	everybody	everybody	PRON	NN	Number=Sing	21	nmod:poss	_	SpaceAfter=No
+20	's	's	PART	POS	_	19	case	_	_
+21	business	business	NOUN	NN	Number=Sing	18	nsubj	_	_
+22	if	if	SCONJ	IN	_	24	mark	_	_
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+24	start	start	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+25	puffing	puffe	VERB	VBG	VerbForm=Ger	26	amod	_	_
+26	smoke	smoke	NOUN	NN	Number=Sing	24	obj	_	_
+27	at	at	ADP	IN	_	28	case	_	_
+28	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	24	obl	_	_
+29	or	or	CCONJ	CC	_	33	cc	_	_
+30	in	in	ADP	IN	_	33	case	_	_
+31	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+32	air	air	NOUN	NN	Number=Sing	33	compound	_	_
+33	space	space	NOUN	NN	Number=Sing	24	conj	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = That to me is just being arrogant and rude and displays a total disregard for others.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	_
+2	to	to	ADP	IN	_	3	case	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	nmod	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	just	just	ADV	RB	_	7	advmod	_	_
+6	being	be	AUX	VBG	VerbForm=Ger	7	cop	_	_
+7	arrogant	arrogant	ADJ	JJ	Degree=Pos	0	root	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	rude	rude	ADJ	JJ	Degree=Pos	7	conj	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	displays	display	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	total	total	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	disregard	disregard	NOUN	NN	Number=Sing	11	obj	_	_
+15	for	for	ADP	IN	_	16	case	_	_
+16	others	other	NOUN	NNS	Number=Plur	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 7
+# text = I would support restaurant bans in Japan or any country in return for a place where smokers could go to smoke without endangering others.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	support	support	VERB	VB	VerbForm=Inf	0	root	_	_
+4	restaurant	restaurant	NOUN	NN	Number=Sing	5	compound	_	_
+5	bans	ban	NOUN	NNS	Number=Plur	3	obj	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	Japan	Japan	PROPN	NNP	Number=Sing	10	nmod	_	_
+8	or	or	CCONJ	CC	_	10	cc	_	_
+9	any	any	DET	DT	_	10	det	_	_
+10	country	country	NOUN	NN	Number=Sing	5	conj	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	return	return	NOUN	NN	Number=Sing	10	nmod	_	_
+13	for	for	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	place	place	NOUN	NN	Number=Sing	3	obl	_	_
+16	where	where	ADV	WRB	PronType=Rel	20	advmod	_	_
+17	smoker	smoker	NOUN	NN	Number=Sing	20	nsubj	_	SpaceAfter=No
+18	s	s	PART	POS	_	17	case	_	_
+19	could	could	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	go	go	VERB	VB	VerbForm=Inf	15	acl:relcl	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	smoke	smoke	VERB	VB	VerbForm=Inf	20	xcomp	_	_
+23	without	without	SCONJ	IN	_	24	mark	_	_
+24	endangering	endangere	VERB	VBG	VerbForm=Ger	22	advcl	_	_
+25	others	other	NOUN	NNS	Number=Plur	24	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = I think that most smokers who have any sense of fairness, would agree with me on this.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	14	mark	_	_
+4	most	most	ADJ	JJS	Degree=Sup	5	amod	_	_
+5	smokers	smoker	NOUN	NNS	Number=Plur	14	nsubj	_	_
+6	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+7	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	any	any	DET	DT	_	9	det	_	_
+9	sense	sense	NOUN	NN	Number=Sing	7	obj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	fairness	fairness	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	would	would	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	agree	agree	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+15	with	with	ADP	IN	_	16	case	_	_
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obl	_	_
+17	on	on	ADP	IN	_	18	case	_	_
+18	this	this	PRON	DT	Number=Sing|PronType=Dem	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = It is never too late to show consideration for others but it's a bit late to say you are sorry if someone dies because they have been breathing in your second-hand smoke.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	never	never	ADV	RB	_	5	advmod	_	_
+4	too	too	ADV	RB	_	5	advmod	_	_
+5	late	late	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	show	show	VERB	VB	VerbForm=Inf	5	advcl	_	_
+8	consideration	consideration	NOUN	NN	Number=Sing	7	obj	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	others	other	NOUN	NNS	Number=Plur	5	nmod	_	_
+11	but	but	CCONJ	CC	_	16	cc	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	SpaceAfter=No
+13	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	bit	bit	NOUN	NN	Number=Sing	16	obl:npmod	_	_
+16	late	late	ADJ	JJ	Degree=Pos	5	conj	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	say	say	VERB	VB	VerbForm=Inf	16	advcl	_	_
+19	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	21	nsubj	_	_
+20	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	sorry	sorry	ADJ	JJ	Degree=Pos	18	ccomp	_	_
+22	if	if	SCONJ	IN	_	24	mark	_	_
+23	someone	someone	PRON	NN	Number=Sing	24	nsubj	_	_
+24	dies	die	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+25	because	because	SCONJ	IN	_	29	mark	_	_
+26	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	29	nsubj	_	_
+27	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	been	be	AUX	VBN	Tense=Past|VerbForm=Part	29	aux	_	_
+29	breathing	breath	VERB	VBG	Tense=Pres|VerbForm=Part	24	advcl	_	_
+30	in	in	ADP	IN	_	35	case	_	_
+31	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+32	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	34	amod	_	SpaceAfter=No
+33	-	-	PUNCT	HYPH	_	34	punct	_	SpaceAfter=No
+34	hand	hand	NOUN	NN	Number=Sing	35	compound	_	_
+35	smoke	smoke	NOUN	NN	Number=Sing	29	obl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 10
+# text = Then it would be like shutting the gate after you have already let the horse out.
+1	Then	then	ADV	RB	PronType=Dem	4	advmod	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+5	like	like	SCONJ	IN	_	6	mark	_	_
+6	shutting	shutt	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	gate	gate	NOUN	NN	Number=Sing	6	obj	_	_
+9	after	after	SCONJ	IN	_	13	mark	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+11	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	already	already	ADV	RB	_	13	advmod	_	_
+13	let	let	VERB	VB	VerbForm=Inf	6	advcl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	horse	horse	NOUN	NN	Number=Sing	13	obj	_	_
+16	out	out	ADP	RP	_	13	compound:prt	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

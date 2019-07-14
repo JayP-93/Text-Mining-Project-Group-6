@@ -1,0 +1,271 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_ENS_SMK0_082_EN_XX.txt
+# newpar
+# sent_id = 1
+# text = ﻿I strongly agree with the above statement for a number of obvious reasons.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	strongly	strongly	ADV	RB	_	3	advmod	_	_
+3	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	with	with	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	above	above	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	statement	statement	NOUN	NN	Number=Sing	3	obl	_	_
+8	for	for	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	number	number	NOUN	NN	Number=Sing	3	nmod	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	obvious	obvious	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	reasons	reason	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = By now we all know the facts regarding second hand smoke and the health risk that it causes to others, especially children and babies.
+1	By	by	ADP	IN	_	2	case	_	_
+2	now	now	ADV	RB	_	5	obl	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+4	all	all	DET	DT	_	3	det	_	_
+5	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	facts	fact	NOUN	NNS	Number=Plur	5	obj	_	_
+8	regarding	regard	VERB	VBG	VerbForm=Ger	11	case	_	_
+9	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	11	amod	_	_
+10	hand	hand	NOUN	NN	Number=Sing	11	compound	_	_
+11	smoke	smoke	NOUN	NN	Number=Sing	7	nmod	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	health	health	NOUN	NN	Number=Sing	15	compound	_	_
+15	risk	risk	NOUN	NN	Number=Sing	11	conj	_	_
+16	that	that	SCONJ	IN	_	18	mark	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	causes	cause	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	_
+19	to	to	ADP	IN	_	20	case	_	_
+20	others	other	NOUN	NNS	Number=Plur	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	5	punct	_	_
+22	especially	especially	ADV	RB	_	23	advmod	_	_
+23	children	child	NOUN	NNS	Number=Plur	5	parataxis	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	babies	baby	NOUN	NNS	Number=Plur	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Smokers can no longer ignore the fact that by smoking around others, smokers or non-smokers alike, they are endangering everyone's health in that enclosed PUBLIC space.
+1	Smokers	smoker	NOUN	NNS	Number=Plur	5	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	no	no	ADV	RB	_	4	advmod	_	_
+4	longer	longer	ADV	RBR	Degree=Cmp	5	advmod	_	_
+5	ignore	ignore	VERB	VB	VerbForm=Inf	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	fact	fact	NOUN	NN	Number=Sing	5	obj	_	_
+8	that	that	SCONJ	IN	_	22	mark	_	_
+9	by	by	SCONJ	IN	_	10	mark	_	_
+10	smoking	smoke	VERB	VBG	VerbForm=Ger	22	advcl	_	_
+11	around	around	ADP	IN	_	12	case	_	_
+12	others	other	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	smokers	smoker	NOUN	NNS	Number=Plur	10	conj	_	_
+15	or	or	CCONJ	CC	_	16	cc	_	_
+16	non-smoker	non-smoker	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+17	s	s	PART	POS	_	16	case	_	_
+18	alike	alike	ADJ	JJ	Degree=Pos	10	conj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
+21	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	endangering	endangere	VERB	VBG	Tense=Pres|VerbForm=Part	7	acl	_	_
+23	everyone	everyone	PRON	NN	Number=Sing	25	nmod:poss	_	SpaceAfter=No
+24	's	's	PART	POS	_	23	case	_	_
+25	health	health	NOUN	NN	Number=Sing	22	obj	_	_
+26	in	in	ADP	IN	_	30	case	_	_
+27	that	that	DET	DT	Number=Sing|PronType=Dem	30	det	_	_
+28	enclosed	enclose	VERB	VBN	Tense=Past|VerbForm=Part	30	amod	_	_
+29	PUBLIC	public	NOUN	NN	Number=Sing	30	compound	_	_
+30	space	space	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Restaurants and other enclosed public places should be accessible to anyone.
+1	Restaurants	restaurant	NOUN	NNS	Number=Plur	9	nsubj	_	_
+2	and	and	CCONJ	CC	_	6	cc	_	_
+3	other	other	ADJ	JJ	Degree=Pos	6	amod	_	_
+4	enclosed	enclosed	VERB	VBN	Tense=Past|VerbForm=Part	6	amod	_	_
+5	public	public	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	places	place	NOUN	NNS	Number=Plur	1	conj	_	_
+7	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+9	accessible	accessible	ADJ	JJ	Degree=Pos	0	root	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	anyone	anyone	PRON	NN	Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 5
+# text = By allowing people to smoke there, restaurant owners and smokers themselves are taking the rights of non smokers away.
+1	By	by	ADP	IN	_	3	case	_	_
+2	allowing	allow	VERB	VBG	VerbForm=Ger	3	amod	_	_
+3	people	people	NOUN	NNS	Number=Plur	8	obl	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	smoke	smoke	VERB	VB	VerbForm=Inf	3	acl	_	_
+6	there	there	ADV	RB	PronType=Dem	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	restaurant	restaurant	VERB	VB	VerbForm=Inf	0	root	_	_
+9	owners	owner	NOUN	NNS	Number=Plur	14	nsubj	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	smokers	smoker	NOUN	NNS	Number=Plur	9	conj	_	_
+12	themselves	themselves	PRON	PRP	Number=Plur|Person=3|PronType=Prs	11	nmod:npmod	_	_
+13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part	8	parataxis	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	rights	rights	NOUN	NNS	Number=Plur	14	obj	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	non	non	X	AFX	_	19	advmod	_	_
+19	smokers	smoker	NOUN	NNS	Number=Plur	16	nmod	_	_
+20	away	away	ADV	RB	_	19	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 6
+# text = I believe that all people have the right to smoke and have no problem with that.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	6	mark	_	_
+4	all	all	DET	DT	_	5	det	_	_
+5	people	people	NOUN	NNS	Number=Plur	6	nsubj	_	_
+6	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	right	right	NOUN	NN	Number=Sing	6	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	smoke	smoke	VERB	VB	VerbForm=Inf	8	acl	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	_
+13	no	no	DET	DT	_	14	det	_	_
+14	problem	problem	NOUN	NN	Number=Sing	12	obj	_	_
+15	with	with	ADP	IN	_	16	case	_	_
+16	that	that	PRON	DT	Number=Sing|PronType=Dem	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Smokers can still smoke outside (though I do wish they were more careful about where they decided to throw out their cigarette butts!), in their homes, in their cars and in many other public areas.
+1	Smokers	smoker	NOUN	NNS	Number=Plur	4	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	still	still	ADV	RB	_	4	advmod	_	_
+4	smoke	smoke	VERB	VB	VerbForm=Inf	0	root	_	_
+5	outside	outside	ADV	RB	_	4	advmod	_	_
+6	(	(	PUNCT	-LRB-	_	4	punct	_	SpaceAfter=No
+7	though	though	SCONJ	IN	_	10	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	wish	wish	VERB	VB	VerbForm=Inf	4	advcl	_	_
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+12	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	cop	_	_
+13	more	more	ADV	RBR	_	14	advmod	_	_
+14	careful	careful	ADJ	JJ	Degree=Pos	10	ccomp	_	_
+15	about	about	SCONJ	IN	_	18	mark	_	_
+16	where	where	ADV	WRB	PronType=Int	18	advmod	_	_
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
+18	decided	decide	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	advcl	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	throw	throw	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+21	out	out	ADP	RP	_	20	compound:prt	_	_
+22	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+23	cigarette	cigarette	NOUN	NN	Number=Sing	24	compound	_	_
+24	butts	butt	NOUN	NNS	Number=Plur	20	obj	_	SpaceAfter=No
+25	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+26	)	)	PUNCT	-RRB-	_	4	punct	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	4	punct	_	_
+28	in	in	ADP	IN	_	30	case	_	_
+29	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	homes	home	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	30	punct	_	_
+32	in	in	ADP	IN	_	34	case	_	_
+33	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+34	cars	car	NOUN	NNS	Number=Plur	30	nmod	_	_
+35	and	and	CCONJ	CC	_	40	cc	_	_
+36	in	in	ADP	IN	_	40	case	_	_
+37	many	many	ADJ	JJ	Degree=Pos	40	amod	_	_
+38	other	other	ADJ	JJ	Degree=Pos	40	amod	_	_
+39	public	public	ADJ	JJ	Degree=Pos	40	amod	_	_
+40	areas	area	NOUN	NNS	Number=Plur	34	conj	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = Many restaurants have smoking sections, but they are rarely adequately sectioned off from other areas in the restaurant and the smoke inevitably bothers other patrons.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	restaurants	restaurant	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	smoking	smoke	NOUN	NN	Number=Sing	5	compound	_	_
+5	sections	section	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	12	punct	_	_
+7	but	but	CCONJ	CC	_	12	cc	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj:pass	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+10	rarely	rarely	ADV	RB	_	12	advmod	_	_
+11	adequately	adequately	ADV	RB	_	12	advmod	_	_
+12	sectioned	section	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+13	off	off	ADP	RP	_	12	compound:prt	_	_
+14	from	from	ADP	IN	_	16	case	_	_
+15	other	other	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	areas	area	NOUN	NNS	Number=Plur	12	obl	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	restaurant	restaurant	NOUN	NN	Number=Sing	16	nmod	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	smoke	smoke	NOUN	NN	Number=Sing	19	conj	_	_
+23	inevitably	inevitably	ADV	RB	_	24	advmod	_	_
+24	bothers	bother	NOUN	NNS	Number=Plur	26	compound	_	_
+25	other	other	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	patrons	patron	NOUN	NNS	Number=Plur	22	appos	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = Smokers are becoming a minority with the trend for a healthier public environment on the rise, and it's about time that they realized, or rather that our government made them realize, that they can no longer put other people's health at risk for their own selfish pleasure.
+1	Smokers	smoker	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	becoming	become	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	minority	minority	NOUN	NN	Number=Sing	3	obj	_	_
+6	with	with	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	trend	trend	NOUN	NN	Number=Sing	5	nmod	_	_
+9	for	for	ADP	IN	_	13	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+11	healthier	healthier	ADJ	JJR	Degree=Cmp	13	amod	_	_
+12	public	public	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	environment	environment	NOUN	NN	Number=Sing	3	obl	_	_
+14	on	on	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	rise	rise	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	22	punct	_	_
+18	and	and	CCONJ	CC	_	22	cc	_	_
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	SpaceAfter=No
+20	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	about	about	ADP	IN	_	22	case	_	_
+22	time	time	NOUN	NN	Number=Sing	32	conj	_	_
+23	that	that	PRON	WDT	PronType=Rel	25	obj	_	_
+24	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	_
+25	realized	realize	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	acl:relcl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	28	punct	_	_
+27	or	or	CCONJ	CC	_	28	cc	_	_
+28	rather	rather	ADV	RB	_	32	advmod	_	_
+29	that	that	SCONJ	IN	_	32	mark	_	_
+30	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	government	government	NOUN	NN	Number=Sing	32	nsubj	_	_
+32	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+33	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	32	obj	_	_
+34	realize	realize	VERB	VB	VerbForm=Inf	32	xcomp	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	32	punct	_	_
+36	that	that	SCONJ	IN	_	41	mark	_	_
+37	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	41	nsubj	_	_
+38	can	can	AUX	MD	VerbForm=Fin	41	aux	_	_
+39	no	no	ADV	RB	_	40	advmod	_	_
+40	longer	longer	ADV	RBR	Degree=Cmp	41	advmod	_	_
+41	put	put	VERB	VB	VerbForm=Inf	32	ccomp	_	_
+42	other	other	ADJ	JJ	Degree=Pos	43	amod	_	_
+43	people	people	NOUN	NNS	Number=Plur	45	nmod:poss	_	SpaceAfter=No
+44	's	's	PART	POS	_	43	case	_	_
+45	health	health	NOUN	NN	Number=Sing	41	obj	_	_
+46	at	at	ADP	IN	_	47	case	_	_
+47	risk	risk	NOUN	NN	Number=Sing	41	obl	_	_
+48	for	for	ADP	IN	_	52	case	_	_
+49	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	52	nmod:poss	_	_
+50	own	own	ADJ	JJ	Degree=Pos	52	amod	_	_
+51	selfish	selfish	ADJ	JJ	Degree=Pos	52	amod	_	_
+52	pleasure	pleasure	NOUN	NN	Number=Sing	41	obl	_	SpaceAfter=No
+53	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

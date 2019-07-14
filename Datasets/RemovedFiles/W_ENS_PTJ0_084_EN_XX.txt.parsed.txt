@@ -1,0 +1,272 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_ENS_PTJ0_084_EN_XX.txt
+# newpar
+# sent_id = 1
+# text = ﻿It is very important for college students to have part-time jobs.
+1	﻿It	﻿It	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	college	college	NOUN	NN	Number=Sing	7	compound	_	_
+7	students	student	NOUN	NNS	Number=Plur	4	obl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	have	have	VERB	VB	VerbForm=Inf	7	acl	_	_
+10	part	part	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	time	time	NOUN	NN	Number=Sing	13	compound	_	_
+13	jobs	job	NOUN	NNS	Number=Plur	9	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Part-time jobs provide much needed income for needy students and families who face financial difficulties.
+1	Part	part	NOUN	NN	Number=Sing	3	compound	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No
+3	time	time	NOUN	NN	Number=Sing	0	root	_	_
+4	jobs	job	NOUN	NNS	Number=Plur	3	appos	_	_
+5	provide	provide	ADV	RB	_	8	advmod	_	_
+6	much	much	ADV	RB	_	7	advmod	_	_
+7	needed	need	VERB	VBN	Tense=Past|VerbForm=Part	8	amod	_	_
+8	income	income	NOUN	NN	Number=Sing	4	nmod	_	_
+9	for	for	ADP	IN	_	11	case	_	_
+10	needy	needy	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	students	student	NOUN	NNS	Number=Plur	8	nmod	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	families	family	NOUN	NNS	Number=Plur	11	conj	_	_
+14	who	who	PRON	WP	PronType=Rel	15	nsubj	_	_
+15	face	face	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+16	financial	financial	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	difficulties	difficulty	NOUN	NNS	Number=Plur	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Incomes from such jobs help students not only buy food and basic necessities, they also help students purchase books and educational materials they would otherwise not be able to afford.
+1	Incomes	income	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	from	from	ADP	IN	_	6	case	_	_
+3	such	such	ADJ	JJ	Degree=Pos	6	amod	_	_
+4	jobs	job	NOUN	NNS	Number=Plur	6	compound	_	_
+5	help	help	NOUN	NN	Number=Sing	6	compound	_	_
+6	students	student	NOUN	NNS	Number=Plur	1	obl	_	_
+7	not	not	ADV	RB	_	9	advmod	_	_
+8	only	only	ADV	RB	_	9	advmod	_	_
+9	buy	buy	VERB	VB	VerbForm=Inf	1	conj	_	_
+10	food	food	NOUN	NN	Number=Sing	9	obj	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	basic	basic	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	necessities	necessity	NOUN	NNS	Number=Plur	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	1	punct	_	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+16	also	also	ADV	RB	_	17	advmod	_	_
+17	help	help	VERB	VB	VerbForm=Inf	1	parataxis	_	_
+18	students	student	NOUN	NNS	Number=Plur	19	nsubj	_	_
+19	purchase	purchase	VERB	VB	VerbForm=Inf	17	ccomp	_	_
+20	books	book	NOUN	NNS	Number=Plur	19	obj	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	educational	educational	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	materials	material	NOUN	NNS	Number=Plur	20	conj	_	_
+24	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	29	nsubj	_	_
+25	would	would	AUX	MD	VerbForm=Fin	29	aux	_	_
+26	otherwise	otherwise	ADV	RB	_	29	advmod	_	_
+27	not	not	PART	RB	_	29	advmod	_	_
+28	be	be	AUX	VB	VerbForm=Inf	29	cop	_	_
+29	able	able	ADJ	JJ	Degree=Pos	20	acl:relcl	_	_
+30	to	to	PART	TO	_	31	mark	_	_
+31	afford	afford	VERB	VB	VerbForm=Inf	29	xcomp	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Part-time jobs also help students appreciate the value of money; students come to realize that earning money demands hard work, dedication and discipline.
+1	Part	part	NOUN	NN	Number=Sing	3	compound	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No
+3	time	time	NOUN	NN	Number=Sing	4	compound	_	_
+4	jobs	job	NOUN	NNS	Number=Plur	6	nsubj	_	_
+5	also	also	ADV	RB	_	6	advmod	_	_
+6	help	help	VERB	VB	VerbForm=Inf	0	root	_	_
+7	students	student	NOUN	NNS	Number=Plur	8	nsubj	_	_
+8	appreciate	appreciate	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	value	value	NOUN	NN	Number=Sing	8	obj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	money	money	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	6	punct	_	_
+14	students	student	NOUN	NNS	Number=Plur	15	nsubj	_	_
+15	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	realize	realize	VERB	VB	VerbForm=Inf	15	xcomp	_	_
+18	that	that	SCONJ	IN	_	19	mark	_	_
+19	earning	earn	VERB	VBG	VerbForm=Ger	17	ccomp	_	_
+20	money	money	NOUN	NN	Number=Sing	21	compound	_	_
+21	demands	demand	NOUN	NNS	Number=Plur	23	compound	_	_
+22	hard	hard	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	work	work	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	25	punct	_	_
+25	dedication	dedication	NOUN	NN	Number=Sing	23	conj	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	discipline	discipline	NOUN	NN	Number=Sing	25	conj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = This will change their attitude towards spending, and especially towards unreasonable spending.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	change	change	VERB	VB	VerbForm=Inf	0	root	_	_
+4	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	attitude	attitude	NOUN	NN	Number=Sing	3	obj	_	_
+6	towards	towards	ADP	IN	_	7	case	_	_
+7	spending	spending	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	13	punct	_	_
+9	and	and	CCONJ	CC	_	13	cc	_	_
+10	especially	especially	ADV	RB	_	13	advmod	_	_
+11	towards	towards	ADP	IN	_	13	case	_	_
+12	unreasonable	unreasonable	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	spending	spending	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Additionally, part- time jobs assist students to recognize the inherent social hierarchies in the work force.
+1	Additionally	additionally	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	part	part	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	_
+5	time	time	NOUN	NN	Number=Sing	0	root	_	_
+6	jobs	job	NOUN	NNS	Number=Plur	7	nsubj	_	_
+7	assist	assist	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+8	students	student	NOUN	NNS	Number=Plur	7	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	recognize	recognize	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+12	inherent	inherent	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	social	social	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	hierarchies	hierarchy	NOUN	NNS	Number=Plur	10	obj	_	_
+15	in	in	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	work	work	NOUN	NN	Number=Sing	18	compound	_	_
+18	force	force	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 7
+# text = These structures that exist in the work force are very different from what students experience at school.
+1	These	these	DET	DT	Number=Plur|PronType=Dem	2	det	_	_
+2	structures	structure	NOUN	NNS	Number=Plur	11	nsubj	_	_
+3	that	that	PRON	WDT	PronType=Rel	4	nsubj	_	_
+4	exist	exist	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	in	in	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	work	work	NOUN	NN	Number=Sing	8	compound	_	_
+8	force	force	NOUN	NN	Number=Sing	4	obl	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	very	very	ADV	RB	_	11	advmod	_	_
+11	different	different	ADJ	JJ	Degree=Pos	0	root	_	_
+12	from	from	SCONJ	IN	_	13	case	_	_
+13	what	what	PRON	WP	PronType=Int	11	obl	_	_
+14	students	student	NOUN	NNS	Number=Plur	15	nsubj	_	_
+15	experience	experience	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	at	at	ADP	IN	_	17	case	_	_
+17	school	school	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 8
+# text = Early appreciation of the levels and hierarchies will help students understand the work environment much better when they start formal full-time jobs, and thereby adjust to the expectations faster and easier.
+1	Early	Early	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	appreciation	appreciation	NOUN	NN	Number=Sing	9	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	levels	level	NOUN	NNS	Number=Plur	2	nmod	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	hierarchies	hierarchy	NOUN	NNS	Number=Plur	2	conj	_	_
+8	will	will	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	help	help	VERB	VB	VerbForm=Inf	0	root	_	_
+10	students	student	NOUN	NNS	Number=Plur	11	nsubj	_	_
+11	understand	understand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	work	work	NOUN	NN	Number=Sing	14	compound	_	_
+14	environment	environment	NOUN	NN	Number=Sing	11	obj	_	_
+15	much	much	ADV	RB	_	16	advmod	_	_
+16	better	better	ADV	RBR	Degree=Cmp	14	advmod	_	_
+17	when	when	ADV	WRB	PronType=Int	19	mark	_	_
+18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+19	start	start	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+20	formal	formal	ADJ	JJ	Degree=Pos	24	amod	_	_
+21	full	full	ADJ	JJ	Degree=Pos	23	amod	_	SpaceAfter=No
+22	-	-	PUNCT	HYPH	_	23	punct	_	SpaceAfter=No
+23	time	time	NOUN	NN	Number=Sing	24	compound	_	_
+24	jobs	job	NOUN	NNS	Number=Plur	19	obj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	28	punct	_	_
+26	and	and	CCONJ	CC	_	28	cc	_	_
+27	thereby	thereby	ADV	RB	_	28	advmod	_	_
+28	adjust	adjust	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	conj	_	_
+29	to	to	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	expectations	expectation	NOUN	NNS	Number=Plur	28	obl	_	_
+32	faster	faster	ADJ	JJR	Degree=Cmp	31	amod	_	_
+33	and	and	CCONJ	CC	_	34	cc	_	_
+34	easier	easier	ADJ	JJR	Degree=Cmp	32	conj	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 9
+# text = Finally, part-time jobs demand involvement in society; they provide effective preparation for transition from the academic world to the real world.
+1	Finally	finally	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	part	part	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	time	time	NOUN	NN	Number=Sing	6	compound	_	_
+6	jobs	job	NOUN	NNS	Number=Plur	7	nsubj	_	_
+7	demand	demand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	involvement	involvement	NOUN	NN	Number=Sing	7	obj	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	society	society	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	7	punct	_	_
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+13	provide	provide	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+14	effective	effective	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	preparation	preparation	NOUN	NN	Number=Sing	13	obj	_	_
+16	for	for	ADP	IN	_	17	case	_	_
+17	transition	transition	NOUN	NN	Number=Sing	15	nmod	_	_
+18	from	from	ADP	IN	_	21	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	academic	academic	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	world	world	NOUN	NN	Number=Sing	13	nmod	_	_
+22	to	to	ADP	IN	_	25	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+24	real	real	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	world	world	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 10
+# text = There is no doubt that part-time jobs provide students with invaluable experiences.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	doubt	doubt	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	that	that	SCONJ	IN	_	10	mark	_	_
+6	part	part	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	time	time	NOUN	NN	Number=Sing	10	obl:tmod	_	_
+9	jobs	job	NOUN	NNS	Number=Plur	10	nsubj	_	_
+10	provide	provide	VERB	VB	VerbForm=Inf	4	acl	_	_
+11	students	student	NOUN	NNS	Number=Plur	10	obj	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	invaluable	invaluable	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	experiences	experience	NOUN	NNS	Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 11
+# text = Both private and public companies should do their utmost to offer part-time jobs to students.
+1	Both	both	CCONJ	CC	_	2	cc:preconj	_	_
+2	private	private	ADJ	JJ	Degree=Pos	5	amod	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	public	public	ADJ	JJ	Degree=Pos	2	conj	_	_
+5	companies	company	NOUN	NNS	Number=Plur	7	nsubj	_	_
+6	should	should	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+8	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	utmost	utmost	NOUN	NN	Number=Sing	7	obj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	offer	offer	VERB	VB	VerbForm=Inf	7	advcl	_	_
+12	part	part	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+14	time	time	NOUN	NN	Number=Sing	15	compound	_	_
+15	jobs	job	NOUN	NNS	Number=Plur	11	obj	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	students	student	NOUN	NNS	Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+
