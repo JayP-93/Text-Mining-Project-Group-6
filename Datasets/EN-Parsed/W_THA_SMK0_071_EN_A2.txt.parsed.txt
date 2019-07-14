@@ -1,0 +1,286 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_THA_SMK0_071_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿Restaurants are public places and pollution free.
+1	﻿Restaurants	﻿Restaurant	NOUN	NNS	Number=Plur	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	public	public	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	places	place	NOUN	NNS	Number=Plur	0	root	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	pollution	pollution	NOUN	NN	Number=Sing	4	conj	_	_
+7	free	free	ADJ	JJ	Degree=Pos	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = atmosphere within the restaurant will need to be eaten fresh.
+1	atmosphere	atmosphere	NOUN	NN	Number=Sing	6	nsubj	_	_
+2	within	within	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	restaurant	restaurant	NOUN	NN	Number=Sing	1	nmod	_	_
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	need	need	VERB	VB	VerbForm=Inf	0	root	_	_
+7	to	to	PART	TO	_	9	mark	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+9	eaten	eat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	xcomp	_	_
+10	fresh	fresh	ADJ	JJ	Degree=Pos	9	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = In each meal, food is useful to the human body.
+1	In	in	ADP	IN	_	3	case	_	_
+2	each	each	DET	DT	_	3	det	_	_
+3	meal	meal	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	food	food	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	useful	useful	ADJ	JJ	Degree=Pos	0	root	_	_
+8	to	to	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	human	human	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	body	body	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = Therefore, restaurants will be an atmosphere of purity and pollution free.
+1	Therefore	therefore	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	restaurants	restaurant	NOUN	NNS	Number=Plur	7	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	atmosphere	atmosphere	NOUN	NN	Number=Sing	0	root	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	purity	purity	NOUN	NN	Number=Sing	7	nmod	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	pollution	pollution	NOUN	NN	Number=Sing	9	conj	_	_
+12	free	free	ADJ	JJ	Degree=Pos	9	amod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = Smoking in restaurants and destroying the atmosphere polluting the restaurant.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	in	in	ADP	IN	_	3	case	_	_
+3	restaurants	restaurant	NOUN	NNS	Number=Plur	1	obl	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	destroying	destroy	VERB	VBG	VerbForm=Ger	1	conj	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	atmosphere	atmosphere	NOUN	NN	Number=Sing	5	obj	_	_
+8	polluting	pollute	VERB	VBG	VerbForm=Ger	7	acl	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	restaurant	restaurant	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = Will receive guests in the restaurant from cigarette toxins in to the body.
+1	Will	will	AUX	MD	VerbForm=Fin	2	aux	_	_
+2	receive	receive	VERB	VB	VerbForm=Inf	0	root	_	_
+3	guests	guest	NOUN	NNS	Number=Plur	2	obj	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	restaurant	restaurant	NOUN	NN	Number=Sing	2	obl	_	_
+7	from	from	ADP	IN	_	9	case	_	_
+8	cigarette	cigarette	NOUN	NN	Number=Sing	9	compound	_	_
+9	toxins	toxin	NOUN	NNS	Number=Plur	6	nmod	_	_
+10	in	in	ADP	IN	_	13	case	_	_
+11	to	to	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	body	body	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = To eat each meal, or in public places.
+1	To	to	PART	TO	_	2	mark	_	_
+2	eat	eat	VERB	VB	VerbForm=Inf	0	root	_	_
+3	each	each	DET	DT	_	4	det	_	_
+4	meal	meal	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	or	or	CCONJ	CC	_	9	cc	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	public	public	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	places	place	NOUN	NNS	Number=Plur	2	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = We want to be clear, fresh and good atmosphere free from dust, pollution and smoking.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	5	mark	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	clear	clear	ADJ	JJ	Degree=Pos	2	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	fresh	fresh	ADJ	JJ	Degree=Pos	5	conj	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	good	good	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	atmosphere	atmosphere	NOUN	NN	Number=Sing	11	conj	_	_
+11	free	free	ADJ	JJ	Degree=Pos	5	conj	_	_
+12	from	from	ADP	IN	_	13	case	_	_
+13	dust	dust	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	pollution	pollution	NOUN	NN	Number=Sing	13	conj	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	smoking	smoking	NOUN	NN	Number=Sing	13	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Manners in a restaurant environment destroying themselves and others.
+1	Manners	manners	NOUN	NNS	Number=Plur	0	root	_	_
+2	in	in	ADP	IN	_	5	case	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	restaurant	restaurant	NOUN	NN	Number=Sing	5	compound	_	_
+5	environment	environment	NOUN	NN	Number=Sing	1	nmod	_	_
+6	destroying	destroie	VERB	VBG	VerbForm=Ger	1	acl	_	_
+7	themselves	themselves	NOUN	NNS	Number=Plur	6	obj	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	others	other	NOUN	NNS	Number=Plur	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 10
+# text = And also interfere with other people.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	also	also	ADV	RB	_	3	advmod	_	_
+3	interfere	interfere	VERB	VB	VerbForm=Inf	0	root	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	other	other	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	people	people	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = Enables consumers to store food poisoning in tobacco smoke into the body.
+1	Enables	enable	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	consumers	consumer	NOUN	NNS	Number=Plur	1	obj	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	store	store	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+5	food	food	NOUN	NN	Number=Sing	4	obj	_	_
+6	poisoning	poisoning	VERB	VBG	VerbForm=Ger	5	acl	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	tobacco	tobacco	NOUN	NN	Number=Sing	9	compound	_	_
+9	smoke	smoke	NOUN	NN	Number=Sing	6	obl	_	_
+10	into	into	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	body	body	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 12
+# text = Causing the aircraft to beam other customers and consumers lose the atmosphere of eating food.
+1	Causing	cause	VERB	VBG	VerbForm=Ger	10	csubj	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	aircraft	aircraft	NOUN	NN	Number=Sing	1	obj	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	beam	beam	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+6	other	other	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	customers	customer	NOUN	NNS	Number=Plur	5	obj	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	consumers	consumer	NOUN	NNS	Number=Plur	7	conj	_	_
+10	lose	lose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	atmosphere	atmosphere	NOUN	NN	Number=Sing	10	obj	_	_
+13	of	of	SCONJ	IN	_	14	mark	_	_
+14	eating	eat	VERB	VBG	VerbForm=Ger	12	acl	_	_
+15	food	food	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 13
+# text = Smoking should be smoking in a smoking but not smoking where smoking is prohibited.
+1	Smoking	smoking	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux	_	_
+4	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	4	obl	_	_
+8	but	but	CCONJ	CC	_	10	cc	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	4	conj	_	_
+11	where	where	ADV	WRB	PronType=Int	14	mark	_	_
+12	smoking	smoking	NOUN	NN	Number=Sing	14	nsubj:pass	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	prohibited	prohibit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 14
+# text = In cigarette smoke contains nicotine which is toxins to the body.
+1	In	in	ADP	IN	_	3	case	_	_
+2	cigarette	cigarette	NOUN	NN	Number=Sing	3	compound	_	_
+3	smoke	smoke	NOUN	NN	Number=Sing	4	obl	_	_
+4	contains	contain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	nicotine	nicotine	NUM	CD	NumType=Card	4	obj	_	_
+6	which	which	PRON	WDT	PronType=Rel	8	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	toxins	toxin	NOUN	NNS	Number=Plur	5	acl:relcl	_	_
+9	to	to	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	body	body	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 15
+# text = When smokers go very will accumulate toxins in the body and will harm the body as a substance causing lung cancer and other intestinal finally died in the end.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	smokers	smoker	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+4	very	very	ADV	RB	_	3	advmod	_	_
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	accumulate	accumulate	VERB	VB	VerbForm=Inf	0	root	_	_
+7	toxins	toxin	NOUN	NNS	Number=Plur	6	obj	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	body	body	NOUN	NN	Number=Sing	7	nmod	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	will	will	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	harm	harm	VERB	VB	VerbForm=Inf	6	conj	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	body	body	NOUN	NN	Number=Sing	13	obj	_	_
+16	as	as	ADP	IN	_	18	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	substance	substance	NOUN	NN	Number=Sing	13	obl	_	_
+19	causing	cause	VERB	VBG	VerbForm=Ger	18	acl	_	_
+20	lung	lung	NOUN	NN	Number=Sing	21	compound	_	_
+21	cancer	cancer	NOUN	NN	Number=Sing	19	obj	_	_
+22	and	and	CCONJ	CC	_	26	cc	_	_
+23	other	other	ADJ	JJ	Degree=Pos	26	nsubj	_	_
+24	intestinal	intestinal	ADJ	JJ	Degree=Pos	26	amod	_	_
+25	finally	finally	ADV	RB	_	26	advmod	_	_
+26	died	die	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	conj	_	_
+27	in	in	ADP	IN	_	29	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	end	end	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 16
+# text = So I do not agree with smoking in restaurants.
+1	So	so	ADV	RB	_	5	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	agree	agree	VERB	VB	VerbForm=Inf	0	root	_	_
+6	with	with	ADP	IN	_	7	case	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	5	obl	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	restaurants	restaurant	NOUN	NNS	Number=Plur	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 17
+# text = It will not only harm themselves but also harm other around the beam and lost body build in a restaurant with atmosphere.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	only	only	ADV	RB	_	5	advmod	_	_
+5	harm	harm	VERB	VB	VerbForm=Inf	0	root	_	_
+6	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	_
+7	but	but	CCONJ	CC	_	9	cc	_	_
+8	also	also	ADV	RB	_	9	advmod	_	_
+9	harm	harm	NOUN	NN	Number=Sing	5	conj	_	_
+10	other	other	ADJ	JJ	Degree=Pos	9	amod	_	_
+11	around	around	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	beam	beam	NOUN	NN	Number=Sing	10	obl	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	17	amod	_	_
+16	body	body	NOUN	NN	Number=Sing	17	compound	_	_
+17	build	build	NOUN	NN	Number=Sing	13	conj	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	restaurant	restaurant	NOUN	NN	Number=Sing	17	nmod	_	_
+21	with	with	ADP	IN	_	22	case	_	_
+22	atmosphere	atmosphere	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

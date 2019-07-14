@@ -1,0 +1,263 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_SIN_SMK0_008_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I disagree with the statement.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	disagree	disagree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	with	with	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	statement	statement	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Although I am not a smoker, I have friends who are smokers and I empathize with their situation in Singapore, where there are many areas that are out of bounds to smokers.
+1	Although	although	SCONJ	IN	_	6	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	not	not	PART	RB	_	6	advmod	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	smoker	smoker	NOUN	NN	Number=Sing	9	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	friends	friend	NOUN	NNS	Number=Plur	9	obj	_	_
+11	who	who	PRON	WP	PronType=Rel	13	nsubj	_	_
+12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	smokers	smoker	NOUN	NNS	Number=Plur	10	acl:relcl	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	empathize	empathize	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	conj	_	_
+17	with	with	ADP	IN	_	19	case	_	_
+18	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	situation	situation	NOUN	NN	Number=Sing	16	obl	_	_
+20	in	in	ADP	IN	_	21	case	_	_
+21	Singapore	Singapore	PROPN	NNP	Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	_
+23	where	where	ADV	WRB	PronType=Rel	25	advmod	_	_
+24	there	there	PRON	EX	_	25	expl	_	_
+25	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+26	many	many	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	areas	area	NOUN	NNS	Number=Plur	25	nsubj	_	_
+28	that	that	PRON	WDT	PronType=Rel	32	nsubj	_	_
+29	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	32	cop	_	_
+30	out	out	ADP	IN	_	32	case	_	_
+31	of	of	ADP	IN	_	32	case	_	_
+32	bounds	bounds	NOUN	NNS	Number=Plur	27	acl:relcl	_	_
+33	to	to	ADP	IN	_	34	case	_	_
+34	smokers	smoker	NOUN	NNS	Number=Plur	32	obl	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = There are even fines if one smokes at bus stops or in other non-smoking areas.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	even	even	ADV	RB	_	4	advmod	_	_
+4	fines	fine	NOUN	NNS	Number=Plur	2	nsubj	_	_
+5	if	if	SCONJ	IN	_	7	mark	_	_
+6	one	one	NUM	CD	NumType=Card	7	nummod	_	_
+7	smokes	smoke	NOUN	NNS	Number=Plur	2	nsubj	_	_
+8	at	at	ADP	IN	_	10	case	_	_
+9	bus	bus	NOUN	NN	Number=Sing	10	compound	_	_
+10	stops	stop	NOUN	NNS	Number=Plur	7	nmod	_	_
+11	or	or	CCONJ	CC	_	15	cc	_	_
+12	in	in	ADP	IN	_	15	case	_	_
+13	other	other	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	non-smoking	non-smoking	NOUN	NN	Number=Sing	15	compound	_	_
+15	areas	area	NOUN	NNS	Number=Plur	10	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Smoking in restaurants can affect many diners, especially if the smoke "interferes' with their consumption of food.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	5	csubj	_	_
+2	in	in	ADP	IN	_	3	case	_	_
+3	restaurants	restaurant	NOUN	NNS	Number=Plur	1	obl	_	_
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	affect	affect	VERB	VB	VerbForm=Inf	0	root	_	_
+6	many	many	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	diners	diner	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	especially	especially	ADV	RB	_	14	advmod	_	_
+10	if	if	SCONJ	IN	_	14	mark	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+12	smoke	smoke	NOUN	NN	Number=Sing	14	compound	_	_
+13	"	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
+14	interferes	interfere	NOUN	NNS	Number=Plur	5	advcl	_	SpaceAfter=No
+15	'	'	PUNCT	''	_	14	punct	_	_
+16	with	with	ADP	IN	_	18	case	_	_
+17	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	consumption	consumption	NOUN	NN	Number=Sing	14	nmod	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	food	food	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = I do agree that it can be uncomfortable for diners and perhaps even irritating.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	agree	agree	VERB	VB	VerbForm=Inf	0	root	_	_
+4	that	that	SCONJ	IN	_	8	mark	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+8	uncomfortable	uncomfortable	ADJ	JJ	Degree=Pos	3	ccomp	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	diners	diner	NOUN	NNS	Number=Plur	8	obl	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	perhaps	perhaps	ADV	RB	_	14	advmod	_	_
+13	even	even	ADV	RB	_	14	advmod	_	_
+14	irritating	irritat	VERB	VBG	VerbForm=Ger	8	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = However, I argue that to completely ban smoking in all restaurants is unfair to smokers.
+1	However	however	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	argue	argue	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	14	nsubj	_	_
+6	to	to	ADP	IN	_	9	case	_	_
+7	completely	completely	ADV	RB	_	8	advmod	_	_
+8	ban	ban	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	smoking	smoke	NOUN	NN	Number=Sing	5	nmod	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	all	all	DET	DT	_	12	det	_	_
+12	restaurants	restaurant	NOUN	NNS	Number=Plur	9	nmod	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	unfair	unfair	ADJ	JJ	Degree=Pos	4	ccomp	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	smokers	smoker	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = There should be a smoking corner or a smoking room instead, which can greatly help smokers take a break and relax in between their meal times.
+1	There	there	PRON	EX	_	3	expl	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	smoking	smoke	NOUN	NN	Number=Sing	6	compound	_	_
+6	corner	corner	NOUN	NN	Number=Sing	3	nsubj	_	_
+7	or	or	CCONJ	CC	_	10	cc	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	10	compound	_	_
+10	room	room	NOUN	NN	Number=Sing	6	conj	_	_
+11	instead	instead	ADV	RB	_	16	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	which	which	PRON	WDT	PronType=Rel	16	nsubj	_	_
+14	can	can	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	greatly	greatly	ADV	RB	_	16	advmod	_	_
+16	help	help	VERB	VB	VerbForm=Inf	3	conj	_	_
+17	smoker	smoker	NOUN	NN	Number=Sing	19	nmod:poss	_	SpaceAfter=No
+18	s	s	PART	POS	_	17	case	_	_
+19	take	take	VERB	VB	VerbForm=Inf	16	ccomp	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	break	break	NOUN	NN	Number=Sing	19	obj	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	relax	relax	VERB	VB	VerbForm=Inf	19	conj	_	_
+24	in	in	ADP	IN	_	23	compound:prt	_	_
+25	between	between	ADP	IN	_	28	case	_	_
+26	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+27	meal	meal	NOUN	NN	Number=Sing	28	compound	_	_
+28	times	time	NOUN	NNS	Number=Plur	23	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = This will definitely be more appreciated than to ban smoking in restaurants entirely.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj:pass	_	_
+2	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+3	definitely	definitely	ADV	RB	_	6	advmod	_	_
+4	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+5	more	more	ADV	RBR	_	6	advmod	_	_
+6	appreciated	appreciate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	than	than	ADP	IN	_	10	case	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	ban	ban	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	smoking	smoke	NOUN	NN	Number=Sing	6	obl	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	restaurants	restaurant	NOUN	NNS	Number=Plur	10	nmod	_	_
+13	entirely	entirely	ADV	RB	_	12	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 9
+# text = It also infringes on their right and freedom to smoke, which is ironical, especially in a country that promotes freedom and equality.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	also	also	ADV	RB	_	3	advmod	_	_
+3	infringes	infringe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	on	on	ADP	IN	_	6	case	_	_
+5	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	right	right	NOUN	NN	Number=Sing	3	obl	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	freedom	freedom	NOUN	NN	Number=Sing	6	conj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	smoke	smoke	VERB	VB	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	which	which	PRON	WDT	PronType=Rel	14	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	ironical	ironical	ADJ	JJ	Degree=Pos	10	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	especially	especially	ADV	RB	_	19	advmod	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	country	country	NOUN	NN	Number=Sing	14	obl	_	_
+20	that	that	PRON	WDT	PronType=Rel	21	nsubj	_	_
+21	promotes	promote	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+22	freedom	freedom	NOUN	NN	Number=Sing	21	obj	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	equality	equality	NOUN	NN	Number=Sing	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Should the government want to completely ban smoking in a particular area, then why do they even allow the sale of cigarettes in the first place?
+1	Should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	government	government	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	want	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	7	mark	_	_
+6	completely	completely	ADV	RB	_	7	advmod	_	_
+7	ban	ban	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+8	smoking	smoking	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+9	in	in	ADP	IN	_	12	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	particular	particular	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	area	area	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	4	punct	_	_
+14	then	then	ADV	RB	PronType=Dem	19	advmod	_	_
+15	why	why	ADV	WRB	PronType=Int	19	advmod	_	_
+16	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+18	even	even	ADV	RB	_	19	advmod	_	_
+19	allow	allow	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	sale	sale	NOUN	NN	Number=Sing	19	obj	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	cigarettes	cigarette	NOUN	NNS	Number=Plur	21	nmod	_	_
+24	in	in	ADP	IN	_	27	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+26	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	27	amod	_	_
+27	place	place	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+28	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = It is this irony that exists in public places that create confusion and conflict among people, and smokers in particular.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	irony	irony	NOUN	NN	Number=Sing	0	root	_	_
+5	that	that	PRON	WDT	PronType=Rel	6	nsubj	_	_
+6	exists	exist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	public	public	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	places	place	NOUN	NNS	Number=Plur	6	obl	_	_
+10	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	_
+11	create	create	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	confusion	confusion	NOUN	NN	Number=Sing	11	obj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	conflict	conflict	NOUN	NN	Number=Sing	12	conj	_	_
+15	among	among	ADP	IN	_	16	case	_	_
+16	people	people	NOUN	NNS	Number=Plur	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	smokers	smoker	NOUN	NNS	Number=Plur	4	conj	_	_
+20	in	in	ADP	IN	_	21	case	_	_
+21	particular	particular	ADJ	JJ	Degree=Pos	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

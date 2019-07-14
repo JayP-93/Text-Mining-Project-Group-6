@@ -1,0 +1,377 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_HKG_PTJ0_067_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿We are university students.
+1	﻿We	﻿we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	university	university	NOUN	NN	Number=Sing	4	compound	_	_
+4	students	student	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = It is important for us to have a part-time job!
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+4	for	for	SCONJ	IN	_	7	mark	_	_
+5	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	have	have	VERB	VB	VerbForm=Inf	3	csubj	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+9	part	part	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	time	time	NOUN	NN	Number=Sing	12	compound	_	_
+12	job	job	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+13	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Certificate is a MUST to those going to purse sparkling futures.
+1	Certificate	certificate	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	MUST	must	NOUN	NN	Number=Sing	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	those	those	PRON	DT	Number=Plur|PronType=Dem	4	nmod	_	_
+7	going	go	VERB	VBG	VerbForm=Ger	6	acl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	purse	purse	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	sparkling	sparkling	VERB	VBG	VerbForm=Ger	11	amod	_	_
+11	futures	future	NOUN	NNS	Number=Plur	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Yet, working experience weighs as heavily as certificate.
+1	Yet	yet	CCONJ	CC	_	5	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	working	work	VERB	VBG	VerbForm=Ger	5	amod	_	_
+4	experience	experience	NOUN	NN	Number=Sing	5	compound	_	_
+5	weighs	weigh	NOUN	NNS	Number=Plur	0	root	_	_
+6	as	as	ADV	RB	_	7	advmod	_	_
+7	heavily	heavily	ADV	RB	_	5	advmod	_	_
+8	as	as	ADP	IN	_	9	case	_	_
+9	certificate	certificate	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = A computer not only needs well-designed hardware, but also up-to-dated software to support.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	computer	computer	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	not	not	ADV	RB	_	5	advmod	_	_
+4	only	only	ADV	RB	_	5	advmod	_	_
+5	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	well	well	ADV	RB	Degree=Pos	8	advmod	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	designed	design	VERB	VBN	Tense=Past|VerbForm=Part	9	amod	_	_
+9	hardware	hardware	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	18	punct	_	_
+11	but	but	CCONJ	CC	_	18	cc	_	_
+12	also	also	ADV	RB	_	13	advmod	_	_
+13	up	up	ADV	RB	_	18	advmod	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	13	punct	_	SpaceAfter=No
+15	to	to	ADP	IN	_	17	case	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	_	17	punct	_	SpaceAfter=No
+17	dated	dated	VERB	VBN	Tense=Past|VerbForm=Part	18	amod	_	_
+18	software	software	NOUN	NN	Number=Sing	5	conj	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	support	support	VERB	VB	VerbForm=Inf	18	acl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = Working experience is similar to software to computer.
+1	Working	Working	VERB	VBG	VerbForm=Ger	2	amod	_	_
+2	experience	experience	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	similar	similar	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	software	software	VERB	VB	VerbForm=Inf	4	advcl	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	computer	computer	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Working with others, students are able to develop their soft skills and improve personality to be all-round people.
+1	Working	work	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	with	with	ADP	IN	_	3	case	_	_
+3	others	other	NOUN	NNS	Number=Plur	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	students	student	NOUN	NNS	Number=Plur	7	nsubj	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	able	able	ADJ	JJ	Degree=Pos	1	parataxis	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	develop	develop	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+11	soft	soft	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	skills	skill	NOUN	NNS	Number=Plur	9	obj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	improve	improve	VERB	VB	VerbForm=Inf	9	conj	_	_
+15	personality	personality	NOUN	NN	Number=Sing	14	obj	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	be	be	VERB	VB	VerbForm=Inf	14	advcl	_	_
+18	all	all	ADV	RB	_	20	advmod	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	20	punct	_	SpaceAfter=No
+20	round	round	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	people	people	NOUN	NNS	Number=Plur	17	nsubj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 8
+# text = This benefits everyone no matter how good or bad one performs academically.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	benefits	benefit	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	everyone	everyone	PRON	NN	Number=Sing	5	nmod:poss	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	matter	matter	NOUN	NN	Number=Sing	2	obj	_	_
+6	how	how	ADV	WRB	PronType=Int	7	advmod	_	_
+7	good	good	ADJ	JJ	Degree=Pos	11	amod	_	_
+8	or	or	CCONJ	CC	_	11	cc	_	_
+9	bad	bad	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	one	one	NUM	CD	NumType=Card	11	nummod	_	_
+11	performs	perform	NOUN	NNS	Number=Plur	5	conj	_	_
+12	academically	academically	ADV	RB	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Most of the time, dealing with interpersonal issues is more complicated than solving mathematical problems because people always change minds.
+1	Most	most	ADJ	JJS	Degree=Sup	12	nsubj	_	_
+2	of	of	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	time	time	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	1	punct	_	_
+6	dealing	deal	VERB	VBG	VerbForm=Ger	1	advcl	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	interpersonal	interpersonal	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	issues	issue	NOUN	NNS	Number=Plur	6	obl	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	more	more	ADV	RBR	_	12	advmod	_	_
+12	complicated	complicated	ADJ	JJ	Degree=Pos	0	root	_	_
+13	than	than	SCONJ	IN	_	14	mark	_	_
+14	solving	solving	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+15	mathematical	mathematical	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	problems	problem	NOUN	NNS	Number=Plur	14	obj	_	_
+17	because	because	SCONJ	IN	_	20	mark	_	_
+18	people	people	NOUN	NNS	Number=Plur	20	nsubj	_	_
+19	always	always	ADV	RB	_	20	advmod	_	_
+20	change	change	VERB	VB	VerbForm=Inf	12	advcl	_	_
+21	minds	mind	NOUN	NNS	Number=Plur	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 10
+# text = University students are believed to be well equipped with knowledge.
+1	University	University	PROPN	NNP	Number=Sing	2	compound	_	_
+2	students	student	NOUN	NNS	Number=Plur	4	nsubj:pass	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	believed	believe	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	to	to	PART	TO	_	8	mark	_	_
+6	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+7	well	well	ADV	RB	Degree=Pos	8	advmod	_	_
+8	equipped	equip	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	xcomp	_	_
+9	with	with	ADP	IN	_	10	case	_	_
+10	knowledge	knowledge	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = So, to further succeed in the future, students should behave more mature, responsibly and independently.
+1	So	so	ADV	RB	_	14	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	14	punct	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	further	further	VERB	VB	VerbForm=Inf	14	advcl	_	_
+5	succeed	succeed	NOUN	NN	Number=Sing	4	obj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	future	future	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	students	student	NOUN	NNS	Number=Plur	14	nsubj	_	_
+11	should	should	AUX	MD	VerbForm=Fin	14	aux	_	_
+12	behave	behave	AUX	VB	VerbForm=Inf	14	cop	_	_
+13	more	more	ADV	RBR	_	14	advmod	_	_
+14	mature	mature	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	_	_
+16	responsibly	responsibly	ADV	RB	_	14	advmod	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	independently	independently	ADV	RB	_	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 12
+# text = And certainly we cannot practice these by reading textbooks.
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	certainly	certainly	ADV	RB	_	6	advmod	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+4	can	can	AUX	MD	VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	not	not	PART	RB	_	6	advmod	_	_
+6	practice	practice	VERB	VB	VerbForm=Inf	0	root	_	_
+7	these	these	PRON	DT	Number=Plur|PronType=Dem	6	obj	_	_
+8	by	by	SCONJ	IN	_	9	mark	_	_
+9	reading	read	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+10	textbooks	textbook	NOUN	NNS	Number=Plur	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 13
+# text = Besides experience, money is always a big issue for students.
+1	Besides	besides	ADP	IN	_	2	case	_	_
+2	experience	experience	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	money	money	NOUN	NN	Number=Sing	9	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	always	always	ADV	RB	_	9	advmod	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	big	big	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	issue	issue	NOUN	NN	Number=Sing	0	root	_	_
+10	for	for	ADP	IN	_	11	case	_	_
+11	students	student	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 14
+# text = Joining societies or language courses, hanging out with friends, dressing more nicely for some reasons etc. all need money.
+1	Joining	join	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	societies	societie	NOUN	NNS	Number=Plur	1	obj	_	_
+3	or	or	CCONJ	CC	_	5	cc	_	_
+4	language	language	NOUN	NN	Number=Sing	5	compound	_	_
+5	courses	course	NOUN	NNS	Number=Plur	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	1	punct	_	_
+7	hanging	hang	VERB	VBG	VerbForm=Ger	1	advcl	_	_
+8	out	out	ADP	RP	_	7	compound:prt	_	_
+9	with	with	ADP	IN	_	10	case	_	_
+10	friends	friend	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	7	punct	_	_
+12	dressing	dress	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+13	more	more	ADV	RBR	_	14	advmod	_	_
+14	nicely	nicely	ADV	RB	_	12	advmod	_	_
+15	for	for	ADP	IN	_	17	case	_	_
+16	some	some	DET	DT	_	17	det	_	_
+17	reasons	reason	NOUN	NNS	Number=Plur	12	obl	_	_
+18	etc.	etc.	X	FW	_	17	advmod	_	_
+19	all	all	DET	DT	_	20	nsubj	_	_
+20	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+21	money	money	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 15
+# text = We are not teenagers anymore.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	teenagers	teenager	NOUN	NNS	Number=Plur	0	root	_	_
+5	anymore	anymore	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 16
+# text = Asking money from parents for everything is certainly not a responsible and mature way.
+1	Asking	ask	VERB	VBG	VerbForm=Ger	14	csubj	_	_
+2	money	money	NOUN	NN	Number=Sing	1	obj	_	_
+3	from	from	ADP	IN	_	4	case	_	_
+4	parents	parent	NOUN	NNS	Number=Plur	1	obl	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	everything	everything	PRON	NN	Number=Sing	1	obl	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+8	certainly	certainly	ADV	RB	_	14	advmod	_	_
+9	not	not	PART	RB	_	14	advmod	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+11	responsible	responsible	ADJ	JJ	Degree=Pos	14	amod	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	mature	mature	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	way	way	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 17
+# text = In order to pay for all entertainments we want to join, getting a part-time job is obviously the best way out.
+1	In	in	ADP	IN	_	4	mark	_	_
+2	order	order	NOUN	NN	Number=Sing	1	fixed	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	pay	pay	VERB	VB	VerbForm=Inf	9	advcl	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	all	all	DET	DT	_	7	det	_	_
+7	entertainments	entertainment	NOUN	NNS	Number=Plur	4	obl	_	_
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+9	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	join	join	VERB	VB	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	getting	get	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+15	part	part	NOUN	NN	Number=Sing	17	compound	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	_	17	punct	_	SpaceAfter=No
+17	time	time	NOUN	NN	Number=Sing	18	compound	_	_
+18	job	job	NOUN	NN	Number=Sing	23	nsubj	_	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+20	obviously	obviously	ADV	RB	_	23	advmod	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	best	best	ADJ	JJS	Degree=Sup	23	amod	_	_
+23	way	way	NOUN	NN	Number=Sing	13	ccomp	_	_
+24	out	out	ADV	RB	_	23	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 18
+# text = Fun usually comes with price.
+1	Fun	fun	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	usually	usually	ADV	RB	_	3	advmod	_	_
+3	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	with	with	ADP	IN	_	5	case	_	_
+5	price	price	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 19
+# text = Also, it is the first step for self- finance.
+1	Also	also	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	7	amod	_	_
+7	step	step	NOUN	NN	Number=Sing	0	root	_	_
+8	for	for	ADP	IN	_	11	case	_	_
+9	self	self	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	_
+11	finance	finance	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 20
+# text = We, being university students, are preparing and upgrading ourselves to fight in the world few years later.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	being	be	AUX	VBG	VerbForm=Ger	5	cop	_	_
+4	university	university	NOUN	NN	Number=Sing	5	compound	_	_
+5	students	student	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	preparing	prepare	VERB	VBG	Tense=Pres|VerbForm=Part	5	parataxis	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	upgrading	upgrade	VERB	VBG	Tense=Pres|VerbForm=Part	8	conj	_	_
+11	ourselves	ourselves	PRON	PRP	Number=Plur|Person=1|PronType=Prs	10	obj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	fight	fight	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	world	world	NOUN	NN	Number=Sing	13	obl	_	_
+17	few	few	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	years	year	NOUN	NNS	Number=Plur	19	obl:npmod	_	_
+19	later	later	ADV	RBR	Degree=Cmp	13	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 21
+# text = It is a short time for so much preparation work.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	short	short	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	time	time	NOUN	NN	Number=Sing	0	root	_	_
+6	for	for	ADP	IN	_	10	case	_	_
+7	so	so	ADV	RB	_	8	advmod	_	_
+8	much	much	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	preparation	preparation	NOUN	NN	Number=Sing	10	compound	_	_
+10	work	work	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 22
+# text = Thus, shall we work on multitasks: studying and working?
+1	Thus	thus	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	shall	shall	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+5	work	work	VERB	VB	VerbForm=Inf	0	root	_	_
+6	on	on	ADP	IN	_	7	case	_	_
+7	multitasks	multitask	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+8	:	:	PUNCT	:	_	5	punct	_	_
+9	studying	study	VERB	VBG	VerbForm=Ger	5	parataxis	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	working	work	VERB	VBG	VerbForm=Ger	9	conj	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

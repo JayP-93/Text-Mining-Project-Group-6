@@ -1,0 +1,344 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PHL_SMK0_115_EN_B2.txt
+# newpar
+# sent_id = 1
+# text = ﻿Every year, the number of smokers is currently growing.
+1	﻿Every	﻿Every	DET	DT	_	2	det	_	_
+2	year	year	NOUN	NN	Number=Sing	10	obl:tmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	10	punct	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	number	number	NOUN	NN	Number=Sing	10	nsubj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	smokers	smoker	NOUN	NNS	Number=Plur	5	nmod	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	currently	currently	ADV	RB	_	10	advmod	_	_
+10	growing	grow	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = According to Department of Health - Republic of the Philippines, there is currently an estimated 1. 3 billion smokers as of last year.
+1	According	accord	VERB	VBG	VerbForm=Ger	3	case	_	_
+2	to	to	ADP	IN	_	3	case	_	_
+3	Department	Department	PROPN	NNP	Number=Sing	13	obl	_	_
+4	of	of	ADP	IN	_	7	case	_	_
+5	Health	Health	PROPN	NNP	Number=Sing	7	compound	_	_
+6	-	-	PUNCT	HYPH	_	7	punct	_	_
+7	Republic	Republic	PROPN	NNP	Number=Sing	3	nmod	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	Philippines	Philippines	PROPN	NNPS	Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	there	there	PRON	EX	_	13	expl	_	_
+13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	currently	currently	ADV	RB	_	21	advmod	_	_
+15	an	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+16	estimated	estimate	VERB	VBN	Tense=Past|VerbForm=Part	21	amod	_	_
+17	1	1	NUM	CD	NumType=Card	21	nummod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	21	punct	_	_
+19	3	3	NUM	CD	NumType=Card	20	compound	_	_
+20	billion	billion	NUM	CD	NumType=Card	21	nummod	_	_
+21	smokers	smoker	NOUN	NNS	Number=Plur	13	nsubj	_	_
+22	as	as	ADP	IN	_	25	case	_	_
+23	of	of	ADP	IN	_	22	fixed	_	_
+24	last	last	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	year	year	NOUN	NN	Number=Sing	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 3
+# text = This number of smokers includes male and female aging from 15 above.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	number	number	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	smokers	smoker	NOUN	NNS	Number=Plur	2	nmod	_	_
+5	includes	include	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	male	male	ADJ	JJ	Degree=Pos	5	xcomp	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	female	female	ADJ	JJ	Degree=Pos	6	conj	_	_
+9	aging	aging	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+10	from	from	ADP	IN	_	11	case	_	_
+11	15	15	NUM	CD	NumType=Card	9	obl	_	_
+12	above	above	ADV	RB	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Smoking should be completely banned not just at all restaurants but also at the public places in the country.
+1	Smoking	smoking	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+2	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+4	completely	completely	ADV	RB	_	5	advmod	_	_
+5	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	not	not	ADV	RB	_	7	advmod	_	_
+7	just	just	ADV	RB	_	10	advmod	_	_
+8	at	at	ADP	IN	_	10	case	_	_
+9	all	all	DET	DT	_	10	det	_	_
+10	restaurants	restaurant	NOUN	NNS	Number=Plur	5	obl	_	_
+11	but	but	CCONJ	CC	_	16	cc	_	_
+12	also	also	ADV	RB	_	16	advmod	_	_
+13	at	at	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	public	public	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	places	place	NOUN	NNS	Number=Plur	10	conj	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	country	country	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Most of the restaurants are air conditioned; they don't allow smokers inside their restaurants but still they damage the freshness of the air outside.
+1	Most	most	ADJ	JJS	Degree=Sup	7	nsubj	_	_
+2	of	of	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	restaurants	restaurant	NOUN	NNS	Number=Plur	1	nmod	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	air	air	NOUN	NN	Number=Sing	7	obl:npmod	_	_
+7	conditioned	condition	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	7	punct	_	_
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
+10	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
+11	n't	not	PART	RB	_	12	advmod	_	_
+12	allow	allow	VERB	VB	VerbForm=Inf	7	parataxis	_	_
+13	smokers	smoker	NOUN	NNS	Number=Plur	12	obj	_	_
+14	inside	inside	ADP	IN	_	16	case	_	_
+15	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	restaurants	restaurant	NOUN	NNS	Number=Plur	13	nmod	_	_
+17	but	but	CCONJ	CC	_	20	cc	_	_
+18	still	still	ADV	RB	_	20	advmod	_	_
+19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+20	damage	damage	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	conj	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	freshness	freshness	NOUN	NN	Number=Sing	20	obj	_	_
+23	of	of	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	air	air	NOUN	NN	Number=Sing	22	nmod	_	_
+26	outside	outside	ADV	RB	_	20	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 6
+# text = Some restaurants allow them to smoke but only in the smoking area.
+1	Some	some	DET	DT	_	2	det	_	_
+2	restaurants	restaurant	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	allow	allow	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	smoke	smoke	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+7	but	but	CCONJ	CC	_	12	cc	_	_
+8	only	only	ADV	RB	_	12	advmod	_	_
+9	in	in	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	smoking	smoking	NOUN	NN	Number=Sing	12	compound	_	_
+12	area	area	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Smoking is already a part of a smoker's life.
+1	Smoking	smoke	NOUN	NN	Number=Sing	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	already	already	ADV	RB	_	5	advmod	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	part	part	NOUN	NN	Number=Sing	0	root	_	_
+6	of	of	ADP	IN	_	10	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	smoker	smoker	NOUN	NN	Number=Sing	10	nmod:poss	_	SpaceAfter=No
+9	's	's	PART	POS	_	8	case	_	_
+10	life	life	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = Some of them smoke after eating and some smoke during a drinking session.
+1	Some	some	DET	DT	_	4	nsubj	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	nmod	_	_
+4	smoke	smoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	after	after	SCONJ	IN	_	6	mark	_	_
+6	eating	eat	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	some	some	DET	DT	_	9	det	_	_
+9	smoke	smoke	NOUN	NN	Number=Sing	6	conj	_	_
+10	during	during	ADP	IN	_	13	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	drinking	drinking	NOUN	NN	Number=Sing	13	compound	_	_
+13	session	session	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Some say that it can make them feel better and can calm their body.
+1	Some	some	DET	DT	_	2	nsubj	_	_
+2	say	say	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	6	mark	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	make	make	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+7	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+8	feel	feel	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	better	better	ADJ	JJR	Degree=Cmp	8	xcomp	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	can	can	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	calm	calm	VERB	VB	VerbForm=Inf	6	conj	_	_
+13	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	body	body	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = They don't even think what smoking can do not only with their health but also with their life.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	5	advmod	_	_
+4	even	even	ADV	RB	_	5	advmod	_	_
+5	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+6	what	what	DET	WDT	PronType=Int	7	det	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	9	nsubj	_	_
+8	can	can	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	do	do	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+10	not	not	ADV	RB	_	11	advmod	_	_
+11	only	only	ADV	RB	_	9	advmod	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	health	health	NOUN	NN	Number=Sing	9	obl	_	_
+15	but	but	CCONJ	CC	_	19	cc	_	_
+16	also	also	ADV	RB	_	19	advmod	_	_
+17	with	with	ADP	IN	_	19	case	_	_
+18	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	life	life	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 11
+# text = They don't mind with the surroundings and the people that might be affected around them.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	mind	mind	VERB	VB	VerbForm=Inf	0	root	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	surroundings	surroundings	NOUN	NNS	Number=Plur	4	obl	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	people	people	NOUN	NNS	Number=Plur	4	conj	_	_
+11	that	that	PRON	WDT	PronType=Rel	14	nsubj:pass	_	_
+12	might	might	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	be	be	AUX	VB	VerbForm=Inf	14	aux:pass	_	_
+14	affected	affect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	acl:relcl	_	_
+15	around	around	ADP	IN	_	16	case	_	_
+16	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 12
+# text = As we all know, smoking is very dangerous to one's health.
+1	As	as	SCONJ	IN	_	4	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	all	all	DET	DT	_	2	det	_	_
+4	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	smoking	smoke	NOUN	NN	Number=Sing	9	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	very	very	ADV	RB	_	9	advmod	_	_
+9	dangerous	dangerous	ADJ	JJ	Degree=Pos	0	root	_	_
+10	to	to	SCONJ	IN	_	13	case	_	_
+11	one	one	PRON	PRP	_	13	nmod:poss	_	SpaceAfter=No
+12	's	's	PART	POS	_	11	case	_	_
+13	health	health	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 13
+# text = It can cause you to have a lung cancer.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	cause	cause	VERB	VB	VerbForm=Inf	0	root	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	have	have	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	lung	lung	NOUN	NN	Number=Sing	9	compound	_	_
+9	cancer	cancer	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 14
+# text = It affects not only your lungs but also the other internal organs of your body.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	affects	affect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	not	not	ADV	RB	_	6	advmod	_	_
+4	only	only	ADV	RB	_	6	advmod	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	lungs	lung	NOUN	NNS	Number=Plur	2	obj	_	_
+7	but	but	CCONJ	CC	_	12	cc	_	_
+8	also	also	ADV	RB	_	12	advmod	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+10	other	other	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	internal	internal	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	organs	organ	NOUN	NNS	Number=Plur	6	conj	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	body	body	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 15
+# text = It also affects the health of the second hand smokers and workers inside the restaurants.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	also	also	ADV	RB	_	3	advmod	_	_
+3	affects	affect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	health	health	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	10	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+8	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	10	amod	_	_
+9	hand	hand	NOUN	NN	Number=Sing	10	compound	_	_
+10	smokers	smoker	NOUN	NNS	Number=Plur	5	nmod	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	workers	worker	NOUN	NNS	Number=Plur	10	conj	_	_
+13	inside	inside	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	restaurants	restaurant	NOUN	NNS	Number=Plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 16
+# text = Smoking can risk your life.
+1	Smoking	smoke	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	risk	risk	VERB	VB	VerbForm=Inf	0	root	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	life	life	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 17
+# text = You can even die from it.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	even	even	ADV	RB	_	4	advmod	_	_
+4	die	die	VERB	VB	VerbForm=Inf	0	root	_	_
+5	from	from	ADP	IN	_	6	case	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 18
+# text = As a very good advice, stop smoking early before it's too late.
+1	As	as	ADP	IN	_	5	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	good	good	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	advice	advice	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+8	smoking	smoke	ADV	RB	_	9	advmod	_	_
+9	early	early	ADV	RB	Degree=Pos	7	advmod	_	_
+10	before	before	SCONJ	IN	_	14	mark	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	SpaceAfter=No
+12	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	too	too	ADV	RB	_	14	advmod	_	_
+14	late	late	ADJ	JJ	Degree=Pos	9	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 19
+# text = Try to avoid smoking gradually until you can control and stop using it.
+1	Try	try	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	to	to	PART	TO	_	3	mark	_	_
+3	avoid	avoid	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+4	smoking	smoke	NOUN	NN	Number=Sing	3	obj	_	_
+5	gradually	gradually	ADV	RB	_	3	advmod	_	_
+6	until	until	SCONJ	IN	_	9	mark	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+8	can	can	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	control	control	VERB	VB	VerbForm=Inf	3	advcl	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	stop	stop	VERB	VB	VerbForm=Inf	9	conj	_	_
+12	using	use	VERB	VBG	VerbForm=Ger	11	xcomp	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

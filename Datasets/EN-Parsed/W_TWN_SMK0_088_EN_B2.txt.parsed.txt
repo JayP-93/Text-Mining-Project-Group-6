@@ -1,0 +1,306 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_TWN_SMK0_088_EN_B2.txt
+# newpar
+# sent_id = 1
+# text = ﻿I, who don't smoke, completely agree with that.
+1	﻿I	﻿I	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	n't	not	PART	RB	_	6	advmod	_	_
+6	smoke	smoke	VERB	VB	VerbForm=Inf	1	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	completely	completely	ADV	RB	_	9	advmod	_	_
+9	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	with	with	ADP	IN	_	11	case	_	_
+11	that	that	PRON	DT	Number=Sing|PronType=Dem	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = In my opinion, smoking don't bring any benefit, it's totally a bad thing.
+1	In	in	ADP	IN	_	3	case	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	opinion	opinion	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj	_	_
+6	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
+7	n't	not	PART	RB	_	8	advmod	_	_
+8	bring	bring	VERB	VB	VerbForm=Inf	0	root	_	_
+9	any	any	DET	DT	_	10	det	_	_
+10	benefit	benefit	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	SpaceAfter=No
+13	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+14	totally	totally	ADV	RB	_	17	advmod	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	bad	bad	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	thing	thing	NOUN	NN	Number=Sing	8	parataxis	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = Smoker shouldn't smoke in the restaurant.
+1	Smoker	smoker	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	smoke	smoke	VERB	VB	VerbForm=Inf	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	restaurant	restaurant	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = In restaurants, it's hard for them to have completely separated smoking and non-smoking sections.
+1	In	in	ADP	IN	_	2	case	_	_
+2	restaurants	restaurant	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	SpaceAfter=No
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	hard	hard	ADJ	JJ	Degree=Pos	0	root	_	_
+7	for	for	SCONJ	IN	_	10	mark	_	_
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	have	have	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+11	completely	completely	ADV	RB	_	12	advmod	_	_
+12	separated	separate	VERB	VBN	Tense=Past|VerbForm=Part	13	amod	_	_
+13	smoking	smoking	NOUN	NN	Number=Sing	10	obj	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	non-smoking	non-smok	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	sections	section	NOUN	NNS	Number=Plur	13	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = If one person smokes, then everyone around him has to breathe it.
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	one	one	NUM	CD	NumType=Card	4	nummod	_	_
+3	person	person	NOUN	NN	Number=Sing	4	compound	_	_
+4	smokes	smoke	NOUN	NNS	Number=Plur	10	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	then	then	ADV	RB	PronType=Dem	10	advmod	_	_
+7	everyone	everyone	PRON	NN	Number=Sing	10	nsubj	_	_
+8	around	around	ADP	IN	_	9	case	_	_
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nmod	_	_
+10	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	breathe	breathe	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 6
+# text = Also, the waitresses in a smoky bar or restaurant will suck entire boxes of cigarettes just from breathing the dirty air.
+1	Also	also	ADV	RB	_	12	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	12	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	waitresses	waitress	NOUN	NNS	Number=Plur	12	nsubj	_	_
+5	in	in	ADP	IN	_	8	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	smoky	smoky	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	bar	bar	NOUN	NN	Number=Sing	4	nmod	_	_
+9	or	or	CCONJ	CC	_	10	cc	_	_
+10	restaurant	restaurant	NOUN	NN	Number=Sing	8	conj	_	_
+11	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	suck	suck	VERB	VB	VerbForm=Inf	0	root	_	_
+13	entire	entire	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	boxes	box	NOUN	NNS	Number=Plur	12	obj	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	cigarettes	cigarette	NOUN	NNS	Number=Plur	14	nmod	_	_
+17	just	just	ADV	RB	_	19	advmod	_	_
+18	from	from	SCONJ	IN	_	19	mark	_	_
+19	breathing	breathe	VERB	VBG	VerbForm=Ger	14	acl	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	dirty	dirty	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	air	air	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 7
+# text = For people who don't smoke, it's hard to stand it.
+1	For	for	ADP	IN	_	2	case	_	_
+2	people	people	NOUN	NNS	Number=Plur	10	obl	_	_
+3	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	n't	not	PART	RB	_	6	advmod	_	_
+6	smoke	smoke	VERB	VB	VerbForm=Inf	2	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	SpaceAfter=No
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	hard	hard	ADJ	JJ	Degree=Pos	0	root	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	stand	stand	VERB	VB	VerbForm=Inf	10	csubj	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 8
+# text = Maybe people who smoke will think that it's nothing.
+1	Maybe	maybe	ADV	RB	_	2	advmod	_	_
+2	people	people	NOUN	NNS	Number=Plur	0	root	_	_
+3	who	who	PRON	WP	PronType=Rel	4	nsubj	_	_
+4	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	think	think	VERB	VB	VerbForm=Inf	4	conj	_	_
+7	that	that	SCONJ	IN	_	10	mark	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	nothing	nothing	PRON	NN	Number=Sing	6	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = But for people like me, we don't smoke; we think smoke is really stinky.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	for	for	ADP	IN	_	3	case	_	_
+3	people	people	NOUN	NNS	Number=Plur	10	obl	_	_
+4	like	like	ADP	IN	_	5	case	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+8	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
+9	n't	not	PART	RB	_	10	advmod	_	_
+10	smoke	smoke	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	10	punct	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+13	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+14	smoke	smoke	NOUN	NN	Number=Sing	17	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	really	really	ADV	RB	_	17	advmod	_	_
+17	stinky	stinky	ADJ	JJ	Degree=Pos	13	ccomp	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 10
+# text = Furthermore, when we suck the second hand smoke they produce, we may have higher risk to get cancer.
+1	Furthermore	furthermore	ADV	RB	_	11	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	11	punct	_	_
+3	when	when	ADV	WRB	PronType=Int	5	mark	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+5	suck	suck	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+7	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	8	amod	_	_
+8	hand	hand	NOUN	NN	Number=Sing	9	compound	_	_
+9	smoke	smoke	NOUN	NN	Number=Sing	5	obj	_	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+11	produce	produce	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
+14	may	may	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	have	have	VERB	VB	VerbForm=Inf	11	parataxis	_	_
+16	higher	higher	ADJ	JJR	Degree=Cmp	17	amod	_	_
+17	risk	risk	NOUN	NN	Number=Sing	15	obj	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	get	get	VERB	VB	VerbForm=Inf	17	acl	_	_
+20	cancer	cancer	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 11
+# text = Smoking is bad for our health.
+1	Smoking	smoking	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	bad	bad	ADJ	JJ	Degree=Pos	0	root	_	_
+4	for	for	ADP	IN	_	6	case	_	_
+5	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	health	health	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 12
+# text = When people smoke, the smoke they produce will also cause air pollution.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	people	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	smoke	smoke	NOUN	NN	Number=Sing	11	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	11	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	smoke	smoke	NOUN	NN	Number=Sing	11	nsubj	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+8	produce	produce	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	will	will	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	also	also	ADV	RB	_	11	advmod	_	_
+11	cause	cause	VERB	VB	VerbForm=Inf	0	root	_	_
+12	air	air	NOUN	NN	Number=Sing	13	compound	_	_
+13	pollution	pollution	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 13
+# text = Everyone wants to have a good environment when having meals.
+1	Everyone	everyone	PRON	NN	Number=Sing	2	nsubj	_	_
+2	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	have	have	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	good	good	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	environment	environment	NOUN	NN	Number=Sing	4	obj	_	_
+8	when	when	ADV	WRB	PronType=Int	9	mark	_	_
+9	having	have	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+10	meals	meal	NOUN	NNS	Number=Plur	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 14
+# text = I think people shouldn't smoke when having meals.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	people	people	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	should	should	AUX	MD	VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	n't	not	PART	RB	_	6	advmod	_	_
+6	smoke	smoke	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+7	when	when	ADV	WRB	PronType=Int	8	mark	_	_
+8	having	have	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+9	meals	meal	NOUN	NNS	Number=Plur	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 15
+# text = We should ban this in the country.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	ban	ban	VERB	VB	VerbForm=Inf	0	root	_	_
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	obj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	country	country	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 16
+# text = Having meals is a pleasure thing.
+1	Having	have	VERB	VBG	VerbForm=Ger	2	amod	_	_
+2	meals	meal	NOUN	NNS	Number=Plur	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	pleasure	pleasure	NOUN	NN	Number=Sing	6	compound	_	_
+6	thing	thing	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 17
+# text = But when people smoke during that time, I think most people won't feel good.
+1	But	but	CCONJ	CC	_	10	cc	_	_
+2	when	when	ADV	WRB	PronType=Int	4	mark	_	_
+3	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+5	during	during	ADP	IN	_	7	case	_	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	time	time	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	most	most	ADJ	JJS	Degree=Sup	12	amod	_	_
+12	people	people	NOUN	NNS	Number=Plur	15	nsubj	_	_
+13	wo	will	AUX	MD	VerbForm=Fin	15	aux	_	SpaceAfter=No
+14	n't	not	PART	RB	_	15	advmod	_	_
+15	feel	feel	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+16	good	good	ADJ	JJ	Degree=Pos	15	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 18
+# text = It's really important to ban this in the restaurants.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	really	really	ADV	RB	_	4	advmod	_	_
+4	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	ban	ban	VERB	VB	VerbForm=Inf	4	csubj	_	_
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	6	obj	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	restaurants	restaurant	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 19
+# text = I totally agree with that.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	totally	totally	ADV	RB	_	3	advmod	_	_
+3	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	with	with	ADP	IN	_	5	case	_	_
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

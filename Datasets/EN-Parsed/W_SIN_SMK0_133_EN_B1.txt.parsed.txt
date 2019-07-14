@@ -1,0 +1,293 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_SIN_SMK0_133_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking is a silent killer.
+1	﻿Smoking	﻿Smok	NOUN	NN	Number=Sing	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	silent	silent	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	killer	killer	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Indeed, it not only harms the smoker, but also everyone around him.
+1	Indeed	indeed	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	not	not	ADV	RB	_	5	advmod	_	_
+5	only	only	ADV	RB	_	6	advmod	_	_
+6	harms	harm	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	smoker	smoker	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	but	but	CCONJ	CC	_	12	cc	_	_
+11	also	also	ADV	RB	_	12	advmod	_	_
+12	everyone	everyone	PRON	NN	Number=Sing	6	conj	_	_
+13	around	around	ADP	IN	_	14	case	_	_
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = What is most worrisome about this vice is that it contains narcotine, not only carcinogenic, but also causes addiction.
+1	What	what	PRON	WP	PronType=Int	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	most	most	ADV	RBS	_	4	advmod	_	_
+4	worrisome	worrisome	ADJ	JJ	Degree=Pos	8	csubj	_	_
+5	about	about	ADP	IN	_	7	case	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	vice	vice	NOUN	NN	Number=Sing	4	obl	_	_
+8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	that	that	SCONJ	IN	_	11	mark	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	contains	contain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+12	narcotine	narcotine	NUM	CD	NumType=Card	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	8	punct	_	_
+14	not	not	ADV	RB	_	16	advmod	_	_
+15	only	only	ADV	RB	_	16	advmod	_	_
+16	carcinogenic	carcinogenic	ADJ	JJ	Degree=Pos	8	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	but	but	CCONJ	CC	_	20	cc	_	_
+19	also	also	ADV	RB	_	20	advmod	_	_
+20	causes	cause	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+21	addiction	addiction	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 4
+# text = As the Pringles slogan aptly puts it "Once you pop, you can't stop. " Indeed, that is the case of many smokers.
+1	As	as	SCONJ	IN	_	6	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	Pringles	Pringles	PROPN	NNPS	Number=Plur	4	compound	_	_
+4	slogan	slogan	PROPN	NNP	Number=Sing	6	nsubj	_	_
+5	aptly	aptly	ADV	RB	_	6	advmod	_	_
+6	puts	put	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+8	"	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+9	Once	Once	SCONJ	IN	_	11	mark	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+11	pop	pop	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+14	ca	can	AUX	MD	VerbForm=Fin	16	aux	_	SpaceAfter=No
+15	n't	not	PART	RB	_	16	advmod	_	_
+16	stop	stop	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	16	punct	_	_
+18	"	"	PUNCT	''	_	16	punct	_	_
+19	Indeed	indeed	ADV	RB	_	16	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	16	punct	_	_
+21	that	that	PRON	DT	Number=Sing|PronType=Dem	24	nsubj	_	_
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	case	case	NOUN	NN	Number=Sing	16	parataxis	_	_
+25	of	of	ADP	IN	_	27	case	_	_
+26	many	many	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	smokers	smoker	NOUN	NNS	Number=Plur	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 5
+# text = They are unable to kick the addiction, even increasing the number of packs they smoke a day.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	unable	unable	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	kick	kick	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	addiction	addiction	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	even	even	ADV	RB	_	10	advmod	_	_
+10	increasing	increase	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	number	number	NOUN	NN	Number=Sing	10	obj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	packs	pack	NOUN	NNS	Number=Plur	12	nmod	_	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+16	smoke	smoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	day	day	NOUN	NN	Number=Sing	16	obl:tmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = This not only numbs their pleasure from smoking, causing them to smoke more and more, but also causes ultimate harm to their bodies, such as lung cancer amongst many other ailments.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	not	not	ADV	RB	_	4	advmod	_	_
+3	only	only	ADV	RB	_	4	advmod	_	_
+4	numbs	numb	VERB	VB	VerbForm=Inf	0	root	_	_
+5	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	pleasure	pleasure	NOUN	NN	Number=Sing	4	obj	_	_
+7	from	from	ADP	IN	_	8	case	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	causing	cause	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	smoke	smoke	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+14	more	more	ADJ	JJR	Degree=Cmp	13	obj	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	more	more	ADJ	JJR	Degree=Cmp	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	but	but	CCONJ	CC	_	20	cc	_	_
+19	also	also	ADV	RB	_	20	advmod	_	_
+20	causes	cause	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+21	ultimate	ultimate	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	harm	harm	NOUN	NN	Number=Sing	20	obj	_	_
+23	to	to	ADP	IN	_	25	case	_	_
+24	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	bodies	body	NOUN	NNS	Number=Plur	20	obl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	25	punct	_	_
+27	such	such	ADJ	JJ	Degree=Pos	30	case	_	_
+28	as	as	ADP	IN	_	27	fixed	_	_
+29	lung	lung	NOUN	NN	Number=Sing	30	compound	_	_
+30	cancer	cancer	NOUN	NN	Number=Sing	25	nmod	_	_
+31	amongst	amongst	ADP	IN	_	34	case	_	_
+32	many	many	ADJ	JJ	Degree=Pos	34	amod	_	_
+33	other	other	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	ailments	ailments	NOUN	NNS	Number=Plur	30	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = The people most at risk, however, are not these smokers, but the people around him --- the second-hand smokers.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	0	root	_	_
+3	most	most	ADV	RBS	_	5	advmod	_	_
+4	at	at	ADP	IN	_	5	case	_	_
+5	risk	risk	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	12	punct	_	_
+7	however	however	ADV	RB	_	12	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	not	not	PART	RB	_	12	advmod	_	_
+11	these	these	DET	DT	Number=Plur|PronType=Dem	12	det	_	_
+12	smokers	smoker	NOUN	NNS	Number=Plur	2	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	24	punct	_	_
+14	but	but	CCONJ	CC	_	24	cc	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	people	people	NOUN	NNS	Number=Plur	24	nsubj	_	_
+17	around	around	ADP	IN	_	18	case	_	_
+18	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nmod	_	_
+19	---	---	PUNCT	:	_	24	punct	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+21	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	23	amod	_	SpaceAfter=No
+22	-	-	PUNCT	HYPH	_	23	punct	_	SpaceAfter=No
+23	hand	hand	NOUN	NN	Number=Sing	24	compound	_	_
+24	smokers	smoker	NOUN	NNS	Number=Plur	2	conj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Not only do they not have the filter of the cigarette, inhaling more of the carcinogenic substances in the smoke, they are the innocent beings, who had to deal with the effects that they cannot control.
+1	Not	not	ADV	RB	_	2	advmod	_	_
+2	only	only	ADV	RB	_	6	advmod	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	filter	filter	NOUN	NN	Number=Sing	6	obj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	cigarette	cigarette	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	6	punct	_	_
+13	inhaling	inhal	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+14	more	more	ADJ	JJR	Degree=Cmp	13	obj	_	_
+15	of	of	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	carcinogenic	carcinogenic	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	substances	substance	NOUN	NNS	Number=Plur	14	obl	_	_
+19	in	in	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	smoke	smoke	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	6	punct	_	_
+23	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	27	nsubj	_	_
+24	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	27	cop	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+26	innocent	innocent	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	beings	being	NOUN	NNS	Number=Plur	6	parataxis	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	27	punct	_	_
+29	who	who	PRON	WP	PronType=Rel	30	nsubj	_	_
+30	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	27	acl:relcl	_	_
+31	to	to	PART	TO	_	32	mark	_	_
+32	deal	deal	VERB	VB	VerbForm=Inf	30	xcomp	_	_
+33	with	with	ADP	IN	_	35	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	effects	effect	NOUN	NNS	Number=Plur	32	obl	_	_
+36	that	that	SCONJ	IN	_	40	mark	_	_
+37	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	40	nsubj	_	_
+38	can	can	AUX	MD	VerbForm=Fin	40	aux	_	SpaceAfter=No
+39	not	not	PART	RB	_	40	advmod	_	_
+40	control	control	VERB	VB	VerbForm=Inf	32	ccomp	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 9
+# text = On the other hand, cigarette companies are reaping in gargantuan profits, at the expense of the lives of others, not just the smokers and the second-hand smokers, but also exploiting cheap child labour from countries such as Cambodia etc.
+1	On	on	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	other	other	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	hand	hand	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	cigarette	cigarette	NOUN	NN	Number=Sing	7	compound	_	_
+7	companies	company	NOUN	NNS	Number=Plur	9	nsubj	_	_
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	reaping	reap	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	gargantuan	gargantuan	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	profits	profit	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	9	punct	_	_
+14	at	at	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	expense	expense	NOUN	NN	Number=Sing	9	obl	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	lives	life	NOUN	NNS	Number=Plur	16	nmod	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	others	other	NOUN	NNS	Number=Plur	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	9	punct	_	_
+23	not	not	ADV	RB	_	26	advmod	_	_
+24	just	just	ADV	RB	_	26	advmod	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	smokers	smoker	NOUN	NNS	Number=Plur	9	conj	_	_
+27	and	and	CCONJ	CC	_	32	cc	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+29	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	31	amod	_	SpaceAfter=No
+30	-	-	PUNCT	HYPH	_	31	punct	_	SpaceAfter=No
+31	hand	hand	NOUN	NN	Number=Sing	32	compound	_	_
+32	smokers	smoker	NOUN	NNS	Number=Plur	26	conj	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	36	punct	_	_
+34	but	but	CCONJ	CC	_	36	cc	_	_
+35	also	also	ADV	RB	_	36	advmod	_	_
+36	exploiting	exploit	VERB	VBG	VerbForm=Ger	9	conj	_	_
+37	cheap	cheap	ADJ	JJ	Degree=Pos	39	amod	_	_
+38	child	child	NOUN	NN	Number=Sing	39	compound	_	_
+39	labour	labour	NOUN	NN	Number=Sing	36	obj	_	_
+40	from	from	ADP	IN	_	41	case	_	_
+41	countries	country	NOUN	NNS	Number=Plur	39	nmod	_	_
+42	such	such	ADJ	JJ	Degree=Pos	44	case	_	_
+43	as	as	ADP	IN	_	42	fixed	_	_
+44	Cambodia	Cambodia	PROPN	NNP	Number=Sing	41	nmod	_	_
+45	etc	etc	X	FW	_	44	advmod	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 10
+# text = Such a vice should be stopped at all costs.
+1	Such	such	DET	PDT	_	3	det:predet	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	vice	vice	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
+4	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+6	stopped	stop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	at	at	ADP	IN	_	9	case	_	_
+8	all	all	DET	DT	_	9	det	_	_
+9	costs	cost	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 11
+# text = Smoking should be banned, for the benefit of everyone.
+1	Smoking	smoking	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	_	_
+4	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	benefit	benefit	NOUN	NN	Number=Sing	4	obl	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	everyone	everyone	PRON	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

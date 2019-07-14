@@ -1,0 +1,326 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_THA_SMK0_380_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Cigarettes have substance that stimulate nerve it called "Nicotine" that is narcotic drug, appetite suppressant and poison.
+1	﻿Cigarettes	﻿Cigarettes	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	substance	substance	NOUN	NN	Number=Sing	2	obj	_	_
+4	that	that	PRON	WDT	PronType=Rel	6	nsubj	_	_
+5	stimulate	stimulate	ADV	RB	_	6	advmod	_	_
+6	nerve	nerve	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	called	call	VERB	VBN	Tense=Past|VerbForm=Part	6	acl	_	_
+9	"	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+10	Nicotine	Nicotine	PROPN	NNP	Number=Sing	8	xcomp	_	SpaceAfter=No
+11	"	"	PUNCT	''	_	10	punct	_	_
+12	that	that	PRON	WDT	PronType=Rel	15	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	narcotic	narcotic	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	drug	drug	NOUN	NN	Number=Sing	2	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	appetite	appetite	NOUN	NN	Number=Sing	18	compound	_	_
+18	suppressant	suppressant	NOUN	NN	Number=Sing	15	conj	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	poison	poison	NOUN	NN	Number=Sing	15	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = Cigarettes bring about effects to smokers and people around smokers.
+1	Cigarettes	Cigarettes	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	bring	br	VERB	VB	VerbForm=Inf	0	root	_	_
+3	about	about	ADP	IN	_	4	case	_	_
+4	effects	effect	NOUN	NNS	Number=Plur	2	obl	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	smokers	smoker	NOUN	NNS	Number=Plur	2	obl	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	people	people	NOUN	NNS	Number=Plur	6	conj	_	_
+9	around	around	ADP	IN	_	10	case	_	_
+10	smokers	smoker	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Effects from smoke of cigarettes is an important principal that harm people's health around the world, it cause smokers risk danger from diseases such as cancer, heart disease, congestive heart failure and emphysema.
+1	Effects	Effects	NOUN	NNS	Number=Plur	9	nsubj	_	_
+2	from	from	ADP	IN	_	3	case	_	_
+3	smoke	smoke	NOUN	NN	Number=Sing	1	nmod	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	cigarettes	cigarettes	NOUN	NNS	Number=Plur	3	nmod	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	important	important	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	principal	principal	NOUN	NN	Number=Sing	0	root	_	_
+10	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	_
+11	harm	harm	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	people	people	NOUN	NNS	Number=Plur	14	nmod:poss	_	SpaceAfter=No
+13	's	's	PART	POS	_	12	case	_	_
+14	health	health	NOUN	NN	Number=Sing	11	obj	_	_
+15	around	around	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	world	world	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	9	punct	_	_
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	cause	cause	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	parataxis	_	_
+21	smoker	smoker	NOUN	NN	Number=Sing	24	nmod:poss	_	SpaceAfter=No
+22	s	s	PART	POS	_	21	case	_	_
+23	risk	risk	NOUN	NN	Number=Sing	24	compound	_	_
+24	danger	danger	NOUN	NN	Number=Sing	20	obj	_	_
+25	from	from	ADP	IN	_	26	case	_	_
+26	diseases	disease	NOUN	NNS	Number=Plur	20	obl	_	_
+27	such	such	ADJ	JJ	Degree=Pos	29	case	_	_
+28	as	as	ADP	IN	_	27	fixed	_	_
+29	cancer	cancer	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	32	punct	_	_
+31	heart	heart	NOUN	NN	Number=Sing	32	compound	_	_
+32	disease	disease	NOUN	NN	Number=Sing	29	conj	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	36	punct	_	_
+34	congestive	congestive	ADJ	JJ	Degree=Pos	36	amod	_	_
+35	heart	heart	NOUN	NN	Number=Sing	36	compound	_	_
+36	failure	failure	NOUN	NN	Number=Sing	29	conj	_	_
+37	and	and	CCONJ	CC	_	38	cc	_	_
+38	emphysema	emphysema	NOUN	NN	Number=Sing	36	conj	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = If a smoker is a woman, cause have more opportunity to risk for miscarry and baby who is born may have weight lower than usual, it cause smokers may look older than usual because smoke should increase wrinkles on your face.
+1	If	if	SCONJ	IN	_	6	mark	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	smoker	smoker	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	woman	woman	NOUN	NN	Number=Sing	9	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	cause	cause	PRON	PRP	_	9	nsubj	_	_
+9	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	more	more	ADJ	JJR	Degree=Cmp	11	amod	_	_
+11	opportunity	opportunity	NOUN	NN	Number=Sing	9	obj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	risk	risk	VERB	VB	VerbForm=Inf	11	acl	_	_
+14	for	for	ADP	IN	_	15	case	_	_
+15	miscarry	miscarry	NOUN	NN	Number=Sing	13	obl	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	baby	baby	NOUN	NN	Number=Sing	15	conj	_	_
+18	who	who	PRON	WP	PronType=Rel	20	nsubj:pass	_	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
+20	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	acl:relcl	_	_
+21	may	may	AUX	MD	VerbForm=Fin	24	aux	_	_
+22	have	have	AUX	VB	VerbForm=Inf	24	aux	_	_
+23	weight	weight	ADV	RB	_	24	advmod	_	_
+24	lower	lower	ADJ	JJR	Degree=Cmp	9	acl:relcl	_	_
+25	than	than	ADP	IN	_	26	case	_	_
+26	usual	usual	ADJ	JJ	Degree=Pos	24	obl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	9	punct	_	_
+28	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+29	cause	cause	SCONJ	IN	_	32	mark	_	_
+30	smokers	smoker	NOUN	NNS	Number=Plur	32	nsubj	_	_
+31	may	may	AUX	MD	VerbForm=Fin	32	aux	_	_
+32	look	look	VERB	VB	VerbForm=Inf	28	advcl	_	_
+33	older	older	ADJ	JJR	Degree=Cmp	32	xcomp	_	_
+34	than	than	ADP	IN	_	35	case	_	_
+35	usual	usual	ADJ	JJ	Degree=Pos	33	obl	_	_
+36	because	because	SCONJ	IN	_	39	mark	_	_
+37	smoke	smoke	NOUN	NN	Number=Sing	39	nsubj	_	_
+38	should	should	AUX	MD	VerbForm=Fin	39	aux	_	_
+39	increase	increase	VERB	VB	VerbForm=Inf	32	advcl	_	_
+40	wrinkles	wrinkle	NOUN	NNS	Number=Plur	39	obj	_	_
+41	on	on	ADP	IN	_	43	case	_	_
+42	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	43	nmod:poss	_	_
+43	face	face	NOUN	NN	Number=Sing	39	obl	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 5
+# text = Smoking cause metabolism raise than usual, so it cause smokers lose their weight.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+2	cause	cause	SCONJ	IN	_	4	advmod	_	_
+3	metabolism	metabolism	NOUN	NN	Number=Sing	4	compound	_	_
+4	raise	raise	NOUN	NN	Number=Sing	1	obj	_	_
+5	than	than	ADP	IN	_	6	case	_	_
+6	usual	usual	ADJ	JJ	Degree=Pos	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	so	so	ADV	RB	_	9	advmod	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+10	cause	cause	SCONJ	IN	_	12	mark	_	_
+11	smokers	smoker	NOUN	NNS	Number=Plur	12	nsubj	_	_
+12	lose	lose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+13	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	weight	weight	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 6
+# text = Smoking cause smokers extravagant money to buy cigarette to smoke and treat sickness.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	cause	cause	SCONJ	IN	_	6	advmod	_	_
+3	smoker	smoker	NOUN	NN	Number=Sing	6	nmod:poss	_	SpaceAfter=No
+4	s	s	PART	POS	_	3	case	_	_
+5	extravagant	extravagant	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	money	money	NOUN	NN	Number=Sing	1	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	buy	buy	VERB	VB	VerbForm=Inf	1	advcl	_	_
+9	cigarette	cigarette	NOUN	NN	Number=Sing	8	obj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	smoke	smoke	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	treat	treat	VERB	VB	VerbForm=Inf	11	conj	_	_
+14	sickness	sickness	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = Smoking is illegitimate if you smoke cigarettes at restaurants that have air-conditioned, smokers and owner place must punish by fine at least 2, 000 bath.
+1	Smoking	smoking	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	illegitimate	illegitimate	ADJ	JJ	Degree=Pos	0	root	_	_
+4	if	if	SCONJ	IN	_	6	mark	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7	cigarettes	cigarette	NOUN	NNS	Number=Plur	6	obj	_	_
+8	at	at	ADP	IN	_	9	case	_	_
+9	restaurants	restaurant	NOUN	NNS	Number=Plur	6	obl	_	_
+10	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	_
+11	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	air-	air-	SYM	SYM	_	15	punct	_	SpaceAfter=No
+13	conditioned	conditioned	ADJ	JJ	Degree=Pos	15	amod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	smokers	smoker	NOUN	NNS	Number=Plur	11	obj	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	owner	owner	NOUN	NN	Number=Sing	18	compound	_	_
+18	place	place	NOUN	NN	Number=Sing	20	nsubj	_	_
+19	must	must	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	punish	punish	VERB	VB	VerbForm=Inf	15	conj	_	_
+21	by	by	ADP	IN	_	22	case	_	_
+22	fine	fine	ADJ	JJ	Degree=Pos	20	obl	_	_
+23	at	at	ADV	RB	_	24	case	_	_
+24	least	least	ADV	RBS	Degree=Sup	25	nmod	_	_
+25	2	2	NUM	CD	NumType=Card	22	nummod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	25	punct	_	_
+27	000	000	NUM	CD	NumType=Card	28	nummod	_	_
+28	bath	bath	NOUN	NN	Number=Sing	25	appos	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = But at restaurants that not have air-conditioned, restaurant must have suitable zone for smoking it called "Smoking zone".
+1	But	but	CCONJ	CC	_	13	cc	_	_
+2	at	at	ADP	IN	_	3	case	_	_
+3	restaurants	restaurant	NOUN	NNS	Number=Plur	13	obl	_	_
+4	that	that	PRON	WDT	PronType=Rel	6	nsubj	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	have	have	VERB	VB	VerbForm=Inf	3	acl:relcl	_	_
+7	air	air	NOUN	NN	Number=Sing	9	obl:npmod	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	_	SpaceAfter=No
+9	conditioned	conditioned	ADJ	JJ	Degree=Pos	6	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	restaurant	restaurant	NOUN	NN	Number=Sing	13	nsubj	_	_
+12	must	must	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+14	suitable	suitable	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	zone	zone	NOUN	NN	Number=Sing	13	obj	_	_
+16	for	for	SCONJ	IN	_	17	mark	_	_
+17	smoking	smoke	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	called	call	VERB	VBN	Tense=Past|VerbForm=Part	17	advcl	_	_
+20	"	"	PUNCT	``	_	22	punct	_	SpaceAfter=No
+21	Smoking	smoking	NOUN	NN	Number=Sing	22	compound	_	_
+22	zone	zone	NOUN	NN	Number=Sing	19	xcomp	_	SpaceAfter=No
+23	"	"	PUNCT	''	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 9
+# text = I think smoking should be ban in all restaurants in the country because cigarette have more effects about everybody health even though people who don't smoking and children.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+6	ban	ban	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	all	all	DET	DT	_	9	det	_	_
+9	restaurants	restaurant	NOUN	NNS	Number=Plur	6	obl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	country	country	NOUN	NN	Number=Sing	9	nmod	_	_
+13	because	because	SCONJ	IN	_	15	mark	_	_
+14	cigarette	cigarette	NOUN	NN	Number=Sing	15	nsubj	_	_
+15	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+16	more	more	ADJ	JJR	Degree=Cmp	17	amod	_	_
+17	effects	effect	NOUN	NNS	Number=Plur	15	obj	_	_
+18	about	about	ADP	IN	_	20	case	_	_
+19	everybody	everybody	PRON	NN	Number=Sing	20	nmod:poss	_	_
+20	health	health	NOUN	NN	Number=Sing	17	nmod	_	_
+21	even	even	ADV	RB	_	22	advmod	_	_
+22	though	though	SCONJ	IN	_	2	advmod	_	_
+23	people	people	NOUN	NNS	Number=Plur	22	obj	_	_
+24	who	who	PRON	WP	PronType=Rel	25	nsubj	_	_
+25	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	SpaceAfter=No
+26	n't	not	PART	RB	_	27	advmod	_	_
+27	smoking	smoke	NOUN	NN	Number=Sing	25	obj	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	children	child	NOUN	NNS	Number=Plur	27	conj	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	23	punct	_	_
+
+# sent_id = 10
+# text = If you want to smoking, I think you should smoke at personal place such as your home or an office.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	smoking	smoke	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+10	should	should	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	smoke	smoke	VERB	VB	VerbForm=Inf	8	ccomp	_	_
+12	at	at	ADP	IN	_	14	case	_	_
+13	personal	personal	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	place	place	NOUN	NN	Number=Sing	11	obl	_	_
+15	such	such	ADJ	JJ	Degree=Pos	18	case	_	_
+16	as	as	ADP	IN	_	15	fixed	_	_
+17	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	home	home	NOUN	NN	Number=Sing	14	nmod	_	_
+19	or	or	CCONJ	CC	_	21	cc	_	_
+20	an	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	office	office	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 11
+# text = It can decrease pestilential disease for people at public place.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	decrease	decrease	VERB	VB	VerbForm=Inf	0	root	_	_
+4	pestilential	pestilential	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	disease	disease	NOUN	NN	Number=Sing	3	obj	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	people	people	NOUN	NNS	Number=Plur	5	nmod	_	_
+8	at	at	ADP	IN	_	10	case	_	_
+9	public	public	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	place	place	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 12
+# text = Smoking don't have anything good, if you are smokers you should stop smoking it will give you live longer than people who continue smoke.
+1	Smoking	smoking	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+5	anything	anything	PRON	NN	Number=Sing	4	obj	_	_
+6	good	good	ADJ	JJ	Degree=Pos	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	if	if	SCONJ	IN	_	11	mark	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	smokers	smoker	NOUN	NNS	Number=Plur	14	advcl	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+13	should	should	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	stop	stop	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+15	smoking	smoke	VERB	VBG	VerbForm=Ger	14	xcomp	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	will	will	AUX	MD	VerbForm=Fin	18	aux	_	_
+18	give	give	VERB	VB	VerbForm=Inf	20	acl:relcl	_	_
+19	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	18	iobj	_	_
+20	live	live	VERB	VB	VerbForm=Inf	15	ccomp	_	_
+21	longer	longer	ADV	RBR	Degree=Cmp	20	advmod	_	_
+22	than	than	ADP	IN	_	23	case	_	_
+23	people	people	NOUN	NNS	Number=Plur	21	obl	_	_
+24	who	who	PRON	WP	PronType=Rel	25	nsubj	_	_
+25	continue	continue	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26	smoke	smoke	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

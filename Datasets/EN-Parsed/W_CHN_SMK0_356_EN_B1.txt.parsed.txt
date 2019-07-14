@@ -1,0 +1,384 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_CHN_SMK0_356_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Nowadays, many people like to smoking.
+1	﻿Nowadays	﻿Nowadays	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	people	people	NOUN	NNS	Number=Plur	0	root	_	_
+5	like	like	ADP	IN	_	7	case	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	smoking	smoke	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Even in the pubic, they also smoke.
+1	Even	even	ADV	RB	_	4	advmod	_	_
+2	in	in	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	pubic	pubic	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+7	also	also	ADV	RB	_	8	advmod	_	_
+8	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = But in my eyes, that is a terrible thing and smoking should be strongly forbidden in the public.
+1	But	but	CCONJ	CC	_	10	cc	_	_
+2	in	in	ADP	IN	_	4	case	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	eyes	eye	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	terrible	terrible	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	thing	thing	NOUN	NN	Number=Sing	16	nsubj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	smoking	smoking	NOUN	NN	Number=Sing	10	conj	_	_
+13	should	should	AUX	MD	VerbForm=Fin	16	aux	_	_
+14	be	be	AUX	VB	VerbForm=Inf	16	cop	_	_
+15	strongly	strongly	ADV	RB	_	16	advmod	_	_
+16	forbidden	forbidden	ADJ	JJ	Degree=Pos	0	root	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	public	public	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 4
+# text = For smokers, smoking only can let them feel a bit relaxed in a short time.
+1	For	for	ADP	IN	_	2	case	_	_
+2	smokers	smoker	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	only	only	ADV	RB	_	7	advmod	_	_
+6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	let	let	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+9	feel	feel	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	bit	bit	NOUN	NN	Number=Sing	12	obl:npmod	_	_
+12	relaxed	relaxed	ADJ	JJ	Degree=Pos	9	xcomp	_	_
+13	in	in	ADP	IN	_	16	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	short	short	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	time	time	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = In the back of relaxness, so much bad influence are spreading in their body.
+1	In	in	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	back	back	NOUN	NN	Number=Sing	12	obl	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	relaxness	relaxness	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	12	punct	_	_
+7	so	so	ADV	RB	_	8	advmod	_	_
+8	much	much	ADV	RB	_	9	advmod	_	_
+9	bad	bad	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	influence	influence	NOUN	NN	Number=Sing	12	nsubj	_	_
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	spreading	spread	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	body	body	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 6
+# text = The most widespread disease of smokers is lung cancer.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	most	most	ADV	RBS	_	3	advmod	_	_
+3	widespread	widespread	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	disease	disease	NOUN	NN	Number=Sing	9	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	smokers	smoker	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	lung	lung	ADP	IN	_	9	case	_	_
+9	cancer	cancer	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 7
+# text = Many smokers'lung like a black stone when examined.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	smokers	smoker	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+3	'lung	'lung	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	_
+4	like	like	ADP	IN	_	7	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	black	black	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	stone	stone	NOUN	NN	Number=Sing	3	obl	_	_
+8	when	when	ADV	WRB	PronType=Int	9	mark	_	_
+9	examined	examine	VERB	VBN	Tense=Past|VerbForm=Part	3	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = It has losed its pimary function to transport oxygen gas.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	losed	lose	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	pimary	pimary	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	function	function	NOUN	NN	Number=Sing	3	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	transport	transport	VERB	VB	VerbForm=Inf	3	advcl	_	_
+9	oxygen	oxygen	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	gas	gas	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = So smokers are easily sudden died.
+1	So	so	ADV	RB	_	6	advmod	_	_
+2	smokers	smoker	NOUN	NNS	Number=Plur	6	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	easily	easily	ADV	RB	_	6	advmod	_	_
+5	sudden	sudden	ADV	RB	_	6	advmod	_	_
+6	died	die	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 10
+# text = A thing threatening one's life must should be forbidden.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	thing	thing	NOUN	NN	Number=Sing	10	nsubj	_	_
+3	threatening	threaten	VERB	VBG	VerbForm=Ger	2	acl	_	_
+4	one	one	PRON	PRP	_	6	nmod:poss	_	SpaceAfter=No
+5	's	's	PART	POS	_	4	case	_	_
+6	life	life	NOUN	NN	Number=Sing	3	obj	_	_
+7	must	must	AUX	MD	VerbForm=Fin	10	aux	_	_
+8	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+10	forbidden	forbidden	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 11
+# text = For the people around a smoker, many researches show that they are injured worse.
+1	For	for	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	people	people	NOUN	NNS	Number=Plur	10	obl	_	_
+4	around	around	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	smoker	smoker	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	many	many	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	researches	research	NOUN	NNS	Number=Plur	10	nsubj	_	_
+10	show	show	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	that	that	SCONJ	IN	_	14	mark	_	_
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj:pass	_	_
+13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	injured	injure	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	ccomp	_	_
+15	worse	worse	ADJ	JJR	Degree=Cmp	14	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 12
+# text = It commomly be defined as Secondhand Smoke.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	commomly	commomly	ADV	RB	_	4	advmod	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	_	_
+4	defined	define	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	as	as	ADP	IN	_	7	case	_	_
+6	Secondhand	Secondhand	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Smoke	smoke	PROPN	NNP	Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = It is unfair to them.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	unfair	unfair	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 14
+# text = They don't do anything, but they bear more harm.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+5	anything	anything	PRON	NN	Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	but	but	CCONJ	CC	_	9	cc	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+9	bear	bear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	more	more	ADJ	JJR	Degree=Cmp	11	amod	_	_
+11	harm	harm	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 15
+# text = If those innocent people are you and you friends, can you tolerate it?
+1	If	if	SCONJ	IN	_	6	mark	_	_
+2	those	those	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+3	innocent	innocent	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	people	people	NOUN	NNS	Number=Plur	6	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	advcl	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	friends	friend	NOUN	NNS	Number=Plur	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	can	can	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+13	tolerate	etolerat	VERB	VB	VerbForm=Inf	0	root	_	_
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 16
+# text = For helping the innocent people, please smoker can quit smoking.
+1	For	for	SCONJ	IN	_	2	mark	_	_
+2	helping	help	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	innocent	innocent	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	people	people	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	please	please	INTJ	UH	_	8	discourse	_	_
+8	smoker	smoker	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+9	can	can	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	quit	quit	VERB	VB	Mood=Imp|VerbForm=Fin	8	parataxis	_	_
+11	smoking	smoke	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 17
+# text = For nature, smoking can discharge a lot of poisonous gas.
+1	For	for	ADP	IN	_	2	case	_	_
+2	nature	nature	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	discharge	discharge	VERB	VB	VerbForm=Inf	0	root	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	lot	lot	NOUN	NN	Number=Sing	6	obj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	poisonous	poisonous	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	gas	gas	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 18
+# text = It can damage the ozonosphere and lower the air quality.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	damage	damage	VERB	VB	VerbForm=Inf	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	ozonosphere	ozonosphere	NOUN	NN	Number=Sing	3	obj	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	lower	lower	VERB	VB	VerbForm=Inf	3	conj	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	air	air	NOUN	NN	Number=Sing	10	compound	_	_
+10	quality	quality	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 19
+# text = If we all like to smoke, the world must be totally destroyed.
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	all	all	DET	DT	_	2	det	_	_
+4	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	smoke	smoke	VERB	VB	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	13	punct	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	world	world	NOUN	NN	Number=Sing	13	nsubj:pass	_	_
+10	must	must	AUX	MD	VerbForm=Fin	13	aux	_	_
+11	be	be	AUX	VB	VerbForm=Inf	13	aux:pass	_	_
+12	totally	totally	ADV	RB	_	13	advmod	_	_
+13	destroyed	destroy	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 20
+# text = After that time, we would be regret about what we ever did.
+1	After	after	ADP	IN	_	3	case	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	time	time	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+6	would	would	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux	_	_
+8	regret	regret	VERB	VB	VerbForm=Inf	0	root	_	_
+9	about	about	SCONJ	IN	_	10	case	_	_
+10	what	what	PRON	WP	PronType=Int	8	obj	_	_
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+12	ever	ever	ADV	RB	_	13	advmod	_	_
+13	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 21
+# text = Now the world has many crisises.
+1	Now	now	ADV	RB	_	4	advmod	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	world	world	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	many	many	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	crisises	crisis	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 22
+# text = Of them, smoking plays a important role and cann't be ignore.
+1	Of	of	ADP	IN	_	2	case	_	_
+2	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	smoking	smoke	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	plays	play	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	important	important	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	role	role	NOUN	NN	Number=Sing	5	obj	_	_
+9	and	and	CCONJ	CC	_	13	cc	_	_
+10	can	can	AUX	MD	VerbForm=Fin	13	aux	_	SpaceAfter=No
+11	n't	not	PART	RB	_	13	advmod	_	_
+12	be	be	AUX	VB	VerbForm=Inf	13	cop	_	_
+13	ignore	ignore	ADJ	JJ	Degree=Pos	8	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 23
+# text = Through smoking can result so mach terrible consequence, it should need to forbidden all over the world.
+1	Through	through	ADP	IN	_	4	mark	_	_
+2	smoking	smoking	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	result	result	VERB	VB	VerbForm=Inf	12	advcl	_	_
+5	so	so	ADV	RB	_	8	advmod	_	_
+6	mach	mach	DET	DT	_	8	det	_	_
+7	terrible	terrible	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	consequence	consequence	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	should	should	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	need	need	VERB	VB	VerbForm=Inf	0	root	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	forbidden	forbide	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+15	all	all	ADV	RB	_	18	advmod	_	_
+16	over	over	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	world	world	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 24
+# text = In the near furture, all people hope to see a new world without cigarette.
+1	In	in	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	near	near	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	furture	furture	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	all	all	DET	DT	_	7	det	_	_
+7	people	people	NOUN	NNS	Number=Plur	8	nsubj	_	_
+8	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	see	see	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	new	new	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	world	world	NOUN	NN	Number=Sing	10	obj	_	_
+14	without	without	ADP	IN	_	15	case	_	_
+15	cigarette	cigarette	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 25
+# text = we everyone need do our best to realize our common dream.
+1	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	everyone	everyone	PRON	NN	Number=Sing	3	nsubj	_	_
+3	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	do	do	ADP	IN	_	6	case	_	_
+5	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	best	best	ADJ	JJS	Degree=Sup	3	obl	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	realize	realize	VERB	VB	VerbForm=Inf	3	advcl	_	_
+9	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	common	common	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	dream	dream	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

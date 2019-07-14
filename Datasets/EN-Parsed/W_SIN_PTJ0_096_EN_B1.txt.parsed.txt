@@ -1,0 +1,335 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_SIN_PTJ0_096_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿During my summer vacation, I worked as a retail assistant selling clothes and branded goods.
+1	﻿During	﻿Dur	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+3	summer	summer	NOUN	NN	Number=Sing	4	compound	_	_
+4	vacation	vacation	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	1	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+8	as	as	ADP	IN	_	11	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	retail	retail	NOUN	NN	Number=Sing	11	compound	_	_
+11	assistant	assistant	NOUN	NN	Number=Sing	7	obl	_	_
+12	selling	sell	VERB	VBG	VerbForm=Ger	11	acl	_	_
+13	clothes	clothes	NOUN	NNS	Number=Plur	12	obj	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	branded	brande	VERB	VBN	Tense=Past|VerbForm=Part	16	amod	_	_
+16	goods	good	NOUN	NNS	Number=Plur	13	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = It was a difficult time for me as a part timer since I had to wake up early in the morning and worked till wee hours at night.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	difficult	difficult	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	time	time	NOUN	NN	Number=Sing	0	root	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	nmod	_	_
+8	as	as	ADP	IN	_	11	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	part	part	NOUN	NN	Number=Sing	11	compound	_	_
+11	timer	timer	NOUN	NN	Number=Sing	5	nmod	_	_
+12	since	since	SCONJ	IN	_	14	mark	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	wake	wake	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+17	up	up	ADP	RP	_	16	compound:prt	_	_
+18	early	early	ADV	RB	Degree=Pos	16	advmod	_	_
+19	in	in	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	morning	morning	NOUN	NN	Number=Sing	18	obl	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	conj	_	_
+24	till	till	ADP	IN	_	26	case	_	_
+25	wee	wee	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	hours	hour	NOUN	NNS	Number=Plur	23	obl	_	_
+27	at	at	ADP	IN	_	28	case	_	_
+28	night	night	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = However, the pay was meager and we had to put up with a boss that could not be bothered with our welfare.
+1	However	however	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	pay	pay	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	meager	meager	ADJ	JJ	Degree=Pos	0	root	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+9	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	put	put	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	up	up	ADP	RP	_	11	compound:prt	_	_
+13	with	with	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	boss	boss	NOUN	NN	Number=Sing	11	obl	_	_
+16	that	that	PRON	WDT	PronType=Rel	20	nsubj:pass	_	_
+17	could	could	AUX	MD	VerbForm=Fin	20	aux	_	_
+18	not	not	PART	RB	_	20	advmod	_	_
+19	be	be	AUX	VB	VerbForm=Inf	20	aux:pass	_	_
+20	bothered	bother	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	acl:relcl	_	_
+21	with	with	ADP	IN	_	23	case	_	_
+22	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	welfare	welfare	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = The staff was generally unhappy as well due to the massive workload we had.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	staff	staff	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	generally	generally	ADV	RB	_	5	advmod	_	_
+5	unhappy	unhappy	ADJ	JJ	Degree=Pos	0	root	_	_
+6	as	as	ADV	RB	_	5	advmod	_	_
+7	well	well	ADV	RB	Degree=Pos	6	fixed	_	_
+8	due	due	ADP	IN	_	12	case	_	_
+9	to	to	ADP	IN	_	8	fixed	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	massive	massive	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	workload	workload	NOUN	NN	Number=Sing	5	obl	_	_
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
+14	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = On top of that, we were dealing with customers that belonged to a bunch of rich ladies that were impatient and could not tolerate a single glitch during their shopping experience.
+1	On	on	ADP	IN	_	2	case	_	_
+2	top	top	NOUN	NN	Number=Sing	8	obl	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+7	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	dealing	deal	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+9	with	with	ADP	IN	_	10	case	_	_
+10	customers	customer	NOUN	NNS	Number=Plur	8	obl	_	_
+11	that	that	PRON	WDT	PronType=Rel	12	nsubj	_	_
+12	belonged	belong	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
+13	to	to	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	bunch	bunch	NOUN	NN	Number=Sing	12	obl	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	rich	rich	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	ladies	lady	NOUN	NNS	Number=Plur	15	nmod	_	_
+19	that	that	PRON	WDT	PronType=Rel	21	nsubj	_	_
+20	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	cop	_	_
+21	impatient	impatient	ADJ	JJ	Degree=Pos	18	acl:relcl	_	_
+22	and	and	CCONJ	CC	_	25	cc	_	_
+23	could	could	AUX	MD	VerbForm=Fin	25	aux	_	_
+24	not	not	PART	RB	_	25	advmod	_	_
+25	tolerate	tolerate	VERB	VB	VerbForm=Inf	21	conj	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+27	single	single	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	glitch	glitch	NOUN	NN	Number=Sing	25	obj	_	_
+29	during	during	ADP	IN	_	32	case	_	_
+30	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+31	shopping	shopping	NOUN	NN	Number=Sing	32	compound	_	_
+32	experience	experience	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 6
+# text = Overall, work as a retail assistant was disastrous but a good learning experience since it reminded that me that I should never step in the retail industry upon graduation.
+1	Overall	overall	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	work	work	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	as	as	ADP	IN	_	9	mark	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	retail	retail	NOUN	NN	Number=Sing	7	compound	_	_
+7	assistant	assistant	NOUN	NN	Number=Sing	9	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+9	disastrous	disastrous	ADJ	JJ	Degree=Pos	3	advcl	_	_
+10	but	but	CCONJ	CC	_	14	cc	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+12	good	good	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	learning	learning	NOUN	NN	Number=Sing	14	compound	_	_
+14	experience	experience	NOUN	NN	Number=Sing	9	conj	_	_
+15	since	since	SCONJ	IN	_	17	mark	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	reminded	remind	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	advcl	_	_
+18	that	that	SCONJ	IN	_	24	mark	_	_
+19	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+20	that	that	SCONJ	IN	_	24	mark	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+22	should	should	AUX	MD	VerbForm=Fin	24	aux	_	_
+23	never	never	ADV	RB	_	24	advmod	_	_
+24	step	step	VERB	VB	VerbForm=Inf	17	ccomp	_	_
+25	in	in	ADP	IN	_	28	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+27	retail	retail	NOUN	NN	Number=Sing	28	compound	_	_
+28	industry	industry	NOUN	NN	Number=Sing	24	obl	_	_
+29	upon	upon	ADP	IN	_	30	case	_	_
+30	graduation	graduation	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Therefore, it is important that college students should have a part time job before entering the work force.
+1	Therefore	therefore	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+6	that	that	SCONJ	IN	_	10	mark	_	_
+7	college	college	NOUN	NN	Number=Sing	8	compound	_	_
+8	students	student	NOUN	NNS	Number=Plur	10	nsubj	_	_
+9	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	have	have	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+12	part	part	NOUN	NN	Number=Sing	13	compound	_	_
+13	time	time	NOUN	NN	Number=Sing	14	compound	_	_
+14	job	job	NOUN	NN	Number=Sing	10	obj	_	_
+15	before	before	SCONJ	IN	_	16	mark	_	_
+16	entering	enter	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	work	work	NOUN	NN	Number=Sing	19	compound	_	_
+19	force	force	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = This is because it allows them to have an exposure on what kind of industries they are suitable for upon graduation.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	because	because	SCONJ	IN	_	5	mark	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	allows	allow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	have	have	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	exposure	exposure	NOUN	NN	Number=Sing	8	obj	_	_
+11	on	on	SCONJ	IN	_	18	mark	_	_
+12	what	what	PRON	WP	PronType=Int	18	obj	_	_
+13	kind	kind	NOUN	NN	Number=Sing	18	obl	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	industries	industries	NOUN	NNS	Number=Plur	13	nmod	_	_
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
+17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	suitable	suitable	ADJ	JJ	Degree=Pos	10	acl	_	_
+19	for	for	ADP	IN	_	21	case	_	_
+20	upon	upon	ADP	IN	_	21	case	_	_
+21	graduation	graduation	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = In addition, it adds to their learning experience in terms of giving them an idea of how the working world is like before they graduate.
+1	In	in	ADP	IN	_	2	case	_	_
+2	addition	addition	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	adds	add	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	to	to	ADP	IN	_	9	case	_	_
+7	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+8	learning	learning	NOUN	NN	Number=Sing	9	compound	_	_
+9	experience	experience	NOUN	NN	Number=Sing	5	obl	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	terms	terms	NOUN	NNS	Number=Plur	5	obl	_	_
+12	of	of	SCONJ	IN	_	13	mark	_	_
+13	giving	give	VERB	VBG	VerbForm=Ger	11	acl	_	_
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	iobj	_	_
+15	an	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	idea	idea	NOUN	NN	Number=Sing	13	obj	_	_
+17	of	of	SCONJ	IN	_	26	mark	_	_
+18	how	how	ADV	WRB	PronType=Int	26	advmod	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	working	work	VERB	VBG	VerbForm=Ger	21	amod	_	_
+21	world	world	NOUN	NN	Number=Sing	18	nsubj	_	_
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+23	like	like	ADP	IN	_	26	advmod	_	_
+24	before	before	SCONJ	IN	_	26	mark	_	_
+25	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	_
+26	graduate	graduate	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	acl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 10
+# text = As a business administration student, I am interested in specializing in human resource management.
+1	As	as	ADP	IN	_	5	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+3	business	business	NOUN	NN	Number=Sing	5	compound	_	_
+4	administration	administration	NOUN	NN	Number=Sing	5	compound	_	_
+5	student	student	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	interested	interested	ADJ	JJ	Degree=Pos	0	root	_	_
+10	in	in	SCONJ	IN	_	11	mark	_	_
+11	specializing	specializing	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+12	in	in	ADP	IN	_	15	case	_	_
+13	human	human	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	resource	resource	NOUN	NN	Number=Sing	15	compound	_	_
+15	management	management	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 11
+# text = Therefore, during one of my part time jobs, I worked in a human resource management department and this increased my liking for the specialization as I realized that the work scope was in line with my passion and interests.
+1	Therefore	therefore	ADV	RB	_	12	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	12	punct	_	_
+3	during	during	ADP	IN	_	4	case	_	_
+4	one	one	NUM	CD	NumType=Card	12	obl	_	_
+5	of	of	ADP	IN	_	9	case	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+7	part	part	NOUN	NN	Number=Sing	8	compound	_	_
+8	time	time	NOUN	NN	Number=Sing	9	compound	_	_
+9	jobs	job	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	in	in	ADP	IN	_	18	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+15	human	human	ADJ	JJ	Degree=Pos	18	amod	_	_
+16	resource	resource	NOUN	NN	Number=Sing	17	compound	_	_
+17	management	management	NOUN	NN	Number=Sing	18	compound	_	_
+18	department	department	NOUN	NN	Number=Sing	12	obl	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	this	this	PRON	DT	Number=Sing|PronType=Dem	21	nsubj	_	_
+21	increased	increase	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
+22	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	liking	liking	VERB	VBG	VerbForm=Ger	21	obj	_	_
+24	for	for	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	specialization	specialization	NOUN	NN	Number=Sing	23	obl	_	_
+27	as	as	SCONJ	IN	_	29	mark	_	_
+28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
+29	realized	realize	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	advcl	_	_
+30	that	that	SCONJ	IN	_	36	mark	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+32	work	work	NOUN	NN	Number=Sing	33	compound	_	_
+33	scope	scope	NOUN	NN	Number=Sing	36	nsubj	_	_
+34	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	cop	_	_
+35	in	in	ADP	IN	_	36	case	_	_
+36	line	line	NOUN	NN	Number=Sing	29	ccomp	_	_
+37	with	with	ADP	IN	_	39	case	_	_
+38	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
+39	passion	passion	NOUN	NN	Number=Sing	36	nmod	_	_
+40	and	and	CCONJ	CC	_	41	cc	_	_
+41	interests	interest	NOUN	NNS	Number=Plur	39	conj	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 12
+# text = Therefore, having a part time job would be good to determine what is suitable as your own career path.
+1	Therefore	therefore	ADV	RB	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	10	punct	_	_
+3	having	have	VERB	VBG	VerbForm=Ger	10	mark	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+5	part	part	NOUN	NN	Number=Sing	6	compound	_	_
+6	time	time	NOUN	NN	Number=Sing	7	compound	_	_
+7	job	job	NOUN	NN	Number=Sing	10	nsubj	_	_
+8	would	would	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+10	good	good	ADJ	JJ	Degree=Pos	0	root	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	determine	determine	VERB	VB	VerbForm=Inf	10	advcl	_	_
+13	what	what	PRON	WP	PronType=Int	15	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	suitable	suitable	ADJ	JJ	Degree=Pos	12	ccomp	_	_
+16	as	as	ADP	IN	_	20	case	_	_
+17	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+18	own	own	ADJ	JJ	Degree=Pos	20	amod	_	_
+19	career	career	NOUN	NN	Number=Sing	20	compound	_	_
+20	path	path	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\n
+

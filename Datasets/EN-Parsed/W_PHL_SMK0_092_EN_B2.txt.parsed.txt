@@ -1,0 +1,327 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PHL_SMK0_092_EN_B2.txt
+# newpar
+# sent_id = 1
+# text = ﻿Personally, I am for the ban of cigarette smoking in all restaurants in the country.
+1	﻿Personally	﻿Personally	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+4	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	ban	ban	NOUN	NN	Number=Sing	0	root	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	cigarette	cigarette	NOUN	NN	Number=Sing	10	compound	_	_
+10	smoking	smoke	NOUN	NN	Number=Sing	7	nmod	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	all	all	DET	DT	_	13	det	_	_
+13	restaurants	restaurant	NOUN	NNS	Number=Plur	7	nmod	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	country	country	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Smoking has various negative effects.
+1	Smoking	smoke	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	various	various	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	negative	negative	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	effects	effect	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Second hand smokers or those who inhale smoke through does who use cigarette, are the one who are more prone to the negative effects smoking bring.
+1	Second	second	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
+2	hand	hand	NOUN	NN	Number=Sing	3	compound	_	_
+3	smokers	smoker	NOUN	NNS	Number=Plur	17	nsubj	_	_
+4	or	or	CCONJ	CC	_	5	cc	_	_
+5	those	those	PRON	DT	Number=Plur|PronType=Dem	3	conj	_	_
+6	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+7	inhale	inhale	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	smoke	smoke	NOUN	NN	Number=Sing	7	obj	_	_
+9	through	through	ADP	IN	_	10	case	_	_
+10	does	do	NOUN	NNS	Number=Plur	7	obl	_	_
+11	who	who	PRON	WP	PronType=Rel	12	nsubj	_	_
+12	use	use	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	cigarette	cigarette	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	one	one	NOUN	NN	Number=Sing	0	root	_	_
+18	who	who	PRON	WP	PronType=Rel	21	nsubj	_	_
+19	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	more	more	ADV	RBR	_	21	advmod	_	_
+21	prone	prone	ADJ	JJ	Degree=Pos	17	acl:relcl	_	_
+22	to	to	ADP	IN	_	26	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+24	negative	negative	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	effects	effect	NOUN	NNS	Number=Plur	26	compound	_	_
+26	smoking	smoke	NOUN	NN	Number=Sing	27	obl	_	_
+27	bring	bring	VERB	VB	VerbForm=Inf	21	advcl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 4
+# text = Cigarettes which are used by cigarette smokers have filters which make the smoke less bad than the ones second hand smokers inhale.
+1	Cigarettes	Cigarette	NOUN	NNS	Number=Plur	8	nsubj	_	_
+2	which	which	PRON	WDT	PronType=Rel	4	nsubj:pass	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	acl:relcl	_	_
+5	by	by	ADP	IN	_	7	case	_	_
+6	cigarette	cigarette	NOUN	NN	Number=Sing	7	compound	_	_
+7	smokers	smoker	NOUN	NNS	Number=Plur	4	obl	_	_
+8	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	filters	filter	NOUN	NNS	Number=Plur	8	obj	_	_
+10	which	which	PRON	WDT	PronType=Rel	11	nsubj	_	_
+11	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	smoke	smoke	NOUN	NN	Number=Sing	15	obj	_	_
+14	less	less	ADV	RBR	Degree=Cmp	15	advmod	_	_
+15	bad	bad	ADJ	JJ	Degree=Pos	11	xcomp	_	_
+16	than	than	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	ones	one	NOUN	NNS	Number=Plur	11	obl	_	_
+19	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	21	amod	_	_
+20	hand	hand	NOUN	NN	Number=Sing	21	compound	_	_
+21	smokers	smoker	NOUN	NNS	Number=Plur	22	nsubj	_	_
+22	inhale	inhale	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 5
+# text = Inhaling smoke or the smoking act itself can trigger certain diseases.
+1	Inhaling	Inhal	VERB	VBG	VerbForm=Ger	2	amod	_	_
+2	smoke	smoke	NOUN	NN	Number=Sing	9	nsubj	_	_
+3	or	or	CCONJ	CC	_	6	cc	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	6	compound	_	_
+6	act	act	NOUN	NN	Number=Sing	2	conj	_	_
+7	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nmod:npmod	_	_
+8	can	can	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	trigger	trigger	VERB	VB	VerbForm=Inf	0	root	_	_
+10	certain	certain	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	diseases	disease	NOUN	NNS	Number=Plur	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 6
+# text = The deadliest disease can possibly be the lung cancer.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	deadliest	deadliest	ADJ	JJS	Degree=Sup	3	amod	_	_
+3	disease	disease	NOUN	NN	Number=Sing	9	nsubj	_	_
+4	can	can	AUX	MD	VerbForm=Fin	9	aux	_	_
+5	possibly	possibly	ADV	RB	_	9	advmod	_	_
+6	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	lung	lung	NOUN	NN	Number=Sing	9	compound	_	_
+9	cancer	cancer	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 7
+# text = I have been in a museum where a part of it showcased the lungs in different stages of lung cancer.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	museum	museum	NOUN	NN	Number=Sing	0	root	_	_
+7	where	where	ADV	WRB	PronType=Rel	12	advmod	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	part	part	NOUN	NN	Number=Sing	12	nsubj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nmod	_	_
+12	showcased	showcas	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	lungs	lung	NOUN	NNS	Number=Plur	12	obj	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	different	different	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	stages	stage	NOUN	NNS	Number=Plur	12	obl	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	lung	lung	NOUN	NN	Number=Sing	20	compound	_	_
+20	cancer	cancer	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 8
+# text = I saw how black the lungs where even if the cancer has been present for 3 to 6 months.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	how	how	ADV	WRB	PronType=Int	4	advmod	_	_
+4	black	black	ADJ	JJ	Degree=Pos	6	advmod	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	lungs	lung	NOUN	NNS	Number=Plur	2	obj	_	_
+7	where	where	ADV	WRB	PronType=Rel	14	advmod	_	_
+8	even	even	ADV	RB	_	14	advmod	_	_
+9	if	if	SCONJ	IN	_	14	mark	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	cancer	cancer	NOUN	NN	Number=Sing	14	nsubj	_	_
+12	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	been	be	AUX	VBN	Tense=Past|VerbForm=Part	14	cop	_	_
+14	present	present	ADJ	JJ	Degree=Pos	6	acl:relcl	_	_
+15	for	for	ADP	IN	_	19	case	_	_
+16	3	3	NUM	CD	NumType=Card	19	nummod	_	_
+17	to	to	ADP	IN	_	18	case	_	_
+18	6	6	NUM	CD	NumType=Card	16	nmod	_	_
+19	months	month	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = At the end of the cycle of the cancer, I saw how a regular sized lung shrink to smaller than an orange in size.
+1	At	at	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	end	end	NOUN	NN	Number=Sing	12	obl	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	cycle	cycle	NOUN	NN	Number=Sing	3	nmod	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	cancer	cancer	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	how	how	ADV	WRB	PronType=Int	18	advmod	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+15	regular	regular	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	sized	sized	VERB	VBN	Tense=Past|VerbForm=Part	17	amod	_	_
+17	lung	lung	NOUN	NNS	Number=Plur	18	nsubj	_	_
+18	shrink	shrink	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+19	to	to	ADP	IN	_	20	case	_	_
+20	smaller	smaller	ADJ	JJR	Degree=Cmp	18	obl	_	_
+21	than	than	ADP	IN	_	23	case	_	_
+22	an	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	orange	orange	NOUN	NN	Number=Sing	18	obl	_	_
+24	in	in	ADP	IN	_	25	case	_	_
+25	size	size	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 10
+# text = On the other side of the table, if the ban will be passed into a law, the companies who manufacture this cigarette will lose its profits and may latter be bankrupted.
+1	On	on	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	other	other	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	side	side	NOUN	NN	Number=Sing	26	obl	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	table	table	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	26	punct	_	_
+9	if	if	SCONJ	IN	_	14	mark	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	ban	ban	NOUN	NN	Number=Sing	14	nsubj:pass	_	_
+12	will	will	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	be	be	AUX	VB	VerbForm=Inf	14	aux:pass	_	_
+14	passed	pass	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	26	advcl	_	_
+15	into	into	ADP	IN	_	17	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	law	law	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	26	punct	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	companies	company	NOUN	NNS	Number=Plur	26	nsubj	_	_
+21	who	who	PRON	WP	PronType=Rel	22	nsubj	_	_
+22	manufacture	manufacture	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+23	this	this	DET	DT	Number=Sing|PronType=Dem	24	det	_	_
+24	cigarette	cigarette	NOUN	NN	Number=Sing	22	obj	_	_
+25	will	will	AUX	MD	VerbForm=Fin	26	aux	_	_
+26	lose	lose	VERB	VB	VerbForm=Inf	0	root	_	_
+27	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	profits	profit	NOUN	NNS	Number=Plur	26	obj	_	_
+29	and	and	CCONJ	CC	_	33	cc	_	_
+30	may	may	AUX	MD	VerbForm=Fin	33	aux	_	_
+31	latter	latter	ADJ	JJ	Degree=Pos	33	nsubj:pass	_	_
+32	be	be	AUX	VB	VerbForm=Inf	33	aux:pass	_	_
+33	bankrupted	bankrupt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	26	conj	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	26	punct	_	_
+
+# sent_id = 11
+# text = Banning the use of cigarettes which only focuses on the health of the citizen may be considered as inconsiderate for we do not take a look at the other side of the table which benefits with these cigarettes.
+1	Banning	Bann	VERB	VBG	VerbForm=Ger	17	nsubj:pass	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	use	use	NOUN	NN	Number=Sing	1	obj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	cigarettes	cigarette	NOUN	NNS	Number=Plur	3	nmod	_	_
+6	which	which	PRON	WDT	PronType=Rel	8	nsubj	_	_
+7	only	only	ADV	RB	_	8	advmod	_	_
+8	focuses	focus	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	on	on	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	health	health	NOUN	NN	Number=Sing	8	obl	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	citizen	citizen	NOUN	NN	Number=Sing	11	nmod	_	_
+15	may	may	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	aux:pass	_	_
+17	considered	consider	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+18	as	as	ADP	IN	_	19	case	_	_
+19	inconsiderate	inconsiderate	ADJ	JJ	Degree=Pos	17	obl	_	_
+20	for	for	SCONJ	IN	_	24	mark	_	_
+21	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
+22	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	not	not	PART	RB	_	24	advmod	_	_
+24	take	take	VERB	VB	VerbForm=Inf	17	advcl	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	look	look	NOUN	NN	Number=Sing	24	obj	_	_
+27	at	at	ADP	IN	_	30	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+29	other	other	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	side	side	NOUN	NN	Number=Sing	24	obl	_	_
+31	of	of	ADP	IN	_	33	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	table	table	NOUN	NN	Number=Sing	30	nmod	_	_
+34	which	which	PRON	WDT	PronType=Rel	35	nsubj	_	_
+35	benefits	benefit	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
+36	with	with	ADP	IN	_	38	case	_	_
+37	these	these	DET	DT	Number=Plur|PronType=Dem	38	det	_	_
+38	cigarettes	cigarette	NOUN	NNS	Number=Plur	35	obl	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 12
+# text = To sum it all up, I am for the ban of smoking though I consider the side of the manufactures.
+1	To	to	PART	TO	_	2	mark	_	_
+2	sum	sum	VERB	VB	VerbForm=Inf	11	advcl	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	all	all	DET	DT	_	5	det	_	_
+5	up	up	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+8	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	for	for	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	ban	ban	NOUN	NN	Number=Sing	0	root	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	smoking	smoking	NOUN	NN	Number=Sing	11	nmod	_	_
+14	though	though	SCONJ	IN	_	16	mark	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	consider	consider	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	side	side	NOUN	NN	Number=Sing	16	obj	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	manufactures	manufacture	NOUN	NNS	Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 13
+# text = It would be extremely beneficial if the ones under the ban will examine and closely weigh the pros and cons before possibly passing the ban for smoking.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+4	extremely	extremely	ADV	RB	_	5	advmod	_	_
+5	beneficial	beneficial	ADJ	JJ	Degree=Pos	0	root	_	_
+6	if	if	SCONJ	IN	_	13	mark	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	ones	one	NOUN	NNS	Number=Plur	13	nsubj	_	_
+9	under	under	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	ban	ban	NOUN	NN	Number=Sing	8	nmod	_	_
+12	will	will	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	examine	examine	VERB	VB	VerbForm=Inf	5	advcl	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	closely	closely	ADV	RB	_	16	advmod	_	_
+16	weigh	weigh	VERB	VB	VerbForm=Inf	13	conj	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	pros	pro	NOUN	NNS	Number=Plur	16	obj	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	cons	con	NOUN	NNS	Number=Plur	18	conj	_	_
+21	before	before	SCONJ	IN	_	23	mark	_	_
+22	possibly	possibly	ADV	RB	_	23	advmod	_	_
+23	passing	pass	VERB	VBG	VerbForm=Ger	16	advcl	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	ban	ban	NOUN	NN	Number=Sing	23	obj	_	_
+26	for	for	ADP	IN	_	27	case	_	_
+27	smoking	smoking	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

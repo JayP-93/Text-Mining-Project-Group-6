@@ -1,0 +1,324 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_CHN_SMK0_108_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿
+1	﻿	﻿	NOUN	NN	Number=Sing	0	root	_	_
+
+# sent_id = 2
+# text = In many public places, you can see signs of "no smoking on the wall.
+1	In	in	ADP	IN	_	4	case	_	_
+2	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	public	public	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	places	place	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+7	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+9	signs	sign	NOUN	NNS	Number=Plur	8	obj	_	_
+10	of	of	ADP	IN	_	13	case	_	_
+11	"	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
+12	no	no	DET	DT	_	13	det	_	_
+13	smoking	smoking	NOUN	NN	Number=Sing	9	nmod	_	_
+14	on	on	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	wall	wall	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = Because restaurants are one of the public places too, of course, smoking should be banned completely at all restaurants.
+1	Because	because	SCONJ	IN	_	4	mark	_	_
+2	restaurants	restaurant	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	one	one	NUM	CD	NumType=Card	0	root	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	public	public	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	places	place	NOUN	NNS	Number=Plur	4	nmod	_	_
+9	too	too	ADV	RB	_	17	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	17	punct	_	_
+11	of	of	ADV	RB	_	17	advmod	_	_
+12	course	course	ADV	RB	_	11	fixed	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	smoking	smoking	VERB	VBG	Tense=Pres|VerbForm=Part	17	nsubj:pass	_	_
+15	should	should	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	aux:pass	_	_
+17	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	_
+18	completely	completely	ADV	RB	_	21	advmod	_	_
+19	at	at	ADP	IN	_	21	case	_	_
+20	all	all	DET	DT	_	21	det	_	_
+21	restaurants	restaurant	NOUN	NNS	Number=Plur	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Smoking is bad for the health of smoker and others.
+1	Smoking	smoking	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	bad	bad	ADJ	JJ	Degree=Pos	0	root	_	_
+4	for	for	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	health	health	NOUN	NN	Number=Sing	3	obl	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	smoker	smoker	NOUN	NN	Number=Sing	6	nmod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	others	other	NOUN	NNS	Number=Plur	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = It can cause bad things, such as lung disease, lung cancer and some other health problems.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	cause	cause	VERB	VB	VerbForm=Inf	0	root	_	_
+4	bad	bad	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	things	thing	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	such	such	ADJ	JJ	Degree=Pos	10	case	_	_
+8	as	as	ADP	IN	_	7	fixed	_	_
+9	lung	lung	NOUN	NN	Number=Sing	10	compound	_	_
+10	disease	disease	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	lung	lung	NOUN	NN	Number=Sing	13	compound	_	_
+13	cancer	cancer	NOUN	NN	Number=Sing	10	conj	_	_
+14	and	and	CCONJ	CC	_	18	cc	_	_
+15	some	some	DET	DT	_	18	det	_	_
+16	other	other	ADJ	JJ	Degree=Pos	18	amod	_	_
+17	health	health	NOUN	NN	Number=Sing	18	compound	_	_
+18	problems	problem	NOUN	NNS	Number=Plur	10	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = We stand pain when we fall ill, apart from this, in order to treat the illness; we spend money like water.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	stand	stand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pain	pain	NOUN	NN	Number=Sing	2	obj	_	_
+4	when	when	ADV	WRB	PronType=Int	6	mark	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+6	fall	fall	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+7	ill	ill	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	apart	apart	ADV	RB	_	2	advmod	_	_
+10	from	from	ADP	IN	_	11	case	_	_
+11	this	this	PRON	DT	Number=Sing|PronType=Dem	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	in	in	ADP	IN	_	16	mark	_	_
+14	order	order	NOUN	NN	Number=Sing	13	fixed	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	treat	treat	VERB	VB	VerbForm=Inf	2	advcl	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	illness	illness	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	2	punct	_	_
+20	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nmod:poss	_	_
+21	spend	spend	ADJ	JJ	Degree=Pos|NumType=Ord	22	amod	_	_
+22	money	money	NOUN	NN	Number=Sing	2	parataxis	_	_
+23	like	like	ADP	IN	_	24	case	_	_
+24	water	water	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = It adds to the mental strain and financial burden on our family.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	adds	add	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	6	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	mental	mental	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	strain	strain	NOUN	NN	Number=Sing	2	obl	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	financial	financial	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	burden	burden	NOUN	NN	Number=Sing	6	conj	_	_
+10	on	on	ADP	IN	_	12	case	_	_
+11	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	family	family	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = When you smoke in the restaurants, people who don't like smoking have to bear the terrible smoke around you.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	restaurants	restaurant	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	people	people	NOUN	NNS	Number=Plur	0	root	_	_
+9	who	who	PRON	WP	PronType=Rel	12	nsubj	_	_
+10	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
+11	n't	not	PART	RB	_	12	advmod	_	_
+12	like	like	VERB	VB	VerbForm=Inf	8	acl:relcl	_	_
+13	smoking	smoke	NOUN	NN	Number=Sing	14	nsubj	_	_
+14	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	bear	bear	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	terrible	terrible	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	smoke	smoke	NOUN	NN	Number=Sing	16	obj	_	_
+20	around	around	ADP	IN	_	21	case	_	_
+21	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	16	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 9
+# text = Their health will be affected too by the smoke.
+1	Their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	health	health	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+3	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	affected	affect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	too	too	ADV	RB	_	5	advmod	_	_
+7	by	by	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	smoke	smoke	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 10
+# text = You have no right to do so.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	right	right	NOUN	NN	Number=Sing	2	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	do	do	VERB	VB	VerbForm=Inf	4	acl	_	_
+7	so	so	ADV	RB	_	2	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 11
+# text = In addition, smoking is one of the reasons that cause fire.
+1	In	in	ADP	IN	_	2	case	_	_
+2	addition	addition	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	one	one	NUM	CD	NumType=Card	0	root	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	reasons	reason	NOUN	NNS	Number=Plur	6	nmod	_	_
+10	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	_
+11	cause	cause	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	fire	fire	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 12
+# text = There are many cases about fire disaster in restaurants every year.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	cases	case	NOUN	NNS	Number=Plur	2	nsubj	_	_
+5	about	about	ADP	IN	_	7	case	_	_
+6	fire	fire	NOUN	NN	Number=Sing	7	compound	_	_
+7	disaster	disaster	NOUN	NN	Number=Sing	4	nmod	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	restaurants	restaurant	NOUN	NNS	Number=Plur	7	nmod	_	_
+10	every	every	DET	DT	_	11	det	_	_
+11	year	year	NOUN	NN	Number=Sing	2	obl:tmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 13
+# text = A part of the cases are caused by smoker.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	part	part	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	cases	case	NOUN	NNS	Number=Plur	2	nmod	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	caused	cause	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	by	by	ADP	IN	_	9	case	_	_
+9	smoker	smoker	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 14
+# text = They throw cigarette ends and ash inappropriately.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	throw	throw	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	cigarette	cigarette	NOUN	NN	Number=Sing	4	compound	_	_
+4	ends	end	NOUN	NNS	Number=Plur	2	obj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	ash	ash	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	inappropriately	inappropriately	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 15
+# text = At last, by coincidence, fire breaks out.
+1	At	at	ADP	IN	_	2	case	_	_
+2	last	last	ADJ	JJ	Degree=Pos	8	amod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	by	by	ADP	IN	_	5	case	_	_
+5	coincidence	coincidence	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	fire	fire	NOUN	NN	Number=Sing	8	compound	_	_
+8	breaks	break	NOUN	NNS	Number=Plur	0	root	_	_
+9	out	out	ADV	RB	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 16
+# text = In the accidental there are the results of inevitable.
+1	In	in	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	accidental	accidental	NOUN	NN	Number=Sing	5	obl	_	_
+4	there	there	PRON	EX	_	5	expl	_	_
+5	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	results	result	NOUN	NNS	Number=Plur	5	nsubj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	inevitable	inevitable	ADJ	JJ	Degree=Pos	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 17
+# text = If every smoker is careful enough and obeys the rules, fire disaster would reduce.
+1	If	if	SCONJ	IN	_	6	mark	_	_
+2	every	every	DET	DT	_	3	det	_	_
+3	smoker	smoker	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	careful	careful	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	enough	enough	ADJ	JJ	Degree=Pos	15	advcl	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	obeys	obey	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	rules	rule	NOUN	NNS	Number=Plur	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	fire	fire	NOUN	NN	Number=Sing	13	compound	_	_
+13	disaster	disaster	NOUN	NN	Number=Sing	15	nsubj	_	_
+14	would	would	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	reduce	reduce	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 18
+# text = In a word, smoking should be banned at restaurants as well as in other public places.
+1	In	in	ADP	IN	_	3	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	word	word	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+6	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	at	at	ADP	IN	_	10	case	_	_
+10	restaurants	restaurant	NOUN	NNS	Number=Plur	8	obl	_	_
+11	as	as	ADV	RB	_	17	cc	_	_
+12	well	well	ADV	RB	Degree=Pos	11	fixed	_	_
+13	as	as	ADP	IN	_	11	fixed	_	_
+14	in	in	ADP	IN	_	17	case	_	_
+15	other	other	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	public	public	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	places	place	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 19
+# text = It's good for everyone!
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	good	good	ADJ	JJ	Degree=Pos	0	root	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	everyone	everyone	PRON	NN	Number=Sing	3	obl	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 20
+# text = Each of us must take responsibility for our own actions.
+1	Each	each	DET	DT	_	5	nsubj	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	nmod	_	_
+4	must	must	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+6	responsibility	responsibility	NOUN	NN	Number=Sing	5	obj	_	_
+7	for	for	ADP	IN	_	10	case	_	_
+8	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	own	own	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	actions	action	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

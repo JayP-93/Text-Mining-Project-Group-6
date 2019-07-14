@@ -1,0 +1,388 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_JPN_PTJ0_139_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I agree with this idea.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	with	with	ADP	IN	_	5	case	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	idea	idea	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = There are three reasons why I think it's important for college students to have a part-time job.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	three	three	NUM	CD	NumType=Card	4	nummod	_	_
+4	reasons	reason	NOUN	NNS	Number=Plur	2	nsubj	_	_
+5	why	why	ADV	WRB	PronType=Int	7	advmod	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	important	important	ADJ	JJ	Degree=Pos	7	ccomp	_	_
+11	for	for	SCONJ	IN	_	15	mark	_	_
+12	college	college	NOUN	NN	Number=Sing	13	compound	_	_
+13	students	student	NOUN	NNS	Number=Plur	15	nsubj	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	have	have	VERB	VB	VerbForm=Inf	10	csubj	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+17	part	part	NOUN	NN	Number=Sing	19	compound	_	SpaceAfter=No
+18	-	-	PUNCT	HYPH	_	19	punct	_	SpaceAfter=No
+19	time	time	NOUN	NN	Number=Sing	20	compound	_	_
+20	job	job	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Firstly, you should think every student from poor to rich.
+1	Firstly	firstly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+6	every	every	DET	DT	_	7	det	_	_
+7	student	student	NOUN	NN	Number=Sing	5	obj	_	_
+8	from	from	ADP	IN	_	9	case	_	_
+9	poor	poor	ADJ	JJ	Degree=Pos	7	nmod	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	rich	rich	ADJ	JJ	Degree=Pos	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = It cost about \1, 200, 000 a year to spend a campus life.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	cost	cost	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	about	about	ADV	RB	_	4	advmod	_	_
+4	\1	\1	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	200	200	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	000	000	NUM	CD	NumType=Card	10	nummod	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	year	year	NOUN	NN	Number=Sing	2	obl:tmod	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	spend	spend	VERB	VB	VerbForm=Inf	10	acl	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	campus	campus	NOUN	NN	Number=Sing	15	compound	_	_
+15	life	life	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = So I think it's hard for the parents to make that money.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	hard	hard	ADV	RB	Degree=Pos	3	ccomp	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	parents	parent	NOUN	NNS	Number=Plur	6	obl	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	make	make	VERB	VB	VerbForm=Inf	6	csubj	_	_
+12	that	that	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	money	money	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Especially, economic statement is not so good in this age.
+1	Especially	especially	ADV	RB	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	8	punct	_	_
+3	economic	economic	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	statement	statement	NOUN	NN	Number=Sing	8	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	not	not	PART	RB	_	8	advmod	_	_
+7	so	so	ADV	RB	_	8	advmod	_	_
+8	good	good	ADJ	JJ	Degree=Pos	0	root	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	this	this	DET	DT	Number=Sing|PronType=Dem	11	det	_	_
+11	age	age	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 7
+# text = So I think many students don't have enough money.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	many	many	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	students	student	NOUN	NNS	Number=Plur	8	nsubj	_	_
+6	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
+7	n't	not	PART	RB	_	8	advmod	_	_
+8	have	have	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+9	enough	enough	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	money	money	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = And they have to earn money for their lives.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	earn	earn	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	money	money	NOUN	NN	Number=Sing	5	obj	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	lives	life	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = Secondly, college students must enjoy their free time.
+1	Secondly	secondly	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	college	college	NOUN	NN	Number=Sing	4	compound	_	_
+4	students	student	NOUN	NNS	Number=Plur	6	nsubj	_	_
+5	must	must	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	enjoy	enjoy	VERB	VB	VerbForm=Inf	0	root	_	_
+7	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+8	free	free	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	time	time	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 10
+# text = As you know, students have much time to enjoy something.
+1	As	as	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	students	student	NOUN	NNS	Number=Plur	6	nsubj	_	_
+6	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	much	much	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	time	time	NOUN	NN	Number=Sing	6	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	enjoy	enjoy	VERB	VB	VerbForm=Inf	8	acl	_	_
+11	something	something	PRON	NN	Number=Sing	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 11
+# text = For example, trip, karaoke, club activity, party and so on.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	trip	trip	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	karaoke	karaoke	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	club	club	NOUN	NN	Number=Sing	9	compound	_	_
+9	activity	activity	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	party	party	NOUN	NN	Number=Sing	2	conj	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	so	so	ADV	RB	_	14	advmod	_	_
+14	on	on	ADV	RB	_	2	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = And each leisure cost a lot of money.
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	each	each	DET	DT	_	3	det	_	_
+3	leisure	leisure	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	cost	cost	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	lot	lot	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	money	money	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = In my experience, it cost about \35, 000 for my club's training stay in Nara last summer.
+1	In	in	ADP	IN	_	3	case	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	experience	experience	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	cost	cost	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	about	about	ADP	IN	_	8	case	_	_
+8	\35	\35	NUM	CD	NumType=Card	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	000	000	NUM	CD	NumType=Card	20	nummod	_	_
+11	for	for	ADP	IN	_	16	case	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	club	club	NOUN	NN	Number=Sing	16	nmod:poss	_	SpaceAfter=No
+14	's	's	PART	POS	_	13	case	_	_
+15	training	training	NOUN	NN	Number=Sing	16	compound	_	_
+16	stay	stay	NOUN	NN	Number=Sing	20	nmod	_	_
+17	in	in	ADP	IN	_	18	case	_	_
+18	Nara	Nara	PROPN	NNP	Number=Sing	16	nmod	_	_
+19	last	last	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	summer	summer	NOUN	NN	Number=Sing	8	nmod:tmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 14
+# text = I think it too expensive, but it is essential.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	too	too	ADV	RB	_	5	advmod	_	_
+5	expensive	expensive	ADJ	JJ	Degree=Pos	2	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	but	but	CCONJ	CC	_	10	cc	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	essential	essential	ADJ	JJ	Degree=Pos	2	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 15
+# text = So it depends, but many poor students must earn money to enjoy club activities.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	depends	depend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	10	punct	_	_
+5	but	but	CCONJ	CC	_	10	cc	_	_
+6	many	many	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	poor	poor	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	students	student	NOUN	NNS	Number=Plur	10	nsubj	_	_
+9	must	must	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	earn	earn	VERB	VB	VerbForm=Inf	3	conj	_	_
+11	money	money	NOUN	NN	Number=Sing	10	obj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	enjoy	enjoy	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+14	club	club	NOUN	NN	Number=Sing	15	compound	_	_
+15	activities	activity	NOUN	NNS	Number=Plur	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 16
+# text = Thirdly, it gives us a lot of valuable experiences to do a part-time job.
+1	Thirdly	thirdly	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	iobj	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	lot	lot	NOUN	NN	Number=Sing	4	obj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	valuable	valuable	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	experiences	experience	NOUN	NNS	Number=Plur	7	nmod	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	do	do	VERB	VB	VerbForm=Inf	4	acl	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+14	part	part	NOUN	NN	Number=Sing	16	compound	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No
+16	time	time	NOUN	NN	Number=Sing	17	compound	_	_
+17	job	job	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 17
+# text = For example, importance of patience, to work effectively, teamwork and so on.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	importance	importance	NOUN	NN	Number=Sing	2	conj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	patience	patience	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	work	work	VERB	VB	VerbForm=Inf	4	acl	_	_
+10	effectively	effectively	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	teamwork	teamwork	NOUN	NN	Number=Sing	2	conj	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	so	so	ADV	RB	_	15	advmod	_	_
+15	on	on	ADV	RB	_	2	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 18
+# text = I work at restaurant.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	work	work	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	at	at	ADP	IN	_	4	case	_	_
+4	restaurant	restaurant	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 19
+# text = At there, I often warned something and learned something.
+1	At	at	ADP	IN	_	2	case	_	_
+2	there	there	ADV	RB	PronType=Dem	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	often	often	ADV	RB	_	6	advmod	_	_
+6	warned	warn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	something	something	PRON	NN	Number=Sing	6	obj	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	learned	learn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+10	something	something	PRON	NN	Number=Sing	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 20
+# text = And I think student grow little by little through that experience.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	student	student	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	grow	grow	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	little	little	ADJ	JJ	Degree=Pos	5	obj	_	_
+7	by	by	ADP	IN	_	8	case	_	_
+8	little	little	ADJ	JJ	Degree=Pos	5	obl	_	_
+9	through	through	ADP	IN	_	11	case	_	_
+10	that	that	DET	DT	Number=Sing|PronType=Dem	11	det	_	_
+11	experience	experience	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 21
+# text = I'd like to say most is it is important to experience a part-time job and experience a real social world.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	'd	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	say	say	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	most	most	ADJ	JJS	Degree=Sup	10	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	important	important	ADJ	JJ	Degree=Pos	5	ccomp	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	experience	experience	VERB	VB	VerbForm=Inf	10	csubj	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+14	part	part	NOUN	NN	Number=Sing	16	compound	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No
+16	time	time	NOUN	NN	Number=Sing	17	compound	_	_
+17	job	job	NOUN	NN	Number=Sing	12	obj	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	experience	experience	NOUN	NN	Number=Sing	17	conj	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+21	real	real	ADJ	JJ	Degree=Pos	23	amod	_	_
+22	social	social	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	world	world	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 22
+# text = Of course working for life and leisure is important.
+1	Of	of	ADV	RB	_	3	advmod	_	_
+2	course	course	ADV	RB	_	1	fixed	_	_
+3	working	work	VERB	VBG	VerbForm=Ger	9	csubj	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	life	life	NOUN	NN	Number=Sing	3	obl	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	leisure	leisure	NOUN	NN	Number=Sing	5	conj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	important	important	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 23
+# text = Some people would say it interrupt studying, but I think part-time job experience is more important than just studying their major.
+1	Some	some	DET	DT	_	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	interrupt	interrupt	SCONJ	IN	_	7	mark	_	_
+7	studying	study	VERB	VBG	VerbForm=Ger	4	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	but	but	CCONJ	CC	_	11	cc	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+12	part	part	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+14	time	time	NOUN	NN	Number=Sing	16	compound	_	_
+15	job	job	NOUN	NN	Number=Sing	16	compound	_	_
+16	experience	experience	NOUN	NN	Number=Sing	19	nsubj	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	more	more	ADV	RBR	_	19	advmod	_	_
+19	important	important	ADJ	JJ	Degree=Pos	11	ccomp	_	_
+20	than	than	SCONJ	IN	_	22	mark	_	_
+21	just	just	ADV	RB	_	22	advmod	_	_
+22	studying	study	VERB	VBG	VerbForm=Ger	19	advcl	_	_
+23	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	major	major	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

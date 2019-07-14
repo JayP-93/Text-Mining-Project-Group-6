@@ -1,0 +1,374 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_SIN_SMK0_085_EN_B2.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking is a common sight in cities, especially in more developed countries.
+1	﻿Smoking	﻿Smok	NOUN	NN	Number=Sing	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	common	common	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	sight	sight	NOUN	NN	Number=Sing	0	root	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	cities	city	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	especially	especially	ADV	RB	_	13	advmod	_	_
+10	in	in	ADP	IN	_	13	case	_	_
+11	more	more	ADJ	JJR	Degree=Cmp	13	amod	_	_
+12	developed	developed	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	countries	country	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = One possible reason is because of the high stress level in cities, causing many to take up smoking in order to reduce stress despite the possible health problems that smokers might face.
+1	One	one	NUM	CD	NumType=Card	3	nummod	_	_
+2	possible	possible	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	reason	reason	NOUN	NN	Number=Sing	10	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+5	because	because	ADP	IN	_	10	case	_	_
+6	of	of	ADP	IN	_	5	fixed	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+8	high	high	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	stress	stress	NOUN	NN	Number=Sing	10	compound	_	_
+10	level	level	NOUN	NN	Number=Sing	0	root	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	cities	city	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	10	punct	_	_
+14	causing	cause	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+15	many	many	ADJ	JJ	Degree=Pos	14	obj	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	take	take	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+18	up	up	ADP	RP	_	17	compound:prt	_	_
+19	smoking	smoking	NOUN	NN	Number=Sing	17	obj	_	_
+20	in	in	ADP	IN	_	23	mark	_	_
+21	order	order	NOUN	NN	Number=Sing	20	fixed	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	reduce	reduce	VERB	VB	VerbForm=Inf	17	advcl	_	_
+24	stress	stress	NOUN	NN	Number=Sing	23	obj	_	_
+25	despite	despite	ADP	IN	_	29	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+27	possible	possible	ADJ	JJ	Degree=Pos	29	amod	_	_
+28	health	health	NOUN	NN	Number=Sing	29	compound	_	_
+29	problems	problem	NOUN	NNS	Number=Plur	23	obl	_	_
+30	that	that	SCONJ	IN	_	33	mark	_	_
+31	smokers	smoker	NOUN	NNS	Number=Plur	33	nsubj	_	_
+32	might	might	AUX	MD	VerbForm=Fin	33	aux	_	_
+33	face	face	VERB	VB	VerbForm=Inf	23	ccomp	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = However, smoking is steadily becoming a social issue in recent years.
+1	However	however	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	steadily	steadily	ADV	RB	_	6	advmod	_	_
+6	becoming	become	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	social	social	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	issue	issue	NOUN	NN	Number=Sing	6	xcomp	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	recent	recent	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	years	year	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Many smokers have been smoking in public places such as lifts and restaurants, causing inconvenience to the non-smokers due to the smell and smoke, which irritates the senses.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	smokers	smoker	NOUN	NNS	Number=Plur	5	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux	_	_
+5	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	public	public	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	places	place	NOUN	NNS	Number=Plur	5	obl	_	_
+9	such	such	ADJ	JJ	Degree=Pos	11	case	_	_
+10	as	as	ADP	IN	_	9	fixed	_	_
+11	lifts	lift	NOUN	NNS	Number=Plur	8	nmod	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	restaurants	restaurant	NOUN	NNS	Number=Plur	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	5	punct	_	_
+15	causing	cause	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+16	inconvenience	inconvenience	NOUN	NN	Number=Sing	15	obj	_	_
+17	to	to	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	non-smokers	non-smoker	NOUN	NNS	Number=Plur	15	obl	_	_
+20	due	due	ADP	IN	_	23	case	_	_
+21	to	to	ADP	IN	_	20	fixed	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	smell	smell	NOUN	NN	Number=Sing	15	obl	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	smoke	smoke	NOUN	NN	Number=Sing	23	conj	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	23	punct	_	_
+27	which	which	PRON	WDT	PronType=Rel	28	nsubj	_	_
+28	irritates	irritate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	senses	sense	NOUN	NNS	Number=Plur	28	obj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = As a result, the general public has called for smoking to be completely banned at all restaurants in the country.
+1	As	as	ADP	IN	_	3	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	result	result	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	9	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	general	general	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	public	public	NOUN	NN	Number=Sing	9	nsubj	_	_
+8	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	called	call	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+10	for	for	SCONJ	IN	_	11	mark	_	_
+11	smoking	smoke	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+12	to	to	PART	TO	_	15	mark	_	_
+13	be	be	AUX	VB	VerbForm=Inf	15	aux:pass	_	_
+14	completely	completely	ADV	RB	_	15	advmod	_	_
+15	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	xcomp	_	_
+16	at	at	ADP	IN	_	18	case	_	_
+17	all	all	DET	DT	_	18	det	_	_
+18	restaurants	restaurant	NOUN	NNS	Number=Plur	15	obl	_	_
+19	in	in	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	country	country	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 6
+# text = In my opinion, despite the inconvenience that this ban will cause to non-smokers, I still agree with this complete ban.
+1	In	in	ADP	IN	_	3	case	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	opinion	opinion	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	despite	despite	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	inconvenience	inconvenience	NOUN	NN	Number=Sing	0	root	_	_
+8	that	that	SCONJ	IN	_	12	mark	_	_
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	ban	ban	NOUN	NN	Number=Sing	12	nsubj	_	_
+11	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	cause	cause	VERB	VB	VerbForm=Inf	7	acl	_	_
+13	to	to	ADP	IN	_	14	case	_	_
+14	non-smokers	non-smoker	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	7	punct	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+17	still	still	ADV	RB	_	18	advmod	_	_
+18	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+19	with	with	ADP	IN	_	22	case	_	_
+20	this	this	DET	DT	Number=Sing|PronType=Dem	22	det	_	_
+21	complete	complete	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	ban	ban	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 7
+# text = Firstly, smoking should be completely banned at all restaurants to minimize any negative health effects to non-smokers.
+1	Firstly	firstly	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	smoking	smoking	VERB	VBG	Tense=Pres|VerbForm=Part	7	nsubj:pass	_	_
+4	should	should	AUX	MD	VerbForm=Fin	7	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+6	completely	completely	ADV	RB	_	7	advmod	_	_
+7	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	at	at	ADP	IN	_	10	case	_	_
+9	all	all	DET	DT	_	10	det	_	_
+10	restaurants	restaurant	NOUN	NNS	Number=Plur	7	obl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	minimize	minimize	VERB	VB	VerbForm=Inf	10	acl	_	_
+13	any	any	DET	DT	_	16	det	_	_
+14	negative	negative	ADJ	JJ	Degree=Pos	16	amod	_	_
+15	health	health	NOUN	NN	Number=Sing	16	compound	_	_
+16	effects	effect	NOUN	NNS	Number=Plur	12	obj	_	_
+17	to	to	ADP	IN	_	18	case	_	_
+18	non-smokers	non-smoker	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 8
+# text = Since restaurants are places that are widely patronised, non-smokers are likely to constantly breathe in the smoke from cigarettes nearby, thus there will be significantly higher chances of these non-smokers developing lung diseases in the future.
+1	Since	since	SCONJ	IN	_	4	mark	_	_
+2	restaurants	restaurant	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	places	place	NOUN	NNS	Number=Plur	12	advcl	_	_
+5	that	that	PRON	WDT	PronType=Rel	8	nsubj:pass	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+7	widely	widely	ADV	RB	_	8	advmod	_	_
+8	patronised	patronise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	non-smokers	non-smoker	NOUN	NNS	Number=Plur	12	nsubj	_	_
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	likely	likely	ADJ	JJ	Degree=Pos	0	root	_	_
+13	to	to	PART	TO	_	15	mark	_	_
+14	constantly	constantly	ADV	RB	_	15	advmod	_	_
+15	breathe	breathe	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	smoke	smoke	NOUN	NN	Number=Sing	15	obl	_	_
+19	from	from	ADP	IN	_	20	case	_	_
+20	cigarettes	cigarette	NOUN	NNS	Number=Plur	15	obl	_	_
+21	nearby	nearby	ADV	RB	_	20	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	12	punct	_	_
+23	thus	thus	ADV	RB	_	29	advmod	_	_
+24	there	there	PRON	EX	_	29	expl	_	_
+25	will	will	AUX	MD	VerbForm=Fin	29	aux	_	_
+26	be	be	AUX	VB	VerbForm=Inf	29	cop	_	_
+27	significantly	significantly	ADV	RB	_	28	advmod	_	_
+28	higher	higher	ADJ	JJR	Degree=Cmp	29	amod	_	_
+29	chances	chance	NOUN	NNS	Number=Plur	12	parataxis	_	_
+30	of	of	ADP	IN	_	32	case	_	_
+31	these	these	DET	DT	Number=Plur|PronType=Dem	32	det	_	_
+32	non-smoker	non-smoker	NOUN	NN	Number=Sing	29	nmod	_	SpaceAfter=No
+33	s	s	PART	POS	_	32	case	_	_
+34	developing	develop	VERB	VBG	VerbForm=Ger	32	acl	_	_
+35	lung	lung	NOUN	NN	Number=Sing	36	compound	_	_
+36	diseases	disease	NOUN	NNS	Number=Plur	34	obj	_	_
+37	in	in	ADP	IN	_	39	case	_	_
+38	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+39	future	future	NOUN	NN	Number=Sing	34	obl	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 9
+# text = If this persists, this will cause increased health issues among the general public, resulting in greater healthcare expenditure by the government which can possibly be prevented if the ban is implemented.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	persists	persist	NOUN	NNS	Number=Plur	7	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	_
+6	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	cause	cause	VERB	VB	VerbForm=Inf	0	root	_	_
+8	increased	increase	VERB	VBN	Tense=Past|VerbForm=Part	10	amod	_	_
+9	health	health	NOUN	NN	Number=Sing	10	compound	_	_
+10	issues	issue	NOUN	NNS	Number=Plur	7	obj	_	_
+11	among	among	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	general	general	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	public	public	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	7	punct	_	_
+16	resulting	result	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+17	in	in	ADP	IN	_	20	case	_	_
+18	greater	greater	ADJ	JJR	Degree=Cmp	20	amod	_	_
+19	healthcare	healthcare	NOUN	NN	Number=Sing	20	compound	_	_
+20	expenditure	expenditure	NOUN	NN	Number=Sing	16	obl	_	_
+21	by	by	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	government	government	NOUN	NN	Number=Sing	16	obl	_	_
+24	which	which	PRON	WDT	PronType=Rel	28	nsubj:pass	_	_
+25	can	can	AUX	MD	VerbForm=Fin	28	aux	_	_
+26	possibly	possibly	ADV	RB	_	28	advmod	_	_
+27	be	be	AUX	VB	VerbForm=Inf	28	aux:pass	_	_
+28	prevented	prevent	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	acl:relcl	_	_
+29	if	if	SCONJ	IN	_	33	mark	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	ban	ban	NOUN	NN	Number=Sing	33	nsubj:pass	_	_
+32	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux:pass	_	_
+33	implemented	implement	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	28	advcl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 10
+# text = Additionally, this ban will improve the economy of the country.
+1	Additionally	additionally	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	ban	ban	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	improve	improve	VERB	VB	VerbForm=Inf	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	economy	economy	NOUN	NN	Number=Sing	6	obj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	country	country	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 11
+# text = By banning smoking in restaurants, the ambience of the restaurants will be improved, thus improving the quality of dining at the restaurants.
+1	By	by	ADP	IN	_	3	case	_	_
+2	banning	banning	VERB	VBG	VerbForm=Ger	3	amod	_	_
+3	smoking	smoke	NOUN	NN	Number=Sing	14	obl	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	restaurants	restaurant	NOUN	NNS	Number=Plur	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	14	punct	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	ambience	ambience	NOUN	NN	Number=Sing	14	nsubj:pass	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	restaurants	restaurant	NOUN	NNS	Number=Plur	8	nmod	_	_
+12	will	will	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	be	be	AUX	VB	VerbForm=Inf	14	aux:pass	_	_
+14	improved	improve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	thus	thus	ADV	RB	_	17	advmod	_	_
+17	improving	improve	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	quality	quality	NOUN	NN	Number=Sing	17	obj	_	_
+20	of	of	SCONJ	IN	_	21	mark	_	_
+21	dining	dining	VERB	VBG	VerbForm=Ger	19	acl	_	_
+22	at	at	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	restaurants	restaurant	NOUN	NNS	Number=Plur	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 12
+# text = This will attract more of the general public and also tourists to patronise restaurants, increasing the restaurants' revenue and thus improving the economy of the country.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	attract	attract	VERB	VB	VerbForm=Inf	0	root	_	_
+4	more	more	ADJ	JJR	Degree=Cmp	11	amod	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	general	general	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	public	public	NOUN	NN	Number=Sing	4	obl	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	also	also	ADV	RB	_	11	advmod	_	_
+11	tourists	tourist	NOUN	NNS	Number=Plur	3	obj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	patronise	patronise	VERB	VB	VerbForm=Inf	11	acl	_	_
+14	restaurants	restaurant	NOUN	NNS	Number=Plur	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	13	punct	_	_
+16	increasing	increase	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	restaurants	restaurant	NOUN	NNS	Number=Plur	20	nmod:poss	_	SpaceAfter=No
+19	'	'	PART	POS	_	18	case	_	_
+20	revenue	revenue	NOUN	NN	Number=Sing	16	obj	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	thus	thus	ADV	RB	_	23	advmod	_	_
+23	improving	improve	VERB	VBG	VerbForm=Ger	20	conj	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	economy	economy	NOUN	NN	Number=Sing	23	obj	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	country	country	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 13
+# text = In conclusion, smoking should be completely banned at all the restaurants in the country due to health and financial reasons.
+1	In	in	ADP	IN	_	2	case	_	_
+2	conclusion	conclusion	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+5	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+7	completely	completely	ADV	RB	_	8	advmod	_	_
+8	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	at	at	ADP	IN	_	12	case	_	_
+10	all	all	DET	PDT	_	12	det:predet	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	restaurants	restaurant	NOUN	NNS	Number=Plur	8	obl	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	country	country	NOUN	NN	Number=Sing	12	nmod	_	_
+16	due	due	ADP	IN	_	18	case	_	_
+17	to	to	ADP	IN	_	16	fixed	_	_
+18	health	health	NOUN	NN	Number=Sing	8	obl	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	financial	financial	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	reasons	reason	NOUN	NNS	Number=Plur	18	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 14
+# text = Implementing this ban will lead to various benefits for the country.
+1	Implementing	implement	VERB	VBG	VerbForm=Ger	5	csubj	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	ban	ban	NOUN	NN	Number=Sing	1	obj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	lead	lead	VERB	VB	VerbForm=Inf	0	root	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	various	various	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	benefits	benefit	NOUN	NNS	Number=Plur	5	obl	_	_
+9	for	for	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	country	country	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

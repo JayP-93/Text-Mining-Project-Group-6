@@ -1,0 +1,314 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PAK_SMK0_188_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking is a bad habit.
+1	﻿Smoking	﻿Smok	NOUN	NN	Number=Sing	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	bad	bad	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	habit	habit	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = It is spread like a fire I many countries.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	spread	spread	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	like	like	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	fire	fire	NOUN	NN	Number=Sing	3	obl	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	many	many	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	countries	country	NOUN	NNS	Number=Plur	6	acl:relcl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Restaurant is a public place but people also smokes in restaurant.
+1	Restaurant	restaurant	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	public	public	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	place	place	NOUN	NN	Number=Sing	0	root	_	_
+6	but	but	CCONJ	CC	_	9	cc	_	_
+7	people	people	NOUN	NNS	Number=Plur	9	nsubj	_	_
+8	also	also	ADV	RB	_	9	advmod	_	_
+9	smokes	smoke	NOUN	NNS	Number=Plur	5	conj	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	restaurant	restaurant	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = It is not good for people.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	good	good	ADJ	JJ	Degree=Pos	0	root	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	people	people	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = It is very bad for health.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	bad	bad	ADJ	JJ	Degree=Pos	0	root	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	health	health	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = People smoked and they know that it is not good for their and others.
+1	People	people	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	smoked	smoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	that	that	SCONJ	IN	_	10	mark	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	good	good	ADJ	JJ	Degree=Pos	5	ccomp	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	obl	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	others	other	NOUN	NNS	Number=Plur	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = But they take it.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = They have fallen in this bad habit.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fallen	fall	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	in	in	ADP	IN	_	7	case	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+6	bad	bad	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	habit	habit	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = This is not good for people.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	good	good	ADJ	JJ	Degree=Pos	0	root	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	people	people	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 10
+# text = People feel pleasant they take it daily.
+1	People	people	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pleasant	pleasant	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	daily	daily	ADV	RB	_	5	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 11
+# text = But they don't know it cause bad disease in people they take it and the other who sit beside their.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n't	not	PART	RB	_	5	advmod	_	_
+5	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	cause	cause	VERB	VB	VerbForm=Inf	5	conj	_	_
+8	bad	bad	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	disease	disease	NOUN	NN	Number=Sing	7	obj	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	people	people	NOUN	NNS	Number=Plur	9	nmod	_	_
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+13	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	other	other	ADJ	JJ	Degree=Pos	13	conj	_	_
+18	who	who	PRON	WP	PronType=Rel	19	nsubj	_	_
+19	sit	sit	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	beside	beside	ADP	IN	_	21	case	_	_
+21	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 12
+# text = I hate those people who smoked.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hate	hate	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	those	those	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+4	people	people	NOUN	NNS	Number=Plur	2	obj	_	_
+5	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+6	smoked	smoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 13
+# text = But it is also spread in every home.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	also	also	ADV	RB	_	5	advmod	_	_
+5	spread	spread	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	every	every	DET	DT	_	8	det	_	_
+8	home	home	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 14
+# text = It effect on human beings very bad.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	effect	effect	NOUN	NN	Number=Sing	0	root	_	_
+3	on	on	ADP	IN	_	5	case	_	_
+4	human	human	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	beings	being	NOUN	NNS	Number=Plur	2	nmod	_	_
+6	very	very	ADV	RB	_	7	advmod	_	_
+7	bad	bad	ADJ	JJ	Degree=Pos	2	amod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 15
+# text = The people who smoked indeed they are looser.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	9	nsubj	_	_
+3	who	who	PRON	WP	PronType=Rel	4	nsubj	_	_
+4	smoked	smoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+5	indeed	indeed	ADV	RB	_	8	advmod	_	_
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	looser	looser	ADJ	JJR	Degree=Cmp	4	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 16
+# text = They can't face wordly matters.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	ca	can	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	face	face	VERB	VB	VerbForm=Inf	0	root	_	_
+5	wordly	wordly	ADV	RB	_	6	advmod	_	_
+6	matters	matters	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 17
+# text = Poor people and the young boys smoked to enjoy but they don't know it is not good for their health.
+1	Poor	poor	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	people	people	NOUN	NNS	Number=Plur	0	root	_	_
+3	and	and	CCONJ	CC	_	7	cc	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	young	young	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	boys	boy	NOUN	NNS	Number=Plur	7	nsubj	_	_
+7	smoked	smoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	enjoy	enjoy	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	but	but	CCONJ	CC	_	14	cc	_	_
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+12	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
+13	n't	not	PART	RB	_	14	advmod	_	_
+14	know	know	VERB	VB	VerbForm=Inf	7	conj	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	not	not	PART	RB	_	18	advmod	_	_
+18	good	good	ADJ	JJ	Degree=Pos	14	ccomp	_	_
+19	for	for	ADP	IN	_	21	case	_	_
+20	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	health	health	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 18
+# text = Today they smoking, tomorrow they can also take drugs.
+1	Today	today	NOUN	NN	Number=Sing	3	obl:tmod	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	tomorrow	tomorrow	NOUN	NN	Number=Sing	9	obl:tmod	_	_
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+7	can	can	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	also	also	ADV	RB	_	9	advmod	_	_
+9	take	take	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+10	drugs	drugs	NOUN	NNS	Number=Plur	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 19
+# text = Therefore this is not good for their future.
+1	Therefore	therefore	ADV	RB	_	5	advmod	_	_
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	good	good	ADJ	JJ	Degree=Pos	0	root	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	future	future	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 20
+# text = It creates very bad diseases in the new generation.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	creates	create	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	bad	bad	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	diseases	diseases	NOUN	NNS	Number=Plur	2	obj	_	_
+6	in	in	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	new	new	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	generation	generation	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 21
+# text = Young boy smokes and they feel happy.
+1	Young	young	ADP	IN	_	3	case	_	_
+2	boy	boy	NOUN	NN	Number=Sing	3	compound	_	_
+3	smokes	smoke	NOUN	NNS	Number=Plur	0	root	_	_
+4	and	and	CCONJ	CC	_	6	cc	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	happy	happy	ADJ	JJ	Degree=Pos	6	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 22
+# text = They feel that they do very good job.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	8	mark	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+5	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	very	very	ADV	RB	_	8	advmod	_	_
+7	good	good	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	job	job	NOUN	NN	Number=Sing	2	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 23
+# text = They cannot realize it is too bad for us.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	not	not	PART	RB	_	4	advmod	_	_
+4	realize	realize	VERB	VB	VerbForm=Inf	0	root	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	too	too	ADV	RB	_	8	advmod	_	_
+8	bad	bad	ADJ	JJ	Degree=Pos	4	ccomp	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 24
+# text = Government do nothing for this therefore it is spread day by day.
+1	Government	government	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nothing	nothing	PRON	NN	Number=Sing	2	obj	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	3	nmod	_	_
+6	therefore	therefore	ADV	RB	_	9	advmod	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj:pass	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	spread	spread	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	advcl	_	_
+10	day	day	NOUN	NN	Number=Sing	9	obl:tmod	_	_
+11	by	by	ADP	IN	_	12	case	_	_
+12	day	day	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

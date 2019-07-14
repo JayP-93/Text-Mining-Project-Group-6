@@ -1,0 +1,288 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_THA_PTJ0_140_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿Agree, because there will be additional revenue.
+1	﻿Agree	﻿Agree	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	because	because	SCONJ	IN	_	6	mark	_	_
+4	there	there	PRON	EX	_	6	expl	_	_
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+7	additional	additional	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	revenue	revenue	NOUN	NN	Number=Sing	6	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = And leisure interests as well as the three-car experience to use in the future.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	leisure	leisure	NOUN	NN	Number=Sing	3	compound	_	_
+3	interests	interest	NOUN	NNS	Number=Plur	0	root	_	_
+4	as	as	ADV	RB	_	11	cc	_	_
+5	well	well	ADV	RB	Degree=Pos	4	fixed	_	_
+6	as	as	ADP	IN	_	4	fixed	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+8	three	three	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	car	car	NOUN	NN	Number=Sing	11	compound	_	_
+11	experience	experience	NOUN	NN	Number=Sing	3	conj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	use	use	VERB	VB	VerbForm=Inf	11	acl	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	future	future	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = We plan on time.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	plan	plan	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	on	on	ADP	IN	_	4	case	_	_
+4	time	time	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = With an adult.
+1	With	with	ADP	IN	_	3	case	_	_
+2	an	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	adult	adult	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = To what would have to buy it.
+1	To	to	SCONJ	IN	_	4	mark	_	_
+2	what	what	PRON	WP	PronType=Int	4	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	buy	buy	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Without asking for money from their parents
+1	Without	without	SCONJ	IN	_	2	mark	_	_
+2	asking	ask	VERB	VBG	VerbForm=Ger	0	root	_	_
+3	for	for	ADP	IN	_	4	case	_	_
+4	money	money	NOUN	NN	Number=Sing	2	obl	_	_
+5	from	from	ADP	IN	_	7	case	_	_
+6	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	parents	parent	NOUN	NNS	Number=Plur	2	obl	_	_
+
+# sent_id = 7
+# text = And also makes them proud of us.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	also	also	ADV	RB	_	3	advmod	_	_
+3	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
+5	proud	proud	ADJ	JJ	Degree=Pos	3	xcomp	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Our own actions and also the value of the model even more money.
+1	Our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	own	own	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	actions	action	NOUN	NNS	Number=Plur	0	root	_	_
+4	and	and	CCONJ	CC	_	7	cc	_	_
+5	also	also	ADV	RB	_	7	advmod	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	value	value	NOUN	NN	Number=Sing	3	conj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	model	model	NOUN	NN	Number=Sing	7	nmod	_	_
+11	even	even	ADV	RB	_	13	advmod	_	_
+12	more	more	ADJ	JJR	Degree=Cmp	13	amod	_	_
+13	money	money	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = About saving money because it will come a time very tired, rather than acquisition.
+1	About	about	ADV	RB	_	2	advmod	_	_
+2	saving	save	VERB	VBG	VerbForm=Ger	0	root	_	_
+3	money	money	NOUN	NN	Number=Sing	2	obj	_	_
+4	because	because	SCONJ	IN	_	7	mark	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	come	come	VERB	VB	VerbForm=Inf	2	advcl	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	time	time	NOUN	NN	Number=Sing	11	obl:npmod	_	_
+10	very	very	ADV	RB	_	11	advmod	_	_
+11	tired	tired	ADJ	JJ	Degree=Pos	7	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	rather	rather	ADV	RB	_	15	cc	_	_
+14	than	than	ADP	IN	_	13	fixed	_	_
+15	acquisition	acquisition	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = And also the knowledge and ability to meet new people and make things very broad upward.
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	also	also	ADV	RB	_	4	advmod	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	knowledge	knowledge	NOUN	NN	Number=Sing	0	root	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	ability	ability	NOUN	NN	Number=Sing	4	conj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	meet	meet	VERB	VB	VerbForm=Inf	6	acl	_	_
+9	new	new	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	people	people	NOUN	NNS	Number=Plur	8	obj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	make	make	VERB	VB	VerbForm=Inf	8	conj	_	_
+13	things	thing	NOUN	NNS	Number=Plur	12	obj	_	_
+14	very	very	ADV	RB	_	15	advmod	_	_
+15	broad	broad	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	upward	upward	NOUN	NN	Number=Sing	12	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = Better use of leisure time to travel.
+1	Better	better	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	use	use	NOUN	NN	Number=Sing	0	root	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	leisure	leisure	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	time	time	NOUN	NN	Number=Sing	2	nmod	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	travel	travel	VERB	VB	VerbForm=Inf	2	acl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = To play games that are not beneficial to the society and we have more unemployment and social problems, I am a part time job that is necessary for students to even make the time to learn.
+1	To	to	PART	TO	_	2	mark	_	_
+2	play	play	VERB	VB	VerbForm=Inf	25	advcl	_	_
+3	games	game	NOUN	NNS	Number=Plur	2	obj	_	_
+4	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	not	not	PART	RB	_	7	advmod	_	_
+7	beneficial	beneficial	ADJ	JJ	Degree=Pos	3	acl:relcl	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	society	society	NOUN	NN	Number=Sing	7	obl	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+13	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+14	more	more	ADJ	JJR	Degree=Cmp	15	amod	_	_
+15	unemployment	unemployment	NOUN	NN	Number=Sing	13	obj	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	social	social	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	problems	problem	NOUN	NNS	Number=Plur	15	conj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	25	punct	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+21	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	cop	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+23	part	part	NOUN	NN	Number=Sing	24	compound	_	_
+24	time	time	NOUN	NN	Number=Sing	25	compound	_	_
+25	job	job	NOUN	NN	Number=Sing	0	root	_	_
+26	that	that	PRON	WDT	PronType=Rel	28	nsubj	_	_
+27	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	necessary	necessary	ADJ	JJ	Degree=Pos	25	acl:relcl	_	_
+29	for	for	SCONJ	IN	_	33	mark	_	_
+30	students	student	NOUN	NNS	Number=Plur	33	nsubj	_	_
+31	to	to	PART	TO	_	33	mark	_	_
+32	even	even	ADV	RB	_	33	advmod	_	_
+33	make	make	VERB	VB	VerbForm=Inf	28	advcl	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	time	time	NOUN	NN	Number=Sing	33	obj	_	_
+36	to	to	PART	TO	_	37	mark	_	_
+37	learn	learn	VERB	VB	VerbForm=Inf	33	xcomp	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	25	punct	_	_
+
+# sent_id = 13
+# text = Less leisure, but we need to plan.
+1	Less	less	ADJ	JJS	Degree=Sup	2	amod	_	_
+2	leisure	leisure	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	but	but	CCONJ	CC	_	6	cc	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+6	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	plan	plan	VERB	VB	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 14
+# text = The time is not so bad about learning to know their time is just this happy with a part time job.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	time	time	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	not	not	PART	RB	_	6	advmod	_	_
+5	so	so	ADV	RB	_	6	advmod	_	_
+6	bad	bad	ADJ	JJ	Degree=Pos	0	root	_	_
+7	about	about	SCONJ	IN	_	8	mark	_	_
+8	learning	learn	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	know	know	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	time	time	NOUN	NN	Number=Sing	16	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	just	just	ADV	RB	_	16	advmod	_	_
+15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+16	happy	happy	NOUN	NN	Number=Sing	10	ccomp	_	_
+17	with	with	ADP	IN	_	21	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+19	part	part	NOUN	NN	Number=Sing	20	compound	_	_
+20	time	time	NOUN	NN	Number=Sing	21	compound	_	_
+21	job	job	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 15
+# text = So I agree to do it.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	do	do	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 16
+# text = don't say that no time to do.
+1	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	SpaceAfter=No
+2	n't	not	PART	RB	_	3	advmod	_	_
+3	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+4	that	that	SCONJ	IN	_	6	case	_	_
+5	no	no	DET	DT	_	6	det	_	_
+6	time	time	NOUN	NN	Number=Sing	3	obl	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	do	do	VERB	VB	VerbForm=Inf	6	acl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 17
+# text = everyone got 24 hours.
+1	everyone	everyone	PRON	NN	Number=Sing	2	nsubj	_	_
+2	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	24	24	NUM	CD	NumType=Card	4	nummod	_	_
+4	hours	hour	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 18
+# text = So it about to manage and make it good.
+1	So	so	ADV	RB	_	5	advmod	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	about	about	ADV	RB	_	5	advmod	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	manage	manage	VERB	VB	VerbForm=Inf	0	root	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	make	make	VERB	VB	VerbForm=Inf	5	conj	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	good	good	ADJ	JJ	Degree=Pos	7	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 19
+# text = Plan must good.
+1	Plan	plan	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	good	good	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 20
+# text = Then study and work will be good both.
+1	Then	then	ADV	RB	PronType=Dem	2	advmod	_	_
+2	study	study	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	work	work	NOUN	NN	Number=Sing	2	conj	_	_
+5	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+7	good	good	ADJ	JJ	Degree=Pos	0	root	_	_
+8	both	both	DET	DT	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

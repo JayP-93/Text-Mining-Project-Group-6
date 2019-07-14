@@ -1,0 +1,328 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_JPN_SMK0_247_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿I agree this opinion.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	opinion	opinion	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I am not a smoker.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	smoker	smoker	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = So I don't like smell of smoking.
+1	So	so	ADV	RB	_	5	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n't	not	PART	RB	_	5	advmod	_	_
+5	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+6	smell	smell	NOUN	NN	Number=Sing	5	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = When I am eating something, if someone near me is smoking, I become unpleasant.
+1	When	when	ADV	WRB	PronType=Int	4	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part	15	advcl	_	_
+5	something	something	PRON	NN	Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	if	if	SCONJ	IN	_	12	mark	_	_
+8	someone	someone	PRON	NN	Number=Sing	12	nsubj	_	_
+9	near	near	ADP	IN	_	10	case	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	nmod	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	become	become	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	unpleasant	unpleasant	ADJ	JJ	Degree=Pos	15	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 5
+# text = And I turn irritated.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	turn	turn	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	irritated	irritate	ADJ	JJ	Degree=Pos	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Finally, I come to be able to eat few dishes and I will not order dishes any more.
+1	Finally	finally	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	7	mark	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+7	able	able	ADJ	JJ	Degree=Pos	4	xcomp	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	eat	eat	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	few	few	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	dishes	dish	NOUN	NNS	Number=Plur	9	obj	_	_
+12	and	and	CCONJ	CC	_	16	cc	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+14	will	will	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	not	not	PART	RB	_	16	advmod	_	_
+16	order	order	VERB	VB	VerbForm=Inf	4	conj	_	_
+17	dishes	dish	NOUN	NNS	Number=Plur	16	obj	_	_
+18	any	any	ADV	RB	_	19	advmod	_	_
+19	more	more	ADV	RBR	_	16	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Other people should have experienced this situation like me.
+1	Other	other	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	people	people	NOUN	NNS	Number=Plur	5	nsubj	_	_
+3	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	have	have	AUX	VB	VerbForm=Inf	5	aux	_	_
+5	experienced	experience	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	situation	situation	NOUN	NN	Number=Sing	5	obj	_	_
+8	like	like	ADP	IN	_	9	case	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = Recently nonsmoker is increasing.
+1	Recently	recently	ADV	RB	_	4	advmod	_	_
+2	nonsmoker	nonsmoker	ADV	RB	_	4	advmod	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	increasing	increase	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = So, if the restaurant doesn't ban smoking, many people lose appetite and the number of orders will decrease !!
+1	So	so	ADV	RB	_	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	13	punct	_	_
+3	if	if	SCONJ	IN	_	8	mark	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	restaurant	restaurant	NOUN	NN	Number=Sing	8	nsubj	_	_
+6	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
+7	n't	not	PART	RB	_	8	advmod	_	_
+8	ban	ban	VERB	VB	VerbForm=Inf	13	advcl	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	many	many	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	people	people	NOUN	NNS	Number=Plur	13	nsubj	_	_
+13	lose	lose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	appetite	appetite	NOUN	NN	Number=Sing	21	nsubj	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	number	number	NOUN	NN	Number=Sing	14	conj	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	orders	order	NOUN	NNS	Number=Plur	17	nmod	_	_
+20	will	will	AUX	MD	VerbForm=Fin	21	aux	_	_
+21	decrease	decrease	VERB	VB	VerbForm=Inf	13	ccomp	_	_
+22	!!	!!	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 10
+# text = At last, the restaurant will be out of business.
+1	At	at	ADP	IN	_	2	case	_	_
+2	last	last	ADJ	JJ	Degree=Pos	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	10	punct	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	restaurant	restaurant	NOUN	NN	Number=Sing	10	nsubj	_	_
+6	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+8	out	out	ADP	IN	_	10	case	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	business	business	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 11
+# text = And as you know, smoking will harm people's health.
+1	And	and	CCONJ	CC	_	8	cc	_	_
+2	as	as	SCONJ	IN	_	4	mark	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	will	will	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	harm	harm	VERB	VB	VerbForm=Inf	0	root	_	_
+9	people	people	NOUN	NNS	Number=Plur	11	nmod:poss	_	SpaceAfter=No
+10	's	's	PART	POS	_	9	case	_	_
+11	health	health	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 12
+# text = Only take the smoke which drift from other's tobacco, there is a possibility of cancer.
+1	Only	only	ADV	RB	_	2	advmod	_	_
+2	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	smoke	smoke	NOUN	NN	Number=Sing	2	obj	_	_
+5	which	which	PRON	WDT	PronType=Rel	6	nsubj	_	_
+6	drift	drift	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	from	from	ADP	IN	_	10	case	_	_
+8	other	other	ADJ	JJ	Degree=Pos	10	amod	_	SpaceAfter=No
+9	's	's	PART	POS	_	8	case	_	_
+10	tobacco	tobacco	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	2	punct	_	_
+12	there	there	PRON	EX	_	13	expl	_	_
+13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	possibility	possibility	NOUN	NN	Number=Sing	13	nsubj	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	cancer	cancer	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 13
+# text = I don't want to become disease because of other's careless.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	want	want	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	become	become	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	disease	disease	NOUN	NN	Number=Sing	6	obj	_	_
+8	because	because	ADP	IN	_	12	case	_	_
+9	of	of	ADP	IN	_	8	fixed	_	_
+10	other	other	ADJ	JJ	Degree=Pos	12	amod	_	SpaceAfter=No
+11	's	's	PART	POS	_	10	case	_	_
+12	careless	careless	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 14
+# text = Surely people who have a habit to smoke may be relaxed by tobacco.
+1	Surely	surely	ADV	RB	_	2	advmod	_	_
+2	people	people	NOUN	NNS	Number=Plur	11	nsubj:pass	_	_
+3	who	who	PRON	WP	PronType=Rel	4	nsubj	_	_
+4	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	habit	habit	NOUN	NN	Number=Sing	4	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	smoke	smoke	VERB	VB	VerbForm=Inf	6	acl	_	_
+9	may	may	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	_	_
+11	relaxed	relax	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+12	by	by	ADP	IN	_	13	case	_	_
+13	tobacco	tobacco	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 15
+# text = When they feel stressed, smoking may release from the nervousness.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+4	stressed	stressed	ADJ	JJ	Degree=Pos	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	may	may	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	release	release	VERB	VB	VerbForm=Inf	0	root	_	_
+9	from	from	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	nervousness	nervousness	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 16
+# text = And there may be many people who look forward to smoke soon after dinner.
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	there	there	PRON	EX	_	4	expl	_	_
+3	may	may	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+5	many	many	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+7	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+8	look	look	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	forward	forward	ADV	RB	_	8	advmod	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	smoke	smoke	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+12	soon	soon	ADV	RB	Degree=Pos	11	advmod	_	_
+13	after	after	ADP	IN	_	14	case	_	_
+14	dinner	dinner	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 17
+# text = So they must be hard to put up with smoking at restaurant.
+1	So	so	ADV	RB	_	5	advmod	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+3	must	must	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	hard	hard	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	put	put	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+8	up	up	ADP	RP	_	7	compound:prt	_	_
+9	with	with	ADP	IN	_	10	case	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	7	obl	_	_
+11	at	at	ADP	IN	_	12	case	_	_
+12	restaurant	restaurant	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 18
+# text = But things are changing.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	things	thing	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	changing	change	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 19
+# text = The age which people can smoke everywhere and every time is over.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	age	age	NOUN	NN	Number=Sing	0	root	_	_
+3	which	which	PRON	WDT	PronType=Rel	6	obj	_	_
+4	people	people	NOUN	NNS	Number=Plur	6	nsubj	_	_
+5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	smoke	smoke	VERB	VB	VerbForm=Inf	2	acl:relcl	_	_
+7	everywhere	everywhere	ADV	RB	_	6	advmod	_	_
+8	and	and	CCONJ	CC	_	12	cc	_	_
+9	every	every	DET	DT	_	10	det	_	_
+10	time	time	NOUN	NN	Number=Sing	12	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	over	over	ADV	RB	_	6	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 20
+# text = So we have to obey social rules.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	obey	obey	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	social	social	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	rules	rule	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 21
+# text = Don't to annoy people around us by smoking.
+1	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+2	n't	not	PART	RB	_	5	advmod	_	_
+3	to	to	ADP	IN	_	5	case	_	_
+4	annoy	annoy	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	people	people	NOUN	NNS	Number=Plur	0	root	_	_
+6	around	around	ADP	IN	_	7	case	_	_
+7	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	nmod	_	_
+8	by	by	ADP	IN	_	9	case	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 22
+# text = To live comfortably for everyone, only at restaurant, smoker should put up with smoking.
+1	To	to	PART	TO	_	2	mark	_	_
+2	live	live	VERB	VB	VerbForm=Inf	13	advcl	_	_
+3	comfortably	comfortably	ADV	RB	_	2	advmod	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	everyone	everyone	PRON	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	13	punct	_	_
+7	only	only	ADV	RB	_	9	advmod	_	_
+8	at	at	ADP	IN	_	9	case	_	_
+9	restaurant	restaurant	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	smoker	smoker	NOUN	NN	Number=Sing	13	nsubj	_	_
+12	should	should	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	put	put	VERB	VB	VerbForm=Inf	0	root	_	_
+14	up	up	ADP	RP	_	13	compound:prt	_	_
+15	with	with	ADP	IN	_	16	case	_	_
+16	smoking	smoking	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\n
+

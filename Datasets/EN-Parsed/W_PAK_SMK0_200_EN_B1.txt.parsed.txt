@@ -1,0 +1,262 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PAK_SMK0_200_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿It is commonly said that smoking is injurious for health.
+1	﻿It	﻿It	PROPN	NNP	Number=Sing	4	nsubj:pass	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	commonly	commonly	ADV	RB	_	4	advmod	_	_
+4	said	say	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	injurious	injurious	ADJ	JJ	Degree=Pos	4	ccomp	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	health	health	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = But it is a bad luck of our nation that in spite of knowing the dangers of smoking they do not often care for these restrictions and healthcare warnings.
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	bad	bad	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	luck	luck	NOUN	NN	Number=Sing	0	root	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	nation	nation	NOUN	NN	Number=Sing	6	nmod	_	_
+10	that	that	PRON	WDT	PronType=Rel	23	obj	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	spite	spite	NOUN	NN	Number=Sing	23	obl	_	_
+13	of	of	SCONJ	IN	_	14	mark	_	_
+14	knowing	know	VERB	VBG	VerbForm=Ger	12	acl	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	dangers	dangers	NOUN	NNS	Number=Plur	14	obj	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	smoking	smoke	NOUN	NN	Number=Sing	16	nmod	_	_
+19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
+20	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	_
+21	not	not	PART	RB	_	23	advmod	_	_
+22	often	often	ADV	RB	_	23	advmod	_	_
+23	care	care	VERB	VB	VerbForm=Inf	9	acl:relcl	_	_
+24	for	for	ADP	IN	_	26	case	_	_
+25	these	these	DET	DT	Number=Plur|PronType=Dem	26	det	_	_
+26	restrictions	restriction	NOUN	NNS	Number=Plur	23	obl	_	_
+27	and	and	CCONJ	CC	_	29	cc	_	_
+28	healthcare	healthcare	NOUN	NN	Number=Sing	29	compound	_	_
+29	warnings	warning	NOUN	NNS	Number=Plur	26	conj	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = We find smokers smoking the cigarettes on roads, markets, restaurants and other public places.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	find	find	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	smoker	smoker	NOUN	NN	Number=Sing	5	nsubj	_	SpaceAfter=No
+4	s	s	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	2	ccomp	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	cigarettes	cigarette	NOUN	NNS	Number=Plur	5	obj	_	_
+8	on	on	ADP	IN	_	9	case	_	_
+9	roads	road	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	markets	market	NOUN	NNS	Number=Plur	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	restaurants	restaurant	NOUN	NNS	Number=Plur	9	conj	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	other	other	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	public	public	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	places	place	NOUN	NNS	Number=Plur	9	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Smoking should be banned in restaurants.
+1	Smoking	smoking	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	_	_
+4	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	restaurants	restaurant	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Firstly, other people also feel disturbance because of smoking in restaurants.
+1	Firstly	firstly	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	other	other	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	people	people	NOUN	NNS	Number=Plur	6	nsubj	_	_
+5	also	also	ADV	RB	_	6	advmod	_	_
+6	feel	feel	VERB	VB	VerbForm=Inf	0	root	_	_
+7	disturbance	disturbance	ADJ	JJ	Degree=Pos	6	xcomp	_	_
+8	because	because	ADP	IN	_	10	case	_	_
+9	of	of	ADP	IN	_	8	fixed	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	6	obl	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	restaurants	restaurant	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 6
+# text = The smoke screens of cigarette are untolerateable for some people.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	smoke	smoke	NOUN	NN	Number=Sing	3	compound	_	_
+3	screens	screen	NOUN	NNS	Number=Plur	7	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	cigarette	cigarette	NOUN	NN	Number=Sing	3	nmod	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	untolerateable	untolerateable	ADJ	JJ	Degree=Pos	0	root	_	_
+8	for	for	ADP	IN	_	10	case	_	_
+9	some	some	DET	DT	_	10	det	_	_
+10	people	people	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 7
+# text = The smoke screens are also cause of lung cancer in non-smokers because they inhale them through air.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	smoke	smoke	NOUN	NN	Number=Sing	3	compound	_	_
+3	screens	screen	NOUN	NNS	Number=Plur	9	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+5	also	also	ADV	RB	_	9	advmod	_	_
+6	cause	cause	ADP	IN	_	9	case	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	lung	lung	NOUN	NN	Number=Sing	9	compound	_	_
+9	cancer	cancer	NOUN	NN	Number=Sing	0	root	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	non-smokers	non-smoker	NOUN	NNS	Number=Plur	9	nmod	_	_
+12	because	because	SCONJ	IN	_	14	mark	_	_
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+14	inhale	inhale	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
+16	through	through	ADP	IN	_	17	case	_	_
+17	air	air	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 8
+# text = Secondly, smoking also mars the charm of environment and people avoid going in such restaurants.
+1	Secondly	secondly	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	also	also	ADV	RB	_	5	advmod	_	_
+5	mars	mar	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	charm	charm	NOUN	NN	Number=Sing	12	nsubj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	environment	environment	NOUN	NN	Number=Sing	7	nmod	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	people	people	NOUN	NNS	Number=Plur	9	conj	_	_
+12	avoid	avoid	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+13	going	go	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	such	such	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	restaurants	restaurant	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = It pollutes the environment and makes it a source of illness.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	pollutes	pollute	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	environment	environment	NOUN	NN	Number=Sing	2	obj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	source	source	NOUN	NN	Number=Sing	6	xcomp	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	illness	illness	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = We should act quickly to check all such kinds of evils.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	act	act	VERB	VB	VerbForm=Inf	0	root	_	_
+4	quickly	quickly	ADV	RB	_	3	advmod	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	check	check	VERB	VB	VerbForm=Inf	3	advcl	_	_
+7	all	all	DET	DT	_	9	det	_	_
+8	such	such	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	kinds	kind	NOUN	NNS	Number=Plur	6	obj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	evils	evils	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = There should be an end to this bad activity that affects the vision and peace of mind of the people.
+1	There	there	PRON	EX	_	3	expl	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	end	end	NOUN	NN	Number=Sing	3	nsubj	_	_
+6	to	to	ADP	IN	_	9	case	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+8	bad	bad	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	activity	activity	NOUN	NN	Number=Sing	5	nmod	_	_
+10	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	_
+11	affects	affect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	vision	vision	NOUN	NN	Number=Sing	11	obj	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	peace	peace	NOUN	NN	Number=Sing	13	conj	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	mind	mind	NOUN	NN	Number=Sing	13	nmod	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	people	people	NOUN	NNS	Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 12
+# text = We need to understand the true dimension of pollution created by smokers in restaurants that is perhaps one of the greatest problems of our country, as much as of the old, plaguing the health and well being of the billions.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	understand	understand	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	true	true	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	dimension	dimension	NOUN	NN	Number=Sing	4	obj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	pollution	pollution	NOUN	NN	Number=Sing	7	nmod	_	_
+10	created	create	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	_	_
+11	by	by	ADP	IN	_	12	case	_	_
+12	smokers	smoker	NOUN	NNS	Number=Plur	10	obl	_	_
+13	in	in	ADP	IN	_	14	case	_	_
+14	restaurants	restaurant	NOUN	NNS	Number=Plur	4	obl	_	_
+15	that	that	PRON	WDT	PronType=Rel	18	nsubj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	perhaps	perhaps	ADV	RB	_	18	advmod	_	_
+18	one	one	NUM	CD	NumType=Card	14	acl:relcl	_	_
+19	of	of	ADP	IN	_	22	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	greatest	greatest	ADJ	JJS	Degree=Sup	22	amod	_	_
+22	problems	problem	NOUN	NNS	Number=Plur	18	nmod	_	_
+23	of	of	ADP	IN	_	25	case	_	_
+24	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	country	country	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	28	punct	_	_
+27	as	as	ADV	RB	_	28	advmod	_	_
+28	much	much	ADJ	JJ	Degree=Pos	2	conj	_	_
+29	as	as	ADP	IN	_	32	case	_	_
+30	of	of	ADP	IN	_	29	fixed	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	old	old	ADJ	JJ	Degree=Pos	28	obl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	28	punct	_	_
+34	plaguing	plague	VERB	VBG	VerbForm=Ger	28	advcl	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+36	health	health	NOUN	NN	Number=Sing	34	obj	_	_
+37	and	and	CCONJ	CC	_	39	cc	_	_
+38	well	well	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	being	be	NOUN	NN	Number=Sing	36	conj	_	_
+40	of	of	ADP	IN	_	42	case	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+42	billions	billion	NOUN	NNS	Number=Plur	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 13
+# text = Smoking needs to be banned in restaurants.
+1	Smoking	smoke	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	5	mark	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	xcomp	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	restaurants	restaurant	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

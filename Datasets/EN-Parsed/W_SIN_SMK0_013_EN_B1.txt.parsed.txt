@@ -1,0 +1,282 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_SIN_SMK0_013_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿In my opinion, smoking should be banned in all restaurants in Singapore.
+1	﻿In	﻿In	ADP	IN	_	3	case	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	opinion	opinion	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+6	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	all	all	DET	DT	_	11	det	_	_
+11	restaurants	restaurant	NOUN	NNS	Number=Plur	8	obl	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	Singapore	Singapore	PROPN	NNP	Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = The reason is that I feel smoking brings much harm to society, in the form of multiple diseases and health risks to both the smoker and the people inhaling second hand smoke.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	reason	reason	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	6	mark	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	smoking	smoke	VERB	VBG	VerbForm=Ger	8	amod	_	_
+8	brings	bring	NOUN	NNS	Number=Plur	6	obj	_	_
+9	much	much	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	harm	harm	NOUN	NN	Number=Sing	8	obj	_	_
+11	to	to	ADP	IN	_	12	case	_	_
+12	society	society	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	8	punct	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	form	form	NOUN	NN	Number=Sing	8	nmod	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	multiple	multiple	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	diseases	diseases	NOUN	NNS	Number=Plur	16	nmod	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	health	health	NOUN	NN	Number=Sing	22	compound	_	_
+22	risks	risk	NOUN	NNS	Number=Plur	19	conj	_	_
+23	to	to	ADP	IN	_	26	case	_	_
+24	both	both	CCONJ	CC	_	26	cc:preconj	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	smoker	smoker	NOUN	NN	Number=Sing	16	nmod	_	_
+27	and	and	CCONJ	CC	_	29	cc	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	people	people	NOUN	NNS	Number=Plur	26	conj	_	_
+30	inhaling	inhal	VERB	VBG	VerbForm=Ger	29	acl	_	_
+31	second	second	ADV	RB	_	33	advmod	_	_
+32	hand	hand	NOUN	NN	Number=Sing	33	compound	_	_
+33	smoke	smoke	NOUN	NN	Number=Sing	30	obj	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = By banning smoking, we can cut down health care costs, because less people will fall sick from such smoke, therefore there is less strain on the national health care system.
+1	By	by	ADP	IN	_	3	case	_	_
+2	banning	banning	NOUN	NN	Number=Sing	3	compound	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	cut	cut	VERB	VB	VerbForm=Inf	0	root	_	_
+8	down	down	ADP	RP	_	7	compound:prt	_	_
+9	health	health	NOUN	NN	Number=Sing	10	compound	_	_
+10	care	care	NOUN	NN	Number=Sing	11	compound	_	_
+11	costs	cost	NOUN	NNS	Number=Plur	7	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	7	punct	_	_
+13	because	because	SCONJ	IN	_	17	mark	_	_
+14	less	less	ADJ	JJR	Degree=Cmp	15	amod	_	_
+15	people	people	NOUN	NNS	Number=Plur	17	nsubj	_	_
+16	will	will	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	fall	fall	VERB	VB	VerbForm=Inf	7	advcl	_	_
+18	sick	sick	ADJ	JJ	Degree=Pos	17	xcomp	_	_
+19	from	from	ADP	IN	_	21	case	_	_
+20	such	such	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	smoke	smoke	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	7	punct	_	_
+23	therefore	therefore	ADV	RB	_	25	advmod	_	_
+24	there	there	PRON	EX	_	25	expl	_	_
+25	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+26	less	less	ADJ	JJR	Degree=Cmp	27	amod	_	_
+27	strain	strain	NOUN	NN	Number=Sing	25	nsubj	_	_
+28	on	on	ADP	IN	_	33	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+30	national	national	ADJ	JJ	Degree=Pos	33	amod	_	_
+31	health	health	NOUN	NN	Number=Sing	32	compound	_	_
+32	care	care	NOUN	NN	Number=Sing	33	compound	_	_
+33	system	system	NOUN	NN	Number=Sing	27	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = Banning smoking also allows all diners to eat in peace, such that their appetites are not ruined from inhaling poisonous smoke when they are eating at the same time.
+1	Banning	Bann	VERB	VBG	VerbForm=Ger	2	amod	_	_
+2	smoking	smoking	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	also	also	ADV	RB	_	4	advmod	_	_
+4	allows	allow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	all	all	DET	DT	_	6	det	_	_
+6	diners	diner	NOUN	NNS	Number=Plur	4	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	eat	eat	VERB	VB	VerbForm=Inf	4	advcl	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	peace	peace	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	_
+12	such	such	ADJ	JJ	Degree=Pos	15	advmod	_	_
+13	that	that	SCONJ	IN	_	12	fixed	_	_
+14	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	appetites	appetite	NOUN	NNS	Number=Plur	18	nsubj:pass	_	_
+16	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+17	not	not	PART	RB	_	18	advmod	_	_
+18	ruined	ruin	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	parataxis	_	_
+19	from	from	SCONJ	IN	_	20	mark	_	_
+20	inhaling	inhaling	VERB	VBG	VerbForm=Ger	18	advcl	_	_
+21	poisonous	poisonous	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
+22	smoke	smoke	VERB	VB	VerbForm=Inf	20	ccomp	_	_
+23	when	when	ADV	WRB	PronType=Int	26	mark	_	_
+24	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	_
+25	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part	22	advcl	_	_
+27	at	at	ADP	IN	_	30	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+29	same	same	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	time	time	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = In my view I think that smoking is not a bad thing itself, if smokers know the risk to their health and they choose to do it.
+1	In	in	ADP	IN	_	3	case	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	view	view	NOUN	NN	Number=Sing	5	obl	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	that	that	SCONJ	IN	_	12	mark	_	_
+7	smoking	smoke	NOUN	NN	Number=Sing	12	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+9	not	not	PART	RB	_	12	advmod	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	bad	bad	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	thing	thing	NOUN	NN	Number=Sing	5	ccomp	_	_
+13	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nmod:npmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	5	punct	_	_
+15	if	if	SCONJ	IN	_	17	mark	_	_
+16	smokers	smoker	NOUN	NNS	Number=Plur	17	nsubj	_	_
+17	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	risk	risk	NOUN	NN	Number=Sing	17	obj	_	_
+20	to	to	ADP	IN	_	22	case	_	_
+21	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	health	health	NOUN	NN	Number=Sing	19	nmod	_	_
+23	and	and	CCONJ	CC	_	25	cc	_	_
+24	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	_
+25	choose	choose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	conj	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	do	do	VERB	VB	VerbForm=Inf	25	xcomp	_	_
+28	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = But the key thing that they should take note is that the smoke can possibly harm all the people that inhale the smoke, including his family that most probably sits closest to him.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	key	key	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	thing	thing	NOUN	NN	Number=Sing	10	nsubj	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+7	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	take	take	VERB	VB	VerbForm=Inf	4	acl	_	_
+9	note	note	NOUN	NN	Number=Sing	8	obj	_	_
+10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	that	that	SCONJ	IN	_	16	mark	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	smoke	smoke	NOUN	NN	Number=Sing	16	nsubj	_	_
+14	can	can	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	possibly	possibly	ADV	RB	_	16	advmod	_	_
+16	harm	harm	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+17	all	all	DET	PDT	_	19	det:predet	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	people	people	NOUN	NNS	Number=Plur	16	obj	_	_
+20	that	that	PRON	WDT	PronType=Rel	21	nsubj	_	_
+21	inhale	inhale	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	smoke	smoke	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	_
+25	including	include	VERB	VBG	VerbForm=Ger	27	case	_	_
+26	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	family	family	NOUN	NN	Number=Sing	23	nmod	_	_
+28	that	that	ADV	WRB	PronType=Rel	31	advmod	_	_
+29	most	most	ADV	RBS	_	30	advmod	_	_
+30	probably	probably	ADV	RB	_	31	advmod	_	_
+31	sits	sit	NOUN	NNS	Number=Plur	23	acl:relcl	_	_
+32	closest	closest	ADJ	JJS	Degree=Sup	31	amod	_	_
+33	to	to	ADP	IN	_	34	case	_	_
+34	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obl	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 7
+# text = Therefore, by banning smoking, the law will actually help to protect his family members from health risks.
+1	Therefore	therefore	ADV	RB	_	11	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	11	punct	_	_
+3	by	by	SCONJ	IN	_	4	mark	_	_
+4	banning	banning	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+5	smoking	smoke	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	law	law	NOUN	NN	Number=Sing	11	nsubj	_	_
+9	will	will	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	actually	actually	ADV	RB	_	11	advmod	_	_
+11	help	help	VERB	VB	VerbForm=Inf	0	root	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	protect	protect	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+15	family	family	NOUN	NN	Number=Sing	16	compound	_	_
+16	members	member	NOUN	NNS	Number=Plur	13	obj	_	_
+17	from	from	ADP	IN	_	19	case	_	_
+18	health	health	NOUN	NN	Number=Sing	19	compound	_	_
+19	risks	risk	NOUN	NNS	Number=Plur	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 8
+# text = In conclusion, I feel that smoking should be banned, simply because it is reasonable to not want to inhale second hand smoke, and as a non-smoker, we should have the right and privilege to not inhale smoke.
+1	In	in	ADP	IN	_	2	case	_	_
+2	conclusion	conclusion	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	that	that	SCONJ	IN	_	10	mark	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	10	nsubj:pass	_	_
+8	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+10	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	_	_
+12	simply	simply	ADV	RB	_	16	advmod	_	_
+13	because	because	SCONJ	IN	_	16	mark	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	reasonable	reasonable	ADJ	JJ	Degree=Pos	10	conj	_	_
+17	to	to	PART	TO	_	19	mark	_	_
+18	not	not	PART	RB	_	19	advmod	_	_
+19	want	want	VERB	VB	VerbForm=Inf	16	csubj	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	inhale	inhale	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	24	amod	_	_
+23	hand	hand	NOUN	NN	Number=Sing	24	compound	_	_
+24	smoke	smoke	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	29	punct	_	_
+26	and	and	CCONJ	CC	_	29	cc	_	_
+27	as	as	ADP	IN	_	29	case	_	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+29	non-smoker	non-smoker	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	5	punct	_	_
+31	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	33	nsubj	_	_
+32	should	should	AUX	MD	VerbForm=Fin	33	aux	_	_
+33	have	have	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	right	right	ADJ	JJ	Degree=Pos	33	obj	_	_
+36	and	and	CCONJ	CC	_	37	cc	_	_
+37	privilege	privilege	ADJ	JJ	Degree=Pos	35	conj	_	_
+38	to	to	PART	TO	_	40	mark	_	_
+39	not	not	PART	RB	_	40	advmod	_	_
+40	inhale	inhale	VERB	VB	VerbForm=Inf	35	acl	_	_
+41	smoke	smoke	NOUN	NN	Number=Sing	40	obj	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = I value my health highly and do not wish to compromise on it.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	value	value	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	health	health	NOUN	NN	Number=Sing	2	obj	_	_
+5	highly	highly	ADV	RB	_	2	advmod	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	not	not	PART	RB	_	9	advmod	_	_
+9	wish	wish	VERB	VB	VerbForm=Inf	2	conj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	compromise	compromise	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	on	on	ADP	IN	_	13	case	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

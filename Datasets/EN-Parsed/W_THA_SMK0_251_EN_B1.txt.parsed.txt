@@ -1,0 +1,288 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_THA_SMK0_251_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿In many countries, smoking is bad behavior, if who smokes a cigarette then he will be looked badly because smoking can kill a person who smokes it and also it can kill people who stand around smoker.
+1	﻿In	﻿In	ADP	IN	_	3	case	_	_
+2	many	many	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	countries	country	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	bad	bad	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	behavior	behavior	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	if	if	SCONJ	IN	_	12	mark	_	_
+11	who	who	PRON	WP	PronType=Int	12	nsubj	_	_
+12	smokes	smoke	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	cigarette	cigarette	NOUN	NN	Number=Sing	12	obj	_	_
+15	then	then	ADV	RB	PronType=Dem	19	advmod	_	_
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj:pass	_	_
+17	will	will	AUX	MD	VerbForm=Fin	19	aux	_	_
+18	be	be	AUX	VB	VerbForm=Inf	19	aux:pass	_	_
+19	looked	look	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	parataxis	_	_
+20	badly	badly	ADV	RB	Degree=Pos	19	advmod	_	_
+21	because	because	SCONJ	IN	_	24	mark	_	_
+22	smoking	smoking	NOUN	NN	Number=Sing	24	nsubj	_	_
+23	can	can	AUX	MD	VerbForm=Fin	24	aux	_	_
+24	kill	kill	VERB	VB	VerbForm=Inf	19	advcl	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	person	person	NOUN	NN	Number=Sing	24	obj	_	_
+27	who	who	PRON	WP	PronType=Rel	28	nsubj	_	_
+28	smokes	smoke	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+29	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+30	and	and	CCONJ	CC	_	34	cc	_	_
+31	also	also	ADV	RB	_	34	advmod	_	_
+32	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
+33	can	can	AUX	MD	VerbForm=Fin	34	aux	_	_
+34	kill	kill	VERB	VB	VerbForm=Inf	28	conj	_	_
+35	people	people	NOUN	NNS	Number=Plur	34	obj	_	_
+36	who	who	PRON	WP	PronType=Rel	37	nsubj	_	_
+37	stand	stand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
+38	around	around	ADP	IN	_	39	case	_	_
+39	smoker	smoker	NOUN	NN	Number=Sing	37	obl	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = So, there are many groups anti smoking in any places.
+1	So	so	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	there	there	PRON	EX	_	4	expl	_	_
+4	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	many	many	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	groups	group	NOUN	NNS	Number=Plur	8	compound	_	_
+7	anti	anti	X	AFX	_	8	goeswith	_	_
+8	smoking	smoke	NOUN	NN	Number=Sing	4	nsubj	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	any	any	DET	DT	_	11	det	_	_
+11	places	place	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Currently, smoking will be banned completely at the restaurant in the country for many reasons.
+1	Currently	currently	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	6	nsubj:pass	_	_
+4	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+6	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	completely	completely	ADV	RB	_	10	advmod	_	_
+8	at	at	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	restaurant	restaurant	NOUN	NN	Number=Sing	6	obl	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	country	country	NOUN	NN	Number=Sing	6	obl	_	_
+14	for	for	ADP	IN	_	16	case	_	_
+15	many	many	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	reasons	reason	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = For example, if smoking is allowed in the restaurant, it can cause some disease and the image of the restaurant will be bad.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	14	punct	_	_
+4	if	if	SCONJ	IN	_	7	mark	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	advcl	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	restaurant	restaurant	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	can	can	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	cause	cause	VERB	VB	VerbForm=Inf	0	root	_	_
+15	some	some	DET	DT	_	16	det	_	_
+16	disease	disease	NOUN	NN	Number=Sing	25	nsubj	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	image	image	NOUN	NN	Number=Sing	16	conj	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	restaurant	restaurant	NOUN	NN	Number=Sing	19	nmod	_	_
+23	will	will	AUX	MD	VerbForm=Fin	25	aux	_	_
+24	be	be	AUX	VB	VerbForm=Inf	25	cop	_	_
+25	bad	bad	ADJ	JJ	Degree=Pos	14	ccomp	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 5
+# text = So, many groups of people will be fight for their personal and public rights.
+1	So	so	ADV	RB	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	9	punct	_	_
+3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	groups	group	NOUN	NNS	Number=Plur	9	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	people	people	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	will	will	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux	_	_
+9	fight	fight	VERB	VB	VerbForm=Inf	0	root	_	_
+10	for	for	ADP	IN	_	15	case	_	_
+11	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+12	personal	personal	ADJ	JJ	Degree=Pos	15	amod	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	public	public	ADJ	JJ	Degree=Pos	12	conj	_	_
+15	rights	rights	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 6
+# text = In my personal opinion, I strongly agree I think that it is true to do that because the restaurant is the place that many people go there for fantastic food, romantic dinner and finally the restaurants can make the customers happy.
+1	In	in	ADP	IN	_	4	case	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+3	personal	personal	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	opinion	opinion	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	strongly	strongly	ADV	RB	_	8	advmod	_	_
+8	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+11	that	that	SCONJ	IN	_	14	mark	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	true	true	ADJ	JJ	Degree=Pos	10	ccomp	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	do	do	VERB	VB	VerbForm=Inf	14	csubj	_	_
+17	that	that	SCONJ	IN	_	16	obj	_	_
+18	because	because	SCONJ	IN	_	23	mark	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	restaurant	restaurant	NOUN	NN	Number=Sing	23	nsubj	_	_
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	place	place	NOUN	NN	Number=Sing	16	advcl	_	_
+24	that	that	SCONJ	IN	_	27	mark	_	_
+25	many	many	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	people	people	NOUN	NNS	Number=Plur	27	nsubj	_	_
+27	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	acl	_	_
+28	there	there	ADV	RB	PronType=Dem	27	advmod	_	_
+29	for	for	ADP	IN	_	31	case	_	_
+30	fantastic	fantastic	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	food	food	NOUN	NN	Number=Sing	27	obl	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	34	punct	_	_
+33	romantic	romantic	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	dinner	dinner	NOUN	NN	Number=Sing	27	conj	_	_
+35	and	and	CCONJ	CC	_	40	cc	_	_
+36	finally	finally	ADV	RB	_	40	advmod	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	restaurants	restaurant	NOUN	NNS	Number=Plur	40	nsubj	_	_
+39	can	can	AUX	MD	VerbForm=Fin	40	aux	_	_
+40	make	make	VERB	VB	VerbForm=Inf	27	conj	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+42	customers	customer	NOUN	NNS	Number=Plur	40	obj	_	_
+43	happy	happy	ADJ	JJ	Degree=Pos	40	xcomp	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 7
+# text = Sometimes there are babies, children, and pregnant women in restaurants; smoking will be bad for them because it can damage their health.
+1	Sometimes	sometimes	ADV	RB	_	3	advmod	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	babies	baby	NOUN	NNS	Number=Plur	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	children	child	NOUN	NNS	Number=Plur	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	pregnant	pregnant	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	women	woman	NOUN	NNS	Number=Plur	4	conj	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	restaurants	restaurant	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	3	punct	_	_
+14	smoking	smoking	NOUN	NN	Number=Sing	17	nsubj	_	_
+15	will	will	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	cop	_	_
+17	bad	bad	ADJ	JJ	Degree=Pos	3	parataxis	_	_
+18	for	for	ADP	IN	_	19	case	_	_
+19	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	obl	_	_
+20	because	because	SCONJ	IN	_	23	mark	_	_
+21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	can	can	AUX	MD	VerbForm=Fin	23	aux	_	_
+23	damage	damage	VERB	VB	VerbForm=Inf	17	advcl	_	_
+24	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	health	health	NOUN	NN	Number=Sing	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = In addition, if the restaurants there are people that smoke cigarette, it will be looked that it is dirty place.
+1	In	in	ADP	IN	_	2	case	_	_
+2	addition	addition	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	17	punct	_	_
+4	if	if	SCONJ	IN	_	8	mark	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	restaurants	restaurant	NOUN	NNS	Number=Plur	8	nsubj	_	_
+7	there	there	PRON	EX	_	8	expl	_	_
+8	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+9	people	people	NOUN	NNS	Number=Plur	8	nsubj	_	_
+10	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	_
+11	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	cigarette	cigarette	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj:pass	_	_
+15	will	will	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	aux:pass	_	_
+17	looked	look	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+18	that	that	SCONJ	IN	_	22	mark	_	_
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	dirty	dirty	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	place	place	NOUN	NN	Number=Sing	17	ccomp	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 9
+# text = It is not attractive placed.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	attractive	attractive	ADJ	JJ	Degree=Pos	0	root	_	_
+5	placed	place	VERB	VBN	Tense=Past|VerbForm=Part	4	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 10
+# text = Also, if someone is smoking in the restaurants, it can make the air bad then it will destroy the customer's health.
+1	Also	also	ADV	RB	_	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	13	punct	_	_
+3	if	if	SCONJ	IN	_	6	mark	_	_
+4	someone	someone	PRON	NN	Number=Sing	6	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	13	advcl	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	restaurants	restaurant	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	can	can	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	air	air	NOUN	NN	Number=Sing	13	obj	_	_
+16	bad	bad	ADJ	JJ	Degree=Pos	15	amod	_	_
+17	then	then	ADV	RB	PronType=Dem	20	advmod	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+19	will	will	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	destroy	destroy	VERB	VB	VerbForm=Inf	13	ccomp	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	customer	customer	NOUN	NN	Number=Sing	24	nmod:poss	_	SpaceAfter=No
+23	's	's	PART	POS	_	22	case	_	_
+24	health	health	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 11
+# text = So, I reason that smoking should be banned at all the restaurants in the country exactly.
+1	So	so	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	reason	reason	VERB	VB	VerbForm=Inf	0	root	_	_
+5	that	that	SCONJ	IN	_	9	mark	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
+7	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+9	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	ccomp	_	_
+10	at	at	ADP	IN	_	13	case	_	_
+11	all	all	DET	PDT	_	13	det:predet	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	restaurants	restaurant	NOUN	NNS	Number=Plur	9	obl	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	country	country	NOUN	NN	Number=Sing	13	nmod	_	_
+17	exactly	exactly	ADV	RB	_	9	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

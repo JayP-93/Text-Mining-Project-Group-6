@@ -1,0 +1,278 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_027_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I'm smoker, but I think a Smoke in a restaurant that is very bad behavior
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	'm	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	smoker	smoker	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	but	but	CCONJ	CC	_	7	cc	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	Smoke	smoke	NOUN	NN	Number=Sing	7	obj	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	restaurant	restaurant	NOUN	NN	Number=Sing	9	nmod	_	_
+13	that	that	PRON	WDT	PronType=Rel	17	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	very	very	ADV	RB	_	17	advmod	_	_
+16	bad	bad	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	behavior	behavior	NOUN	NN	Number=Sing	12	acl:relcl	_	_
+
+# sent_id = 2
+# text = My opinion is an on Smoking in restaurants should be banned You smoke a bad effect on the human body to know about acting is that?
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	opinion	opinion	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	on	on	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	Smoking	smoking	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	restaurants	restaurant	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	should	should	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	_	_
+11	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+12	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+13	smoke	smoke	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	bad	bad	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	effect	effect	NOUN	NN	Number=Sing	13	obj	_	_
+17	on	on	ADP	IN	_	20	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	human	human	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	body	body	NOUN	NN	Number=Sing	16	nmod	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	know	know	VERB	VB	VerbForm=Inf	13	acl	_	_
+23	about	about	SCONJ	IN	_	24	mark	_	_
+24	acting	act	VERB	VBG	VerbForm=Ger	22	advcl	_	_
+25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+26	that	that	PRON	DT	Number=Sing|PronType=Dem	24	obj	_	SpaceAfter=No
+27	?	?	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 3
+# text = That is a Cigarette smoking approximately 4, 000 species of toxic chemical ingredients in cigarettes are inhaled into the body Therefore, smoking's bad for Health.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	Cigarette	cigarette	NOUN	NN	Number=Sing	18	nsubj:pass	_	_
+5	smoking	smoke	VERB	VBG	VerbForm=Ger	4	acl	_	_
+6	approximately	approximately	ADV	RB	_	7	advmod	_	_
+7	4	4	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	000	000	NUM	CD	NumType=Card	10	nummod	_	_
+10	species	species	NOUN	NNS	Number=Plur	5	obj	_	_
+11	of	of	ADP	IN	_	14	case	_	_
+12	toxic	toxic	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	chemical	chemical	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	ingredients	ingredient	NOUN	NNS	Number=Plur	10	nmod	_	_
+15	in	in	ADP	IN	_	16	case	_	_
+16	cigarettes	cigarette	NOUN	NNS	Number=Plur	14	nmod	_	_
+17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+18	inhaled	inhal	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+19	into	into	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	body	body	NOUN	NN	Number=Sing	18	obl	_	_
+22	Therefore	therefore	ADV	RB	_	18	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	24	punct	_	_
+24	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	26	nmod:poss	_	SpaceAfter=No
+25	's	's	PART	POS	_	24	case	_	_
+26	bad	bad	NOUN	NN	Number=Sing	18	xcomp	_	_
+27	for	for	ADP	IN	_	28	case	_	_
+28	Health	Health	PROPN	NNP	Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 4
+# text = And densely populated places such as restaurants, especially when with the other people, smoke the Cigarette is a very bad behavior.
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	densely	densely	ADV	RB	_	3	advmod	_	_
+3	populated	populate	VERB	VBN	Tense=Past|VerbForm=Part	4	amod	_	_
+4	places	place	NOUN	NNS	Number=Plur	0	root	_	_
+5	such	such	ADJ	JJ	Degree=Pos	7	case	_	_
+6	as	as	ADP	IN	_	5	fixed	_	_
+7	restaurants	restaurant	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	23	punct	_	_
+9	especially	especially	ADV	RB	_	23	advmod	_	_
+10	when	when	ADV	WRB	PronType=Int	16	mark	_	_
+11	with	with	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	other	other	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	people	people	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	_	_
+16	smoke	smoke	VERB	VB	VerbForm=Inf	23	advcl	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	Cigarette	cigarette	NOUN	NN	Number=Sing	23	nsubj	_	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+21	very	very	ADV	RB	_	22	advmod	_	_
+22	bad	bad	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	behavior	behavior	NOUN	NN	Number=Sing	7	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Because Damage to other people when I was smoking.
+1	Because	because	SCONJ	IN	_	2	mark	_	_
+2	Damage	damage	NOUN	NN	Number=Sing	0	root	_	_
+3	to	to	ADP	IN	_	5	case	_	_
+4	other	other	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	people	people	NOUN	NNS	Number=Plur	2	nmod	_	_
+6	when	when	ADV	WRB	PronType=Int	9	mark	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = There are two reasons why I think forbid smoking in the restaurants.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	two	two	NUM	CD	NumType=Card	4	nummod	_	_
+4	reasons	reason	NOUN	NNS	Number=Plur	2	nsubj	_	_
+5	why	why	ADV	WRB	PronType=Int	7	advmod	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+8	forbid	forbid	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	7	obj	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	restaurants	restaurant	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = First, someone was smoked in the restaurant and then anybody eat something this place, Cigarette Smoke inhaled into the body very fast.
+1	First	first	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	someone	someone	PRON	NN	Number=Sing	5	nsubj:pass	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	smoked	smoke	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	restaurant	restaurant	NOUN	NN	Number=Sing	5	obl	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	then	then	ADV	RB	PronType=Dem	12	advmod	_	_
+11	anybody	anybody	PRON	NN	Number=Sing	12	nsubj	_	_
+12	eat	eat	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	_
+13	something	something	PRON	NN	Number=Sing	15	compound	_	_
+14	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	place	place	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	Cigarette	cigarette	PROPN	NNP	Number=Sing	18	compound	_	_
+18	Smoke	smoke	PROPN	NNP	Number=Sing	15	appos	_	_
+19	inhaled	inhal	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+20	into	into	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	body	body	NOUN	NN	Number=Sing	19	obl	_	_
+23	very	very	ADV	RB	_	24	advmod	_	_
+24	fast	fast	ADV	RB	Degree=Pos	19	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = It's a seem to be a hurt on your body that can be not cured Second, Smoking the Cigarette make a dirty place.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	seem	seem	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	8	mark	_	_
+6	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	hurt	hurt	NOUN	NN	Number=Sing	4	xcomp	_	_
+9	on	on	ADP	IN	_	11	case	_	_
+10	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	body	body	NOUN	NN	Number=Sing	8	nmod	_	_
+12	that	that	PRON	WDT	PronType=Rel	16	nsubj:pass	_	_
+13	can	can	AUX	MD	VerbForm=Fin	16	aux	_	_
+14	be	be	AUX	VB	VerbForm=Inf	16	aux:pass	_	_
+15	not	not	PART	RB	_	16	advmod	_	_
+16	cured	cure	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl:relcl	_	_
+17	Second	second	ADV	RB	_	16	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	4	punct	_	_
+19	Smoking	smoke	VERB	VBG	VerbForm=Ger	22	csubj	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	Cigarette	cigarette	NOUN	NN	Number=Sing	19	obj	_	_
+22	make	make	VERB	VB	Mood=Imp|VerbForm=Fin	4	parataxis	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+24	dirty	dirty	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	place	place	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = The Cigarette make Ash, dirty air and sometime bring the Fire when was Smoked Cigarette.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	Cigarette	cigarette	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+4	Ash	Ash	PROPN	NNP	Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	dirty	dirty	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	air	air	NOUN	NN	Number=Sing	4	conj	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	sometime	sometime	ADV	RB	_	10	advmod	_	_
+10	bring	bring	VERB	VB	VerbForm=Inf	3	conj	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	Fire	fire	PROPN	NNP	Number=Sing	10	obj	_	_
+13	when	when	ADV	WRB	PronType=Int	15	mark	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	Smoked	smoke	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	_	_
+16	Cigarette	cigarette	PROPN	NNP	Number=Sing	15	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = It is badly thing in the restaurants, because Cleanliness is vital for a restaurant.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	badly	badly	ADV	RB	_	4	advmod	_	_
+4	thing	thing	NOUN	NN	Number=Sing	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	restaurants	restaurant	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	because	because	SCONJ	IN	_	12	mark	_	_
+10	Cleanliness	Cleanliness	PROPN	NNP	Number=Sing	12	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	vital	vital	ADJ	JJ	Degree=Pos	4	advcl	_	_
+13	for	for	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	restaurant	restaurant	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = In conclusion, it is a very harmful to health, dirty a restaurant and damage to other people.
+1	In	in	ADP	IN	_	2	case	_	_
+2	conclusion	conclusion	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	very	very	ADV	RB	_	8	advmod	_	_
+8	harmful	harmful	ADJ	JJ	Degree=Pos	0	root	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	health	health	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	dirty	dirty	NUM	CD	NumType=Card	14	nummod	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	restaurant	restaurant	NOUN	NN	Number=Sing	8	advcl	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	damage	damage	NOUN	NN	Number=Sing	14	conj	_	_
+17	to	to	ADP	IN	_	19	case	_	_
+18	other	other	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	people	people	NOUN	NNS	Number=Plur	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 12
+# text = For that reason, I think that smoking in the restaurants has a banned by government
+1	For	for	ADP	IN	_	3	case	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	reason	reason	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	that	that	SCONJ	IN	_	12	mark	_	_
+8	smoking	smoke	VERB	VBG	VerbForm=Ger	12	csubj	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	restaurants	restaurant	NOUN	NNS	Number=Plur	8	obl	_	_
+12	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	banned	banned	VERB	VBN	Tense=Past|VerbForm=Part	12	xcomp	_	_
+15	by	by	ADP	IN	_	16	case	_	_
+16	government	government	NOUN	NN	Number=Sing	14	obl	_	SpacesAfter=\n
+

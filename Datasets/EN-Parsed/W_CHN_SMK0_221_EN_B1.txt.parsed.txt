@@ -1,0 +1,336 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_CHN_SMK0_221_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿There is a theory that nearly every one knows, but millions of people ignore it.
+1	﻿There	﻿There	ADV	WRB	PronType=Int	0	root	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	theory	theory	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	that	that	PRON	WDT	PronType=Rel	9	obj	_	_
+6	nearly	nearly	ADV	RB	_	8	advmod	_	_
+7	every	every	DET	DT	_	8	det	_	_
+8	one	one	NOUN	NN	Number=Sing	9	nsubj	_	_
+9	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	15	punct	_	_
+11	but	but	CCONJ	CC	_	15	cc	_	_
+12	millions	million	NOUN	NNS	Number=Plur	15	nsubj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	people	people	NOUN	NNS	Number=Plur	12	nmod	_	_
+15	ignore	ignore	VERB	VB	VerbForm=Inf	1	conj	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = That is smoking does harm to one's health.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+5	harm	harm	NOUN	NN	Number=Sing	4	obj	_	_
+6	to	to	ADP	IN	_	9	case	_	_
+7	one	one	NUM	CD	NumType=Card	9	nmod:poss	_	SpaceAfter=No
+8	's	's	PART	POS	_	7	case	_	_
+9	health	health	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Luckily, more and more people realized the harm of smoking.
+1	Luckily	luckily	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	more	more	ADJ	JJR	Degree=Cmp	6	amod	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	more	more	ADJ	JJR	Degree=Cmp	3	conj	_	_
+6	people	people	NOUN	NNS	Number=Plur	7	nsubj	_	_
+7	realized	realize	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	harm	harm	NOUN	NN	Number=Sing	7	obj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	smoking	smoking	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = Recently, a ban was carried out that smoking is banned at all public place in the country.
+1	Recently	recently	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	ban	ban	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	carried	carry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	out	out	ADP	RP	_	6	compound:prt	_	_
+8	that	that	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	conj	_	_
+12	at	at	ADP	IN	_	15	case	_	_
+13	all	all	DET	DT	_	15	det	_	_
+14	public	public	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	place	place	NOUN	NN	Number=Sing	11	obl	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	country	country	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = I totally agree with this ban.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	totally	totally	ADV	RB	_	3	advmod	_	_
+3	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	ban	ban	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Following are some reasons.
+1	Following	follow	VERB	VBG	VerbForm=Ger	2	case	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	some	some	DET	DT	_	4	det	_	_
+4	reasons	reason	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = First and the most important one, many people know, smoking not only damages the health of the smoker, but also attacks the people around the smoker.
+1	First	first	ADV	RB	_	10	advmod	_	_
+2	and	and	CCONJ	CC	_	6	cc	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+4	most	most	ADV	RBS	_	5	advmod	_	_
+5	important	important	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	one	one	NOUN	NN	Number=Sing	1	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	many	many	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	people	people	NOUN	NNS	Number=Plur	10	nsubj	_	_
+10	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	smoking	smoke	VERB	VBG	VerbForm=Ger	15	csubj	_	_
+13	not	not	ADV	RB	_	15	advmod	_	_
+14	only	only	ADV	RB	_	15	advmod	_	_
+15	damages	damage	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	health	health	NOUN	NN	Number=Sing	15	obj	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	smoker	smoker	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	24	punct	_	_
+22	but	but	CCONJ	CC	_	24	cc	_	_
+23	also	also	ADV	RB	_	24	advmod	_	_
+24	attacks	attack	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	people	people	NOUN	NNS	Number=Plur	24	obj	_	_
+27	around	around	ADP	IN	_	29	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	smoker	smoker	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 8
+# text = Even some researches show that the fog others get in does more harm than the fog smoker get in.
+1	Even	even	ADV	RB	_	2	advmod	_	_
+2	some	some	DET	DT	_	3	det	_	_
+3	researches	research	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	show	show	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	IN	_	9	mark	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	fog	fog	NOUN	NN	Number=Sing	8	compound	_	_
+8	others	other	NOUN	NNS	Number=Plur	9	nsubj	_	_
+9	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+10	in	in	ADP	IN	_	13	case	_	_
+11	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	more	more	ADV	RBR	_	13	advmod	_	_
+13	harm	harm	ADJ	JJ	Degree=Pos	9	xcomp	_	_
+14	than	than	ADP	IN	_	17	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	fog	fog	NOUN	NN	Number=Sing	17	compound	_	_
+17	smoker	smoker	NOUN	NN	Number=Sing	18	nsubj	_	_
+18	get	get	VERB	VB	VerbForm=Inf	13	ccomp	_	_
+19	in	in	ADV	RB	_	18	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = So, it's necessary to carry out the ban.
+1	So	so	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	necessary	necessary	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	carry	carry	VERB	VB	VerbForm=Inf	5	csubj	_	_
+8	out	out	ADP	RP	_	7	compound:prt	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	ban	ban	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 10
+# text = It obviously benefits nearly all the people.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	obviously	obviously	ADV	RB	_	3	advmod	_	_
+3	benefits	benefit	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	nearly	nearly	ADV	RB	_	7	advmod	_	_
+5	all	all	DET	PDT	_	7	det:predet	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	people	people	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = Secondly, the fog makes the restaurant smelly.
+1	Secondly	secondly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	fog	fog	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	restaurant	restaurant	NOUN	NN	Number=Sing	5	obj	_	_
+8	smelly	smelly	ADV	RB	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 12
+# text = Especially in summer and winter, air conditioner is on, and the windows and doors are always closed, then the air in the restaurants will be very bad.
+1	Especially	especially	ADV	RB	_	3	advmod	_	_
+2	in	in	ADP	IN	_	3	case	_	_
+3	summer	summer	NOUN	NN	Number=Sing	10	obl	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	winter	winter	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	air	air	NOUN	NN	Number=Sing	8	compound	_	_
+8	conditioner	conditioner	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	on	on	ADP	IN	_	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	19	punct	_	_
+12	and	and	CCONJ	CC	_	19	cc	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	windows	window	NOUN	NNS	Number=Plur	19	nsubj:pass	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	doors	door	NOUN	NNS	Number=Plur	14	conj	_	_
+17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+18	always	always	ADV	RB	_	19	advmod	_	_
+19	closed	close	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	conj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	30	punct	_	_
+21	then	then	ADV	RB	PronType=Dem	30	advmod	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	air	air	NOUN	NN	Number=Sing	30	nsubj	_	_
+24	in	in	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	restaurants	restaurant	NOUN	NNS	Number=Plur	23	nmod	_	_
+27	will	will	AUX	MD	VerbForm=Fin	30	aux	_	_
+28	be	be	AUX	VB	VerbForm=Inf	30	cop	_	_
+29	very	very	ADV	RB	_	30	advmod	_	_
+30	bad	bad	ADJ	JJ	Degree=Pos	10	parataxis	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 13
+# text = For I, I usually feel not like eating much food in that kind of environment.
+1	For	for	ADP	IN	_	2	case	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	usually	usually	ADV	RB	_	6	advmod	_	_
+6	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	not	not	ADV	RB	_	9	advmod	_	_
+8	like	like	SCONJ	IN	_	9	mark	_	_
+9	eating	eat	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+10	much	much	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	food	food	NOUN	NN	Number=Sing	9	obj	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	that	that	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+14	kind	kind	NOUN	NN	Number=Sing	9	obl	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	environment	environment	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 14
+# text = For example, once, I went to a restaurant to have lunch.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	once	once	ADV	RB	NumType=Mult	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	restaurant	restaurant	NOUN	NN	Number=Sing	7	obl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	have	have	VERB	VB	VerbForm=Inf	10	acl	_	_
+13	lunch	lunch	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 15
+# text = The food there was delicious so there will were always many people.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	food	food	NOUN	NN	Number=Sing	13	nsubj	_	_
+3	there	there	PRON	EX	_	4	expl	_	_
+4	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+5	delicious	delicious	ADJ	JJ	Degree=Pos	4	nsubj	_	_
+6	so	so	ADV	RB	_	9	advmod	_	_
+7	there	there	PRON	EX	_	9	expl	_	_
+8	will	will	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	were	be	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+10	always	always	ADV	RB	_	11	advmod	_	_
+11	many	many	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	people	people	NOUN	NNS	Number=Plur	9	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 16
+# text = However, it didn't matter, the problem was that there were many people smoking just besides me!
+1	However	however	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	n't	not	PART	RB	_	6	advmod	_	_
+6	matter	matter	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	problem	problem	NOUN	NN	Number=Sing	10	nsubj	_	_
+10	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+11	that	that	SCONJ	IN	_	13	mark	_	_
+12	there	there	PRON	EX	_	13	expl	_	_
+13	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	ccomp	_	_
+14	many	many	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	people	people	NOUN	NNS	Number=Plur	13	nsubj	_	_
+16	smoking	smoke	VERB	VBG	VerbForm=Ger	15	acl	_	_
+17	just	just	ADV	RB	_	19	advmod	_	_
+18	besides	besides	ADP	IN	_	19	case	_	_
+19	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obl	_	SpaceAfter=No
+20	!	!	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 17
+# text = That really bothered me a lot, I even didn't get full that day.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	really	really	ADV	RB	_	3	advmod	_	_
+3	bothered	bother	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	lot	lot	NOUN	NN	Number=Sing	3	obl:npmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+9	even	even	ADV	RB	_	12	advmod	_	_
+10	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	SpaceAfter=No
+11	n't	not	PART	RB	_	12	advmod	_	_
+12	get	get	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+13	full	full	ADJ	JJ	Degree=Pos	12	xcomp	_	_
+14	that	that	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	day	day	NOUN	NN	Number=Sing	13	obl:tmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 18
+# text = As far as I'm concerned, every one should support the ban, for it brings benefits to everybody.
+1	As	as	ADV	RB	_	2	advmod	_	_
+2	far	far	ADV	RB	Degree=Pos	11	advmod	_	_
+3	as	as	SCONJ	IN	_	6	mark	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
+5	'm	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	concerned	concerned	ADJ	JJ	Degree=Pos	2	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	every	every	DET	DT	_	9	det	_	_
+9	one	one	NOUN	NN	Number=Sing	11	nsubj	_	_
+10	should	should	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	support	support	VERB	VB	VerbForm=Inf	0	root	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	ban	ban	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	11	punct	_	_
+15	for	for	SCONJ	IN	_	17	mark	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	brings	bring	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+18	benefits	benefit	NOUN	NNS	Number=Plur	17	obj	_	_
+19	to	to	ADP	IN	_	20	case	_	_
+20	everybody	everybody	PRON	NN	Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n
+

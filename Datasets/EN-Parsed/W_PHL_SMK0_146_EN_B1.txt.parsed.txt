@@ -1,0 +1,283 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PHL_SMK0_146_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking must be banned in restaurant because smoking in restaurant can lose the appetite of people in the cause of the air quality being inhaled.
+1	﻿Smoking	﻿Smoking	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+2	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	_	_
+4	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	restaurant	restaurant	NOUN	NN	Number=Sing	4	obl	_	_
+7	because	because	SCONJ	IN	_	8	mark	_	_
+8	smoking	smoke	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	restaurant	restaurant	NOUN	NN	Number=Sing	8	obl	_	_
+11	can	can	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	lose	lose	VERB	VB	VerbForm=Inf	4	conj	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	appetite	appetite	NOUN	NN	Number=Sing	12	obj	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	people	people	NOUN	NNS	Number=Plur	14	nmod	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	cause	cause	NOUN	NN	Number=Sing	12	obl	_	_
+20	of	of	ADP	IN	_	23	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	air	air	NOUN	NN	Number=Sing	23	compound	_	_
+23	quality	quality	NOUN	NN	Number=Sing	19	nmod	_	_
+24	being	be	AUX	VBG	VerbForm=Ger	25	aux:pass	_	_
+25	inhaled	inhal	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	acl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Smoking can affect our health.
+1	Smoking	smoke	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	affect	affect	VERB	VB	VerbForm=Inf	0	root	_	_
+4	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	health	health	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = This may lead to lung cancer, asthma, bronchitis and heart disease.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	may	may	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	lead	lead	VERB	VB	VerbForm=Inf	0	root	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	lung	ling	NOUN	NN	Number=Sing	6	compound	_	_
+6	cancer	cancer	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	asthma	asthma	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	bronchitis	bronchitis	NOUN	NNS	Number=Plur	6	conj	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	heart	heart	NOUN	NN	Number=Sing	13	compound	_	_
+13	disease	disease	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = It is ironic to hear that every smoker is aware with the effects of smoking but they still continue this bad habit.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	ironic	ironic	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	hear	hear	VERB	VB	VerbForm=Inf	3	csubj	_	_
+6	that	that	SCONJ	IN	_	10	mark	_	_
+7	every	every	DET	DT	_	8	det	_	_
+8	smoker	smoker	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	aware	aware	ADJ	JJ	Degree=Pos	5	ccomp	_	_
+11	with	with	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	effects	effect	NOUN	NNS	Number=Plur	10	obl	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	smoking	smoking	NOUN	NN	Number=Sing	13	nmod	_	_
+16	but	but	CCONJ	CC	_	19	cc	_	_
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+18	still	still	ADV	RB	_	19	advmod	_	_
+19	continue	continue	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+20	this	this	DET	DT	Number=Sing|PronType=Dem	22	det	_	_
+21	bad	bad	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	habit	habit	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Once, my family and I were in a restaurant and the people sitting beside our table were smoking.
+1	Once	once	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	family	family	NOUN	NN	Number=Sing	1	conj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	conj	_	_
+7	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	cop	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	restaurant	restaurant	NOUN	NN	Number=Sing	0	root	_	_
+11	and	and	CCONJ	CC	_	19	cc	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	people	people	NOUN	NNS	Number=Plur	19	nsubj	_	_
+14	sitting	sit	VERB	VBG	VerbForm=Ger	13	acl	_	_
+15	beside	beside	ADP	IN	_	17	case	_	_
+16	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	table	table	NOUN	NN	Number=Sing	14	obl	_	_
+18	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	aux	_	_
+19	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	10	conj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 6
+# text = There was an air-conditioner and the smoke was blown to us.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	air-	air-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	conditioner	conditioner	NOUN	NN	Number=Sing	2	nsubj	_	_
+6	and	and	CCONJ	CC	_	10	cc	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	smoke	smoke	NOUN	NN	Number=Sing	10	nsubj:pass	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	blown	blow	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	_
+11	to	to	ADP	IN	_	12	case	_	_
+12	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = We don't mind it, we just covered our nose but the other people sitting next to us were very angry.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	mind	mind	VERB	VB	VerbForm=Inf	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+8	just	just	ADV	RB	_	9	advmod	_	_
+9	covered	cover	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+10	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	nose	nose	NOUN	NN	Number=Sing	9	obj	_	_
+12	but	but	CCONJ	CC	_	22	cc	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	other	other	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	people	people	NOUN	NNS	Number=Plur	22	nsubj	_	_
+16	sitting	sit	VERB	VBG	VerbForm=Ger	15	acl	_	_
+17	next	next	ADV	RB	_	16	advmod	_	_
+18	to	to	ADP	IN	_	19	case	_	_
+19	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	17	obl	_	_
+20	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	cop	_	_
+21	very	very	ADV	RB	_	22	advmod	_	_
+22	angry	angry	ADJ	JJ	Degree=Pos	9	conj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = We heard that he told his son: Smoking is very disgusting.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	5	mark	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	son	son	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	:	:	PUNCT	:	_	5	punct	_	_
+9	Smoking	smoking	VERB	VBG	VerbForm=Ger	12	csubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	very	very	ADV	RB	_	12	advmod	_	_
+12	disgusting	disgusting	ADJ	JJ	Degree=Pos	5	parataxis	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = It may burn your lungs and I don't want to see you smoking when you grow up.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	may	may	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	burn	burn	VERB	VB	VerbForm=Inf	0	root	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	lungs	lung	NOUN	NNS	Number=Plur	3	obj	_	_
+6	and	and	CCONJ	CC	_	10	cc	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
+9	n't	not	PART	RB	_	10	advmod	_	_
+10	want	want	VERB	VB	VerbForm=Inf	3	conj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	see	see	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	14	nsubj	_	_
+14	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	12	ccomp	_	_
+15	when	when	ADV	WRB	PronType=Int	17	mark	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+17	grow	grow	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+18	up	up	ADP	RP	_	17	compound:prt	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = After a while, they didn't even order something and they walked out from the restaurant.
+1	After	after	ADP	IN	_	3	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	while	while	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	9	punct	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+6	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	SpaceAfter=No
+7	n't	not	PART	RB	_	9	advmod	_	_
+8	even	even	ADV	RB	_	9	advmod	_	_
+9	order	order	VERB	VB	VerbForm=Inf	0	root	_	_
+10	something	something	PRON	NN	Number=Sing	9	obj	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+13	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	_
+14	out	out	ADV	RB	_	13	advmod	_	_
+15	from	from	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	restaurant	restaurant	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 11
+# text = See how smoking can turn down and lose customers from a restaurant?
+1	See	see	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	how	how	ADV	WRB	PronType=Int	5	advmod	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	turn	turn	VERB	VB	VerbForm=Inf	1	ccomp	_	_
+6	down	down	ADP	RP	_	5	compound:prt	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	lose	lose	VERB	VB	VerbForm=Inf	5	conj	_	_
+9	customers	customer	NOUN	NNS	Number=Plur	8	obj	_	_
+10	from	from	ADP	IN	_	12	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	restaurant	restaurant	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+13	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 12
+# text = Even to us, we want to walk away from the restaurant but we already ordered our food before those smokers arrived.
+1	Even	even	ADV	RB	_	3	advmod	_	_
+2	to	to	ADP	IN	_	3	case	_	_
+3	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+6	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	walk	walk	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	away	away	ADV	RB	_	8	advmod	_	_
+10	from	from	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	restaurant	restaurant	NOUN	NN	Number=Sing	9	obl	_	_
+13	but	but	CCONJ	CC	_	16	cc	_	_
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
+15	already	already	ADV	RB	_	16	advmod	_	_
+16	ordered	order	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+17	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	food	food	NOUN	NN	Number=Sing	16	obj	_	_
+19	before	before	SCONJ	IN	_	22	mark	_	_
+20	those	those	DET	DT	Number=Plur|PronType=Dem	21	det	_	_
+21	smokers	smoker	NOUN	NNS	Number=Plur	22	nsubj	_	_
+22	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 13
+# text = We were just to try a new restaurant that time.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	just	just	ADV	RB	_	5	advmod	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	try	try	VERB	VB	VerbForm=Inf	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	new	new	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	restaurant	restaurant	NOUN	NN	Number=Sing	5	obj	_	_
+9	that	that	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	time	time	NOUN	NN	Number=Sing	8	nmod:npmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 14
+# text = If we just knew that they'll arrive, we might not eat in that restaurant.
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	just	just	ADV	RB	_	4	advmod	_	_
+4	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
+7	'll	will	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	arrive	arrive	VERB	VB	VerbForm=Inf	4	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+11	might	might	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	not	not	PART	RB	_	13	advmod	_	_
+13	eat	eat	VERB	VB	VerbForm=Inf	0	root	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	that	that	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+16	restaurant	restaurant	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\n
+

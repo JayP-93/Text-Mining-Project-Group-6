@@ -1,0 +1,253 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_THA_SMK0_144_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking Is not good,
+1	﻿Smoking	﻿Smoking	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	good	good	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+
+# sent_id = 2
+# text = It can produce smoke and smoke is bad for smokers and people around smokers.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	produce	produce	VERB	VB	VerbForm=Inf	0	root	_	_
+4	smoke	smoke	NOUN	NN	Number=Sing	8	nsubj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	smoke	smoke	NOUN	NN	Number=Sing	4	conj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	bad	bad	ADJ	JJ	Degree=Pos	3	ccomp	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	smokers	smoker	NOUN	NNS	Number=Plur	8	obl	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	people	people	NOUN	NNS	Number=Plur	10	conj	_	_
+13	around	around	ADP	IN	_	14	case	_	_
+14	smokers	smoker	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = But I don't fully accept to have completely ban smoking at all restaurants in the country, I think just have smoking zone in restaurants and have a good ventilator in that zone is enough.
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+4	n't	not	PART	RB	_	6	advmod	_	_
+5	fully	fully	ADV	RB	_	6	advmod	_	_
+6	accept	accept	VERB	VB	VerbForm=Inf	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	have	have	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	completely	completely	ADV	RB	_	10	advmod	_	_
+10	ban	ban	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	smoking	smoking	NOUN	NN	Number=Sing	8	obj	_	_
+12	at	at	ADP	IN	_	14	case	_	_
+13	all	all	DET	DT	_	14	det	_	_
+14	restaurants	restaurant	NOUN	NNS	Number=Plur	11	nmod	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	country	country	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	6	punct	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+20	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+21	just	just	ADV	RB	_	22	advmod	_	_
+22	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+23	smoking	smoke	NOUN	NN	Number=Sing	24	compound	_	_
+24	zone	zone	NOUN	NN	Number=Sing	22	obj	_	_
+25	in	in	ADP	IN	_	26	case	_	_
+26	restaurants	restaurant	NOUN	NNS	Number=Plur	24	nmod	_	_
+27	and	and	CCONJ	CC	_	28	cc	_	_
+28	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	conj	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+30	good	good	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	ventilator	ventilator	NOUN	NN	Number=Sing	36	nsubj	_	_
+32	in	in	ADP	IN	_	34	case	_	_
+33	that	that	DET	DT	Number=Sing|PronType=Dem	34	det	_	_
+34	zone	zone	NOUN	NN	Number=Sing	31	nmod	_	_
+35	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
+36	enough	enough	ADJ	JJ	Degree=Pos	28	ccomp	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = It wouldn't good for restaurant,
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	good	good	ADJ	JJ	Degree=Pos	0	root	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	restaurant	restaurant	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+
+# sent_id = 5
+# text = If have completely ban smoking at restaurant because If smokers need to smoke when eating but restaurant has ban smoking, smokers would go back home, so restaurants would lost benefits.
+1	If	if	SCONJ	IN	_	5	mark	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	completely	completely	ADV	RB	_	5	advmod	_	_
+4	ban	ban	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	smoking	smoke	NOUN	NN	Number=Sing	0	root	_	_
+6	at	at	ADP	IN	_	7	case	_	_
+7	restaurant	restaurant	NOUN	NN	Number=Sing	5	nmod	_	_
+8	because	because	SCONJ	IN	_	11	mark	_	_
+9	If	if	SCONJ	IN	_	11	mark	_	_
+10	smokers	smoker	NOUN	NNS	Number=Plur	11	nsubj	_	_
+11	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	smoke	smoke	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+14	when	when	ADV	WRB	PronType=Int	15	mark	_	_
+15	eating	eat	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+16	but	but	CCONJ	CC	_	18	cc	_	_
+17	restaurant	restaurant	NOUN	NN	Number=Sing	18	nsubj	_	_
+18	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+19	ban	ban	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	smoking	smoking	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	24	punct	_	_
+22	smokers	smoker	NOUN	NNS	Number=Plur	24	nsubj	_	_
+23	would	would	AUX	MD	VerbForm=Fin	24	aux	_	_
+24	go	go	VERB	VB	VerbForm=Inf	20	conj	_	_
+25	back	back	ADV	RB	_	26	advmod	_	_
+26	home	home	ADV	RB	_	24	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	31	punct	_	_
+28	so	so	ADV	RB	_	31	advmod	_	_
+29	restaurants	restaurant	NOUN	NNS	Number=Plur	31	nsubj	_	_
+30	would	would	AUX	MD	VerbForm=Fin	31	aux	_	_
+31	lost	lose	VERB	VB	VerbForm=Inf	5	conj	_	_
+32	benefits	benefit	NOUN	NNS	Number=Plur	31	obj	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = If restaurant allows smoking but doesn't have smoking zone, It would vary bad for restaurants and customers because smoke would take customers can't stand its smell then they wouldn't eat at that restaurant again, so restaurants would lost a lot of benefits.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	restaurant	restaurant	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	allows	allow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	3	obj	_	_
+5	but	but	CCONJ	CC	_	8	cc	_	_
+6	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
+7	n't	not	PART	RB	_	8	advmod	_	_
+8	have	have	VERB	VB	VerbForm=Inf	3	conj	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	10	compound	_	_
+10	zone	zone	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	would	would	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	vary	vary	VERB	VB	VerbForm=Inf	0	root	_	_
+15	bad	bad	ADJ	JJ	Degree=Pos	14	xcomp	_	_
+16	for	for	ADP	IN	_	17	case	_	_
+17	restaurants	restaurant	NOUN	NNS	Number=Plur	15	obl	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	customers	customer	NOUN	NNS	Number=Plur	17	conj	_	_
+20	because	because	SCONJ	IN	_	23	mark	_	_
+21	smoke	smoke	NOUN	NN	Number=Sing	23	nsubj	_	_
+22	would	would	AUX	MD	VerbForm=Fin	23	aux	_	_
+23	take	take	VERB	VB	VerbForm=Inf	14	advcl	_	_
+24	customers	customer	NOUN	NNS	Number=Plur	27	nsubj	_	_
+25	ca	can	AUX	MD	VerbForm=Fin	27	aux	_	SpaceAfter=No
+26	n't	not	PART	RB	_	27	advmod	_	_
+27	stand	stand	VERB	VB	VerbForm=Inf	23	ccomp	_	_
+28	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	SpaceAfter=No
+29	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	smell	smell	VERB	VB	VerbForm=Inf	27	ccomp	_	_
+31	then	then	ADV	RB	PronType=Dem	35	advmod	_	_
+32	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	35	nsubj	_	_
+33	would	would	AUX	MD	VerbForm=Fin	35	aux	_	SpaceAfter=No
+34	n't	not	PART	RB	_	35	advmod	_	_
+35	eat	eat	VERB	VB	VerbForm=Inf	30	parataxis	_	_
+36	at	at	ADP	IN	_	38	case	_	_
+37	that	that	DET	DT	Number=Sing|PronType=Dem	38	det	_	_
+38	restaurant	restaurant	NOUN	NN	Number=Sing	35	obl	_	_
+39	again	again	ADV	RB	_	35	advmod	_	SpaceAfter=No
+40	,	,	PUNCT	,	_	30	punct	_	_
+41	so	so	SCONJ	IN	_	44	mark	_	_
+42	restaurants	restaurant	NOUN	NNS	Number=Plur	44	nsubj	_	_
+43	would	would	AUX	MD	VerbForm=Fin	44	aux	_	_
+44	lost	lose	VERB	VB	VerbForm=Inf	30	advcl	_	_
+45	a	a	DET	DT	Definite=Ind|PronType=Art	46	det	_	_
+46	lot	lot	NOUN	NN	Number=Sing	44	obj	_	_
+47	of	of	ADP	IN	_	48	case	_	_
+48	benefits	benefit	NOUN	NNS	Number=Plur	46	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	.	_	30	punct	_	_
+
+# sent_id = 7
+# text = In addition to this, smoke from smoking is bad for everybody's health.
+1	In	in	ADP	IN	_	2	case	_	_
+2	addition	addition	NOUN	NN	Number=Sing	6	obl	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	smoke	smoke	VERB	VB	VerbForm=Inf	0	root	_	_
+7	from	from	ADP	IN	_	8	case	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	10	obl	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	bad	bad	ADJ	JJ	Degree=Pos	6	advcl	_	_
+11	for	for	ADP	IN	_	14	case	_	_
+12	everybody	everybody	PRON	NN	Number=Sing	14	nmod:poss	_	SpaceAfter=No
+13	's	's	PART	POS	_	12	case	_	_
+14	health	health	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 8
+# text = So the best way to solve smoke from smoking in restaurants is setting up smoking zone in restaurants and have a good ventilator in that room.
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	best	best	ADJ	JJS	Degree=Sup	4	amod	_	_
+4	way	way	NOUN	NN	Number=Sing	13	nsubj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	solve	solve	VERB	VB	VerbForm=Inf	4	acl	_	_
+7	smoke	smoke	NOUN	NN	Number=Sing	6	obj	_	_
+8	from	from	ADP	IN	_	9	case	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	6	obl	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	restaurants	restaurant	NOUN	NNS	Number=Plur	6	obl	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	setting	set	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+14	up	up	ADP	RP	_	13	compound:prt	_	_
+15	smoking	smoking	NOUN	NN	Number=Sing	16	compound	_	_
+16	zone	zone	NOUN	NN	Number=Sing	13	obj	_	_
+17	in	in	ADP	IN	_	18	case	_	_
+18	restaurants	restaurant	NOUN	NNS	Number=Plur	16	nmod	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	conj	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+22	good	good	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	ventilator	ventilator	NOUN	NN	Number=Sing	20	obj	_	_
+24	in	in	ADP	IN	_	26	case	_	_
+25	that	that	DET	DT	Number=Sing|PronType=Dem	26	det	_	_
+26	room	room	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 9
+# text = This way should take a lot of money at first but it is worth to do it, because it is fair for everybody either smokers, restaurants and other customers that don't smoke.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	way	way	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	lot	lot	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	money	money	NOUN	NN	Number=Sing	6	nmod	_	_
+9	at	at	ADP	IN	_	10	case	_	_
+10	first	first	ADV	RB	_	4	obl	_	_
+11	but	but	CCONJ	CC	_	14	cc	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	worth	worth	ADJ	JJ	Degree=Pos	4	conj	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	do	do	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	14	punct	_	_
+19	because	because	SCONJ	IN	_	22	mark	_	_
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	fair	fair	ADJ	JJ	Degree=Pos	14	advcl	_	_
+23	for	for	ADP	IN	_	24	case	_	_
+24	everybody	everybody	PRON	NN	Number=Sing	22	obl	_	_
+25	either	either	DET	DT	_	26	det	_	_
+26	smokers	smoker	NOUN	NNS	Number=Plur	24	appos	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	28	punct	_	_
+28	restaurants	restaurant	NOUN	NNS	Number=Plur	26	conj	_	_
+29	and	and	CCONJ	CC	_	31	cc	_	_
+30	other	other	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	customers	customer	NOUN	NNS	Number=Plur	26	conj	_	_
+32	that	that	PRON	WDT	PronType=Rel	35	nsubj	_	_
+33	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	35	aux	_	SpaceAfter=No
+34	n't	not	PART	RB	_	35	advmod	_	_
+35	smoke	smoke	VERB	VB	VerbForm=Inf	26	acl:relcl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

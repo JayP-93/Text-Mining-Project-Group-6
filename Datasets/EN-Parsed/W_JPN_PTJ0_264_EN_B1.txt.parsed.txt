@@ -1,0 +1,336 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_JPN_PTJ0_264_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I think that college students should have a part time job.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	7	mark	_	_
+4	college	college	NOUN	NN	Number=Sing	5	compound	_	_
+5	students	student	NOUN	NNS	Number=Plur	7	nsubj	_	_
+6	should	should	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	have	have	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+9	part	part	NOUN	NN	Number=Sing	10	compound	_	_
+10	time	time	NOUN	NN	Number=Sing	11	compound	_	_
+11	job	job	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = There are three reasons for this.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	three	three	NUM	CD	NumType=Card	4	nummod	_	_
+4	reasons	reason	NOUN	NNS	Number=Plur	2	nsubj	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Firstly, we can learn what I cannot learn in a college.
+1	Firstly	firstly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	learn	learn	VERB	VB	VerbForm=Inf	0	root	_	_
+6	what	what	PRON	WP	PronType=Int	10	obj	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	can	can	AUX	MD	VerbForm=Fin	10	aux	_	SpaceAfter=No
+9	not	not	PART	RB	_	10	advmod	_	_
+10	learn	learn	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	college	college	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = For example, it is how to cook and a good manner for customers.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	how	how	ADV	WRB	PronType=Int	8	advmod	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	cook	cook	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	good	good	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	manner	manner	NOUN	NN	Number=Sing	8	obj	_	_
+13	for	for	ADP	IN	_	14	case	_	_
+14	customers	customer	NOUN	NNS	Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = I worked at Fugetu Kazenomati.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	at	at	ADP	IN	_	5	case	_	_
+4	Fugetu	Fugetu	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Kazenomati	Kazenomati	PROPN	NNP	Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Fugetu is okonomiyaki shop.
+1	Fugetu	Fugetu	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	okonomiyaki	okonomiyaki	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	shop	shop	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = I worked for eight months and learned how to use kitchen knife, how to cook okonomiyaki, yakisoba, tonpei etc and basic knowledge of cooking.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	for	for	ADP	IN	_	5	case	_	_
+4	eight	eight	NUM	CD	NumType=Card	5	nummod	_	_
+5	months	month	NOUN	NNS	Number=Plur	2	obl	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	learned	learn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+8	how	how	ADV	WRB	PronType=Int	10	advmod	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	use	use	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+11	kitchen	kitchen	NOUN	NN	Number=Sing	12	compound	_	_
+12	knife	knife	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	10	punct	_	_
+14	how	how	ADV	WRB	PronType=Int	16	advmod	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	cook	cook	VERB	VB	VerbForm=Inf	10	parataxis	_	_
+17	okonomiyaki	okonomiyaki	PRON	PRP	_	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	2	punct	_	_
+19	yakisoba	yakisoba	INTJ	UH	_	21	discourse	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	_
+21	tonpei	tonpei	PRON	PRP	_	2	parataxis	_	_
+22	etc	etc	X	FW	_	21	advmod	_	_
+23	and	and	CCONJ	CC	_	25	cc	_	_
+24	basic	basic	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	knowledge	knowledge	NOUN	NN	Number=Sing	21	conj	_	_
+26	of	of	ADP	IN	_	27	case	_	_
+27	cooking	cooking	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = I began to live in Kobe this year.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	live	live	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	Kobe	Kobe	PROPN	NNP	Number=Sing	4	obl	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	year	year	NOUN	NN	Number=Sing	4	obl:tmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = In fact, the experience I got by a part time job is very useful for my single life.
+1	In	in	ADP	IN	_	2	case	_	_
+2	fact	fact	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	15	punct	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	experience	experience	NOUN	NN	Number=Sing	15	nsubj	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	by	by	ADP	IN	_	12	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+10	part	part	NOUN	NN	Number=Sing	11	compound	_	_
+11	time	time	NOUN	NN	Number=Sing	12	compound	_	_
+12	job	job	NOUN	NN	Number=Sing	7	obl	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	very	very	ADV	RB	_	15	advmod	_	_
+15	useful	useful	ADJ	JJ	Degree=Pos	0	root	_	_
+16	for	for	ADP	IN	_	19	case	_	_
+17	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+18	single	single	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	life	life	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 10
+# text = Secondly, money is necessary for a college student.
+1	Secondly	secondly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	money	money	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	necessary	necessary	ADJ	JJ	Degree=Pos	0	root	_	_
+6	for	for	ADP	IN	_	9	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	college	college	NOUN	NN	Number=Sing	9	compound	_	_
+9	student	student	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 11
+# text = There are many events in college days.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	events	event	NOUN	NNS	Number=Plur	2	nsubj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	college	college	NOUN	NN	Number=Sing	7	compound	_	_
+7	days	day	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = For example, it is trips, parties etc. these events need much money.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	trips	trip	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	parties	party	NOUN	NNS	Number=Plur	12	nsubj	_	_
+9	etc.	etc.	X	FW	_	8	advmod	_	_
+10	these	these	DET	DT	Number=Plur|PronType=Dem	11	det	_	_
+11	events	event	NOUN	NNS	Number=Plur	12	nsubj	_	_
+12	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	much	much	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	money	money	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 13
+# text = In fact, I will go abroad this summer.
+1	In	in	ADP	IN	_	2	case	_	_
+2	fact	fact	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+7	abroad	abroad	ADV	RB	_	6	advmod	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	summer	summer	NOUN	NN	Number=Sing	6	obl:tmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 14
+# text = Of course, there are scholarship and money of my parents.
+1	Of	of	ADV	RB	_	5	advmod	_	_
+2	course	course	ADV	RB	_	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	there	there	PRON	EX	_	5	expl	_	_
+5	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	scholarship	scholarship	NOUN	NN	Number=Sing	5	nsubj	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	money	money	NOUN	NN	Number=Sing	6	conj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	parents	parent	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 15
+# text = But I want to spend money that I earned as much as possible.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	spend	spend	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	money	money	NOUN	NN	Number=Sing	5	obj	_	_
+7	that	that	PRON	WDT	PronType=Rel	9	obj	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	earned	earn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+10	as	as	ADV	RB	_	11	advmod	_	_
+11	much	much	ADJ	JJ	Degree=Pos	9	obj	_	_
+12	as	as	SCONJ	IN	_	13	mark	_	_
+13	possible	possible	ADJ	JJ	Degree=Pos	11	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 16
+# text = Finally, we meet many people at a part time job.
+1	Finally	finally	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	meet	meet	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	many	many	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	people	people	NOUN	NNS	Number=Plur	4	obj	_	_
+7	at	at	ADP	IN	_	11	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+9	part	part	NOUN	NN	Number=Sing	10	compound	_	_
+10	time	time	NOUN	NN	Number=Sing	11	compound	_	_
+11	job	job	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 17
+# text = For example, it is members of the job and customers.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	members	member	NOUN	NNS	Number=Plur	5	nsubj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	job	job	NOUN	NN	Number=Sing	6	nmod	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	customers	customer	NOUN	NNS	Number=Plur	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 18
+# text = Now I work a part time job at a sport club.
+1	Now	now	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	work	work	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+5	part	part	NOUN	NN	Number=Sing	6	compound	_	_
+6	time	time	NOUN	NN	Number=Sing	7	compound	_	_
+7	job	job	NOUN	NN	Number=Sing	3	obj	_	_
+8	at	at	ADP	IN	_	11	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	sport	sport	NOUN	NN	Number=Sing	11	compound	_	_
+11	club	club	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 19
+# text = The sport club has many members.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	sport	sport	NOUN	NN	Number=Sing	3	compound	_	_
+3	club	club	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	many	many	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	members	member	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 20
+# text = I often talk with them.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	often	often	ADV	RB	_	3	advmod	_	_
+3	talk	talk	VERB	VB	VerbForm=Inf	0	root	_	_
+4	with	with	ADP	IN	_	5	case	_	_
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 21
+# text = It is very fun and interesting for me.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	fun	fun	ADJ	JJ	Degree=Pos	0	root	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	interesting	interesting	ADJ	JJ	Degree=Pos	4	conj	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 22
+# text = Of course, we should study hard in a university.
+1	Of	of	ADV	RB	_	6	advmod	_	_
+2	course	course	ADV	RB	_	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+5	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	study	study	VERB	VB	VerbForm=Inf	0	root	_	_
+7	hard	hard	ADV	RB	Degree=Pos	6	advmod	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	university	university	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 23
+# text = But, for these reason I agree with this opinion.
+1	But	but	CCONJ	CC	_	7	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	for	for	ADP	IN	_	5	case	_	_
+4	these	these	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
+5	reason	reason	NOUN	NN	Number=Sing	7	obl	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	with	with	ADP	IN	_	10	case	_	_
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	opinion	opinion	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

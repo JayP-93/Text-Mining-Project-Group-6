@@ -1,0 +1,311 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_054_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I am totally agreed.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	totally	totally	ADV	RB	_	4	advmod	_	_
+4	agreed	agree	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Of course, must do.
+1	Of	of	ADV	RB	_	5	advmod	_	_
+2	course	course	ADV	RB	_	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	must	must	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	do	do	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Restaurants are a lot of people on both sides are a place to eat.
+1	Restaurants	restaurant	NOUN	NNS	Number=Plur	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	lot	lot	NOUN	NN	Number=Sing	12	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	people	people	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	on	on	ADP	IN	_	9	case	_	_
+8	both	both	DET	DT	_	9	det	_	_
+9	sides	side	NOUN	NNS	Number=Plur	6	nmod	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	place	place	NOUN	NN	Number=Sing	0	root	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	eat	eat	VERB	VB	VerbForm=Inf	12	acl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 4
+# text = And all people are not smoker.
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	all	all	DET	DT	_	3	det	_	_
+3	people	people	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	smoker	smoker	ADJ	JJR	Degree=Cmp	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = And the space is shared, and eat place.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	space	space	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	shared	share	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	eat	eat	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	_
+9	place	place	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = Personal reasons that giving others the damage may be undesirable.
+1	Personal	personal	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	reasons	reason	NOUN	NNS	Number=Plur	10	nsubj	_	_
+3	that	that	SCONJ	IN	_	4	mark	_	_
+4	giving	give	VERB	VBG	VerbForm=Ger	2	acl	_	_
+5	others	other	NOUN	NNS	Number=Plur	4	obj	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	damage	damage	NOUN	NN	Number=Sing	4	obj	_	_
+8	may	may	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+10	undesirable	undesirable	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 7
+# text = Smoke is direct smoking as well as passive smoking can damage to others.
+1	Smoke	smoke	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	direct	direct	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	smoking	smoke	NOUN	NN	Number=Sing	0	root	_	_
+5	as	as	ADV	RB	_	11	cc	_	_
+6	well	well	ADV	RB	Degree=Pos	5	fixed	_	_
+7	as	as	ADP	IN	_	5	fixed	_	_
+8	passive	passive	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	11	nsubj	_	_
+10	can	can	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	damage	damage	VERB	VB	VerbForm=Inf	4	conj	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	others	other	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = If there are pregnant, smoke is Will affect mother and, Baby too.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+4	pregnant	pregnant	ADJ	JJ	Degree=Pos	10	amod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	smoke	smoke	NOUN	NN	Number=Sing	10	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	Will	will	ADV	RB	_	10	advmod	_	_
+9	affect	affect	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	mother	mother	NOUN	NN	Number=Sing	3	nsubj	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	Baby	baby	PROPN	NNP	Number=Sing	10	conj	_	_
+14	too	too	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 9
+# text = Besides the damage is who will Compensation?
+1	Besides	besides	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	damage	damage	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	who	who	PRON	WP	PronType=Int	7	nsubj	_	_
+6	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	Compensation	compensation	VERB	VB	VerbForm=Inf	4	ccomp	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 10
+# text = All the people in the restaurant will receive compensation?
+1	All	all	DET	PDT	_	3	det:predet	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	people	people	NOUN	NNS	Number=Plur	8	nsubj	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	restaurant	restaurant	NOUN	NN	Number=Sing	3	nmod	_	_
+7	will	will	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	receive	receive	VERB	VB	VerbForm=Inf	0	root	_	_
+9	compensation	compensation	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 11
+# text = Never do that.
+1	Never	never	ADV	RB	_	2	advmod	_	_
+2	do	do	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = Tobacco is Harmful for human's body and Pollute the atmosphere.
+1	Tobacco	Tobacco	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	Harmful	Harmful	ADJ	JJ	Degree=Pos	0	root	_	_
+4	for	for	ADP	IN	_	7	case	_	_
+5	human	human	ADJ	JJ	Degree=Pos	7	amod	_	SpaceAfter=No
+6	's	's	PART	POS	_	5	case	_	_
+7	body	body	NOUN	NN	Number=Sing	3	obl	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	Pollute	Pollute	VERB	VB	VerbForm=Inf	3	conj	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	atmosphere	atmosphere	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 13
+# text = Also on the street is not an exception.
+1	Also	also	ADV	RB	_	8	advmod	_	_
+2	on	on	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	street	street	NOUN	NN	Number=Sing	1	obl	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	not	not	PART	RB	_	8	advmod	_	_
+7	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	exception	exception	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 14
+# text = This also passing people are affect.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	_
+2	also	also	ADV	RB	_	3	advmod	_	_
+3	passing	pass	VERB	VBG	VerbForm=Ger	4	amod	_	_
+4	people	people	NOUN	NNS	Number=Plur	6	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	affect	affect	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 15
+# text = And Cigarette butt is abandoned on the floor.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	Cigarette	cigarette	NOUN	NN	Number=Sing	3	compound	_	_
+3	butt	butt	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	abandoned	abandon	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	on	on	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	floor	floor	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 16
+# text = This gives rise to environmental pollution.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	rise	rise	NOUN	NN	Number=Sing	2	obj	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	environmental	environmental	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	pollution	pollution	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 17
+# text = According to, smoke has many problems.
+1	According	accord	VERB	VBG	VerbForm=Ger	2	case	_	_
+2	to	to	ADP	IN	_	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	smoke	smoke	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	many	many	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	problems	problem	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 18
+# text = So smoker should use Smoking place, even if inconvenient.
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	smoker	smoker	ADV	RB	_	4	advmod	_	_
+3	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	use	use	VERB	VB	VerbForm=Inf	0	root	_	_
+5	Smoking	smoking	VERB	VBG	VerbForm=Ger	6	amod	_	_
+6	place	place	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	even	even	ADV	RB	_	10	advmod	_	_
+9	if	if	SCONJ	IN	_	10	mark	_	_
+10	inconvenient	inconvenient	ADJ	JJ	Degree=Pos	4	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 19
+# text = And Smokers are considerate of others, Should understand.
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	Smokers	smoker	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	considerate	considerate	ADJ	JJ	Degree=Pos	0	root	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	others	other	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	Should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	understand	understand	VERB	VB	VerbForm=Inf	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 20
+# text = Furthermore, Cigarette smokers also a little bit of this in terms of reducing, I hope that non-smoking movement.
+1	Furthermore	furthermore	ADV	RB	_	18	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	18	punct	_	_
+3	Cigarette	cigarette	PROPN	NNP	Number=Sing	4	compound	_	_
+4	smoker	smoker	NOUN	NN	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+5	s	s	PART	POS	_	4	case	_	_
+6	also	also	ADV	RB	_	9	advmod	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	little	little	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	bit	bit	NOUN	NN	Number=Sing	18	obl	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	this	this	PRON	DT	Number=Sing|PronType=Dem	9	nmod	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	terms	term	NOUN	NNS	Number=Plur	9	nmod	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	reducing	reducing	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	that	that	SCONJ	IN	_	20	mark	_	_
+20	non-smoking	non-smok	VERB	VBG	VerbForm=Ger	18	ccomp	_	_
+21	movement	movement	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 21
+# text = That too without causing harm to others, your health, all of us is a way to stay healthy.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	17	nsubj	_	_
+2	too	too	ADV	RB	_	4	advmod	_	_
+3	without	without	SCONJ	IN	_	4	mark	_	_
+4	causing	cause	VERB	VBG	VerbForm=Ger	1	advcl	_	_
+5	harm	harm	NOUN	NN	Number=Sing	4	obj	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	others	other	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	health	health	NOUN	NN	Number=Sing	1	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	17	punct	_	_
+12	all	all	DET	DT	_	17	nsubj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	12	nmod	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	way	way	NOUN	NN	Number=Sing	21	obl:npmod	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	stay	stay	VERB	VB	VerbForm=Inf	17	acl	_	_
+20	healthy	healthy	ADJ	JJ	Degree=Pos	19	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 22
+# text = Therefore, Keep the social order, Earth can take care of.
+1	Therefore	therefore	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	Keep	keep	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	social	social	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	order	order	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	Earth	Earth	PROPN	NNP	Number=Sing	10	nsubj	_	_
+9	can	can	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	take	take	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+11	care	care	NOUN	NN	Number=Sing	10	obj	_	_
+12	of	of	ADP	IN	_	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 23
+# text = Thank you for read my essay
+1	Thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	_
+3	for	for	ADP	IN	_	4	case	_	_
+4	read	read	NOUN	NN	Number=Sing	1	obl	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	essay	essay	AUX	MD	VerbForm=Fin	1	parataxis	_	SpacesAfter=\n
+

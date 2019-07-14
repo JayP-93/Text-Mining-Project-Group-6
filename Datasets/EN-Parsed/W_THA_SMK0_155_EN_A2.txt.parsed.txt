@@ -1,0 +1,312 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_THA_SMK0_155_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿I do not agree with smoking, because smoking can cause many types of diseases.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	agree	agree	VERB	VB	VerbForm=Inf	0	root	_	_
+5	with	with	ADP	IN	_	6	case	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	because	because	SCONJ	IN	_	11	mark	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	11	nsubj	_	_
+10	can	can	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	cause	cause	VERB	VB	VerbForm=Inf	4	advcl	_	_
+12	many	many	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	types	type	NOUN	NNS	Number=Plur	11	obj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	diseases	disease	NOUN	NNS	Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = When people go to eat at the restaurants, there must be signs for forbidding smoking.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	people	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	eat	eat	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	at	at	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	restaurants	restaurant	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	there	there	PRON	EX	_	12	expl	_	_
+11	must	must	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+13	signs	sign	NOUN	NNS	Number=Plur	12	nsubj	_	_
+14	for	for	SCONJ	IN	_	15	mark	_	_
+15	forbidding	forbid	VERB	VBG	VerbForm=Ger	13	acl	_	_
+16	smoking	smoking	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 3
+# text = People must respect regulations or rules so everyone can live together happily.
+1	People	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	respect	respect	VERB	VB	VerbForm=Inf	0	root	_	_
+4	regulations	regulation	NOUN	NNS	Number=Plur	3	obj	_	_
+5	or	or	CCONJ	CC	_	6	cc	_	_
+6	rules	rule	NOUN	NNS	Number=Plur	4	conj	_	_
+7	so	so	ADV	RB	_	10	advmod	_	_
+8	everyone	everyone	PRON	NN	Number=Sing	10	nsubj	_	_
+9	can	can	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	live	live	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+11	together	together	ADV	RB	_	10	advmod	_	_
+12	happily	happily	ADV	RB	_	10	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = If someone wants to smoke, that one should step outside the restaurants or go to other areas so that the smoking cannot harm others.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	someone	someone	PRON	NN	Number=Sing	3	nsubj	_	_
+3	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	smoke	smoke	VERB	VB	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	that	that	SCONJ	IN	_	10	mark	_	_
+8	one	one	PRON	PRP	_	10	nsubj	_	_
+9	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	step	step	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+11	outside	outside	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	restaurants	restaurant	NOUN	NNS	Number=Plur	10	obl	_	_
+14	or	or	CCONJ	CC	_	15	cc	_	_
+15	go	go	VERB	VB	VerbForm=Inf	10	conj	_	_
+16	to	to	ADP	IN	_	18	case	_	_
+17	other	other	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	areas	area	NOUN	NNS	Number=Plur	15	obl	_	_
+19	so	so	SCONJ	IN	_	25	mark	_	_
+20	that	that	SCONJ	IN	_	19	fixed	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	smoking	smoking	NOUN	NN	Number=Sing	25	nsubj	_	_
+23	can	can	AUX	MD	VerbForm=Fin	25	aux	_	SpaceAfter=No
+24	not	not	PART	RB	_	25	advmod	_	_
+25	harm	harm	VERB	VB	VerbForm=Inf	15	advcl	_	_
+26	others	other	NOUN	NNS	Number=Plur	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = People whoever love just having meals, they will enjoy their dishes and go back home happily.
+1	People	people	NOUN	NNS	Number=Plur	0	root	_	_
+2	whoever	whoever	DET	WDT	PronType=Int	3	det	_	_
+3	love	love	NOUN	NN	Number=Sing	1	obj	_	_
+4	just	just	ADV	RB	_	5	advmod	_	_
+5	having	have	VERB	VBG	VerbForm=Ger	1	acl	_	_
+6	meals	meal	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+9	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	enjoy	enjoy	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+11	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	dishes	dish	NOUN	NNS	Number=Plur	10	obj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	go	go	VERB	VB	VerbForm=Inf	10	conj	_	_
+15	back	back	ADV	RB	_	16	advmod	_	_
+16	home	home	ADV	RB	_	14	advmod	_	_
+17	happily	happily	ADV	RB	_	14	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = I think if people take action into the policy that the restaurants should not allow people to smoke, this problem could be fixed easily.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	if	if	SCONJ	IN	_	5	mark	_	_
+4	people	people	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+6	action	action	NOUN	NN	Number=Sing	5	obj	_	_
+7	into	into	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	policy	policy	NOUN	NN	Number=Sing	5	obl	_	_
+10	that	that	SCONJ	IN	_	15	mark	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	restaurants	restaurant	NOUN	NNS	Number=Plur	15	nsubj	_	_
+13	should	should	AUX	MD	VerbForm=Fin	15	aux	_	_
+14	not	not	PART	RB	_	15	advmod	_	_
+15	allow	allow	VERB	VB	VerbForm=Inf	9	acl	_	_
+16	people	people	NOUN	NNS	Number=Plur	15	obj	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	smoke	smoke	VERB	VB	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	24	punct	_	_
+20	this	this	DET	DT	Number=Sing|PronType=Dem	21	det	_	_
+21	problem	problem	NOUN	NN	Number=Sing	24	nsubj:pass	_	_
+22	could	could	AUX	MD	VerbForm=Fin	24	aux	_	_
+23	be	be	AUX	VB	VerbForm=Inf	24	aux:pass	_	_
+24	fixed	fix	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	_
+25	easily	easily	ADV	RB	_	24	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = The problem is that even they put the signs in front of the restaurants, some of them still allow people to smoke in the restaurants.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	problem	problem	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	even	even	ADV	RB	_	7	advmod	_	_
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+7	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	signs	sign	NOUN	NNS	Number=Plur	7	obj	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	front	front	NOUN	NN	Number=Sing	7	obl	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	restaurants	restaurant	NOUN	NNS	Number=Plur	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	3	punct	_	_
+16	some	some	DET	DT	_	20	nsubj	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	nmod	_	_
+19	still	still	ADV	RB	_	20	advmod	_	_
+20	allow	allow	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+21	people	people	NOUN	NNS	Number=Plur	20	obj	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	smoke	smoke	VERB	VB	VerbForm=Inf	20	xcomp	_	_
+24	in	in	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	restaurants	restaurant	NOUN	NNS	Number=Plur	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = And many customers don't respect and follow the rules.
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	many	many	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	customers	customer	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	n't	not	PART	RB	_	6	advmod	_	_
+6	respect	respect	VERB	VB	VerbForm=Inf	0	root	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	follow	follow	VERB	VB	VerbForm=Inf	6	conj	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	rules	rule	NOUN	NNS	Number=Plur	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 9
+# text = They just do whatever they want without care about other people who don't enjoy with the smoke.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	just	just	ADV	RB	_	3	advmod	_	_
+3	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	whatever	whatever	PRON	WP	PronType=Int	6	obj	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	without	without	ADP	IN	_	8	case	_	_
+8	care	care	NOUN	NN	Number=Sing	6	obj	_	_
+9	about	about	ADP	IN	_	11	case	_	_
+10	other	other	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	people	people	NOUN	NNS	Number=Plur	8	nmod	_	_
+12	who	who	PRON	WP	PronType=Rel	15	nsubj	_	_
+13	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
+14	n't	not	PART	RB	_	15	advmod	_	_
+15	enjoy	enjoy	VERB	VB	VerbForm=Inf	11	acl:relcl	_	_
+16	with	with	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	smoke	smoke	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Many people die in a recently year because of smoking.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	people	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	die	die	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	IN	_	7	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	recently	recently	ADV	RB	_	7	advmod	_	_
+7	year	year	NOUN	NN	Number=Sing	3	obl	_	_
+8	because	because	ADP	IN	_	10	case	_	_
+9	of	of	ADP	IN	_	8	fixed	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = Lives in city is very dangerous, not just only get smoke from cars and factories, but we also get smoke from cigarettes.
+1	Lives	live	NOUN	NNS	Number=Plur	6	nsubj	_	_
+2	in	in	ADP	IN	_	3	case	_	_
+3	city	city	NOUN	NN	Number=Sing	1	nmod	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	dangerous	dangerous	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	not	not	PART	RB	_	11	advmod	_	_
+9	just	just	ADV	RB	_	11	advmod	_	_
+10	only	only	ADV	RB	_	11	advmod	_	_
+11	get	get	VERB	VB	VerbForm=Inf	6	parataxis	_	_
+12	smoke	smoke	NOUN	NN	Number=Sing	11	obj	_	_
+13	from	from	ADP	IN	_	14	case	_	_
+14	cars	car	NOUN	NNS	Number=Plur	11	obl	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	factories	factory	NOUN	NNS	Number=Plur	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	21	punct	_	_
+18	but	but	CCONJ	CC	_	21	cc	_	_
+19	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
+20	also	also	ADV	RB	_	21	advmod	_	_
+21	get	get	VERB	VB	VerbForm=Inf	6	conj	_	_
+22	smoke	smoke	NOUN	NN	Number=Sing	21	obj	_	_
+23	from	from	ADP	IN	_	24	case	_	_
+24	cigarettes	cigarette	NOUN	NNS	Number=Plur	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 12
+# text = How can we have a healthy life?
+1	How	how	ADV	WRB	PronType=Int	4	advmod	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	healthy	healthy	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	life	life	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = It is very hard to get it.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	hard	hard	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	get	get	VERB	VB	VerbForm=Inf	4	csubj	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 14
+# text = I hope that, people can do it, there should be cooperatives between smokers and the owners of all restaurants.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	people	people	NOUN	NNS	Number=Plur	7	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	do	do	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	there	there	PRON	EX	_	12	expl	_	_
+11	should	should	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	be	be	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+13	cooperatives	cooperative	NOUN	NNS	Number=Plur	12	nsubj	_	_
+14	between	between	ADP	IN	_	15	case	_	_
+15	smokers	smoker	NOUN	NNS	Number=Plur	13	nmod	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	owners	owner	NOUN	NNS	Number=Plur	15	conj	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	all	all	DET	DT	_	21	det	_	_
+21	restaurants	restaurant	NOUN	NNS	Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 15
+# text = If they respects the rules and cooperate with each other, banning smoking can be happen.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	respects	respect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	rules	rule	NOUN	NNS	Number=Plur	3	obj	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	cooperate	cooperate	VERB	VB	VerbForm=Inf	3	conj	_	_
+8	with	with	ADP	IN	_	10	case	_	_
+9	each	each	DET	DT	_	10	det	_	_
+10	other	other	ADJ	JJ	Degree=Pos	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	_	_
+12	banning	ban	VERB	VBG	VerbForm=Ger	13	amod	_	_
+13	smoking	smoking	NOUN	NN	Number=Sing	16	nsubj	_	_
+14	can	can	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	aux	_	_
+16	happen	happen	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	16	punct	_	SpacesAfter=\n
+

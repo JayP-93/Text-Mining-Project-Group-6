@@ -1,0 +1,341 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_IDN_SMK0_135_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking gives a lot of disadvantages, not only for the smoker, but also others around smoker.
+1	﻿Smoking	﻿Smok	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	lot	lot	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	disadvantages	disadvantage	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	not	not	ADV	RB	_	9	advmod	_	_
+9	only	only	ADV	RB	_	12	cc:preconj	_	_
+10	for	for	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	smoker	smoker	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	but	but	CCONJ	CC	_	16	cc	_	_
+15	also	also	ADV	RB	_	16	advmod	_	_
+16	others	other	NOUN	NNS	Number=Plur	2	conj	_	_
+17	around	around	ADP	IN	_	18	case	_	_
+18	smoker	smoker	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Why?
+1	Why	why	ADV	WRB	PronType=Int	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = Because we all know cigarettes made from ingredients harmful to health, for example, nicotine is highly damaging to the lungs and cause addicted black sediment.
+1	Because	because	SCONJ	IN	_	4	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	all	all	DET	DT	_	2	det	_	_
+4	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+5	cigarettes	cigarette	NOUN	NNS	Number=Plur	4	obj	_	_
+6	made	make	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	_	_
+7	from	from	ADP	IN	_	8	case	_	_
+8	ingredients	ingredient	NOUN	NNS	Number=Plur	6	obl	_	_
+9	harmful	harmful	ADJ	JJ	Degree=Pos	8	amod	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	health	health	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	4	punct	_	_
+13	for	for	ADP	IN	_	14	case	_	_
+14	example	example	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	nicotine	nicotine	PRON	PRP	_	19	nsubj	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	highly	highly	ADV	RB	_	19	advmod	_	_
+19	damaging	damaging	ADJ	JJ	Degree=Pos	0	root	_	_
+20	to	to	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	lungs	lung	NOUN	NNS	Number=Plur	19	obl	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	cause	cause	NOUN	NN	Number=Sing	22	conj	_	_
+25	addicted	addict	VERB	VBN	Tense=Past|VerbForm=Part	27	amod	_	_
+26	black	black	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	sediment	sediment	NOUN	NN	Number=Sing	22	conj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 4
+# text = This addiction will make people who once smoked continued to smoke and cannot stop it.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	addiction	addiction	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+5	people	people	NOUN	NNS	Number=Plur	4	obj	_	_
+6	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+7	once	once	ADV	RB	NumType=Mult	8	advmod	_	_
+8	smoked	smoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+9	continued	continue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	smoke	smoke	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	can	can	AUX	MD	VerbForm=Fin	15	aux	_	SpaceAfter=No
+14	not	not	PART	RB	_	15	advmod	_	_
+15	stop	stop	VERB	VB	VerbForm=Inf	9	conj	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = For people around cigarette smoke from the air and inhaled into the lungs, inside the lungs is bound by the alveoli, which causes black sludge that is often dry cough, if left too long it will be serious consequences especially for women who are pregnant.
+1	For	for	ADP	IN	_	2	case	_	_
+2	people	people	NOUN	NNS	Number=Plur	19	nsubj	_	_
+3	around	around	ADP	IN	_	5	case	_	_
+4	cigarette	cigarette	NOUN	NN	Number=Sing	5	compound	_	_
+5	smoke	smoke	NOUN	NN	Number=Sing	2	nmod	_	_
+6	from	from	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	air	air	NOUN	NN	Number=Sing	2	nmod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	inhaled	inhal	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	_
+11	into	into	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	lungs	lung	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	10	punct	_	_
+15	inside	inside	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	lungs	lung	NOUN	NNS	Number=Plur	10	obl	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	bound	bound	ADJ	JJ	Degree=Pos	0	root	_	_
+20	by	by	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	alveoli	alveoli	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	22	punct	_	_
+24	which	which	PRON	WDT	PronType=Rel	25	nsubj	_	_
+25	causes	cause	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+26	black	black	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	sludge	sludge	NOUN	NN	Number=Sing	25	obj	_	_
+28	that	that	PRON	WDT	PronType=Rel	32	nsubj	_	_
+29	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
+30	often	often	ADV	RB	_	31	advmod	_	_
+31	dry	dry	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	cough	cough	NOUN	NN	Number=Sing	27	acl:relcl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	25	punct	_	_
+34	if	if	SCONJ	IN	_	35	mark	_	_
+35	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	advcl	_	_
+36	too	too	ADV	RB	_	37	advmod	_	_
+37	long	long	ADV	RB	Degree=Pos	35	advmod	_	_
+38	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	42	nsubj	_	_
+39	will	will	AUX	MD	VerbForm=Fin	42	aux	_	_
+40	be	be	AUX	VB	VerbForm=Inf	42	cop	_	_
+41	serious	serious	ADJ	JJ	Degree=Pos	42	amod	_	_
+42	consequences	consequence	NOUN	NNS	Number=Plur	35	obj	_	_
+43	especially	especially	ADV	RB	_	42	advmod	_	_
+44	for	for	ADP	IN	_	45	case	_	_
+45	women	woman	NOUN	NNS	Number=Plur	42	nmod	_	_
+46	who	who	PRON	WP	PronType=Rel	48	nsubj	_	_
+47	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	48	cop	_	_
+48	pregnant	pregnant	ADJ	JJ	Degree=Pos	45	acl:relcl	_	SpaceAfter=No
+49	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 6
+# text = It would be a bad impact on the baby conceived.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	6	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	bad	bad	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	impact	impact	NOUN	NN	Number=Sing	10	nsubj	_	_
+7	on	on	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	baby	baby	NOUN	NN	Number=Sing	6	nmod	_	_
+10	conceived	conceive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 7
+# text = Smoker more susceptible to heart because the circulatory system is not smooth.
+1	Smoker	smoker	NOUN	NN	Number=Sing	0	root	_	_
+2	more	more	ADV	RBR	_	3	advmod	_	_
+3	susceptible	susceptible	ADJ	JJ	Degree=Pos	1	amod	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	heart	heart	NOUN	NN	Number=Sing	3	obl	_	_
+6	because	because	SCONJ	IN	_	12	mark	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	circulatory	circulatory	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	system	system	NOUN	NN	Number=Sing	12	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	not	not	PART	RB	_	12	advmod	_	_
+12	smooth	smooth	ADJ	JJ	Degree=Pos	3	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 8
+# text = Indeed, in Indonesia's largest cigarette including commodities and the largest revenue to the state because many kinds of cigarettes are produced.
+1	Indeed	indeed	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	in	in	ADP	IN	_	7	case	_	_
+4	Indonesia	Indonesia	PROPN	NNP	Number=Sing	7	nmod:poss	_	SpaceAfter=No
+5	's	's	PART	POS	_	4	case	_	_
+6	largest	largest	ADJ	JJS	Degree=Sup	7	amod	_	_
+7	cigarette	cigarette	NOUN	NN	Number=Sing	0	root	_	_
+8	including	include	VERB	VBG	VerbForm=Ger	9	case	_	_
+9	commodities	commodity	NOUN	NNS	Number=Plur	7	nmod	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	largest	largest	ADJ	JJS	Degree=Sup	13	amod	_	_
+13	revenue	revenue	NOUN	NN	Number=Sing	9	conj	_	_
+14	to	to	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	state	state	NOUN	NN	Number=Sing	13	nmod	_	_
+17	because	because	SCONJ	IN	_	23	mark	_	_
+18	many	many	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	kinds	kind	NOUN	NNS	Number=Plur	23	nsubj:pass	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	cigarettes	cigarette	NOUN	NNS	Number=Plur	19	nmod	_	_
+22	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux:pass	_	_
+23	produced	produce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 9
+# text = To be sold into the market, these cigarettes have no permit from customs duty.
+1	To	to	PART	TO	_	3	mark	_	_
+2	be	be	AUX	VB	VerbForm=Inf	3	aux:pass	_	_
+3	sold	sell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	_	_
+4	into	into	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	market	market	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	these	these	DET	DT	Number=Plur|PronType=Dem	9	det	_	_
+9	cigarettes	cigarette	NOUN	NNS	Number=Plur	10	nsubj	_	_
+10	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	no	no	DET	DT	_	12	det	_	_
+12	permit	permit	NOUN	NN	Number=Sing	10	obj	_	_
+13	from	from	ADP	IN	_	15	case	_	_
+14	customs	custom	NOUN	NNS	Number=Plur	15	compound	_	_
+15	duty	duty	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 10
+# text = Not only that, the cigarette factory itself is very integrated with the life of the workers, one factory of cigarette have one thousand workers.
+1	Not	not	ADV	RB	_	2	advmod	_	_
+2	only	only	ADV	RB	_	3	advmod	_	_
+3	that	that	DET	DT	Number=Sing|PronType=Dem	20	det	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	11	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	cigarette	cigarette	NOUN	NN	Number=Sing	7	compound	_	_
+7	factory	factory	NOUN	NN	Number=Sing	11	nsubj	_	_
+8	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nmod:npmod	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	very	very	ADV	RB	_	11	advmod	_	_
+11	integrated	integrated	ADJ	JJ	Degree=Pos	20	amod	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	life	life	NOUN	NN	Number=Sing	11	obl	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	workers	worker	NOUN	NNS	Number=Plur	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	11	punct	_	_
+19	one	one	NUM	CD	NumType=Card	20	nummod	_	_
+20	factory	factory	NOUN	NN	Number=Sing	23	nsubj	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	cigarette	cigarette	NOUN	NN	Number=Sing	20	nmod	_	_
+23	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	one	one	NUM	CD	NumType=Card	26	nummod	_	_
+25	thousand	thousand	NUM	CD	NumType=Card	26	nummod	_	_
+26	workers	worker	NOUN	NNS	Number=Plur	23	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	23	punct	_	_
+
+# sent_id = 11
+# text = If the cigarette factory was closed for health, the consequence is the accumulation of more and more employment.
+1	If	if	SCONJ	IN	_	6	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	cigarette	cigarette	NOUN	NN	Number=Sing	4	compound	_	_
+4	factory	factory	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	closed	close	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	advcl	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	health	health	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	consequence	consequence	NOUN	NN	Number=Sing	14	nsubj	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	accumulation	accumulation	NOUN	NN	Number=Sing	0	root	_	_
+15	of	of	ADP	IN	_	19	case	_	_
+16	more	more	ADJ	JJR	Degree=Cmp	19	amod	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	more	more	ADJ	JJR	Degree=Cmp	16	conj	_	_
+19	employment	employment	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 12
+# text = Cigarette factory is also very beneficial for academic or non academic.
+1	Cigarette	cigarette	NOUN	NN	Number=Sing	2	compound	_	_
+2	factory	factory	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	also	also	ADV	RB	_	6	advmod	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	beneficial	beneficial	ADJ	JJ	Degree=Pos	0	root	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	academic	academic	ADJ	JJ	Degree=Pos	6	obl	_	_
+9	or	or	CCONJ	CC	_	11	cc	_	_
+10	non	non	X	AFX	_	11	advmod	_	_
+11	academic	academic	ADJ	JJ	Degree=Pos	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 13
+# text = Those provide scholarships for students who excel and the best athletes this country.
+1	Those	those	PRON	DT	Number=Plur|PronType=Dem	2	nsubj	_	_
+2	provide	provide	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	scholarships	scholarship	NOUN	NNS	Number=Plur	2	obj	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	students	student	NOUN	NNS	Number=Plur	3	nmod	_	_
+6	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+7	excel	excel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	and	and	CCONJ	CC	_	11	cc	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	best	best	ADJ	JJS	Degree=Sup	11	amod	_	_
+11	athletes	athlete	NOUN	NNS	Number=Plur	7	conj	_	_
+12	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	country	country	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 14
+# text = Where they will develop if cigarette factory enclosed.
+1	Where	where	ADV	WRB	PronType=Int	4	advmod	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	develop	develop	VERB	VB	VerbForm=Inf	0	root	_	_
+5	if	if	SCONJ	IN	_	8	mark	_	_
+6	cigarette	cigarette	NOUN	NN	Number=Sing	7	compound	_	_
+7	factory	factory	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	enclosed	enclose	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 15
+# text = Many events in Indonesia supported by cigarettes
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	events	event	NOUN	NNS	Number=Plur	0	root	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	Indonesia	Indonesia	PROPN	NNP	Number=Sing	2	nmod	_	_
+5	supported	support	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	_
+6	by	by	ADP	IN	_	7	case	_	_
+7	cigarettes	cigarette	NOUN	NNS	Number=Plur	5	obl	_	_
+
+# sent_id = 16
+# text = In essence it is impossible to ban people from smoking and smoker should care about the people around who do not smoke.
+1	In	in	ADP	IN	_	2	case	_	_
+2	essence	essence	NOUN	NN	Number=Sing	5	obl	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	impossible	impossible	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	ban	ban	VERB	VB	VerbForm=Inf	5	csubj	_	_
+8	people	people	NOUN	NNS	Number=Plur	7	obj	_	_
+9	from	from	ADP	IN	_	10	case	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	7	obl	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	smoker	smoker	NOUN	NN	Number=Sing	14	nsubj	_	_
+13	should	should	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	care	care	VERB	VB	VerbForm=Inf	7	conj	_	_
+15	about	about	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	people	people	NOUN	NNS	Number=Plur	14	obl	_	_
+18	around	around	ADV	RB	_	22	advmod	_	_
+19	who	who	PRON	WP	PronType=Int	22	nsubj	_	_
+20	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	not	not	PART	RB	_	22	advmod	_	_
+22	smoke	smoke	VERB	VB	VerbForm=Inf	17	acl:relcl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

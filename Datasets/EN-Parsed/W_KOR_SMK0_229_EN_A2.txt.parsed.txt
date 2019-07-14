@@ -1,0 +1,306 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_229_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿I agree smoking should be completely banned at all the restaurants in the country.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+4	should	should	AUX	MD	VerbForm=Fin	7	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+6	completely	completely	ADV	RB	_	7	advmod	_	_
+7	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+8	at	at	ADP	IN	_	11	case	_	_
+9	all	all	DET	PDT	_	11	det:predet	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	restaurants	restaurant	NOUN	NNS	Number=Plur	7	obl	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	country	country	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = All people can do to go to the restaurant, and
+1	All	all	DET	DT	_	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	go	go	VERB	VB	VerbForm=Inf	4	advcl	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	restaurant	restaurant	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	_
+11	and	and	CCONJ	CC	_	4	cc	_	_
+
+# sent_id = 3
+# text = All people do not smoking.
+1	All	all	DET	DT	_	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = So smoker is less than that.
+1	So	so	ADV	RB	_	6	advmod	_	_
+2	smoker	smoker	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	less	less	ADJ	JJR	Degree=Cmp	6	advmod	_	_
+5	than	than	ADP	IN	_	4	fixed	_	_
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = therefore, they can not smoking at all the restaurants.
+1	therefore	therefore	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+4	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+7	at	at	ADP	IN	_	10	case	_	_
+8	all	all	DET	PDT	_	10	det:predet	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	restaurants	restaurant	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Such as, if one family visit to the restaurant.
+1	Such	such	ADJ	JJ	Degree=Pos	0	root	_	_
+2	as	as	ADV	RB	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	if	if	SCONJ	IN	_	7	mark	_	_
+5	one	one	NUM	CD	NumType=Card	7	nummod	_	_
+6	family	family	NOUN	NN	Number=Sing	7	compound	_	_
+7	visit	visit	NOUN	NN	Number=Sing	1	advcl	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	restaurant	restaurant	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = They are 4 members in the family: father, mother, one boy, and baby girl.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	4	4	NUM	CD	NumType=Card	4	nummod	_	_
+4	members	member	NOUN	NNS	Number=Plur	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	family	family	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	:	_	4	punct	_	_
+9	father	father	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	mother	mother	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	one	one	NUM	CD	NumType=Card	14	nummod	_	_
+14	boy	boy	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	baby	baby	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	girl	girl	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = And there are many smokers, so smokers are near the family.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	many	many	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	smokers	smoker	NOUN	NNS	Number=Plur	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	so	so	SCONJ	IN	_	12	mark	_	_
+8	smokers	smoker	NOUN	NNS	Number=Plur	12	nsubj	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	near	near	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	family	family	NOUN	NN	Number=Sing	3	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = We can defend our health, happiness, and freedom.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	defend	defend	VERB	VB	VerbForm=Inf	0	root	_	_
+4	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	health	health	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	happiness	happiness	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	freedom	freedom	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Maybe, young boy will learn smoking to smoker and baby will drink air with smoke from smoker.
+1	Maybe	maybe	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	young	young	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	boy	boy	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	learn	learn	VERB	VB	VerbForm=Inf	0	root	_	_
+7	smoking	smoke	VERB	VBG	VerbForm=Ger	13	csubj	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	smoker	smoker	NOUN	NN	Number=Sing	7	obl	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	baby	baby	NOUN	NN	Number=Sing	9	conj	_	_
+12	will	will	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	drink	drink	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+14	air	air	NOUN	NN	Number=Sing	13	obj	_	_
+15	with	with	ADP	IN	_	16	case	_	_
+16	smoke	smoke	NOUN	NN	Number=Sing	13	obl	_	_
+17	from	from	ADP	IN	_	18	case	_	_
+18	smoker	smoker	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 11
+# text = Young boy and baby can be your sun and daughter, It is very danger and make to get angry to you.
+1	Young	young	ADP	IN	_	2	case	_	_
+2	boy	boy	NOUN	NN	Number=Sing	0	root	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	baby	baby	NOUN	NN	Number=Sing	2	conj	_	_
+5	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	sun	sun	NOUN	NN	Number=Sing	2	conj	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	daughter	daughter	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	2	punct	_	_
+12	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	very	very	ADV	RB	_	15	advmod	_	_
+15	danger	danger	NOUN	NN	Number=Sing	2	parataxis	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	make	make	VERB	VB	VerbForm=Inf	15	conj	_	_
+18	to	to	PART	TO	_	20	mark	_	_
+19	get	get	VERB	VB	VerbForm=Inf	20	aux:pass	_	_
+20	angry	angry	ADJ	JJ	Degree=Pos	17	xcomp	_	_
+21	to	to	ADP	IN	_	22	case	_	_
+22	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	17	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = Next, some countries use fire on the table, such as Korean soup, Japanese soup, and United Kingdom royal dessert.
+1	Next	next	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	some	some	DET	DT	_	4	det	_	_
+4	countries	country	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	use	use	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	fire	fire	NOUN	NN	Number=Sing	5	obj	_	_
+7	on	on	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	table	table	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	5	punct	_	_
+11	such	such	ADJ	JJ	Degree=Pos	14	case	_	_
+12	as	as	ADP	IN	_	11	fixed	_	_
+13	Korean	Korean	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	soup	soup	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	Japanese	japanese	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	soup	soup	NOUN	NN	Number=Sing	14	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	23	punct	_	_
+19	and	and	CCONJ	CC	_	23	cc	_	_
+20	United	United	PROPN	NNP	Number=Sing	22	compound	_	_
+21	Kingdom	Kingdom	PROPN	NNP	Number=Sing	22	compound	_	_
+22	royal	royal	PROPN	NNP	Number=Sing	23	compound	_	_
+23	dessert	dessert	NOUN	NN	Number=Sing	14	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 13
+# text = So, Today,
+1	So	so	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	Today	today	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+
+# sent_id = 14
+# text = In this food restaurants, we can see fire on the table.
+1	In	in	ADP	IN	_	4	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+3	food	food	NOUN	NN	Number=Sing	4	compound	_	_
+4	restaurants	restaurant	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+7	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+9	fire	fire	NOUN	NN	Number=Sing	8	obj	_	_
+10	on	on	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	table	table	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 15
+# text = If you smoke in there space, your smoke fire is near gas.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	there	there	PRON	PRP$	_	6	nmod:poss	_	_
+6	space	space	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	13	punct	_	_
+8	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	smoke	smoke	NOUN	NN	Number=Sing	10	compound	_	_
+10	fire	fire	NOUN	NN	Number=Sing	13	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	near	near	ADP	IN	_	13	case	_	_
+13	gas	gas	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 16
+# text = We know smoking near fire is very danger.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	smoking	smoke	NOUN	NN	Number=Sing	8	nsubj	_	_
+4	near	near	ADP	IN	_	5	case	_	_
+5	fire	fire	NOUN	NN	Number=Sing	3	nmod	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	very	very	ADV	RB	_	8	advmod	_	_
+8	danger	danger	NOUN	NN	Number=Sing	2	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 17
+# text = I think if smoking should be completely banned at all the restaurants in the country, smoker will never smoke in restaurant, and then, all people in there place feel happy, make health, and get out from danger.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	if	if	SCONJ	IN	_	8	mark	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+5	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+7	completely	completely	ADV	RB	_	8	advmod	_	_
+8	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+9	at	at	ADP	IN	_	12	case	_	_
+10	all	all	DET	PDT	_	12	det:predet	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	restaurants	restaurant	NOUN	NNS	Number=Plur	8	obl	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	country	country	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	smoker	smoker	NOUN	NN	Number=Sing	20	nsubj	_	_
+18	will	will	AUX	MD	VerbForm=Fin	20	aux	_	_
+19	never	never	ADV	RB	_	20	advmod	_	_
+20	smoke	smoke	VERB	VB	VerbForm=Inf	2	conj	_	_
+21	in	in	ADP	IN	_	22	case	_	_
+22	restaurant	restaurant	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	32	punct	_	_
+24	and	and	CCONJ	CC	_	32	cc	_	_
+25	then	then	ADV	RB	PronType=Dem	32	advmod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	32	punct	_	_
+27	all	all	DET	DT	_	28	det	_	_
+28	people	people	NOUN	NNS	Number=Plur	32	nsubj	_	_
+29	in	in	ADP	IN	_	31	case	_	_
+30	there	there	PRON	PRP$	_	31	nmod:poss	_	_
+31	place	place	NOUN	NN	Number=Sing	28	nmod	_	_
+32	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+33	happy	happy	ADJ	JJ	Degree=Pos	32	xcomp	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	35	punct	_	_
+35	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	32	conj	_	_
+36	health	health	NOUN	NN	Number=Sing	35	obj	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	39	punct	_	_
+38	and	and	CCONJ	CC	_	39	cc	_	_
+39	get	get	VERB	VB	VerbForm=Inf	32	conj	_	_
+40	out	out	ADV	RB	_	39	advmod	_	_
+41	from	from	ADP	IN	_	42	case	_	_
+42	danger	danger	NOUN	NN	Number=Sing	39	obl	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	32	punct	_	SpacesAfter=\n
+

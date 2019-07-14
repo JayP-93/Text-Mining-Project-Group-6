@@ -1,0 +1,374 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_161_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿We have two opinions about smoking.
+1	﻿We	﻿we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	two	two	NUM	CD	NumType=Card	4	nummod	_	_
+4	opinions	opinion	NOUN	NNS	Number=Plur	2	obj	_	_
+5	about	about	ADP	IN	_	6	case	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Agree about smoking and disagree about it.
+1	Agree	agree	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	about	about	ADP	IN	_	3	case	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	1	obl	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	disagree	disagree	NOUN	NN	Number=Sing	3	conj	_	_
+6	about	about	ADP	IN	_	7	case	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = First, I want to tell about disagree opinion.
+1	First	first	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	tell	tell	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	about	about	ADP	IN	_	9	case	_	_
+8	disagree	disagree	NOUN	NN	Number=Sing	9	compound	_	_
+9	opinion	opinion	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Because I am not smoking.
+1	Because	because	SCONJ	IN	_	5	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Smoking is harmful our health.
+1	Smoking	smoking	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	harmful	harmful	ADJ	JJ	Degree=Pos	0	root	_	_
+4	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	health	health	NOUN	NN	Number=Sing	3	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = But lots of non-smokers are feeling pain cause of cigarette's smoke.
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	lots	lot	NOUN	NNS	Number=Plur	6	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	non-smokers	non-smoker	NOUN	NNS	Number=Plur	2	nmod	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	feeling	feel	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+7	pain	pain	NOUN	NN	Number=Sing	8	compound	_	_
+8	cause	cause	NOUN	NN	Number=Sing	6	obj	_	_
+9	of	of	ADP	IN	_	12	case	_	_
+10	cigarette	cigarette	NOUN	NN	Number=Sing	12	nmod:poss	_	SpaceAfter=No
+11	's	's	PART	POS	_	10	case	_	_
+12	smoke	smoke	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 7
+# text = Everybody knows second-hand smoking is more harmful than smokers.
+1	Everybody	everybody	PRON	NN	Number=Sing	2	nsubj	_	_
+2	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	5	amod	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	hand	hand	NOUN	NN	Number=Sing	6	compound	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	9	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	more	more	ADV	RBR	_	9	advmod	_	_
+9	harmful	harmful	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+10	than	than	ADP	IN	_	11	case	_	_
+11	smokers	smoker	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = If you smoke long time, you can die earlier than non-smoker.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+4	long	long	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	time	time	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+8	can	can	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	die	die	VERB	VB	VerbForm=Inf	0	root	_	_
+10	earlier	earlier	ADV	RBR	Degree=Cmp	9	advmod	_	_
+11	than	than	ADP	IN	_	12	case	_	_
+12	non-smoker	non-smoker	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 9
+# text = And nowadays lots of people try to help for smoker to quit cigarette.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	nowadays	nowadays	ADV	RB	_	3	advmod	_	_
+3	lots	lot	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	people	people	NOUN	NNS	Number=Plur	3	nmod	_	_
+6	try	try	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	help	help	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	smoker	smoker	ADJ	JJR	Degree=Cmp	8	obl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	quit	quit	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+13	cigarette	cigarette	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 10
+# text = They try to give free chance of quit smoking.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	try	try	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	give	give	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	free	free	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	chance	chance	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	quit	quit	NOUN	NN	Number=Sing	9	compound	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 11
+# text = For example, give free nonsmoking patch and some pill which help to control about feeling of smoking.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+5	free	free	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	nonsmoking	nonsmoking	NOUN	NN	Number=Sing	7	compound	_	_
+7	patch	patch	NOUN	NN	Number=Sing	4	obj	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	some	some	DET	DT	_	10	det	_	_
+10	pill	pill	NOUN	NN	Number=Sing	7	conj	_	_
+11	which	which	PRON	WDT	PronType=Rel	12	nsubj	_	_
+12	help	help	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	control	control	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+15	about	about	ADP	IN	_	16	case	_	_
+16	feeling	feeling	NOUN	NN	Number=Sing	14	obl	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	smoking	smoking	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 12
+# text = And on TV has lots of advertisement about danger of smoking.
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	on	on	ADP	IN	_	3	case	_	_
+3	TV	tv	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	lots	lot	NOUN	NNS	Number=Plur	4	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	advertisement	advertisement	NOUN	NN	Number=Sing	5	nmod	_	_
+8	about	about	ADP	IN	_	9	case	_	_
+9	danger	danger	NOUN	NN	Number=Sing	5	nmod	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	smoking	smoking	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = So if smokers who want to quit cigarette, but it if too difficult quit by ownself, try to get some help.
+1	So	so	ADV	RB	_	19	advmod	_	_
+2	if	if	SCONJ	IN	_	19	mark	_	_
+3	smokers	smoker	NOUN	NNS	Number=Plur	2	obj	_	_
+4	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+5	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	quit	quit	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	cigarette	cigarette	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	19	punct	_	_
+10	but	but	CCONJ	CC	_	19	cc	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+12	if	if	SCONJ	IN	_	15	mark	_	_
+13	too	too	ADV	RB	_	14	advmod	_	_
+14	difficult	difficult	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	quit	quit	NOUN	NN	Number=Sing	19	advcl	_	_
+16	by	by	ADP	IN	_	17	case	_	_
+17	ownself	ownself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	_	_
+19	try	try	VERB	VB	VerbForm=Inf	0	root	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	get	get	VERB	VB	VerbForm=Inf	19	advcl	_	_
+22	some	some	DET	DT	_	23	det	_	_
+23	help	help	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 14
+# text = Nevertheless you want to smoke; I want to smoke only on smoking area.
+1	Nevertheless	nevertheless	ADV	RB	_	3	advmod	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	smoke	smoke	VERB	VB	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	3	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	smoke	smoke	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	only	only	ADV	RB	_	10	advmod	_	_
+12	on	on	ADP	IN	_	14	case	_	_
+13	smoking	smoking	NOUN	NN	Number=Sing	14	compound	_	_
+14	area	area	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 15
+# text = And second opinion is agreed about smoking.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
+3	opinion	opinion	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	agreed	agree	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	about	about	ADP	IN	_	7	case	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 16
+# text = Almost of smokers are say we want to smoke.
+1	Almost	almost	ADV	RB	_	5	advmod	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	smokers	smoker	NOUN	NNS	Number=Plur	1	obl	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	smoke	smoke	VERB	VB	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 17
+# text = But these days we can smoke only our house.
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	these	these	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+3	days	day	NOUN	NNS	Number=Plur	6	obl:tmod	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	smoke	smoke	VERB	VB	VerbForm=Inf	0	root	_	_
+7	only	only	ADV	RB	_	9	advmod	_	_
+8	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	house	house	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 18
+# text = Because almost of area are nonsmoking building.
+1	Because	because	SCONJ	IN	_	6	mark	_	_
+2	almost	almost	ADV	RB	_	6	advmod	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	area	area	NOUN	NN	Number=Sing	2	nmod	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	nonsmoking	nonsmok	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+7	building	building	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 19
+# text = My opinion is disagreeing smoking.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	opinion	opinion	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	disagreeing	disagree	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 20
+# text = But when I read some article about smoker's difficulties, I can understand little.
+1	But	but	CCONJ	CC	_	14	cc	_	_
+2	when	when	ADV	WRB	PronType=Int	4	mark	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	read	read	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	advcl	_	_
+5	some	some	DET	DT	_	6	det	_	_
+6	article	article	NOUN	NN	Number=Sing	4	obj	_	_
+7	about	about	ADP	IN	_	10	case	_	_
+8	smoker	smoker	NOUN	NN	Number=Sing	10	nmod:poss	_	SpaceAfter=No
+9	's	's	PART	POS	_	8	case	_	_
+10	difficulties	difficulty	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	can	can	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	understand	understand	VERB	VB	VerbForm=Inf	0	root	_	_
+15	little	little	ADJ	JJ	Degree=Pos	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 21
+# text = In government, they sell cigarettes.
+1	In	in	ADP	IN	_	2	case	_	_
+2	government	government	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	sell	sell	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	cigarettes	cigarette	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 22
+# text = But government wants to quit smoking.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	government	government	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	quit	quit	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 23
+# text = This is out of question.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	out	out	ADP	IN	_	5	case	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	question	question	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 24
+# text = If government and people really want to get rid of smokers, they cannot sell cigarette.
+1	If	if	SCONJ	IN	_	6	mark	_	_
+2	government	government	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	people	people	NOUN	NNS	Number=Plur	2	conj	_	_
+5	really	really	ADV	RB	_	6	advmod	_	_
+6	want	want	VERB	VB	VerbForm=Inf	16	advcl	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	get	get	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	rid	rid	ADJ	JJ	Degree=Pos	8	xcomp	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	smokers	smoker	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+14	can	can	AUX	MD	VerbForm=Fin	16	aux	_	SpaceAfter=No
+15	not	not	PART	RB	_	16	advmod	_	_
+16	sell	sell	VERB	VB	VerbForm=Inf	0	root	_	_
+17	cigarette	cigarette	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 25
+# text = So I think if you really want to get rid of smokers, never sell a cigarette and if you can do it, just you make some smoking for smoker.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	if	if	SCONJ	IN	_	7	mark	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+6	really	really	ADV	RB	_	7	advmod	_	_
+7	want	want	VERB	VB	VerbForm=Inf	15	advcl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	get	get	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	rid	rid	ADJ	JJ	Degree=Pos	9	xcomp	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	smokers	smoker	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	never	never	ADV	RB	_	15	advmod	_	_
+15	sell	sell	VERB	VB	Mood=Imp|VerbForm=Fin	3	ccomp	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	cigarette	cigarette	NOUN	NN	Number=Sing	15	obj	_	_
+18	and	and	CCONJ	CC	_	27	cc	_	_
+19	if	if	SCONJ	IN	_	22	mark	_	_
+20	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	nsubj	_	_
+21	can	can	AUX	MD	VerbForm=Fin	22	aux	_	_
+22	do	do	VERB	VB	VerbForm=Inf	27	advcl	_	_
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	27	punct	_	_
+25	just	just	ADV	RB	_	27	advmod	_	_
+26	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	27	nsubj	_	_
+27	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	conj	_	_
+28	some	some	DET	DT	_	29	det	_	_
+29	smoking	smoking	NOUN	NN	Number=Sing	27	obj	_	_
+30	for	for	ADP	IN	_	31	case	_	_
+31	smoker	smoker	NOUN	NN	Number=Sing	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

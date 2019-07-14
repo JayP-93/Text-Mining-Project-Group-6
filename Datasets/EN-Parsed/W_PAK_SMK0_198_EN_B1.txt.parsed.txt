@@ -1,0 +1,307 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PAK_SMK0_198_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking is a very bad habit.
+1	﻿Smoking	﻿Smok	NOUN	NN	Number=Sing	6	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	bad	bad	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	habit	habit	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Today in our world very important in our society is of smoking.
+1	Today	today	NOUN	NN	Number=Sing	12	nsubj	_	_
+2	in	in	ADP	IN	_	4	case	_	_
+3	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	world	world	NOUN	NN	Number=Sing	1	nmod	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	important	important	ADJ	JJ	Degree=Pos	1	advmod	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	society	society	NOUN	NN	Number=Sing	1	nmod	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	smoking	smoking	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 3
+# text = Due to smoking many bright student dull in their study.
+1	Due	due	ADP	IN	_	3	mark	_	_
+2	to	to	SCONJ	IN	_	1	fixed	_	_
+3	smoking	smoke	VERB	VBG	VerbForm=Ger	0	root	_	_
+4	many	many	ADJ	JJ	Degree=Pos	7	amod	_	_
+5	bright	bright	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	student	student	NOUN	NN	Number=Sing	7	compound	_	_
+7	dull	dull	NOUN	NN	Number=Sing	3	obj	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	study	study	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Smoking effects in our health.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	2	amod	_	_
+2	effects	effect	NOUN	NNS	Number=Plur	0	root	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	health	health	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = One half people in our country or in the world die due to smoking.
+1	One	one	NUM	CD	NumType=Card	3	nummod	_	_
+2	half	half	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	people	people	NOUN	NNS	Number=Plur	11	nsubj	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	country	country	NOUN	NN	Number=Sing	3	nmod	_	_
+7	or	or	CCONJ	CC	_	10	cc	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	world	world	NOUN	NN	Number=Sing	3	conj	_	_
+11	die	die	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	due	due	ADP	IN	_	14	case	_	_
+13	to	to	ADP	IN	_	12	fixed	_	_
+14	smoking	smoking	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 6
+# text = A person who is smoking becomes wealky day by day.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	person	person	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	2	acl:relcl	_	_
+6	becomes	become	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	wealky	wealky	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	day	day	NOUN	NN	Number=Sing	6	obl:tmod	_	_
+9	by	by	ADP	IN	_	10	case	_	_
+10	day	day	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 7
+# text = His health is very bad.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	health	health	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	bad	bad	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = If we see in our country every people is smoker.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	country	country	NOUN	NN	Number=Sing	3	obl	_	_
+7	every	every	DET	DT	_	8	det	_	_
+8	people	people	NOUN	NNS	Number=Plur	10	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	smoker	smoker	ADJ	JJR	Degree=Cmp	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 9
+# text = Reaturant in such a place where peoples comes every time.
+1	Reaturant	Reaturant	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	IN	_	5	case	_	_
+3	such	such	DET	PDT	_	5	det:predet	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	place	place	NOUN	NN	Number=Sing	1	obl	_	_
+6	where	where	ADV	WRB	PronType=Rel	8	advmod	_	_
+7	peoples	people	NOUN	NNS	Number=Plur	8	nsubj	_	_
+8	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	every	every	DET	DT	_	10	det	_	_
+10	time	time	NOUN	NN	Number=Sing	8	obl:tmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 10
+# text = But when the man comes who is smoker.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	when	when	ADV	WRB	PronType=Int	5	mark	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	man	man	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	smoker	smoker	NOUN	NN	Number=Sing	5	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 11
+# text = He creates the disterbence in the envoienment.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	creates	create	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	disterbence	disterbence	NOUN	NN	Number=Sing	2	obj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	envoienment	envoienment	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = The smell of smoking spread every where in the restaurant.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	smell	smell	NOUN	NN	Number=Sing	0	root	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	2	nmod	_	_
+5	spread	spread	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
+6	every	every	DET	DT	_	7	det	_	_
+7	where	where	NOUN	NN	Number=Sing	5	obj	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	restaurant	restaurant	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 13
+# text = Many peoples who are not smoker they feel unrael.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	peoples	people	NOUN	NNS	Number=Plur	0	root	_	_
+3	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	smoker	smoker	VERB	VB	VerbForm=Inf	2	acl:relcl	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+8	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+9	unrael	unrael	ADJ	JJ	Degree=Pos	8	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 14
+# text = At the end we should control the smoking we should servive the company of bad people.
+1	At	at	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	end	end	NOUN	NN	Number=Sing	6	obl	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+5	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	control	control	VERB	VB	VerbForm=Inf	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	6	obj	_	_
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
+10	should	should	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	servive	servive	VERB	VB	VerbForm=Inf	8	acl:relcl	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	company	company	NOUN	NN	Number=Sing	11	obj	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	bad	bad	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	people	people	NOUN	NNS	Number=Plur	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 15
+# text = Government should those people who are involves in smoking to get hospitals and treated them and banneded advitizement who attracts the people.
+1	Government	government	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	0	root	_	_
+3	those	those	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+4	people	people	NOUN	NNS	Number=Plur	2	obj	_	_
+5	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	involves	involve	NOUN	NNS	Number=Plur	4	acl:relcl	_	_
+8	in	in	SCONJ	IN	_	9	mark	_	_
+9	smoking	smoking	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	get	get	VERB	VB	VerbForm=Inf	9	advcl	_	_
+12	hospitals	hospital	NOUN	NNS	Number=Plur	11	obj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	treated	treat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	banneded	banned	VERB	VBN	Tense=Past|VerbForm=Part	18	amod	_	_
+18	advitizement	advitizement	NOUN	NN	Number=Sing	14	conj	_	_
+19	who	who	PRON	WP	PronType=Rel	20	nsubj	_	_
+20	attracts	attract	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	people	people	NOUN	NNS	Number=Plur	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 16
+# text = The every place where the smoking take placeGovernment should stop it.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	every	every	DET	DT	_	3	det	_	_
+3	place	place	NOUN	NN	Number=Sing	0	root	_	_
+4	where	where	ADV	WRB	PronType=Rel	10	advmod	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	7	compound	_	_
+7	take	take	NOUN	NN	Number=Sing	8	compound	_	_
+8	placeGovernment	placeGovernment	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	stop	stop	VERB	VB	VerbForm=Inf	3	acl:relcl	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 17
+# text = And the shopes who shell these types of things give the punishment.
+1	And	and	CCONJ	CC	_	10	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	shopes	shop	NOUN	NNS	Number=Plur	10	nsubj	_	_
+4	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+5	shell	shell	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	these	these	DET	DT	Number=Plur|PronType=Dem	7	det	_	_
+7	types	type	NOUN	NNS	Number=Plur	5	obj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	things	thing	NOUN	NNS	Number=Plur	7	nmod	_	_
+10	give	give	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	punishment	punishment	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 18
+# text = If we see in our country everywhere every peaceful place.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	country	country	NOUN	NN	Number=Sing	10	nmod	_	_
+7	everywhere	everywhere	ADV	RB	_	10	advmod	_	_
+8	every	every	DET	DT	_	10	det	_	_
+9	peaceful	peaceful	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	place	place	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 19
+# text = In the university where children is study in the school, college until in the mosque(house of Allah) we should see the smokers.
+1	In	in	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	university	university	NOUN	NN	Number=Sing	27	obl	_	_
+4	where	where	ADV	WRB	PronType=Rel	7	advmod	_	_
+5	children	child	NOUN	NNS	Number=Plur	7	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	study	study	NOUN	NN	Number=Sing	3	acl:relcl	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	school	school	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	7	punct	_	_
+12	college	college	NOUN	NN	Number=Sing	7	appos	_	_
+13	until	until	ADP	IN	_	16	case	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	mosque	mosque	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+17	(	(	PUNCT	-LRB-	_	18	punct	_	SpaceAfter=No
+18	house	house	NOUN	NN	Number=Sing	16	appos	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	Allah	Allah	PROPN	NNP	Number=Sing	18	nmod	_	SpaceAfter=No
+21	)	)	PUNCT	-RRB-	_	18	punct	_	_
+22	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
+23	should	should	AUX	MD	VerbForm=Fin	24	aux	_	_
+24	see	see	VERB	VB	VerbForm=Inf	7	acl:relcl	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	smokers	smoker	NOUN	NNS	Number=Plur	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 20
+# text = in our country a large amount of peoples are arrest in smoking.
+1	in	in	ADP	IN	_	3	case	_	_
+2	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	country	country	NOUN	NN	Number=Sing	10	obl	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	large	large	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	amount	amount	NOUN	NN	Number=Sing	10	nsubj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	peoples	people	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	arrest	arrest	NOUN	NN	Number=Sing	0	root	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	smoking	smoking	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+

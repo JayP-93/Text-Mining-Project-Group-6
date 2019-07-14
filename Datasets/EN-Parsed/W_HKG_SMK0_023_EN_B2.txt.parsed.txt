@@ -1,0 +1,310 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_HKG_SMK0_023_EN_B2.txt
+# newpar
+# sent_id = 1
+# text = ﻿With many reasons, I support the smoking ban should be set to all restaurants.
+1	﻿With	﻿With	ADV	RB	_	2	advmod	_	_
+2	many	many	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	reasons	reason	NOUN	NNS	Number=Plur	6	obl:tmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	support	support	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	9	compound	_	_
+9	ban	ban	NOUN	NN	Number=Sing	12	nsubj:pass	_	_
+10	should	should	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	aux:pass	_	_
+12	set	set	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	ccomp	_	_
+13	to	to	ADP	IN	_	15	case	_	_
+14	all	all	DET	DT	_	15	det	_	_
+15	restaurants	restaurant	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = It is an action that harms our health, depletes money and causes many consequences.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	action	action	NOUN	NN	Number=Sing	0	root	_	_
+5	that	that	PRON	WDT	PronType=Rel	6	nsubj	_	_
+6	harms	harm	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	health	health	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	depletes	deplete	NOUN	NNS	Number=Plur	11	compound	_	_
+11	money	money	NOUN	NN	Number=Sing	8	appos	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	causes	cause	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+14	many	many	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	consequences	consequence	NOUN	NNS	Number=Plur	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Smoking is definitely harmful to our health, whoever those smokers or non-smokers.
+1	Smoking	smoke	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	definitely	definitely	ADV	RB	_	4	advmod	_	_
+4	harmful	harmful	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	health	health	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	whoever	whoever	PRON	WP	PronType=Int	4	conj	_	_
+10	those	those	DET	DT	Number=Plur|PronType=Dem	11	det	_	_
+11	smokers	smoker	NOUN	NNS	Number=Plur	9	nsubj	_	_
+12	or	or	CCONJ	CC	_	13	cc	_	_
+13	non-smokers	non-smoker	NOUN	NNS	Number=Plur	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = As we know, a cigarette contains over 20 carcinogenic compounds, and the smog that smoker and non-smokers breathe in is the same.
+1	As	as	SCONJ	IN	_	3	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	cigarette	cigarette	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	contains	contain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	over	over	ADV	RB	_	9	advmod	_	_
+9	20	20	NUM	CD	NumType=Card	11	nummod	_	_
+10	carcinogenic	carcinogenic	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	compounds	compound	NOUN	NNS	Number=Plur	7	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	24	punct	_	_
+13	and	and	CCONJ	CC	_	24	cc	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	smog	smog	NOUN	NN	Number=Sing	24	nsubj	_	_
+16	that	that	DET	DT	Number=Sing|PronType=Dem	17	det	_	_
+17	smoker	smoker	NOUN	NN	Number=Sing	20	nsubj	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	non-smokers	non-smoker	NOUN	NNS	Number=Plur	17	conj	_	_
+20	breathe	breathe	VERB	VB	VerbForm=Inf	15	acl	_	_
+21	in	in	ADV	RB	_	20	advmod	_	_
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	same	same	ADJ	JJ	Degree=Pos	7	conj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = That means non-smokers in restaurants have equal chances to be killed by toxic smoke.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	non-smokers	non-smoker	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	restaurants	restaurant	NOUN	NNS	Number=Plur	3	nmod	_	_
+6	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	equal	equal	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	chances	chance	NOUN	NNS	Number=Plur	6	obj	_	_
+9	to	to	PART	TO	_	11	mark	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	_	_
+11	killed	kill	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	xcomp	_	_
+12	by	by	ADP	IN	_	14	case	_	_
+13	toxic	toxic	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	smoke	smoke	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Absolutely unfair.
+1	Absolutely	absolutely	ADV	RB	_	2	advmod	_	_
+2	unfair	unfair	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Cigarette smoking is a high cost activity.
+1	Cigarette	cigarette	NOUN	NN	Number=Sing	2	compound	_	_
+2	smoking	smoke	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+5	high	high	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	cost	cost	NOUN	NN	Number=Sing	7	compound	_	_
+7	activity	activity	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 8
+# text = Many smokers pay more than $1000 a month for packages of cigarettes.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	smokers	smoker	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	pay	pay	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	more	more	ADJ	JJR	Degree=Cmp	6	advmod	_	_
+5	than	than	ADP	IN	_	4	fixed	_	_
+6	$	$	SYM	$	_	3	obj	_	SpaceAfter=No
+7	1000	1000	NUM	CD	NumType=Card	6	nummod	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	month	month	NOUN	NN	Number=Sing	3	obl:npmod	_	_
+10	for	for	ADP	IN	_	11	case	_	_
+11	packages	package	NOUN	NNS	Number=Plur	3	obl	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	cigarettes	cigarette	NOUN	NNS	Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = Besides self-finance, the diseases as result of smoke habit increases the financial burden of health care units, as more and more money has to put into the budget for treatments like chemotherapy.
+1	Besides	besides	ADP	IN	_	4	case	_	_
+2	self	self	NOUN	NN	Number=Sing	4	compound	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+4	finance	finance	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	diseases	diseases	NOUN	NNS	Number=Plur	13	nsubj	_	_
+8	as	as	ADP	IN	_	9	case	_	_
+9	result	result	NOUN	NN	Number=Sing	7	nmod	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	smoke	smoke	NOUN	NN	Number=Sing	12	compound	_	_
+12	habit	habit	NOUN	NN	Number=Sing	9	nmod	_	_
+13	increases	increase	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	financial	financial	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	burden	burden	NOUN	NN	Number=Sing	13	obj	_	_
+17	of	of	ADP	IN	_	20	case	_	_
+18	health	health	NOUN	NN	Number=Sing	19	compound	_	_
+19	care	care	NOUN	NN	Number=Sing	20	compound	_	_
+20	units	unit	NOUN	NNS	Number=Plur	16	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	13	punct	_	_
+22	as	as	SCONJ	IN	_	27	mark	_	_
+23	more	more	ADJ	JJR	Degree=Cmp	26	amod	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	more	more	ADJ	JJR	Degree=Cmp	23	conj	_	_
+26	money	money	NOUN	NN	Number=Sing	27	nsubj	_	_
+27	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	put	put	VERB	VB	VerbForm=Inf	27	xcomp	_	_
+30	into	into	ADP	IN	_	32	case	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	budget	budget	NOUN	NN	Number=Sing	29	obl	_	_
+33	for	for	ADP	IN	_	34	case	_	_
+34	treatments	treatment	NOUN	NNS	Number=Plur	32	nmod	_	_
+35	like	like	ADP	IN	_	36	case	_	_
+36	chemotherapy	chemotherapy	NOUN	NN	Number=Sing	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 10
+# text = If the smoke is not proposed, probability of people in touch with toxic gases increases and higher budget should be expected.
+1	If	if	SCONJ	IN	_	6	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	smoke	smoke	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	proposed	propose	VERB	VBN	Tense=Past|VerbForm=Part	8	amod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	probability	probability	NOUN	NN	Number=Sing	22	nsubj:pass	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	people	people	NOUN	NNS	Number=Plur	8	nmod	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	touch	touch	NOUN	NN	Number=Sing	8	nmod	_	_
+13	with	with	ADP	IN	_	16	case	_	_
+14	toxic	toxic	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	gases	gas	NOUN	NNS	Number=Plur	16	compound	_	_
+16	increases	increase	NOUN	NNS	Number=Plur	12	nmod	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	higher	higher	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	budget	budget	NOUN	NN	Number=Sing	16	conj	_	_
+20	should	should	AUX	MD	VerbForm=Fin	22	aux	_	_
+21	be	be	AUX	VB	VerbForm=Inf	22	aux:pass	_	_
+22	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 11
+# text = Of course, smoke smells.
+1	Of	of	ADV	RB	_	5	advmod	_	_
+2	course	course	ADV	RB	_	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	smoke	smoke	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	smells	smell	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 12
+# text = These not only pollute the environment, but also reduce our appetites.
+1	These	these	PRON	DT	Number=Plur|PronType=Dem	4	nsubj	_	_
+2	not	not	ADV	RB	_	4	advmod	_	_
+3	only	only	ADV	RB	_	4	advmod	_	_
+4	pollute	pollute	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	environment	environment	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	but	but	CCONJ	CC	_	10	cc	_	_
+9	also	also	ADV	RB	_	10	advmod	_	_
+10	reduce	reduce	VERB	VB	VerbForm=Inf	4	conj	_	_
+11	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	appetites	appetite	NOUN	NNS	Number=Plur	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = The nasty smell often causes nausea and affecting the nature of dishes.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	nasty	nasty	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	smell	smell	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	often	often	ADV	RB	_	5	advmod	_	_
+5	causes	cause	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	nausea	nausea	NOUN	NN	Number=Sing	5	obj	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	affecting	affect	VERB	VBG	VerbForm=Ger	6	conj	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	nature	nature	NOUN	NN	Number=Sing	8	obj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	dishes	dish	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 14
+# text = One main point is, the smell would also come from smokers.
+1	One	one	NUM	CD	NumType=Card	3	nummod	_	_
+2	main	main	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	point	point	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	smell	smell	ADJ	JJ	Degree=Pos	10	nsubj	_	_
+8	would	would	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	also	also	ADV	RB	_	10	advmod	_	_
+10	come	come	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+11	from	from	ADP	IN	_	12	case	_	_
+12	smokers	smoker	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 15
+# text = Disgusting, right?
+1	Disgusting	disgusting	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	right	right	INTJ	UH	_	1	discourse	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 16
+# text = There are always so many reasons to support the ban of smoke.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	always	always	ADV	RB	_	2	advmod	_	_
+4	so	so	ADV	RB	_	5	advmod	_	_
+5	many	many	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	reasons	reason	NOUN	NNS	Number=Plur	2	nsubj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	support	support	VERB	VB	VerbForm=Inf	6	acl	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	ban	ban	NOUN	NN	Number=Sing	8	obj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	smoke	smoke	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 17
+# text = From now on, public areas like bus stops and shopping malls have already assigned smoke ban, so why not in restaurants?
+1	From	from	ADP	IN	_	3	case	_	_
+2	now	now	ADV	RB	_	3	advmod	_	_
+3	on	on	ADV	RB	_	15	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	public	public	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	areas	area	NOUN	NNS	Number=Plur	15	nsubj	_	_
+7	like	like	ADP	IN	_	9	case	_	_
+8	bus	bus	NOUN	NN	Number=Sing	9	compound	_	_
+9	stops	stop	NOUN	NNS	Number=Plur	6	nmod	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	shopping	shopping	NOUN	NN	Number=Sing	12	compound	_	_
+12	malls	mall	NOUN	NNS	Number=Plur	9	conj	_	_
+13	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	already	already	ADV	RB	_	15	advmod	_	_
+15	assigned	assign	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+16	smoke	smoke	NOUN	NN	Number=Sing	17	compound	_	_
+17	ban	ban	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	15	punct	_	_
+19	so	so	ADV	RB	_	23	advmod	_	_
+20	why	why	ADV	WRB	PronType=Int	23	advmod	_	_
+21	not	not	PART	RB	_	23	advmod	_	_
+22	in	in	ADP	IN	_	23	case	_	_
+23	restaurants	restaurant	NOUN	NNS	Number=Plur	15	parataxis	_	SpaceAfter=No
+24	?	?	PUNCT	.	_	15	punct	_	SpacesAfter=\n
+

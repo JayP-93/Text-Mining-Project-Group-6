@@ -1,0 +1,284 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_084_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Did you ever see No smoking in this area or Smoking is prohibited here?
+1	﻿Did	﻿do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	ever	ever	ADV	RB	_	4	advmod	_	_
+4	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+5	No	no	DET	DT	_	6	det	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	4	obj	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	area	area	NOUN	NN	Number=Sing	6	nmod	_	_
+10	or	or	CCONJ	CC	_	13	cc	_	_
+11	Smoking	smoking	NOUN	NN	Number=Sing	13	nsubj:pass	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	prohibited	prohibit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
+14	here	here	ADV	RB	PronType=Dem	13	advmod	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = As many of you know smoking is bad for your health also secondhand smoking is a big health hazard.
+1	As	as	SCONJ	IN	_	5	mark	_	_
+2	many	many	ADJ	JJ	Degree=Pos	5	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	nmod	_	_
+5	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	bad	bad	ADJ	JJ	Degree=Pos	5	ccomp	_	_
+9	for	for	ADP	IN	_	11	case	_	_
+10	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	health	health	NOUN	NN	Number=Sing	19	obl	_	_
+12	also	also	ADV	RB	_	14	advmod	_	_
+13	secondhand	secondhand	DET	DT	_	14	det	_	_
+14	smoking	smoking	NOUN	NN	Number=Sing	19	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+17	big	big	ADJ	JJ	Degree=Pos	19	amod	_	_
+18	health	health	NOUN	NN	Number=Sing	19	compound	_	_
+19	hazard	hazard	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 3
+# text = So many people designate non-smoking area and They disadvantage for smoker.
+1	So	so	ADV	RB	_	2	advmod	_	_
+2	many	many	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	designate	designate	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	non-smoking	non-smoking	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	area	area	NOUN	NN	Number=Sing	4	obj	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	conj	_	_
+9	disadvantage	disadvantage	NOUN	NN	Number=Sing	4	conj	_	_
+10	for	for	ADP	IN	_	11	case	_	_
+11	smoker	smoker	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = But smoker's right important than non-smoker's right.
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	smoker	smoker	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	's	's	PART	POS	_	2	case	_	_
+4	right	right	ADJ	JJ	Degree=Pos	5	advmod	_	_
+5	important	important	ADJ	JJ	Degree=Pos	2	amod	_	_
+6	than	than	ADP	IN	_	9	case	_	_
+7	non-smoker	non-smoker	NOUN	NN	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+8	's	's	PART	POS	_	7	case	_	_
+9	right	right	ADJ	JJ	Degree=Pos	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = They will say, "I'm the one who smokes.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	say	say	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	SpaceAfter=No
+7	'm	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	one	one	NOUN	NN	Number=Sing	3	ccomp	_	_
+10	who	who	PRON	WP	PronType=Rel	11	nsubj	_	_
+11	smokes	smoke	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Mind your own business!
+1	Mind	mind	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+3	own	own	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	business	business	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = Cigarette is an item of personal preference and the government collects taxes from smoker.
+1	Cigarette	cigarette	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	item	item	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	personal	personal	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	preference	preference	NOUN	NN	Number=Sing	4	nmod	_	_
+8	and	and	CCONJ	CC	_	11	cc	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	government	government	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	collects	collect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+12	taxes	tax	NOUN	NNS	Number=Plur	11	obj	_	_
+13	from	from	ADP	IN	_	14	case	_	_
+14	smoker	smoker	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = In spite of that many other countries are also striving to decrease the number of smokers and have developed a variety of anti-smoking policies.
+1	In	in	ADP	IN	_	2	case	_	_
+2	spite	spite	NOUN	NN	Number=Sing	10	obl	_	_
+3	of	of	ADP	IN	_	7	case	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+5	many	many	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	other	other	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	countries	country	NOUN	NNS	Number=Plur	2	nmod	_	_
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	also	also	ADV	RB	_	10	advmod	_	_
+10	striving	strive	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	decrease	decrease	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	number	number	NOUN	NN	Number=Sing	12	obj	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	smokers	smoker	NOUN	NNS	Number=Plur	14	nmod	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	developed	develop	VERB	VBN	Tense=Past|VerbForm=Part	12	conj	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	variety	variety	NOUN	NN	Number=Sing	19	obj	_	_
+22	of	of	ADP	IN	_	24	case	_	_
+23	anti-smoking	anti-smoking	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	policies	policy	NOUN	NNS	Number=Plur	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 9
+# text = Where smoker is's right?
+1	Where	where	ADV	WRB	PronType=Int	5	advmod	_	_
+2	smoker	smoker	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+4	's	's	PART	POS	_	3	case	_	_
+5	right	right	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 10
+# text = Are they criminal?
+1	Are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	criminal	criminal	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = I think that the government has agreed to lift restrictions on smoker and they're Induce smoker to decide to stop smoking.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	7	mark	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	government	government	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	agreed	agree	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	lift	lift	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	restrictions	restriction	NOUN	NNS	Number=Plur	9	obj	_	_
+11	on	on	ADP	IN	_	12	case	_	_
+12	smoker	smoker	NOUN	NN	Number=Sing	10	nmod	_	_
+13	and	and	CCONJ	CC	_	17	cc	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	SpaceAfter=No
+15	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	Induce	Induce	ADV	RB	NumType=Mult	17	advmod	_	_
+17	smoker	smoker	ADJ	JJR	Degree=Cmp	7	conj	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	decide	decide	VERB	VB	VerbForm=Inf	17	ccomp	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	stop	stop	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	smoking	smoke	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = So restaurants divide the area in to two sections.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	restaurants	restaurant	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	divide	divide	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	area	area	NOUN	NN	Number=Sing	3	obj	_	_
+6	in	in	ADP	IN	_	9	case	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	two	two	NUM	CD	NumType=Card	9	nummod	_	_
+9	sections	section	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 13
+# text = One section is non - smoking area, the other section is smoking area then they're not going to complain to the government about this.
+1	One	one	NUM	CD	NumType=Card	2	nummod	_	_
+2	section	section	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	non	non	X	GW	_	6	advmod	_	_
+5	-	-	PUNCT	HYPH	_	6	punct	_	_
+6	smoking	smoke	NOUN	NN	Number=Sing	7	compound	_	_
+7	area	area	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	other	other	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	section	section	NOUN	NN	Number=Sing	13	nsubj	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	7	parataxis	_	_
+14	area	area	NOUN	NN	Number=Sing	13	obj	_	_
+15	then	then	ADV	RB	PronType=Dem	19	advmod	_	_
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	SpaceAfter=No
+17	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	not	not	PART	RB	_	19	advmod	_	_
+19	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	7	parataxis	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	complain	complain	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	to	to	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	government	government	NOUN	NN	Number=Sing	21	obl	_	_
+25	about	about	ADP	IN	_	26	case	_	_
+26	this	this	PRON	DT	Number=Sing|PronType=Dem	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 14
+# text = Also smokers should try to keep a non-smoker's right.
+1	Also	also	ADV	RB	_	4	advmod	_	_
+2	smokers	smoker	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	try	try	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	keep	keep	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	non-smoker	non-smoker	NOUN	NN	Number=Sing	10	nmod:poss	_	SpaceAfter=No
+9	's	's	PART	POS	_	8	case	_	_
+10	right	right	ADJ	JJ	Degree=Pos	6	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 15
+# text = Then the government doesn't collect taxes and developed a variety of anti-smoking policies.
+1	Then	then	ADV	RB	PronType=Dem	6	advmod	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	government	government	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	n't	not	PART	RB	_	6	advmod	_	_
+6	collect	collect	VERB	VB	VerbForm=Inf	0	root	_	_
+7	taxes	tax	NOUN	NNS	Number=Plur	6	obj	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	developed	develop	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	variety	variety	NOUN	NN	Number=Sing	9	obj	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	anti-smoking	anti-smoking	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	policies	policy	NOUN	NNS	Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 16
+# text = And
+1	And	and	CCONJ	CC	_	0	root	_	_
+
+# sent_id = 17
+# text = In this way, there will be less people smoking and it is possible that this dispute might disappear.
+1	In	in	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	way	way	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	there	there	PRON	EX	_	7	expl	_	_
+6	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+8	less	less	ADJ	JJR	Degree=Cmp	9	amod	_	_
+9	people	people	NOUN	NNS	Number=Plur	10	nsubj	_	_
+10	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	7	ccomp	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	possible	possible	ADJ	JJ	Degree=Pos	10	conj	_	_
+15	that	that	SCONJ	IN	_	19	mark	_	_
+16	this	this	DET	DT	Number=Sing|PronType=Dem	17	det	_	_
+17	dispute	dispute	NOUN	NN	Number=Sing	19	nsubj	_	_
+18	might	might	AUX	MD	VerbForm=Fin	19	aux	_	_
+19	disappear	disappear	VERB	VB	VerbForm=Inf	14	csubj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

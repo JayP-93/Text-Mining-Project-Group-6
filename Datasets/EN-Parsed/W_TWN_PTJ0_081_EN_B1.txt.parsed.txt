@@ -1,0 +1,345 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_TWN_PTJ0_081_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿We college students often heard about peers' part-time job.
+1	﻿We	﻿We	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	college	college	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	students	student	NOUN	NNS	Number=Plur	2	obj	_	_
+4	often	often	ADV	RB	_	5	advmod	_	_
+5	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+6	about	about	ADP	IN	_	12	case	_	_
+7	peers	peer	NOUN	NNS	Number=Plur	12	nmod:poss	_	SpaceAfter=No
+8	'	'	PART	POS	_	7	case	_	_
+9	part	part	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	time	time	NOUN	NN	Number=Sing	12	compound	_	_
+12	job	job	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Some are ridiculous, others maybe funny or meaningful.
+1	Some	some	DET	DT	_	3	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	ridiculous	ridiculous	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	others	other	NOUN	NNS	Number=Plur	7	nsubj	_	_
+6	maybe	maybe	ADV	RB	_	7	advmod	_	_
+7	funny	funny	ADJ	JJ	Degree=Pos	3	parataxis	_	_
+8	or	or	CCONJ	CC	_	9	cc	_	_
+9	meaningful	meaningful	ADJ	JJ	Degree=Pos	7	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Whatever the experience are good or not, it's undoubted that getting par-time job has being more and more important for us.
+1	Whatever	whatever	DET	WDT	PronType=Int	3	det	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	experience	experience	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	good	good	ADJ	JJ	Degree=Pos	0	root	_	_
+6	or	or	CCONJ	CC	_	7	cc	_	_
+7	not	not	PART	RB	_	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj:pass	_	SpaceAfter=No
+10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	undoubted	undoubted	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	parataxis	_	_
+12	that	that	SCONJ	IN	_	20	mark	_	_
+13	getting	get	VERB	VBG	VerbForm=Ger	20	csubj	_	_
+14	par	par	ADJ	JJ	Degree=Pos	16	amod	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No
+16	time	time	NOUN	NN	Number=Sing	17	compound	_	_
+17	job	job	NOUN	NN	Number=Sing	13	obj	_	_
+18	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	being	be	AUX	VBG	VerbForm=Ger	20	cop	_	_
+20	more	more	ADJ	JJR	Degree=Cmp	11	ccomp	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	more	more	ADV	RBR	_	23	advmod	_	_
+23	important	important	ADJ	JJ	Degree=Pos	20	conj	_	_
+24	for	for	ADP	IN	_	25	case	_	_
+25	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Why?
+1	Why	why	ADV	WRB	PronType=Int	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = You might ask.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	might	might	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	ask	ask	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = There still some think it's a waste of time.
+1	There	there	PRON	EX	_	4	discourse	_	_
+2	still	still	ADV	RB	_	4	advmod	_	_
+3	some	some	DET	DT	_	4	nsubj	_	_
+4	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	waste	waste	NOUN	NN	Number=Sing	4	ccomp	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	time	time	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = However, being intelligent in the subject has not enough for this age.
+1	However	however	ADV	RB	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	10	punct	_	_
+3	being	be	AUX	VBG	VerbForm=Ger	4	cop	_	_
+4	intelligent	intelligent	ADJ	JJ	Degree=Pos	10	csubj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	subject	subject	NOUN	NN	Number=Sing	4	obl	_	_
+8	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	enough	enough	ADJ	JJ	Degree=Pos	0	root	_	_
+11	for	for	ADP	IN	_	13	case	_	_
+12	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	age	age	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 8
+# text = In another way, what your boss wants is the real experience in your resume, not just some "good-looking" lines.
+1	In	in	ADP	IN	_	3	case	_	_
+2	another	another	DET	DT	_	3	det	_	_
+3	way	way	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	what	what	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	boss	boss	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	real	real	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	experience	experience	NOUN	NN	Number=Sing	5	parataxis	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	resume	resume	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	25	punct	_	_
+17	not	not	ADV	RB	_	25	advmod	_	_
+18	just	just	ADV	RB	_	25	advmod	_	_
+19	some	some	DET	DT	_	25	det	_	_
+20	"	"	PUNCT	``	_	23	punct	_	SpaceAfter=No
+21	good	good	ADJ	JJ	Degree=Pos	23	amod	_	SpaceAfter=No
+22	-	-	PUNCT	HYPH	_	23	punct	_	SpaceAfter=No
+23	looking	look	NOUN	NN	Number=Sing	25	compound	_	SpaceAfter=No
+24	"	"	PUNCT	''	_	23	punct	_	_
+25	lines	line	NOUN	NNS	Number=Plur	12	conj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = Also, not until you star to work can you learn how to be excellent in your job, and dealing well with your companions.
+1	Also	also	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	not	not	PART	RB	_	6	advmod	_	_
+4	until	until	SCONJ	IN	_	6	mark	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	star	star	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	work	work	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	can	can	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+11	learn	learn	VERB	VB	VerbForm=Inf	6	advcl	_	_
+12	how	how	ADV	WRB	PronType=Int	15	advmod	_	_
+13	to	to	PART	TO	_	15	mark	_	_
+14	be	be	AUX	VB	VerbForm=Inf	15	cop	_	_
+15	excellent	excellent	ADJ	JJ	Degree=Pos	11	xcomp	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	job	job	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	dealing	deal	VERB	VBG	VerbForm=Ger	6	conj	_	_
+22	well	well	ADV	RB	Degree=Pos	21	advmod	_	_
+23	with	with	ADP	IN	_	25	case	_	_
+24	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	companions	companion	NOUN	NNS	Number=Plur	21	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 10
+# text = Thought there are still many ways to train to getting with your teammates, the real working environment can be more complicated.
+1	Thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	advcl	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+4	still	still	ADV	RB	_	5	advmod	_	_
+5	many	many	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	ways	way	NOUN	NNS	Number=Plur	3	nsubj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	train	train	VERB	VB	VerbForm=Inf	6	acl	_	_
+9	to	to	SCONJ	IN	_	10	mark	_	_
+10	getting	get	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+11	with	with	ADP	IN	_	13	case	_	_
+12	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	teammates	teammate	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	22	punct	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+16	real	real	ADJ	JJ	Degree=Pos	18	amod	_	_
+17	working	working	NOUN	NN	Number=Sing	18	compound	_	_
+18	environment	environment	NOUN	NN	Number=Sing	22	nsubj	_	_
+19	can	can	AUX	MD	VerbForm=Fin	22	aux	_	_
+20	be	be	AUX	VB	VerbForm=Inf	22	cop	_	_
+21	more	more	ADV	RBR	_	22	advmod	_	_
+22	complicated	complicated	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 11
+# text = College student need to think more because it might cause big damage whenever one single mistake.
+1	College	college	NOUN	NN	Number=Sing	2	compound	_	_
+2	student	student	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	think	think	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	more	more	ADJ	JJR	Degree=Cmp	5	obj	_	_
+7	because	because	SCONJ	IN	_	10	mark	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	might	might	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	cause	cause	VERB	VB	VerbForm=Inf	3	advcl	_	_
+11	big	big	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	damage	damage	NOUN	NN	Number=Sing	10	obj	_	_
+13	whenever	whenever	ADV	WRB	PronType=Int	16	advmod	_	_
+14	one	one	NUM	CD	NumType=Card	16	nummod	_	_
+15	single	single	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	mistake	mistake	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 12
+# text = In fact, in the material way, most college students getting part-time job just want to earn more money to fill their pockets.
+1	In	in	ADP	IN	_	2	case	_	_
+2	fact	fact	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	18	punct	_	_
+4	in	in	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	material	material	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	way	way	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	18	punct	_	_
+9	most	most	ADJ	JJS	Degree=Sup	11	amod	_	_
+10	college	college	NOUN	NN	Number=Sing	11	compound	_	_
+11	students	student	NOUN	NNS	Number=Plur	18	nsubj	_	_
+12	getting	get	VERB	VBG	VerbForm=Ger	18	aux	_	_
+13	part	part	NOUN	NN	Number=Sing	15	compound	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	15	punct	_	SpaceAfter=No
+15	time	time	NOUN	NN	Number=Sing	16	compound	_	_
+16	job	job	NOUN	NN	Number=Sing	12	obj	_	_
+17	just	just	ADV	RB	_	18	advmod	_	_
+18	want	want	VERB	VB	VerbForm=Inf	0	root	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	earn	earn	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+21	more	more	ADJ	JJR	Degree=Cmp	22	amod	_	_
+22	money	money	NOUN	NN	Number=Sing	20	obj	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	fill	fill	VERB	VB	VerbForm=Inf	20	advcl	_	_
+25	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	pockets	pocket	NOUN	NNS	Number=Plur	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 13
+# text = It's easy to understand when you can't get enough money from your parents; you need to get by yourself.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	easy	easy	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	understand	understand	VERB	VB	VerbForm=Inf	3	csubj	_	_
+6	when	when	ADV	WRB	PronType=Int	10	mark	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+8	ca	can	AUX	MD	VerbForm=Fin	10	aux	_	SpaceAfter=No
+9	n't	not	PART	RB	_	10	advmod	_	_
+10	get	get	VERB	VB	VerbForm=Inf	5	advcl	_	_
+11	enough	enough	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	money	money	NOUN	NN	Number=Sing	10	obj	_	_
+13	from	from	ADP	IN	_	15	case	_	_
+14	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	parents	parent	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	3	punct	_	_
+17	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	_
+18	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	get	get	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+21	by	by	ADP	IN	_	22	case	_	_
+22	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 14
+# text = From then on, you'll gradually have the sense of using money.
+1	From	from	ADP	IN	_	2	case	_	_
+2	then	then	ADV	RB	PronType=Dem	8	obl	_	_
+3	on	on	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	SpaceAfter=No
+6	'll	will	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	gradually	gradually	ADV	RB	_	8	advmod	_	_
+8	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	sense	sense	NOUN	NN	Number=Sing	8	obj	_	_
+11	of	of	SCONJ	IN	_	12	mark	_	_
+12	using	use	VERB	VBG	VerbForm=Ger	10	acl	_	_
+13	money	money	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 15
+# text = You'll be more careful not to being out of control.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	SpaceAfter=No
+2	'll	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+4	more	more	ADV	RBR	_	5	advmod	_	_
+5	careful	careful	ADJ	JJ	Degree=Pos	0	root	_	_
+6	not	not	ADV	RB	_	11	advmod	_	_
+7	to	to	SCONJ	IN	_	11	mark	_	_
+8	being	be	AUX	VBG	VerbForm=Ger	11	cop	_	_
+9	out	out	ADP	IN	_	11	case	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	control	control	NOUN	NN	Number=Sing	5	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 16
+# text = I think our college life shouldn't just 'in the campuses' but more.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	college	college	NOUN	NN	Number=Sing	5	compound	_	_
+5	life	life	NOUN	NN	Number=Sing	12	nsubj	_	_
+6	should	should	AUX	MD	VerbForm=Fin	12	aux	_	SpaceAfter=No
+7	n't	not	PART	RB	_	12	advmod	_	_
+8	just	just	ADV	RB	_	12	advmod	_	_
+9	'	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	campuses	campus	NOUN	NNS	Number=Plur	2	ccomp	_	SpaceAfter=No
+13	'	'	PUNCT	''	_	12	punct	_	_
+14	but	but	CCONJ	CC	_	15	cc	_	_
+15	more	more	ADJ	JJR	Degree=Cmp	12	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 17
+# text = Part-time job is a good way to us prepare for stepping into the real social system.
+1	Part	part	NOUN	NN	Number=Sing	3	compound	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No
+3	time	time	NOUN	NN	Number=Sing	4	compound	_	_
+4	job	job	NOUN	NN	Number=Sing	8	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	good	good	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	way	way	NOUN	NN	Number=Sing	0	root	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	8	nmod	_	_
+11	prepare	prepare	VERB	VB	VerbForm=Inf	8	acl	_	_
+12	for	for	SCONJ	IN	_	13	mark	_	_
+13	stepping	stepping	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+14	into	into	ADP	IN	_	18	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+16	real	real	ADJ	JJ	Degree=Pos	18	amod	_	_
+17	social	social	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	system	system	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 18
+# text = It is important for us.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

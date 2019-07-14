@@ -1,0 +1,290 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_SIN_SMK0_116_EN_B2.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking will give 2nd hand smoke that harms surrounding patrons.
+1	﻿Smoking	﻿Smok	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	give	give	VERB	VB	VerbForm=Inf	0	root	_	_
+4	2nd	2nd	ADJ	JJ	Degree=Pos|NumType=Ord	6	amod	_	_
+5	hand	hand	NOUN	NN	Number=Sing	6	compound	_	_
+6	smoke	smoke	NOUN	NN	Number=Sing	3	obj	_	_
+7	that	that	PRON	WDT	PronType=Rel	8	nsubj	_	_
+8	harms	harm	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	surrounding	surround	VERB	VBG	VerbForm=Ger	10	amod	_	_
+10	patrons	patron	NOUN	NNS	Number=Plur	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = This is called negative externality.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj:pass	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	negative	negative	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	externality	externality	NOUN	NN	Number=Sing	3	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = The "harm" has a few components that makes it really unacceptable to patrons.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+3	harm	harm	NOUN	NN	Number=Sing	5	nsubj	_	SpaceAfter=No
+4	"	"	PUNCT	''	_	3	punct	_	_
+5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	few	few	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	components	component	NOUN	NNS	Number=Plur	5	obj	_	_
+9	that	that	PRON	WDT	PronType=Rel	10	nsubj	_	_
+10	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
+12	really	really	ADV	RB	_	13	advmod	_	_
+13	unacceptable	unacceptable	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	patrons	patron	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = One component is psychological stress, because the smell of smoke itself may be stressful to patrons who are negative towards smoking and feel choked by the smell.
+1	One	one	NUM	CD	NumType=Card	2	nummod	_	_
+2	component	component	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	psychological	psychological	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	stress	stress	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	because	because	SCONJ	IN	_	15	mark	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	smell	smell	NOUN	NN	Number=Sing	15	nsubj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	smoke	smoke	NOUN	NN	Number=Sing	9	nmod	_	_
+12	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nmod:npmod	_	_
+13	may	may	AUX	MD	VerbForm=Fin	15	aux	_	_
+14	be	be	AUX	VB	VerbForm=Inf	15	cop	_	_
+15	stressful	stressful	ADJ	JJ	Degree=Pos	5	advcl	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	patrons	patron	NOUN	NNS	Number=Plur	15	obl	_	_
+18	who	who	PRON	WP	PronType=Rel	20	nsubj	_	_
+19	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	negative	negative	ADJ	JJ	Degree=Pos	17	acl:relcl	_	_
+21	towards	towards	ADP	IN	_	22	case	_	_
+22	smoking	smoke	NOUN	NN	Number=Sing	20	obl	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	feel	feel	VERB	VB	VerbForm=Inf	20	conj	_	_
+25	choked	chok	VERB	VBN	Tense=Past|VerbForm=Part	24	xcomp	_	_
+26	by	by	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	smell	smell	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Another component is actual health concerns such as increased risk of diseases such as lung cancer.
+1	Another	another	DET	DT	_	2	det	_	_
+2	component	component	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	actual	actual	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	health	health	NOUN	NN	Number=Sing	6	compound	_	_
+6	concerns	concern	NOUN	NNS	Number=Plur	0	root	_	_
+7	such	such	ADJ	JJ	Degree=Pos	10	case	_	_
+8	as	as	ADP	IN	_	7	fixed	_	_
+9	increased	increase	VERB	VBN	Tense=Past|VerbForm=Part	10	amod	_	_
+10	risk	risk	NOUN	NN	Number=Sing	6	nmod	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	diseases	disease	NOUN	NNS	Number=Plur	10	nmod	_	_
+13	such	such	ADJ	JJ	Degree=Pos	16	case	_	_
+14	as	as	ADP	IN	_	13	fixed	_	_
+15	lung	lung	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	cancer	cancer	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Other less significant components include the risk of fire and the encouragement of smoking among teens who observe the activity.
+1	Other	other	ADV	RB	_	2	advmod	_	_
+2	less	less	ADV	RBR	Degree=Cmp	3	advmod	_	_
+3	significant	significant	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	components	component	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	include	include	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	risk	risk	NOUN	NN	Number=Sing	5	obj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	fire	fire	NOUN	NN	Number=Sing	7	nmod	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	encouragement	encouragement	NOUN	NN	Number=Sing	9	conj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	smoking	smoking	NOUN	NN	Number=Sing	12	nmod	_	_
+15	among	among	ADP	IN	_	16	case	_	_
+16	teens	teens	NOUN	NNS	Number=Plur	14	nmod	_	_
+17	who	who	PRON	WP	PronType=Rel	18	nsubj	_	_
+18	observe	observe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	activity	activity	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 7
+# text = One aggravating factor is that people tend to stay quite long in restuarants to chit chat, and if a smoker just sits there for a long time and keep puffing away without moving away, the problem is that the 2nd hand smoke gets concentrated in the restuarant unlike in the streets where the wind disperses the smoke so what happens is that the health risks and stress level are MAGNIFIED in a restaurant setting.
+1	One	one	NUM	CD	NumType=Card	3	nummod	_	_
+2	aggravating	aggravate	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	factor	factor	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	IN	_	7	mark	_	_
+6	people	people	NOUN	NNS	Number=Plur	7	nsubj	_	_
+7	tend	tend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	stay	stay	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	quite	quite	ADV	RB	_	11	advmod	_	_
+11	long	long	ADV	RB	Degree=Pos	9	advmod	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	restuarants	restuarant	NOUN	NNS	Number=Plur	9	obl	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	chit	chit	VERB	VB	VerbForm=Inf	9	advcl	_	_
+16	chat	chat	PRON	WP	PronType=Int	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	23	punct	_	_
+18	and	and	CCONJ	CC	_	23	cc	_	_
+19	if	if	SCONJ	IN	_	23	mark	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	smoker	smoker	NOUN	NN	Number=Sing	23	nsubj	_	_
+22	just	just	ADV	RB	_	23	advmod	_	_
+23	sits	sit	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+24	there	there	ADV	RB	PronType=Dem	23	advmod	_	_
+25	for	for	ADP	IN	_	28	case	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+27	long	long	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	time	time	NOUN	NN	Number=Sing	23	obl	_	_
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	keep	keep	VERB	VB	VerbForm=Inf	4	conj	_	_
+31	puffing	puff	VERB	VBG	VerbForm=Ger	30	xcomp	_	_
+32	away	away	ADV	RB	_	31	advmod	_	_
+33	without	without	SCONJ	IN	_	34	mark	_	_
+34	moving	move	VERB	VBG	VerbForm=Ger	30	advcl	_	_
+35	away	away	ADV	RB	_	34	advmod	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	4	punct	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	problem	problem	NOUN	NN	Number=Sing	39	nsubj	_	_
+39	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+40	that	that	SCONJ	IN	_	45	mark	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	44	det	_	_
+42	2nd	2nd	ADJ	JJ	Degree=Pos|NumType=Ord	43	amod	_	_
+43	hand	hand	NOUN	NN	Number=Sing	44	compound	_	_
+44	smoke	smoke	NOUN	NN	Number=Sing	45	nsubj	_	_
+45	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	ccomp	_	_
+46	concentrated	concentrate	VERB	VBN	Tense=Past|VerbForm=Part	45	xcomp	_	_
+47	in	in	ADP	IN	_	49	case	_	_
+48	the	the	DET	DT	Definite=Def|PronType=Art	49	det	_	_
+49	restuarant	restuarant	NOUN	NN	Number=Sing	46	obl	_	_
+50	unlike	unlike	ADP	IN	_	46	obl	_	_
+51	in	in	ADP	IN	_	53	case	_	_
+52	the	the	DET	DT	Definite=Def|PronType=Art	53	det	_	_
+53	streets	street	NOUN	NNS	Number=Plur	4	nmod	_	_
+54	where	where	ADV	WRB	PronType=Rel	57	advmod	_	_
+55	the	the	DET	DT	Definite=Def|PronType=Art	56	det	_	_
+56	wind	wind	NOUN	NN	Number=Sing	57	nsubj	_	_
+57	disperses	disperse	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	acl:relcl	_	_
+58	the	the	DET	DT	Definite=Def|PronType=Art	59	det	_	_
+59	smoke	smoke	NOUN	NN	Number=Sing	57	obj	_	_
+60	so	so	SCONJ	IN	_	62	mark	_	_
+61	what	what	PRON	WP	PronType=Int	62	nsubj	_	_
+62	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	57	advcl	_	_
+63	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	62	conj	_	_
+64	that	that	SCONJ	IN	_	72	mark	_	_
+65	the	the	DET	DT	Definite=Def|PronType=Art	67	det	_	_
+66	health	health	NOUN	NN	Number=Sing	67	compound	_	_
+67	risks	risk	NOUN	NNS	Number=Plur	72	nsubj:pass	_	_
+68	and	and	CCONJ	CC	_	70	cc	_	_
+69	stress	stress	NOUN	NN	Number=Sing	70	compound	_	_
+70	level	level	NOUN	NN	Number=Sing	67	conj	_	_
+71	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	72	aux:pass	_	_
+72	MAGNIFIED	Magnify	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	63	ccomp	_	_
+73	in	in	ADP	IN	_	76	case	_	_
+74	a	a	DET	DT	Definite=Ind|PronType=Art	76	det	_	_
+75	restaurant	restaurant	NOUN	NN	Number=Sing	76	compound	_	_
+76	setting	set	NOUN	NN	Number=Sing	72	obl	_	SpaceAfter=No
+77	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = Another aggravating factor is the population density in a restaurant.
+1	Another	another	DET	DT	_	3	det	_	_
+2	aggravating	aggravating	NOUN	NN	Number=Sing	3	compound	_	_
+3	factor	factor	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	population	population	NOUN	NN	Number=Sing	7	compound	_	_
+7	density	density	NOUN	NN	Number=Sing	0	root	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	restaurant	restaurant	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 9
+# text = Usually, in singapore at least, there are smoking corners for smokers to smoke where they harm only themselves and not innocent bystanders.
+1	Usually	usually	ADV	RB	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	9	punct	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	singapore	singapore	ADJ	JJ	Degree=Pos	9	obl	_	_
+5	at	at	ADV	RB	_	4	advmod	_	_
+6	least	least	ADV	RBS	Degree=Sup	5	fixed	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	there	there	PRON	EX	_	9	expl	_	_
+9	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	11	compound	_	_
+11	corners	corner	NOUN	NNS	Number=Plur	9	nsubj	_	_
+12	for	for	ADP	IN	_	13	case	_	_
+13	smokers	smoker	NOUN	NNS	Number=Plur	11	nmod	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	smoke	smoke	VERB	VB	VerbForm=Inf	13	acl	_	_
+16	where	where	ADV	WRB	PronType=Int	18	advmod	_	_
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
+18	harm	harm	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+19	only	only	ADV	RB	_	20	advmod	_	_
+20	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	18	obj	_	_
+21	and	and	CCONJ	CC	_	24	cc	_	_
+22	not	not	ADV	RB	_	23	advmod	_	_
+23	innocent	innocent	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	bystanders	bystander	NOUN	NNS	Number=Plur	18	conj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 10
+# text = But in a restuarant not only are there a lot of bystanders but the density of bystanders is a lot higher than in the streets and even the level of bystander in the streets is higher than that of bystanders at a smoking corner.
+1	But	but	CCONJ	CC	_	8	cc	_	_
+2	in	in	ADP	IN	_	4	case	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	restuarant	restuarant	NOUN	NN	Number=Sing	8	obl	_	_
+5	not	not	ADV	RB	_	6	advmod	_	_
+6	only	only	ADV	RB	_	4	advmod	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	there	there	PRON	EX	_	36	expl	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	lot	lot	NOUN	NN	Number=Sing	36	nsubj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	bystanders	bystander	NOUN	NNS	Number=Plur	10	nmod	_	_
+13	but	but	CCONJ	CC	_	21	cc	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	density	density	NOUN	NN	Number=Sing	21	nsubj	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	bystanders	bystander	NOUN	NNS	Number=Plur	15	nmod	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	lot	lot	NOUN	NN	Number=Sing	21	obl:npmod	_	_
+21	higher	higher	ADJ	JJR	Degree=Cmp	10	conj	_	_
+22	than	than	ADP	IN	_	25	case	_	_
+23	in	in	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	streets	street	NOUN	NNS	Number=Plur	21	obl	_	_
+26	and	and	CCONJ	CC	_	29	cc	_	_
+27	even	even	ADV	RB	_	29	advmod	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	level	level	NOUN	NN	Number=Sing	10	conj	_	_
+30	of	of	ADP	IN	_	31	case	_	_
+31	bystander	bystander	NOUN	NN	Number=Sing	29	nmod	_	_
+32	in	in	ADP	IN	_	34	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	streets	street	NOUN	NNS	Number=Plur	29	nmod	_	_
+35	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
+36	higher	higher	ADJ	JJR	Degree=Cmp	0	root	_	_
+37	than	than	ADP	IN	_	38	case	_	_
+38	that	that	PRON	DT	Number=Sing|PronType=Dem	36	obl	_	_
+39	of	of	ADP	IN	_	40	case	_	_
+40	bystanders	bystander	NOUN	NNS	Number=Plur	38	nmod	_	_
+41	at	at	ADP	IN	_	44	case	_	_
+42	a	a	DET	DT	Definite=Ind|PronType=Art	44	det	_	_
+43	smoking	smoking	NOUN	NN	Number=Sing	44	compound	_	_
+44	corner	corner	NOUN	NN	Number=Sing	36	obl	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	36	punct	_	SpacesAfter=\s\n
+

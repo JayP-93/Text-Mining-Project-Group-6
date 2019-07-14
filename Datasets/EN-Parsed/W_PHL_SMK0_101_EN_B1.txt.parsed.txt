@@ -1,0 +1,332 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PHL_SMK0_101_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking does not just have ill-effects on the smoker, it is a public health hazard.
+1	﻿Smoking	﻿Smoking	NOUN	NN	Number=Sing	5	nsubj	_	_
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	just	just	ADV	RB	_	5	advmod	_	_
+5	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+6	ill	ill	ADJ	JJ	Degree=Pos	8	amod	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	effects	effect	NOUN	NNS	Number=Plur	5	obj	_	_
+9	on	on	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	smoker	smoker	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	5	punct	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+16	public	public	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	health	health	NOUN	NN	Number=Sing	18	compound	_	_
+18	hazard	hazard	NOUN	NN	Number=Sing	5	parataxis	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Second-hand smoke is dangerous when a person is constantly exposed to it, but just one exposure can be dangerous to people with pre-existing conditions.
+1	Second	second	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No
+3	hand	hand	NOUN	NN	Number=Sing	4	compound	_	_
+4	smoke	smoke	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	dangerous	dangerous	ADJ	JJ	Degree=Pos	0	root	_	_
+7	when	when	ADV	WRB	PronType=Int	12	mark	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	person	person	NOUN	NN	Number=Sing	12	nsubj:pass	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+11	constantly	constantly	ADV	RB	_	12	advmod	_	_
+12	exposed	expose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	_	_
+13	to	to	ADP	IN	_	14	case	_	_
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	22	punct	_	_
+16	but	but	CCONJ	CC	_	22	cc	_	_
+17	just	just	ADV	RB	_	19	advmod	_	_
+18	one	one	NUM	CD	NumType=Card	19	nummod	_	_
+19	exposure	exposure	NOUN	NN	Number=Sing	22	nsubj	_	_
+20	can	can	AUX	MD	VerbForm=Fin	22	aux	_	_
+21	be	be	AUX	VB	VerbForm=Inf	22	cop	_	_
+22	dangerous	dangerous	ADJ	JJ	Degree=Pos	6	conj	_	_
+23	to	to	ADP	IN	_	24	case	_	_
+24	people	people	NOUN	NNS	Number=Plur	22	obl	_	_
+25	with	with	ADP	IN	_	27	case	_	_
+26	pre-existing	pre-existing	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	conditions	condition	NOUN	NNS	Number=Plur	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = As of 2010, legislation across the United States has banned smoking in restaurants to protect restaurant workers and non-smoking patrons.
+1	As	as	ADP	IN	_	3	case	_	_
+2	of	of	ADP	IN	_	1	fixed	_	_
+3	2010	2010	NUM	CD	NumType=Card	11	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	legislation	legislation	NOUN	NN	Number=Sing	11	nsubj	_	_
+6	across	across	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	United	United	PROPN	NNP	Number=Sing	9	compound	_	_
+9	States	States	PROPN	NNP	Number=Sing	5	nmod	_	_
+10	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+12	smoking	smoke	NOUN	NN	Number=Sing	11	obj	_	_
+13	in	in	ADP	IN	_	14	case	_	_
+14	restaurants	restaurant	NOUN	NNS	Number=Plur	11	obl	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	protect	protect	VERB	VB	VerbForm=Inf	11	advcl	_	_
+17	restaurant	restaurant	NOUN	NN	Number=Sing	18	compound	_	_
+18	workers	worker	NOUN	NNS	Number=Plur	16	obj	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	non-smoking	non-smoking	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	patrons	patron	NOUN	NNS	Number=Plur	18	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 4
+# text = Long-term exposure to cigarette smoke leads to long-term ill health effects.
+1	Long	long	ADJ	JJ	Degree=Pos	3	amod	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No
+3	term	term	NOUN	NN	Number=Sing	0	root	_	_
+4	exposure	exposure	NOUN	NN	Number=Sing	3	parataxis	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	cigarette	cigarette	VERB	VB	VerbForm=Inf	4	acl	_	_
+7	smoke	smoke	NOUN	NN	Number=Sing	8	compound	_	_
+8	leads	lead	NOUN	NNS	Number=Plur	6	obj	_	_
+9	to	to	ADP	IN	_	15	case	_	_
+10	long	long	ADJ	JJ	Degree=Pos	12	amod	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	term	term	NOUN	NN	Number=Sing	15	compound	_	_
+13	ill	ill	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	health	health	NOUN	NN	Number=Sing	15	compound	_	_
+15	effects	effect	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Those who inhale second-hand smoke on a regular basis have the same risks as smokers.
+1	Those	those	PRON	DT	Number=Plur|PronType=Dem	12	nsubj	_	_
+2	who	who	PRON	WP	PronType=Rel	3	nsubj	_	_
+3	inhale	inhale	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	6	amod	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	hand	hand	NOUN	NN	Number=Sing	7	compound	_	_
+7	smoke	smoke	NOUN	NN	Number=Sing	3	obj	_	_
+8	on	on	ADP	IN	_	11	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	regular	regular	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	basis	basis	NOUN	NN	Number=Sing	7	nmod	_	_
+12	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	same	same	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	risks	risk	NOUN	NNS	Number=Plur	12	obj	_	_
+16	as	as	ADP	IN	_	17	case	_	_
+17	smokers	smoker	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 6
+# text = These include cancer, heart disease and emphysema.
+1	These	these	PRON	DT	Number=Plur|PronType=Dem	2	nsubj	_	_
+2	include	include	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	cancer	cancer	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	heart	heart	NOUN	NN	Number=Sing	6	compound	_	_
+6	disease	disease	NOUN	NN	Number=Sing	3	conj	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	emphysema	emphysema	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Restaurant workers in businesses that allow smoking showed detectable levels of NNK.
+1	Restaurant	Restaurant	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	workers	worker	NOUN	NNS	Number=Plur	0	root	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	businesses	business	NOUN	NNS	Number=Plur	2	nmod	_	_
+5	that	that	PRON	WDT	PronType=Rel	6	nsubj	_	_
+6	allow	allow	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	showed	show	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+9	detectable	detectable	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	levels	level	NOUN	NNS	Number=Plur	8	obj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	NNK.	NNK.	PROPN	NNP	Number=Sing	10	nmod	_	_
+
+# sent_id = 8
+# text = NNK is a carcinogen in cigarettes that has been directly linked to the development of lung cancer.
+1	NNK	NNK	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	carcinogen	carcinogen	NOUN	NN	Number=Sing	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	cigarettes	cigarettes	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	that	that	PRON	WDT	PronType=Rel	11	nsubj:pass	_	_
+8	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+9	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	aux:pass	_	_
+10	directly	directly	ADV	RB	_	11	advmod	_	_
+11	linked	link	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+12	to	to	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	development	development	NOUN	NN	Number=Sing	11	obl	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	lung	lung	NOUN	NN	Number=Sing	17	compound	_	_
+17	cancer	cancer	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = In 2004, the University of California conducted a study, which found the banning of smoking reduced heart attacks by as much as one-fifth.
+1	In	in	ADP	IN	_	2	case	_	_
+2	2004	2004	NUM	CD	NumType=Card	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	University	University	PROPN	NNP	Number=Sing	8	nsubj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	California	California	PROPN	NNP	Number=Sing	5	nmod	_	_
+8	conducted	conduct	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	study	study	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	which	which	PRON	WDT	PronType=Rel	13	nsubj	_	_
+13	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	banning	banning	NOUN	NN	Number=Sing	13	obj	_	_
+16	of	of	ADP	IN	_	20	case	_	_
+17	smoking	smoking	NOUN	NN	Number=Sing	20	compound	_	_
+18	reduced	reduce	VERB	VBN	Tense=Past|VerbForm=Part	20	amod	_	_
+19	heart	heart	NOUN	NN	Number=Sing	20	compound	_	_
+20	attacks	attack	NOUN	NNS	Number=Plur	15	nmod	_	_
+21	by	by	ADP	IN	_	23	case	_	_
+22	as	as	ADV	RB	_	23	advmod	_	_
+23	much	much	ADJ	JJ	Degree=Pos	25	obl	_	_
+24	as	as	ADP	IN	_	25	case	_	_
+25	one	one	NUM	CD	NumType=Card	13	obl	_	SpaceAfter=No
+26	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+27	fifth	fifth	ADV	RB	_	8	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 10
+# text = Finland also has a ban on smoking in restaurants and a study by the Finnish Institute of Occupational Health found the number of sick days in the workplace was reduced by thousands.
+1	Finland	Finland	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	also	also	ADV	RB	_	3	advmod	_	_
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	ban	ban	NOUN	NN	Number=Sing	20	nsubj	_	_
+6	on	on	ADP	IN	_	7	case	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	5	nmod	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	restaurants	restaurant	NOUN	NNS	Number=Plur	7	nmod	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	study	study	NOUN	NN	Number=Sing	7	conj	_	_
+13	by	by	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	Finnish	Finnish	PROPN	NNP	Number=Sing	16	compound	_	_
+16	Institute	Institute	PROPN	NNP	Number=Sing	12	nmod	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	Occupational	Occupational	PROPN	NNP	Number=Sing	16	nmod	_	_
+19	Health	Health	PROPN	NNP	Number=Sing	18	flat	_	_
+20	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	number	number	NOUN	NN	Number=Sing	30	nsubj:pass	_	_
+23	of	of	ADP	IN	_	25	case	_	_
+24	sick	sick	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	days	day	NOUN	NNS	Number=Plur	22	nmod	_	_
+26	in	in	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	workplace	workplace	NOUN	NN	Number=Sing	25	nmod	_	_
+29	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	aux:pass	_	_
+30	reduced	reduce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	ccomp	_	_
+31	by	by	ADP	IN	_	32	case	_	_
+32	thousands	thousand	NOUN	NNS	Number=Plur	30	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = A proposed ban on smoking in restaurants, bars and cafés has spurred a debate about how the economic consequences will weigh out, as those against the ban caution that bars and restaurants, as well as state revenue, will suffer if fewer people buy cigarettes, while supporters of the ban say the overall improved health of citizens will make up for any losses.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	proposed	propose	VERB	VBN	Tense=Past|VerbForm=Part	3	amod	_	_
+3	ban	ban	NOUN	NN	Number=Sing	13	nsubj	_	_
+4	on	on	ADP	IN	_	5	case	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	3	nmod	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	restaurants	restaurant	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	bars	bar	NOUN	NNS	Number=Plur	7	conj	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	cafés	café	NOUN	NNS	Number=Plur	7	conj	_	_
+12	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	spurred	spur	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	debate	debate	NOUN	NN	Number=Sing	13	obj	_	_
+16	about	about	SCONJ	IN	_	22	mark	_	_
+17	how	how	ADV	WRB	PronType=Int	22	advmod	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	economic	economic	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	consequences	consequence	NOUN	NNS	Number=Plur	22	nsubj	_	_
+21	will	will	AUX	MD	VerbForm=Fin	22	aux	_	_
+22	weigh	weigh	VERB	VB	VerbForm=Inf	15	acl	_	_
+23	out	out	ADV	RB	_	22	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	22	punct	_	_
+25	as	as	ADP	IN	_	26	case	_	_
+26	those	those	PRON	DT	Number=Plur|PronType=Dem	22	obl	_	_
+27	against	against	ADP	IN	_	30	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+29	ban	ban	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	caution	caution	NOUN	NN	Number=Sing	26	nmod	_	_
+31	that	that	SCONJ	IN	_	43	mark	_	_
+32	bars	bar	NOUN	NNS	Number=Plur	43	nsubj	_	_
+33	and	and	CCONJ	CC	_	34	cc	_	_
+34	restaurants	restaurant	NOUN	NNS	Number=Plur	32	conj	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	32	punct	_	_
+36	as	as	ADV	RB	_	40	cc	_	_
+37	well	well	ADV	RB	Degree=Pos	36	fixed	_	_
+38	as	as	ADP	IN	_	36	fixed	_	_
+39	state	state	NOUN	NN	Number=Sing	40	compound	_	_
+40	revenue	revenue	NOUN	NN	Number=Sing	32	conj	_	SpaceAfter=No
+41	,	,	PUNCT	,	_	43	punct	_	_
+42	will	will	AUX	MD	VerbForm=Fin	43	aux	_	_
+43	suffer	suffer	VERB	VB	VerbForm=Inf	30	acl	_	_
+44	if	if	SCONJ	IN	_	47	mark	_	_
+45	fewer	fewer	ADJ	JJR	Degree=Cmp	46	amod	_	_
+46	people	people	NOUN	NNS	Number=Plur	47	nsubj	_	_
+47	buy	buy	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	43	advcl	_	_
+48	cigarettes	cigarette	NOUN	NNS	Number=Plur	47	obj	_	SpaceAfter=No
+49	,	,	PUNCT	,	_	43	punct	_	_
+50	while	while	SCONJ	IN	_	55	mark	_	_
+51	supporters	supporter	NOUN	NNS	Number=Plur	55	nsubj	_	_
+52	of	of	ADP	IN	_	54	case	_	_
+53	the	the	DET	DT	Definite=Def|PronType=Art	54	det	_	_
+54	ban	ban	NOUN	NN	Number=Sing	51	nmod	_	_
+55	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	43	advcl	_	_
+56	the	the	DET	DT	Definite=Def|PronType=Art	59	det	_	_
+57	overall	overall	ADJ	JJ	Degree=Pos	59	amod	_	_
+58	improved	improve	ADJ	JJ	Degree=Pos	59	amod	_	_
+59	health	health	NOUN	NN	Number=Sing	63	nsubj	_	_
+60	of	of	ADP	IN	_	61	case	_	_
+61	citizens	citizen	NOUN	NNS	Number=Plur	59	nmod	_	_
+62	will	will	AUX	MD	VerbForm=Fin	63	aux	_	_
+63	make	make	VERB	VB	VerbForm=Inf	55	ccomp	_	_
+64	up	up	ADP	RP	_	63	compound:prt	_	_
+65	for	for	ADP	IN	_	67	case	_	_
+66	any	any	DET	DT	_	67	det	_	_
+67	losses	loss	NOUN	NNS	Number=Plur	63	obl	_	SpaceAfter=No
+68	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 12
+# text = Banning smoking in restaurants has thus proven an excellent measure for keeping clean various pipes in musical instruments as well as in humans
+1	Banning	Bann	VERB	VBG	VerbForm=Ger	2	amod	_	_
+2	smoking	smoking	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	restaurants	restaurant	NOUN	NNS	Number=Plur	2	nmod	_	_
+5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	thus	thus	ADV	RB	_	7	advmod	_	_
+7	proven	prove	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	excellent	excellent	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	measure	measure	NOUN	NN	Number=Sing	7	obj	_	_
+11	for	for	SCONJ	IN	_	12	mark	_	_
+12	keeping	keep	VERB	VBG	VerbForm=Ger	10	acl	_	_
+13	clean	clean	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	various	various	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	pipes	pipe	NOUN	NNS	Number=Plur	12	obj	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	musical	musical	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	instruments	instrument	NOUN	NNS	Number=Plur	12	obl	_	_
+19	as	as	ADV	RB	_	12	advmod	_	_
+20	well	well	ADV	RB	Degree=Pos	19	fixed	_	_
+21	as	as	ADP	IN	_	23	case	_	_
+22	in	in	ADP	IN	_	23	case	_	_
+23	humans	human	NOUN	NNS	Number=Plur	7	obl	_	SpacesAfter=\n
+

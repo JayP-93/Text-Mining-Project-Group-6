@@ -1,0 +1,254 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_060_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿Cigarette smoking in the dining room is a non-gentlemanly behavior.
+1	﻿Cigarette	﻿Cigarette	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	smoking	smoke	NOUN	NN	Number=Sing	10	nsubj	_	_
+3	in	in	ADP	IN	_	6	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	dining	dining	NOUN	NN	Number=Sing	6	compound	_	_
+6	room	room	NOUN	NN	Number=Sing	2	nmod	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	non-gentlemanly	non-gentlemanly	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	behavior	behavior	NOUN	NN	Number=Sing	1	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Persons who smoke cigarettes, but smoke the other hand, because the person does not smoke in a restaurant should not act.
+1	Persons	person	NOUN	NNS	Number=Plur	0	root	_	_
+2	who	who	PRON	WP	PronType=Rel	3	nsubj	_	_
+3	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	cigarettes	cigarette	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	but	but	CCONJ	CC	_	7	cc	_	_
+7	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	conj	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	other	other	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	hand	hand	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	7	punct	_	_
+12	because	because	SCONJ	IN	_	17	mark	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	person	person	NOUN	NN	Number=Sing	17	nsubj	_	_
+15	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	not	not	PART	RB	_	17	advmod	_	_
+17	smoke	smoke	VERB	VB	VerbForm=Inf	7	advcl	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	restaurant	restaurant	NOUN	NN	Number=Sing	23	obl	_	_
+21	should	should	AUX	MD	VerbForm=Fin	23	aux	_	_
+22	not	not	PART	RB	_	23	advmod	_	_
+23	act	act	VERB	VB	VerbForm=Inf	17	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = Tobacco is harmful to the body with various carcinogens in secondhand smoke to non-smoker to damage to the human body is enormous.
+1	Tobacco	Tobacco	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	harmful	harmful	ADJ	JJ	Degree=Pos	22	nsubj	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	body	body	NOUN	NN	Number=Sing	3	obl	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	various	various	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	carcinogens	carcinogen	NOUN	NNS	Number=Plur	6	nmod	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	secondhand	secondhand	DET	DT	_	12	det	_	_
+12	smoke	smoke	NOUN	NN	Number=Sing	3	obl	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	non-smoker	non-smoker	VERB	VB	VerbForm=Inf	3	acl	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	damage	damage	VERB	VB	VerbForm=Inf	14	advcl	_	_
+17	to	to	ADP	IN	_	20	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	human	human	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	body	body	NOUN	NN	Number=Sing	16	obl	_	_
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	enormous	enormous	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 4
+# text = The findings also demonstrate more than two persons next to cigarette smoking and secondhand smoke is more harmful to the people around him because it hurts to think that you need.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	findings	finding	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	also	also	ADV	RB	_	4	advmod	_	_
+4	demonstrate	demonstrate	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	more	more	ADJ	JJR	Degree=Cmp	7	advmod	_	_
+6	than	than	ADP	IN	_	5	fixed	_	_
+7	two	two	NUM	CD	NumType=Card	8	nummod	_	_
+8	persons	person	NOUN	NNS	Number=Plur	4	obj	_	_
+9	next	next	ADV	RB	_	11	advmod	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	cigarette	cigarette	VERB	VB	VerbForm=Inf	8	acl	_	_
+12	smoking	smoking	NOUN	NN	Number=Sing	11	obj	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	secondhand	secondhand	NOUN	NN	Number=Sing	15	compound	_	_
+15	smoke	smoke	NOUN	NN	Number=Sing	12	conj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	more	more	ADV	RBR	_	18	advmod	_	_
+18	harmful	harmful	ADJ	JJ	Degree=Pos	4	ccomp	_	_
+19	to	to	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	people	people	NOUN	NNS	Number=Plur	18	obl	_	_
+22	around	around	ADP	IN	_	23	case	_	_
+23	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nmod	_	_
+24	because	because	SCONJ	IN	_	26	mark	_	_
+25	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+26	hurts	hurt	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	think	think	VERB	VB	VerbForm=Inf	26	xcomp	_	_
+29	that	that	SCONJ	IN	_	31	mark	_	_
+30	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	31	nsubj	_	_
+31	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	28	ccomp	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = When I started right at the restaurant and tobacco smell and taste in the food they're eating all the symptoms that cause paralysis due to be off-line to enjoy the flavor of the food so the smell of cigarettes are just as offensive to the people.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	started	start	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	right	right	ADV	RB	_	3	advmod	_	_
+5	at	at	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	restaurant	restaurant	NOUN	NN	Number=Sing	3	obl	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	tobacco	tobacco	NOUN	NN	Number=Sing	10	compound	_	_
+10	smell	smell	NOUN	NN	Number=Sing	7	conj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	taste	taste	VERB	VB	VerbForm=Inf	3	conj	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	food	food	NOUN	NN	Number=Sing	12	obl	_	_
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	SpaceAfter=No
+17	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part	15	acl:relcl	_	_
+19	all	all	DET	PDT	_	21	det:predet	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	symptoms	symptom	NOUN	NNS	Number=Plur	18	obj	_	_
+22	that	that	PRON	WDT	PronType=Rel	23	nsubj	_	_
+23	cause	cause	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+24	paralysis	paralysis	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	obj	_	_
+25	due	due	ADJ	JJ	Degree=Pos	23	xcomp	_	_
+26	to	to	PART	TO	_	30	mark	_	_
+27	be	be	AUX	VB	VerbForm=Inf	30	cop	_	_
+28	off	off	ADP	IN	_	30	case	_	SpaceAfter=No
+29	-	-	PUNCT	HYPH	_	30	punct	_	SpaceAfter=No
+30	line	line	NOUN	NN	Number=Sing	23	advcl	_	_
+31	to	to	PART	TO	_	32	mark	_	_
+32	enjoy	enjoy	VERB	VB	VerbForm=Inf	30	acl	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	flavor	flavor	NOUN	NN	Number=Sing	32	obj	_	_
+35	of	of	ADP	IN	_	37	case	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	food	food	NOUN	NN	Number=Sing	34	nmod	_	_
+38	so	so	SCONJ	IN	_	46	mark	_	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	_
+40	smell	smell	NOUN	NN	Number=Sing	46	nsubj	_	_
+41	of	of	ADP	IN	_	42	case	_	_
+42	cigarettes	cigarette	NOUN	NNS	Number=Plur	40	nmod	_	_
+43	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	46	cop	_	_
+44	just	just	ADV	RB	_	46	advmod	_	_
+45	as	as	ADV	RB	_	46	advmod	_	_
+46	offensive	offensive	ADJ	JJ	Degree=Pos	32	advcl	_	_
+47	to	to	ADP	IN	_	49	case	_	_
+48	the	the	DET	DT	Definite=Def|PronType=Art	49	det	_	_
+49	people	people	NOUN	NNS	Number=Plur	46	obl	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Groined eat all the food for the happy smell of cigarettes if one loses its physical and mentally happy enormous damage to think this.
+1	Groined	Groin	X	GW	_	5	goeswith	_	_
+2	eat	eat	X	ADD	_	5	goeswith	_	_
+3	all	all	DET	PDT	_	5	det:predet	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	food	food	NOUN	NN	Number=Sing	0	root	_	_
+6	for	for	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	happy	happy	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	smell	smell	NOUN	NN	Number=Sing	5	nmod	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	cigarettes	cigarette	NOUN	NNS	Number=Plur	9	nmod	_	_
+12	if	if	SCONJ	IN	_	14	mark	_	_
+13	one	one	PRON	PRP	_	14	nsubj	_	_
+14	loses	lose	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+15	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+16	physical	physical	ADJ	JJ	Degree=Pos	21	amod	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	mentally	mentally	ADV	RB	_	19	advmod	_	_
+19	happy	happy	ADJ	JJ	Degree=Pos	16	conj	_	_
+20	enormous	enormous	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	damage	damage	NOUN	NN	Number=Sing	14	obj	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	think	think	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+24	this	this	PRON	DT	Number=Sing|PronType=Dem	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 7
+# text = I smoked a cigarette within the restaurant is the opposite of people's health and peace in this world who smoked a cigarette in a restaurant that thinks the opposite.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	smoked	smoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	cigarette	cigarette	NOUN	NN	Number=Sing	2	obj	_	_
+5	within	within	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	restaurant	restaurant	NOUN	NN	Number=Sing	4	nmod	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	opposite	opposite	NOUN	NN	Number=Sing	4	nsubj	_	_
+11	of	of	ADP	IN	_	14	case	_	_
+12	people	people	NOUN	NNS	Number=Plur	14	nmod:poss	_	SpaceAfter=No
+13	's	's	PART	POS	_	12	case	_	_
+14	health	health	NOUN	NN	Number=Sing	10	nmod	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	peace	peace	NOUN	NN	Number=Sing	14	conj	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	this	this	DET	DT	Number=Sing|PronType=Dem	19	det	_	_
+19	world	world	NOUN	NN	Number=Sing	4	nmod	_	_
+20	who	who	PRON	WP	PronType=Rel	21	nsubj	_	_
+21	smoked	smoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	cigarette	cigarette	NOUN	NN	Number=Sing	21	obj	_	_
+24	in	in	ADP	IN	_	26	case	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	restaurant	restaurant	NOUN	NN	Number=Sing	23	nmod	_	_
+27	that	that	PRON	WDT	PronType=Rel	28	nsubj	_	_
+28	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	opposite	opposite	NOUN	NN	Number=Sing	28	obj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = The future cannot smoke gradually increase restaurant and hope that will stop.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	future	future	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	not	not	PART	RB	_	5	advmod	_	_
+5	smoke	smoke	VERB	VB	VerbForm=Inf	0	root	_	_
+6	gradually	gradually	ADV	RB	_	8	advmod	_	_
+7	increase	increase	NOUN	NN	Number=Sing	8	compound	_	_
+8	restaurant	restaurant	NOUN	NN	Number=Sing	5	obj	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	hope	hope	NOUN	NN	Number=Sing	8	conj	_	_
+11	that	that	PRON	WDT	PronType=Rel	13	nsubj	_	_
+12	will	will	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	stop	stop	VERB	VB	VerbForm=Inf	10	acl:relcl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = Harmful to human body due to cigarette smoking is thought that must be performed.
+1	Harmful	Harmful	ADJ	JJ	Degree=Pos	0	root	_	_
+2	to	to	ADP	IN	_	4	case	_	_
+3	human	human	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	body	body	NOUN	NN	Number=Sing	1	obl	_	_
+5	due	due	ADP	IN	_	10	mark	_	_
+6	to	to	ADP	IN	_	5	fixed	_	_
+7	cigarette	cigarette	NOUN	NN	Number=Sing	8	compound	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	10	nsubj:pass	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	thought	think	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	advcl	_	_
+11	that	that	PRON	DT	Number=Sing|PronType=Dem	14	nsubj:pass	_	_
+12	must	must	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	be	be	AUX	VB	VerbForm=Inf	14	aux:pass	_	_
+14	performed	perform	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	ccomp	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

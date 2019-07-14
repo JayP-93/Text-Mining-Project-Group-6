@@ -1,0 +1,338 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_THA_SMK0_218_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking is a kind of addiction.
+1	﻿Smoking	﻿Smok	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	kind	kind	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	addiction	addiction	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = And is giving effect to the body.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	giving	give	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	effect	effect	NOUN	NN	Number=Sing	3	obj	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	body	body	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Smoking because tobacco smoke pollution is spread far and wide Smoking in public is bad because it would not honor others
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	15	csubj	_	_
+2	because	because	SCONJ	IN	_	7	mark	_	_
+3	tobacco	tobacco	NOUN	NN	Number=Sing	5	compound	_	_
+4	smoke	smoke	NOUN	NN	Number=Sing	5	compound	_	_
+5	pollution	pollution	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	spread	spread	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	advcl	_	_
+8	far	far	ADV	RB	Degree=Pos	7	advmod	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	wide	wide	ADV	RB	_	11	advmod	_	_
+11	Smoking	smoke	VERB	VBG	VerbForm=Ger	8	conj	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	public	public	NOUN	NN	Number=Sing	7	obl	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	bad	bad	ADJ	JJ	Degree=Pos	0	root	_	_
+16	because	because	SCONJ	IN	_	20	mark	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+18	would	would	AUX	MD	VerbForm=Fin	20	aux	_	_
+19	not	not	PART	RB	_	20	advmod	_	_
+20	honor	honor	VERB	VB	VerbForm=Inf	15	advcl	_	_
+21	others	other	NOUN	NNS	Number=Plur	20	obj	_	_
+
+# sent_id = 4
+# text = And destroying other people side with To honor others Should be no smoking in public or in secret.
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	destroying	destroy	VERB	VBG	VerbForm=Ger	13	csubj	_	_
+3	other	other	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	people	people	NOUN	NNS	Number=Plur	2	obj	_	_
+5	side	side	ADV	RB	_	2	advmod	_	_
+6	with	with	ADP	IN	_	9	case	_	_
+7	To	to	ADP	IN	_	9	case	_	_
+8	honor	honor	NOUN	NN	Number=Sing	9	compound	_	_
+9	others	other	NOUN	NNS	Number=Plur	2	obl	_	_
+10	Should	should	AUX	MD	VerbForm=Fin	13	aux	_	_
+11	be	be	AUX	VB	VerbForm=Inf	13	cop	_	_
+12	no	no	DET	DT	_	13	det	_	_
+13	smoking	smoking	NOUN	NN	Number=Sing	0	root	_	_
+14	in	in	ADP	IN	_	15	case	_	_
+15	public	public	ADJ	JJ	Degree=Pos	13	nmod	_	_
+16	or	or	CCONJ	CC	_	18	cc	_	_
+17	in	in	ADP	IN	_	18	case	_	_
+18	secret	secret	NOUN	NN	Number=Sing	13	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 5
+# text = No smoking in the restaurant because the restaurant because the restaurant was eating people.
+1	No	no	DET	DT	_	2	det	_	_
+2	smoking	smoking	NOUN	NN	Number=Sing	0	root	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	restaurant	restaurant	NOUN	NN	Number=Sing	2	nmod	_	_
+6	because	because	SCONJ	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	restaurant	restaurant	NOUN	NN	Number=Sing	2	nmod	_	_
+9	because	because	SCONJ	IN	_	13	mark	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	restaurant	restaurant	NOUN	NN	Number=Sing	13	nsubj	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part	8	acl	_	_
+14	people	people	NOUN	NNS	Number=Plur	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = If smoking in stores and people will be in stores by the disadvantages.
+1	If	if	SCONJ	IN	_	2	mark	_	_
+2	smoking	smoke	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	stores	store	NOUN	NNS	Number=Plur	2	obl	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	people	people	NOUN	NNS	Number=Plur	2	conj	_	_
+7	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	stores	store	NOUN	NNS	Number=Plur	0	root	_	_
+11	by	by	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	disadvantages	disadvantage	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 7
+# text = Some people are smoking in secret is considered to honor others.
+1	Some	some	DET	DT	_	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	secret	secret	NOUN	NN	Number=Sing	4	obl	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	considered	consider	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	ccomp	_	_
+9	to	to	ADP	IN	_	11	case	_	_
+10	honor	honor	NOUN	NN	Number=Sing	11	compound	_	_
+11	others	other	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = But for some people are not afraid of offending others.
+1	But	but	CCONJ	CC	_	7	cc	_	_
+2	for	for	ADP	IN	_	4	case	_	_
+3	some	some	DET	DT	_	4	det	_	_
+4	people	people	NOUN	NNS	Number=Plur	7	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	not	not	PART	RB	_	7	advmod	_	_
+7	afraid	afraid	ADJ	JJ	Degree=Pos	0	root	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	offending	offending	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	others	other	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 9
+# text = The others will not think that feelings of loss and gain from him.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	others	other	NOUN	NNS	Number=Plur	5	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+6	that	that	SCONJ	IN	_	11	mark	_	_
+7	feelings	feeling	NOUN	NNS	Number=Plur	11	nsubj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	loss	loss	NOUN	NN	Number=Sing	7	nmod	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	gain	gain	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+12	from	from	ADP	IN	_	13	case	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 10
+# text = Smoking will destroy themselves and others and then.
+1	Smoking	smoke	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	destroy	destroy	VERB	VB	VerbForm=Inf	0	root	_	_
+4	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	others	other	NOUN	NNS	Number=Plur	4	conj	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	then	then	ADV	RB	PronType=Dem	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = Destroying the environment side as well.
+1	Destroying	Destroy	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	environment	environment	NOUN	NN	Number=Sing	4	compound	_	_
+4	side	side	NOUN	NN	Number=Sing	1	obj	_	_
+5	as	as	ADV	RB	_	1	advmod	_	_
+6	well	well	ADV	RB	Degree=Pos	5	fixed	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 12
+# text = In some countries laws prohibit smoking in restaurants.
+1	In	in	ADP	IN	_	3	case	_	_
+2	some	some	DET	DT	_	3	det	_	_
+3	countries	country	NOUN	NNS	Number=Plur	0	root	_	_
+4	laws	law	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	prohibit	prohibit	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	smoking	smoke	NOUN	NN	Number=Sing	5	obj	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	restaurants	restaurant	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 13
+# text = However, as observed for many other.
+1	However	however	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	as	as	SCONJ	IN	_	4	mark	_	_
+4	observed	observ	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	many	many	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	other	other	ADJ	JJ	Degree=Pos	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 14
+# text = Might be labeled.
+1	Might	might	AUX	MD	VerbForm=Fin	3	aux	_	_
+2	be	be	AUX	VB	VerbForm=Inf	3	aux:pass	_	_
+3	labeled	label	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 15
+# text = That the smoking ban such as the taxi in the toilet in a restaurant on the bus and trains in several places, but in the it will not be difficult.
+1	That	that	SCONJ	IN	_	31	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	4	compound	_	_
+4	ban	ban	NOUN	NN	Number=Sing	31	nsubj	_	_
+5	such	such	ADJ	JJ	Degree=Pos	8	case	_	_
+6	as	as	ADP	IN	_	5	fixed	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	taxi	taxi	NOUN	NN	Number=Sing	4	nmod	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	toilet	toilet	NOUN	NN	Number=Sing	8	nmod	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	restaurant	restaurant	NOUN	NN	Number=Sing	11	nmod	_	_
+15	on	on	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	bus	bus	NOUN	NN	Number=Sing	14	nmod	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	trains	train	NOUN	NNS	Number=Plur	17	conj	_	_
+20	in	in	ADP	IN	_	22	case	_	_
+21	several	several	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	places	place	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	31	punct	_	_
+24	but	but	CCONJ	CC	_	31	cc	_	_
+25	in	in	ADP	IN	_	31	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+28	will	will	AUX	MD	VerbForm=Fin	31	aux	_	_
+29	not	not	PART	RB	_	31	advmod	_	_
+30	be	be	AUX	VB	VerbForm=Inf	31	cop	_	_
+31	difficult	difficult	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	31	punct	_	_
+
+# sent_id = 16
+# text = Some people do not listen much however what it is not in control of the restaurant smoking in public places have it.
+1	Some	some	DET	DT	_	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	listen	listen	VERB	VB	VerbForm=Inf	0	root	_	_
+6	much	much	ADV	RB	_	5	advmod	_	_
+7	however	however	ADV	RB	_	8	advmod	_	_
+8	what	what	PRON	WP	PronType=Int	21	nsubj	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	not	not	PART	RB	_	13	advmod	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	control	control	NOUN	NN	Number=Sing	8	acl:relcl	_	_
+14	of	of	ADP	IN	_	17	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	restaurant	restaurant	NOUN	NN	Number=Sing	17	compound	_	_
+17	smoking	smoke	NOUN	NN	Number=Sing	13	nmod	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	public	public	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	places	place	NOUN	NNS	Number=Plur	17	nmod	_	_
+21	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 17
+# text = Not just in other countries.
+1	Not	not	PART	RB	_	5	advmod	_	_
+2	just	just	ADV	RB	_	5	advmod	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	other	other	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	countries	country	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 18
+# text = Even in Thailand, we can not control it.
+1	Even	even	ADV	RB	_	3	advmod	_	_
+2	in	in	ADP	IN	_	3	case	_	_
+3	Thailand	Thailand	PROPN	NNP	Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	control	control	VERB	VB	VerbForm=Inf	0	root	_	_
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 19
+# text = This problem is not the problem lightly.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	problem	problem	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	not	not	PART	RB	_	6	advmod	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	problem	problem	NOUN	NN	Number=Sing	0	root	_	_
+7	lightly	lightly	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 20
+# text = But it is a big problem that everyone overlooked.
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	big	big	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	problem	problem	NOUN	NN	Number=Sing	0	root	_	_
+7	that	that	PRON	WDT	PronType=Rel	9	obj	_	_
+8	everyone	everyone	PRON	NN	Number=Sing	9	nsubj	_	_
+9	overlooked	overlook	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 21
+# text = Some people have it, but only Because many people did not focus on this issue.
+1	Some	some	DET	DT	_	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	13	punct	_	_
+6	but	but	CCONJ	CC	_	13	cc	_	_
+7	only	only	ADV	RB	_	13	advmod	_	_
+8	Because	because	SCONJ	IN	_	13	mark	_	_
+9	many	many	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	people	people	NOUN	NNS	Number=Plur	13	nsubj	_	_
+11	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
+12	not	not	PART	RB	_	13	advmod	_	_
+13	focus	focus	VERB	VB	VerbForm=Inf	3	conj	_	_
+14	on	on	ADP	IN	_	16	case	_	_
+15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+16	issue	issue	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 22
+# text = Is difficult to prohibit smoking.
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	difficult	difficult	ADJ	JJ	Degree=Pos	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	prohibit	prohibit	VERB	VB	VerbForm=Inf	2	csubj	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

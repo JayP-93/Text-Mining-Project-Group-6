@@ -1,0 +1,356 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_SIN_SMK0_009_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking is bad for health.
+1	﻿Smoking	﻿Smoking	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	bad	bad	ADJ	JJ	Degree=Pos	0	root	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	health	health	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Smoking causes lung cancer.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	2	amod	_	_
+2	causes	cause	NOUN	NNS	Number=Plur	0	root	_	_
+3	lung	lung	ADP	IN	_	4	case	_	_
+4	cancer	cancer	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Smoking causes heart disease.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	4	amod	_	_
+2	causes	cause	NOUN	NNS	Number=Plur	4	compound	_	_
+3	heart	heart	NOUN	NN	Number=Sing	4	compound	_	_
+4	disease	disease	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Of course I know that.
+1	Of	of	ADV	RB	_	4	advmod	_	_
+2	course	course	ADV	RB	_	1	fixed	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = As if the hearty, overzealous anti-smoking campaigns weren't doing enough to curb this unhealthy habit, they insidiously wove this schtick into the curriculum.
+1	As	as	SCONJ	IN	_	11	mark	_	_
+2	if	if	SCONJ	IN	_	11	mark	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	hearty	hearty	NOUN	NN	Number=Sing	11	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	overzealous	overzealous	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	anti-smoking	anti-smoking	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	campaigns	campaign	NOUN	NNS	Number=Plur	4	appos	_	_
+9	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	SpaceAfter=No
+10	n't	not	PART	RB	_	11	advmod	_	_
+11	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	21	advcl	_	_
+12	enough	enough	ADV	RB	_	11	advmod	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	curb	curb	VERB	VB	VerbForm=Inf	11	advcl	_	_
+15	this	this	DET	DT	Number=Sing|PronType=Dem	17	det	_	_
+16	unhealthy	unhealthy	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	habit	habit	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	_
+19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
+20	insidiously	insidiously	ADV	RB	_	21	advmod	_	_
+21	wove	wove	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	this	this	DET	DT	Number=Sing|PronType=Dem	23	det	_	_
+23	schtick	schtick	NOUN	NN	Number=Sing	21	obj	_	_
+24	into	into	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	curriculum	curriculum	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	21	punct	_	_
+
+# sent_id = 6
+# text = Case in point: Biology class in Secondary 2.
+1	Case	case	NOUN	NN	Number=Sing	0	root	_	_
+2	in	in	ADP	IN	_	3	case	_	_
+3	point	point	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+4	:	:	PUNCT	:	_	1	punct	_	_
+5	Biology	biology	NOUN	NN	Number=Sing	6	compound	_	_
+6	class	class	NOUN	NN	Number=Sing	1	appos	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	Secondary	secondary	PROPN	NNP	Number=Sing	6	nmod	_	_
+9	2	2	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = We learned how tiny smoke particles bind irreversibly with red and white blood cells, and are carried throughout the body, effectively spreading the harmful substances all over our body.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	learned	learn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	how	how	ADV	WRB	PronType=Int	7	advmod	_	_
+4	tiny	tiny	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	smoke	smoke	NOUN	NN	Number=Sing	6	compound	_	_
+6	particles	particle	NOUN	NNS	Number=Plur	7	nsubj	_	_
+7	bind	bind	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+8	irreversibly	irreversibly	ADV	RB	_	7	advmod	_	_
+9	with	with	ADP	IN	_	14	case	_	_
+10	red	red	ADJ	JJ	Degree=Pos	14	amod	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	white	white	ADJ	JJ	Degree=Pos	10	conj	_	_
+13	blood	blood	NOUN	NN	Number=Sing	14	compound	_	_
+14	cells	cell	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+18	carried	carry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	_
+19	throughout	throughout	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	body	body	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	_
+23	effectively	effectively	ADV	RB	_	24	advmod	_	_
+24	spreading	spread	VERB	VBG	VerbForm=Ger	18	advcl	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+26	harmful	harmful	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	substances	substance	NOUN	NNS	Number=Plur	24	obj	_	_
+28	all	all	ADV	RB	_	31	advmod	_	_
+29	over	over	ADP	IN	_	31	case	_	_
+30	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	body	body	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Please, if I ever need a poignant reminder of aforementioned harmful effects, I would just buy a pack and stare at the tasteful illustrations of gangrenous tissue ravaged by years and years of chain smoking.
+1	Please	please	INTJ	UH	_	18	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	18	punct	_	_
+3	if	if	SCONJ	IN	_	6	mark	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	ever	ever	ADV	RB	_	6	advmod	_	_
+6	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	poignant	poignant	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	reminder	reminder	NOUN	NN	Number=Sing	6	obj	_	_
+10	of	of	ADP	IN	_	13	case	_	_
+11	aforementioned	aforementioned	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	harmful	harmful	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	effects	effect	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+16	would	would	AUX	MD	VerbForm=Fin	18	aux	_	_
+17	just	just	ADV	RB	_	18	advmod	_	_
+18	buy	buy	VERB	VB	VerbForm=Inf	0	root	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	pack	pack	NOUN	NN	Number=Sing	18	obj	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	stare	stare	VERB	VB	VerbForm=Inf	18	conj	_	_
+23	at	at	ADP	IN	_	26	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+25	tasteful	tasteful	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	illustrations	illustration	NOUN	NNS	Number=Plur	22	obl	_	_
+27	of	of	ADP	IN	_	29	case	_	_
+28	gangrenous	gangrenous	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	tissue	tissue	NOUN	NN	Number=Sing	26	nmod	_	_
+30	ravaged	ravage	VERB	VBN	Tense=Past|VerbForm=Part	26	acl	_	_
+31	by	by	ADP	IN	_	32	case	_	_
+32	years	year	NOUN	NNS	Number=Plur	30	obl	_	_
+33	and	and	CCONJ	CC	_	34	cc	_	_
+34	years	year	NOUN	NNS	Number=Plur	18	conj	_	_
+35	of	of	ADP	IN	_	37	case	_	_
+36	chain	chain	NOUN	NN	Number=Sing	37	compound	_	_
+37	smoking	smoke	NOUN	NN	Number=Sing	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 9
+# text = But wait, what is inside the box- holy sh*t!
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	wait	wait	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	what	what	PRON	WP	PronType=Int	11	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+6	inside	inside	ADP	IN	_	11	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+8	box	box	NOUN	NN	Number=Sing	10	obl:npmod	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	_
+10	holy	holy	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	sh*t	sh*t	NOUN	NN	Number=Sing	2	advcl	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = Aha, what a shame it would be to see these twenty perfectly new and viable cigarettes go to waste.
+1	Aha	Aha	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	what	what	DET	WDT	PronType=Int	5	det	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	shame	shame	NOUN	NN	Number=Sing	0	root	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
+7	would	would	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	be	be	VERB	VB	VerbForm=Inf	5	acl:relcl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	see	see	VERB	VB	VerbForm=Inf	8	ccomp	_	_
+11	these	these	PRON	DT	Number=Plur|PronType=Dem	17	nmod:poss	_	_
+12	twenty	twenty	NUM	CD	NumType=Card	17	nummod	_	_
+13	perfectly	perfectly	ADV	RB	_	14	advmod	_	_
+14	new	new	ADJ	JJ	Degree=Pos	17	amod	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	viable	viable	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	cigarettes	cigarette	NOUN	NNS	Number=Plur	18	nsubj	_	_
+18	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+19	to	to	ADP	IN	_	20	case	_	_
+20	waste	waste	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 11
+# text = You see, no one talks about the other side effect of smoking.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	no	no	DET	DT	_	6	det	_	_
+5	one	one	NUM	CD	NumType=Card	6	nummod	_	_
+6	talks	talk	NOUN	NNS	Number=Plur	2	obj	_	_
+7	about	about	ADP	IN	_	11	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+9	other	other	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	side	side	NOUN	NN	Number=Sing	11	compound	_	_
+11	effect	effect	NOUN	NN	Number=Sing	6	nmod	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	smoking	smoking	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = You feel good.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	good	good	ADJ	JJ	Degree=Pos	2	xcomp	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 13
+# text = No, I correct myself, you feel bloody good.
+1	No	no	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	correct	correct	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	bloody	bloody	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	good	good	ADJ	JJ	Degree=Pos	8	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 14
+# text = It was as if a low rumble of euphoria washed over your entire being, not unlike the high from alcohol, except slower.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	as	as	SCONJ	IN	_	7	mark	_	_
+4	if	if	SCONJ	IN	_	7	mark	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	low	low	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	rumble	rumble	NOUN	NN	Number=Sing	2	advcl	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	euphoria	euphoria	NOUN	NNS	Number=Plur	7	nmod	_	_
+10	washed	wash	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	_	_
+11	over	over	ADP	IN	_	14	case	_	_
+12	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+13	entire	entire	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	being	being	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	7	punct	_	_
+16	not	not	ADV	RB	_	19	advmod	_	_
+17	unlike	unlike	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	high	high	NOUN	NN	Number=Sing	7	nmod	_	_
+20	from	from	ADP	IN	_	21	case	_	_
+21	alcohol	alcohol	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	_
+23	except	except	ADP	IN	_	24	case	_	_
+24	slower	slower	NOUN	NN	Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 15
+# text = It is also a great tool for socialization.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	also	also	ADV	RB	_	6	advmod	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	great	great	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	tool	tool	NOUN	NN	Number=Sing	0	root	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	socialization	socialization	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 16
+# text = Imagine petty little deviants like me all congregating in those stupid yellow boxes, packed like sardines, puffing away.
+1	Imagine	imagine	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	petty	petty	PRON	NN	Number=Sing	4	nmod:poss	_	_
+3	little	little	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	deviants	deviant	NOUN	NNS	Number=Plur	1	obj	_	_
+5	like	like	ADP	IN	_	6	case	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obl	_	_
+7	all	all	DET	DT	_	6	det	_	_
+8	congregating	congregat	VERB	VBG	VerbForm=Ger	1	advcl	_	_
+9	in	in	ADP	IN	_	13	case	_	_
+10	those	those	DET	DT	Number=Plur|PronType=Dem	13	det	_	_
+11	stupid	stupid	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	yellow	yellow	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	boxes	boxe	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	8	punct	_	_
+15	packed	pack	VERB	VBN	Tense=Past|VerbForm=Part	8	advcl	_	_
+16	like	like	ADP	IN	_	17	case	_	_
+17	sardines	sardine	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	8	punct	_	_
+19	puffing	puff	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+20	away	away	ADV	RB	_	19	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 17
+# text = Yup, the government has made it illegal to smoke freely in public places, except for those tiny yellow boxes demarcated "smoking corners".
+1	Yup	Yup	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	government	government	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	made	make	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
+8	illegal	illegal	ADJ	JJ	Degree=Pos	6	xcomp	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	smoke	smoke	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+11	freely	freely	ADV	RB	_	10	advmod	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	public	public	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	places	place	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	10	punct	_	_
+16	except	except	ADP	IN	_	25	case	_	_
+17	for	for	ADP	IN	_	25	case	_	_
+18	those	those	PRON	DT	Number=Plur|PronType=Dem	25	nmod:poss	_	_
+19	tiny	tiny	ADJ	JJ	Degree=Pos	21	amod	_	_
+20	yellow	yellow	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	boxes	boxe	NOUN	NNS	Number=Plur	25	compound	_	_
+22	demarcated	demarcate	VERB	VBN	Tense=Past|VerbForm=Part	25	amod	_	_
+23	"	"	PUNCT	``	_	25	punct	_	SpaceAfter=No
+24	smoking	smoke	NOUN	NN	Number=Sing	25	compound	_	_
+25	corners	corner	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+26	"	"	PUNCT	''	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 18
+# text = What the f*ck.
+1	What	what	PRON	WP	PronType=Int	0	root	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	f*ck	f*ck	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 19
+# text = As if we have no rights to speak of.
+1	As	as	SCONJ	IN	_	4	mark	_	_
+2	if	if	SCONJ	IN	_	4	mark	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+5	no	no	DET	DT	_	6	det	_	_
+6	rights	rights	NOUN	NNS	Number=Plur	4	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	speak	speak	VERB	VB	VerbForm=Inf	6	acl	_	_
+9	of	of	ADP	IN	_	8	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 20
+# text = Oh wait, this is Singapore.
+1	Oh	oh	INTJ	UH	_	2	discourse	_	_
+2	wait	wait	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	Singapore	Singapore	PROPN	NNP	Number=Sing	2	parataxis	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

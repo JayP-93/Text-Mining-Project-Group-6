@@ -1,0 +1,281 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PAK_PTJ0_054_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿There are two types of jobs one a full time job and a part time job.
+1	﻿There	﻿There	PRON	EX	_	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	two	two	NUM	CD	NumType=Card	4	nummod	_	_
+4	types	type	NOUN	NNS	Number=Plur	0	root	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	jobs	job	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	one	one	NUM	CD	NumType=Card	11	nummod	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+9	full	full	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	time	time	NOUN	NN	Number=Sing	11	compound	_	_
+11	job	job	NOUN	NN	Number=Sing	4	appos	_	_
+12	and	and	CCONJ	CC	_	16	cc	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+14	part	part	NOUN	NN	Number=Sing	15	compound	_	_
+15	time	time	NOUN	NN	Number=Sing	16	compound	_	_
+16	job	job	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = A man who is doing full time job do his duty all the day.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	man	man	NOUN	NN	Number=Sing	0	root	_	_
+3	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	2	acl:relcl	_	_
+6	full	full	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	time	time	NOUN	NN	Number=Sing	8	compound	_	_
+8	job	job	NOUN	NN	Number=Sing	9	nsubj	_	_
+9	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	duty	duty	NOUN	NN	Number=Sing	9	obj	_	_
+12	all	all	DET	PDT	_	14	det:predet	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	day	day	NOUN	NN	Number=Sing	9	obl:tmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = But a man who is doing part time job do his duty for some time.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	man	man	NOUN	NN	Number=Sing	0	root	_	_
+4	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
+7	part	part	NOUN	NN	Number=Sing	8	compound	_	_
+8	time	time	NOUN	NN	Number=Sing	9	compound	_	_
+9	job	job	NOUN	NN	Number=Sing	10	nsubj	_	_
+10	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	duty	duty	NOUN	NN	Number=Sing	10	obj	_	_
+13	for	for	ADP	IN	_	15	case	_	_
+14	some	some	DET	DT	_	15	det	_	_
+15	time	time	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = A part time worker can do his job in morning and he can also do it in the evening.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+2	part	part	NOUN	NN	Number=Sing	3	compound	_	_
+3	time	time	NOUN	NN	Number=Sing	4	compound	_	_
+4	worker	worker	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	job	job	NOUN	NN	Number=Sing	6	obj	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	morning	morning	NOUN	NN	Number=Sing	6	obl	_	_
+11	and	and	CCONJ	CC	_	15	cc	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	can	can	AUX	MD	VerbForm=Fin	15	aux	_	_
+14	also	also	ADV	RB	_	15	advmod	_	_
+15	do	do	VERB	VB	VerbForm=Inf	6	conj	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	evening	evening	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = But some people do it at night.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	some	some	DET	DT	_	3	det	_	_
+3	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	at	at	ADP	IN	_	7	case	_	_
+7	night	night	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = In this world every thing is costly.
+1	In	in	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	world	world	NOUN	NN	Number=Sing	7	obl	_	_
+4	every	every	DET	DT	_	5	det	_	_
+5	thing	thing	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	costly	costly	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 7
+# text = Most of the part time jobs are in foreign coutnires.
+1	Most	most	ADJ	JJS	Degree=Sup	10	nsubj	_	_
+2	of	of	ADP	IN	_	6	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+4	part	part	NOUN	NN	Number=Sing	5	compound	_	_
+5	time	time	NOUN	NN	Number=Sing	6	compound	_	_
+6	jobs	job	NOUN	NNS	Number=Plur	1	nmod	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	foreign	foreign	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	coutnires	coutnire	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 8
+# text = The people of foreing countries do more part time jobs as compared to us because in foreign country their is tadency of part time jobs.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	0	root	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	foreing	foreing	VERB	VBG	VerbForm=Ger	5	amod	_	_
+5	countries	country	NOUN	NNS	Number=Plur	2	nmod	_	_
+6	do	do	ADP	IN	_	10	case	_	_
+7	more	more	ADJ	JJR	Degree=Cmp	10	amod	_	_
+8	part	part	NOUN	NN	Number=Sing	9	compound	_	_
+9	time	time	NOUN	NN	Number=Sing	10	compound	_	_
+10	jobs	job	NOUN	NNS	Number=Plur	2	nmod	_	_
+11	as	as	SCONJ	IN	_	12	mark	_	_
+12	compared	compare	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	_
+13	to	to	ADP	IN	_	14	case	_	_
+14	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	12	obl	_	_
+15	because	because	SCONJ	IN	_	21	mark	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	foreign	foreign	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	country	country	NOUN	NN	Number=Sing	21	obl	_	_
+19	their	their	PRON	EX	_	21	nsubj	_	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	tadency	tadency	NOUN	NN	Number=Sing	12	advcl	_	_
+22	of	of	ADP	IN	_	25	case	_	_
+23	part	part	NOUN	NN	Number=Sing	24	compound	_	_
+24	time	time	NOUN	NN	Number=Sing	25	compound	_	_
+25	jobs	job	NOUN	NNS	Number=Plur	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Peoples do this job at pizza huts, hotels and offices.
+1	Peoples	people	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	job	job	NOUN	NN	Number=Sing	2	obj	_	_
+5	at	at	ADP	IN	_	7	case	_	_
+6	pizza	pizza	NOUN	NN	Number=Sing	7	compound	_	_
+7	huts	hut	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	hotels	hotel	NOUN	NNS	Number=Plur	7	conj	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	offices	office	NOUN	NNS	Number=Plur	7	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = But a man who do work all the day and then do part time job disturb his social life he can not give his time to his family and can not make tours to friends and do not make recreational trips.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	man	man	NOUN	NN	Number=Sing	0	root	_	_
+4	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+5	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	work	work	VERB	VB	VerbForm=Inf	3	acl:relcl	_	_
+7	all	all	DET	PDT	_	9	det:predet	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	day	day	NOUN	NN	Number=Sing	6	obl:tmod	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	then	then	ADV	RB	PronType=Dem	12	advmod	_	_
+12	do	do	VERB	VB	VerbForm=Inf	23	conj	_	_
+13	part	part	NOUN	NN	Number=Sing	14	compound	_	_
+14	time	time	NOUN	NN	Number=Sing	15	compound	_	_
+15	job	job	NOUN	NN	Number=Sing	16	compound	_	_
+16	disturb	disturb	NOUN	NN	Number=Sing	23	compound	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+18	social	social	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	life	life	NOUN	NN	Number=Sing	23	nsubj	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+21	can	can	AUX	MD	VerbForm=Fin	23	aux	_	_
+22	not	not	PART	RB	_	23	advmod	_	_
+23	give	give	VERB	VB	VerbForm=Inf	6	conj	_	_
+24	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	time	time	NOUN	NN	Number=Sing	23	obj	_	_
+26	to	to	ADP	IN	_	28	case	_	_
+27	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	family	family	NOUN	NN	Number=Sing	25	nmod	_	_
+29	and	and	CCONJ	CC	_	32	cc	_	_
+30	can	can	AUX	MD	VerbForm=Fin	32	aux	_	_
+31	not	not	PART	RB	_	32	advmod	_	_
+32	make	make	VERB	VB	VerbForm=Inf	6	conj	_	_
+33	tours	tour	NOUN	NNS	Number=Plur	32	obj	_	_
+34	to	to	ADP	IN	_	35	case	_	_
+35	friends	friend	NOUN	NNS	Number=Plur	33	nmod	_	_
+36	and	and	CCONJ	CC	_	39	cc	_	_
+37	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	39	aux	_	_
+38	not	not	PART	RB	_	39	advmod	_	_
+39	make	make	VERB	VB	VerbForm=Inf	6	conj	_	_
+40	recreational	recreational	ADJ	JJ	Degree=Pos	41	amod	_	_
+41	trips	trip	NOUN	NNS	Number=Plur	39	obj	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = He became a machine and this casues a mental problem.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	machine	machine	NOUN	NN	Number=Sing	2	obj	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	_
+7	casues	casue	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	mental	mental	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	problem	problem	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = A women that is doing part time job can not give time to his childrens and husbands.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	women	woman	NOUN	NNS	Number=Plur	11	nsubj	_	_
+3	that	that	PRON	WDT	PronType=Rel	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	11	acl:relcl	_	_
+6	part	part	NOUN	NN	Number=Sing	7	compound	_	_
+7	time	time	NOUN	NN	Number=Sing	8	compound	_	_
+8	job	job	NOUN	NN	Number=Sing	11	nsubj	_	_
+9	can	can	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	not	not	PART	RB	_	11	advmod	_	_
+11	give	give	VERB	VB	VerbForm=Inf	0	root	_	_
+12	time	time	NOUN	NN	Number=Sing	11	obj	_	_
+13	to	to	ADP	IN	_	15	case	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	childrens	childrens	NOUN	NNS	Number=Plur	11	obl	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	husbands	husband	NOUN	NNS	Number=Plur	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 13
+# text = They can not give time to their home.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	give	give	VERB	VB	VerbForm=Inf	0	root	_	_
+5	time	time	NOUN	NN	Number=Sing	4	obj	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	home	home	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 14
+# text = Students do it to meat his needs for study purpose but can not gave time to study and this makes his future loss.
+1	Students	student	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	meat	meat	NOUN	NN	Number=Sing	2	obl	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nsubj	_	_
+7	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	for	for	ADP	IN	_	10	case	_	_
+9	study	study	NOUN	NN	Number=Sing	10	compound	_	_
+10	purpose	purpose	NOUN	NN	Number=Sing	7	obl	_	_
+11	but	but	CCONJ	CC	_	14	cc	_	_
+12	can	can	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	not	not	PART	RB	_	14	advmod	_	_
+14	gave	give	VERB	VB	VerbForm=Inf	2	conj	_	_
+15	time	time	NOUN	NN	Number=Sing	14	obj	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	study	study	VERB	VB	VerbForm=Inf	15	acl	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	this	this	PRON	DT	Number=Sing|PronType=Dem	20	nsubj	_	_
+20	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+22	future	future	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	loss	loss	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

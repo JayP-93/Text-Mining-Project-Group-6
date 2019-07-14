@@ -1,0 +1,360 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_002_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿January 1, 2008, a month ahead these days, Germany's smokers make depressing.
+1	﻿January	﻿January	PROPN	NNP	Number=Sing	0	root	_	_
+2	1	1	NUM	CD	NumType=Card	1	nummod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	2008	2008	NUM	CD	NumType=Card	1	list	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	1	punct	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	month	month	NOUN	NN	Number=Sing	1	appos	_	_
+8	ahead	ahead	ADV	RB	_	7	advmod	_	_
+9	these	these	DET	DT	Number=Plur|PronType=Dem	10	det	_	_
+10	days	day	NOUN	NNS	Number=Plur	7	obl:tmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	1	punct	_	_
+12	Germany	Germany	PROPN	NNP	Number=Sing	14	nmod:poss	_	SpaceAfter=No
+13	's	's	PART	POS	_	12	case	_	_
+14	smokers	smoker	NOUN	NNS	Number=Plur	15	nsubj	_	_
+15	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+16	depressing	depresse	VERB	VBG	VerbForm=Ger	15	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = In the meantime, such as a restaurant or bar, smokers smoking naturally, but can, 2008 January 1 is a non-smoker Protection Act this fermentation, the above in place if you smoke, smokers 100 euros, and giving 1, 000 euros sales Meissen.
+1	In	in	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	meantime	meantime	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	14	punct	_	_
+5	such	such	ADJ	JJ	Degree=Pos	14	amod	_	_
+6	as	as	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	restaurant	restaurant	NOUN	NN	Number=Sing	5	obl	_	_
+9	or	or	CCONJ	CC	_	10	cc	_	_
+10	bar	bar	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	smoker	smoker	NOUN	NN	Number=Sing	14	nsubj	_	SpaceAfter=No
+13	s	s	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+15	naturally	naturally	ADV	RB	_	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	27	punct	_	_
+17	but	but	CCONJ	CC	_	27	cc	_	_
+18	can	can	AUX	MD	VerbForm=Fin	27	aux	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	27	punct	_	_
+20	2008	2008	NUM	CD	NumType=Card	21	nummod	_	_
+21	January	January	PROPN	NNP	Number=Sing	27	nsubj	_	_
+22	1	1	NUM	CD	NumType=Card	21	nummod	_	_
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+25	non-smoker	non-smoker	ADJ	JJ	Degree=Pos	27	amod	_	_
+26	Protection	Protection	NOUN	NN	Number=Sing	27	compound	_	_
+27	Act	Act	NOUN	NN	Number=Sing	29	conj	_	_
+28	this	this	DET	DT	Number=Sing|PronType=Dem	29	det	_	_
+29	fermentation	fermentation	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	29	punct	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	above	above	ADJ	JJ	Degree=Pos	29	amod	_	_
+33	in	in	ADP	IN	_	34	case	_	_
+34	place	place	NOUN	NN	Number=Sing	32	obl	_	_
+35	if	if	SCONJ	IN	_	37	mark	_	_
+36	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	37	nsubj	_	_
+37	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	14	punct	_	_
+39	smokers	smoker	NOUN	NNS	Number=Plur	41	compound	_	_
+40	100	100	NUM	CD	NumType=Card	41	nummod	_	_
+41	euros	euro	NOUN	NNS	Number=Plur	14	parataxis	_	SpaceAfter=No
+42	,	,	PUNCT	,	_	44	punct	_	_
+43	and	and	CCONJ	CC	_	44	cc	_	_
+44	giving	give	VERB	VBG	Tense=Pres|VerbForm=Part	41	conj	_	_
+45	1	1	NUM	CD	NumType=Card	44	obj	_	SpaceAfter=No
+46	,	,	PUNCT	,	_	45	punct	_	_
+47	000	000	NUM	CD	NumType=Card	48	nummod	_	_
+48	euros	euro	NOUN	NNS	Number=Plur	50	compound	_	_
+49	sales	sale	NOUN	NNS	Number=Plur	50	compound	_	_
+50	Meissen	Meissen	PROPN	NNP	Number=Sing	45	appos	_	SpaceAfter=No
+51	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 3
+# text = Smokers looked previously and inconvenience of restaurants and bars of guests through reduced, opening day even tracks sales at a loss, however, and restaurant or bar, and a separate smoking space to create and operate their case, where smoking is legitimate.
+1	Smoker	smoker	NOUN	NN	Number=Sing	3	nsubj	_	SpaceAfter=No
+2	s	s	PART	POS	_	3	advmod	_	_
+3	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	previously	previously	ADV	RB	_	3	advmod	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	inconvenience	inconvenience	NOUN	NN	Number=Sing	3	conj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	restaurants	restaurant	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	bars	bar	NOUN	NNS	Number=Plur	8	conj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	guests	guest	NOUN	NNS	Number=Plur	10	nmod	_	_
+13	through	through	ADP	IN	_	14	mark	_	_
+14	reduced	reduce	VERB	VBN	Tense=Past|VerbForm=Part	12	acl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	opening	open	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+17	day	day	NOUN	NN	Number=Sing	16	obl:tmod	_	_
+18	even	even	ADV	RB	_	19	advmod	_	_
+19	tracks	track	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
+20	sales	sale	NOUN	NNS	Number=Plur	19	obj	_	_
+21	at	at	ADP	IN	_	23	case	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	loss	loss	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	19	punct	_	_
+25	however	however	ADV	RB	_	19	advmod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	28	punct	_	_
+27	and	and	CCONJ	CC	_	28	cc	_	_
+28	restaurant	restaurant	NOUN	NN	Number=Sing	25	conj	_	_
+29	or	or	CCONJ	CC	_	30	cc	_	_
+30	bar	bar	NOUN	NN	Number=Sing	28	conj	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	36	punct	_	_
+32	and	and	CCONJ	CC	_	36	cc	_	_
+33	a	a	DET	DT	Definite=Ind|PronType=Art	36	det	_	_
+34	separate	separate	ADJ	JJ	Degree=Pos	36	amod	_	_
+35	smoking	smoking	NOUN	NN	Number=Sing	36	compound	_	_
+36	space	space	NOUN	NN	Number=Sing	25	conj	_	_
+37	to	to	PART	TO	_	38	mark	_	_
+38	create	create	VERB	VB	VerbForm=Inf	36	acl	_	_
+39	and	and	CCONJ	CC	_	40	cc	_	_
+40	operate	operate	VERB	VB	VerbForm=Inf	38	conj	_	_
+41	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	42	nmod:poss	_	_
+42	case	case	NOUN	NN	Number=Sing	40	obj	_	SpaceAfter=No
+43	,	,	PUNCT	,	_	42	punct	_	_
+44	where	where	ADV	WRB	PronType=Rel	47	advmod	_	_
+45	smoking	smoking	NOUN	NN	Number=Sing	47	nsubj	_	_
+46	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	cop	_	_
+47	legitimate	legitimate	ADJ	JJ	Degree=Pos	42	acl:relcl	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = As a result, small business chapter wool award will invariably have just been deleted.
+1	As	as	ADP	IN	_	3	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	result	result	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	15	punct	_	_
+5	small	small	ADJ	JJ	Degree=Pos	9	amod	_	_
+6	business	business	NOUN	NN	Number=Sing	7	compound	_	_
+7	chapter	chapter	NOUN	NN	Number=Sing	9	compound	_	_
+8	wool	wool	NOUN	NN	Number=Sing	9	compound	_	_
+9	award	award	NOUN	NN	Number=Sing	15	nsubj:pass	_	_
+10	will	will	AUX	MD	VerbForm=Fin	15	aux	_	_
+11	invariably	invariably	ADV	RB	_	15	advmod	_	_
+12	have	have	AUX	VB	VerbForm=Inf	15	aux	_	_
+13	just	just	ADV	RB	_	15	advmod	_	_
+14	been	be	AUX	VBN	Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	deleted	delete	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 5
+# text = Eonjebuteonga smokers for tolerance in our society landless, care for smokers (?) seems to be getting the space to be reduced.
+1	Eonjebuteonga	Eonjebuteonga	PROPN	NNP	Number=Sing	2	compound	_	_
+2	smokers	smoker	NOUN	NNS	Number=Plur	16	nsubj	_	_
+3	for	for	ADP	IN	_	4	case	_	_
+4	tolerance	tolerance	NOUN	NN	Number=Sing	2	nmod	_	_
+5	in	in	ADP	IN	_	8	case	_	_
+6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	society	society	NOUN	NN	Number=Sing	8	compound	_	_
+8	landless	landless	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	care	care	NOUN	NN	Number=Sing	2	appos	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	smokers	smoker	NOUN	NNS	Number=Plur	10	nmod	_	_
+13	(	(	PUNCT	-LRB-	_	10	punct	_	SpaceAfter=No
+14	?	?	PUNCT	.	_	10	punct	_	SpaceAfter=No
+15	)	)	PUNCT	-RRB-	_	10	punct	_	_
+16	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	to	to	PART	TO	_	19	mark	_	_
+18	be	be	AUX	VB	VerbForm=Inf	19	aux	_	_
+19	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	16	xcomp	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	space	space	NOUN	NN	Number=Sing	19	obj	_	_
+22	to	to	PART	TO	_	24	mark	_	_
+23	be	be	AUX	VB	VerbForm=Inf	24	aux:pass	_	_
+24	reduced	reduce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	xcomp	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 6
+# text = Non-smoking measures national health promoting health reason, but the European Union (EU) are eager to join to represent an already non-smoking measures taken by the other EU countries and policy coordination, it also means that it is strong.
+1	Non-smoking	Non-smoking	NOUN	NN	Number=Sing	2	compound	_	_
+2	measures	measure	NOUN	NNS	Number=Plur	7	nmod:poss	_	_
+3	national	national	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	health	health	NOUN	NN	Number=Sing	7	compound	_	_
+5	promoting	promote	VERB	VBG	VerbForm=Ger	7	amod	_	_
+6	health	health	NOUN	NN	Number=Sing	7	compound	_	_
+7	reason	reason	NOUN	NN	Number=Sing	17	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	but	but	CCONJ	CC	_	12	cc	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	European	European	PROPN	NNP	Number=Sing	12	compound	_	_
+12	Union	Union	PROPN	NNP	Number=Sing	7	conj	_	_
+13	(	(	PUNCT	-LRB-	_	14	punct	_	SpaceAfter=No
+14	EU	EU	PROPN	NNP	Number=Sing	7	appos	_	SpaceAfter=No
+15	)	)	PUNCT	-RRB-	_	14	punct	_	_
+16	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	eager	eager	ADJ	JJ	Degree=Pos	0	root	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	join	join	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	represent	represent	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	an	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+23	already	already	ADV	RB	_	24	advmod	_	_
+24	non-smoking	non-smoking	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	measures	measure	NOUN	NNS	Number=Plur	21	obj	_	_
+26	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	25	acl	_	_
+27	by	by	ADP	IN	_	31	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+29	other	other	ADJ	JJ	Degree=Pos	31	amod	_	_
+30	EU	EU	PROPN	NNP	Number=Sing	31	compound	_	_
+31	countries	country	NOUN	NNS	Number=Plur	26	obl	_	_
+32	and	and	CCONJ	CC	_	34	cc	_	_
+33	policy	policy	NOUN	NN	Number=Sing	34	compound	_	_
+34	coordination	coordination	NOUN	NN	Number=Sing	31	conj	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	17	punct	_	_
+36	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	38	nsubj	_	_
+37	also	also	ADV	RB	_	38	advmod	_	_
+38	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+39	that	that	SCONJ	IN	_	42	mark	_	_
+40	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	42	nsubj	_	_
+41	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	_
+42	strong	strong	ADJ	JJ	Degree=Pos	38	ccomp	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 7
+# text = The overall opinion is non-smoking measures to support, but some people will resist.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	overall	overall	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	opinion	opinion	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	non-smoking	non-smok	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	measures	measure	NOUN	NNS	Number=Plur	5	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	support	support	VERB	VB	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	but	but	CCONJ	CC	_	14	cc	_	_
+11	some	some	DET	DT	_	12	det	_	_
+12	people	people	NOUN	NNS	Number=Plur	14	nsubj	_	_
+13	will	will	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	resist	resist	VERB	VB	VerbForm=Inf	5	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = Southwestern Turkey early this month, and the restaurant serves guests of cigarette turn saying the owner was shot and killed.
+1	Southwestern	southwestern	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Turkey	Turkey	PROPN	NNP	Number=Sing	0	root	_	_
+3	early	early	ADV	RB	Degree=Pos	5	advmod	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	month	month	NOUN	NN	Number=Sing	2	nmod:tmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	restaurant	restaurant	NOUN	NN	Number=Sing	10	nsubj	_	_
+10	serves	serve	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	guests	guest	NOUN	NNS	Number=Plur	10	obj	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	cigarette	cigarette	NOUN	NN	Number=Sing	14	compound	_	_
+14	turn	turn	NOUN	NN	Number=Sing	11	nmod	_	_
+15	saying	say	VERB	VBG	VerbForm=Ger	11	acl	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	owner	owner	NOUN	NN	Number=Sing	19	nsubj	_	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+19	shot	shot	NOUN	NN	Number=Sing	15	ccomp	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	killed	kill	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = 18, protest government emerging from difficult coffee shop and restaurant owners are more difficult for accused with non-smoking measures have serious repercussions on the ruling party following elections would not take the threat of Iran has been released.
+1	18	18	NUM	CD	NumType=Card	32	nummod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	protest	protest	ADJ	JJS	Degree=Sup	4	amod	_	_
+4	government	government	NOUN	NN	Number=Sing	32	nsubj	_	_
+5	emerging	emerge	VERB	VBG	VerbForm=Ger	4	acl	_	_
+6	from	from	ADP	IN	_	9	case	_	_
+7	difficult	difficult	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	coffee	coffee	NOUN	NN	Number=Sing	9	compound	_	_
+9	shop	shop	NOUN	NN	Number=Sing	5	obl	_	_
+10	and	and	CCONJ	CC	_	15	cc	_	_
+11	restaurant	restaurant	NOUN	NN	Number=Sing	15	obl	_	_
+12	owners	owner	NOUN	NNS	Number=Plur	15	nsubj	_	_
+13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	more	more	ADV	RBR	_	15	advmod	_	_
+15	difficult	difficult	ADJ	JJ	Degree=Pos	9	conj	_	_
+16	for	for	ADP	IN	_	17	mark	_	_
+17	accused	accuse	VERB	VBN	Tense=Past|VerbForm=Part	15	advcl	_	_
+18	with	with	ADP	IN	_	20	case	_	_
+19	non-smoking	non-smoking	NOUN	NN	Number=Sing	20	compound	_	_
+20	measures	measure	NOUN	NNS	Number=Plur	17	obl	_	_
+21	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+22	serious	serious	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	repercussions	repercussion	NOUN	NNS	Number=Plur	21	obj	_	_
+24	on	on	ADP	IN	_	27	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+26	ruling	ruling	VERB	VBG	VerbForm=Ger	27	amod	_	_
+27	party	party	NOUN	NN	Number=Sing	21	nmod	_	_
+28	following	follow	VERB	VBG	VerbForm=Ger	29	case	_	_
+29	elections	election	NOUN	NNS	Number=Plur	27	nmod	_	_
+30	would	would	AUX	MD	VerbForm=Fin	32	aux	_	_
+31	not	not	PART	RB	_	32	advmod	_	_
+32	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	threat	threat	NOUN	NN	Number=Sing	32	obj	_	_
+35	of	of	ADP	IN	_	36	case	_	_
+36	Iran	Iran	PROPN	NNP	Number=Sing	34	nmod	_	_
+37	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
+38	been	be	AUX	VBN	Tense=Past|VerbForm=Part	39	aux:pass	_	_
+39	released	release	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	32	acl:relcl	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	32	punct	_	_
+
+# sent_id = 10
+# text = Unintentional restaurant or at the bar was held the tobacco in the fire, as well as opening day let damage because it can.
+1	Unintentional	Unintentional	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	restaurant	restaurant	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+3	or	or	CCONJ	CC	_	6	cc	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	bar	bar	NOUN	NN	Number=Sing	2	conj	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	held	hold	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	tobacco	tobacco	NOUN	NN	Number=Sing	8	obj	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	fire	fire	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	10	punct	_	_
+15	as	as	ADV	RB	_	21	cc	_	_
+16	well	well	ADV	RB	Degree=Pos	15	fixed	_	_
+17	as	as	SCONJ	IN	_	15	fixed	_	_
+18	opening	opening	VERB	VBG	VerbForm=Ger	21	amod	_	_
+19	day	day	NOUN	NN	Number=Sing	21	compound	_	_
+20	let	let	NOUN	NN	Number=Sing	21	compound	_	_
+21	damage	damage	NOUN	NN	Number=Sing	10	conj	_	_
+22	because	because	SCONJ	IN	_	24	mark	_	_
+23	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	can	can	AUX	MD	VerbForm=Fin	21	advcl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 11
+# text = Hundred years called smoking futile.
+1	Hundred	hundred	NUM	CD	NumType=Card	2	nummod	_	_
+2	years	year	NOUN	NNS	Number=Plur	3	obl:npmod	_	_
+3	called	call	VERB	VBN	Tense=Past|VerbForm=Part	5	amod	_	_
+4	smoking	smoke	NOUN	NN	Number=Sing	5	compound	_	_
+5	futile	futile	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 12
+# text = It is now up to place tobacco Phil seems to be getting bursts.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	now	now	ADV	RB	_	4	advmod	_	_
+4	up	up	ADJ	JJ	Degree=Pos	8	amod	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	place	place	VERB	VB	VerbForm=Inf	4	advcl	_	_
+7	tobacco	tobacco	PROPN	NNP	Number=Sing	6	obj	_	_
+8	Phil	Phil	PROPN	NNP	Number=Sing	9	nsubj	_	_
+9	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	to	to	PART	TO	_	12	mark	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	aux	_	_
+12	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	9	xcomp	_	_
+13	bursts	bursts	NOUN	NNS	Number=Plur	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

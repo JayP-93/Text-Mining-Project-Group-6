@@ -1,0 +1,364 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_204_EN_B2.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking is an expensive habit and it should be banned.
+1	﻿Smoking	﻿Smok	NOUN	NN	Number=Sing	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	expensive	expensive	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	habit	habit	NOUN	NN	Number=Sing	0	root	_	_
+6	and	and	CCONJ	CC	_	10	cc	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj:pass	_	_
+8	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+10	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Although smokers claim that it helps them to relax and release stress, the negative aspects of the habit outweigh the positive.
+1	Although	although	SCONJ	IN	_	4	case	_	_
+2	smoker	smoker	NOUN	NN	Number=Sing	4	nmod:poss	_	SpaceAfter=No
+3	s	s	PART	POS	_	2	case	_	_
+4	claim	claim	NOUN	NN	Number=Sing	0	root	_	_
+5	that	that	SCONJ	IN	_	7	mark	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	helps	help	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	relax	relax	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	release	release	VERB	VB	VerbForm=Inf	10	conj	_	_
+13	stress	stress	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	4	punct	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	negative	negative	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	aspects	aspect	NOUN	NNS	Number=Plur	4	appos	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	habit	habit	NOUN	NN	Number=Sing	17	nmod	_	_
+21	outweigh	outweigh	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	positive	positive	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = It is a health hazard for both smokers and non-smokers and it is especially harmful to unborn babies.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	health	health	NOUN	NN	Number=Sing	5	compound	_	_
+5	hazard	hazard	NOUN	NN	Number=Sing	0	root	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	both	both	DET	DT	_	8	det	_	_
+8	smokers	smoker	NOUN	NNS	Number=Plur	5	nmod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	non-smokers	non-smoker	NOUN	NNS	Number=Plur	8	conj	_	_
+11	and	and	CCONJ	CC	_	15	cc	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	especially	especially	ADV	RB	_	15	advmod	_	_
+15	harmful	harmful	ADJ	JJ	Degree=Pos	5	conj	_	_
+16	to	to	ADP	IN	_	18	case	_	_
+17	unborn	unborn	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	babies	baby	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Cigarettes are also addictive because of the nicotine they contain.
+1	Cigarettes	Cigarette	NOUN	NNS	Number=Plur	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	also	also	ADV	RB	_	4	advmod	_	_
+4	addictive	addictive	ADJ	JJ	Degree=Pos	0	root	_	_
+5	because	because	ADP	IN	_	8	case	_	_
+6	of	of	ADP	IN	_	5	fixed	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	nicotine	nicotine	NOUN	NN	Number=Sing	4	obl	_	_
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+10	contain	contain	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Cigarette smoking causes a number of health problems that are expensive to treat.
+1	Cigarette	cigarette	NOUN	NN	Number=Sing	2	compound	_	_
+2	smoking	smoke	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	causes	cause	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	number	number	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	health	health	NOUN	NN	Number=Sing	8	compound	_	_
+8	problems	problem	NOUN	NNS	Number=Plur	5	nmod	_	_
+9	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	expensive	expensive	ADJ	JJ	Degree=Pos	8	acl:relcl	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	treat	treat	VERB	VB	VerbForm=Inf	11	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = It is a major cause of respiratory diseases such as asthma, lung cancer and bronchitis.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	major	major	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	cause	cause	NOUN	NN	Number=Sing	0	root	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	respiratory	respiratory	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	diseases	diseases	NOUN	NNS	Number=Plur	5	nmod	_	_
+9	such	such	ADJ	JJ	Degree=Pos	11	case	_	_
+10	as	as	ADP	IN	_	9	fixed	_	_
+11	asthma	asthma	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	lung	lung	NOUN	NN	Number=Sing	14	compound	_	_
+14	cancer	cancer	NOUN	NN	Number=Sing	11	conj	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	bronchitis	bronchitis	NOUN	NNS	Number=Plur	11	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 7
+# text = It also leads to heart disease.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	also	also	ADV	RB	_	3	advmod	_	_
+3	leads	lead	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	heart	heart	NOUN	NN	Number=Sing	6	compound	_	_
+6	disease	disease	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = In spite of the money that the Government receives from taxing cigarettes, the cost of medical treatment for these diseases exceeds this income.
+1	In	in	ADP	IN	_	2	case	_	_
+2	spite	spite	NOUN	NN	Number=Sing	22	obl	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	money	money	NOUN	NN	Number=Sing	2	nmod	_	_
+6	that	that	PRON	WDT	PronType=Rel	9	obj	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	Government	government	NOUN	NN	Number=Sing	9	nsubj	_	_
+9	receives	receive	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+10	from	from	ADP	IN	_	12	case	_	_
+11	taxing	taxing	VERB	VBG	VerbForm=Ger	12	amod	_	_
+12	cigarettes	cigarette	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	22	punct	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	cost	cost	NOUN	NN	Number=Sing	22	nsubj	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	medical	medical	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	treatment	treatment	NOUN	NN	Number=Sing	15	nmod	_	_
+19	for	for	ADP	IN	_	21	case	_	_
+20	these	these	DET	DT	Number=Plur|PronType=Dem	21	det	_	_
+21	diseases	disease	NOUN	NNS	Number=Plur	15	nmod	_	_
+22	exceeds	exceed	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	this	this	DET	DT	Number=Sing|PronType=Dem	24	det	_	_
+24	income	income	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 9
+# text = As a consequence, non-smoking taxpayers are forced to pay for the health costs of smokers.
+1	As	as	ADP	IN	_	3	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	consequence	consequence	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	non-smoking	non-smoking	VERB	VBG	VerbForm=Ger	6	amod	_	_
+6	taxpayers	taxpayer	NOUN	NNS	Number=Plur	8	nsubj:pass	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	forced	force	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	pay	pay	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	for	for	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	health	health	NOUN	NN	Number=Sing	14	compound	_	_
+14	costs	cost	NOUN	NNS	Number=Plur	10	obl	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	smokers	smoker	NOUN	NNS	Number=Plur	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 10
+# text = This is a very unfair situation.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	unfair	unfair	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	situation	situation	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 11
+# text = Another reason for banning smoking is that cigarette smoke affects the health of non-smokers and unborn babies.
+1	Another	another	DET	DT	_	2	det	_	_
+2	reason	reason	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	for	for	SCONJ	IN	_	4	mark	_	_
+4	banning	ban	VERB	VBG	VerbForm=Ger	2	acl	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	4	obj	_	_
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	that	that	SCONJ	IN	_	10	mark	_	_
+8	cigarette	cigarette	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	smoke	smoke	NOUN	NN	Number=Sing	10	nsubj	_	_
+10	affects	affect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	health	health	NOUN	NN	Number=Sing	10	obj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	non-smokers	non-smoker	NOUN	NNS	Number=Plur	12	nmod	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	unborn	unborn	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	babies	baby	NOUN	NNS	Number=Plur	14	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 12
+# text = Non-smokers soften suffer from eye and nose irritations, allergies and headaches as a result of inhaling second-hand smoke.
+1	Non-smokers	non-smoker	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	soften	soften	ADV	RB	_	3	advmod	_	_
+3	suffer	suffer	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	from	from	ADP	IN	_	8	case	_	_
+5	eye	eye	NOUN	NN	Number=Sing	8	compound	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	nose	nose	NOUN	NN	Number=Sing	5	conj	_	_
+8	irritations	irritation	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	allergies	allergy	NOUN	NNS	Number=Plur	8	conj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	headaches	headach	NOUN	NNS	Number=Plur	8	conj	_	_
+13	as	as	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	result	result	NOUN	NN	Number=Sing	3	nmod	_	_
+16	of	of	SCONJ	IN	_	17	mark	_	_
+17	inhaling	inhaling	VERB	VBG	VerbForm=Ger	15	acl	_	_
+18	second	second	ADV	RB	_	17	advmod	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	20	punct	_	SpaceAfter=No
+20	hand	hand	NOUN	NN	Number=Sing	21	compound	_	_
+21	smoke	smoke	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 13
+# text = There is also evidence to suggest that passive smoking may cause lung cancer.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	also	also	ADV	RB	_	4	advmod	_	_
+4	evidence	evidence	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	suggest	suggest	VERB	VB	VerbForm=Inf	4	acl	_	_
+7	that	that	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+8	passive	passive	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	11	nsubj	_	_
+10	may	may	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	cause	cause	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+12	lung	lung	ADP	IN	_	13	case	_	_
+13	cancer	cancer	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 14
+# text = Smoking during pregnancy can hinder to growth of the fetus and may even result in death.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	5	csubj	_	_
+2	during	during	ADP	IN	_	3	case	_	_
+3	pregnancy	pregnancy	NOUN	NN	Number=Sing	1	obl	_	_
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	hinder	hinder	VERB	VB	VerbForm=Inf	0	root	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	growth	growth	NOUN	NN	Number=Sing	5	obl	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	fetus	fetus	NOUN	NNS	Number=Plur	7	nmod	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	may	may	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	even	even	ADV	RB	_	14	advmod	_	_
+14	result	result	VERB	VB	VerbForm=Inf	5	conj	_	_
+15	in	in	ADP	IN	_	16	case	_	_
+16	death	death	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 15
+# text = Finally, the nicotine, which is found in cigarettes, is highly addictive.
+1	Finally	finally	ADV	RB	_	14	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	14	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	nicotine	nicotine	NOUN	NN	Number=Sing	14	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	which	which	PRON	WDT	PronType=Rel	8	nsubj:pass	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl:relcl	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	cigarettes	cigarette	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	highly	highly	ADV	RB	_	14	advmod	_	_
+14	addictive	addictive	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 16
+# text = Other addictive substances such as cocaine and heroin are illegal.
+1	Other	other	ADJ	JJ	Degree=Pos	3	amod	_	_
+2	addictive	addictive	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	substances	substance	NOUN	NNS	Number=Plur	10	nsubj	_	_
+4	such	such	ADJ	JJ	Degree=Pos	6	case	_	_
+5	as	as	ADP	IN	_	4	fixed	_	_
+6	cocaine	cocaine	NOUN	NN	Number=Sing	3	nmod	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	heroin	heroin	NOUN	NNS	Number=Plur	6	conj	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	illegal	illegal	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 17
+# text = The fact that tobacco remains legal is an anomaly.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	fact	fact	NOUN	NN	Number=Sing	9	nsubj	_	_
+3	that	that	PRON	WDT	PronType=Rel	5	nsubj	_	_
+4	tobacco	tobacco	ADV	RB	_	5	advmod	_	_
+5	remains	remain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	legal	legal	ADJ	JJ	Degree=Pos	5	xcomp	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	anomaly	anomaly	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 18
+# text = Thus, in summary, smoking causes numerous illnesses that are expensive to treat.
+1	Thus	thus	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	summary	summary	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	smoking	smoke	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	causes	cause	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	numerous	numerous	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	illnesses	illness	NOUN	NNS	Number=Plur	7	obj	_	_
+10	that	that	PRON	WDT	PronType=Rel	12	nsubj	_	_
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	expensive	expensive	ADJ	JJ	Degree=Pos	9	acl:relcl	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	treat	treat	VERB	VB	VerbForm=Inf	12	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 19
+# text = It disturbs non-smokers and is an unhealthy addiction.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	disturbs	disturb	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	non-smokers	non-smoker	NOUN	NNS	Number=Plur	2	obj	_	_
+4	and	and	CCONJ	CC	_	8	cc	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	unhealthy	unhealthy	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	addiction	addiction	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 20
+# text = Therefore, cigarettes should definitely be banned so as to make the world a better place for everyone.
+1	Therefore	therefore	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	cigarettes	cigarettes	NOUN	NNS	Number=Plur	7	nsubj:pass	_	_
+4	should	should	AUX	MD	VerbForm=Fin	7	aux	_	_
+5	definitely	definitely	ADV	RB	_	7	advmod	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	so	so	SCONJ	IN	_	11	mark	_	_
+9	as	as	SCONJ	IN	_	8	fixed	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	make	make	VERB	VB	VerbForm=Inf	7	advcl	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	world	world	NOUN	NN	Number=Sing	11	obj	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	better	better	ADJ	JJR	Degree=Cmp	16	amod	_	_
+16	place	place	NOUN	NN	Number=Sing	18	obj	_	_
+17	for	for	ADP	IN	_	18	case	_	_
+18	everyone	everyone	PRON	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

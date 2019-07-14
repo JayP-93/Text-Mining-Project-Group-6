@@ -1,0 +1,348 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_JPN_SMK0_229_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿We should permit smokers to smoke at the restaurants.
+1	﻿We	﻿we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	permit	permit	VERB	VB	VerbForm=Inf	0	root	_	_
+4	smokers	smoker	NOUN	NNS	Number=Plur	3	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	smoke	smoke	VERB	VB	VerbForm=Inf	4	acl	_	_
+7	at	at	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	restaurants	restaurant	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = There are three reasons.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	three	three	NUM	CD	NumType=Card	4	nummod	_	_
+4	reasons	reason	NOUN	NNS	Number=Plur	2	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = First, as you know well, it is true that cigarettes do harm to not only smokers but also people around him, but we can prevent that damage.
+1	First	first	ADV	RB	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	10	punct	_	_
+3	as	as	SCONJ	IN	_	5	mark	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+6	well	well	ADV	RB	Degree=Pos	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	true	true	ADJ	JJ	Degree=Pos	0	root	_	_
+11	that	that	SCONJ	IN	_	13	mark	_	_
+12	cigarettes	cigarette	NOUN	NNS	Number=Plur	13	nsubj	_	_
+13	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+14	harm	harm	NOUN	NN	Number=Sing	13	obj	_	_
+15	to	to	ADP	IN	_	18	case	_	_
+16	not	not	ADV	RB	_	17	advmod	_	_
+17	only	only	ADV	RB	_	18	cc:preconj	_	_
+18	smokers	smoker	NOUN	NNS	Number=Plur	13	obl	_	_
+19	but	but	CCONJ	CC	_	21	cc	_	_
+20	also	also	ADV	RB	_	21	advmod	_	_
+21	people	people	NOUN	NNS	Number=Plur	13	conj	_	_
+22	around	around	ADP	IN	_	23	case	_	_
+23	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	28	punct	_	_
+25	but	but	CCONJ	CC	_	28	cc	_	_
+26	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	28	nsubj	_	_
+27	can	can	AUX	MD	VerbForm=Fin	28	aux	_	_
+28	prevent	prevent	VERB	VB	VerbForm=Inf	10	conj	_	_
+29	that	that	DET	DT	Number=Sing|PronType=Dem	30	det	_	_
+30	damage	damage	NOUN	NN	Number=Sing	28	obj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 4
+# text = For instance, by setting air-conditioning units, many people wouldn't be unpleasant even when there are smokers at the same restaurants.
+1	For	for	ADP	IN	_	2	case	_	_
+2	instance	instance	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	by	by	SCONJ	IN	_	5	mark	_	_
+5	setting	set	VERB	VBG	VerbForm=Ger	9	amod	_	_
+6	air	air	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	conditioning	condition	NOUN	NN	Number=Sing	9	compound	_	_
+9	units	unit	NOUN	NNS	Number=Plur	2	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	16	punct	_	_
+11	many	many	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	people	people	NOUN	NNS	Number=Plur	16	nsubj	_	_
+13	would	would	AUX	MD	VerbForm=Fin	16	aux	_	SpaceAfter=No
+14	n't	not	PART	RB	_	16	advmod	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	cop	_	_
+16	unpleasant	unpleasant	ADJ	JJ	Degree=Pos	0	root	_	_
+17	even	even	ADV	RB	_	20	advmod	_	_
+18	when	when	ADV	WRB	PronType=Int	20	mark	_	_
+19	there	there	PRON	EX	_	20	expl	_	_
+20	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+21	smokers	smoker	NOUN	NNS	Number=Plur	20	nsubj	_	_
+22	at	at	ADP	IN	_	25	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+24	same	same	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	restaurants	restaurant	NOUN	NNS	Number=Plur	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 5
+# text = Or, for another, by deciding time or space to ban smoke, the restaurants would be comfortable place for all people.
+1	Or	or	INTJ	UH	_	20	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	20	punct	_	_
+3	for	for	ADP	IN	_	4	case	_	_
+4	another	another	DET	DT	_	20	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	20	punct	_	_
+6	by	by	SCONJ	IN	_	7	mark	_	_
+7	deciding	decide	VERB	VBG	VerbForm=Ger	20	advcl	_	_
+8	time	time	NOUN	NN	Number=Sing	7	obj	_	_
+9	or	or	CCONJ	CC	_	10	cc	_	_
+10	space	space	NOUN	NN	Number=Sing	8	conj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	ban	ban	VERB	VB	VerbForm=Inf	7	advcl	_	_
+13	smoke	smoke	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	20	punct	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	restaurants	restaurant	NOUN	NNS	Number=Plur	20	nsubj	_	_
+17	would	would	AUX	MD	VerbForm=Fin	20	aux	_	_
+18	be	be	AUX	VB	VerbForm=Inf	20	cop	_	_
+19	comfortable	comfortable	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	place	place	NOUN	NN	Number=Sing	0	root	_	_
+21	for	for	ADP	IN	_	23	case	_	_
+22	all	all	DET	DT	_	23	det	_	_
+23	people	people	NOUN	NNS	Number=Plur	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = 6
+# text = In addition, the manager of the restaurant will get much money than prohibiting smokers from entering their shops because they have larger customers, both smokers and non-smokers.
+1	In	in	ADP	IN	_	2	case	_	_
+2	addition	addition	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	10	punct	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	manager	manager	NOUN	NN	Number=Sing	10	nsubj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	restaurant	restaurant	NOUN	NN	Number=Sing	5	nmod	_	_
+9	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+11	much	much	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	money	money	NOUN	NN	Number=Sing	10	obj	_	_
+13	than	than	SCONJ	IN	_	14	mark	_	_
+14	prohibiting	prohibit	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+15	smokers	smoker	NOUN	NNS	Number=Plur	14	obj	_	_
+16	from	from	SCONJ	IN	_	17	mark	_	_
+17	entering	enter	VERB	VBG	VerbForm=Ger	15	acl	_	_
+18	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	shops	shop	NOUN	NNS	Number=Plur	17	obj	_	_
+20	because	because	SCONJ	IN	_	22	mark	_	_
+21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
+22	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+23	larger	larger	ADJ	JJR	Degree=Cmp	24	amod	_	_
+24	customers	customer	NOUN	NNS	Number=Plur	22	obj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	10	punct	_	_
+26	both	both	CCONJ	CC	_	27	cc:preconj	_	_
+27	smokers	smoker	NOUN	NNS	Number=Plur	10	parataxis	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	non-smokers	non-smoker	NOUN	NNS	Number=Plur	27	conj	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	27	punct	_	_
+
+# sent_id = 7
+# text = Second, as there are stormy discussions about the tax of cigarettes, the government can get much more money for public welfare from smokers.
+1	Second	second	ADV	RB	_	17	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	17	punct	_	_
+3	as	as	SCONJ	IN	_	5	mark	_	_
+4	there	there	PRON	EX	_	5	expl	_	_
+5	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+6	stormy	stormy	NOUN	NN	Number=Sing	7	compound	_	_
+7	discussions	discussion	NOUN	NNS	Number=Plur	5	nsubj	_	_
+8	about	about	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	tax	tax	NOUN	NN	Number=Sing	7	nmod	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	cigarettes	cigarette	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	government	government	NOUN	NN	Number=Sing	17	nsubj	_	_
+16	can	can	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+18	much	much	ADV	RB	_	19	advmod	_	_
+19	more	more	ADJ	JJR	Degree=Cmp	20	amod	_	_
+20	money	money	NOUN	NN	Number=Sing	17	obj	_	_
+21	for	for	ADP	IN	_	23	case	_	_
+22	public	public	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	welfare	welfare	NOUN	NN	Number=Sing	17	obl	_	_
+24	from	from	ADP	IN	_	25	case	_	_
+25	smokers	smoker	NOUN	NNS	Number=Plur	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 8
+# text = However, the government couldn't do if smokers are not allowed to smoke at all restaurants.
+1	However	however	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	government	government	NOUN	NN	Number=Sing	7	nsubj	_	_
+5	could	could	AUX	MD	VerbForm=Fin	7	aux	_	SpaceAfter=No
+6	n't	not	PART	RB	_	7	advmod	_	_
+7	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+8	if	if	SCONJ	IN	_	12	mark	_	_
+9	smokers	smoker	NOUN	NNS	Number=Plur	12	nsubj:pass	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+11	not	not	PART	RB	_	12	advmod	_	_
+12	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	smoke	smoke	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+15	at	at	ADP	IN	_	17	case	_	_
+16	all	all	DET	DT	_	17	det	_	_
+17	restaurants	restaurant	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 9
+# text = Now the economical situation of Japan is very danger, so we should accept their smoking at the restaurants.
+1	Now	now	ADV	RB	_	4	advmod	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	economical	economical	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	situation	situation	NOUN	NN	Number=Sing	9	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	Japan	Japan	PROPN	NNP	Number=Sing	4	nmod	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	very	very	ADV	RB	_	9	advmod	_	_
+9	danger	danger	ADV	RBR	_	14	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	so	so	ADV	RB	_	14	advmod	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
+13	should	should	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	accept	accept	VERB	VB	VerbForm=Inf	0	root	_	_
+15	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	smoking	smoking	NOUN	NN	Number=Sing	14	obj	_	_
+17	at	at	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	restaurants	restaurant	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 10
+# text = The tax of cigarettes will help condition of Japan with solving the problem of the pension coming from the aging society.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	tax	tax	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	cigarettes	cigarettes	NOUN	NNS	Number=Plur	2	nmod	_	_
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	help	help	VERB	VB	VerbForm=Inf	0	root	_	_
+7	condition	condition	NOUN	NN	Number=Sing	6	obj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	Japan	Japan	PROPN	NNP	Number=Sing	7	nmod	_	_
+10	with	with	SCONJ	IN	_	11	mark	_	_
+11	solving	solving	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	problem	problem	NOUN	NN	Number=Sing	11	obj	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	pension	pension	NOUN	NN	Number=Sing	13	nmod	_	_
+17	coming	come	VERB	VBG	VerbForm=Ger	16	acl	_	_
+18	from	from	ADP	IN	_	21	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	aging	aging	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	society	society	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 11
+# text = Third, smokers have the right to have relaxing time as well as non-smokers.
+1	Third	third	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	smokers	smoker	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	right	right	NOUN	NN	Number=Sing	4	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	have	have	VERB	VB	VerbForm=Inf	6	acl	_	_
+9	relaxing	relaxing	NOUN	NN	Number=Sing	10	compound	_	_
+10	time	time	NOUN	NN	Number=Sing	8	obj	_	_
+11	as	as	ADV	RB	_	14	cc	_	_
+12	well	well	ADV	RB	Degree=Pos	11	fixed	_	_
+13	as	as	ADP	IN	_	11	fixed	_	_
+14	non-smokers	non-smoker	NOUN	NNS	Number=Plur	10	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 12
+# text = It is hard for them to find the good place for smoking because many rules that restrain them from smoking are passed one after another.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	hard	hard	ADJ	JJ	Degree=Pos	0	root	_	_
+4	for	for	SCONJ	IN	_	7	mark	_	_
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	find	find	VERB	VB	VerbForm=Inf	3	csubj	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	good	good	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	place	place	NOUN	NN	Number=Sing	7	obj	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	smoking	smoke	NOUN	NN	Number=Sing	10	nmod	_	_
+13	because	because	SCONJ	IN	_	22	mark	_	_
+14	many	many	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	rules	rule	NOUN	NNS	Number=Plur	22	nsubj:pass	_	_
+16	that	that	PRON	WDT	PronType=Rel	17	nsubj	_	_
+17	restrain	restrain	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	obj	_	_
+19	from	from	ADP	IN	_	20	case	_	_
+20	smoking	smoking	NOUN	NN	Number=Sing	17	obl	_	_
+21	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
+22	passed	pass	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	_
+23	one	one	NUM	CD	NumType=Card	22	obj	_	_
+24	after	after	ADP	IN	_	25	case	_	_
+25	another	another	DET	DT	_	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 13
+# text = It is cigarettes that smokers can breath a sigh of relief with.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	cigarettes	cigarette	NOUN	NNS	Number=Plur	2	nsubj	_	_
+4	that	that	SCONJ	IN	_	6	mark	_	_
+5	smokers	smoker	NOUN	NNS	Number=Plur	6	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	3	acl	_	_
+7	breath	breath	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	sigh	sigh	NOUN	NN	Number=Sing	6	obl	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	relief	relief	NOUN	NN	Number=Sing	9	nmod	_	_
+12	with	with	ADP	IN	_	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 14
+# text = We should consider hard condition of them in this society filled with stresses.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	consider	consider	VERB	VB	VerbForm=Inf	0	root	_	_
+4	hard	hard	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	condition	condition	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	nmod	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	society	society	NOUN	NN	Number=Sing	3	obl	_	_
+11	filled	fill	VERB	VBN	Tense=Past|VerbForm=Part	10	acl	_	_
+12	with	with	ADP	IN	_	13	case	_	_
+13	stresses	stress	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 15
+# text = For the three reasons, we should admire their smoking to make the society comfortable for both smokers and non-smokers.
+1	For	for	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	three	three	NUM	CD	NumType=Card	4	nummod	_	_
+4	reasons	reason	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+7	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	admire	admire	VERB	VB	VerbForm=Inf	0	root	_	_
+9	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	8	obj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	make	make	VERB	VB	VerbForm=Inf	8	advcl	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	society	society	NOUN	NN	Number=Sing	12	obj	_	_
+15	comfortable	comfortable	ADJ	JJ	Degree=Pos	12	xcomp	_	_
+16	for	for	ADP	IN	_	18	case	_	_
+17	both	both	DET	DT	_	18	det	_	_
+18	smokers	smoker	NOUN	NNS	Number=Plur	12	obl	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	non-smokers	non-smoker	NOUN	NNS	Number=Plur	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

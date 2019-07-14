@@ -1,0 +1,256 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_THA_PTJ0_199_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I think that it is not really important because college students have to do a lot of homework, review the things which the teacher have taught at the classroom.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	8	mark	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	not	not	PART	RB	_	8	advmod	_	_
+7	really	really	ADV	RB	_	8	advmod	_	_
+8	important	important	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+9	because	because	SCONJ	IN	_	12	mark	_	_
+10	college	college	NOUN	NN	Number=Sing	11	compound	_	_
+11	students	student	NOUN	NNS	Number=Plur	12	nsubj	_	_
+12	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	do	do	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	lot	lot	NOUN	NN	Number=Sing	14	obj	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	homework	homework	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	_
+20	review	review	VERB	VB	Mood=Imp|VerbForm=Fin	2	conj	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	things	thing	NOUN	NNS	Number=Plur	20	obj	_	_
+23	which	which	PRON	WDT	PronType=Rel	27	obj	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	teacher	teacher	NOUN	NN	Number=Sing	27	nsubj	_	_
+26	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	taught	teach	VERB	VBN	Tense=Past|VerbForm=Part	22	acl:relcl	_	_
+28	at	at	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	classroom	classroom	NOUN	NN	Number=Sing	27	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Not only college students must care or spend time for, but must they also take the responsible for their daily life such as washing cloth, cooking for food, and etc.
+1	Not	not	ADV	RB	_	2	advmod	_	_
+2	only	only	ADV	RB	_	6	advmod	_	_
+3	college	college	NOUN	NN	Number=Sing	4	compound	_	_
+4	students	student	NOUN	NNS	Number=Plur	6	nsubj	_	_
+5	must	must	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	care	care	VERB	VB	VerbForm=Inf	0	root	_	_
+7	or	or	CCONJ	CC	_	8	cc	_	_
+8	spend	spend	VERB	VB	VerbForm=Inf	6	conj	_	_
+9	time	time	NOUN	NN	Number=Sing	8	obj	_	_
+10	for	for	ADP	IN	_	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	_	_
+12	but	but	CCONJ	CC	_	16	cc	_	_
+13	must	must	AUX	MD	VerbForm=Fin	16	aux	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+15	also	also	ADV	RB	_	16	advmod	_	_
+16	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	responsible	responsible	ADJ	JJ	Degree=Pos	26	amod	_	_
+19	for	for	ADP	IN	_	22	case	_	_
+20	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+21	daily	daily	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	life	life	NOUN	NN	Number=Sing	18	obl	_	_
+23	such	such	ADJ	JJ	Degree=Pos	25	mark	_	_
+24	as	as	SCONJ	IN	_	23	fixed	_	_
+25	washing	wash	VERB	VBG	VerbForm=Ger	26	amod	_	_
+26	cloth	cloth	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	6	punct	_	_
+28	cooking	cook	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+29	for	for	ADP	IN	_	30	case	_	_
+30	food	food	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	33	punct	_	_
+32	and	and	CCONJ	CC	_	33	cc	_	_
+33	etc	etc	X	FW	_	6	conj	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = In the other hands,
+1	In	in	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	other	other	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	hands	hand	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+
+# sent_id = 4
+# text = If college students have a part-time job, it will be the severe obstacle for student.
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	college	college	NOUN	NN	Number=Sing	3	compound	_	_
+3	students	student	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+6	part	part	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	time	time	NOUN	NN	Number=Sing	9	compound	_	_
+9	job	job	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	16	punct	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+12	will	will	AUX	MD	VerbForm=Fin	16	aux	_	_
+13	be	be	AUX	VB	VerbForm=Inf	16	cop	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	severe	severe	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	obstacle	obstacle	NOUN	NN	Number=Sing	0	root	_	_
+17	for	for	ADP	IN	_	18	case	_	_
+18	student	student	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 5
+# text = Since student will take their time on the job.
+1	Since	since	SCONJ	IN	_	4	mark	_	_
+2	student	student	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+5	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	time	time	NOUN	NN	Number=Sing	4	obj	_	_
+7	on	on	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	job	job	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Working late at night, college students will not have the energy for their study in the morning.
+1	Working	work	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+2	late	late	ADV	RB	Degree=Pos	1	advmod	_	_
+3	at	at	ADP	IN	_	4	case	_	_
+4	night	night	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	college	college	NOUN	NN	Number=Sing	7	compound	_	_
+7	students	student	NOUN	NNS	Number=Plur	10	nsubj	_	_
+8	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	energy	energy	NOUN	NN	Number=Sing	10	obj	_	_
+13	for	for	ADP	IN	_	15	case	_	_
+14	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	study	study	NOUN	NN	Number=Sing	12	nmod	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	morning	morning	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 7
+# text = The result is the poor grade that is caused from their part-time job.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	result	result	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	poor	poor	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	grade	grade	NOUN	NN	Number=Sing	0	root	_	_
+7	that	that	PRON	WDT	PronType=Rel	9	nsubj:pass	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	caused	cause	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+10	from	from	ADP	IN	_	15	case	_	_
+11	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+12	part	part	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+14	time	time	NOUN	NN	Number=Sing	15	compound	_	_
+15	job	job	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 8
+# text = Moreover this problem can impact to their parents too.
+1	Moreover	moreover	ADV	RB	_	5	advmod	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	problem	problem	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	impact	impact	VERB	VB	VerbForm=Inf	0	root	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	parents	parent	NOUN	NNS	Number=Plur	5	obl	_	_
+9	too	too	ADV	RB	_	5	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = Because when their get a bad grade, it mean that their learning is poor, the people who expect on them (parents) will be upset and disappoint with their learning.
+1	Because	because	SCONJ	IN	_	10	mark	_	_
+2	when	when	ADV	WRB	PronType=Int	4	mark	_	_
+3	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	nsubj	_	_
+4	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	bad	bad	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	grade	grade	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	28	advcl	_	_
+11	that	that	SCONJ	IN	_	15	mark	_	_
+12	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	learning	learning	NOUN	NN	Number=Sing	15	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	poor	poor	ADJ	JJ	Degree=Pos	10	ccomp	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	28	punct	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	people	people	NOUN	NNS	Number=Plur	28	nsubj	_	_
+19	who	who	PRON	WP	PronType=Rel	20	nsubj	_	_
+20	expect	expect	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+21	on	on	ADP	IN	_	22	case	_	_
+22	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	20	obl	_	_
+23	(	(	PUNCT	-LRB-	_	24	punct	_	SpaceAfter=No
+24	parents	parent	NOUN	NNS	Number=Plur	20	appos	_	SpaceAfter=No
+25	)	)	PUNCT	-RRB-	_	24	punct	_	_
+26	will	will	AUX	MD	VerbForm=Fin	28	aux	_	_
+27	be	be	AUX	VB	VerbForm=Inf	28	cop	_	_
+28	upset	upset	ADJ	JJ	Degree=Pos	0	root	_	_
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	disappoint	disappoind	ADJ	JJ	Degree=Pos	28	conj	_	_
+31	with	with	ADP	IN	_	33	case	_	_
+32	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	learning	learning	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	28	punct	_	_
+
+# sent_id = 10
+# text = Finally, for college students life, the first thing that they ought to focus on seriously is studying that can develop their life and be the opportunity for them to get a better job in the future after they had graduate from the university.
+1	Finally	finally	ADV	RB	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	10	punct	_	_
+3	for	for	ADP	IN	_	6	case	_	_
+4	college	college	NOUN	NN	Number=Sing	5	compound	_	_
+5	students	student	NOUN	NNS	Number=Plur	6	compound	_	_
+6	life	life	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	10	amod	_	_
+10	thing	thing	NOUN	NN	Number=Sing	19	nsubj	_	_
+11	that	that	PRON	WDT	PronType=Rel	13	obj	_	_
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+13	ought	ink	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	focus	focus	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+16	on	on	ADP	RP	_	15	compound:prt	_	_
+17	seriously	seriously	ADV	RB	_	15	advmod	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	studying	study	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+20	that	that	PRON	DT	Number=Sing|PronType=Dem	22	nsubj	_	_
+21	can	can	AUX	MD	VerbForm=Fin	22	aux	_	_
+22	develop	develop	VERB	VB	VerbForm=Inf	19	ccomp	_	_
+23	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	life	life	NOUN	NN	Number=Sing	22	obj	_	_
+25	and	and	CCONJ	CC	_	28	cc	_	_
+26	be	be	AUX	VB	VerbForm=Inf	28	cop	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	opportunity	opportunity	NOUN	NN	Number=Sing	19	conj	_	_
+29	for	for	SCONJ	IN	_	32	mark	_	_
+30	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	32	nsubj	_	_
+31	to	to	PART	TO	_	32	mark	_	_
+32	get	get	VERB	VB	VerbForm=Inf	28	acl	_	_
+33	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	_	_
+34	better	better	ADJ	JJR	Degree=Cmp	35	amod	_	_
+35	job	job	NOUN	NN	Number=Sing	32	obj	_	_
+36	in	in	ADP	IN	_	38	case	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	future	future	NOUN	NN	Number=Sing	32	obl	_	_
+39	after	after	SCONJ	IN	_	41	mark	_	_
+40	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	41	nsubj	_	_
+41	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	32	advcl	_	_
+42	graduate	graduate	NOUN	NN	Number=Sing	41	obj	_	_
+43	from	from	ADP	IN	_	45	case	_	_
+44	the	the	DET	DT	Definite=Def|PronType=Art	45	det	_	_
+45	university	university	NOUN	NN	Number=Sing	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	19	punct	_	SpacesAfter=\n
+

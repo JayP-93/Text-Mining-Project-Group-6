@@ -1,0 +1,284 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_THA_SMK0_153_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Everyone know that smoking is bad for their health.
+1	﻿Everyone	﻿Everyone	PRON	PRP	_	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	6	mark	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	bad	bad	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	health	health	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = So why is someone still smokes?
+1	So	so	ADV	RB	_	6	advmod	_	_
+2	why	why	ADV	WRB	PronType=Int	6	advmod	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	someone	someone	PRON	NN	Number=Sing	6	nsubj	_	_
+5	still	still	ADV	RB	_	6	advmod	_	_
+6	smokes	smoke	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Well, probably because they think that smoking is smart or it can make them relax.
+1	Well	well	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	probably	probably	ADV	RB	_	6	advmod	_	_
+4	because	because	SCONJ	IN	_	6	mark	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	that	that	SCONJ	IN	_	10	mark	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	smart	smart	ADJ	JJ	Degree=Pos	6	ccomp	_	_
+11	or	or	CCONJ	CC	_	14	cc	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	can	can	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	make	make	VERB	VB	VerbForm=Inf	10	conj	_	_
+15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
+16	relax	relax	VERB	VB	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = In case of restaurant, Does smoking must be banned ?
+1	In	in	ADP	IN	_	2	case	_	_
+2	case	case	NOUN	NN	Number=Sing	7	obl	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	restaurant	restaurant	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+8	must	must	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+10	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	parataxis	_	_
+11	?	?	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = It's extremely sure!
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	extremely	extremely	ADV	RB	_	4	advmod	_	_
+4	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = The restaurant is a place that many people come to have a breakfast, a lunch or a dinner.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	restaurant	restaurant	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	place	place	NOUN	NN	Number=Sing	0	root	_	_
+6	that	that	SCONJ	IN	_	9	mark	_	_
+7	many	many	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	people	people	NOUN	NNS	Number=Plur	9	nsubj	_	_
+9	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	have	have	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	breakfast	breakfast	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	lunch	lunch	NOUN	NN	Number=Sing	13	conj	_	_
+17	or	or	CCONJ	CC	_	19	cc	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	dinner	dinner	NOUN	NN	Number=Sing	13	conj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 7
+# text = They can be cute baby, smart boy, beautiful woman or old grandfather.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+4	cute	cute	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	baby	baby	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	smart	smart	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	boy	boy	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	beautiful	beautiful	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	woman	woman	NOUN	NN	Number=Sing	5	parataxis	_	_
+12	or	or	CCONJ	CC	_	14	cc	_	_
+13	old	old	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	grandfather	grandfather	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = Surely that they don't want to be harm from smoking.
+1	Surely	surely	ADV	RB	_	6	advmod	_	_
+2	that	that	SCONJ	IN	_	6	mark	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	n't	not	PART	RB	_	6	advmod	_	_
+6	want	want	VERB	VB	VerbForm=Inf	0	root	_	_
+7	to	to	PART	TO	_	9	mark	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+9	harm	harm	NOUN	NN	Number=Sing	6	xcomp	_	_
+10	from	from	ADP	IN	_	11	case	_	_
+11	smoking	smoking	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 9
+# text = Everyone don't want to be close to a person who is smoking, because it has a bad smell and it is bad for their health.
+1	Everyone	everyone	PRON	NN	Number=Sing	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	want	want	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	7	mark	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+7	close	close	ADJ	JJ	Degree=Pos	4	xcomp	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	person	person	NOUN	NN	Number=Sing	7	obl	_	_
+11	who	who	PRON	WP	PronType=Rel	13	nsubj	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	10	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	because	because	SCONJ	IN	_	17	mark	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	bad	bad	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	smell	smell	NOUN	NN	Number=Sing	17	obj	_	_
+21	and	and	CCONJ	CC	_	24	cc	_	_
+22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	bad	bad	ADJ	JJ	Degree=Pos	4	conj	_	_
+25	for	for	ADP	IN	_	27	case	_	_
+26	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	health	health	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 10
+# text = But, how can we do if they really want to smoke?
+1	But	but	CCONJ	CC	_	6	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	how	how	ADV	WRB	PronType=Int	6	advmod	_	_
+4	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+6	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+7	if	if	SCONJ	IN	_	10	mark	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+9	really	really	ADV	RB	_	10	advmod	_	_
+10	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	smoke	smoke	VERB	VB	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+13	?	?	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 11
+# text = Well, you can build a private room that used for smoking.
+1	Well	well	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	build	build	VERB	VB	VerbForm=Inf	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	private	private	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	room	room	NOUN	NN	Number=Sing	5	obj	_	_
+9	that	that	PRON	WDT	PronType=Rel	10	nsubj	_	_
+10	used	use	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	smoking	smoking	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 12
+# text = You can decorate the room with anything that will be beautiful.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	decorate	decorate	VERB	VB	VerbForm=Inf	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	room	room	NOUN	NN	Number=Sing	3	obj	_	_
+6	with	with	ADP	IN	_	7	case	_	_
+7	anything	anything	PRON	NN	Number=Sing	5	nmod	_	_
+8	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	_
+9	will	will	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	cop	_	_
+11	beautiful	beautiful	ADJ	JJ	Degree=Pos	7	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 13
+# text = This room must be far away from people that come to have a meal and it must be far away from the toilet too.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	room	room	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	must	must	AUX	MD	VerbForm=Fin	6	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+5	far	far	ADV	RB	Degree=Pos	6	advmod	_	_
+6	away	away	ADV	RB	_	0	root	_	_
+7	from	from	ADP	IN	_	8	case	_	_
+8	people	people	NOUN	NNS	Number=Plur	6	obl	_	_
+9	that	that	PRON	WDT	PronType=Rel	10	nsubj	_	_
+10	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	have	have	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	meal	meal	NOUN	NN	Number=Sing	12	obj	_	_
+15	and	and	CCONJ	CC	_	20	cc	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+17	must	must	AUX	MD	VerbForm=Fin	20	aux	_	_
+18	be	be	AUX	VB	VerbForm=Inf	20	cop	_	_
+19	far	far	ADV	RB	Degree=Pos	20	advmod	_	_
+20	away	away	ADV	RB	_	6	conj	_	_
+21	from	from	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	toilet	toilet	NOUN	NN	Number=Sing	20	obl	_	_
+24	too	too	ADV	RB	_	20	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 14
+# text = May be this is the best way for them.
+1	May	may	AUX	MD	VerbForm=Fin	7	aux	_	_
+2	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	best	best	ADJ	JJS	Degree=Sup	7	amod	_	_
+7	way	way	NOUN	NN	Number=Sing	0	root	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 15
+# text = Smoking doesn't give you any benefit.
+1	Smoking	smoking	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	give	give	VERB	VB	VerbForm=Inf	0	root	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	iobj	_	_
+6	any	any	DET	DT	_	7	det	_	_
+7	benefit	benefit	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 16
+# text = It doesn't give you only a bad health, but it will waste your money too.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	give	give	VERB	VB	VerbForm=Inf	0	root	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	iobj	_	_
+6	only	only	ADV	RB	_	9	advmod	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	bad	bad	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	health	health	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	but	but	CCONJ	CC	_	14	cc	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	will	will	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	waste	waste	VERB	VB	VerbForm=Inf	4	conj	_	_
+15	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	money	money	NOUN	NN	Number=Sing	14	obj	_	_
+17	too	too	ADV	RB	_	14	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 17
+# text = So, you must not smoke!
+1	So	so	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+4	must	must	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	smoke	smoke	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

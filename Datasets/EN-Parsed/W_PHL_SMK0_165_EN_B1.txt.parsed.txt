@@ -1,0 +1,242 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PHL_SMK0_165_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking is bad and hazardous for everyone's health.
+1	﻿Smoking	﻿Smoking	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	bad	bad	ADJ	JJ	Degree=Pos	0	root	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	hazardous	hazardous	ADJ	JJ	Degree=Pos	3	conj	_	_
+6	for	for	ADP	IN	_	9	case	_	_
+7	everyone	everyone	PRON	NN	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+8	's	's	PART	POS	_	7	case	_	_
+9	health	health	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = It has chemicals which can harm our body and later be a serious disease.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	chemicals	chemical	NOUN	NNS	Number=Plur	2	obj	_	_
+4	which	which	PRON	WDT	PronType=Rel	6	nsubj	_	_
+5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	harm	harm	VERB	VB	VerbForm=Inf	3	acl:relcl	_	_
+7	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	body	body	NOUN	NN	Number=Sing	6	obj	_	_
+9	and	and	CCONJ	CC	_	14	cc	_	_
+10	later	later	ADV	RBR	Degree=Cmp	14	advmod	_	_
+11	be	be	AUX	VB	VerbForm=Inf	14	cop	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	serious	serious	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	disease	disease	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = We cannot dent the fact that there are millions or billions of smokers in the world and it is sad to know that even in public there are people who smoke.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	not	not	PART	RB	_	4	advmod	_	_
+4	dent	dent	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	fact	fact	NOUN	NN	Number=Sing	4	obj	_	_
+7	that	that	SCONJ	IN	_	9	mark	_	_
+8	there	there	PRON	EX	_	9	expl	_	_
+9	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl	_	_
+10	millions	million	NOUN	NNS	Number=Plur	9	nsubj	_	_
+11	or	or	CCONJ	CC	_	12	cc	_	_
+12	billions	billion	NOUN	NNS	Number=Plur	10	conj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	smokers	smoker	NOUN	NNS	Number=Plur	10	nmod	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	world	world	NOUN	NN	Number=Sing	14	nmod	_	_
+18	and	and	CCONJ	CC	_	21	cc	_	_
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	expl	_	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	sad	sad	ADJ	JJ	Degree=Pos	4	conj	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	know	know	VERB	VB	VerbForm=Inf	21	csubj	_	_
+24	that	that	SCONJ	IN	_	29	mark	_	_
+25	even	even	ADV	RB	_	27	advmod	_	_
+26	in	in	ADP	IN	_	27	case	_	_
+27	public	public	ADJ	JJ	Degree=Pos	29	obl	_	_
+28	there	there	PRON	EX	_	29	expl	_	_
+29	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+30	people	people	NOUN	NNS	Number=Plur	29	nsubj	_	_
+31	who	who	PRON	WP	PronType=Rel	32	nsubj	_	_
+32	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Restaurants are places where people eat or have a family bonding together.
+1	Restaurants	restaurant	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	places	place	NOUN	NNS	Number=Plur	0	root	_	_
+4	where	where	ADV	WRB	PronType=Rel	6	advmod	_	_
+5	people	people	NOUN	NNS	Number=Plur	6	nsubj	_	_
+6	eat	eat	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	or	or	CCONJ	CC	_	8	cc	_	_
+8	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	family	family	NOUN	NN	Number=Sing	8	obj	_	_
+11	bonding	bond	VERB	VBG	VerbForm=Ger	10	acl	_	_
+12	together	together	ADV	RB	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Eating is something we should respect and enjoy together with love ones and having smoke inside is not a good attitude towards others and we all know that second hand smokers are much affected than the first hand smokers.
+1	Eating	eat	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	something	something	PRON	NN	Number=Sing	0	root	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+5	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	respect	respect	VERB	VB	VerbForm=Inf	3	acl:relcl	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	enjoy	enjoy	VERB	VB	VerbForm=Inf	6	conj	_	_
+9	together	together	ADV	RB	_	8	advmod	_	_
+10	with	with	ADP	IN	_	12	case	_	_
+11	love	love	NOUN	NN	Number=Sing	12	compound	_	_
+12	ones	one	NOUN	NNS	Number=Plur	8	obl	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	having	have	VERB	VBG	VerbForm=Ger	12	conj	_	_
+15	smoke	smoke	NOUN	NN	Number=Sing	14	obj	_	_
+16	inside	inside	ADV	RB	_	14	advmod	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+18	not	not	PART	RB	_	21	advmod	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+20	good	good	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	attitude	attitude	NOUN	NN	Number=Sing	3	conj	_	_
+22	towards	towards	ADP	IN	_	23	case	_	_
+23	others	other	NOUN	NNS	Number=Plur	21	nmod	_	_
+24	and	and	CCONJ	CC	_	27	cc	_	_
+25	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	_
+26	all	all	DET	DT	_	25	det	_	_
+27	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+28	that	that	SCONJ	IN	_	34	mark	_	_
+29	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	31	amod	_	_
+30	hand	hand	NOUN	NN	Number=Sing	31	compound	_	_
+31	smokers	smoker	NOUN	NNS	Number=Plur	34	nsubj:pass	_	_
+32	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	34	aux:pass	_	_
+33	much	much	ADV	RB	_	34	advmod	_	_
+34	affected	affect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	27	ccomp	_	_
+35	than	than	ADP	IN	_	39	case	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+37	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	39	amod	_	_
+38	hand	hand	NOUN	NN	Number=Sing	39	compound	_	_
+39	smokers	smoker	NOUN	NNS	Number=Plur	34	obl	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = There are people for sure who would transfer from another restaurant if someone's smoking while they are eating.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	people	people	NOUN	NNS	Number=Plur	2	nsubj	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	sure	sure	ADJ	JJ	Degree=Pos	3	nmod	_	_
+6	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+7	would	would	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	transfer	transfer	VERB	VB	VerbForm=Inf	5	acl:relcl	_	_
+9	from	from	ADP	IN	_	11	case	_	_
+10	another	another	DET	DT	_	11	det	_	_
+11	restaurant	restaurant	NOUN	NN	Number=Sing	8	obl	_	_
+12	if	if	SCONJ	IN	_	15	mark	_	_
+13	someone	someone	PRON	NN	Number=Sing	15	nsubj	_	SpaceAfter=No
+14	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl	_	_
+16	while	while	SCONJ	IN	_	19	mark	_	_
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+18	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part	15	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = And besides smoking is not courteous because there might people who cannot enjoy what they are eating.
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	besides	besides	SCONJ	IN	_	6	mark	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	courteous	courteous	ADJ	JJ	Degree=Pos	0	root	_	_
+7	because	because	SCONJ	IN	_	10	mark	_	_
+8	there	there	PRON	EX	_	10	expl	_	_
+9	might	might	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	people	people	NOUN	NNS	Number=Plur	6	advcl	_	_
+11	who	who	PRON	WP	PronType=Rel	14	nsubj	_	_
+12	can	can	AUX	MD	VerbForm=Fin	14	aux	_	SpaceAfter=No
+13	not	not	PART	RB	_	14	advmod	_	_
+14	enjoy	enjoy	VERB	VB	VerbForm=Inf	10	acl:relcl	_	_
+15	what	what	PRON	WP	PronType=Int	14	obj	_	_
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
+17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part	15	acl:relcl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 8
+# text = Smoking might satisfy one's pleasure but smoking in public particularly in restaurant is not good.
+1	Smoking	smoke	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	might	might	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	satisfy	satisfy	VERB	VB	VerbForm=Inf	0	root	_	_
+4	one	one	PRON	PRP	_	6	nmod:poss	_	SpaceAfter=No
+5	's	's	PART	POS	_	4	case	_	_
+6	pleasure	pleasure	NOUN	NN	Number=Sing	16	nsubj	_	_
+7	but	but	CCONJ	CC	_	8	cc	_	_
+8	smoking	smoke	NOUN	NN	Number=Sing	6	conj	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	public	public	ADJ	JJ	Degree=Pos	8	nmod	_	_
+11	particularly	particularly	ADV	RB	_	13	advmod	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	restaurant	restaurant	NOUN	NN	Number=Sing	8	nmod	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	not	not	PART	RB	_	16	advmod	_	_
+16	good	good	ADJ	JJ	Degree=Pos	3	ccomp	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = There are people who are eating that might having uneasiness while someone is smoking inside.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	people	people	NOUN	NNS	Number=Plur	2	nsubj	_	_
+4	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	9	nsubj	_	_
+8	might	might	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	6	ccomp	_	_
+10	uneasiness	uneasiness	NOUN	NN	Number=Sing	9	obj	_	_
+11	while	while	SCONJ	IN	_	14	mark	_	_
+12	someone	someone	PRON	NN	Number=Sing	14	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	9	advcl	_	_
+15	inside	inside	ADV	RB	_	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = Therefore, smoking should be banned in any restaurants because it only causes nothing but bad effects not only for our environment but also in our body
+1	Therefore	therefore	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	smoking	smoking	VERB	VBG	Tense=Pres|VerbForm=Part	6	nsubj:pass	_	_
+4	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+6	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	any	any	DET	DT	_	9	det	_	_
+9	restaurants	restaurant	NOUN	NNS	Number=Plur	6	obl	_	_
+10	because	because	SCONJ	IN	_	13	mark	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	only	only	ADV	RB	_	13	advmod	_	_
+13	causes	cause	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+14	nothing	nothing	PRON	NN	Number=Sing	13	obj	_	_
+15	but	but	ADP	IN	_	17	case	_	_
+16	bad	bad	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	effects	effect	NOUN	NNS	Number=Plur	14	nmod	_	_
+18	not	not	ADV	RB	_	19	advmod	_	_
+19	only	only	ADV	RB	_	22	cc:preconj	_	_
+20	for	for	ADP	IN	_	22	case	_	_
+21	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	environment	environment	NOUN	NN	Number=Sing	6	nmod	_	_
+23	but	but	CCONJ	CC	_	27	cc	_	_
+24	also	also	ADV	RB	_	27	advmod	_	_
+25	in	in	ADP	IN	_	27	case	_	_
+26	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	body	body	NOUN	NN	Number=Sing	22	conj	_	SpacesAfter=\n
+

@@ -1,0 +1,251 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_TWN_PTJ0_020_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I am a university student, when I was in free time, I will go part time job.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	university	university	NOUN	NN	Number=Sing	5	compound	_	_
+5	student	student	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	when	when	ADV	WRB	PronType=Int	12	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	free	free	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	time	time	NOUN	NN	Number=Sing	5	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	5	punct	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+15	will	will	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	go	go	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+17	part	part	ADJ	JJ	Degree=Pos	19	amod	_	_
+18	time	time	NOUN	NN	Number=Sing	19	compound	_	_
+19	job	job	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = The reason why I go to this part time job is I want to add my experiences and earn more money for daily life.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	reason	reason	NOUN	NN	Number=Sing	13	nsubj	_	_
+3	why	why	ADV	WRB	PronType=Int	5	advmod	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	to	to	ADP	IN	_	10	case	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+8	part	part	NOUN	NN	Number=Sing	9	compound	_	_
+9	time	time	NOUN	NN	Number=Sing	10	compound	_	_
+10	job	job	NOUN	NN	Number=Sing	5	obl	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	add	add	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	experiences	experience	NOUN	NNS	Number=Plur	15	obj	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	earn	earn	VERB	VB	VerbForm=Inf	15	conj	_	_
+20	more	more	ADJ	JJR	Degree=Cmp	21	amod	_	_
+21	money	money	NOUN	NN	Number=Sing	19	obj	_	_
+22	for	for	ADP	IN	_	24	case	_	_
+23	daily	daily	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	life	life	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 3
+# text = Before I am a university student, some of the bosses maybe think I am to young too do some part time job, so it is so difficult that I find a part time job.
+1	Before	before	SCONJ	IN	_	6	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	university	university	NOUN	NN	Number=Sing	6	compound	_	_
+6	student	student	NOUN	NN	Number=Sing	13	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	13	punct	_	_
+8	some	some	DET	DT	_	13	nsubj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	bosses	boss	NOUN	NNS	Number=Plur	8	nmod	_	_
+12	maybe	maybe	ADV	RB	_	13	advmod	_	_
+13	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+15	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	young	young	ADJ	JJ	Degree=Pos	13	ccomp	_	_
+18	too	too	PART	TO	_	19	mark	_	_
+19	do	do	VERB	VB	VerbForm=Inf	17	advcl	_	_
+20	some	some	DET	DT	_	23	det	_	_
+21	part	part	NOUN	NN	Number=Sing	22	compound	_	_
+22	time	time	NOUN	NN	Number=Sing	23	compound	_	_
+23	job	job	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	13	punct	_	_
+25	so	so	ADV	RB	_	29	advmod	_	_
+26	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	expl	_	_
+27	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+28	so	so	ADV	RB	_	29	advmod	_	_
+29	difficult	difficult	ADJ	JJ	Degree=Pos	13	advcl	_	_
+30	that	that	SCONJ	IN	_	32	mark	_	_
+31	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	_
+32	find	find	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	29	ccomp	_	_
+33	a	a	DET	DT	Definite=Ind|PronType=Art	36	det	_	_
+34	part	part	NOUN	NN	Number=Sing	35	compound	_	_
+35	time	time	NOUN	NN	Number=Sing	36	compound	_	_
+36	job	job	NOUN	NN	Number=Sing	32	obj	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 4
+# text = The special experience in my part time job experiences was to be a teacher to teach children only five years old.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	special	special	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	experience	experience	NOUN	NN	Number=Sing	10	nsubj	_	_
+4	in	in	ADP	IN	_	9	case	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+6	part	part	NOUN	NN	Number=Sing	7	compound	_	_
+7	time	time	NOUN	NN	Number=Sing	9	compound	_	_
+8	job	job	NOUN	NN	Number=Sing	9	compound	_	_
+9	experiences	experience	NOUN	NNS	Number=Plur	3	nmod	_	_
+10	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	to	to	PART	TO	_	14	mark	_	_
+12	be	be	AUX	VB	VerbForm=Inf	14	cop	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	teacher	teacher	NOUN	NN	Number=Sing	10	xcomp	_	_
+15	to	to	ADP	IN	_	17	case	_	_
+16	teach	teach	DET	DT	_	17	det	_	_
+17	children	child	NOUN	NNS	Number=Plur	14	nmod	_	_
+18	only	only	ADV	RB	_	20	advmod	_	_
+19	five	five	NUM	CD	NumType=Card	20	nummod	_	_
+20	years	year	NOUN	NNS	Number=Plur	21	obl:npmod	_	_
+21	old	old	ADJ	JJ	Degree=Pos	14	amod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 5
+# text = In first, I think it is a difficult job, but when I realized the way to face children.
+1	In	in	ADP	IN	_	2	case	_	_
+2	first	first	ADV	RB	_	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	difficult	difficult	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	job	job	NOUN	NN	Number=Sing	5	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	but	but	CCONJ	CC	_	15	cc	_	_
+13	when	when	ADV	WRB	PronType=Int	15	mark	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	realized	realize	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	way	way	NOUN	NN	Number=Sing	15	obj	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	face	face	VERB	VB	VerbForm=Inf	17	acl	_	_
+20	children	child	NOUN	NNS	Number=Plur	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = I was so happy that I can do this job, it gives so many experiences and I was love children more than before.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	so	so	ADV	RB	_	4	advmod	_	_
+4	happy	happy	ADJ	JJ	Degree=Pos	0	root	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	do	do	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	job	job	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+14	so	so	ADV	RB	_	15	advmod	_	_
+15	many	many	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	experiences	experience	NOUN	NNS	Number=Plur	13	obj	_	_
+17	and	and	CCONJ	CC	_	21	cc	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	21	cop	_	_
+20	love	love	NOUN	NN	Number=Sing	21	compound	_	_
+21	children	child	NOUN	NNS	Number=Plur	4	conj	_	_
+22	more	more	ADJ	JJR	Degree=Cmp	24	advmod	_	_
+23	than	than	ADP	IN	_	22	fixed	_	_
+24	before	before	ADV	RB	_	21	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Pare time job is a good way to kill time and know some new friends.
+1	Pare	Pare	NOUN	NN	Number=Sing	2	compound	_	_
+2	time	time	NOUN	NN	Number=Sing	3	compound	_	_
+3	job	job	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	good	good	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	way	way	NOUN	NN	Number=Sing	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	kill	kill	VERB	VB	VerbForm=Inf	7	acl	_	_
+10	time	time	NOUN	NN	Number=Sing	9	obj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	know	know	VERB	VB	VerbForm=Inf	9	conj	_	_
+13	some	some	DET	DT	_	15	det	_	_
+14	new	new	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	friends	friend	NOUN	NNS	Number=Plur	12	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 8
+# text = Therefore, I suggest that all college students in their free time, and finding a suitable job, but workers can not forget the school's academic, must be careful not to be cheated because I wanted to make money, with the healthiest way to find a happy Part-time to enrich your life.
+1	Therefore	therefore	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	suggest	suggest	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	IN	_	24	mark	_	_
+6	all	all	DET	DT	_	8	det	_	_
+7	college	college	NOUN	NN	Number=Sing	8	compound	_	_
+8	students	student	NOUN	NNS	Number=Plur	24	nsubj	_	_
+9	in	in	ADP	IN	_	12	case	_	_
+10	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+11	free	free	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	time	time	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	finding	find	VERB	VBG	VerbForm=Ger	8	conj	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	suitable	suitable	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	job	job	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	24	punct	_	_
+20	but	but	CCONJ	CC	_	24	cc	_	_
+21	workers	worker	NOUN	NNS	Number=Plur	24	nsubj	_	_
+22	can	can	AUX	MD	VerbForm=Fin	24	aux	_	_
+23	not	not	PART	RB	_	24	advmod	_	_
+24	forget	forget	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	school	school	NOUN	NN	Number=Sing	28	nmod:poss	_	SpaceAfter=No
+27	's	's	PART	POS	_	26	case	_	_
+28	academic	academic	ADJ	JJ	Degree=Pos	24	xcomp	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	32	punct	_	_
+30	must	must	AUX	MD	VerbForm=Fin	32	aux	_	_
+31	be	be	AUX	VB	VerbForm=Inf	32	cop	_	_
+32	careful	careful	ADJ	JJ	Degree=Pos	36	conj	_	_
+33	not	not	ADV	RB	_	36	advmod	_	_
+34	to	to	PART	TO	_	36	mark	_	_
+35	be	be	AUX	VB	VerbForm=Inf	36	aux:pass	_	_
+36	cheated	cheat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
+37	because	because	SCONJ	IN	_	39	mark	_	_
+38	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	39	nsubj	_	_
+39	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	36	advcl	_	_
+40	to	to	PART	TO	_	41	mark	_	_
+41	make	make	VERB	VB	VerbForm=Inf	39	xcomp	_	_
+42	money	money	NOUN	NN	Number=Sing	41	obj	_	SpaceAfter=No
+43	,	,	PUNCT	,	_	4	punct	_	_
+44	with	with	ADP	IN	_	47	case	_	_
+45	the	the	DET	DT	Definite=Def|PronType=Art	47	det	_	_
+46	healthiest	healthiest	ADJ	JJS	Degree=Sup	47	amod	_	_
+47	way	way	NOUN	NN	Number=Sing	4	obl	_	_
+48	to	to	PART	TO	_	49	mark	_	_
+49	find	find	VERB	VB	VerbForm=Inf	47	acl	_	_
+50	a	a	DET	DT	Definite=Ind|PronType=Art	54	det	_	_
+51	happy	happy	ADJ	JJ	Degree=Pos	54	amod	_	_
+52	Part	part	NOUN	NN	Number=Sing	54	compound	_	SpaceAfter=No
+53	-	-	PUNCT	HYPH	_	54	punct	_	SpaceAfter=No
+54	time	time	NOUN	NN	Number=Sing	49	obj	_	_
+55	to	to	PART	TO	_	56	mark	_	_
+56	enrich	enrich	VERB	VB	VerbForm=Inf	54	acl	_	_
+57	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	58	nmod:poss	_	_
+58	life	life	NOUN	NN	Number=Sing	56	obj	_	SpaceAfter=No
+59	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

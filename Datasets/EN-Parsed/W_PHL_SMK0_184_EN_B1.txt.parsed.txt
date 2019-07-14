@@ -1,0 +1,356 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PHL_SMK0_184_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking is a common thing in most restaurants and other public places but should it be completely banned at all restaurants in the country?
+1	﻿Smoking	﻿Smok	NOUN	NN	Number=Sing	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	common	common	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	thing	thing	NOUN	NN	Number=Sing	0	root	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	most	most	ADJ	JJS	Degree=Sup	8	amod	_	_
+8	restaurants	restaurant	NOUN	NNS	Number=Plur	5	nmod	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	other	other	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	public	public	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	places	place	NOUN	NNS	Number=Plur	8	conj	_	_
+13	but	but	CCONJ	CC	_	18	cc	_	_
+14	should	should	AUX	MD	VerbForm=Fin	18	aux	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj:pass	_	_
+16	be	be	AUX	VB	VerbForm=Inf	18	aux:pass	_	_
+17	completely	completely	ADV	RB	_	18	advmod	_	_
+18	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	_
+19	at	at	ADP	IN	_	21	case	_	_
+20	all	all	DET	DT	_	21	det	_	_
+21	restaurants	restaurant	NOUN	NNS	Number=Plur	18	obl	_	_
+22	in	in	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	country	country	NOUN	NN	Number=Sing	21	nmod	_	SpaceAfter=No
+25	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = It must be banned in all restaurants because health and smoking is hazardous to other person's health, it is harmful to a pregnant and it discolours walls.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	_	_
+4	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	all	all	DET	DT	_	7	det	_	_
+7	restaurants	restaurant	NOUN	NNS	Number=Plur	4	obl	_	_
+8	because	because	SCONJ	IN	_	13	mark	_	_
+9	health	health	NOUN	NN	Number=Sing	13	nsubj	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	smoking	smoking	NOUN	NN	Number=Sing	9	conj	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	hazardous	hazardous	ADJ	JJ	Degree=Pos	7	acl	_	_
+14	to	to	ADP	IN	_	18	case	_	_
+15	other	other	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	person	person	NOUN	NN	Number=Sing	18	nmod:poss	_	SpaceAfter=No
+17	's	's	PART	POS	_	16	case	_	_
+18	health	health	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	4	punct	_	_
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	harmful	harmful	ADJ	JJ	Degree=Pos	4	parataxis	_	_
+23	to	to	ADP	IN	_	25	case	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	pregnant	pregnant	ADJ	JJ	Degree=Pos	22	obl	_	_
+26	and	and	CCONJ	CC	_	28	cc	_	_
+27	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+28	discolours	discolour	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
+29	walls	wall	NOUN	NNS	Number=Plur	28	obj	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = In the first place, smoking is bad to other person's health.
+1	In	in	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	_	_
+4	place	place	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	bad	bad	ADJ	JJ	Degree=Pos	0	root	_	_
+9	to	to	ADP	IN	_	13	case	_	_
+10	other	other	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	person	person	NOUN	NN	Number=Sing	13	nmod:poss	_	SpaceAfter=No
+12	's	's	PART	POS	_	11	case	_	_
+13	health	health	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 4
+# text = Second-hand smoke can shorten a person's life span.
+1	Second	second	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No
+3	hand	hand	NOUN	NN	Number=Sing	4	compound	_	_
+4	smoke	smoke	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	shorten	shorten	VERB	VB	VerbForm=Inf	0	root	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	person	person	NOUN	NN	Number=Sing	11	nmod:poss	_	SpaceAfter=No
+9	's	's	PART	POS	_	8	case	_	_
+10	life	life	NOUN	NN	Number=Sing	11	compound	_	_
+11	span	span	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = It causes cancers and respiratory diseases both to children and adults.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	causes	cause	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	cancers	cancer	NOUN	NNS	Number=Plur	2	obj	_	_
+4	and	and	CCONJ	CC	_	6	cc	_	_
+5	respiratory	respiratory	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	diseases	diseases	NOUN	NNS	Number=Plur	3	conj	_	_
+7	both	both	CCONJ	CC	_	9	cc:preconj	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	children	child	NOUN	NNS	Number=Plur	2	obl	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	adults	adult	NOUN	NNS	Number=Plur	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Second-hand smoke has more toxic chemicals and has a higher possibility of causing cancer than the smoke a person inhales himself.
+1	Second	second	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No
+3	hand	hand	NOUN	NN	Number=Sing	4	compound	_	_
+4	smoke	smoke	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	more	more	ADJ	JJR	Degree=Cmp	8	amod	_	_
+7	toxic	toxic	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	chemicals	chemical	NOUN	NNS	Number=Plur	5	obj	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	higher	higher	ADJ	JJR	Degree=Cmp	13	amod	_	_
+13	possibility	possibility	NOUN	NN	Number=Sing	10	obj	_	_
+14	of	of	SCONJ	IN	_	15	mark	_	_
+15	causing	causing	VERB	VBG	VerbForm=Ger	13	acl	_	_
+16	cancer	cancer	NOUN	NN	Number=Sing	15	obj	_	_
+17	than	than	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	smoke	smoke	NOUN	NN	Number=Sing	15	obl	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	person	person	NOUN	NN	Number=Sing	22	nsubj	_	_
+22	inhales	inhale	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+23	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 7
+# text = In the second place, it is bad for pregnant.
+1	In	in	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	_	_
+4	place	place	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	bad	bad	ADJ	JJ	Degree=Pos	0	root	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	pregnant	pregnant	ADJ	JJ	Degree=Pos	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 8
+# text = Smoking causes a bad effect to the woman's unborn child.
+1	Smoking	smoke	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	causes	cause	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	bad	bad	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	effect	effect	NOUN	NN	Number=Sing	2	obj	_	_
+6	to	to	ADP	IN	_	11	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	woman	woman	NOUN	NN	Number=Sing	11	nmod:poss	_	SpaceAfter=No
+9	's	's	PART	POS	_	8	case	_	_
+10	unborn	unborn	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	child	child	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = If the woman inhales others smoke, she can pass the toxic chemicals that smoke carries and unwanted diseases to the unborn child.
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	woman	woman	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	inhales	inhale	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+5	others	other	NOUN	NNS	Number=Plur	4	obj	_	_
+6	smoke	smoke	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	can	can	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	pass	pass	VERB	VB	VerbForm=Inf	0	root	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	toxic	toxic	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	chemicals	chemical	NOUN	NNS	Number=Plur	10	obj	_	_
+14	that	that	PRON	WDT	PronType=Rel	15	nsubj	_	_
+15	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	carries	carry	NOUN	NNS	Number=Plur	15	obj	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	unwanted	unwanted	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	diseases	diseases	NOUN	NNS	Number=Plur	16	conj	_	_
+20	to	to	ADP	IN	_	23	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	unborn	unborn	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	child	child	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 10
+# text = Lastly, smoking can damage the walls of the restaurant.
+1	Lastly	Lastly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	5	nsubj	_	_
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	damage	damage	VERB	VB	VerbForm=Inf	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	walls	wall	NOUN	NNS	Number=Plur	5	obj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	restaurant	restaurant	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 11
+# text = Smoking contains toxic chemicals that can discolour the walls of the restaurant.
+1	Smoking	smoke	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	contains	contain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	toxic	toxic	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	chemicals	chemical	NOUN	NNS	Number=Plur	2	obj	_	_
+5	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	discolour	discolour	VERB	VB	VerbForm=Inf	4	acl:relcl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	walls	wall	NOUN	NNS	Number=Plur	7	obj	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	restaurant	restaurant	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = The restaurant must look admirable to attract customers.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	restaurant	restaurant	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	look	look	VERB	VB	VerbForm=Inf	0	root	_	_
+5	admirable	admirable	ADJ	JJ	Degree=Pos	4	xcomp	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	attract	attract	VERB	VB	VerbForm=Inf	5	advcl	_	_
+8	customers	customer	NOUN	NNS	Number=Plur	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = If the walls are discoloured, it could be an added expense to the owner of the restaurant because the owner should repair the damage wall.
+1	If	if	SCONJ	IN	_	5	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	walls	wall	NOUN	NNS	Number=Plur	5	nsubj:pass	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	discoloured	discoloure	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	12	punct	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+8	could	could	AUX	MD	VerbForm=Fin	12	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+10	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	added	add	VERB	VBN	Tense=Past|VerbForm=Part	12	amod	_	_
+12	expense	expense	NOUN	NN	Number=Sing	0	root	_	_
+13	to	to	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	owner	owner	NOUN	NN	Number=Sing	12	nmod	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	restaurant	restaurant	NOUN	NN	Number=Sing	15	nmod	_	_
+19	because	because	SCONJ	IN	_	23	mark	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	owner	owner	NOUN	NN	Number=Sing	23	nsubj	_	_
+22	should	should	AUX	MD	VerbForm=Fin	23	aux	_	_
+23	repair	repair	VERB	VB	VerbForm=Inf	12	advcl	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+25	damage	damage	NOUN	NN	Number=Sing	26	compound	_	_
+26	wall	wall	NOUN	NN	Number=Sing	23	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 14
+# text = In conclusion, smoking should be banned in all restaurants because of many different reasons.
+1	In	in	ADP	IN	_	2	case	_	_
+2	conclusion	conclusion	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+5	should	should	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	all	all	DET	DT	_	10	det	_	_
+10	restaurants	restaurant	NOUN	NNS	Number=Plur	7	obl	_	_
+11	because	because	ADP	IN	_	15	case	_	_
+12	of	of	ADP	IN	_	11	fixed	_	_
+13	many	many	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	different	different	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	reasons	reason	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 15
+# text = Smoking can cause hazardous effects to other person's health,
+1	Smoking	smoking	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	cause	cause	VERB	VB	VerbForm=Inf	0	root	_	_
+4	hazardous	hazardous	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	effects	effect	NOUN	NNS	Number=Plur	3	obj	_	_
+6	to	to	ADP	IN	_	10	case	_	_
+7	other	other	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	person	person	NOUN	NN	Number=Sing	10	nmod:poss	_	SpaceAfter=No
+9	's	's	PART	POS	_	8	case	_	_
+10	health	health	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	_	_
+
+# sent_id = 16
+# text = It is harmful to a woman's unborn child and it is destroys the walls of the restaurant.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	harmful	harmful	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	ADP	IN	_	9	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	woman	woman	NOUN	NN	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+7	's	's	PART	POS	_	6	case	_	_
+8	unborn	unborn	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	child	child	NOUN	NN	Number=Sing	3	obl	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	destroys	destroy	VERB	NNS	Number=Plur	3	conj	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	walls	wall	NOUN	NNS	Number=Plur	13	obj	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	restaurant	restaurant	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 17
+# text = Smoking is addictive and a lot of smokers cannot stop it.
+1	Smoking	smoking	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	addictive	addictive	ADJ	JJ	Degree=Pos	0	root	_	_
+4	and	and	CCONJ	CC	_	11	cc	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	lot	lot	NOUN	NN	Number=Sing	11	nsubj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	smokers	smoker	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	can	can	AUX	MD	VerbForm=Fin	11	aux	_	SpaceAfter=No
+10	not	not	PART	RB	_	11	advmod	_	_
+11	stop	stop	VERB	VB	VerbForm=Inf	3	conj	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 18
+# text = Smokers should know where the right place to smoke but restaurants is definitely not the place.
+1	Smokers	smoker	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+4	where	where	ADV	WRB	PronType=Int	3	ccomp	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	right	right	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	place	place	NOUN	NN	Number=Sing	4	nsubj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	smoke	smoke	VERB	VB	VerbForm=Inf	7	acl	_	_
+10	but	but	CCONJ	CC	_	16	cc	_	_
+11	restaurants	restaurant	NOUN	NNS	Number=Plur	16	nsubj	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+13	definitely	definitely	ADV	RB	_	16	advmod	_	_
+14	not	not	PART	RB	_	16	advmod	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	place	place	NOUN	NN	Number=Sing	7	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,310 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_THA_SMK0_344_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿Should the removal of all smoking in restaurants, shop.
+1	﻿Should	﻿Should	AUX	MD	VerbForm=Fin	3	cop	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	removal	removal	NOUN	NN	Number=Sing	0	root	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	all	all	DET	DT	_	6	det	_	_
+6	smoking	smoke	NOUN	NN	Number=Sing	3	nmod	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	restaurants	restaurant	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	shop	shop	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Tobacco smoke is harmful to health.
+1	Tobacco	Tobacco	PROPN	NNP	Number=Sing	2	compound	_	_
+2	smoke	smoke	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	harmful	harmful	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	health	health	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Because cigarettes are burning when the thousands of chemicals in the form of smoke.
+1	Because	because	SCONJ	IN	_	4	mark	_	_
+2	cigarettes	cigarettes	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	burning	burn	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	when	when	ADV	WRB	PronType=Int	4	ccomp	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	thousands	thousand	NOUN	NNS	Number=Plur	5	nsubj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	chemicals	chemical	NOUN	NNS	Number=Plur	7	nmod	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	form	form	NOUN	NN	Number=Sing	7	nmod	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	smoke	smoke	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = The chemicals that are both toxic and non-toxic.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	chemicals	chemical	NOUN	NNS	Number=Plur	0	root	_	_
+3	that	that	PRON	WDT	PronType=Rel	6	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	both	both	ADV	RB	_	6	advmod	_	_
+6	toxic	toxic	ADJ	JJ	Degree=Pos	2	acl:relcl	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	non-toxic	non-toxic	ADJ	JJ	Degree=Pos	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Cigarette smoke can harm the health of non-smokers to be smoke Especially those who smoke cigarettes are a child.
+1	Cigarette	cigarette	NOUN	NN	Number=Sing	2	compound	_	_
+2	smoke	smoke	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	harm	harm	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	health	health	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	non-smokers	non-smoker	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	to	to	PART	TO	_	11	mark	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	cop	_	_
+11	smoke	smoke	VERB	VB	VerbForm=Inf	4	advcl	_	_
+12	Especially	especially	ADV	RB	_	13	advmod	_	_
+13	those	those	PRON	DT	Number=Plur|PronType=Dem	11	obj	_	_
+14	who	who	PRON	WP	PronType=Rel	15	nsubj	_	_
+15	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	cigarettes	cigarette	NOUN	NNS	Number=Plur	19	nsubj	_	_
+17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	child	child	NOUN	NN	Number=Sing	15	ccomp	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 6
+# text = Results in the short term irritation to the eyes, nose and throat discomfort, headache, nausea, symptoms recur in those with congenital diseases such as allergic asthma chest airbags aneurysms.
+1	Results	result	NOUN	NNS	Number=Plur	0	root	_	_
+2	in	in	ADP	IN	_	6	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+4	short	short	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	term	term	NOUN	NN	Number=Sing	6	compound	_	_
+6	irritation	irritation	NOUN	NN	Number=Sing	1	nmod	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	eyes	eyes	NOUN	NNS	Number=Plur	1	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	nose	nose	NOUN	NN	Number=Sing	9	conj	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	throat	throat	NOUN	NN	Number=Sing	14	compound	_	_
+14	discomfort	discomfort	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	1	punct	_	_
+16	headache	headache	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	nausea	nausea	NOUN	NN	Number=Sing	21	vocative	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	symptoms	symptom	NOUN	NNS	Number=Plur	21	nsubj	_	_
+21	recur	recur	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+22	in	in	ADP	IN	_	23	case	_	_
+23	those	those	PRON	DT	Number=Plur|PronType=Dem	21	obl	_	_
+24	with	with	ADP	IN	_	26	case	_	_
+25	congenital	congenital	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	diseases	diseases	NOUN	NNS	Number=Plur	23	nmod	_	_
+27	such	such	ADJ	JJ	Degree=Pos	33	case	_	_
+28	as	as	ADP	IN	_	27	fixed	_	_
+29	allergic	allergic	ADJ	JJ	Degree=Pos	32	amod	_	_
+30	asthma	asthma	NOUN	NN	Number=Sing	31	compound	_	_
+31	chest	chest	NOUN	NN	Number=Sing	32	compound	_	_
+32	airbags	airbag	NOUN	NNS	Number=Plur	33	compound	_	_
+33	aneurysms	aneurysm	NOUN	NNS	Number=Plur	26	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = Even in air-conditioned restaurant.
+1	Even	even	ADV	RB	_	6	advmod	_	_
+2	in	in	ADP	IN	_	6	case	_	_
+3	air	air	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+5	conditioned	condition	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	restaurant	restaurant	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 8
+# text = The rate is very great.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	rate	rate	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	great	great	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = Smoking fetid atmosphere of the free meal.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	3	amod	_	_
+2	fetid	fetid	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	atmosphere	atmosphere	NOUN	NN	Number=Sing	0	root	_	_
+4	of	of	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	free	free	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	meal	meal	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = May lose customers who do not like cigarette smoke.
+1	May	may	AUX	MD	VerbForm=Fin	2	aux	_	_
+2	lose	lose	VERB	VB	VerbForm=Inf	0	root	_	_
+3	customers	customer	NOUN	NNS	Number=Plur	2	obj	_	_
+4	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+5	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	not	not	PART	RB	_	7	advmod	_	_
+7	like	like	VERB	VB	VerbForm=Inf	3	acl:relcl	_	_
+8	cigarette	cigarette	NOUN	NN	Number=Sing	9	compound	_	_
+9	smoke	smoke	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 11
+# text = And not to eat at a restaurant.
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	not	not	ADV	RB	_	4	advmod	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	eat	eat	VERB	VB	VerbForm=Inf	0	root	_	_
+5	at	at	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	restaurant	restaurant	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 12
+# text = Upset customers and revenue.
+1	Upset	upset	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	customers	customer	NOUN	NNS	Number=Plur	0	root	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	revenue	revenue	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 13
+# text = Khi smoking is dirty and may fall to spring dishes.
+1	Khi	Khi	PROPN	NNP	Number=Sing	2	compound	_	_
+2	smoking	smoke	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	dirty	dirty	ADJ	JJ	Degree=Pos	0	root	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	may	may	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	fall	fall	VERB	VB	VerbForm=Inf	4	conj	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	spring	spre	NOUN	NN	Number=Sing	10	compound	_	_
+10	dishes	dish	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 14
+# text = The people who eat to lose and lose both health and taste of food.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	15	nsubj	_	_
+3	who	who	PRON	WP	PronType=Rel	4	nsubj	_	_
+4	eat	eat	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	lose	lose	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	lose	lose	VERB	VB	VerbForm=Inf	6	conj	_	_
+9	both	both	DET	DT	_	10	det	_	_
+10	health	health	NOUN	NN	Number=Sing	8	obj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	taste	taste	NOUN	NN	Number=Sing	10	conj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	food	food	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 15
+# text = In addition, smoking in restaurants.
+1	In	in	ADP	IN	_	2	case	_	_
+2	addition	addition	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	smoking	smoke	VERB	VBG	VerbForm=Ger	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	restaurants	restaurant	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 16
+# text = The atmosphere in the restaurant Ruen unlikely.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	atmosphere	atmosphere	NOUN	NN	Number=Sing	0	root	_	_
+3	in	in	ADP	IN	_	6	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	restaurant	restaurant	PROPN	NNP	Number=Sing	6	compound	_	_
+6	Ruen	Ruen	PROPN	NNP	Number=Sing	2	nmod	_	_
+7	unlikely	unlikely	ADJ	JJ	Degree=Pos	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 17
+# text = It is filled with smoke.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	filled	fill	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	with	with	ADP	IN	_	5	case	_	_
+5	smoke	smoke	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 18
+# text = Emotional irritability and loss of customers who smoke.
+1	Emotional	emotional	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	irritability	irritability	NOUN	NN	Number=Sing	0	root	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	loss	loss	NOUN	NN	Number=Sing	2	conj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	customers	customer	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+8	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 19
+# text = The summary should snare removal of all smoking in restaurants, shop.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	summary	summary	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	snare	snare	VERB	VB	VerbForm=Inf	0	root	_	_
+5	removal	removal	NOUN	NN	Number=Sing	4	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	all	all	DET	DT	_	8	det	_	_
+8	smoking	smoke	NOUN	NN	Number=Sing	5	nmod	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	restaurants	restaurant	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	shop	shop	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 20
+# text = To the health of customers and employees in stores.
+1	To	to	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	health	health	NOUN	NN	Number=Sing	0	root	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	customers	customer	NOUN	NNS	Number=Plur	3	nmod	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	employees	employee	NOUN	NNS	Number=Plur	5	conj	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	stores	store	NOUN	NNS	Number=Plur	3	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 21
+# text = To food safety.
+1	To	to	ADP	IN	_	3	case	_	_
+2	food	food	NOUN	NN	Number=Sing	3	compound	_	_
+3	safety	safety	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 22
+# text = And satisfactory profits.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	satisfactory	satisfactory	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	profits	profit	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 23
+# text = SigmaTel customers and also create a good image to store food.
+1	SigmaTel	SigmaTel	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	customers	customer	NOUN	NNS	Number=Plur	5	nsubj	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	also	also	ADV	RB	_	5	advmod	_	_
+5	create	create	VERB	VB	VerbForm=Inf	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	good	good	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	image	image	NOUN	NN	Number=Sing	5	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	store	store	VERB	VB	VerbForm=Inf	8	acl	_	_
+11	food	food	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

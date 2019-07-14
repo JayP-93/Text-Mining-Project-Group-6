@@ -1,0 +1,306 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_298_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Three reasons that we must not smoke
+1	﻿Three	﻿Three	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	reasons	reason	NOUN	NNS	Number=Plur	0	root	_	_
+3	that	that	PRON	WDT	PronType=Rel	7	obj	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+5	must	must	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	not	not	PART	RB	_	7	advmod	_	_
+7	smoke	smoke	VERB	VB	VerbForm=Inf	2	acl:relcl	_	_
+
+# sent_id = 2
+# text = The smoking has been a topic problem.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	smoking	smoking	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	topic	topic	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	problem	problem	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Many people know that smoking is not good for us, but the number of smoking people is gradually increasing.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	people	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	8	mark	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	good	good	ADJ	JJ	Degree=Pos	3	ccomp	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	20	punct	_	_
+12	but	but	CCONJ	CC	_	20	cc	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	number	number	NOUN	NN	Number=Sing	20	nsubj	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	smoking	smoking	NOUN	NN	Number=Sing	17	compound	_	_
+17	people	people	NOUN	NNS	Number=Plur	14	nmod	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	gradually	gradually	ADV	RB	_	20	advmod	_	_
+20	increasing	increase	VERB	VBG	Tense=Pres|VerbForm=Part	3	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = The age of smoking is lower and lower than before.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	age	age	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	2	nmod	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	lower	lower	ADJ	JJR	Degree=Cmp	0	root	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	lower	lower	ADJ	JJR	Degree=Cmp	6	conj	_	_
+9	than	than	ADP	IN	_	10	case	_	_
+10	before	before	ADV	RB	_	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = The problem of smoking is come to the fore.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	problem	problem	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	2	nmod	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	come	come	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	fore	fore	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Therefore, I want to tell you why we must not smoke by three reasons.
+1	Therefore	therefore	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	tell	tell	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	obj	_	_
+8	why	why	ADV	WRB	PronType=Int	12	advmod	_	_
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+10	must	must	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	not	not	PART	RB	_	12	advmod	_	_
+12	smoke	smoke	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+13	by	by	ADP	IN	_	15	case	_	_
+14	three	three	NUM	CD	NumType=Card	15	nummod	_	_
+15	reasons	reason	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = First of all, smoking increases the risk of cancer.
+1	First	first	ADV	RB	_	6	advmod	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	all	all	DET	DT	_	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	smoking	smoke	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	increases	increase	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	risk	risk	NOUN	NN	Number=Sing	6	obj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	cancer	cancer	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 8
+# text = As you know, the cancer of the lungs is the typical harm of smoking.
+1	As	as	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	13	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	cancer	cancer	NOUN	NN	Number=Sing	13	nsubj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	lungs	lung	NOUN	NNS	Number=Plur	6	nmod	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	typical	typical	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	harm	harm	NOUN	NN	Number=Sing	0	root	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	smoking	smoking	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 9
+# text = Besides, the various cancers can also happen easily.
+1	Besides	besides	ADV	RB	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	8	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	various	various	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	cancers	cancers	NOUN	NNS	Number=Plur	8	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	also	also	ADV	RB	_	8	advmod	_	_
+8	happen	happen	VERB	VB	VerbForm=Inf	0	root	_	_
+9	easily	easily	ADV	RB	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 10
+# text = Secondly, smoking is a cause of sterility.
+1	Secondly	secondly	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	smoking	smoke	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	cause	cause	NOUN	NN	Number=Sing	0	root	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	sterility	sterility	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 11
+# text = Nowadays, smoking rate of women is increasing gradually, so the rate of sterility by smoking is also increasing.
+1	Nowadays	nowadays	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	rate	rate	NOUN	NN	Number=Sing	8	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	women	woman	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	increasing	increase	VERB	VBG	Tense=Pres|VerbForm=Part	3	parataxis	_	_
+9	gradually	gradually	ADV	RB	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	so	so	ADV	RB	_	20	advmod	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	rate	rate	NOUN	NN	Number=Sing	20	nsubj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	sterility	sterility	NOUN	NN	Number=Sing	13	nmod	_	_
+16	by	by	ADP	IN	_	17	case	_	_
+17	smoking	smoking	NOUN	NN	Number=Sing	13	nmod	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	also	also	ADV	RB	_	20	advmod	_	_
+20	increasing	increase	VERB	VBG	Tense=Pres|VerbForm=Part	3	parataxis	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 12
+# text = The study found second-hand smoking is also a cause of the sterility.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	study	study	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	6	amod	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	hand	hand	NOUN	NN	Number=Sing	7	compound	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	11	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	also	also	ADV	RB	_	11	advmod	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	cause	cause	NOUN	NN	Number=Sing	3	ccomp	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	sterility	sterility	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 13
+# text = Third, smoking has many bad effects to children.
+1	Third	third	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	smoking	smoke	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	many	many	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	bad	bad	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	effects	effect	NOUN	NNS	Number=Plur	4	obj	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	children	child	NOUN	NNS	Number=Plur	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 14
+# text = Many fathers smoke at home, but smoking has bad effects to children's growth, respiratory organ and so on.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	fathers	father	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	at	at	ADP	IN	_	5	case	_	_
+5	home	home	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	but	but	CCONJ	CC	_	9	cc	_	_
+8	smoking	smoke	NOUN	NN	Number=Sing	9	nsubj	_	_
+9	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	bad	bad	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	effects	effect	NOUN	NNS	Number=Plur	9	obj	_	_
+12	to	to	ADP	IN	_	15	case	_	_
+13	children	child	NOUN	NNS	Number=Plur	15	nmod:poss	_	SpaceAfter=No
+14	's	's	PART	POS	_	13	case	_	_
+15	growth	growth	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	respiratory	respiratory	NOUN	NN	Number=Sing	18	compound	_	_
+18	organ	organ	NOUN	NN	Number=Sing	15	conj	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	so	so	ADV	RB	_	21	advmod	_	_
+21	on	on	ADV	RB	_	15	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 15
+# text = Especially,
+1	Especially	especially	ADV	RB	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 16
+# text = It is the worst to the children who have atopy.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	worst	worst	ADJ	JJS	Degree=Sup	0	root	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	children	child	NOUN	NNS	Number=Plur	4	obl	_	_
+8	who	who	PRON	WP	PronType=Rel	9	nsubj	_	_
+9	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	atopy	atopy	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 17
+# text = Women's smoking rate is increasing gradually.
+1	Women	women	PROPN	NNP	Number=Sing	4	nmod:poss	_	SpaceAfter=No
+2	's	's	PART	POS	_	1	case	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	4	compound	_	_
+4	rate	rate	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	increasing	increase	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+7	gradually	gradually	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 18
+# text = Besides, the children's smoking rate is increasing too.
+1	Besides	besides	ADV	RB	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	9	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	children	child	NOUN	NNS	Number=Plur	7	nmod:poss	_	SpaceAfter=No
+5	's	's	PART	POS	_	4	case	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	7	compound	_	_
+7	rate	rate	NOUN	NN	Number=Sing	9	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	increasing	increase	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+10	too	too	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 19
+# text = We have to suggest ways about smoking problems.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	suggest	suggest	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	ways	way	NOUN	NNS	Number=Plur	4	obj	_	_
+6	about	about	ADP	IN	_	8	case	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	8	compound	_	_
+8	problems	problem	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 20
+# text = We must think that smoking increases cancer rates, sterility and children's health problems.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+4	that	that	SCONJ	IN	_	5	mark	_	_
+5	smoking	smoke	VERB	VBG	VerbForm=Ger	3	ccomp	_	_
+6	increases	increase	NOUN	NNS	Number=Plur	8	compound	_	_
+7	cancer	cancer	NOUN	NN	Number=Sing	8	compound	_	_
+8	rates	rate	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	sterility	sterility	NOUN	NN	Number=Sing	8	conj	_	_
+11	and	and	CCONJ	CC	_	15	cc	_	_
+12	children	child	NOUN	NNS	Number=Plur	15	nmod:poss	_	SpaceAfter=No
+13	's	's	PART	POS	_	12	case	_	_
+14	health	health	NOUN	NN	Number=Sing	15	compound	_	_
+15	problems	problem	NOUN	NNS	Number=Plur	8	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

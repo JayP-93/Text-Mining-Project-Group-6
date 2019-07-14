@@ -1,0 +1,308 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_PTJ0_100_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I have several part-time jobs during college.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	several	several	ADJ	JJ	Degree=Pos	7	amod	_	_
+4	part	part	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	time	time	NOUN	NN	Number=Sing	7	compound	_	_
+7	jobs	job	NOUN	NNS	Number=Plur	2	obj	_	_
+8	during	during	ADP	IN	_	9	case	_	_
+9	college	college	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I worked pubs, pizza hut, and restaurant.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	pubs	pub	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	pizza	pizza	NOUN	NN	Number=Sing	6	compound	_	_
+6	hut	hut	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	restaurant	restaurant	PROPN	NNP	Number=Sing	3	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I was at a restaurant serving guests and guidance.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	at	at	ADP	IN	_	5	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	restaurant	restaurant	NOUN	NN	Number=Sing	0	root	_	_
+6	serving	serve	VERB	VBG	VerbForm=Ger	5	acl	_	_
+7	guests	guest	NOUN	NNS	Number=Plur	6	obj	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	guidance	guidance	NOUN	NN	Number=Sing	7	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = I made pizza and spaghetti.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	pizza	pizza	NOUN	NN	Number=Sing	2	obj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	spaghetti	spaghetti	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = At Pizza Hut and I was cleaning the kitchen.
+1	At	at	ADP	IN	_	3	case	_	_
+2	Pizza	pizza	PROPN	NNP	Number=Sing	3	compound	_	_
+3	Hut	Hut	PROPN	NNP	Number=Sing	7	obl	_	_
+4	and	and	CCONJ	CC	_	7	cc	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	cleaning	clean	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	kitchen	kitchen	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 6
+# text = While I work in a variety of pubs and ate the world beer there was a great experience while working part-time was a new experience.
+1	While	while	SCONJ	IN	_	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	work	work	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	27	advcl	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	variety	variety	NOUN	NN	Number=Sing	3	obl	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	pubs	pub	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	ate	eat	VERB	VB	VerbForm=Inf	3	conj	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	world	world	NOUN	NN	Number=Sing	13	compound	_	_
+13	beer	beer	NOUN	NN	Number=Sing	10	obj	_	_
+14	there	there	PRON	EX	_	15	expl	_	_
+15	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	great	great	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	experience	experience	NOUN	NN	Number=Sing	15	nsubj	_	_
+19	while	while	SCONJ	IN	_	20	mark	_	_
+20	working	work	VERB	VBG	VerbForm=Ger	18	acl	_	_
+21	part	part	NOUN	NN	Number=Sing	23	compound	_	SpaceAfter=No
+22	-	-	PUNCT	HYPH	_	23	punct	_	SpaceAfter=No
+23	time	time	NOUN	NN	Number=Sing	20	obl:tmod	_	_
+24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	cop	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+26	new	new	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	experience	experience	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	27	punct	_	_
+
+# sent_id = 7
+# text = Meet new people a good friend, brother, sisters were dating.
+1	Meet	meet	X	ADD	_	3	nummod	_	_
+2	new	new	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	people	people	NOUN	NNS	Number=Plur	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	good	good	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	friend	friend	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	brother	brother	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	sisters	sister	NOUN	NNS	Number=Plur	12	nsubj	_	_
+11	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	cop	_	_
+12	dating	date	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = And the best part about is the money that occurs.
+1	And	and	CCONJ	CC	_	8	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	best	best	ADJ	JJS	Degree=Sup	4	amod	_	_
+4	part	part	NOUN	NN	Number=Sing	8	nsubj	_	_
+5	about	about	ADV	RB	_	6	advmod	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	money	money	NOUN	NN	Number=Sing	0	root	_	_
+9	that	that	PRON	WDT	PronType=Rel	10	nsubj	_	_
+10	occurs	occur	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 9
+# text = I like bananas, apples, strawberries, pineapple, oranges, and tomatoes.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bananas	banana	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	apples	apple	NOUN	NNS	Number=Plur	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	strawberries	strawberry	NOUN	NNS	Number=Plur	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	pineapple	pineapple	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	oranges	orang	NOUN	NNS	Number=Plur	3	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	tomatoes	tomatoe	NOUN	NNS	Number=Plur	3	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = By the way I like it a lot and ate the food in the shop.
+1	By	by	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	way	way	NOUN	NN	Number=Sing	16	obl	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	lot	lot	NOUN	NN	Number=Sing	5	obl:npmod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	ate	eat	VERB	VB	VerbForm=Inf	5	conj	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	food	food	NOUN	NN	Number=Sing	10	obj	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	shop	shop	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 11
+# text = Even though there were bad times when a part-time job.
+1	Even	even	ADV	RB	_	4	advmod	_	_
+2	though	though	SCONJ	IN	_	4	mark	_	_
+3	there	there	PRON	EX	_	4	expl	_	_
+4	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	bad	bad	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	times	time	NOUN	NNS	Number=Plur	4	nsubj	_	_
+7	when	when	ADV	WRB	PronType=Int	12	mark	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+9	part	part	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	time	time	NOUN	NN	Number=Sing	12	compound	_	_
+12	job	job	NOUN	NN	Number=Sing	4	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 12
+# text = When there were a lot of guests i was really tired.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	lot	lot	NOUN	NN	Number=Sing	3	nsubj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	guests	guest	NOUN	NNS	Number=Plur	5	nmod	_	_
+8	i	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+10	really	really	ADV	RB	_	11	advmod	_	_
+11	tired	tired	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 13
+# text = 23 years old last time i experience a part-time job experience.
+1	23	23	NUM	CD	NumType=Card	2	nummod	_	_
+2	years	year	NOUN	NNS	Number=Plur	7	obl:tmod	_	_
+3	old	old	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	last	last	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	time	time	NOUN	NN	Number=Sing	2	nmod:tmod	_	_
+6	i	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	experience	experience	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+9	part	part	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	time	time	NOUN	NN	Number=Sing	13	compound	_	_
+12	job	job	NOUN	NN	Number=Sing	13	compound	_	_
+13	experience	experience	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 14
+# text = Part-time job in itself is assumed to be a good experience.
+1	Part	part	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	-time	-time	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	job	job	NOUN	NN	Number=Sing	1	obj	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	1	obl	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	assumed	assume	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	parataxis	_	_
+8	to	to	PART	TO	_	12	mark	_	_
+9	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	good	good	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	experience	experience	NOUN	NN	Number=Sing	7	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 15
+# text = If you work part-time you will learn to be patient.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	work	work	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+4	part	part	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	time	time	NOUN	NN	Number=Sing	3	obj	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+8	will	will	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	learn	learn	VERB	VB	VerbForm=Inf	0	root	_	_
+10	to	to	PART	TO	_	12	mark	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+12	patient	patient	ADJ	JJ	Degree=Pos	9	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 16
+# text = And to will earn any money.
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	to	to	PART	TO	_	4	mark	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	earn	earn	VERB	VB	VerbForm=Inf	0	root	_	_
+5	any	any	DET	DT	_	6	det	_	_
+6	money	money	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 17
+# text = With that money, parents, brother, sister, brother, friend, teacher is received gift you could always give a gift.
+1	With	with	ADP	IN	_	3	case	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	money	money	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	parents	parent	NOUN	NNS	Number=Plur	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	brother	brother	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	sister	sister	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	brother	brother	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	friend	friend	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	teacher	teacher	NOUN	NN	Number=Sing	17	nsubj:pass	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	received	receive	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+18	gift	gift	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	nsubj	_	_
+20	could	could	AUX	MD	VerbForm=Fin	22	aux	_	_
+21	always	always	ADV	RB	_	22	advmod	_	_
+22	give	give	VERB	VB	VerbForm=Inf	17	ccomp	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	gift	gift	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 18
+# text = And that money is just use for you.
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	money	money	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	just	just	ADV	RB	_	6	advmod	_	_
+6	use	use	VERB	VB	VerbForm=Inf	0	root	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 19
+# text = When college part-time job as a good experience, I think.
+1	When	when	ADV	WRB	PronType=Int	2	mark	_	_
+2	college	college	ADJ	JJ	Degree=Pos	6	amod	_	_
+3	part	part	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	time	time	NOUN	NN	Number=Sing	6	compound	_	_
+6	job	job	NOUN	NN	Number=Sing	0	root	_	_
+7	as	as	ADP	IN	_	10	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	good	good	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	experience	experience	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	6	punct	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

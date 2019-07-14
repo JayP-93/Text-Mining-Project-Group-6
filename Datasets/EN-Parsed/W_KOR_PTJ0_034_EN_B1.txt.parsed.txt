@@ -1,0 +1,315 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_PTJ0_034_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I really agree about this topic.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	really	really	ADV	RB	_	3	advmod	_	_
+3	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	about	about	ADP	IN	_	6	case	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	topic	topic	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = College Students pays for college tuition is very expensive.
+1	College	college	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Students	student	PROPN	NNPS	Number=Plur	3	nsubj	_	_
+3	pays	pay	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	for	for	ADP	IN	_	6	case	_	_
+5	college	college	NOUN	NN	Number=Sing	6	compound	_	_
+6	tuition	tuition	NOUN	NN	Number=Sing	3	obl	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	very	very	ADV	RB	_	9	advmod	_	_
+9	expensive	expensive	ADJ	JJ	Degree=Pos	3	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Expensive tuition is a burden on the parents.
+1	Expensive	expensive	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	tuition	tuition	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	burden	burden	NOUN	NN	Number=Sing	0	root	_	_
+6	on	on	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	parents	parent	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = As adults, reducing the economic burden is not unusual.
+1	As	as	SCONJ	IN	_	10	mark	_	_
+2	adults	adult	NOUN	NNS	Number=Plur	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	reducing	reduce	VERB	VBG	VerbForm=Ger	2	acl	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	economic	economic	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	burden	burden	NOUN	NN	Number=Sing	4	obj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	unusual	unusual	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 5
+# text = Through the part-time job, Students cannot learn in school can learn social experience.
+1	Through	through	ADP	IN	_	6	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+3	part	part	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	time	time	NOUN	NN	Number=Sing	6	compound	_	_
+6	job	job	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	Students	student	NOUN	NNS	Number=Plur	11	nsubj	_	_
+9	can	can	AUX	MD	VerbForm=Fin	11	aux	_	SpaceAfter=No
+10	not	not	PART	RB	_	11	advmod	_	_
+11	learn	learn	VERB	VB	VerbForm=Inf	0	root	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	school	school	NOUN	NN	Number=Sing	11	obl	_	_
+14	can	can	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	learn	learn	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+16	social	social	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	experience	experience	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 6
+# text = Part-time jobs experience that is indirectly.
+1	Part	part	NOUN	NN	Number=Sing	3	compound	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No
+3	time	time	NOUN	NN	Number=Sing	5	compound	_	_
+4	jobs	job	NOUN	NNS	Number=Plur	5	compound	_	_
+5	experience	experience	NOUN	NN	Number=Sing	0	root	_	_
+6	that	that	PRON	WDT	PronType=Rel	8	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	indirectly	indirectly	ADV	RB	_	5	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 7
+# text = Part-time jobs make a person high.
+1	Part	part	NOUN	NN	Number=Sing	3	compound	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No
+3	time	time	NOUN	NN	Number=Sing	0	root	_	_
+4	jobs	job	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	person	person	NOUN	NN	Number=Sing	5	obj	_	_
+8	high	high	ADJ	JJ	Degree=Pos	5	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Students can cultivate a team spirit.
+1	Students	student	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	cultivate	cultivate	VERB	VB	VerbForm=Inf	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	team	team	NOUN	NN	Number=Sing	6	compound	_	_
+6	spirit	spirit	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = And they can cultivate independence.
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	cultivate	cultivate	VERB	VB	VerbForm=Inf	0	root	_	_
+5	independence	independence	ADV	RB	NumType=Mult	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 10
+# text = College Students learns the importance of money and they will learn how to save.
+1	College	college	NOUN	NN	Number=Sing	2	compound	_	_
+2	Students	student	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	learns	learn	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	importance	importance	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	money	money	NOUN	NN	Number=Sing	5	nmod	_	_
+8	and	and	CCONJ	CC	_	11	cc	_	_
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+10	will	will	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	learn	learn	VERB	VB	VerbForm=Inf	3	conj	_	_
+12	how	how	ADV	WRB	PronType=Int	14	advmod	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	save	save	VERB	VB	VerbForm=Inf	11	ccomp	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = Some students go to abroad to study foreign language.
+1	Some	some	DET	DT	_	2	det	_	_
+2	students	student	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	abroad	abroad	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	study	study	VERB	VB	VerbForm=Inf	5	advcl	_	_
+8	foreign	foreign	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	language	language	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 12
+# text = And outside of school work to do additional experience will be enriched by the economic.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	outside	outside	ADP	IN	_	5	case	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	school	school	NOUN	NN	Number=Sing	5	compound	_	_
+5	work	work	NOUN	NN	Number=Sing	12	nsubj:pass	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	do	do	VERB	VB	VerbForm=Inf	5	acl	_	_
+8	additional	additional	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	experience	experience	NOUN	NN	Number=Sing	7	obj	_	_
+10	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	aux:pass	_	_
+12	enriched	enrich	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+13	by	by	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	economic	economic	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 13
+# text = For example, go to travel abroad, buy a book, buy shoes, Leisure activities, go to the movie, eat delicious food, buy a girlfriend's gift, buy a parent's present, pay bills etc.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	travel	travel	NOUN	NN	Number=Sing	4	obl	_	_
+7	abroad	abroad	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	buy	buy	VERB	VB	Mood=Imp|VerbForm=Fin	4	parataxis	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	book	book	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	buy	buy	VERB	VB	Mood=Imp|VerbForm=Fin	4	conj	_	_
+14	shoes	shoe	NOUN	NNS	Number=Plur	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	_	_
+16	Leisure	leisure	VERB	VB	Mood=Imp|VerbForm=Fin	4	conj	_	_
+17	activities	activity	NOUN	NNS	Number=Plur	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	4	punct	_	_
+19	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	4	parataxis	_	_
+20	to	to	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	movie	movie	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	24	punct	_	_
+24	eat	eat	VERB	VB	Mood=Imp|VerbForm=Fin	4	conj	_	_
+25	delicious	delicious	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	food	food	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	28	punct	_	_
+28	buy	buy	VERB	VB	Mood=Imp|VerbForm=Fin	4	conj	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+30	girlfriend	girlfriend	NOUN	NN	Number=Sing	32	nmod:poss	_	SpaceAfter=No
+31	's	's	PART	POS	_	30	case	_	_
+32	gift	gift	NOUN	NN	Number=Sing	28	obj	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	34	punct	_	_
+34	buy	buy	VERB	VB	Mood=Imp|VerbForm=Fin	4	conj	_	_
+35	a	a	DET	DT	Definite=Ind|PronType=Art	36	det	_	_
+36	parent	parent	NOUN	NN	Number=Sing	38	nmod:poss	_	SpaceAfter=No
+37	's	's	PART	POS	_	36	case	_	_
+38	present	present	ADJ	JJ	Degree=Pos	34	obj	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	40	punct	_	_
+40	pay	pay	VERB	VB	Mood=Imp|VerbForm=Fin	4	conj	_	_
+41	bills	bill	NOUN	NNS	Number=Plur	40	obj	_	_
+42	etc	etc	X	FW	_	40	advmod	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 14
+# text = Also part-time job helps in the formation of connections and patience is raised.
+1	Also	also	ADV	RB	_	6	advmod	_	_
+2	part	part	ADJ	JJ	Degree=Pos	4	amod	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+4	time	time	NOUN	NN	Number=Sing	6	obl:tmod	_	_
+5	job	job	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	helps	help	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	formation	formation	NOUN	NN	Number=Sing	6	obl	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	connections	connection	NOUN	NNS	Number=Plur	9	nmod	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	patience	patience	NOUN	NN	Number=Sing	11	conj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	raised	raise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 15
+# text = Part-time job will be motivated to study hard.
+1	Part	part	NOUN	NN	Number=Sing	3	compound	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No
+3	time	time	NOUN	NN	Number=Sing	4	compound	_	_
+4	job	job	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+5	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	motivated	motivate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	study	study	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	hard	hard	ADV	RB	Degree=Pos	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 16
+# text = Hard job makes a strong.
+1	Hard	hard	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	job	job	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	strong	strong	ADJ	JJ	Degree=Pos	3	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 17
+# text = Studying is important than part-time job.
+1	Studying	studying	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+4	than	than	ADP	IN	_	8	case	_	_
+5	part	part	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	time	time	NOUN	NN	Number=Sing	8	compound	_	_
+8	job	job	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 18
+# text = Studying is always more important than many money.
+1	Studying	study	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	always	always	ADV	RB	_	5	advmod	_	_
+4	more	more	ADV	RBR	_	5	advmod	_	_
+5	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+6	than	than	ADP	IN	_	8	case	_	_
+7	many	many	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	money	money	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 19
+# text = This means, there are very effective if done properly.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	there	there	PRON	EX	_	5	expl	_	_
+5	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	very	very	ADV	RB	_	7	advmod	_	_
+7	effective	effective	ADJ	JJ	Degree=Pos	5	nsubj	_	_
+8	if	if	SCONJ	IN	_	9	mark	_	_
+9	done	do	VERB	VBN	Tense=Past|VerbForm=Part	5	advcl	_	_
+10	properly	properly	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 20
+# text = Therefore, it is important for college students to have a part-time job.
+1	Therefore	therefore	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	college	college	NOUN	NN	Number=Sing	8	compound	_	_
+8	students	student	NOUN	NNS	Number=Plur	5	obl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	have	have	VERB	VB	VerbForm=Inf	8	acl	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+12	part	part	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+14	time	time	NOUN	NN	Number=Sing	15	compound	_	_
+15	job	job	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 21
+# text = Thank you
+1	Thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	SpacesAfter=\n
+

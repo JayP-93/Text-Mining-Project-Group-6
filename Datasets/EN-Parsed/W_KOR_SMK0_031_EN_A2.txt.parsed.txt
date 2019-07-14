@@ -1,0 +1,299 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_031_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿I think cigarette is a worst item in every situation.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	cigarette	cigarette	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	worst	worst	ADJ	JJS	Degree=Sup	7	amod	_	_
+7	item	item	NOUN	NN	Number=Sing	2	ccomp	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	every	every	DET	DT	_	10	det	_	_
+10	situation	situation	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = First, smoking looks not good.
+1	First	first	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	smoking	smoke	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	good	good	ADJ	JJ	Degree=Pos	4	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = The person whose have smoking looks like gangster.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	person	person	NOUN	NN	Number=Sing	9	nsubj	_	_
+3	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	4	nsubj	_	_
+4	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	smoking	smoke	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+7	like	like	ADP	IN	_	8	case	_	_
+8	gangster	gangster	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 4
+# text = Second, cigarette is not healthy.
+1	Second	second	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	cigarette	cigarette	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	healthy	healthy	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = But if a smoker is smoking I can't scold to him the reason of only smoking.
+1	But	but	CCONJ	CC	_	10	cc	_	_
+2	if	if	SCONJ	IN	_	6	mark	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	smoker	smoker	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	10	advcl	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	ca	can	AUX	MD	VerbForm=Fin	10	aux	_	SpaceAfter=No
+9	n't	not	PART	RB	_	10	advmod	_	_
+10	scold	scold	VERB	VB	VerbForm=Inf	0	root	_	_
+11	to	to	ADP	IN	_	12	case	_	_
+12	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	reason	reason	NOUN	NN	Number=Sing	10	obj	_	_
+15	of	of	SCONJ	IN	_	17	mark	_	_
+16	only	only	ADV	RB	_	17	advmod	_	_
+17	smoking	smoke	VERB	VBG	VerbForm=Ger	14	acl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 6
+# text = Because of smoking is just his choice.
+1	Because	because	ADP	IN	_	3	case	_	_
+2	of	of	ADP	IN	_	1	fixed	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	7	obl	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	just	just	ADV	RB	_	7	advmod	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	choice	choice	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 7
+# text = Third is very important thing that is smoking on the road.
+1	Third	third	ADV	RB	_	5	advmod	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	important	important	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	thing	thing	NOUN	NN	Number=Sing	0	root	_	_
+6	that	that	PRON	WDT	PronType=Rel	8	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	5	acl:relcl	_	_
+9	on	on	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	road	road	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = I have ever been this situation.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	ever	ever	ADV	RB	_	4	advmod	_	_
+4	been	be	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	situation	situation	NOUN	NN	Number=Sing	4	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = When a smoker is smoking by walking I was his behind.
+1	When	when	ADV	WRB	PronType=Int	5	mark	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	smoker	smoker	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	11	advcl	_	_
+6	by	by	SCONJ	IN	_	7	mark	_	_
+7	walking	walking	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	behind	behind	ADP	IN	_	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 10
+# text = I was very disgusting.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	disgusting	disgusting	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = Because of his blow with cigarette smoke is toward me.
+1	Because	because	ADP	IN	_	4	case	_	_
+2	of	of	ADP	IN	_	4	case	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	blow	blow	NOUN	NN	Number=Sing	10	obl	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	cigarette	cigarette	NOUN	NN	Number=Sing	7	compound	_	_
+7	smoke	smoke	NOUN	NN	Number=Sing	4	nmod	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	toward	toward	ADP	IN	_	10	case	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 12
+# text = In fact, I have never been thought about smoking on the road before I went through this situation.
+1	In	in	ADP	IN	_	2	case	_	_
+2	fact	fact	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj:pass	_	_
+5	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	never	never	ADV	RB	_	8	advmod	_	_
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	thought	think	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	about	about	ADP	IN	_	10	case	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	8	obl	_	_
+11	on	on	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	road	road	NOUN	NN	Number=Sing	10	nmod	_	_
+14	before	before	SCONJ	IN	_	16	mark	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	_
+17	through	through	ADP	IN	_	19	case	_	_
+18	this	this	DET	DT	Number=Sing|PronType=Dem	19	det	_	_
+19	situation	situation	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 13
+# text = But my mind has changed.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	mind	mind	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	changed	change	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 14
+# text = The smokers whose have smoking on the road are very rude person.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	smokers	smoker	NOUN	NNS	Number=Plur	12	nsubj	_	_
+3	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	4	nsubj	_	_
+4	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	smoking	smoke	NOUN	NN	Number=Sing	4	obj	_	_
+6	on	on	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	road	road	NOUN	NN	Number=Sing	5	nmod	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	very	very	ADV	RB	_	11	advmod	_	_
+11	rude	rude	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	person	person	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 15
+# text = But now I think just smoking is not correct.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	now	now	ADV	RB	_	4	advmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	just	just	ADV	RB	_	6	advmod	_	_
+6	smoking	smoke	NOUN	NN	Number=Sing	9	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	not	not	PART	RB	_	9	advmod	_	_
+9	correct	correct	ADJ	JJ	Degree=Pos	4	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 16
+# text = Surely, if someone has smoking then the other person is suffered.
+1	Surely	surely	ADV	RB	_	12	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	12	punct	_	_
+3	if	if	SCONJ	IN	_	6	mark	_	_
+4	someone	someone	PRON	NN	Number=Sing	6	nsubj	_	_
+5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	12	advcl	_	_
+7	then	then	ADV	RB	PronType=Dem	12	advmod	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	other	other	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	person	person	NOUN	NN	Number=Sing	12	nsubj:pass	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	suffered	suffer	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 17
+# text = So I can scold to them because I am suffered by them.
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	scold	scold	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obl	_	_
+7	because	because	SCONJ	IN	_	10	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj:pass	_	_
+9	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	suffered	suffer	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	_	_
+11	by	by	ADP	IN	_	12	case	_	_
+12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 18
+# text = Accordingly these contents, I think all places must have space for only smokers.
+1	Accordingly	accordingly	ADV	RB	_	3	advmod	_	_
+2	these	these	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+3	contents	contents	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	all	all	DET	DT	_	8	det	_	_
+8	places	place	NOUN	NNS	Number=Plur	10	nsubj	_	_
+9	must	must	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	have	have	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+11	space	space	NOUN	NN	Number=Sing	10	obj	_	_
+12	for	for	ADP	IN	_	14	case	_	_
+13	only	only	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	smokers	smoker	NOUN	NNS	Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 19
+# text = Restaurants are not exception.
+1	Restaurants	restaurant	NOUN	NNS	Number=Plur	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	exception	exception	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 20
+# text = Besides restaurant is a place to eat something but if someone has smoking other people get displeasured.
+1	Besides	besides	ADP	IN	_	2	case	_	_
+2	restaurant	restaurant	NOUN	NN	Number=Sing	5	obl	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	place	place	NOUN	NN	Number=Sing	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	eat	eat	VERB	VB	VerbForm=Inf	5	acl	_	_
+8	something	something	PRON	NN	Number=Sing	7	obj	_	_
+9	but	but	CCONJ	CC	_	12	cc	_	_
+10	if	if	SCONJ	IN	_	12	mark	_	_
+11	someone	someone	PRON	NN	Number=Sing	12	nsubj	_	_
+12	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+13	smoking	smoke	NOUN	NN	Number=Sing	12	obj	_	_
+14	other	other	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	people	people	NOUN	NNS	Number=Plur	17	nsubj:pass	_	_
+16	get	get	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	displeasured	displeasure	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	acl:relcl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 21
+# text = So all smoker are smoking their place not to damage to other nonsmokers.
+1	So	so	ADV	RB	_	5	advmod	_	_
+2	all	all	DET	DT	_	3	det	_	_
+3	smoker	smoker	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	place	place	NOUN	NN	Number=Sing	5	obj	_	_
+8	not	not	ADV	RB	_	10	advmod	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	damage	damage	VERB	VB	VerbForm=Inf	5	advcl	_	_
+11	to	to	ADP	IN	_	13	case	_	_
+12	other	other	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	nonsmokers	nonsmoker	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

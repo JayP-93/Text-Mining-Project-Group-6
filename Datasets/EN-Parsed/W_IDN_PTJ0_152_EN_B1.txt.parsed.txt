@@ -1,0 +1,376 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_IDN_PTJ0_152_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Some of us are continuing to college after we graduate from high school.
+1	﻿Some	﻿some	DET	DT	_	5	nsubj	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	nmod	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	continuing	continue	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	college	college	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	after	after	SCONJ	IN	_	10	mark	_	_
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+10	graduate	graduate	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+11	from	from	ADP	IN	_	13	case	_	_
+12	high	high	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	school	school	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = It is a common scene that we see some college students are working for part time job.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	common	common	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	scene	scene	NOUN	NN	Number=Sing	0	root	_	_
+6	that	that	PRON	WDT	PronType=Rel	8	obj	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+8	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	some	some	DET	DT	_	11	det	_	_
+10	college	college	NOUN	NN	Number=Sing	11	compound	_	_
+11	students	student	NOUN	NNS	Number=Plur	13	nsubj	_	_
+12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	8	ccomp	_	_
+14	for	for	ADP	IN	_	17	case	_	_
+15	part	part	NOUN	NN	Number=Sing	16	compound	_	_
+16	time	time	NOUN	NN	Number=Sing	17	compound	_	_
+17	job	job	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = The question now is, is it important for them to get a part time job?
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	question	question	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	now	now	ADV	RB	_	4	advmod	_	_
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
+8	important	important	ADJ	JJ	Degree=Pos	4	ccomp	_	_
+9	for	for	SCONJ	IN	_	12	mark	_	_
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	get	get	VERB	VB	VerbForm=Inf	8	csubj	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+14	part	part	NOUN	NN	Number=Sing	15	compound	_	_
+15	time	time	NOUN	NN	Number=Sing	16	compound	_	_
+16	job	job	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+17	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = I, in my own opinion, agree with this, because it can give us a working experience and can give us income by our self.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	in	in	ADP	IN	_	6	case	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	own	own	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	opinion	opinion	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	agree	agree	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+9	with	with	ADP	IN	_	10	case	_	_
+10	this	this	PRON	DT	Number=Sing|PronType=Dem	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	because	because	SCONJ	IN	_	15	mark	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	can	can	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	give	give	VERB	VB	VerbForm=Inf	8	advcl	_	_
+16	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	iobj	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+18	working	work	VERB	VBG	VerbForm=Ger	19	amod	_	_
+19	experience	experience	NOUN	NN	Number=Sing	15	obj	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	can	can	AUX	MD	VerbForm=Fin	22	aux	_	_
+22	give	give	VERB	VB	VerbForm=Inf	15	conj	_	_
+23	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	22	iobj	_	_
+24	income	income	NOUN	NN	Number=Sing	22	obj	_	_
+25	by	by	ADP	IN	_	27	case	_	_
+26	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	self	self	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 5
+# text = When we study at college, majority are study so that we can get a job.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	study	study	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+4	at	at	ADP	IN	_	5	case	_	_
+5	college	college	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	majority	majority	NOUN	NN	Number=Sing	9	nsubj	_	_
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	study	study	ADJ	JJ	Degree=Pos	0	root	_	_
+10	so	so	SCONJ	IN	_	14	mark	_	_
+11	that	that	SCONJ	IN	_	10	fixed	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
+13	can	can	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	get	get	VERB	VB	VerbForm=Inf	9	advcl	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	job	job	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 6
+# text = Sometimes there are company and owner that appreciates working experience.
+1	Sometimes	sometimes	ADV	RB	_	3	advmod	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	company	company	NOUN	NN	Number=Sing	3	nsubj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	owner	owner	NOUN	NN	Number=Sing	4	conj	_	_
+7	that	that	PRON	WDT	PronType=Rel	8	nsubj	_	_
+8	appreciates	appreciate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+9	working	work	VERB	VBG	VerbForm=Ger	10	amod	_	_
+10	experience	experience	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = So, it is common for us that having a work experience to get a job, for instance become a waiter.
+1	So	so	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	common	common	ADJ	JJ	Degree=Pos	0	root	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	obl	_	_
+8	that	that	SCONJ	IN	_	9	mark	_	_
+9	having	have	VERB	VBG	VerbForm=Ger	20	csubj	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	work	work	NOUN	NN	Number=Sing	12	compound	_	_
+12	experience	experience	NOUN	NN	Number=Sing	9	obj	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	get	get	VERB	VB	VerbForm=Inf	12	acl	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	job	job	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	9	punct	_	_
+18	for	for	ADP	IN	_	19	case	_	_
+19	instance	instance	NOUN	NN	Number=Sing	9	obl	_	_
+20	become	become	VERB	VB	VerbForm=Inf	5	advcl	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	waiter	waiter	NOUN	NN	Number=Sing	20	xcomp	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = This could give us an experience how should we work, how to please our boss, and so on.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	give	give	VERB	VB	VerbForm=Inf	0	root	_	_
+4	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	iobj	_	_
+5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	experience	experience	NOUN	NN	Number=Sing	3	obj	_	_
+7	how	how	ADV	WRB	PronType=Int	10	advmod	_	_
+8	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+10	work	work	VERB	VB	VerbForm=Inf	3	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	_	_
+12	how	how	ADV	WRB	PronType=Int	16	advmod	_	_
+13	to	to	ADP	IN	_	16	case	_	_
+14	please	please	INTJ	UH	_	16	discourse	_	_
+15	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	boss	boss	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	so	so	ADV	RB	_	20	advmod	_	_
+20	on	on	ADV	RB	_	3	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = In the future, when we work as a professional, we know how should behave like a professional employee.
+1	In	in	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	future	future	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	13	punct	_	_
+5	when	when	ADV	WRB	PronType=Int	7	mark	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	work	work	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+8	as	as	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	professional	professional	ADJ	JJ	Degree=Pos	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+13	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	how	how	ADV	WRB	PronType=Int	16	advmod	_	_
+15	should	should	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	behave	behave	VERB	VB	VerbForm=Inf	13	ccomp	_	_
+17	like	like	ADP	IN	_	20	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	professional	professional	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	employee	employee	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 10
+# text = Studying at college needs a lot of money.
+1	Studying	study	VERB	VBG	VerbForm=Ger	4	csubj	_	_
+2	at	at	ADP	IN	_	3	case	_	_
+3	college	college	NOUN	NN	Number=Sing	1	obl	_	_
+4	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	lot	lot	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	money	money	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = For this, many parents still give us a money for it.
+1	For	for	ADP	IN	_	2	case	_	_
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	many	many	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	parents	parent	NOUN	NNS	Number=Plur	7	nsubj	_	_
+6	still	still	ADV	RB	_	7	advmod	_	_
+7	give	give	VERB	VB	VerbForm=Inf	0	root	_	_
+8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	iobj	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	money	money	NOUN	NN	Number=Sing	7	obj	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 12
+# text = In the other hands, there are poor students that needs to work for the money by him/herself.
+1	In	in	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	other	other	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	hands	hand	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	there	there	PRON	EX	_	7	expl	_	_
+7	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	poor	poor	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	students	student	NOUN	NNS	Number=Plur	7	nsubj	_	_
+10	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	_
+11	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	work	work	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+14	for	for	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	money	money	NOUN	NN	Number=Sing	13	obl	_	_
+17	by	by	ADP	IN	_	18	case	_	_
+18	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl	_	SpaceAfter=No
+19	/	/	PUNCT	,	_	20	cc	_	SpaceAfter=No
+20	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 13
+# text = Part time job is a good way to earn it, as we not yet becoming professional of our subject.
+1	Part	part	NOUN	NN	Number=Sing	2	compound	_	_
+2	time	time	NOUN	NN	Number=Sing	3	compound	_	_
+3	job	job	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	good	good	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	way	way	NOUN	NN	Number=Sing	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	earn	earn	VERB	VB	VerbForm=Inf	7	acl	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	7	punct	_	_
+12	as	as	SCONJ	IN	_	16	mark	_	_
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
+14	not	not	PART	RB	_	16	advmod	_	_
+15	yet	yet	ADV	RB	_	16	advmod	_	_
+16	becoming	become	VERB	VBG	Tense=Pres|VerbForm=Part	7	advcl	_	_
+17	professional	professional	ADJ	JJ	Degree=Pos	16	xcomp	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	subject	subject	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 14
+# text = It could give us our own income, so we don't have to bother our parents for buying that or paying that.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	give	give	VERB	VB	VerbForm=Inf	0	root	_	_
+4	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	iobj	_	_
+5	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	own	own	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	income	income	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	so	so	ADV	RB	_	13	advmod	_	_
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+11	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
+12	n't	not	PART	RB	_	13	advmod	_	_
+13	have	have	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	bother	bother	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+16	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	parents	parent	NOUN	NNS	Number=Plur	15	obj	_	_
+18	for	for	SCONJ	IN	_	19	mark	_	_
+19	buying	buy	VERB	VBG	VerbForm=Ger	15	advcl	_	_
+20	that	that	PRON	DT	Number=Sing|PronType=Dem	19	obj	_	_
+21	or	or	CCONJ	CC	_	22	cc	_	_
+22	paying	pay	VERB	VBG	VerbForm=Ger	19	conj	_	_
+23	that	that	PRON	DT	Number=Sing|PronType=Dem	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 15
+# text = For conclusion, part time job is important.
+1	For	for	ADP	IN	_	2	case	_	_
+2	conclusion	conclusion	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	part	part	NOUN	NN	Number=Sing	5	compound	_	_
+5	time	time	NOUN	NN	Number=Sing	6	compound	_	_
+6	job	job	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	important	important	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 16
+# text = It can give you an experience about job and you can earn your own income.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	give	give	VERB	VB	VerbForm=Inf	0	root	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	iobj	_	_
+5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	experience	experience	NOUN	NN	Number=Sing	3	obj	_	_
+7	about	about	ADP	IN	_	8	case	_	_
+8	job	job	NOUN	NN	Number=Sing	6	nmod	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+11	can	can	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	earn	earn	VERB	VB	VerbForm=Inf	3	conj	_	_
+13	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	own	own	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	income	income	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 17
+# text = If you are a college student, don't get embarrassed about part time job.
+1	If	if	SCONJ	IN	_	6	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	college	college	NOUN	NN	Number=Sing	6	compound	_	_
+6	student	student	NOUN	NN	Number=Sing	10	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	10	aux	_	SpaceAfter=No
+9	n't	not	PART	RB	_	10	advmod	_	_
+10	get	get	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+11	embarrassed	embarrassed	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+12	about	about	ADP	IN	_	15	case	_	_
+13	part	part	NOUN	NN	Number=Sing	14	compound	_	_
+14	time	time	NOUN	NN	Number=Sing	15	compound	_	_
+15	job	job	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 18
+# text = Your parents would we proud of you for getting your own income.
+1	Your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	parents	parent	NOUN	NNS	Number=Plur	5	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+5	proud	proud	VERB	VB	VerbForm=Inf	0	root	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obl	_	_
+8	for	for	SCONJ	IN	_	9	mark	_	_
+9	getting	get	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+10	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+11	own	own	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	income	income	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 19
+# text = You should try it.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	try	try	VERB	VB	VerbForm=Inf	0	root	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

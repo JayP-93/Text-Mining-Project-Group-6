@@ -1,0 +1,264 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_SIN_SMK0_050_EN_B2.txt
+# newpar
+# sent_id = 1
+# text = ﻿Considering that restaurants are places where people relax themselves and enjoy good food, smoking, with its odours and negative health impacts, should indeed be banned in all restaurants.
+1	﻿Considering	﻿Consider	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	that	that	SCONJ	IN	_	5	mark	_	_
+3	restaurants	restaurant	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	places	place	NOUN	NNS	Number=Plur	1	ccomp	_	_
+6	where	where	ADV	WRB	PronType=Rel	8	advmod	_	_
+7	people	people	NOUN	NNS	Number=Plur	8	nsubj	_	_
+8	relax	relax	VERB	VB	VerbForm=Inf	5	acl:relcl	_	_
+9	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	enjoy	enjoy	VERB	VB	VerbForm=Inf	8	conj	_	_
+12	good	good	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	food	food	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	smoking	smoke	NOUN	NN	Number=Sing	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	1	punct	_	_
+17	with	with	ADP	IN	_	19	case	_	_
+18	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	odours	odour	NOUN	NNS	Number=Plur	1	obl	_	_
+20	and	and	CCONJ	CC	_	23	cc	_	_
+21	negative	negative	ADJ	JJ	Degree=Pos	23	amod	_	_
+22	health	health	NOUN	NN	Number=Sing	23	compound	_	_
+23	impacts	impact	NOUN	NNS	Number=Plur	19	conj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	1	punct	_	_
+25	should	should	AUX	MD	VerbForm=Fin	28	aux	_	_
+26	indeed	indeed	ADV	RB	_	28	advmod	_	_
+27	be	be	AUX	VB	VerbForm=Inf	28	aux:pass	_	_
+28	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	parataxis	_	_
+29	in	in	ADP	IN	_	31	case	_	_
+30	all	all	DET	DT	_	31	det	_	_
+31	restaurants	restaurant	NOUN	NNS	Number=Plur	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = In today's increasingly capitalist world, people tend to have less and less time for relaxation.
+1	In	in	ADP	IN	_	6	case	_	_
+2	today	today	NOUN	NN	Number=Sing	6	nmod:poss	_	SpaceAfter=No
+3	's	's	PART	POS	_	2	case	_	_
+4	increasingly	increasingly	ADV	RB	_	6	advmod	_	_
+5	capitalist	capitalist	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	world	world	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	people	people	NOUN	NNS	Number=Plur	9	nsubj	_	_
+9	tend	tend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	have	have	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	less	less	ADV	RBR	Degree=Cmp	15	advmod	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	less	less	ADV	RBR	Degree=Cmp	15	advmod	_	_
+15	time	time	NOUN	NN	Number=Sing	11	obj	_	_
+16	for	for	ADP	IN	_	17	case	_	_
+17	relaxation	relaxation	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = This is especially true in developed countries.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	especially	especially	ADV	RB	_	4	advmod	_	_
+4	true	true	ADJ	JJ	Degree=Pos	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	developed	developed	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	countries	country	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = For those working in developed countries, other than the time spent sleeping, most of the de-stressing happens across meal tables.
+1	For	for	ADP	IN	_	2	case	_	_
+2	those	those	PRON	DT	Number=Plur|PronType=Dem	0	root	_	_
+3	working	work	VERB	VBG	VerbForm=Ger	2	acl	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	developed	developed	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	countries	country	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	other	other	ADJ	JJ	Degree=Pos	3	amod	_	_
+9	than	than	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	time	time	NOUN	NN	Number=Sing	8	obl	_	_
+12	spent	spend	VERB	VBN	Tense=Past|VerbForm=Part	13	amod	_	_
+13	sleeping	sleeping	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	most	most	ADJ	JJS	Degree=Sup	19	nsubj	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	de-stressing	de-stressing	NOUN	NN	Number=Sing	15	nmod	_	_
+19	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+20	across	across	ADP	IN	_	22	case	_	_
+21	meal	meal	NOUN	NN	Number=Sing	22	compound	_	_
+22	tables	table	NOUN	NNS	Number=Plur	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Mealtimes are moments where people take break from work and recharge them for, most unfortunately, more work.
+1	Mealtimes	Mealtime	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	moments	moments	NOUN	NNS	Number=Plur	0	root	_	_
+4	where	where	ADV	WRB	PronType=Rel	6	advmod	_	_
+5	people	people	NOUN	NNS	Number=Plur	6	nsubj	_	_
+6	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	break	break	NOUN	NN	Number=Sing	6	obj	_	_
+8	from	from	ADP	IN	_	9	case	_	_
+9	work	work	NOUN	NN	Number=Sing	6	obl	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	recharge	recharge	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	_
+12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obj	_	_
+13	for	for	ADP	IN	_	19	case	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	19	punct	_	_
+15	most	most	ADV	RBS	_	16	advmod	_	_
+16	unfortunately	unfortunately	ADV	RB	_	19	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	more	more	ADJ	JJR	Degree=Cmp	19	amod	_	_
+19	work	work	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Given the value of these mealtimes, it would indeed be prudent for smoking to be banned in restaurants.
+1	Given	give	VERB	VBN	Tense=Past|VerbForm=Part	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	value	value	NOUN	NN	Number=Sing	12	obl	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	these	these	DET	DT	Number=Plur|PronType=Dem	6	det	_	_
+6	mealtimes	mealtime	NOUN	NNS	Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+9	would	would	AUX	MD	VerbForm=Fin	12	aux	_	_
+10	indeed	indeed	ADV	RB	_	12	advmod	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+12	prudent	prudent	ADJ	JJ	Degree=Pos	0	root	_	_
+13	for	for	SCONJ	IN	_	14	mark	_	_
+14	smoking	smoke	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+15	to	to	PART	TO	_	17	mark	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	aux:pass	_	_
+17	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	advcl	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	restaurants	restaurant	NOUN	NNS	Number=Plur	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 7
+# text = Besides the widely known hazards to health, the odour resulting from cigarette smoking would most definitely be a nuisance to any non-smoker trying to enjoy a meal in a restaurant.
+1	Besides	besides	ADP	IN	_	5	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+3	widely	widely	ADV	RB	_	4	advmod	_	_
+4	known	know	VERB	VBN	Tense=Past|VerbForm=Part	5	amod	_	_
+5	hazards	hazard	NOUN	NNS	Number=Plur	20	obl	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	health	health	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	20	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	odour	odour	NOUN	NN	Number=Sing	20	nsubj	_	_
+11	resulting	result	VERB	VBG	VerbForm=Ger	10	acl	_	_
+12	from	from	ADP	IN	_	14	case	_	_
+13	cigarette	cigarette	NOUN	NN	Number=Sing	14	compound	_	_
+14	smoking	smoking	NOUN	NN	Number=Sing	11	obl	_	_
+15	would	would	AUX	MD	VerbForm=Fin	20	aux	_	_
+16	most	most	ADV	RBS	_	20	advmod	_	_
+17	definitely	definitely	ADV	RB	_	20	advmod	_	_
+18	be	be	AUX	VB	VerbForm=Inf	20	cop	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	nuisance	nuisance	NOUN	NN	Number=Sing	0	root	_	_
+21	to	to	ADP	IN	_	23	case	_	_
+22	any	any	DET	DT	_	23	det	_	_
+23	non-smoker	non-smoker	NOUN	NN	Number=Sing	20	nmod	_	_
+24	trying	try	VERB	VBG	VerbForm=Ger	20	acl	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	enjoy	enjoy	VERB	VB	VerbForm=Inf	24	xcomp	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	meal	meal	NOUN	NN	Number=Sing	26	obj	_	_
+29	in	in	ADP	IN	_	31	case	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+31	restaurant	restaurant	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = 8
+# text = One might argue that smokers have the right to enjoy their mealtimes, and thus should be allowed to smoke over meal tables in the restaurant too.
+1	One	one	PRON	PRP	_	3	nsubj	_	_
+2	might	might	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	argue	argue	VERB	VB	VerbForm=Inf	0	root	_	_
+4	that	that	SCONJ	IN	_	6	mark	_	_
+5	smokers	smoker	NOUN	NNS	Number=Plur	6	nsubj	_	_
+6	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	right	right	NOUN	NN	Number=Sing	6	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	enjoy	enjoy	VERB	VB	VerbForm=Inf	8	acl	_	_
+11	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	mealtimes	mealtime	NOUN	NNS	Number=Plur	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	18	punct	_	_
+14	and	and	CCONJ	CC	_	18	cc	_	_
+15	thus	thus	ADV	RB	_	18	advmod	_	_
+16	should	should	AUX	MD	VerbForm=Fin	18	aux	_	_
+17	be	be	AUX	VB	VerbForm=Inf	18	aux:pass	_	_
+18	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	smoke	smoke	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+21	over	over	ADP	IN	_	23	case	_	_
+22	meal	meal	NOUN	NN	Number=Sing	23	compound	_	_
+23	tables	table	NOUN	NNS	Number=Plur	20	obl	_	_
+24	in	in	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	restaurant	restaurant	NOUN	NN	Number=Sing	23	nmod	_	_
+27	too	too	ADV	RB	_	26	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = However, smoking is essentially detached from the act of eating, and thus could be done outside of restaurant when the smokers are done eating.
+1	However	however	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	essentially	essentially	ADV	RB	_	6	advmod	_	_
+6	detached	detach	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	from	from	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	act	act	NOUN	NN	Number=Sing	6	obl	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	eating	eating	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	17	punct	_	_
+13	and	and	CCONJ	CC	_	17	cc	_	_
+14	thus	thus	ADV	RB	_	17	advmod	_	_
+15	could	could	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	aux:pass	_	_
+17	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	conj	_	_
+18	outside	outside	ADP	IN	_	20	case	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	restaurant	restaurant	NOUN	NN	Number=Sing	17	obl	_	_
+21	when	when	ADV	WRB	PronType=Int	25	mark	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	smokers	smoker	NOUN	NNS	Number=Plur	25	nsubj:pass	_	_
+24	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux:pass	_	_
+25	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	advcl	_	_
+26	eating	eat	VERB	VBG	VerbForm=Ger	25	xcomp	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 10
+# text = This way, not only would non-smoker not be affected, smokers would still be able to enjoy the meal and their cigarette.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	way	way	NOUN	NN	Number=Sing	10	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	10	punct	_	_
+4	not	not	ADV	RB	_	5	advmod	_	_
+5	only	only	ADV	RB	_	10	advmod	_	_
+6	would	would	AUX	MD	VerbForm=Fin	10	aux	_	_
+7	non-smoker	non-smoker	ADV	RB	_	10	advmod	_	_
+8	not	not	PART	RB	_	10	advmod	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+10	affected	affected	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	_	_
+12	smokers	smoker	NOUN	NNS	Number=Plur	16	nsubj	_	_
+13	would	would	AUX	MD	VerbForm=Fin	16	aux	_	_
+14	still	still	ADV	RB	_	16	advmod	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	cop	_	_
+16	able	able	ADJ	JJ	Degree=Pos	10	parataxis	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	enjoy	enjoy	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	meal	meal	NOUN	NN	Number=Sing	18	obj	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	cigarette	cigarette	NOUN	NN	Number=Sing	20	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\n
+

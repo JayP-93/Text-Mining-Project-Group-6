@@ -1,0 +1,352 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_200_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿Fortunately, during our family there is someone smokes.
+1	﻿Fortunately	﻿Fortunately	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	during	during	ADP	IN	_	5	case	_	_
+4	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	family	family	NOUN	NN	Number=Sing	7	obl	_	_
+6	there	there	PRON	EX	_	7	expl	_	_
+7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	someone	someone	PRON	NN	Number=Sing	9	nsubj	_	_
+9	smokes	smoke	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Usually the body is not good; people would think damjaereul blood, my thoughts also true.
+1	Usually	usually	ADV	RB	_	6	advmod	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	body	body	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	good	good	ADJ	JJ	Degree=Pos	8	amod	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	6	punct	_	_
+8	people	people	NOUN	NNS	Number=Plur	10	nsubj	_	_
+9	would	would	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+11	damjaereul	damjaereul	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	blood	blood	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	thoughts	thought	NOUN	NNS	Number=Plur	17	nsubj	_	_
+16	also	also	ADV	RB	_	17	advmod	_	_
+17	true	true	ADJ	JJ	Degree=Pos	12	parataxis	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = Smoking is smoked in person as well as increase the risk for lung cancer, Getting around is because of ill health to people.
+1	Smoking	smoke	NOUN	NN	Number=Sing	3	nsubj:pass	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	smoked	smoke	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	person	person	NOUN	NN	Number=Sing	3	obl	_	_
+6	as	as	ADV	RB	_	22	cc	_	_
+7	well	well	ADV	RB	Degree=Pos	6	fixed	_	_
+8	as	as	ADP	IN	_	6	fixed	_	_
+9	increase	increase	NOUN	NN	Number=Sing	22	nsubj	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	risk	risk	NOUN	NN	Number=Sing	9	compound	_	_
+12	for	for	ADP	IN	_	14	case	_	_
+13	lung	lung	NOUN	NN	Number=Sing	14	compound	_	_
+14	cancer	cancer	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	9	punct	_	_
+16	Getting	get	VERB	VBG	VerbForm=Ger	9	acl	_	_
+17	around	around	ADV	RB	_	16	advmod	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+19	because	because	ADP	IN	_	22	case	_	_
+20	of	of	ADP	IN	_	19	fixed	_	_
+21	ill	ill	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	health	health	NOUN	NN	Number=Sing	3	conj	_	_
+23	to	to	ADP	IN	_	24	case	_	_
+24	people	people	NOUN	NNS	Number=Plur	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Another thing you smoked Smoking, because smoking will cause air pollution.
+1	Another	another	DET	DT	_	2	det	_	_
+2	thing	thing	NOUN	NN	Number=Sing	0	root	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	smoked	smoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+5	Smoking	smoking	PROPN	NNP	Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	because	because	SCONJ	IN	_	10	mark	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	cause	cause	VERB	VB	VerbForm=Inf	4	advcl	_	_
+11	air	air	NOUN	NN	Number=Sing	12	compound	_	_
+12	pollution	pollution	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Thoughts on the future of our descendants and Smoking seem useless.
+1	Thoughts	Thought	NOUN	NNS	Number=Plur	10	nsubj	_	_
+2	on	on	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	future	future	NOUN	NN	Number=Sing	1	nmod	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	descendants	descendant	NOUN	NNS	Number=Plur	4	nmod	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	Smoking	smoke	NOUN	NN	Number=Sing	7	conj	_	_
+10	seem	seem	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	useless	useless	ADJ	JJ	Degree=Pos	10	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 6
+# text = Smokes in the house is one of the most two children and wife of the house will be a tremendous harm.
+1	Smokes	Smoke	NOUN	NNS	Number=Plur	6	nsubj	_	_
+2	in	in	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	house	house	NOUN	NN	Number=Sing	1	nmod	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	one	one	NUM	CD	NumType=Card	21	nsubj	_	_
+7	of	of	ADP	IN	_	11	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+9	most	most	ADJ	JJS	Degree=Sup	11	amod	_	_
+10	two	two	NUM	CD	NumType=Card	11	nummod	_	_
+11	children	child	NOUN	NNS	Number=Plur	6	nmod	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	wife	wife	NOUN	NN	Number=Sing	11	conj	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	house	house	NOUN	NN	Number=Sing	13	nmod	_	_
+17	will	will	AUX	MD	VerbForm=Fin	21	aux	_	_
+18	be	be	AUX	VB	VerbForm=Inf	21	cop	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+20	tremendous	tremendous	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	harm	harm	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	21	punct	_	_
+
+# sent_id = 7
+# text = I do not know what the mind and body so wiheophada stable.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+5	what	what	PRON	WP	PronType=Int	12	obj	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	mind	mind	NOUN	NN	Number=Sing	12	nsubj	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	body	body	NOUN	NN	Number=Sing	7	conj	_	_
+10	so	so	ADV	RB	_	12	advmod	_	_
+11	wiheophada	wiheophada	ADP	IN	_	12	case	_	_
+12	stable	stable	NOUN	NN	Number=Sing	4	ccomp	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = Smoking prices, and also expensive.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	prices	price	NOUN	NNS	Number=Plur	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	and	and	CCONJ	CC	_	6	cc	_	_
+5	also	also	ADV	RB	_	6	advmod	_	_
+6	expensive	expensive	ADJ	JJ	Degree=Pos	1	conj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 9
+# text = The prices that smoke right now that I broke it and my family think it's wise to invest.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	prices	price	NOUN	NNS	Number=Plur	9	nsubj	_	_
+3	that	that	PRON	WDT	PronType=Rel	4	nsubj	_	_
+4	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	right	right	ADV	RB	_	6	advmod	_	_
+6	now	now	ADV	RB	_	4	advmod	_	_
+7	that	that	SCONJ	IN	_	9	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	broke	break	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	family	family	NOUN	NN	Number=Sing	14	nsubj	_	_
+14	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	conj	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	SpaceAfter=No
+16	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	wise	wise	ADJ	JJ	Degree=Pos	14	ccomp	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	invest	invest	VERB	VB	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 10
+# text = The family home is comfortable and helps each other will be a peaceful family.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	family	family	NOUN	NN	Number=Sing	3	compound	_	_
+3	home	home	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	comfortable	comfortable	ADJ	JJ	Degree=Pos	0	root	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	helps	help	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+8	each	each	DET	DT	_	9	det	_	_
+9	other	other	ADJ	JJ	Degree=Pos	14	nsubj	_	_
+10	will	will	AUX	MD	VerbForm=Fin	14	aux	_	_
+11	be	be	AUX	VB	VerbForm=Inf	14	cop	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	peaceful	peaceful	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	family	family	NOUN	NN	Number=Sing	7	ccomp	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 11
+# text = In addition, many happy and healthy family members to live while enjoying.
+1	In	in	ADP	IN	_	2	case	_	_
+2	addition	addition	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	many	many	ADJ	JJ	Degree=Pos	9	amod	_	_
+5	happy	happy	ADJ	JJ	Degree=Pos	9	amod	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	healthy	healthy	ADJ	JJ	Degree=Pos	5	conj	_	_
+8	family	family	NOUN	NN	Number=Sing	9	compound	_	_
+9	members	member	NOUN	NNS	Number=Plur	2	appos	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	live	live	VERB	VB	VerbForm=Inf	9	acl	_	_
+12	while	while	SCONJ	IN	_	13	mark	_	_
+13	enjoying	enjoy	VERB	VBG	VerbForm=Ger	11	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = But curiously, I think I want a cigarette and have never had pyeobogo.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	curiously	curiously	ADV	RB	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	cigarette	cigarette	NOUN	NN	Number=Sing	7	obj	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	never	never	ADV	RB	_	13	advmod	_	_
+13	had	have	VERB	VBN	Tense=Past|VerbForm=Part	7	conj	_	_
+14	pyeobogo	pyeobogo	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 13
+# text = But I'm afraid you have a cough too museopwoseo
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	'm	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	afraid	afraid	ADJ	JJ	Degree=Pos	0	root	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	cough	cough	NOUN	NN	Number=Sing	6	obj	_	_
+9	too	too	ADP	IN	_	10	case	_	_
+10	museopwoseo	museopwoseo	NOUN	NN	Number=Sing	8	nmod	_	_
+
+# sent_id = 14
+# text = Sheds health deterioration was abandoned.
+1	Sheds	shed	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	health	health	NOUN	NN	Number=Sing	3	compound	_	_
+3	deterioration	deterioration	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	abandoned	abandon	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	ccomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 15
+# text = Many young people start to make me curious as to stop them geotinde.
+1	Many	many	ADJ	JJ	Degree=Pos	3	amod	_	_
+2	young	young	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	start	start	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	make	make	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+8	curious	curious	ADJ	JJ	Degree=Pos	6	xcomp	_	_
+9	as	as	SCONJ	IN	_	11	mark	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	stop	stop	VERB	VB	VerbForm=Inf	6	advcl	_	_
+12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obj	_	_
+13	geotinde	geotinde	VERB	VB	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 16
+# text = My parents help their kids have someone who can lead us to be good.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	parents	parent	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	help	help	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	kids	kid	NOUN	NNS	Number=Plur	6	nsubj	_	_
+6	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	someone	someone	PRON	NN	Number=Sing	6	obj	_	_
+8	who	who	PRON	WP	PronType=Rel	10	nsubj	_	_
+9	can	can	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	lead	lead	VERB	VB	VerbForm=Inf	7	acl:relcl	_	_
+11	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	obj	_	_
+12	to	to	PART	TO	_	14	mark	_	_
+13	be	be	AUX	VB	VerbForm=Inf	14	cop	_	_
+14	good	good	ADJ	JJ	Degree=Pos	10	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 17
+# text = So the children grow up properly, I think it should be a great man.
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	children	child	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	grow	grow	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	up	up	ADP	RP	_	4	compound:prt	_	_
+6	properly	properly	ADV	RB	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+11	should	should	AUX	MD	VerbForm=Fin	15	aux	_	_
+12	be	be	AUX	VB	VerbForm=Inf	15	cop	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	great	great	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	man	man	NOUN	NN	Number=Sing	9	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 18
+# text = Smoked Smoking moments that air pollution is a bad guy, the more should recognize.
+1	Smoked	smoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	Smoking	smoke	VERB	VBG	VerbForm=Ger	3	amod	_	_
+3	moments	moment	NOUN	NNS	Number=Plur	1	obj	_	_
+4	that	that	SCONJ	IN	_	10	mark	_	_
+5	air	air	NOUN	NN	Number=Sing	6	compound	_	_
+6	pollution	pollution	NOUN	NN	Number=Sing	10	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	bad	bad	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	guy	guy	NOUN	NN	Number=Sing	3	acl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	more	more	ADJ	JJR	Degree=Cmp	15	nsubj	_	_
+14	should	should	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	recognize	recognize	VERB	VB	VerbForm=Inf	10	acl:relcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 19
+# text = I walk away from my family in the future and will allow Smoking.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	walk	walk	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	away	away	ADV	RB	_	2	advmod	_	_
+4	from	from	ADP	IN	_	6	case	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	family	family	NOUN	NN	Number=Sing	3	obl	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	future	future	NOUN	NN	Number=Sing	2	obl	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	allow	allow	VERB	VB	VerbForm=Inf	2	conj	_	_
+13	Smoking	smoke	PROPN	NNP	Number=Sing	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 20
+# text = Smoked Smoking, knowing the health risks jeokeurodo mentally it is wise to break.
+1	Smoked	smoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	Smoking	smoke	PROPN	NNP	Number=Sing	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	knowing	know	VERB	VBG	VerbForm=Ger	1	advcl	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	health	health	NOUN	NN	Number=Sing	7	compound	_	_
+7	risks	risk	NOUN	NNS	Number=Plur	4	obj	_	_
+8	jeokeurodo	jeokeurodo	X	AFX	_	9	goeswith	_	_
+9	mentally	mentally	ADV	RB	_	10	advmod	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	wise	wise	ADJ	JJ	Degree=Pos	7	acl:relcl	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	break	break	VERB	VB	VerbForm=Inf	12	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

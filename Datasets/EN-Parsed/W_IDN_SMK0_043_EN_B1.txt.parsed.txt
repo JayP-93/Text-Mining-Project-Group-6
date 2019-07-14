@@ -1,0 +1,363 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_IDN_SMK0_043_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Nowadays, smoking is debatable topic for talking.
+1	﻿Nowadays	﻿Nowadays	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	smoking	smoke	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	debatable	debatable	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	topic	topic	NOUN	NN	Number=Sing	0	root	_	_
+7	for	for	SCONJ	IN	_	8	mark	_	_
+8	talking	talk	VERB	VBG	VerbForm=Ger	6	acl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Some people agree that smoking should be banned, but in the other hand some people disagree whether smoking should not be banned.
+1	Some	some	DET	DT	_	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	8	mark	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+6	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	17	punct	_	_
+10	but	but	CCONJ	CC	_	17	cc	_	_
+11	in	in	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	other	other	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	hand	hand	NOUN	NN	Number=Sing	17	obl	_	_
+15	some	some	DET	DT	_	16	det	_	_
+16	people	people	NOUN	NNS	Number=Plur	17	nsubj	_	_
+17	disagree	disagree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	_
+18	whether	whether	SCONJ	IN	_	23	mark	_	_
+19	smoking	smoking	NOUN	NN	Number=Sing	23	nsubj:pass	_	_
+20	should	should	AUX	MD	VerbForm=Fin	23	aux	_	_
+21	not	not	PART	RB	_	23	advmod	_	_
+22	be	be	AUX	VB	VerbForm=Inf	23	aux:pass	_	_
+23	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	ccomp	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = In my opinion, government should not ban smoking activity as you know cigarette can increase the income of our country, both from the export to foreign country and also import to our country.
+1	In	in	ADP	IN	_	3	case	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	opinion	opinion	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	government	government	NOUN	NN	Number=Sing	8	nsubj	_	_
+6	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	ban	ban	VERB	VB	VerbForm=Inf	0	root	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	10	compound	_	_
+10	activity	activity	NOUN	NN	Number=Sing	8	obj	_	_
+11	as	as	SCONJ	IN	_	13	mark	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+13	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+14	cigarette	cigarette	NOUN	NN	Number=Sing	16	nsubj	_	_
+15	can	can	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	increase	increase	VERB	VB	VerbForm=Inf	13	ccomp	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	income	income	NOUN	NN	Number=Sing	16	obj	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	country	country	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	8	punct	_	_
+23	both	both	CCONJ	CC	_	26	cc:preconj	_	_
+24	from	from	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	export	export	NOUN	NN	Number=Sing	8	obl	_	_
+27	to	to	ADP	IN	_	29	case	_	_
+28	foreign	foreign	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	country	country	NOUN	NN	Number=Sing	26	nmod	_	_
+30	and	and	CCONJ	CC	_	32	cc	_	_
+31	also	also	ADV	RB	_	32	advmod	_	_
+32	import	import	ADV	RB	_	26	conj	_	_
+33	to	to	ADP	IN	_	35	case	_	_
+34	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+35	country	country	NOUN	NN	Number=Sing	32	obl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 4
+# text = The tax can be used to fulfill the needs of our country such as for allocate the payment of fuel cost, for building the facilities of our country better, for increasing the salary of the employee and many other function.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	tax	tax	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+3	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	fulfill	fulfill	VERB	VB	VerbForm=Inf	5	advcl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	needs	need	NOUN	NNS	Number=Plur	7	obj	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	country	country	NOUN	NN	Number=Sing	9	nmod	_	_
+13	such	such	ADJ	JJ	Degree=Pos	18	case	_	_
+14	as	as	ADP	IN	_	13	fixed	_	_
+15	for	for	ADP	IN	_	16	case	_	_
+16	allocate	allocate	NOUN	NN	Number=Sing	13	obl	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	payment	payment	NOUN	NN	Number=Sing	9	nmod	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	fuel	fuel	NOUN	NN	Number=Sing	21	compound	_	_
+21	cost	cost	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	26	punct	_	_
+23	for	for	ADP	IN	_	26	case	_	_
+24	building	build	NOUN	NN	Number=Sing	26	compound	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	facilities	facility	NOUN	NNS	Number=Plur	18	conj	_	_
+27	of	of	ADP	IN	_	29	case	_	_
+28	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	country	country	NOUN	NN	Number=Sing	26	nmod	_	_
+30	better	better	ADV	RBR	Degree=Cmp	26	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	33	punct	_	_
+32	for	for	SCONJ	IN	_	33	mark	_	_
+33	increasing	increase	VERB	VBG	VerbForm=Ger	26	acl	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	salary	salary	NOUN	NN	Number=Sing	33	obj	_	_
+36	of	of	ADP	IN	_	38	case	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	employee	employee	NOUN	NN	Number=Sing	35	nmod	_	_
+39	and	and	CCONJ	CC	_	42	cc	_	_
+40	many	many	ADJ	JJ	Degree=Pos	42	amod	_	_
+41	other	other	ADJ	JJ	Degree=Pos	42	amod	_	_
+42	function	function	NOUN	NN	Number=Sing	38	conj	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Talking about smoking at restaurant it becomes controversial case because some people want to be free from the smog of cigarette.
+1	Talking	talk	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+2	about	about	SCONJ	IN	_	3	mark	_	_
+3	smoking	smoking	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+4	at	at	ADP	IN	_	5	case	_	_
+5	restaurant	restaurant	PROPN	NNP	Number=Sing	7	obl	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	becomes	become	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	controversial	controversial	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	case	case	NOUN	NN	Number=Sing	7	obj	_	_
+10	because	because	SCONJ	IN	_	13	mark	_	_
+11	some	some	DET	DT	_	12	det	_	_
+12	people	people	NOUN	NNS	Number=Plur	13	nsubj	_	_
+13	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+14	to	to	PART	TO	_	16	mark	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	cop	_	_
+16	free	free	ADJ	JJ	Degree=Pos	13	xcomp	_	_
+17	from	from	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	smog	smog	NOUN	NN	Number=Sing	16	obl	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	cigarette	cigarette	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 6
+# text = But other people also want to smoke moreover for active smoker.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	other	other	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	people	people	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	also	also	ADV	RB	_	5	advmod	_	_
+5	want	want	VERB	VB	VerbForm=Inf	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	smoke	smoke	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	moreover	moreover	NOUN	NN	Number=Sing	7	obj	_	_
+9	for	for	ADP	IN	_	11	case	_	_
+10	active	active	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	smoker	smoker	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 7
+# text = Therefore, they think that smoking should be banned because it can destroy other visitors.
+1	Therefore	therefore	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+4	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	IN	_	9	mark	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
+7	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+9	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	ccomp	_	_
+10	because	because	SCONJ	IN	_	13	mark	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	can	can	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	destroy	destroy	VERB	VB	VerbForm=Inf	9	advcl	_	_
+14	other	other	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	visitors	visitor	NOUN	NNS	Number=Plur	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = In the other hand, we have to think if the government ban the smoking it can make the production of cigarette will be lower than before.
+1	In	in	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	other	other	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	hand	hand	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	think	think	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	if	if	SCONJ	IN	_	13	mark	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	government	government	NOUN	NN	Number=Sing	13	nsubj	_	_
+13	ban	ban	VERB	VB	VerbForm=Inf	9	advcl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	smoking	smoking	NOUN	NN	Number=Sing	13	obj	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	can	can	AUX	MD	VerbForm=Fin	18	aux	_	_
+18	make	make	VERB	VB	VerbForm=Inf	15	acl:relcl	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	production	production	NOUN	NN	Number=Sing	18	obj	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	cigarette	cigarette	NOUN	NN	Number=Sing	20	nmod	_	_
+23	will	will	AUX	MD	VerbForm=Fin	25	aux	_	_
+24	be	be	AUX	VB	VerbForm=Inf	25	cop	_	_
+25	lower	lower	ADJ	JJR	Degree=Cmp	7	acl:relcl	_	_
+26	than	than	ADP	IN	_	25	fixed	_	_
+27	before	before	ADV	RB	_	25	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 9
+# text = I am sure if the production is lower the factory will fire their employee from their work.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	_
+4	if	if	SCONJ	IN	_	8	mark	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	production	production	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	lower	lower	ADJ	JJR	Degree=Cmp	12	advcl	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	factory	factory	NOUN	NN	Number=Sing	12	nsubj	_	_
+11	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	fire	fire	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+13	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	employee	employee	NOUN	NN	Number=Sing	12	obj	_	_
+15	from	from	ADP	IN	_	17	case	_	_
+16	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	work	work	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = It is so ironic.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	so	so	ADV	RB	_	4	advmod	_	_
+4	ironic	ironic	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = There will be so many people that cannot work again.
+1	There	there	PRON	EX	_	6	expl	_	_
+2	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+4	so	so	ADV	RB	_	5	advmod	_	_
+5	many	many	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	people	people	NOUN	NNS	Number=Plur	0	root	_	_
+7	that	that	PRON	WDT	PronType=Rel	10	nsubj	_	_
+8	can	can	AUX	MD	VerbForm=Fin	10	aux	_	SpaceAfter=No
+9	not	not	PART	RB	_	10	advmod	_	_
+10	work	work	VERB	VB	VerbForm=Inf	6	acl:relcl	_	_
+11	again	again	ADV	RB	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 12
+# text = They cannot fulfill their financial side.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	not	not	PART	RB	_	4	advmod	_	_
+4	fulfill	fulfill	VERB	VB	VerbForm=Inf	0	root	_	_
+5	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	financial	financial	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	side	side	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = They cannot send their children to go to school, they also can not fulfill their daily needs.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	not	not	PART	RB	_	4	advmod	_	_
+4	send	send	VERB	VB	VerbForm=Inf	0	root	_	_
+5	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	children	child	NOUN	NNS	Number=Plur	4	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	go	go	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	school	school	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	_
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+13	also	also	ADV	RB	_	16	advmod	_	_
+14	can	can	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	not	not	PART	RB	_	16	advmod	_	_
+16	fulfill	fulfill	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+17	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+18	daily	daily	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	needs	need	NOUN	NNS	Number=Plur	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 14
+# text = Therefore, I think the government should not ban the smoking case because it has many advantages for us, although there are many negative side that can appear from this case.
+1	Therefore	therefore	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	government	government	NOUN	NN	Number=Sing	9	nsubj	_	_
+7	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	not	not	PART	RB	_	9	advmod	_	_
+9	ban	ban	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	smoking	smoking	NOUN	NN	Number=Sing	12	compound	_	_
+12	case	case	NOUN	NN	Number=Sing	9	obj	_	_
+13	because	because	SCONJ	IN	_	15	mark	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+16	many	many	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	advantages	advantage	NOUN	NNS	Number=Plur	15	obj	_	_
+18	for	for	ADP	IN	_	19	case	_	_
+19	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	4	punct	_	_
+21	although	although	SCONJ	IN	_	23	mark	_	_
+22	there	there	PRON	EX	_	23	expl	_	_
+23	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+24	many	many	ADJ	JJ	Degree=Pos	26	amod	_	_
+25	negative	negative	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	side	side	NOUN	NN	Number=Sing	23	nsubj	_	_
+27	that	that	PRON	WDT	PronType=Rel	29	nsubj	_	_
+28	can	can	AUX	MD	VerbForm=Fin	29	aux	_	_
+29	appear	appear	VERB	VB	VerbForm=Inf	26	acl:relcl	_	_
+30	from	from	ADP	IN	_	32	case	_	_
+31	this	this	DET	DT	Number=Sing|PronType=Dem	32	det	_	_
+32	case	case	NOUN	NN	Number=Sing	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 15
+# text = As a smart people, we have to create the good thing that can make people both of active smoker or passive smoker feel comfortable in the same place.
+1	As	as	ADP	IN	_	4	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	smart	smart	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	people	people	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	create	create	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	good	good	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	thing	thing	NOUN	NN	Number=Sing	9	obj	_	_
+13	that	that	PRON	WDT	PronType=Rel	15	nsubj	_	_
+14	can	can	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	make	make	VERB	VB	VerbForm=Inf	12	acl:relcl	_	_
+16	people	people	NOUN	NNS	Number=Plur	24	nsubj	_	_
+17	both	both	CCONJ	CC	_	20	cc:preconj	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	active	active	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	smoker	smoker	NOUN	NN	Number=Sing	24	compound	_	_
+21	or	or	CCONJ	CC	_	23	cc	_	_
+22	passive	passive	NOUN	NN	Number=Sing	23	compound	_	_
+23	smoker	smoker	NOUN	NN	Number=Sing	20	conj	_	_
+24	feel	feel	VERB	VB	VerbForm=Inf	15	xcomp	_	_
+25	comfortable	comfortable	ADJ	JJ	Degree=Pos	24	xcomp	_	_
+26	in	in	ADP	IN	_	29	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+28	same	same	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	place	place	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

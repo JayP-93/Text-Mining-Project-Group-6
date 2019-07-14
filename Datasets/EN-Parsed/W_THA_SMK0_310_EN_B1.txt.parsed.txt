@@ -1,0 +1,266 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_THA_SMK0_310_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I agree with this topic.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	with	with	ADP	IN	_	5	case	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	topic	topic	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I think that the restaurant is a place for relaxing or meeting with family, friends, or lover.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	8	mark	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	restaurant	restaurant	NOUN	NN	Number=Sing	8	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	place	place	NOUN	NN	Number=Sing	2	ccomp	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	relaxing	relaxing	NOUN	NN	Number=Sing	8	nmod	_	_
+11	or	or	CCONJ	CC	_	12	cc	_	_
+12	meeting	meeting	NOUN	NN	Number=Sing	10	conj	_	_
+13	with	with	ADP	IN	_	14	case	_	_
+14	family	family	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	_	_
+16	friends	friend	NOUN	NNS	Number=Plur	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	or	or	CCONJ	CC	_	19	cc	_	_
+19	lover	lover	NOUN	NN	Number=Sing	14	conj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = It is a good time to talk or sharing some ideas.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	good	good	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	time	time	NOUN	NN	Number=Sing	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	talk	talk	VERB	VB	VerbForm=Inf	5	acl	_	_
+8	or	or	CCONJ	CC	_	9	cc	_	_
+9	sharing	share	VERB	VBG	VerbForm=Ger	7	conj	_	_
+10	some	some	DET	DT	_	11	det	_	_
+11	ideas	idea	NOUN	NNS	Number=Plur	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = There are a lot of foods, good atmosphere, and many people all of age.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	lot	lot	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	foods	food	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	good	good	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	atmosphere	atmosphere	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	many	many	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	people	people	NOUN	NNS	Number=Plur	14	conj	_	_
+14	all	all	DET	DT	_	2	conj	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	age	age	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Smoking should be completely banned at all the restaurants in the country because it makes smell bad to another.
+1	Smoking	smoking	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+2	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+4	completely	completely	ADV	RB	_	5	advmod	_	_
+5	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	at	at	ADP	IN	_	9	case	_	_
+7	all	all	DET	PDT	_	9	det:predet	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	restaurants	restaurant	NOUN	NNS	Number=Plur	5	obl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	country	country	NOUN	NN	Number=Sing	9	nmod	_	_
+13	because	because	SCONJ	IN	_	15	mark	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+16	smell	smell	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	bad	bad	ADJ	JJ	Degree=Pos	15	xcomp	_	_
+18	to	to	ADP	IN	_	19	case	_	_
+19	another	another	DET	DT	_	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = It will have directly problem to yourself such as you will not have good health; the disease might increase, and can make you lost of money.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+4	directly	directly	ADV	RB	_	5	advmod	_	_
+5	problem	problem	NOUN	NN	Number=Sing	3	obj	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	3	obl	_	_
+8	such	such	ADJ	JJ	Degree=Pos	13	mark	_	_
+9	as	as	SCONJ	IN	_	8	fixed	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+11	will	will	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	not	not	PART	RB	_	13	advmod	_	_
+13	have	have	VERB	VB	VerbForm=Inf	3	advcl	_	_
+14	good	good	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	health	health	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	3	punct	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	disease	disease	NOUN	NN	Number=Sing	20	nsubj	_	_
+19	might	might	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	increase	increase	VERB	VB	VerbForm=Inf	3	parataxis	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	24	punct	_	_
+22	and	and	CCONJ	CC	_	24	cc	_	_
+23	can	can	AUX	MD	VerbForm=Fin	24	aux	_	_
+24	make	make	VERB	VB	VerbForm=Inf	20	conj	_	_
+25	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	24	obj	_	_
+26	lost	lose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	xcomp	_	_
+27	of	of	ADP	IN	_	28	case	_	_
+28	money	money	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Everyone all ready know that there is bad side than good side, so smoking should be banned at all the restaurants.
+1	Everyone	everyone	PRON	NN	Number=Sing	3	nsubj	_	_
+2	all	all	DET	DT	_	3	det	_	_
+3	ready	ready	ADJ	JJ	Degree=Pos	0	root	_	_
+4	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+5	that	that	SCONJ	IN	_	7	mark	_	_
+6	there	there	PRON	EX	_	7	expl	_	_
+7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	bad	bad	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	side	side	NOUN	NN	Number=Sing	7	nsubj	_	_
+10	than	than	ADP	IN	_	12	case	_	_
+11	good	good	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	side	side	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	18	punct	_	_
+14	so	so	ADV	RB	_	18	advmod	_	_
+15	smoking	smoking	NOUN	NN	Number=Sing	18	nsubj:pass	_	_
+16	should	should	AUX	MD	VerbForm=Fin	18	aux	_	_
+17	be	be	AUX	VB	VerbForm=Inf	18	aux:pass	_	_
+18	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
+19	at	at	ADP	IN	_	22	case	_	_
+20	all	all	DET	PDT	_	22	det:predet	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	restaurants	restaurant	NOUN	NNS	Number=Plur	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = Moreover, smoking will make you have bad personality and not good for the children in the society.
+1	Moreover	moreover	NOUN	NN	Number=Sing	5	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	smoking	smoke	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	nsubj	_	_
+7	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+8	bad	bad	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	personality	personality	NOUN	NN	Number=Sing	7	obj	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	not	not	ADV	RB	_	12	advmod	_	_
+12	good	good	ADJ	JJ	Degree=Pos	9	conj	_	_
+13	for	for	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	children	child	NOUN	NNS	Number=Plur	12	obl	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	society	society	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = All adults should give good thing to the children.
+1	All	all	DET	DT	_	2	det	_	_
+2	adults	adult	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	give	give	VERB	VB	VerbForm=Inf	0	root	_	_
+5	good	good	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	thing	thing	NOUN	NN	Number=Sing	4	obj	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	children	child	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 10
+# text = Stop smoking can make the world have fresh air, you will have good looking; don't make any trouble to the others.
+1	Stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	smoking	smoking	ADV	RB	_	4	advmod	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	make	make	VERB	VB	VerbForm=Inf	1	ccomp	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	world	world	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	fresh	fresh	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	air	air	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	1	punct	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+12	will	will	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	have	have	VERB	VB	VerbForm=Inf	1	parataxis	_	_
+14	good	good	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	looking	look	VERB	VBG	VerbForm=Ger	13	xcomp	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	1	punct	_	_
+17	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	19	aux	_	SpaceAfter=No
+18	n't	not	PART	RB	_	19	advmod	_	_
+19	make	make	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	_
+20	any	any	DET	DT	_	21	det	_	_
+21	trouble	trouble	NOUN	NN	Number=Sing	19	obj	_	_
+22	to	to	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	others	other	NOUN	NNS	Number=Plur	19	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 11
+# text = It is a good chance to stop smoking because it not has benefit with you but it is more advantage with another in the society too.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	good	good	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	chance	chance	NOUN	NN	Number=Sing	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	stop	stop	VERB	VB	VerbForm=Inf	5	acl	_	_
+8	smoking	smoke	VERB	VBG	VerbForm=Ger	7	xcomp	_	_
+9	because	because	SCONJ	IN	_	13	mark	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	not	not	ADV	RB	_	13	advmod	_	_
+12	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	benefit	benefit	VERB	VBN	Tense=Past|VerbForm=Part	8	advcl	_	_
+14	with	with	ADP	IN	_	15	case	_	_
+15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	obl	_	_
+16	but	but	CCONJ	CC	_	20	cc	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	more	more	ADV	RBR	_	20	advmod	_	_
+20	advantage	advantage	ADJ	JJ	Degree=Pos	5	conj	_	_
+21	with	with	ADP	IN	_	22	case	_	_
+22	another	another	DET	DT	_	20	obl	_	_
+23	in	in	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	society	society	NOUN	NN	Number=Sing	22	nmod	_	_
+26	too	too	ADV	RB	_	20	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 12
+# text = If you not or stop smoking everyone in the society will live with happiness and get the best life.
+1	If	if	SCONJ	IN	_	6	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+3	not	not	PART	RB	_	6	advmod	_	_
+4	or	or	CCONJ	CC	_	5	cc	_	_
+5	stop	stop	VERB	VB	VerbForm=Inf	3	conj	_	_
+6	smoking	smoke	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+7	everyone	everyone	PRON	NN	Number=Sing	6	obj	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	society	society	NOUN	NN	Number=Sing	6	obl	_	_
+11	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	live	live	VERB	VB	VerbForm=Inf	0	root	_	_
+13	with	with	ADP	IN	_	14	case	_	_
+14	happiness	happiness	NOUN	NN	Number=Sing	12	obl	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	get	get	VERB	VB	VerbForm=Inf	12	conj	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	best	best	ADJ	JJS	Degree=Sup	19	amod	_	_
+19	life	life	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n
+

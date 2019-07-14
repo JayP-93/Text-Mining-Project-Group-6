@@ -1,0 +1,346 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_HKG_SMK0_022_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿In Hong Kong, smoking is prohibited in many places such as parks, bus terminus, indoor stadiums, and so on.
+1	﻿In	﻿In	PROPN	NNP	Number=Sing	5	compound	_	_
+2	Hong	Hong	PROPN	NNP	Number=Sing	1	flat	_	_
+3	Kong	Kong	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	prohibited	prohibit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	many	many	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	places	place	NOUN	NNS	Number=Plur	7	obl	_	_
+11	such	such	ADJ	JJ	Degree=Pos	13	case	_	_
+12	as	as	ADP	IN	_	11	fixed	_	_
+13	parks	park	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	bus	bus	NOUN	NN	Number=Sing	16	compound	_	_
+16	terminus	terminus	NOUN	NNS	Number=Plur	13	conj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	indoor	indoor	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	stadiums	stadium	NOUN	NNS	Number=Plur	13	conj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	7	punct	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	so	so	ADV	RB	_	23	advmod	_	_
+23	on	on	ADV	RB	_	7	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = There are many smokers disagree for the smoking ban in such areas and want to fight for their right to smoke.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	smoker	smoker	NOUN	NN	Number=Sing	6	nmod:poss	_	SpaceAfter=No
+5	s	s	PART	POS	_	4	case	_	_
+6	disagree	disagree	NOUN	NN	Number=Sing	2	nsubj	_	_
+7	for	for	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	10	compound	_	_
+10	ban	ban	NOUN	NN	Number=Sing	6	nmod	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	such	such	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	areas	area	NOUN	NNS	Number=Plur	10	nmod	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	fight	fight	VERB	VB	VerbForm=Inf	15	xcomp	_	_
+18	for	for	ADP	IN	_	20	case	_	_
+19	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	right	right	ADJ	JJ	Degree=Pos	17	obl	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	smoke	smoke	VERB	VB	VerbForm=Inf	20	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Should we impose smoking ban in all restaurants?
+1	Should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	impose	impose	VERB	VB	VerbForm=Inf	0	root	_	_
+4	smoking	smoke	VERB	VBG	VerbForm=Ger	5	amod	_	_
+5	ban	ban	NOUN	NN	Number=Sing	3	obj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	all	all	DET	DT	_	8	det	_	_
+8	restaurants	restaurant	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = I strongly agree that smoking should be banned at all restaurants.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	strongly	strongly	ADV	RB	_	3	advmod	_	_
+3	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+6	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+9	at	at	ADP	IN	_	11	case	_	_
+10	all	all	DET	DT	_	11	det	_	_
+11	restaurants	restaurant	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = First, non-smokers have the right to free from smoking.
+1	First	first	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	non-smokers	non-smoker	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	right	right	NOUN	NN	Number=Sing	4	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	free	free	VERB	VB	VerbForm=Inf	6	acl	_	_
+9	from	from	ADP	IN	_	10	case	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = It is important that the smoking ban policy should care the needs of this group of people.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+4	that	that	SCONJ	IN	_	10	mark	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	8	compound	_	_
+7	ban	ban	NOUN	NN	Number=Sing	8	compound	_	_
+8	policy	policy	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	care	care	VERB	VB	VerbForm=Inf	3	csubj	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	needs	need	NOUN	NNS	Number=Plur	10	obj	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	group	group	NOUN	NN	Number=Sing	12	nmod	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	people	people	NOUN	NNS	Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = For example, there is smoking ban in all bus terminus, even though people normally stay for less than 20 minutes in such area.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	there	there	PRON	EX	_	5	expl	_	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	7	compound	_	_
+7	ban	ban	NOUN	NN	Number=Sing	5	nsubj	_	_
+8	in	in	ADP	IN	_	11	case	_	_
+9	all	all	DET	DT	_	11	det	_	_
+10	bus	bus	NOUN	NN	Number=Sing	11	compound	_	_
+11	terminus	terminus	NOUN	NNS	Number=Plur	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	5	punct	_	_
+13	even	even	ADV	RB	_	17	advmod	_	_
+14	though	though	SCONJ	IN	_	17	mark	_	_
+15	people	people	NOUN	NNS	Number=Plur	17	nsubj	_	_
+16	normally	normally	ADV	RB	_	17	advmod	_	_
+17	stay	stay	VERB	VB	VerbForm=Inf	5	advcl	_	_
+18	for	for	ADP	IN	_	22	case	_	_
+19	less	less	ADJ	JJR	Degree=Cmp	21	advmod	_	_
+20	than	than	ADP	IN	_	19	fixed	_	_
+21	20	20	NUM	CD	NumType=Card	22	nummod	_	_
+22	minutes	minute	NOUN	NNS	Number=Plur	17	obl	_	_
+23	in	in	ADP	IN	_	25	case	_	_
+24	such	such	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	area	area	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = By considering the effect of smoking on non-smokers, it makes sense that smoking should be banned at restaurants as most of the people, especially smokers, spend at least 30 minutes having meals in restaurants.
+1	By	by	SCONJ	IN	_	2	mark	_	_
+2	considering	consider	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	effect	effect	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	4	nmod	_	_
+7	on	on	ADP	IN	_	8	case	_	_
+8	non-smokers	non-smoker	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	sense	sense	SCONJ	IN	_	17	mark	_	_
+13	that	that	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+14	smoking	smoke	NOUN	NN	Number=Sing	17	nsubj:pass	_	_
+15	should	should	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	aux:pass	_	_
+17	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	ccomp	_	_
+18	at	at	ADP	IN	_	19	case	_	_
+19	restaurants	restaurant	NOUN	NNS	Number=Plur	17	obl	_	_
+20	as	as	SCONJ	IN	_	21	case	_	_
+21	most	most	ADJ	JJS	Degree=Sup	17	obl	_	_
+22	of	of	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	people	people	NOUN	NNS	Number=Plur	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	27	punct	_	_
+26	especially	especially	ADV	RB	_	27	advmod	_	_
+27	smokers	smoker	NOUN	NNS	Number=Plur	17	conj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	27	punct	_	_
+29	spend	spend	VERB	VB	VerbForm=Inf	27	parataxis	_	_
+30	at	at	ADV	RB	_	31	case	_	_
+31	least	least	ADV	RBS	Degree=Sup	32	nmod	_	_
+32	30	30	NUM	CD	NumType=Card	33	nummod	_	_
+33	minutes	minute	NOUN	NNS	Number=Plur	29	obj	_	_
+34	having	have	VERB	VBG	VerbForm=Ger	29	advcl	_	_
+35	meals	meal	NOUN	NNS	Number=Plur	34	obj	_	_
+36	in	in	ADP	IN	_	37	case	_	_
+37	restaurants	restaurant	NOUN	NNS	Number=Plur	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 9
+# text = It will be harmful to people if they have to smoke in second-hand for such a long time.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	_
+4	harmful	harmful	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	people	people	NOUN	NNS	Number=Plur	4	obl	_	_
+7	if	if	SCONJ	IN	_	9	mark	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+9	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	smoke	smoke	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	in	in	ADP	IN	_	15	case	_	_
+13	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	15	amod	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	15	punct	_	SpaceAfter=No
+15	hand	hand	NOUN	NN	Number=Sing	11	obl	_	_
+16	for	for	ADP	IN	_	20	case	_	_
+17	such	such	DET	PDT	_	20	det:predet	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	long	long	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	time	time	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 10
+# text = Second, most of the restaurants are indoor restaurants, even though the ventilation of the restaurant is good enough for clearing the exhausts in the kitchen, it is rarely able to clear the smoke from the cigarettes as the smoke concentration is very high.
+1	Second	second	ADV	RB	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	9	punct	_	_
+3	most	most	ADJ	JJS	Degree=Sup	9	nsubj	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	restaurants	restaurant	NOUN	NNS	Number=Plur	3	nmod	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	indoor	indoor	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	restaurants	restaurant	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	even	even	ADV	RB	_	19	advmod	_	_
+12	though	though	SCONJ	IN	_	19	mark	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	ventilation	ventilation	NOUN	NN	Number=Sing	19	nsubj	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	restaurant	restaurant	NOUN	NN	Number=Sing	14	nmod	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	good	good	ADJ	JJ	Degree=Pos	32	advcl	_	_
+20	enough	enough	ADV	RB	_	19	advmod	_	_
+21	for	for	SCONJ	IN	_	22	mark	_	_
+22	clearing	clear	VERB	VBG	VerbForm=Ger	19	advcl	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	exhausts	exhaust	NOUN	NNS	Number=Plur	22	obj	_	_
+25	in	in	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	kitchen	kitchen	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	32	punct	_	_
+29	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
+30	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
+31	rarely	rarely	ADV	RB	_	32	advmod	_	_
+32	able	able	ADJ	JJ	Degree=Pos	9	parataxis	_	_
+33	to	to	PART	TO	_	34	mark	_	_
+34	clear	clear	VERB	VB	VerbForm=Inf	32	xcomp	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+36	smoke	smoke	NOUN	NN	Number=Sing	34	obj	_	_
+37	from	from	ADP	IN	_	39	case	_	_
+38	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+39	cigarettes	cigarette	NOUN	NNS	Number=Plur	34	obl	_	_
+40	as	as	ADP	IN	_	46	mark	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	43	det	_	_
+42	smoke	smoke	NOUN	NN	Number=Sing	43	compound	_	_
+43	concentration	concentration	NOUN	NN	Number=Sing	46	nsubj	_	_
+44	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	cop	_	_
+45	very	very	ADV	RB	_	46	advmod	_	_
+46	high	high	ADJ	JJ	Degree=Pos	34	advcl	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 11
+# text = Therefore, air inside the restaurant is of poor quality.
+1	Therefore	therefore	ADV	RB	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	10	punct	_	_
+3	air	air	NOUN	NN	Number=Sing	10	nsubj	_	_
+4	inside	inside	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	restaurant	restaurant	NOUN	NN	Number=Sing	3	nmod	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	poor	poor	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	quality	quality	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 12
+# text = This will affect the health of the customers.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	affect	affect	VERB	VB	VerbForm=Inf	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	health	health	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	customers	customer	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 13
+# text = The effect is even more prominent to the people working
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	effect	effect	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	even	even	ADV	RB	_	6	advmod	_	_
+5	more	more	ADV	RBR	_	6	advmod	_	_
+6	prominent	prominent	ADJ	JJ	Degree=Pos	0	root	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	people	people	NOUN	NNS	Number=Plur	6	obl	_	_
+10	working	work	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+
+# sent_id = 14
+# text = In the restaurant as they have to stay in such area for a long time.
+1	In	in	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	restaurant	restaurant	NOUN	NN	Number=Sing	0	root	_	_
+4	as	as	SCONJ	IN	_	6	mark	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	stay	stay	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	such	such	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	area	area	NOUN	NN	Number=Sing	8	obl	_	_
+12	for	for	ADP	IN	_	15	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	long	long	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	time	time	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 15
+# text = In short, it will be good if smoking can be banned at all restaurants and promote non-smoking habit at the same time.
+1	In	in	ADP	IN	_	2	case	_	_
+2	short	short	ADJ	JJ	Degree=Pos	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
+5	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+7	good	good	ADJ	JJ	Degree=Pos	0	root	_	_
+8	if	if	SCONJ	IN	_	12	mark	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	12	nsubj:pass	_	_
+10	can	can	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	aux:pass	_	_
+12	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	_	_
+13	at	at	ADP	IN	_	15	case	_	_
+14	all	all	DET	DT	_	15	det	_	_
+15	restaurants	restaurant	NOUN	NNS	Number=Plur	12	obl	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	promote	promote	VERB	VB	VerbForm=Inf	12	conj	_	_
+18	non-smoking	non-smoking	VERB	VBG	VerbForm=Ger	19	amod	_	_
+19	habit	habit	NOUN	NN	Number=Sing	17	obj	_	_
+20	at	at	ADP	IN	_	23	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	same	same	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	time	time	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

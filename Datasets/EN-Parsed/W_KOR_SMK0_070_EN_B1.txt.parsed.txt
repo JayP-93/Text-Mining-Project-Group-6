@@ -1,0 +1,328 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_070_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿When I met a person who knew long time ago, we had dinner together.
+1	﻿When	﻿When	ADV	WRB	PronType=Int	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	met	meet	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	person	person	NOUN	NN	Number=Sing	3	obj	_	_
+6	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+7	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	long	long	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	time	time	NOUN	NN	Number=Sing	10	obl:npmod	_	_
+10	ago	ago	ADV	RB	_	7	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+13	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	dinner	dinner	NOUN	NN	Number=Sing	13	obj	_	_
+15	together	together	ADV	RB	_	13	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = It was so fun and food was fantastic before him smoke.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	so	so	ADV	RB	_	4	advmod	_	_
+4	fun	fun	ADJ	JJ	Degree=Pos	0	root	_	_
+5	and	and	CCONJ	CC	_	8	cc	_	_
+6	food	food	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+8	fantastic	fantastic	ADJ	JJ	Degree=Pos	4	conj	_	_
+9	before	before	ADP	IN	_	11	case	_	_
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	_
+11	smoke	smoke	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = He started to smoke.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	started	start	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	smoke	smoke	VERB	VB	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Then I couldn't concentrate his say, tasted delicious food.
+1	Then	then	ADV	RB	PronType=Dem	5	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	could	could	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n't	not	PART	RB	_	5	advmod	_	_
+5	concentrate	concentrate	VERB	VB	VerbForm=Inf	0	root	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	say	say	VERB	VB	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	tasted	taste	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+10	delicious	delicious	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	food	food	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = The ashes are into a soup, smoke is attack to me.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	ashes	ash	NOUN	NNS	Number=Plur	6	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	into	into	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	soup	soup	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	smoke	smoke	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	attack	attack	NOUN	NN	Number=Sing	0	root	_	_
+11	to	to	ADP	IN	_	12	case	_	_
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 6
+# text = It was my worst meal ever had.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	worst	worst	ADJ	JJS	Degree=Sup	5	amod	_	_
+5	meal	meal	NOUN	NN	Number=Sing	0	root	_	_
+6	ever	ever	ADV	RB	_	7	advmod	_	_
+7	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 7
+# text = It's ok to smoke.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	ok	ok	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	smoke	smoke	VERB	VB	VerbForm=Inf	3	ccomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = But you don't smoke in restaurants.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n't	not	PART	RB	_	5	advmod	_	_
+5	smoke	smoke	VERB	VB	VerbForm=Inf	0	root	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	restaurants	restaurant	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = It smells so dizzy, feel like disgusting.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	smells	smell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	so	so	ADV	RB	_	4	advmod	_	_
+4	dizzy	dizzy	ADJ	JJ	Degree=Pos	2	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	feel	feel	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+7	like	like	SCONJ	IN	_	8	mark	_	_
+8	disgusting	disgusting	VERB	VBG	VerbForm=Ger	6	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = I think smoking table in restaurants, is good for nothing.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	smoking	smoke	NOUN	NN	Number=Sing	4	compound	_	_
+4	table	table	NOUN	NN	Number=Sing	2	obj	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	restaurants	restaurant	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	good	good	ADJ	JJ	Degree=Pos	2	conj	_	_
+10	for	for	ADP	IN	_	11	case	_	_
+11	nothing	nothing	PRON	NN	Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 11
+# text = So I agree that smoking should be completely banned at all the restaurants in the country.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	9	mark	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
+6	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+8	completely	completely	ADV	RB	_	9	advmod	_	_
+9	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+10	at	at	ADP	IN	_	13	case	_	_
+11	all	all	DET	PDT	_	13	det:predet	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	restaurants	restaurant	NOUN	NNS	Number=Plur	9	obl	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	country	country	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 12
+# text = Smoking has a bad effect for other people.
+1	Smoking	smoking	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	bad	bad	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	effect	effect	NOUN	NN	Number=Sing	2	obj	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	other	other	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	people	people	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 13
+# text = It is corroborated by science.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	corroborated	corroborate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	by	by	ADP	IN	_	5	case	_	_
+5	science	science	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 14
+# text = If you want to smoke, you must go smoking area!
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	smoke	smoke	VERB	VB	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+8	must	must	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+10	smoking	smoke	VERB	VBG	VerbForm=Ger	11	amod	_	_
+11	area	area	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 15
+# text = It's legal thing.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	legal	legal	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	thing	thing	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 16
+# text = And please don't smoke in the road.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	please	please	INTJ	UH	_	5	discourse	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n't	not	PART	RB	_	5	advmod	_	_
+5	smoke	smoke	VERB	VB	VerbForm=Inf	0	root	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	road	road	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 17
+# text = It's so feel bad.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	so	so	ADV	RB	_	4	advmod	_	_
+4	feel	feel	VERB	VB	VerbForm=Inf	0	root	_	_
+5	bad	bad	ADJ	JJ	Degree=Pos	4	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 18
+# text = I want to a fresh air.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	6	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	fresh	fresh	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	air	air	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 19
+# text = Not to mix a cigarette ash.
+1	Not	not	ADV	RB	_	3	advmod	_	_
+2	to	to	PART	TO	_	3	mark	_	_
+3	mix	mix	VERB	VB	VerbForm=Inf	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	cigarette	cigarette	NOUN	NN	Number=Sing	6	compound	_	_
+6	ash	ash	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 20
+# text = Don't' think about yourself, think about other person.
+1	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+2	n't	not	PART	RB	_	4	advmod	_	SpaceAfter=No
+3	'	'	PUNCT	``	_	4	punct	_	_
+4	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+5	about	about	ADP	IN	_	6	case	_	_
+6	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	think	think	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+9	about	about	ADP	IN	_	11	case	_	_
+10	other	other	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	person	person	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 21
+# text = They suffer your indifference action.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	suffer	suffer	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	indifference	indifference	NOUN	NN	Number=Sing	5	compound	_	_
+5	action	action	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 22
+# text = Smoking is not attractive.
+1	Smoking	smoking	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	attractive	attractive	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 23
+# text = It is a poison that your body going to sick.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	poison	poison	NOUN	NN	Number=Sing	0	root	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	body	body	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	going	go	VERB	VBG	VerbForm=Ger	4	acl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	sick	sick	VERB	VB	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 24
+# text = I want to smoke banned all the restaurants.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	smoke	smoke	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part	4	acl	_	_
+6	all	all	DET	PDT	_	8	det:predet	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	restaurants	restaurant	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 25
+# text = They do not smoke in restaurants, say no more.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	smoke	smoke	VERB	VB	VerbForm=Inf	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	restaurants	restaurant	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	say	say	VERB	VB	Mood=Imp|VerbForm=Fin	4	parataxis	_	_
+9	no	no	ADV	RB	_	10	advmod	_	_
+10	more	more	ADV	RBR	_	8	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 26
+# text = It's a manner for others, and then we are feeling good together.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	manner	manner	NOUN	NN	Number=Sing	0	root	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	others	other	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	and	and	CCONJ	CC	_	12	cc	_	_
+9	then	then	ADV	RB	PronType=Dem	12	advmod	_	_
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	feeling	feel	VERB	VBG	Tense=Pres|VerbForm=Part	4	conj	_	_
+13	good	good	ADJ	JJ	Degree=Pos	12	xcomp	_	_
+14	together	together	ADV	RB	_	12	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

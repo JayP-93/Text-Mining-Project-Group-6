@@ -1,0 +1,270 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PHL_PTJ0_083_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿In Wikipedia, A part-time job is a form of employment that carries fewer hours per week than a full-time job.
+1	﻿In	﻿In	PROPN	NNP	Number=Sing	11	nsubj	_	_
+2	Wikipedia	Wikipedia	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	A	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+5	part	part	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	time	time	NOUN	NN	Number=Sing	8	compound	_	_
+8	job	job	NOUN	NN	Number=Sing	11	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	form	form	NOUN	NN	Number=Sing	0	root	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	employment	employment	NOUN	NN	Number=Sing	11	nmod	_	_
+14	that	that	PRON	WDT	PronType=Rel	15	nsubj	_	_
+15	carries	carry	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+16	fewer	fewer	ADJ	JJR	Degree=Cmp	17	amod	_	_
+17	hours	hour	NOUN	NNS	Number=Plur	15	obj	_	_
+18	per	per	ADP	IN	_	19	case	_	_
+19	week	week	NOUN	NN	Number=Sing	17	nmod	_	_
+20	than	than	ADP	IN	_	25	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+22	full	full	ADJ	JJ	Degree=Pos	24	amod	_	SpaceAfter=No
+23	-	-	PUNCT	HYPH	_	24	punct	_	SpaceAfter=No
+24	time	time	NOUN	NN	Number=Sing	25	compound	_	_
+25	job	job	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = Workers spend 30 - 35 hours weekly just to earn money thinking that they cannot afford to work full-time in spite of their hectic schedules.
+1	Workers	worker	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	spend	spend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	30	30	NUM	CD	NumType=Card	6	nummod	_	_
+4	-	-	SYM	SYM	_	5	case	_	_
+5	35	35	NUM	CD	NumType=Card	3	nmod	_	_
+6	hours	hour	NOUN	NNS	Number=Plur	2	obj	_	_
+7	weekly	weekly	ADV	RB	_	10	advmod	_	_
+8	just	just	ADV	RB	_	10	advmod	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	earn	earn	VERB	VB	VerbForm=Inf	2	advcl	_	_
+11	money	money	NOUN	NN	Number=Sing	10	obj	_	_
+12	thinking	think	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+13	that	that	SCONJ	IN	_	17	mark	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+15	can	can	AUX	MD	VerbForm=Fin	17	aux	_	SpaceAfter=No
+16	not	not	PART	RB	_	17	advmod	_	_
+17	afford	afford	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	work	work	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+20	full	full	ADJ	JJ	Degree=Pos	22	amod	_	SpaceAfter=No
+21	-	-	PUNCT	HYPH	_	22	punct	_	SpaceAfter=No
+22	time	time	NOUN	NN	Number=Sing	19	obl:npmod	_	_
+23	in	in	ADP	IN	_	24	case	_	_
+24	spite	spite	NOUN	NN	Number=Sing	19	obl	_	_
+25	of	of	ADP	IN	_	28	case	_	_
+26	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+27	hectic	hectic	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	schedules	schedule	NOUN	NNS	Number=Plur	24	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Commonly, if we are talking to persons who are doing this the students are mainly involved.
+1	Commonly	Commonly	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	if	if	SCONJ	IN	_	6	mark	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	persons	person	NOUN	NNS	Number=Plur	6	obl	_	_
+9	who	who	PRON	WP	PronType=Rel	11	nsubj	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	8	acl:relcl	_	_
+12	this	this	PRON	DT	Number=Sing|PronType=Dem	11	obj	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	students	student	NOUN	NNS	Number=Plur	17	nsubj	_	_
+15	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	mainly	mainly	ADV	RB	_	17	advmod	_	_
+17	involved	involved	ADJ	JJ	Degree=Pos	12	acl:relcl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = It is simply because we cannot manage to pay lot of bills and fees even though we have supports from our parents.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+3	simply	simply	ADV	RB	_	8	advmod	_	_
+4	because	because	SCONJ	IN	_	8	mark	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	8	aux	_	SpaceAfter=No
+7	not	not	PART	RB	_	8	advmod	_	_
+8	manage	manage	VERB	VB	VerbForm=Inf	0	root	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	pay	pay	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	lot	lot	NOUN	NN	Number=Sing	10	obj	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	bills	bill	NOUN	NNS	Number=Plur	11	nmod	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	fees	fee	NOUN	NNS	Number=Plur	13	conj	_	_
+16	even	even	ADV	RB	_	19	advmod	_	_
+17	though	though	SCONJ	IN	_	19	mark	_	_
+18	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
+19	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+20	supports	support	NOUN	NNS	Number=Plur	19	obj	_	_
+21	from	from	ADP	IN	_	23	case	_	_
+22	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	parents	parent	NOUN	NNS	Number=Plur	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 5
+# text = College students especially those who are financially down are the one's needing this to support themselves for college schooling.
+1	College	college	NOUN	NN	Number=Sing	2	compound	_	_
+2	students	student	NOUN	NNS	Number=Plur	0	root	_	_
+3	especially	especially	ADV	RB	_	4	advmod	_	_
+4	those	those	PRON	DT	Number=Plur|PronType=Dem	11	nsubj	_	_
+5	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	financially	financially	ADV	RB	_	8	advmod	_	_
+8	down	down	ADV	RB	_	4	acl:relcl	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	one	one	NOUN	NN	Number=Sing	2	parataxis	_	SpaceAfter=No
+12	's	's	PART	POS	_	11	case	_	_
+13	needing	need	VERB	VBG	VerbForm=Ger	11	acl	_	_
+14	this	this	PRON	DT	Number=Sing|PronType=Dem	13	obj	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	support	support	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+17	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	16	obj	_	_
+18	for	for	ADP	IN	_	20	case	_	_
+19	college	college	NOUN	NN	Number=Sing	20	compound	_	_
+20	schooling	schooling	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = They can be online advertisers, promodisers, salesladies or salesmen, or restaurant crews.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+4	online	online	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	advertisers	advertiser	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	promodisers	promodiser	NOUN	NNS	Number=Plur	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	salesladies	saleslady	NOUN	NNS	Number=Plur	5	conj	_	_
+10	or	or	CCONJ	CC	_	11	cc	_	_
+11	salesmen	salesman	NOUN	NNS	Number=Plur	5	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	or	or	CCONJ	CC	_	15	cc	_	_
+14	restaurant	restaurant	NOUN	NN	Number=Sing	15	compound	_	_
+15	crews	crews	NOUN	NNS	Number=Plur	5	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 7
+# text = I believe that the most in demand today in part-time jobs is being a restaurant crew.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	18	mark	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	most	most	ADJ	JJS	Degree=Sup	8	amod	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	demand	demand	NUM	CD	NumType=Card	8	nmod	_	_
+8	today	today	NOUN	NN	Number=Sing	18	nsubj	_	_
+9	in	in	ADP	IN	_	13	case	_	_
+10	part	part	ADJ	JJ	Degree=Pos	12	amod	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	time	time	NOUN	NN	Number=Sing	13	compound	_	_
+13	jobs	job	NOUN	NNS	Number=Plur	8	nmod	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+15	being	be	AUX	VBG	VerbForm=Ger	18	cop	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	restaurant	restaurant	NOUN	NN	Number=Sing	18	compound	_	_
+18	crew	crew	NOUN	NN	Number=Sing	2	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = It is because managers and owners want active, speed, and refreshing workers just what we teenagers have.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	because	because	SCONJ	IN	_	7	mark	_	_
+4	managers	manager	NOUN	NNS	Number=Plur	7	nsubj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	owners	owner	NOUN	NNS	Number=Plur	4	conj	_	_
+7	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+8	active	active	ADJ	JJ	Degree=Pos	10	amod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	speed	speed	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	refreshing	refresh	VERB	VBG	VerbForm=Ger	7	conj	_	_
+14	workers	worker	NOUN	NNS	Number=Plur	13	obj	_	_
+15	just	just	ADV	RB	_	16	advmod	_	_
+16	what	what	PRON	WP	PronType=Int	13	obj	_	_
+17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nmod:poss	_	_
+18	teenagers	teenager	NOUN	NNS	Number=Plur	19	nsubj	_	_
+19	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = I experienced doing this during summer.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	experienced	experience	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	doing	do	VERB	VBG	VerbForm=Ger	2	xcomp	_	_
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	obj	_	_
+5	during	during	ADP	IN	_	6	case	_	_
+6	summer	summer	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = My father employed me and my first work is to remove the paint on the walls.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	father	father	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	employed	employ	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+5	and	and	CCONJ	CC	_	9	cc	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	8	amod	_	_
+8	work	work	NOUN	NN	Number=Sing	9	nsubj	_	_
+9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	remove	remove	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	paint	paint	NOUN	NN	Number=Sing	11	obj	_	_
+14	on	on	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	walls	wall	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = It took me 6 hours just to remove those paints of a 20 square meter wall.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	6	6	NUM	CD	NumType=Card	5	nummod	_	_
+5	hours	hour	NOUN	NNS	Number=Plur	2	obj	_	_
+6	just	just	ADV	RB	_	8	advmod	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	remove	remove	VERB	VB	VerbForm=Inf	2	advcl	_	_
+9	those	those	DET	DT	Number=Plur|PronType=Dem	10	det	_	_
+10	paints	paint	NOUN	NNS	Number=Plur	8	obj	_	_
+11	of	of	ADP	IN	_	16	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+13	20	20	NUM	CD	NumType=Card	14	nummod	_	_
+14	square	square	NOUN	NN	Number=Sing	15	compound	_	_
+15	meter	meter	NOUN	NN	Number=Sing	16	compound	_	_
+16	wall	wall	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = But it is definitely an experience and a hustle work just to earn 1000 pesos a week.
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	definitely	definitely	ADV	RB	_	6	advmod	_	_
+5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	experience	experience	NOUN	NN	Number=Sing	0	root	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	hustle	hustle	NOUN	NN	Number=Sing	10	compound	_	_
+10	work	work	NOUN	NN	Number=Sing	6	conj	_	_
+11	just	just	ADV	RB	_	13	advmod	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	earn	earn	VERB	VB	VerbForm=Inf	10	acl	_	_
+14	1000	1000	NUM	CD	NumType=Card	15	nummod	_	_
+15	pesos	peso	NOUN	NNS	Number=Plur	13	obj	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	week	week	NOUN	NN	Number=Sing	13	obl:tmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

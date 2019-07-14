@@ -1,0 +1,318 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_062_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿What is smoking?
+1	﻿What	﻿What	PRON	WP	PronType=Int	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Means to prohibit smokes.
+1	Means	means	NOUN	NNS	Number=Plur	0	root	_	_
+2	to	to	PART	TO	_	3	mark	_	_
+3	prohibit	prohibit	VERB	VB	VerbForm=Inf	1	acl	_	_
+4	smokes	smoke	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = I agree with smoking.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	with	with	ADP	IN	_	4	case	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = The reason is because smoking harmful to the body.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	reason	reason	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	because	because	SCONJ	IN	_	5	mark	_	_
+5	smoking	smoke	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+6	harmful	harmful	ADJ	JJ	Degree=Pos	5	xcomp	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	body	body	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = However, knowing why people smoke bloom.
+1	However	however	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	knowing	know	VERB	VBG	VerbForm=Ger	0	root	_	_
+4	why	why	ADV	WRB	PronType=Int	7	advmod	_	_
+5	people	people	NOUN	NNS	Number=Plur	7	compound	_	_
+6	smoke	smoke	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	bloom	bloom	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = It is the addiction.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	addiction	addiction	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = So, when someone smokes those who do not smoke, the damage should be given.
+1	So	so	ADV	RB	_	16	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	16	punct	_	_
+3	when	when	ADV	WRB	PronType=Int	5	mark	_	_
+4	someone	someone	PRON	NN	Number=Sing	5	nsubj	_	_
+5	smokes	smoke	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+6	those	those	PRON	DT	Number=Plur|PronType=Dem	5	obj	_	_
+7	who	who	PRON	WP	PronType=Rel	10	nsubj	_	_
+8	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	smoke	smoke	VERB	VB	VerbForm=Inf	6	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	damage	damage	NOUN	NN	Number=Sing	16	nsubj:pass	_	_
+14	should	should	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	aux:pass	_	_
+16	given	give	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 8
+# text = The blood than those who smoke more harmful to people because the blood does.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	blood	blood	NOUN	NN	Number=Sing	14	nsubj	_	_
+3	than	than	ADP	IN	_	4	case	_	_
+4	those	those	PRON	DT	Number=Plur|PronType=Dem	2	nmod	_	_
+5	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+6	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	more	more	ADV	RBR	_	8	advmod	_	_
+8	harmful	harmful	ADJ	JJ	Degree=Pos	6	xcomp	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	people	people	NOUN	NNS	Number=Plur	8	obl	_	_
+11	because	because	SCONJ	IN	_	14	mark	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	blood	blood	NOUN	NN	Number=Sing	14	nsubj	_	_
+14	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 9
+# text = According to the study who smoked cigarettes does have a low incidence of cancer than people who are blooming?
+1	According	accord	VERB	VBG	VerbForm=Ger	4	case	_	_
+2	to	to	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	study	study	NOUN	NN	Number=Sing	9	obl	_	_
+5	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+6	smoked	smoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+7	cigarettes	cigarette	NOUN	NNS	Number=Plur	6	obj	_	_
+8	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	low	low	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	incidence	incidence	NOUN	NN	Number=Sing	9	obj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	cancer	cancer	NOUN	NN	Number=Sing	12	nmod	_	_
+15	than	than	ADP	IN	_	16	case	_	_
+16	people	people	NOUN	NNS	Number=Plur	12	nmod	_	_
+17	who	who	PRON	WP	PronType=Rel	19	nsubj	_	_
+18	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	blooming	blooming	VERB	VBG	Tense=Pres|VerbForm=Part	16	acl:relcl	_	SpaceAfter=No
+20	?	?	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 10
+# text = What is this?
+1	What	what	PRON	WP	PronType=Int	0	root	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	1	nsubj	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 11
+# text = It is not fair.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	fair	fair	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 12
+# text = Therefore, smoking is important.
+1	Therefore	therefore	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	important	important	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 13
+# text = Now being conducted, but a lot of non-smoking areas should be.
+1	Now	now	ADV	RB	_	3	advmod	_	_
+2	being	be	AUX	VBG	VerbForm=Ger	3	aux:pass	_	_
+3	conducted	conduct	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	12	punct	_	_
+5	but	but	CCONJ	CC	_	12	cc	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	lot	lot	NOUN	NN	Number=Sing	12	nsubj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	non-smoking	non-smoking	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	areas	area	NOUN	NNS	Number=Plur	7	nmod	_	_
+11	should	should	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	be	be	AUX	VB	VerbForm=Inf	3	cop	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 14
+# text = Now there is not a lot of non-smoking areas.
+1	Now	now	ADV	RB	_	3	advmod	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	not	not	PART	RB	_	3	advmod	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	lot	lot	NOUN	NN	Number=Sing	3	nsubj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	non-smoking	non-smoking	VERB	VBG	VerbForm=Ger	9	amod	_	_
+9	areas	area	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 15
+# text = So when someone smokes a lot of damage to people they will not bloom.
+1	So	so	ADV	RB	_	14	advmod	_	_
+2	when	when	ADV	WRB	PronType=Int	4	mark	_	_
+3	someone	someone	PRON	NN	Number=Sing	4	nsubj	_	_
+4	smokes	smoke	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	lot	lot	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	damage	damage	NOUN	NN	Number=Sing	6	nmod	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	people	people	NOUN	NNS	Number=Plur	8	nmod	_	_
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+12	will	will	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	not	not	PART	RB	_	14	advmod	_	_
+14	bloom	bloom	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 16
+# text = Communities to live together rather than harm to others, to help each other live with society is society.
+1	Communities	community	NOUN	NNS	Number=Plur	0	root	_	_
+2	to	to	PART	TO	_	3	mark	_	_
+3	live	live	VERB	VB	VerbForm=Inf	1	acl	_	_
+4	together	together	ADV	RB	_	3	advmod	_	_
+5	rather	rather	ADV	RB	_	7	cc	_	_
+6	than	than	ADP	IN	_	5	fixed	_	_
+7	harm	harm	NOUN	NN	Number=Sing	4	conj	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	others	other	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	help	help	VERB	VB	VerbForm=Inf	3	advcl	_	_
+13	each	each	DET	DT	_	15	det	_	_
+14	other	other	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	live	live	NOUN	NN	Number=Sing	19	nsubj	_	_
+16	with	with	ADP	IN	_	17	case	_	_
+17	society	society	NOUN	NN	Number=Sing	15	nmod	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	society	society	NOUN	NN	Number=Sing	12	ccomp	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 17
+# text = We all should be helpful to each other.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+2	all	all	DET	DT	_	1	det	_	_
+3	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	helpful	helpful	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	each	each	DET	DT	_	8	det	_	_
+8	other	other	ADJ	JJ	Degree=Pos	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 18
+# text = If cigarettes are damaging to disappear.
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	cigarettes	cigarettes	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	damaging	damaging	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	disappear	disappear	VERB	VB	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 19
+# text = But addiction does not disappear because of the scary factor is another effort to reduce the damage should think.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	addiction	addiction	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	disappear	disappear	VERB	VB	VerbForm=Inf	19	advcl	_	_
+6	because	because	ADP	IN	_	10	case	_	_
+7	of	of	ADP	IN	_	6	fixed	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	scary	scary	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	factor	factor	NOUN	NN	Number=Sing	5	obl	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	another	another	DET	DT	_	13	det	_	_
+13	effort	effort	NOUN	NN	Number=Sing	19	nsubj	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	reduce	reduce	VERB	VB	VerbForm=Inf	13	acl	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	damage	damage	NOUN	NN	Number=Sing	15	obj	_	_
+18	should	should	AUX	MD	VerbForm=Fin	19	aux	_	_
+19	think	think	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 20
+# text = The first of them think that smoking is to begin.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	5	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
+5	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	that	that	SCONJ	IN	_	8	mark	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	begin	begin	VERB	VB	VerbForm=Inf	8	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 21
+# text = So no smoking in the community is an issue that must be achieved first.
+1	So	so	ADV	RB	_	9	advmod	_	_
+2	no	no	DET	DT	_	3	det	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	9	nsubj	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	community	community	NOUN	NN	Number=Sing	3	nmod	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	issue	issue	NOUN	NN	Number=Sing	0	root	_	_
+10	that	that	PRON	WDT	PronType=Rel	13	nsubj:pass	_	_
+11	must	must	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	be	be	AUX	VB	VerbForm=Inf	13	aux:pass	_	_
+13	achieved	achiev	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	acl:relcl	_	_
+14	first	first	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 22
+# text = Therefore, I agree with smoking.
+1	Therefore	therefore	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	with	with	ADP	IN	_	6	case	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 23
+# text = The best thing to remember here we are a victim of our family will also.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	best	best	ADJ	JJS	Degree=Sup	3	amod	_	_
+3	thing	thing	NOUN	NN	Number=Sing	14	nsubj	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	remember	remember	VERB	VB	VerbForm=Inf	3	acl	_	_
+6	here	here	ADV	RB	PronType=Dem	5	advmod	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	victim	victim	NOUN	NN	Number=Sing	5	ccomp	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	family	family	NOUN	NN	Number=Sing	10	nmod	_	_
+14	will	will	AUX	MD	VerbForm=Fin	0	root	_	_
+15	also	also	ADV	RB	_	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\n
+

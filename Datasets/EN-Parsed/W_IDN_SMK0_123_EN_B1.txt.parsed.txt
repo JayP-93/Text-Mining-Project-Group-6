@@ -1,0 +1,301 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_IDN_SMK0_123_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I agree I think the government should be make a rule about smoking.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	government	government	NOUN	NN	Number=Sing	9	nsubj	_	_
+7	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux	_	_
+9	make	make	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	rule	rule	NOUN	NN	Number=Sing	9	obj	_	_
+12	about	about	ADP	IN	_	13	case	_	_
+13	smoking	smoking	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = In Indonesia, smoking is a habit.
+1	In	in	ADP	IN	_	2	case	_	_
+2	Indonesia	Indonesia	PROPN	NNP	Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	smoking	smoke	NOUN	NN	Number=Sing	7	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	habit	habit	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Part of Indonesia society is smoker.
+1	Part	part	NOUN	NN	Number=Sing	6	nsubj	_	_
+2	of	of	ADP	IN	_	4	case	_	_
+3	Indonesia	Indonesia	PROPN	NNP	Number=Sing	4	compound	_	_
+4	society	society	NOUN	NN	Number=Sing	1	nmod	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	smoker	smoker	ADJ	JJR	Degree=Cmp	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = In a day the smoker usually spent the cigarette more than one pack.
+1	In	in	ADP	IN	_	3	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	day	day	NOUN	NN	Number=Sing	7	obl	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	smoker	smoker	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	usually	usually	ADV	RB	_	7	advmod	_	_
+7	spent	spend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	cigarette	cigarette	NOUN	NN	Number=Sing	7	obj	_	_
+10	more	more	ADJ	JJR	Degree=Cmp	9	amod	_	_
+11	than	than	ADP	IN	_	13	case	_	_
+12	one	one	NUM	CD	NumType=Card	13	nummod	_	_
+13	pack	pack	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = They think smoking is nice activity.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	nice	nice	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	activity	activity	NOUN	NN	Number=Sing	2	ccomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Although smoking is dangerous for our healthy.
+1	Although	although	SCONJ	IN	_	4	mark	_	_
+2	smoking	smoking	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	dangerous	dangerous	ADJ	JJ	Degree=Pos	0	root	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	healthy	healthy	ADJ	JJ	Degree=Pos	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Because the contain of cigarette smoke including arsenic, ammonia, hydrogen, and other toxic substances.
+1	Because	because	SCONJ	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	contain	contain	NOUN	NN	Number=Sing	0	root	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	cigarette	cigarette	NOUN	NN	Number=Sing	6	compound	_	_
+6	smoke	smoke	NOUN	NN	Number=Sing	3	nmod	_	_
+7	including	include	VERB	VBG	VerbForm=Ger	8	case	_	_
+8	arsenic	arsenic	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	ammonia	ammonia	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	hydrogen	hydrogen	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	other	other	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	toxic	toxic	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	substances	substance	NOUN	NNS	Number=Plur	8	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = It cause many disease such as respiratory problem, liver, cancer, etc.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	cause	cause	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	disease	disease	NOUN	NN	Number=Sing	2	obj	_	_
+5	such	such	ADJ	JJ	Degree=Pos	8	case	_	_
+6	as	as	ADP	IN	_	5	fixed	_	_
+7	respiratory	respiratory	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	problem	problem	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	liver	liver	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	cancer	cancer	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	etc	etc	X	FW	_	8	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = But active smoker have big risk than passive smoker, because the active smoker produce more cigarette every day.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	active	active	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	smoker	smoker	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	big	big	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	risk	risk	NOUN	NN	Number=Sing	4	obj	_	_
+7	than	than	ADP	IN	_	9	case	_	_
+8	passive	passive	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	smoker	smoker	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	_
+11	because	because	SCONJ	IN	_	15	mark	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	active	active	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	smoker	smoker	NOUN	NN	Number=Sing	15	nsubj	_	_
+15	produce	produce	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+16	more	more	ADJ	JJR	Degree=Cmp	17	amod	_	_
+17	cigarette	cigarette	NOUN	NN	Number=Sing	15	obj	_	_
+18	every	every	DET	DT	_	19	det	_	_
+19	day	day	NOUN	NN	Number=Sing	15	obl:tmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 10
+# text = The smoker often smoking in anyplace, and cigarette smoke can disturb other people.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	smoker	smoker	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	often	often	ADV	RB	_	4	advmod	_	_
+4	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	anyplace	anyplace	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	and	and	CCONJ	CC	_	12	cc	_	_
+9	cigarette	cigarette	NOUN	NN	Number=Sing	10	compound	_	_
+10	smoke	smoke	NOUN	NN	Number=Sing	12	nsubj	_	_
+11	can	can	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	disturb	disturb	VERB	VB	VerbForm=Inf	4	conj	_	_
+13	other	other	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	people	people	NOUN	NNS	Number=Plur	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = The government must ban the smoker to smoking in anyplace, especially in the restaurant.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	government	government	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	ban	ban	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	smoker	smoker	NOUN	NN	Number=Sing	4	obj	_	_
+7	to	to	SCONJ	IN	_	8	mark	_	_
+8	smoking	smoke	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	anyplace	anyplace	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	especially	especially	ADV	RB	_	15	advmod	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	restaurant	restaurant	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 12
+# text = Because restaurant is place to eat, and produce any food.
+1	Because	because	SCONJ	IN	_	4	mark	_	_
+2	restaurant	restaurant	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	place	place	NOUN	NN	Number=Sing	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	eat	eat	VERB	VB	VerbForm=Inf	4	acl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	produce	produce	VERB	VB	VerbForm=Inf	4	conj	_	_
+10	any	any	DET	DT	_	11	det	_	_
+11	food	food	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = If the other people smoking in there, that will be disturb other customers and ruin the clean environment.
+1	If	if	SCONJ	IN	_	5	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	other	other	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	people	people	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	smoking	smoke	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	there	there	ADV	RB	PronType=Dem	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	14	punct	_	_
+9	that	that	PRON	DT	Number=Sing|PronType=Dem	14	nsubj	_	_
+10	will	will	AUX	MD	VerbForm=Fin	14	aux	_	_
+11	be	be	AUX	VB	VerbForm=Inf	14	cop	_	_
+12	disturb	disturb	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	other	other	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	customers	customer	NOUN	NNS	Number=Plur	0	root	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	ruin	ruin	VERB	VB	VerbForm=Inf	14	conj	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	clean	clean	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	environment	environment	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 14
+# text = 1. The cigarette smoke will be damage the smell and the taste of food 2.
+1	1	1	X	LS	_	8	nummod	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
+3	The	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	cigarette	cigarette	NOUN	NN	Number=Sing	5	compound	_	_
+5	smoke	smoke	NOUN	NN	Number=Sing	8	nsubj	_	_
+6	will	will	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux	_	_
+8	damage	damage	VERB	VB	VerbForm=Inf	0	root	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	smell	smell	NOUN	NN	Number=Sing	8	obj	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	taste	taste	NOUN	NN	Number=Sing	10	conj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	food	food	NOUN	NN	Number=Sing	13	nmod	_	_
+16	2	2	NUM	CD	NumType=Card	15	nummod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 15
+# text = The cigarette smoke can disturb the breath
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	cigarette	cigarette	NOUN	NN	Number=Sing	3	compound	_	_
+3	smoke	smoke	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	disturb	disturb	VERB	VB	VerbForm=Inf	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	breath	breath	NOUN	NN	Number=Sing	5	obj	_	_
+
+# sent_id = 16
+# text = The rule to ban smoking in the restaurant is very important, every restaurant has to make a room for the smoker.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	rule	rule	NOUN	NN	Number=Sing	11	nsubj	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	ban	ban	VERB	VB	VerbForm=Inf	2	acl	_	_
+5	smoking	smoke	NOUN	NN	Number=Sing	4	obj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	restaurant	restaurant	NOUN	NN	Number=Sing	4	obl	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	very	very	ADV	RB	_	11	advmod	_	_
+11	important	important	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	every	every	DET	DT	_	14	det	_	_
+14	restaurant	restaurant	NOUN	NN	Number=Sing	15	nsubj	_	_
+15	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	make	make	VERB	VB	VerbForm=Inf	15	xcomp	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	room	room	NOUN	NN	Number=Sing	17	obj	_	_
+20	for	for	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	smoker	smoker	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 17
+# text = So, the cigarette smoke isn't disturb the other customers in the restaurant, and they will enjoy and comfortable having food without cigarette smoke.
+1	So	so	ADV	RB	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	8	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	cigarette	cigarette	NOUN	NN	Number=Sing	5	compound	_	_
+5	smoke	smoke	NOUN	NN	Number=Sing	8	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
+7	n't	not	PART	RB	_	8	advmod	_	_
+8	disturb	disturb	VERB	VB	VerbForm=Inf	0	root	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	other	other	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	customers	customer	NOUN	NNS	Number=Plur	8	obj	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	restaurant	restaurant	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	and	and	CCONJ	CC	_	19	cc	_	_
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+18	will	will	AUX	MD	VerbForm=Fin	19	aux	_	_
+19	enjoy	enjoy	VERB	VB	VerbForm=Inf	8	conj	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	comfortable	comfortable	ADJ	JJ	Degree=Pos	19	conj	_	_
+22	having	have	VERB	VBG	VerbForm=Ger	21	advcl	_	_
+23	food	food	NOUN	NN	Number=Sing	22	obj	_	_
+24	without	without	ADP	IN	_	26	case	_	_
+25	cigarette	cigarette	NOUN	NN	Number=Sing	26	compound	_	_
+26	smoke	smoke	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

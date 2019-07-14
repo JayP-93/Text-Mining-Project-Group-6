@@ -1,0 +1,253 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PAK_PTJ0_127_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿No, part time job for college student is not essential unless they are not able to pay their college dues.
+1	﻿No	﻿no	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	part	part	NOUN	NN	Number=Sing	4	compound	_	_
+4	time	time	NOUN	NN	Number=Sing	5	compound	_	_
+5	job	job	NOUN	NN	Number=Sing	11	nsubj	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	college	college	NOUN	NN	Number=Sing	8	compound	_	_
+8	student	student	NOUN	NN	Number=Sing	5	nmod	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	not	not	PART	RB	_	11	advmod	_	_
+11	essential	essential	ADJ	JJ	Degree=Pos	0	root	_	_
+12	unless	unless	SCONJ	IN	_	16	mark	_	_
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	not	not	PART	RB	_	16	advmod	_	_
+16	able	able	ADJ	JJ	Degree=Pos	11	advcl	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	pay	pay	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+20	college	college	NOUN	NN	Number=Sing	21	compound	_	_
+21	dues	due	NOUN	NNS	Number=Plur	18	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = If a student belongs to a respectable and middle class family who pay his college dues and other activities give money easily, then no need to indulge himself in job but if their parents are disable to give him his dues of college, then to get education and will to supported his family, he should do part time job, this will safe his future life as well as his family setup.
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	student	student	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	belongs	belong	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	59	advcl	_	_
+5	to	to	ADP	IN	_	11	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+7	respectable	respectable	ADJ	JJ	Degree=Pos	10	amod	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	middle	middle	ADJ	JJ	Degree=Pos	7	conj	_	_
+10	class	class	NOUN	NN	Number=Sing	11	compound	_	_
+11	family	family	NOUN	NN	Number=Sing	4	obl	_	_
+12	who	who	PRON	WP	PronType=Rel	13	nsubj	_	_
+13	pay	pay	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+15	college	college	NOUN	NN	Number=Sing	16	compound	_	_
+16	dues	due	NOUN	NNS	Number=Plur	20	nsubj	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	other	other	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	activities	activity	NOUN	NNS	Number=Plur	16	conj	_	_
+20	give	give	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+21	money	money	NOUN	NN	Number=Sing	20	obj	_	_
+22	easily	easily	ADV	RB	_	20	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	26	punct	_	_
+24	then	then	ADV	RB	PronType=Dem	26	advmod	_	_
+25	no	no	DET	DT	_	26	det	_	_
+26	need	need	NOUN	NN	Number=Sing	4	obj	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	indulge	indulge	VERB	VB	VerbForm=Inf	26	acl	_	_
+29	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	28	obj	_	_
+30	in	in	ADP	IN	_	31	case	_	_
+31	job	job	NOUN	NN	Number=Sing	28	obl	_	_
+32	but	but	CCONJ	CC	_	48	cc	_	_
+33	if	if	SCONJ	IN	_	37	mark	_	_
+34	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+35	parents	parent	NOUN	NNS	Number=Plur	37	nsubj	_	_
+36	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	37	cop	_	_
+37	disable	disable	ADJ	JJ	Degree=Pos	48	advcl	_	_
+38	to	to	PART	TO	_	39	mark	_	_
+39	give	give	VERB	VB	VerbForm=Inf	37	xcomp	_	_
+40	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	iobj	_	_
+41	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	42	nmod:poss	_	_
+42	dues	due	NOUN	NNS	Number=Plur	39	obj	_	_
+43	of	of	ADP	IN	_	44	case	_	_
+44	college	college	NOUN	NN	Number=Sing	42	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	,	_	48	punct	_	_
+46	then	then	ADV	RB	PronType=Dem	48	advmod	_	_
+47	to	to	PART	TO	_	48	mark	_	_
+48	get	get	VERB	VB	VerbForm=Inf	4	conj	_	_
+49	education	education	NOUN	NN	Number=Sing	48	obj	_	_
+50	and	and	CCONJ	CC	_	51	cc	_	_
+51	will	will	AUX	MD	VerbForm=Fin	4	conj	_	_
+52	to	to	ADP	IN	_	55	case	_	_
+53	supported	support	VERB	VBN	Tense=Past|VerbForm=Part	55	amod	_	_
+54	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	55	nmod:poss	_	_
+55	family	family	NOUN	NN	Number=Sing	51	obl	_	SpaceAfter=No
+56	,	,	PUNCT	,	_	59	punct	_	_
+57	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	59	nsubj	_	_
+58	should	should	AUX	MD	VerbForm=Fin	59	aux	_	_
+59	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+60	part	part	ADJ	JJ	Degree=Pos	61	amod	_	_
+61	time	time	NOUN	NN	Number=Sing	62	compound	_	_
+62	job	job	NOUN	NN	Number=Sing	59	obj	_	SpaceAfter=No
+63	,	,	PUNCT	,	_	59	punct	_	_
+64	this	this	PRON	DT	Number=Sing|PronType=Dem	66	nsubj	_	_
+65	will	will	AUX	MD	VerbForm=Fin	66	aux	_	_
+66	safe	safe	VERB	VB	VerbForm=Inf	59	parataxis	_	_
+67	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	69	nmod:poss	_	_
+68	future	future	ADJ	JJ	Degree=Pos	69	amod	_	_
+69	life	life	NOUN	NN	Number=Sing	66	obj	_	_
+70	as	as	ADV	RB	_	75	cc	_	_
+71	well	well	ADV	RB	Degree=Pos	70	fixed	_	_
+72	as	as	ADP	IN	_	70	fixed	_	_
+73	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	75	nmod:poss	_	_
+74	family	family	NOUN	NN	Number=Sing	75	compound	_	_
+75	setup	setup	NOUN	NN	Number=Sing	66	conj	_	SpaceAfter=No
+76	.	.	PUNCT	.	_	59	punct	_	_
+
+# sent_id = 3
+# text = Part time jobs take much of his time and he could not learn and study properly which create bad influence on his studies.
+1	Part	part	NOUN	NN	Number=Sing	2	compound	_	_
+2	time	time	NOUN	NN	Number=Sing	3	compound	_	_
+3	jobs	job	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	much	much	ADJ	JJ	Degree=Pos	4	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	time	time	NOUN	NN	Number=Sing	5	obl	_	_
+9	and	and	CCONJ	CC	_	13	cc	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	could	could	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	not	not	PART	RB	_	13	advmod	_	_
+13	learn	learn	VERB	VB	VerbForm=Inf	4	conj	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	study	study	VERB	VB	VerbForm=Inf	13	conj	_	_
+16	properly	properly	ADV	RB	_	15	advmod	_	_
+17	which	which	PRON	WDT	PronType=Rel	18	nsubj	_	_
+18	create	create	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+19	bad	bad	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	influence	influence	NOUN	NN	Number=Sing	18	obj	_	_
+21	on	on	ADP	IN	_	23	case	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	studies	study	NOUN	NNS	Number=Plur	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = So, if a man have enough money to gain knowledge and perform and participated in other activities then he should avoided part time jobs.
+1	So	so	ADV	RB	_	22	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	22	punct	_	_
+3	if	if	SCONJ	IN	_	6	mark	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	man	man	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+7	enough	enough	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	money	money	NOUN	NN	Number=Sing	6	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	gain	gain	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+11	knowledge	knowledge	NOUN	NN	Number=Sing	10	obj	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	perform	perform	VERB	VB	VerbForm=Inf	10	conj	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	participated	participate	VERB	VBN	Tense=Past|VerbForm=Part	13	conj	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	other	other	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	activities	activity	NOUN	NNS	Number=Plur	13	obl	_	_
+19	then	then	ADV	RB	PronType=Dem	22	advmod	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+21	should	should	AUX	MD	VerbForm=Fin	22	aux	_	_
+22	avoided	avoid	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+23	part	part	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	time	time	NOUN	NN	Number=Sing	25	compound	_	_
+25	jobs	job	NOUN	NNS	Number=Plur	22	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 5
+# text = The men who have done part time jobs with studies then he did not pay proper attention towards studies.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	men	man	NOUN	NNS	Number=Plur	15	nsubj	_	_
+3	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+4	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	done	do	VERB	VBN	Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	part	part	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	time	time	NOUN	NN	Number=Sing	8	compound	_	_
+8	jobs	job	NOUN	NNS	Number=Plur	5	obj	_	_
+9	with	with	ADP	IN	_	10	case	_	_
+10	studies	study	NOUN	NNS	Number=Plur	5	obl	_	_
+11	then	then	ADV	RB	PronType=Dem	15	advmod	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+14	not	not	PART	RB	_	15	advmod	_	_
+15	pay	pay	VERB	VB	VerbForm=Inf	0	root	_	_
+16	proper	proper	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	attention	attention	NOUN	NN	Number=Sing	15	obj	_	_
+18	towards	towards	ADP	IN	_	19	case	_	_
+19	studies	study	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 6
+# text = His mind always in worries of job and studies.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	mind	mind	NOUN	NN	Number=Sing	0	root	_	_
+3	always	always	ADV	RB	_	2	advmod	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	worries	worry	NOUN	NNS	Number=Plur	2	nmod	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	job	job	NOUN	NN	Number=Sing	5	nmod	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	studies	study	NOUN	NNS	Number=Plur	7	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = During study time, his mind reach at the job time or he prepare himself for that part time job.
+1	During	during	ADP	IN	_	3	case	_	_
+2	study	study	NOUN	NN	Number=Sing	3	compound	_	_
+3	time	time	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	mind	mind	ADJ	JJ	Degree=Pos|NumType=Ord	7	amod	_	_
+7	reach	reach	NOUN	NN	Number=Sing	3	conj	_	_
+8	at	at	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	job	job	NOUN	NN	Number=Sing	11	compound	_	_
+11	time	time	NOUN	NN	Number=Sing	7	nmod	_	_
+12	or	or	CCONJ	CC	_	14	cc	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	prepare	prepare	VERB	VB	VerbForm=Inf	0	root	_	_
+15	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	_
+16	for	for	ADP	IN	_	20	case	_	_
+17	that	that	DET	DT	Number=Sing|PronType=Dem	20	det	_	_
+18	part	part	NOUN	NN	Number=Sing	19	compound	_	_
+19	time	time	NOUN	NN	Number=Sing	20	compound	_	_
+20	job	job	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 8
+# text = This produces lacking and disturbance in his life.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	produces	produces	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	lacking	lack	NOUN	NN	Number=Sing	2	obj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	disturbance	disturbance	NOUN	NN	Number=Sing	3	conj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	life	life	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = So, one should avoid part time job with studies as possible as he can.
+1	So	so	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	one	one	PRON	PRP	_	5	nsubj	_	_
+4	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	avoid	avoid	VERB	VB	VerbForm=Inf	0	root	_	_
+6	part	part	NOUN	NN	Number=Sing	7	compound	_	_
+7	time	time	NOUN	NN	Number=Sing	8	compound	_	_
+8	job	job	NOUN	NN	Number=Sing	5	obj	_	_
+9	with	with	ADP	IN	_	10	case	_	_
+10	studies	study	NOUN	NNS	Number=Plur	8	nmod	_	_
+11	as	as	SCONJ	IN	_	12	case	_	_
+12	possible	possible	ADJ	JJ	Degree=Pos	5	obl	_	_
+13	as	as	SCONJ	IN	_	15	mark	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	can	can	AUX	MD	VerbForm=Fin	5	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

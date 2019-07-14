@@ -1,0 +1,347 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PAK_PTJ0_015_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿When college life starts, students enter in a new phase of life.
+1	﻿When	﻿When	DET	DT	_	3	det	_	_
+2	college	college	NOUN	NN	Number=Sing	3	compound	_	_
+3	life	life	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	starts	start	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	students	students	NOUN	NNS	Number=Plur	7	compound	_	_
+7	enter	enter	NOUN	NN	Number=Sing	4	obj	_	_
+8	in	in	ADP	IN	_	11	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	new	new	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	phase	phase	NOUN	NN	Number=Sing	7	nmod	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	life	life	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = College life is quite different from school life.
+1	College	college	NOUN	NN	Number=Sing	2	compound	_	_
+2	life	life	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	quite	quite	ADV	RB	_	5	advmod	_	_
+5	different	different	ADJ	JJ	Degree=Pos	0	root	_	_
+6	from	from	ADP	IN	_	8	case	_	_
+7	school	school	NOUN	NN	Number=Sing	8	compound	_	_
+8	life	life	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Moreover the expenditures are too increased.
+1	Moreover	moreover	VERB	VB	VerbForm=Inf	0	root	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	expenditures	expenditure	NOUN	NNS	Number=Plur	6	nsubj:pass	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	too	too	ADV	RB	_	6	advmod	_	_
+6	increased	increase	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	ccomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Some of the parents can not afford the academic expenditures, so, they do not permit their children to get education.
+1	Some	some	DET	DT	_	7	nsubj	_	_
+2	of	of	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	parents	parent	NOUN	NNS	Number=Plur	1	nmod	_	_
+5	can	can	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	not	not	PART	RB	_	7	advmod	_	_
+7	afford	afford	VERB	VB	VerbForm=Inf	0	root	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	academic	academic	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	expenditures	expenditure	NOUN	NNS	Number=Plur	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	7	punct	_	_
+12	so	so	ADV	RB	_	17	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+15	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	not	not	PART	RB	_	17	advmod	_	_
+17	permit	permit	VERB	VB	VerbForm=Inf	7	parataxis	_	_
+18	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	children	child	NOUN	NNS	Number=Plur	17	obj	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	get	get	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+22	education	education	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = But students with good academic records and those who are keep to get educated, they start part time jobs, to fulfil their expenditures along with studies.
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	students	student	NOUN	NNS	Number=Plur	17	nsubj	_	_
+3	with	with	ADP	IN	_	6	case	_	_
+4	good	good	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	academic	academic	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	records	record	NOUN	NNS	Number=Plur	2	nmod	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	those	those	PRON	DT	Number=Plur|PronType=Dem	2	conj	_	_
+9	who	who	PRON	WP	PronType=Rel	11	nsubj	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	keep	keep	VERB	VB	VerbForm=Inf	8	acl:relcl	_	_
+12	to	to	PART	TO	_	14	mark	_	_
+13	get	get	AUX	VB	VerbForm=Inf	14	aux:pass	_	_
+14	educated	educated	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+17	start	start	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	part	part	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	time	time	NOUN	NN	Number=Sing	20	compound	_	_
+20	jobs	job	NOUN	NNS	Number=Plur	17	obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	20	punct	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	fulfil	fulfil	VERB	VB	VerbForm=Inf	20	advcl	_	_
+24	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	expenditures	expenditure	NOUN	NNS	Number=Plur	23	obj	_	_
+26	along	along	ADP	IN	_	28	case	_	_
+27	with	with	ADP	IN	_	28	case	_	_
+28	studies	study	NOUN	NNS	Number=Plur	23	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 6
+# text = But, I totally disagree to it.
+1	But	but	CCONJ	CC	_	5	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	totally	totally	ADV	RB	_	5	advmod	_	_
+5	disagree	disagree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 7
+# text = Though on one hand, its useful that in a way students can help out their parents, even though, I disagree with this, because students are the main pillars society.
+1	Though	though	SCONJ	IN	_	7	mark	_	_
+2	on	on	ADP	IN	_	4	case	_	_
+3	one	one	NUM	CD	NumType=Card	4	nummod	_	_
+4	hand	hand	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	useful	useful	ADJ	JJ	Degree=Pos	0	root	_	_
+8	that	that	SCONJ	IN	_	14	mark	_	_
+9	in	in	ADP	IN	_	12	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	way	way	NOUN	NN	Number=Sing	12	compound	_	_
+12	students	student	NOUN	NNS	Number=Plur	14	nsubj	_	_
+13	can	can	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	help	help	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+15	out	out	ADP	RP	_	14	compound:prt	_	_
+16	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	parents	parent	NOUN	NNS	Number=Plur	14	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	14	punct	_	_
+19	even	even	ADV	RB	_	20	advmod	_	_
+20	though	though	ADV	RB	_	14	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	7	punct	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+23	disagree	disagree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+24	with	with	ADP	IN	_	25	case	_	_
+25	this	this	PRON	DT	Number=Sing|PronType=Dem	23	obl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	7	punct	_	_
+27	because	because	SCONJ	IN	_	33	mark	_	_
+28	students	student	NOUN	NNS	Number=Plur	33	nsubj	_	_
+29	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	33	cop	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+31	main	main	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	pillars	pillars	NOUN	NNS	Number=Plur	33	compound	_	_
+33	society	society	NOUN	NN	Number=Sing	7	advcl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 8
+# text = They are the backbone of our progress.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	backbone	backbone	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	progress	progress	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = So, they should give their full time and potential to studies.
+1	So	so	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+4	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	give	give	VERB	VB	VerbForm=Inf	0	root	_	_
+6	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	full	full	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	time	time	NOUN	NN	Number=Sing	5	obj	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	potential	potential	NOUN	NN	Number=Sing	8	conj	_	_
+11	to	to	ADP	IN	_	12	case	_	_
+12	studies	study	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 10
+# text = If they, start part time jobs, then no doubt, it would be rather more difficult for them to manage both their jobs and studies.
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	start	start	VERB	VB	VerbForm=Inf	11	advcl	_	_
+5	part	part	NOUN	NN	Number=Sing	6	compound	_	_
+6	time	time	NOUN	NN	Number=Sing	7	compound	_	_
+7	jobs	job	NOUN	NNS	Number=Plur	4	appos	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	then	then	ADV	RB	PronType=Dem	11	advmod	_	_
+10	no	no	DET	DT	_	11	det	_	_
+11	doubt	doubt	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	18	punct	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	_
+14	would	would	AUX	MD	VerbForm=Fin	18	aux	_	_
+15	be	be	AUX	VB	VerbForm=Inf	18	cop	_	_
+16	rather	rather	ADV	RB	_	18	advmod	_	_
+17	more	more	ADV	RBR	_	18	advmod	_	_
+18	difficult	difficult	ADJ	JJ	Degree=Pos	11	parataxis	_	_
+19	for	for	SCONJ	IN	_	22	mark	_	_
+20	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	manage	manage	VERB	VB	VerbForm=Inf	18	advcl	_	_
+23	both	both	CCONJ	CC	_	25	cc:preconj	_	_
+24	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	jobs	job	NOUN	NNS	Number=Plur	22	obj	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	studies	study	NOUN	NNS	Number=Plur	25	conj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 11
+# text = In this way they couldn't give their best in any one of them.
+1	In	in	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	way	way	NOUN	NN	Number=Sing	7	obl	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+5	could	could	AUX	MD	VerbForm=Fin	7	aux	_	SpaceAfter=No
+6	n't	not	PART	RB	_	7	advmod	_	_
+7	give	give	VERB	VB	VerbForm=Inf	0	root	_	_
+8	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	best	best	ADJ	JJS	Degree=Sup	7	obj	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	any	any	DET	DT	_	12	det	_	_
+12	one	one	NOUN	NN	Number=Sing	7	obl	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 12
+# text = Infect, they will be tired and frustrated.
+1	Infect	Infect	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+6	tired	tired	ADJ	JJ	Degree=Pos	0	root	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	frustrated	frustrated	ADJ	JJ	Degree=Pos	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 13
+# text = The timing work will exhaust them and they will fail to cope with their studies.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	timing	timing	NOUN	NN	Number=Sing	3	compound	_	_
+3	work	work	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	exhaust	exhaust	VERB	VB	VerbForm=Inf	0	root	_	_
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+9	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	fail	fail	VERB	VB	VerbForm=Inf	5	conj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	cope	cope	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	with	with	ADP	IN	_	15	case	_	_
+14	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	studies	study	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 14
+# text = As a result they will be in-efficient and will show worse results in college.
+1	As	as	ADP	IN	_	3	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	result	result	NOUN	NN	Number=Sing	9	obl	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+5	will	will	AUX	MD	VerbForm=Fin	9	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+7	in	in	ADV	RB	_	9	advmod	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	_	SpaceAfter=No
+9	efficient	efficient	ADJ	JJ	Degree=Pos	0	root	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	show	show	VERB	VB	VerbForm=Inf	9	conj	_	_
+13	worse	worse	ADJ	JJR	Degree=Cmp	14	amod	_	_
+14	results	result	NOUN	NNS	Number=Plur	12	obj	_	_
+15	in	in	ADP	IN	_	16	case	_	_
+16	college	college	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 15
+# text = The life of a students is the golden time of their life.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	life	life	NOUN	NN	Number=Sing	9	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	students	student	NOUN	NNS	Number=Plur	2	nmod	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	golden	golden	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	time	time	NOUN	NN	Number=Sing	0	root	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	life	life	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 16
+# text = It is the time, when they have wishes because they are not nature rough.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	time	time	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	when	when	ADV	WRB	PronType=Int	8	mark	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+8	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+9	wishes	wish	NOUN	NNS	Number=Plur	8	obj	_	_
+10	because	because	SCONJ	IN	_	15	mark	_	_
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	not	not	PART	RB	_	15	advmod	_	_
+14	nature	nature	NOUN	NN	Number=Sing	15	obl:npmod	_	_
+15	rough	rough	ADJ	JJ	Degree=Pos	8	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 17
+# text = They wanted to plunge onto the starts.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	plunge	plunge	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	onto	onto	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	starts	starts	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 18
+# text = So, they should not include in part time jobs.
+1	So	so	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+4	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	include	include	VERB	VB	VerbForm=Inf	0	root	_	_
+7	in	in	ADP	IN	_	10	case	_	_
+8	part	part	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	time	time	NOUN	NN	Number=Sing	10	compound	_	_
+10	jobs	job	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 19
+# text = Infect, they should have fours on their goal.
+1	Infect	Infect	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+4	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+6	fours	four	NOUN	NNS	Number=Plur	5	obj	_	_
+7	on	on	ADP	IN	_	9	case	_	_
+8	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	goal	goal	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

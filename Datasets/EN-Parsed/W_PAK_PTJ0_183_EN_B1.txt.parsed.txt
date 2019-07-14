@@ -1,0 +1,292 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PAK_PTJ0_183_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Modern century is the century of education.
+1	﻿Modern	﻿Modern	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	century	century	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	century	century	NOUN	NN	Number=Sing	0	root	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	education	education	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Education is very important in the development of country.
+1	Education	Education	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	development	development	NOUN	NN	Number=Sing	4	obl	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	country	country	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Part time jobs are becoming popular in Pakistani students also.
+1	Part	part	NOUN	NN	Number=Sing	2	compound	_	_
+2	time	time	NOUN	NN	Number=Sing	3	compound	_	_
+3	jobs	job	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	becoming	become	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	popular	popular	ADJ	JJ	Degree=Pos	5	xcomp	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	Pakistani	pakistani	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	students	student	NOUN	NNS	Number=Plur	5	obl	_	_
+10	also	also	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = The students, whose parents can not bare their dues and college fees, are working in selling shops and are baring their expenses by themselves.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	students	student	NOUN	NNS	Number=Plur	16	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	5	nmod:poss	_	_
+5	parents	parent	NOUN	NNS	Number=Plur	8	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	bare	bare	VERB	VB	VerbForm=Inf	2	acl:relcl	_	_
+9	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	dues	due	NOUN	NNS	Number=Plur	8	obj	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	college	college	NOUN	NN	Number=Sing	13	compound	_	_
+13	fees	fee	NOUN	NNS	Number=Plur	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	8	punct	_	_
+15	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+17	in	in	SCONJ	IN	_	18	mark	_	_
+18	selling	selling	VERB	VBG	VerbForm=Ger	16	advcl	_	_
+19	shops	shop	NOUN	NNS	Number=Plur	18	obj	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	baring	bar	VERB	VBG	Tense=Pres|VerbForm=Part	16	conj	_	_
+23	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	expenses	expense	NOUN	NNS	Number=Plur	22	obj	_	_
+25	by	by	ADP	IN	_	26	case	_	_
+26	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 5
+# text = This is good fact in a way because in this way their education will continue and they can get good jobs after their education.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	good	good	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	fact	fact	NOUN	NN	Number=Sing	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	way	way	NOUN	NN	Number=Sing	4	nmod	_	_
+8	because	because	SCONJ	IN	_	15	mark	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	this	this	DET	DT	Number=Sing|PronType=Dem	11	det	_	_
+11	way	way	NOUN	NN	Number=Sing	15	obl	_	_
+12	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	education	education	NOUN	NN	Number=Sing	15	nsubj	_	_
+14	will	will	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	continue	continue	VERB	VB	VerbForm=Inf	4	acl	_	_
+16	and	and	CCONJ	CC	_	19	cc	_	_
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+18	can	can	AUX	MD	VerbForm=Fin	19	aux	_	_
+19	get	get	VERB	VB	VerbForm=Inf	15	conj	_	_
+20	good	good	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	jobs	job	NOUN	NNS	Number=Plur	19	obj	_	_
+22	after	after	ADP	IN	_	24	case	_	_
+23	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	education	education	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = And this facts is bad in a manner, because they can not get rest or spare time for enjoyment their lives become dull and boring.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+3	facts	facts	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	bad	bad	ADJ	JJ	Degree=Pos	3	xcomp	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	manner	manner	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	because	because	SCONJ	IN	_	14	mark	_	_
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+12	can	can	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	not	not	PART	RB	_	14	advmod	_	_
+14	get	get	VERB	VB	VerbForm=Inf	3	advcl	_	_
+15	rest	rest	ADJ	JJ	Degree=Pos	18	amod	_	_
+16	or	or	CCONJ	CC	_	17	cc	_	_
+17	spare	spare	ADJ	JJ	Degree=Pos	15	conj	_	_
+18	time	time	NOUN	NN	Number=Sing	14	obj	_	_
+19	for	for	ADP	IN	_	20	case	_	_
+20	enjoyment	enjoyment	NOUN	NN	Number=Sing	23	obl	_	_
+21	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	lives	life	NOUN	NNS	Number=Plur	23	nsubj	_	_
+23	become	become	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+24	dull	dull	ADJ	JJ	Degree=Pos	23	xcomp	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	boring	boring	ADJ	JJ	Degree=Pos	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = They feel burden after working.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	burden	burden	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+4	after	after	SCONJ	IN	_	5	mark	_	_
+5	working	work	VERB	VBG	VerbForm=Ger	3	advcl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = And they can not concentrate on their studies.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	concentrate	concentrate	VERB	VB	VerbForm=Inf	0	root	_	_
+6	on	on	ADP	IN	_	8	case	_	_
+7	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	studies	study	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = They are the future leaders of the country and nation.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	future	future	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	leaders	leader	NOUN	NNS	Number=Plur	0	root	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	country	country	NOUN	NN	Number=Sing	5	nmod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	nation	nation	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 10
+# text = So if the government gives the funds and scholarships to the poor and needy students.
+1	So	so	ADV	RB	_	5	advmod	_	_
+2	if	if	SCONJ	IN	_	5	mark	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	government	government	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	funds	fund	NOUN	NNS	Number=Plur	5	obj	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	scholarships	scholarship	NOUN	NNS	Number=Plur	7	conj	_	_
+10	to	to	ADP	IN	_	15	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+12	poor	poor	ADJ	JJ	Degree=Pos	15	amod	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	needy	needy	ADJ	JJ	Degree=Pos	12	conj	_	_
+15	students	student	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 11
+# text = So the can continue their studies and they got free and spare time for pleasure and enjoyment.
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	continue	continue	VERB	VB	VerbForm=Inf	0	root	_	_
+5	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	studies	study	NOUN	NNS	Number=Plur	4	obj	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+9	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+10	free	free	ADJ	JJ	Degree=Pos	13	amod	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	spare	spare	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	time	time	NOUN	NN	Number=Sing	9	obj	_	_
+14	for	for	ADP	IN	_	15	case	_	_
+15	pleasure	pleasure	NOUN	NN	Number=Sing	13	nmod	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	enjoyment	enjoyment	NOUN	NN	Number=Sing	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 12
+# text = So many students are working and jobbing due to their own wishes and desires.
+1	So	so	ADV	RB	_	2	advmod	_	_
+2	many	many	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	students	student	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	jobbing	job	VERB	VBG	Tense=Pres|VerbForm=Part	5	conj	_	_
+8	due	due	ADP	IN	_	12	case	_	_
+9	to	to	ADP	IN	_	8	fixed	_	_
+10	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+11	own	own	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	wishes	wish	NOUN	NNS	Number=Plur	7	obl	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	desires	desire	NOUN	NNS	Number=Plur	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 13
+# text = But their results are down and this is affecting their studies.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	results	result	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	down	down	ADV	RB	_	0	root	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	9	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	affecting	affect	VERB	VBG	Tense=Pres|VerbForm=Part	5	conj	_	_
+10	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	studies	study	NOUN	NNS	Number=Plur	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 14
+# text = It is time to concentrate on their study but their time is spoiling.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	time	time	NOUN	NN	Number=Sing	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	concentrate	concentrate	VERB	VB	VerbForm=Inf	3	acl	_	_
+6	on	on	ADP	IN	_	8	case	_	_
+7	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	study	study	NOUN	NN	Number=Sing	5	obl	_	_
+9	but	but	CCONJ	CC	_	13	cc	_	_
+10	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	time	time	NOUN	NN	Number=Sing	13	nsubj	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	spoiling	spoil	VERB	VBG	Tense=Pres|VerbForm=Part	3	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 15
+# text = Some students which are jobbing because their parents or father are not in this world and their relative are not supporting them.
+1	Some	some	DET	DT	_	2	det	_	_
+2	students	student	NOUN	NNS	Number=Plur	21	nsubj	_	_
+3	which	which	PRON	WDT	PronType=Rel	5	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	jobbing	job	VERB	VBG	Tense=Pres|VerbForm=Part	2	acl:relcl	_	_
+6	because	because	SCONJ	IN	_	15	mark	_	_
+7	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	parents	parent	NOUN	NNS	Number=Plur	15	nsubj	_	_
+9	or	or	CCONJ	CC	_	10	cc	_	_
+10	father	father	NOUN	NN	Number=Sing	8	conj	_	_
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	_
+12	not	not	PART	RB	_	15	advmod	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	world	world	NOUN	NN	Number=Sing	5	advcl	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	relative	relative	NOUN	NN	Number=Sing	15	conj	_	_
+19	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	not	not	PART	RB	_	21	advmod	_	_
+21	supporting	support	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+22	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	21	punct	_	_
+
+# sent_id = 16
+# text = And many other facts are responsible for this purpose.
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	other	other	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	facts	facts	NOUN	NNS	Number=Plur	6	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	responsible	responsible	ADJ	JJ	Degree=Pos	0	root	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	purpose	purpose	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

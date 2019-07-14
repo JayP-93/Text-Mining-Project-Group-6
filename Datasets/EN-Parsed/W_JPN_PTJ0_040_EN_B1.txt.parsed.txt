@@ -1,0 +1,305 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_JPN_PTJ0_040_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I agree the statement that it is important for college students to have a part-time job.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	statement	statement	NOUN	NN	Number=Sing	2	obj	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	important	important	ADJ	JJ	Degree=Pos	4	acl	_	_
+9	for	for	ADP	IN	_	11	case	_	_
+10	college	college	NOUN	NN	Number=Sing	11	compound	_	_
+11	students	student	NOUN	NNS	Number=Plur	8	obl	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	have	have	VERB	VB	VerbForm=Inf	11	acl	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+15	part	part	NOUN	NN	Number=Sing	17	compound	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	_	17	punct	_	SpaceAfter=No
+17	time	time	NOUN	NN	Number=Sing	18	compound	_	_
+18	job	job	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I have some reason to follow this idea.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	some	some	DET	DT	_	4	det	_	_
+4	reason	reason	NOUN	NN	Number=Sing	2	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	follow	follow	VERB	VB	VerbForm=Inf	4	acl	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	idea	idea	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = First, part-time job is a good training of real work for college students.
+1	First	first	ADV	RB	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	10	punct	_	_
+3	part	part	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	time	time	NOUN	NN	Number=Sing	6	compound	_	_
+6	job	job	NOUN	NN	Number=Sing	10	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	good	good	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	training	training	NOUN	NN	Number=Sing	0	root	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	real	real	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	work	work	NOUN	NN	Number=Sing	10	nmod	_	_
+14	for	for	ADP	IN	_	16	case	_	_
+15	college	college	NOUN	NN	Number=Sing	16	compound	_	_
+16	students	student	NOUN	NNS	Number=Plur	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 4
+# text = College students, have to work after they graduate their college.
+1	College	college	NOUN	NN	Number=Sing	2	compound	_	_
+2	students	student	NOUN	NNS	Number=Plur	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	work	work	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	after	after	SCONJ	IN	_	9	mark	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+9	graduate	graduate	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+10	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	college	college	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Then, experience of part-time job will help them.
+1	Then	then	ADV	RB	PronType=Dem	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	10	punct	_	_
+3	experience	experience	NOUN	NN	Number=Sing	10	nsubj	_	_
+4	of	of	ADP	IN	_	8	case	_	_
+5	part	part	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	time	time	NOUN	NN	Number=Sing	8	compound	_	_
+8	job	job	NOUN	NN	Number=Sing	3	nmod	_	_
+9	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	help	help	VERB	VB	VerbForm=Inf	0	root	_	_
+11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 6
+# text = For example, if they work in office, they can learn using computer skill.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	12	punct	_	_
+4	if	if	SCONJ	IN	_	6	mark	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	work	work	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	office	office	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
+11	can	can	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	learn	learn	VERB	VB	VerbForm=Inf	0	root	_	_
+13	using	use	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+14	computer	computer	NOUN	NN	Number=Sing	15	compound	_	_
+15	skill	skill	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 7
+# text = Second, part-time job also gives students social experiences.
+1	Second	second	ADV	RB	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	8	punct	_	_
+3	part	part	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	time	time	NOUN	NN	Number=Sing	6	compound	_	_
+6	job	job	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	also	also	ADV	RB	_	8	advmod	_	_
+8	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	students	student	NOUN	NNS	Number=Plur	11	compound	_	_
+10	social	social	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	experiences	experience	NOUN	NNS	Number=Plur	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 8
+# text = Students learn how they should act in the society.
+1	Students	student	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	learn	learn	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	how	how	ADV	WRB	PronType=Int	6	advmod	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+5	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	act	act	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	society	society	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = For example, if the students work as waiter or waitress, they can learn polite word and good manner.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	15	punct	_	_
+4	if	if	SCONJ	IN	_	7	mark	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	students	student	NOUN	NNS	Number=Plur	7	nsubj	_	_
+7	work	work	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+8	as	as	ADP	IN	_	9	case	_	_
+9	waiter	waiter	NOUN	NN	Number=Sing	7	obl	_	_
+10	or	or	CCONJ	CC	_	11	cc	_	_
+11	waitress	waitress	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+14	can	can	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	learn	learn	VERB	VB	VerbForm=Inf	0	root	_	_
+16	polite	polite	NOUN	NN	Number=Sing	17	compound	_	_
+17	word	word	NOUN	NN	Number=Sing	15	obj	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	good	good	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	manner	manner	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 10
+# text = It will help them when they are given an interview entrance examination of get a job.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	help	help	VERB	VB	VerbForm=Inf	0	root	_	_
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
+5	when	when	ADV	WRB	PronType=Int	8	mark	_	_
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj:pass	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	given	give	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+10	interview	interview	NOUN	NN	Number=Sing	12	compound	_	_
+11	entrance	entrance	NOUN	NN	Number=Sing	12	compound	_	_
+12	examination	examination	NOUN	NN	Number=Sing	8	obj	_	_
+13	of	of	ADV	RB	_	14	advmod	_	_
+14	get	get	VERB	VB	VerbForm=Inf	12	acl	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	job	job	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = And, of course, in the company, it works very well.
+1	And	and	CCONJ	CC	_	11	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	11	punct	_	_
+3	of	of	ADV	RB	_	11	advmod	_	_
+4	course	course	ADV	RB	_	3	fixed	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	11	punct	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	company	company	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	very	very	ADV	RB	_	13	advmod	_	_
+13	well	well	ADV	RB	Degree=Pos	11	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 12
+# text = Third, most student do part-time job for that, they can earn money by the part-time job.
+1	Third	third	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	most	most	ADJ	JJS	Degree=Sup	4	amod	_	_
+4	student	student	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	part	part	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	time	time	NOUN	NN	Number=Sing	9	compound	_	_
+9	job	job	NOUN	NN	Number=Sing	5	obj	_	_
+10	for	for	ADP	IN	_	11	case	_	_
+11	that	that	PRON	DT	Number=Sing|PronType=Dem	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	5	punct	_	_
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+14	can	can	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	earn	earn	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+16	money	money	NOUN	NN	Number=Sing	15	obj	_	_
+17	by	by	ADP	IN	_	22	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+19	part	part	NOUN	NN	Number=Sing	21	compound	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	_	21	punct	_	SpaceAfter=No
+21	time	time	NOUN	NN	Number=Sing	22	compound	_	_
+22	job	job	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 13
+# text = They can use that money as they want.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	use	use	VERB	VB	VerbForm=Inf	0	root	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	money	money	NOUN	NN	Number=Sing	3	obj	_	_
+6	as	as	SCONJ	IN	_	8	mark	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+8	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 14
+# text = For some students, that is the first money they earn all by themselves.
+1	For	for	ADP	IN	_	3	case	_	_
+2	some	some	DET	DT	_	3	det	_	_
+3	students	student	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	9	punct	_	_
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	9	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	9	amod	_	_
+9	money	money	NOUN	NN	Number=Sing	0	root	_	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+11	earn	earn	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	all	all	DET	DT	_	11	obj	_	_
+13	by	by	ADP	IN	_	14	case	_	_
+14	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 15
+# text = They can learn the value of money, they use, too.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	learn	learn	VERB	VB	VerbForm=Inf	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	value	value	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	money	money	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+10	use	use	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	too	too	ADV	RB	_	10	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 16
+# text = They can also learn how hard earn money and live in the future.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	also	also	ADV	RB	_	4	advmod	_	_
+4	learn	learn	VERB	VB	VerbForm=Inf	0	root	_	_
+5	how	how	ADV	WRB	PronType=Int	7	advmod	_	_
+6	hard	hard	ADV	RB	Degree=Pos	7	advmod	_	_
+7	earn	earn	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+8	money	money	NOUN	NN	Number=Sing	7	obj	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	live	live	VERB	VB	VerbForm=Inf	7	conj	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	future	future	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 17
+# text = By those reason, I think that having a part-time job is important for college students.
+1	By	by	ADP	IN	_	3	case	_	_
+2	those	those	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+3	reason	reason	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	that	that	SCONJ	IN	_	15	mark	_	_
+8	having	have	VERB	VBG	VerbForm=Ger	15	csubj	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+10	part	part	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	time	time	NOUN	NN	Number=Sing	13	compound	_	_
+13	job	job	NOUN	NN	Number=Sing	8	obj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	important	important	ADJ	JJ	Degree=Pos	6	ccomp	_	_
+16	for	for	SCONJ	IN	_	18	case	_	_
+17	college	college	NOUN	NN	Number=Sing	18	compound	_	_
+18	students	student	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

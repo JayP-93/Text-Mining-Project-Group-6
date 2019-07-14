@@ -1,0 +1,283 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PAK_SMK0_117_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿"Smoking is injurious to health" is a very well-known sentence written on wall boards and even on the cigarette box by the ministry of health.
+1	﻿	﻿	NOUN	NN	Number=Sing	3	compound	_	SpaceAfter=No
+2	"	"	PUNCT	``	_	1	punct	_	SpaceAfter=No
+3	Smoking	smoking	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	injurious	injurious	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	health	health	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+8	"	"	PUNCT	''	_	5	punct	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+11	very	very	ADV	RB	_	12	advmod	_	_
+12	well	well	ADV	RB	Degree=Pos	14	advmod	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+14	known	know	VERB	VBN	Tense=Past|VerbForm=Part	15	amod	_	_
+15	sentence	sentence	NOUN	NN	Number=Sing	5	nsubj	_	_
+16	written	write	VERB	VBN	Tense=Past|VerbForm=Part	15	acl	_	_
+17	on	on	ADP	IN	_	19	case	_	_
+18	wall	wall	NOUN	NN	Number=Sing	19	compound	_	_
+19	boards	board	NOUN	NNS	Number=Plur	16	obl	_	_
+20	and	and	CCONJ	CC	_	25	cc	_	_
+21	even	even	ADV	RB	_	25	advmod	_	_
+22	on	on	ADP	IN	_	25	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+24	cigarette	cigarette	NOUN	NN	Number=Sing	25	compound	_	_
+25	box	box	NOUN	NN	Number=Sing	19	conj	_	_
+26	by	by	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	ministry	ministry	NOUN	NN	Number=Sing	5	obl	_	_
+29	of	of	ADP	IN	_	30	case	_	_
+30	health	health	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = It is completely right.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	completely	completely	ADV	RB	_	4	advmod	_	_
+4	right	right	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = The smoke of a cigarette be bitter than poison.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	smoke	smoke	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	cigarette	cigarette	NOUN	NN	Number=Sing	2	nmod	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+7	bitter	bitter	ADJ	JJ	Degree=Pos	0	root	_	_
+8	than	than	ADP	IN	_	9	case	_	_
+9	poison	poison	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = Many irreparable diseases may be occurring by smoking.
+1	Many	many	ADJ	JJ	Degree=Pos	3	amod	_	_
+2	irreparable	irreparable	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	diseases	diseases	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	may	may	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux	_	_
+6	occurring	occur	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+7	by	by	ADP	IN	_	8	case	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = some really very dangerous deceases like mouth and lungs cancer is very common in smokers.
+1	some	some	DET	DT	_	5	det	_	_
+2	really	really	ADV	RB	_	4	advmod	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	dangerous	dangerous	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	deceases	decease	NOUN	NNS	Number=Plur	13	nsubj	_	_
+6	like	like	ADP	IN	_	7	case	_	_
+7	mouth	mouth	NOUN	NN	Number=Sing	5	nmod	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	lungs	lung	NOUN	NNS	Number=Plur	10	compound	_	_
+10	cancer	cancer	NOUN	NN	Number=Sing	7	conj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	very	very	ADV	RB	_	13	advmod	_	_
+13	common	common	ADJ	JJ	Degree=Pos	0	root	_	_
+14	in	in	ADP	IN	_	15	case	_	_
+15	smokers	smoker	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 6
+# text = First the youngsters start it with their fellow company as a fashion or style' but soon the nicotine present in the smoke start acting with the lungs and nervous system of the body.
+1	First	first	ADV	RB	_	4	advmod	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	youngsters	youngster	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	start	start	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	with	with	ADP	IN	_	9	case	_	_
+7	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+8	fellow	fellow	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	company	company	NOUN	NN	Number=Sing	4	obl	_	_
+10	as	as	ADP	IN	_	12	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	fashion	fashion	NOUN	NN	Number=Sing	4	obl	_	_
+13	or	or	CCONJ	CC	_	14	cc	_	_
+14	style	style	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+15	'	'	PUNCT	''	_	12	punct	_	_
+16	but	but	CCONJ	CC	_	20	cc	_	_
+17	soon	soon	ADV	RB	Degree=Pos	20	advmod	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	nicotine	nicotine	NUM	CD	NumType=Card	20	nummod	_	_
+20	present	present	ADJ	JJ	Degree=Pos	12	conj	_	_
+21	in	in	ADP	IN	_	24	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	smoke	smoke	NOUN	NN	Number=Sing	24	compound	_	_
+24	start	start	NOUN	NN	Number=Sing	20	obl	_	_
+25	acting	act	VERB	VBG	VerbForm=Ger	24	acl	_	_
+26	with	with	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	lungs	lung	NOUN	NNS	Number=Plur	25	obl	_	_
+29	and	and	CCONJ	CC	_	31	cc	_	_
+30	nervous	nervous	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	system	system	NOUN	NN	Number=Sing	28	conj	_	_
+32	of	of	ADP	IN	_	34	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	body	body	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = the nervous system feels relax with it but lungs at diffected.
+1	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	nervous	nervous	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	system	system	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	feels	feel	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	relax	relax	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+6	with	with	ADP	IN	_	7	case	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+8	but	but	CCONJ	CC	_	9	cc	_	_
+9	lungs	lung	NOUN	NNS	Number=Plur	7	conj	_	_
+10	at	at	ADP	IN	_	11	mark	_	_
+11	diffected	diffected	VERB	VBN	Tense=Past|VerbForm=Part	5	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = the requirement for smoking increases as nervous system require it more and more' in the same way the lungs get defected and defected even it reaches to cancer.
+1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	requirement	requirement	NOUN	NN	Number=Sing	9	nsubj	_	_
+3	for	for	SCONJ	IN	_	4	mark	_	_
+4	smoking	smoke	VERB	VBG	VerbForm=Ger	2	acl	_	_
+5	increases	increase	NOUN	NNS	Number=Plur	4	obj	_	_
+6	as	as	ADP	IN	_	8	case	_	_
+7	nervous	nervous	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	system	system	NOUN	NN	Number=Sing	4	obl	_	_
+9	require	require	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	more	more	ADJ	JJR	Degree=Cmp	27	advmod	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	more	more	ADJ	JJR	Degree=Cmp	11	conj	_	SpaceAfter=No
+14	'	'	PUNCT	``	_	11	punct	_	_
+15	in	in	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	same	same	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	way	way	NOUN	NN	Number=Sing	27	obl	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	lungs	lung	NOUN	NNS	Number=Plur	21	nsubj	_	_
+21	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+22	defected	defect	ADJ	JJ	Degree=Pos	21	xcomp	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	defected	defect	VERB	VBN	Tense=Past|VerbForm=Part	22	conj	_	_
+25	even	even	ADV	RB	_	26	advmod	_	_
+26	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+27	reaches	reach	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	cancer	cancer	VERB	VB	VerbForm=Inf	27	xcomp	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 9
+# text = A part from these diseases the culture and atmosphere also get effected by it.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	part	part	NOUN	NN	Number=Sing	12	nsubj:pass	_	_
+3	from	from	ADP	IN	_	5	case	_	_
+4	these	these	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
+5	diseases	diseases	NOUN	NNS	Number=Plur	2	nmod	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	culture	culture	NOUN	NN	Number=Sing	12	nsubj:pass	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	atmosphere	atmosphere	NOUN	NN	Number=Sing	7	conj	_	_
+10	also	also	ADV	RB	_	12	advmod	_	_
+11	get	get	AUX	VB	Mood=Imp|VerbForm=Fin	12	aux:pass	_	_
+12	effected	effect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+13	by	by	ADP	IN	_	14	case	_	_
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 10
+# text = you can see that in our culture smoking is not appreciated in common places such as railway station' bus stand' hospital so if a fellow smokes there it is against the attenuates.
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	obj	_	_
+5	in	in	ADP	IN	_	8	case	_	_
+6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	culture	culture	NOUN	NN	Number=Sing	8	compound	_	_
+8	smoking	smoke	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+10	not	not	PART	RB	_	11	advmod	_	_
+11	appreciated	appreciate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	common	common	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	places	place	NOUN	NNS	Number=Plur	11	obl	_	_
+15	such	such	ADJ	JJ	Degree=Pos	23	case	_	_
+16	as	as	ADP	IN	_	15	fixed	_	_
+17	railway	railway	NOUN	NN	Number=Sing	18	compound	_	_
+18	station	station	NOUN	NN	Number=Sing	21	compound	_	SpaceAfter=No
+19	'	'	PUNCT	''	_	21	punct	_	_
+20	bus	bus	NOUN	NN	Number=Sing	21	compound	_	_
+21	stand	stand	NOUN	NN	Number=Sing	23	compound	_	SpaceAfter=No
+22	'	'	PUNCT	''	_	21	punct	_	_
+23	hospital	hospital	NOUN	NN	Number=Sing	14	nmod	_	_
+24	so	so	ADV	RB	_	29	advmod	_	_
+25	if	if	SCONJ	IN	_	29	mark	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+27	fellow	fellow	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	smokes	smoke	NOUN	NNS	Number=Plur	29	nsubj	_	_
+29	there	there	ADV	RB	PronType=Dem	34	advcl	_	_
+30	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
+31	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+32	against	against	ADP	IN	_	34	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	attenuates	attenuate	NOUN	NNS	Number=Plur	3	parataxis	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = When the smoking goes to its stop then the requirement for nicotine and heroine also increases which lead to not anywhere but death.
+1	When	when	ADV	WRB	PronType=Int	4	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+5	to	to	ADP	IN	_	4	obl	_	_
+6	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nsubj	_	_
+7	stop	stop	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	then	then	ADV	RB	PronType=Dem	10	advmod	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	requirement	requirement	NOUN	NN	Number=Sing	7	parataxis	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	nicotine	nicotine	NUM	CD	NumType=Card	10	nmod	_	_
+13	and	and	CCONJ	CC	_	16	cc	_	_
+14	heroine	heroine	NUM	CD	NumType=Card	16	nummod	_	_
+15	also	also	ADV	RB	_	16	advmod	_	_
+16	increases	increase	NOUN	NNS	Number=Plur	12	conj	_	_
+17	which	which	PRON	WDT	PronType=Rel	18	nsubj	_	_
+18	lead	lead	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	to	to	ADP	IN	_	21	case	_	_
+20	not	not	PART	RB	_	21	advmod	_	_
+21	anywhere	anywhere	NOUN	NN	Number=Sing	18	obl	_	_
+22	but	but	CCONJ	CC	_	23	cc	_	_
+23	death	death	NOUN	NN	Number=Sing	18	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 12
+# text = So we should avoid from such a bad habit which is not but the loss of money' time and even life.
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	avoid	avoid	VERB	VB	VerbForm=Inf	0	root	_	_
+5	from	from	ADP	IN	_	9	case	_	_
+6	such	such	DET	PDT	_	9	det:predet	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	bad	bad	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	habit	habit	NOUN	NN	Number=Sing	4	obl	_	_
+10	which	which	PRON	WDT	PronType=Rel	19	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+12	not	not	PART	RB	_	19	advmod	_	_
+13	but	but	CCONJ	CC	_	15	cc	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	loss	loss	NOUN	NN	Number=Sing	12	conj	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	money	money	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+18	'	'	PUNCT	''	_	19	punct	_	_
+19	time	time	NOUN	NN	Number=Sing	9	acl:relcl	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	even	even	ADV	RB	_	22	advmod	_	_
+22	life	life	NOUN	NN	Number=Sing	19	conj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

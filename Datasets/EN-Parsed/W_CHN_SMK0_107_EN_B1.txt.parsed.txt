@@ -1,0 +1,290 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_CHN_SMK0_107_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Many people are smoking in the restaurants.
+1	﻿Many	﻿Many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	restaurants	restaurant	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = We all know the harm of smoking.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	all	all	DET	DT	_	1	det	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	harm	harm	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = So, I strongly support the idea that smoking should be completely banned at all the restaurants.
+1	So	so	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	strongly	strongly	ADV	RB	_	5	advmod	_	_
+5	support	support	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	idea	idea	NOUN	NN	Number=Sing	5	obj	_	_
+8	that	that	SCONJ	IN	_	13	mark	_	_
+9	smoking	smoke	NOUN	NN	Number=Sing	13	nsubj:pass	_	_
+10	should	should	AUX	MD	VerbForm=Fin	13	aux	_	_
+11	be	be	AUX	VB	VerbForm=Inf	13	aux:pass	_	_
+12	completely	completely	ADV	RB	_	13	advmod	_	_
+13	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
+14	at	at	ADP	IN	_	17	case	_	_
+15	all	all	DET	PDT	_	17	det:predet	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	restaurants	restaurant	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = I have this opinion because of the following reasons.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	opinion	opinion	NOUN	NN	Number=Sing	2	obj	_	_
+5	because	because	ADP	IN	_	9	case	_	_
+6	of	of	ADP	IN	_	5	fixed	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	following	follow	VERB	VBG	VerbForm=Ger	9	amod	_	_
+9	reasons	reason	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Smoking is not polite in public place.
+1	Smoking	smoking	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	polite	polite	NOUN	NN	Number=Sing	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	public	public	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	place	place	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = If you want to smoke, it is your choice.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	smoke	smoke	VERB	VB	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	choice	choice	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 7
+# text = But people around you can smell the smoke.
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	people	people	NOUN	NNS	Number=Plur	6	nsubj	_	_
+3	around	around	ADV	RB	_	6	advmod	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	smell	smell	VERB	VB	VerbForm=Inf	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	smoke	smoke	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 8
+# text = Consequently, smoking in the restaurants will do harm to other people.
+1	Consequently	consequently	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	restaurants	restaurant	NOUN	NNS	Number=Plur	3	obl	_	_
+7	will	will	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	do	do	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+9	harm	harm	NOUN	NN	Number=Sing	8	obj	_	_
+10	to	to	ADP	IN	_	12	case	_	_
+11	other	other	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	people	people	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = I can think no better illustration of the idea than the example of my roommate.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+4	no	no	DET	DT	_	6	det	_	_
+5	better	better	ADJ	JJR	Degree=Cmp	6	amod	_	_
+6	illustration	illustration	NOUN	NN	Number=Sing	3	obj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	idea	idea	NOUN	NN	Number=Sing	6	nmod	_	_
+10	than	than	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	example	example	NOUN	NN	Number=Sing	6	nmod	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	roommate	roommate	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = For instance, my roommate
+1	For	for	ADP	IN	_	2	case	_	_
+2	instance	instance	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	roommate	roommate	NOUN	NN	Number=Sing	0	root	_	_
+
+# sent_id = 11
+# text = Sun who is used to smoking fought with other people in the restaurant because other people thought the smell is disgusting.
+1	Sun	sun	PROPN	NNP	Number=Sing	0	root	_	_
+2	who	who	PRON	WP	PronType=Rel	4	nsubj:pass	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	acl:relcl	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	smoking	smoke	NOUN	NN	Number=Sing	4	obl	_	_
+7	fought	fink	VERB	VBN	Tense=Past|VerbForm=Part	6	acl	_	_
+8	with	with	ADP	IN	_	10	case	_	_
+9	other	other	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	people	people	NOUN	NNS	Number=Plur	7	obl	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	restaurant	restaurant	NOUN	NN	Number=Sing	10	nmod	_	_
+14	because	because	SCONJ	IN	_	17	mark	_	_
+15	other	other	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	people	people	NOUN	NNS	Number=Plur	17	nsubj	_	_
+17	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	smell	smell	NOUN	NN	Number=Sing	21	nsubj	_	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	disgusting	disgust	ADJ	JJ	Degree=Pos	17	ccomp	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 12
+# text = I have another argument for my point.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	another	another	DET	DT	_	4	det	_	_
+4	argument	argument	NOUN	NN	Number=Sing	2	obj	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	point	point	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 13
+# text = Have you thought about the question: how could you eat the food when you smoke?
+1	Have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	about	about	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	question	question	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	:	:	PUNCT	:	_	3	punct	_	_
+8	how	how	ADV	WRB	PronType=Int	11	advmod	_	_
+9	could	could	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+11	eat	eat	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	food	food	NOUN	NN	Number=Sing	11	obj	_	_
+14	when	when	ADV	WRB	PronType=Int	16	mark	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+16	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	SpaceAfter=No
+17	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 14
+# text = In other words, you can hardly enjoy your food.
+1	In	in	ADP	IN	_	3	case	_	_
+2	other	other	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	words	word	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	hardly	hardly	ADV	RB	_	8	advmod	_	_
+8	enjoy	enjoy	VERB	VB	VerbForm=Inf	0	root	_	_
+9	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	food	food	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 15
+# text = Actually, the situation is not rare, it is just one of many examples I have encountered.
+1	Actually	actually	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	situation	situation	NOUN	NN	Number=Sing	7	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	not	not	PART	RB	_	7	advmod	_	_
+7	rare	rare	ADJ	JJ	Degree=Pos	12	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	just	just	ADV	RB	_	12	advmod	_	_
+12	one	one	NUM	CD	NumType=Card	0	root	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	many	many	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	examples	example	NOUN	NNS	Number=Plur	12	nmod	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+17	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	encountered	encounter	VERB	VBN	Tense=Past|VerbForm=Part	15	acl:relcl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 16
+# text = For example, my roommate is Liang.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	roommate	roommate	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	Liang	Liang	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 17
+# text = He often smokes when he have meal.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	often	often	ADV	RB	_	3	advmod	_	_
+3	smokes	smoke	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	when	when	ADV	WRB	PronType=Int	6	mark	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7	meal	meal	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 18
+# text = Therefore, he is noticeably thin and apparently not healthy.
+1	Therefore	therefore	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	noticeably	noticeably	ADV	RB	_	6	advmod	_	_
+6	thin	thin	ADJ	JJ	Degree=Pos	0	root	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	apparently	apparently	ADV	RB	_	10	advmod	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	healthy	healthy	ADJ	JJ	Degree=Pos	6	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 19
+# text = Because of the above reasons, I think smoking should be completely banned at all the restaurants in the country.
+1	Because	because	ADP	IN	_	5	case	_	_
+2	of	of	ADP	IN	_	1	fixed	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	above	above	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	reasons	reason	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	13	nsubj:pass	_	_
+10	should	should	AUX	MD	VerbForm=Fin	13	aux	_	_
+11	be	be	AUX	VB	VerbForm=Inf	13	aux:pass	_	_
+12	completely	completely	ADV	RB	_	13	advmod	_	_
+13	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	ccomp	_	_
+14	at	at	ADP	IN	_	17	case	_	_
+15	all	all	DET	PDT	_	17	det:predet	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	restaurants	restaurant	NOUN	NNS	Number=Plur	13	obl	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	country	country	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

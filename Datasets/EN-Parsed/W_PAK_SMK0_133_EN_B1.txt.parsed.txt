@@ -1,0 +1,287 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PAK_SMK0_133_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿It is a caution written on every packet of cigarette by the ministry of health.
+1	﻿It	﻿It	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	caution	caution	NOUN	NN	Number=Sing	0	root	_	_
+5	written	write	VERB	VBN	Tense=Past|VerbForm=Part	4	acl	_	_
+6	on	on	ADP	IN	_	8	case	_	_
+7	every	every	DET	DT	_	8	det	_	_
+8	packet	packet	NOUN	NN	Number=Sing	5	obl	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	cigarette	cigarette	NOUN	NN	Number=Sing	8	nmod	_	_
+11	by	by	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	ministry	ministry	NOUN	NN	Number=Sing	4	obl	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	health	health	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Almost every person knows how much a cigarette is injurious for health and in a long run how much it is going to effect a smoker physically.
+1	Almost	almost	ADV	RB	_	4	advmod	_	_
+2	every	every	DET	DT	_	3	det	_	_
+3	person	person	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	how	how	ADV	WRB	PronType=Int	6	advmod	_	_
+6	much	much	ADJ	JJ	Degree=Pos	10	advmod	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	cigarette	cigarette	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	injurious	injurious	ADJ	JJ	Degree=Pos	4	ccomp	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	health	health	NOUN	NN	Number=Sing	10	obl	_	_
+13	and	and	CCONJ	CC	_	17	cc	_	_
+14	in	in	ADP	IN	_	17	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	long	long	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	run	run	NOUN	NN	Number=Sing	10	conj	_	_
+18	how	how	ADV	WRB	PronType=Int	19	advmod	_	_
+19	much	much	ADJ	JJ	Degree=Pos	22	advmod	_	_
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	17	acl:relcl	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	effect	effect	VERB	VB	VerbForm=Inf	22	xcomp	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	smoker	smoker	NOUN	NN	Number=Sing	24	obj	_	_
+27	physically	physically	ADV	RB	_	24	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Even then almost 30% of world's population is addicted of this bad habit which is a big ratio.
+1	Even	even	ADV	RB	_	2	advmod	_	_
+2	then	then	ADV	RB	PronType=Dem	11	advmod	_	_
+3	almost	almost	ADV	RB	_	4	advmod	_	_
+4	30	30	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
+5	%	%	SYM	NN	Number=Sing	11	nsubj:pass	_	_
+6	of	of	ADP	IN	_	9	case	_	_
+7	world	world	NOUN	NN	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+8	's	's	PART	POS	_	7	case	_	_
+9	population	population	NOUN	NN	Number=Sing	5	nmod	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	addicted	addicte	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+12	of	of	ADP	IN	_	15	case	_	_
+13	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+14	bad	bad	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	habit	habit	NOUN	NN	Number=Sing	11	obl	_	_
+16	which	which	PRON	WDT	PronType=Rel	20	nsubj	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	big	big	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	ratio.	ratio.	NOUN	NN	Number=Sing	15	acl:relcl	_	_
+
+# sent_id = 4
+# text = Today, when smoking is becoming a status symbol for the college students and teenagers they use to smoke outside in their private parties.
+1	Today	today	NOUN	NN	Number=Sing	17	obl:tmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	17	punct	_	_
+3	when	when	ADV	WRB	PronType=Int	6	mark	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	becoming	become	VERB	VBG	Tense=Pres|VerbForm=Part	17	advcl	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	status	status	NOUN	NN	Number=Sing	9	compound	_	_
+9	symbol	symbol	NOUN	NN	Number=Sing	6	obj	_	_
+10	for	for	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	college	college	NOUN	NN	Number=Sing	13	compound	_	_
+13	students	student	NOUN	NNS	Number=Plur	9	nmod	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	teenagers	teenager	NOUN	NNS	Number=Plur	13	conj	_	_
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+17	use	use	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	smoke	smoke	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+20	outside	outside	ADV	RB	_	19	advmod	_	_
+21	in	in	ADP	IN	_	24	case	_	_
+22	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+23	private	private	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	parties	party	NOUN	NNS	Number=Plur	19	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 5
+# text = On the other hand today parents are very well aware of after effects of this addiction and they restricts their children to do any this type of activity very strictly.
+1	On	on	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	other	other	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	hand	hand	NOUN	NN	Number=Sing	10	obl	_	_
+5	today	today	NOUN	NN	Number=Sing	6	compound	_	_
+6	parents	parent	NOUN	NNS	Number=Plur	10	nsubj	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	very	very	ADV	RB	_	10	advmod	_	_
+9	well	well	ADV	RB	Degree=Pos	10	advmod	_	_
+10	aware	aware	ADJ	JJ	Degree=Pos	0	root	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	after	after	ADP	IN	_	11	case	_	_
+13	effects	effect	NOUN	NNS	Number=Plur	10	obl	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+16	addiction	addiction	NOUN	NN	Number=Sing	13	nmod	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+19	restricts	restrict	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	_
+20	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	children	child	NOUN	NNS	Number=Plur	19	obj	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	do	do	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+24	any	any	DET	DT	_	26	det	_	_
+25	this	this	DET	DT	Number=Sing|PronType=Dem	26	det	_	_
+26	type	type	NOUN	NN	Number=Sing	23	obj	_	_
+27	of	of	ADP	IN	_	28	case	_	_
+28	activity	activity	NOUN	NN	Number=Sing	26	nmod	_	_
+29	very	very	ADV	RB	_	30	advmod	_	_
+30	strictly	strictly	ADV	RB	_	26	advmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 6
+# text = As the result of this condition from the parents side youngsters use to go out and smoke in privacy with their friends in restaurants or cafe's where they could not be spotted by their elders, this trend is very common today.
+1	As	as	SCONJ	IN	_	12	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	result	result	NOUN	NN	Number=Sing	12	nsubj	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	condition	condition	NOUN	NN	Number=Sing	3	nmod	_	_
+7	from	from	ADP	IN	_	11	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+9	parents	parent	NOUN	NNS	Number=Plur	10	compound	_	_
+10	side	side	NOUN	NN	Number=Sing	11	compound	_	_
+11	youngsters	youngster	NOUN	NNS	Number=Plur	12	nsubj	_	_
+12	use	use	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	41	advcl	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	go	go	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+15	out	out	ADV	RB	_	14	advmod	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	smoke	smoke	VERB	VB	VerbForm=Inf	14	conj	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	privacy	privacy	NOUN	NN	Number=Sing	17	obl	_	_
+20	with	with	ADP	IN	_	22	case	_	_
+21	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	friends	friend	NOUN	NNS	Number=Plur	17	obl	_	_
+23	in	in	ADP	IN	_	24	case	_	_
+24	restaurants	restaurant	NOUN	NNS	Number=Plur	22	nmod	_	_
+25	or	or	CCONJ	CC	_	26	cc	_	_
+26	cafe's	cafe'	NOUN	NNS	Number=Plur	24	conj	_	_
+27	where	where	ADV	WRB	PronType=Rel	32	advmod	_	_
+28	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	32	nsubj:pass	_	_
+29	could	could	AUX	MD	VerbForm=Fin	32	aux	_	_
+30	not	not	PART	RB	_	32	advmod	_	_
+31	be	be	AUX	VB	VerbForm=Inf	32	aux:pass	_	_
+32	spotted	spot	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	24	acl:relcl	_	_
+33	by	by	ADP	IN	_	35	case	_	_
+34	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+35	elders	elder	NOUN	NNS	Number=Plur	32	obl	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	41	punct	_	_
+37	this	this	DET	DT	Number=Sing|PronType=Dem	38	det	_	_
+38	trend	trend	NOUN	NN	Number=Sing	41	nsubj	_	_
+39	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	_
+40	very	very	ADV	RB	_	41	advmod	_	_
+41	common	common	ADJ	JJ	Degree=Pos	0	root	_	_
+42	today	today	NOUN	NN	Number=Sing	41	obl:tmod	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	41	punct	_	_
+
+# sent_id = 7
+# text = It is very famous saying that' nature cannot be changed' and it is also understood that a habit leads to one's nature.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	famous	famous	ADJ	JJ	Degree=Pos	0	root	_	_
+5	saying	say	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+6	that	that	SCONJ	IN	_	12	mark	_	SpaceAfter=No
+7	'	'	PUNCT	``	_	12	punct	_	_
+8	nature	nature	NOUN	NN	Number=Sing	12	nsubj:pass	_	_
+9	can	can	AUX	MD	VerbForm=Fin	12	aux	_	SpaceAfter=No
+10	not	not	PART	RB	_	12	advmod	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	aux:pass	_	_
+12	changed	change	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	ccomp	_	SpaceAfter=No
+13	'	'	PUNCT	''	_	12	punct	_	_
+14	and	and	CCONJ	CC	_	18	cc	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj:pass	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+17	also	also	ADV	RB	_	18	advmod	_	_
+18	understood	understand	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	conj	_	_
+19	that	that	SCONJ	IN	_	22	mark	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	habit	habit	NOUN	NN	Number=Sing	22	nsubj	_	_
+22	leads	lead	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
+23	to	to	ADP	IN	_	26	case	_	_
+24	one	one	PRON	PRP	_	26	nmod:poss	_	SpaceAfter=No
+25	's	's	PART	POS	_	24	case	_	_
+26	nature	nature	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = That means if today's child do smoke and not stopped will undoubtedly remain with this habit whole his life, at the end conclusion is that smoking of a person is not the problem of an individual but national or global so it should be banned every where outside like hotels and restaurants.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	if	if	SCONJ	IN	_	11	mark	_	_
+4	today	today	NOUN	NN	Number=Sing	6	nmod:poss	_	SpaceAfter=No
+5	's	's	PART	POS	_	4	case	_	_
+6	child	child	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
+7	do	do	ADP	IN	_	8	case	_	_
+8	smoke	smoke	NOUN	NN	Number=Sing	6	nmod	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	not	not	PART	RB	_	11	advmod	_	_
+11	stopped	stop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	advcl	_	_
+12	will	will	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	undoubtedly	undoubtedly	ADV	RB	_	14	advmod	_	_
+14	remain	remain	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+15	with	with	ADP	IN	_	17	case	_	_
+16	this	this	DET	DT	Number=Sing|PronType=Dem	17	det	_	_
+17	habit	habit	NOUN	NN	Number=Sing	14	obl	_	_
+18	whole	whole	ADJ	JJ	Degree=Pos	20	amod	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	life	life	NOUN	NN	Number=Sing	17	obl:npmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	2	punct	_	_
+22	at	at	ADP	IN	_	25	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+24	end	end	NOUN	NN	Number=Sing	25	compound	_	_
+25	conclusion	conclusion	NOUN	NN	Number=Sing	26	nsubj	_	_
+26	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+27	that	that	SCONJ	IN	_	35	mark	_	_
+28	smoking	smoking	VERB	VBG	VerbForm=Ger	35	csubj	_	_
+29	of	of	ADP	IN	_	31	case	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+31	person	person	NOUN	NN	Number=Sing	28	obl	_	_
+32	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+33	not	not	PART	RB	_	35	advmod	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	problem	problem	NOUN	NN	Number=Sing	26	ccomp	_	_
+36	of	of	ADP	IN	_	38	case	_	_
+37	an	a	DET	DT	Definite=Ind|PronType=Art	38	det	_	_
+38	individual	individual	ADJ	JJ	Degree=Pos	35	nmod	_	_
+39	but	but	CCONJ	CC	_	40	cc	_	_
+40	national	national	ADJ	JJ	Degree=Pos	38	conj	_	_
+41	or	or	CCONJ	CC	_	42	cc	_	_
+42	global	global	ADJ	JJ	Degree=Pos	38	conj	_	_
+43	so	so	SCONJ	IN	_	47	mark	_	_
+44	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	47	nsubj:pass	_	_
+45	should	should	AUX	MD	VerbForm=Fin	47	aux	_	_
+46	be	be	AUX	VB	VerbForm=Inf	47	aux:pass	_	_
+47	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	38	advcl	_	_
+48	every	every	DET	DT	_	49	det	_	_
+49	where	where	ADV	WRB	PronType=Int	47	advmod	_	_
+50	outside	outside	ADV	RB	_	52	advmod	_	_
+51	like	like	ADP	IN	_	52	case	_	_
+52	hotels	hotel	NOUN	NNS	Number=Plur	49	obl	_	_
+53	and	and	CCONJ	CC	_	54	cc	_	_
+54	restaurants	restaurant	NOUN	NNS	Number=Plur	52	conj	_	SpaceAfter=No
+55	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = In this way we can get rid of this very serious problem.
+1	In	in	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	way	way	NOUN	NN	Number=Sing	6	obl	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+7	rid	rid	ADJ	JJ	Degree=Pos	6	xcomp	_	_
+8	of	of	ADP	IN	_	12	case	_	_
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	12	det	_	_
+10	very	very	ADV	RB	_	11	advmod	_	_
+11	serious	serious	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	problem	problem	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

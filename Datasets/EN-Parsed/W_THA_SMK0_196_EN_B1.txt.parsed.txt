@@ -1,0 +1,285 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_THA_SMK0_196_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Cigarette is one of the things that cause harm to our body.
+1	﻿Cigarette	﻿Cigarette	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	one	one	NUM	CD	NumType=Card	0	root	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	things	thing	NOUN	NNS	Number=Plur	3	nmod	_	_
+7	that	that	PRON	WDT	PronType=Rel	8	nsubj	_	_
+8	cause	cause	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	harm	harm	NOUN	NN	Number=Sing	8	obj	_	_
+10	to	to	ADP	IN	_	12	case	_	_
+11	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	body	body	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = The effect of it is destroy the lung then it normally that will quickly tired.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	effect	effect	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	destroy	destroy	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	lung	lung	NOUN	NN	Number=Sing	6	obj	_	_
+9	then	then	ADV	RB	PronType=Dem	15	advmod	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+11	normally	normally	ADV	RB	_	15	advmod	_	_
+12	that	that	PRON	DT	Number=Sing|PronType=Dem	15	nsubj	_	_
+13	will	will	AUX	MD	VerbForm=Fin	15	cop	_	_
+14	quickly	quickly	ADV	RB	_	15	advmod	_	_
+15	tired	tire	ADJ	JJ	Degree=Pos	6	parataxis	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Nowadays, people died because of smoking and majority of them were death from cancer.
+1	Nowadays	nowadays	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	died	die	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	because	because	ADP	IN	_	7	case	_	_
+6	of	of	ADP	IN	_	5	fixed	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	4	obl	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	majority	majority	NOUN	NN	Number=Sing	7	conj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	nmod	_	_
+12	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	_
+13	death	death	NOUN	NN	Number=Sing	4	nsubj	_	_
+14	from	from	ADP	IN	_	15	case	_	_
+15	cancer	cancer	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Most people smoking because of many reasons, some think it cool and some think it good smell, but it cause harmful more than advantage.
+1	Most	most	ADJ	JJS	Degree=Sup	2	amod	_	_
+2	people	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	smoking	smoke	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+4	because	because	ADP	IN	_	7	case	_	_
+5	of	of	ADP	IN	_	4	fixed	_	_
+6	many	many	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	reasons	reason	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	some	some	DET	DT	_	10	nsubj	_	_
+10	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	cool	cool	ADJ	JJ	Degree=Pos	10	ccomp	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	some	some	DET	DT	_	15	nsubj	_	_
+15	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	conj	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	good	good	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	smell	smell	NOUN	NN	Number=Sing	15	ccomp	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	but	but	CCONJ	CC	_	22	cc	_	_
+21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	cause	cause	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	_
+23	harmful	harmful	ADV	RB	_	24	advmod	_	_
+24	more	more	ADJ	JJR	Degree=Cmp	22	obj	_	_
+25	than	than	ADP	IN	_	26	case	_	_
+26	advantage	advantage	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 5
+# text = It is not worth to risk life with the good smell or feel cool in a little period of time.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	worth	worth	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	risk	risk	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	life	life	NOUN	NN	Number=Sing	6	obj	_	_
+8	with	with	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	good	good	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	smell	smell	NOUN	NN	Number=Sing	6	obl	_	_
+12	or	or	CCONJ	CC	_	13	cc	_	_
+13	feel	feel	VERB	VB	VerbForm=Inf	6	conj	_	_
+14	cool	cool	ADJ	JJ	Degree=Pos	13	xcomp	_	_
+15	in	in	ADP	IN	_	18	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	little	little	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	period	period	NOUN	NN	Number=Sing	13	obl	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	time	time	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Smoking cigarette is not destroy only smoker but it will destroy people around them too because when smoking the smoke that was spread out in the air cause it poisonous.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	2	amod	_	_
+2	cigarette	cigarette	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	destroy	destroy	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+6	only	only	ADV	RB	_	7	advmod	_	_
+7	smoker	smoker	NOUN	NN	Number=Sing	5	obj	_	_
+8	but	but	CCONJ	CC	_	11	cc	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	will	will	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	destroy	destroy	VERB	VB	VerbForm=Inf	5	conj	_	_
+12	people	people	NOUN	NNS	Number=Plur	11	obj	_	_
+13	around	around	ADP	IN	_	14	case	_	_
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	nmod	_	_
+15	too	too	ADV	RB	_	11	advmod	_	_
+16	because	because	SCONJ	IN	_	18	mark	_	_
+17	when	when	ADV	WRB	PronType=Int	18	mark	_	_
+18	smoking	smoke	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	smoke	smoke	NOUN	NN	Number=Sing	18	obj	_	_
+21	that	that	PRON	WDT	PronType=Rel	23	nsubj:pass	_	_
+22	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
+23	spread	spread	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	acl:relcl	_	_
+24	out	out	ADP	RP	_	23	compound:prt	_	_
+25	in	in	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	air	air	NOUN	NN	Number=Sing	23	obl	_	_
+28	cause	cause	SCONJ	IN	_	30	case	_	_
+29	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+30	poisonous	poisonous	NOUN	NNS	Number=Plur	23	advcl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 7
+# text = In addition, people who receive this poisonous air will get harmer more than the one who smoke.
+1	In	in	ADP	IN	_	2	case	_	_
+2	addition	addition	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	11	punct	_	_
+4	people	people	NOUN	NNS	Number=Plur	11	nsubj	_	_
+5	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+6	receive	receive	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+8	poisonous	poisonous	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	air	air	NOUN	NN	Number=Sing	6	obj	_	_
+10	will	will	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+12	harmer	harmer	ADV	RB	_	13	advmod	_	_
+13	more	more	ADJ	JJR	Degree=Cmp	11	obj	_	_
+14	than	than	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	one	one	NOUN	NN	Number=Sing	11	obl	_	_
+17	who	who	PRON	WP	PronType=Rel	18	nsubj	_	_
+18	smoke	smoke	NOUN	NN	Number=Sing	16	acl:relcl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 8
+# text = It not only destroys the user life but also people all around them.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	not	not	ADV	RB	_	3	advmod	_	_
+3	only	only	ADV	RB	_	4	advmod	_	_
+4	destroys	destroy	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	user	user	NOUN	NN	Number=Sing	7	compound	_	_
+7	life	life	NOUN	NN	Number=Sing	4	obj	_	_
+8	but	but	CCONJ	CC	_	10	cc	_	_
+9	also	also	ADV	RB	_	10	advmod	_	_
+10	people	people	NOUN	NNS	Number=Plur	4	conj	_	_
+11	all	all	ADV	RB	_	13	advmod	_	_
+12	around	around	ADP	IN	_	13	case	_	_
+13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = I strongly disagree to allow smoking.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	strongly	strongly	ADV	RB	_	3	advmod	_	_
+3	disagree	disagree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	allow	allow	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Not only in all restaurants but should be all public areas.
+1	Not	not	ADV	RB	_	2	advmod	_	_
+2	only	only	ADV	RB	_	5	cc:preconj	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	all	all	DET	DT	_	5	det	_	_
+5	restaurants	restaurant	NOUN	NNS	Number=Plur	8	obl	_	_
+6	but	but	CCONJ	CC	_	8	cc	_	_
+7	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+9	all	all	DET	DT	_	11	det	_	_
+10	public	public	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	areas	area	NOUN	NNS	Number=Plur	8	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 11
+# text = There should be campaign or policies to stop this bad tradition or behavior.
+1	There	there	PRON	EX	_	3	expl	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+4	campaign	campaign	NOUN	NN	Number=Sing	3	nsubj	_	_
+5	or	or	CCONJ	CC	_	6	cc	_	_
+6	policies	policies	NOUN	NNS	Number=Plur	4	conj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	stop	stop	VERB	VB	VerbForm=Inf	4	acl	_	_
+9	this	this	DET	DT	Number=Sing|PronType=Dem	11	det	_	_
+10	bad	bad	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	tradition	tradition	NOUN	NN	Number=Sing	8	obj	_	_
+12	or	or	CCONJ	CC	_	13	cc	_	_
+13	behavior	behavior	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 12
+# text = Personally, smoking is not cool at all, and not even gives good smell.
+1	Personally	personally	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	cool	cool	ADJ	JJ	Degree=Pos	0	root	_	_
+7	at	at	ADP	IN	_	8	case	_	_
+8	all	all	ADV	RB	_	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	not	not	PART	RB	_	13	advmod	_	_
+12	even	even	ADV	RB	_	13	advmod	_	_
+13	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+14	good	good	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	smell	smell	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 13
+# text = On the other hand, it releases very bad smell and destroy the air pollution.
+1	On	on	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	other	other	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	hand	hand	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	releases	release	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	very	very	ADV	RB	_	10	advmod	_	_
+9	bad	bad	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	smell	smell	NOUN	NN	Number=Sing	7	nsubj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	destroy	destroy	VERB	VB	Mood=Imp|VerbForm=Fin	10	conj	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	air	air	NOUN	NN	Number=Sing	15	compound	_	_
+15	pollution	pollution	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 14
+# text = People should stop smoking but should do other things which will help the country to keep moving forward.
+1	People	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	stop	stop	VERB	VB	VerbForm=Inf	0	root	_	_
+4	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	3	xcomp	_	_
+5	but	but	CCONJ	CC	_	7	cc	_	_
+6	should	should	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	do	do	VERB	VB	VerbForm=Inf	3	conj	_	_
+8	other	other	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	things	thing	NOUN	NNS	Number=Plur	7	obj	_	_
+10	which	which	PRON	WDT	PronType=Rel	12	nsubj	_	_
+11	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	help	help	VERB	VB	VerbForm=Inf	9	acl:relcl	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	country	country	NOUN	NN	Number=Sing	12	obj	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	keep	keep	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+17	moving	move	VERB	VBG	VerbForm=Ger	16	xcomp	_	_
+18	forward	forward	ADV	RB	_	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

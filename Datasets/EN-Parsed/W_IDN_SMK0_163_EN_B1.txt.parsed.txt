@@ -1,0 +1,299 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_IDN_SMK0_163_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿If we look about a theme, it is interesting for me because I do not like smoking.
+1	﻿If	﻿if	SCONJ	IN	_	3	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	look	look	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+4	about	about	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	theme	theme	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	interesting	interesting	ADJ	JJ	Degree=Pos	0	root	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obl	_	_
+13	because	because	SCONJ	IN	_	18	mark	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+15	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	not	not	PART	RB	_	18	advmod	_	_
+17	like	like	ADP	IN	_	18	case	_	_
+18	smoking	smoking	NOUN	NN	Number=Sing	10	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = As we know, Smoking can make disturb our healthy.
+1	As	as	SCONJ	IN	_	3	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	Smoking	smoking	PROPN	NNP	Number=Sing	7	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+8	disturb	disturb	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+9	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	healthy	healthy	ADJ	JJ	Degree=Pos	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Then, how about the thinking of smoker?
+1	Then	then	ADV	RB	PronType=Dem	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	how	how	ADV	WRB	PronType=Int	6	advmod	_	_
+4	about	about	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	thinking	thinking	NOUN	NN	Number=Sing	0	root	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	smoker	smoker	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Maybe, these are motto of people who like to smoke.
+1	Maybe	maybe	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	these	these	PRON	DT	Number=Plur|PronType=Dem	7	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	motto	motto	ADP	IN	_	7	case	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	people	people	NOUN	NNS	Number=Plur	0	root	_	_
+8	who	who	PRON	WP	PronType=Rel	9	nsubj	_	_
+9	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	smoke	smoke	VERB	VB	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = Such as: Smoking is my life, smoking is the real life, smoking can make me feel comfort, and more.
+1	Such	such	ADJ	JJ	Degree=Pos	0	root	_	_
+2	as	as	ADP	IN	_	7	case	_	SpaceAfter=No
+3	:	:	PUNCT	:	_	7	punct	_	_
+4	Smoking	smoking	PROPN	NNP	Number=Sing	7	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	life	life	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	1	punct	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	13	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	real	real	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	life	life	NOUN	NN	Number=Sing	1	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	smoking	smoke	NOUN	NN	Number=Sing	17	nsubj	_	_
+16	can	can	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	make	make	VERB	VB	VerbForm=Inf	13	conj	_	_
+18	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	obj	_	_
+19	feel	feel	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+20	comfort	comfort	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	more	more	ADJ	JJR	Degree=Cmp	1	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = Because of without smoking, they (smoker) will feel unhappy.
+1	Because	because	ADP	IN	_	4	case	_	_
+2	of	of	ADP	IN	_	1	fixed	_	_
+3	without	without	ADP	IN	_	4	case	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	11	punct	_	_
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+7	(	(	PUNCT	-LRB-	_	8	punct	_	SpaceAfter=No
+8	smoker	smoker	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
+9	)	)	PUNCT	-RRB-	_	8	punct	_	_
+10	will	will	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	feel	feel	VERB	VB	VerbForm=Inf	0	root	_	_
+12	unhappy	unhappy	ADJ	JJ	Degree=Pos	11	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 7
+# text = I do not know why they feel like that.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+5	why	why	ADV	WRB	PronType=Int	7	advmod	_	_
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+7	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	like	like	ADP	IN	_	9	case	_	_
+9	that	that	PRON	DT	Number=Sing|PronType=Dem	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = You know that I am not a smoker so I cannot explain why they feel like that.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	8	mark	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+5	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	not	not	PART	RB	_	8	advmod	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	smoker	smoker	NOUN	NN	Number=Sing	2	ccomp	_	_
+9	so	so	SCONJ	IN	_	13	mark	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+11	can	can	AUX	MD	VerbForm=Fin	13	aux	_	SpaceAfter=No
+12	not	not	PART	RB	_	13	advmod	_	_
+13	explain	explain	VERB	VB	VerbForm=Inf	8	advcl	_	_
+14	why	why	ADV	WRB	PronType=Int	16	advmod	_	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+16	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+17	like	like	ADP	IN	_	18	case	_	_
+18	that	that	PRON	DT	Number=Sing|PronType=Dem	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = As far as I know, smoking can make person who like smoke be opium.
+1	As	as	ADV	RB	_	2	advmod	_	_
+2	far	far	ADV	RB	Degree=Pos	9	advmod	_	_
+3	as	as	SCONJ	IN	_	5	mark	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	smoking	smoke	NOUN	NN	Number=Sing	9	nsubj	_	_
+8	can	can	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+10	person	person	NOUN	NN	Number=Sing	9	obj	_	_
+11	who	who	PRON	WP	PronType=Rel	12	nsubj	_	_
+12	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	smoke	smoke	NOUN	NN	Number=Sing	12	obj	_	_
+14	be	be	AUX	VB	VerbForm=Inf	15	cop	_	_
+15	opium	opium	ADJ	JJ	Degree=Pos	12	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 10
+# text = In fact, I agree with this statement.
+1	In	in	ADP	IN	_	2	case	_	_
+2	fact	fact	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	with	with	ADP	IN	_	8	case	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	statement	statement	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 11
+# text = Because it make our earth save from pollutions, the people will be not disturbed their healthy by smoker, because they (the smokers) do not smoke.
+1	Because	because	SCONJ	IN	_	3	mark	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+4	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	earth	earth	NOUN	NN	Number=Sing	6	compound	_	_
+6	save	save	NOUN	NN	Number=Sing	3	obj	_	_
+7	from	from	ADP	IN	_	8	case	_	_
+8	pollutions	pollution	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	15	punct	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	people	people	NOUN	NNS	Number=Plur	15	nsubj:pass	_	_
+12	will	will	AUX	MD	VerbForm=Fin	15	aux	_	_
+13	be	be	AUX	VB	VerbForm=Inf	15	aux:pass	_	_
+14	not	not	PART	RB	_	15	advmod	_	_
+15	disturbed	disturb	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+16	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	healthy	healthy	ADJ	JJ	Degree=Pos	15	xcomp	_	_
+18	by	by	ADP	IN	_	19	case	_	_
+19	smoker	smoker	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	15	punct	_	_
+21	because	because	SCONJ	IN	_	29	mark	_	_
+22	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	29	nsubj	_	_
+23	(	(	PUNCT	-LRB-	_	25	punct	_	SpaceAfter=No
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	smokers	smoker	NOUN	NNS	Number=Plur	22	appos	_	SpaceAfter=No
+26	)	)	PUNCT	-RRB-	_	25	punct	_	_
+27	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	not	not	PART	RB	_	29	advmod	_	_
+29	smoke	smoke	VERB	VB	VerbForm=Inf	15	advcl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 12
+# text = And the air will be fresh.
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	air	air	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+6	fresh	fresh	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 13
+# text = Yeah, it is the beautiful conditions, isn't it?
+1	Yeah	yeah	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	beautiful	beautiful	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	conditions	condition	NOUN	NNS	Number=Plur	11	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
+10	n't	not	PART	RB	_	11	advmod	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 14
+# text = So, what's the theme will be good if it apply in the country?
+1	So	so	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	what	what	PRON	WP	PronType=Int	0	root	_	SpaceAfter=No
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	theme	theme	NOUN	NN	Number=Sing	9	nsubj	_	_
+7	will	will	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+9	good	good	ADJ	JJ	Degree=Pos	3	acl:relcl	_	_
+10	if	if	SCONJ	IN	_	12	mark	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	apply	apply	VERB	VB	VerbForm=Inf	9	advcl	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	country	country	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+16	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 15
+# text = I think it is not good.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	good	good	ADJ	JJ	Degree=Pos	2	ccomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 16
+# text = Because the smoker will be disagree with this statement.
+1	Because	because	SCONJ	IN	_	6	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	smoker	smoker	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+6	disagree	disagree	ADJ	JJ	Degree=Pos	0	root	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	statement	statement	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 17
+# text = But, if there is place that the smoker can do smoke, maybe it will be solution about this statement.
+1	But	but	CCONJ	CC	_	5	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	if	if	SCONJ	IN	_	5	mark	_	_
+4	there	there	PRON	EX	_	5	expl	_	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	place	place	NOUN	NN	Number=Sing	5	nsubj	_	_
+7	that	that	SCONJ	IN	_	12	mark	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	smoker	smoker	NOUN	NN	Number=Sing	12	nsubj	_	_
+10	can	can	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	do	do	AUX	VB	VerbForm=Inf	12	aux	_	_
+12	smoke	smoke	VERB	VB	VerbForm=Inf	6	acl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	maybe	maybe	ADV	RB	_	18	advmod	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+16	will	will	AUX	MD	VerbForm=Fin	18	aux	_	_
+17	be	be	AUX	VB	VerbForm=Inf	18	cop	_	_
+18	solution	solution	ADJ	JJ	Degree=Pos	12	advcl	_	_
+19	about	about	ADP	IN	_	21	case	_	_
+20	this	this	DET	DT	Number=Sing|PronType=Dem	21	det	_	_
+21	statement	statement	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

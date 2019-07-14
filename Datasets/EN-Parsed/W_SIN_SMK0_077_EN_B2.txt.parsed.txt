@@ -1,0 +1,277 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_SIN_SMK0_077_EN_B2.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking should definitely be completely banned at all the restaurants in the country.
+1	﻿Smoking	﻿Smoking	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
+2	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+3	definitely	definitely	ADV	RB	_	6	advmod	_	_
+4	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+5	completely	completely	ADV	RB	_	6	advmod	_	_
+6	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	at	at	ADP	IN	_	10	case	_	_
+8	all	all	DET	PDT	_	10	det:predet	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	restaurants	restaurant	NOUN	NNS	Number=Plur	6	obl	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	country	country	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = The widely recognized harm that second-hand smoking poses endangers others' health.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	widely	widely	ADV	RB	_	3	advmod	_	_
+3	recognized	recognize	VERB	VBN	Tense=Past|VerbForm=Part	4	amod	_	_
+4	harm	harm	NOUN	NN	Number=Sing	0	root	_	_
+5	that	that	PRON	WDT	PronType=Rel	10	obj	_	_
+6	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	8	amod	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	hand	hand	NOUN	NN	Number=Sing	9	compound	_	_
+9	smoking	smoke	NOUN	NN	Number=Sing	10	nsubj	_	_
+10	poses	pose	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+11	endangers	endangers	NOUN	NNS	Number=Plur	10	obj	_	_
+12	others	other	NOUN	NNS	Number=Plur	14	nmod:poss	_	SpaceAfter=No
+13	'	'	PART	POS	_	12	case	_	_
+14	health	health	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = It is unethical based on the universal law to cause harm to a greater amount of people because of the enjoyment that only one gains.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	unethical	unethical	ADJ	JJ	Degree=Pos	0	root	_	_
+4	based	base	VERB	VBN	Tense=Past|VerbForm=Part	8	case	_	_
+5	on	on	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	universal	universal	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	law	law	NOUN	NN	Number=Sing	3	obl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	cause	cause	VERB	VB	VerbForm=Inf	3	csubj	_	_
+11	harm	harm	NOUN	NN	Number=Sing	10	obj	_	_
+12	to	to	ADP	IN	_	15	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	greater	greater	ADJ	JJR	Degree=Cmp	15	amod	_	_
+15	amount	amount	NOUN	NN	Number=Sing	10	obl	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	people	people	NOUN	NNS	Number=Plur	15	nmod	_	_
+18	because	because	ADP	IN	_	21	case	_	_
+19	of	of	ADP	IN	_	18	fixed	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	enjoyment	enjoyment	NOUN	NN	Number=Sing	3	obl	_	_
+22	that	that	PRON	WDT	PronType=Rel	25	obl	_	_
+23	only	only	ADV	RB	_	25	advmod	_	_
+24	one	one	NUM	CD	NumType=Card	25	nummod	_	_
+25	gains	gain	NOUN	NNS	Number=Plur	21	acl:relcl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = The possible health risks of secondhand smoke include lung cancer, heart disease.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	possible	possible	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	health	health	NOUN	NN	Number=Sing	4	compound	_	_
+4	risks	risk	NOUN	NNS	Number=Plur	8	nsubj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	secondhand	secondhand	DET	DT	_	7	det	_	_
+7	smoke	smoke	NOUN	NN	Number=Sing	4	nmod	_	_
+8	include	include	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	lung	lung	NOUN	NN	Number=Sing	10	compound	_	_
+10	cancer	cancer	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	heart	heart	NOUN	NN	Number=Sing	13	compound	_	_
+13	disease	disease	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 5
+# text = Children that are constantly exposed to secondhand smoke are more likely to be hospitalized when they have the flu.
+1	Children	child	NOUN	NNS	Number=Plur	14	nsubj:pass	_	_
+2	that	that	PRON	WDT	PronType=Rel	5	nsubj:pass	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	constantly	constantly	ADV	RB	_	5	advmod	_	_
+5	exposed	expose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	acl:relcl	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	secondhand	secondhand	DET	DT	_	8	det	_	_
+8	smoke	smoke	NOUN	NN	Number=Sing	5	obl	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+10	more	more	ADV	RBR	_	11	advmod	_	_
+11	likely	likely	ADV	RB	_	14	advmod	_	_
+12	to	to	PART	TO	_	14	mark	_	_
+13	be	be	AUX	VB	VerbForm=Inf	14	aux:pass	_	_
+14	hospitalized	hospitalize	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+15	when	when	ADV	WRB	PronType=Int	17	mark	_	_
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+17	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	flu	flu	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 6
+# text = On top of the health risk, there are also political implications.
+1	On	on	ADP	IN	_	2	case	_	_
+2	top	top	NOUN	NN	Number=Sing	9	obl	_	_
+3	of	of	ADP	IN	_	6	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	health	health	NOUN	NN	Number=Sing	6	compound	_	_
+6	risk	risk	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	there	there	PRON	EX	_	9	expl	_	_
+9	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	also	also	ADV	RB	_	12	advmod	_	_
+11	political	political	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	implications	implication	NOUN	NNS	Number=Plur	9	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 7
+# text = When the government clamps down on smoking, it represents the strong stance it has on the welfare of its people.
+1	When	when	ADV	WRB	PronType=Int	7	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	government	government	NOUN	NN	Number=Sing	4	compound	_	_
+4	clamps	clamp	NOUN	NNS	Number=Plur	7	nsubj	_	_
+5	down	down	ADV	RB	_	7	advmod	_	_
+6	on	on	ADP	IN	_	7	case	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	10	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	represents	represent	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	strong	strong	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	stance	stance	NOUN	NN	Number=Sing	10	obj	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	on	on	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	welfare	welfare	NOUN	NN	Number=Sing	15	obl	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	people	people	NOUN	NNS	Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 8
+# text = There would be no compromise with the general health of its people.
+1	There	there	PRON	EX	_	3	expl	_	_
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	compromise	compromise	NOUN	NN	Number=Sing	3	nsubj	_	_
+6	with	with	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	general	general	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	health	health	NOUN	NN	Number=Sing	5	nmod	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	people	people	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = However, it may also be viewed as too authoritative.
+1	However	however	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	_
+4	may	may	AUX	MD	VerbForm=Fin	7	aux	_	_
+5	also	also	ADV	RB	_	7	advmod	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	viewed	viewed	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	as	as	ADP	IN	_	10	case	_	_
+9	too	too	ADV	RB	_	10	advmod	_	_
+10	authoritative	authoritative	ADJ	JJ	Degree=Pos	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 10
+# text = Smokers may argue that they have the right to smoke in places they spend money on.
+1	Smokers	smoker	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	may	may	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	argue	argue	VERB	VB	VerbForm=Inf	0	root	_	_
+4	that	that	SCONJ	IN	_	6	mark	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	right	right	NOUN	NN	Number=Sing	6	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	smoke	smoke	VERB	VB	VerbForm=Inf	8	acl	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	places	place	NOUN	NNS	Number=Plur	10	obl	_	_
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+14	spend	spend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+15	money	money	NOUN	NN	Number=Sing	14	obj	_	_
+16	on	on	ADP	IN	_	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = However, taking into account for the greater good, smoking should be banned at all restaurants.
+1	However	however	ADV	RB	_	14	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	14	punct	_	_
+3	taking	take	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+4	into	into	ADP	IN	_	5	case	_	_
+5	account	account	NOUN	NN	Number=Sing	3	obl	_	_
+6	for	for	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	greater	greater	ADJ	JJR	Degree=Cmp	9	amod	_	_
+9	good	good	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	smoking	smoking	NOUN	NN	Number=Sing	14	nsubj:pass	_	_
+12	should	should	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	be	be	AUX	VB	VerbForm=Inf	14	aux:pass	_	_
+14	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+15	at	at	ADP	IN	_	17	case	_	_
+16	all	all	DET	DT	_	17	det	_	_
+17	restaurants	restaurant	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 12
+# text = The eating environment in restaurants will be improved and non-smokers can enjoy eating their meal in peace.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	eating	eat	VERB	VBG	VerbForm=Ger	3	amod	_	_
+3	environment	environment	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	restaurants	restaurant	NOUN	NNS	Number=Plur	3	nmod	_	_
+6	will	will	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	improved	improve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	non-smokers	non-smoker	NOUN	NNS	Number=Plur	12	nsubj	_	_
+11	can	can	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	enjoy	enjoy	VERB	VB	VerbForm=Inf	8	conj	_	_
+13	eating	eat	VERB	VBG	VerbForm=Ger	12	xcomp	_	_
+14	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	meal	meal	NOUN	NN	Number=Sing	13	obj	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	peace	peace	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 13
+# text = Kids in family-friendly restaurants would not be exposed to the unhealthy sights of adult smoking and adults would be forced not to smoke in front of their child during meals in restaurants.
+1	Kids	kid	NOUN	NNS	Number=Plur	10	nsubj:pass	_	_
+2	in	in	ADP	IN	_	6	case	_	_
+3	family	family	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+4	-	-	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	friendly	friendly	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	restaurants	restaurant	NOUN	NNS	Number=Plur	1	nmod	_	_
+7	would	would	AUX	MD	VerbForm=Fin	10	aux	_	_
+8	not	not	PART	RB	_	10	advmod	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+10	exposed	expose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+11	to	to	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	unhealthy	unhealthy	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	sights	sight	NOUN	NNS	Number=Plur	22	nsubj:pass	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	adult	adult	NOUN	NN	Number=Sing	17	compound	_	_
+17	smoking	smoking	NOUN	NN	Number=Sing	14	nmod	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	adults	adult	NOUN	NNS	Number=Plur	17	conj	_	_
+20	would	would	AUX	MD	VerbForm=Fin	22	aux	_	_
+21	be	be	AUX	VB	VerbForm=Inf	22	aux:pass	_	_
+22	forced	force	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	ccomp	_	_
+23	not	not	ADV	RB	_	25	advmod	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	smoke	smoke	VERB	VB	VerbForm=Inf	22	conj	_	_
+26	in	in	ADP	IN	_	27	case	_	_
+27	front	front	NOUN	NN	Number=Sing	25	obl	_	_
+28	of	of	ADP	IN	_	30	case	_	_
+29	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	child	child	NOUN	NN	Number=Sing	27	nmod	_	_
+31	during	during	ADP	IN	_	32	case	_	_
+32	meals	meal	NOUN	NNS	Number=Plur	25	obl	_	_
+33	in	in	ADP	IN	_	34	case	_	_
+34	restaurants	restaurant	NOUN	NNS	Number=Plur	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\n
+

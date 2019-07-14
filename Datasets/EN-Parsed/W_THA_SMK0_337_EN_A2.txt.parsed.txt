@@ -1,0 +1,440 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_THA_SMK0_337_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿In Thailand, government supply location for smoking.
+1	﻿In	﻿In	PROPN	NNP	Number=Sing	0	root	_	_
+2	Thailand	Thailand	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	government	government	NOUN	NN	Number=Sing	5	compound	_	_
+5	supply	supply	NOUN	NN	Number=Sing	6	compound	_	_
+6	location	location	NOUN	NN	Number=Sing	1	appos	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Smoking create a nuisance, bad for their health and others Danger of smoking lung cancer.
+1	Smoking	smoke	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	create	create	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	nuisance	nuisance	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	bad	bad	ADJ	JJ	Degree=Pos	4	amod	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	health	health	NOUN	NN	Number=Sing	6	obl	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	others	other	NOUN	NNS	Number=Plur	9	conj	_	_
+12	Danger	danger	NOUN	NN	Number=Sing	9	conj	_	_
+13	of	of	ADP	IN	_	16	case	_	_
+14	smoking	smoking	NOUN	NN	Number=Sing	16	compound	_	_
+15	lung	lung	NOUN	NN	Number=Sing	16	compound	_	_
+16	cancer	cancer	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Caused by toxic substances in cigarette smoke is a "tart" with a death rate of lung cancer in smokers compared to non-smokers have higher ratios of 10: a doctor if the infection is detected early.
+1	Caused	cause	VERB	VBN	Tense=Past|VerbForm=Part	11	acl	_	_
+2	by	by	ADP	IN	_	4	case	_	_
+3	toxic	toxic	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	substances	substance	NOUN	NNS	Number=Plur	1	obl	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	cigarette	cigarette	NOUN	NN	Number=Sing	7	compound	_	_
+7	smoke	smoke	NOUN	NN	Number=Sing	1	obl	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	"	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+11	tart	tart	NOUN	NN	Number=Sing	25	nsubj	_	SpaceAfter=No
+12	"	"	PUNCT	''	_	11	punct	_	_
+13	with	with	ADP	IN	_	16	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	death	death	NOUN	NN	Number=Sing	16	compound	_	_
+16	rate	rate	NOUN	NN	Number=Sing	11	nmod	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	lung	lung	NOUN	NN	Number=Sing	19	compound	_	_
+19	cancer	cancer	NOUN	NN	Number=Sing	16	nmod	_	_
+20	in	in	ADP	IN	_	21	case	_	_
+21	smokers	smoker	NOUN	NNS	Number=Plur	11	nmod	_	_
+22	compared	compare	VERB	VBN	Tense=Past|VerbForm=Part	24	case	_	_
+23	to	to	ADP	IN	_	24	case	_	_
+24	non-smokers	non-smoker	NOUN	NNS	Number=Plur	11	nmod	_	_
+25	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+26	higher	higher	ADJ	JJR	Degree=Cmp	27	amod	_	_
+27	ratios	ratio	NOUN	NNS	Number=Plur	25	obj	_	_
+28	of	of	ADP	IN	_	29	case	_	_
+29	10	10	NUM	CD	NumType=Card	27	nmod	_	SpaceAfter=No
+30	:	:	PUNCT	:	_	27	punct	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
+32	doctor	doctor	NOUN	NN	Number=Sing	27	appos	_	_
+33	if	if	SCONJ	IN	_	37	mark	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	infection	infection	NOUN	NN	Number=Sing	37	nsubj:pass	_	_
+36	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux:pass	_	_
+37	detected	detect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	32	advcl	_	_
+38	early	early	ADV	RB	Degree=Pos	37	advmod	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	25	punct	_	_
+
+# sent_id = 4
+# text = And has undergone surgery to remove tumors from all will likely be cured.
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+3	undergone	undergone	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	surgery	surgery	NOUN	NN	Number=Sing	2	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	remove	remove	VERB	VB	VerbForm=Inf	4	acl	_	_
+7	tumors	tumor	NOUN	NNS	Number=Plur	6	obj	_	_
+8	from	from	ADP	IN	_	9	case	_	_
+9	all	all	DET	DT	_	6	obl	_	_
+10	will	will	AUX	MD	VerbForm=Fin	13	aux	_	_
+11	likely	likely	ADV	RB	_	13	advmod	_	_
+12	be	be	AUX	VB	VerbForm=Inf	13	aux:pass	_	_
+13	cured	cure	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 5
+# text = However, most patients on the doctor.
+1	However	however	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	most	most	ADJ	JJS	Degree=Sup	4	amod	_	_
+4	patients	patient	NOUN	NNS	Number=Plur	0	root	_	_
+5	on	on	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	doctor	doctor	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = And identifiable.
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	identifiable	identifiable	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Term treatment or surgery to be cured.
+1	Term	term	NOUN	NN	Number=Sing	2	compound	_	_
+2	treatment	treatment	NOUN	NN	Number=Sing	0	root	_	_
+3	or	or	CCONJ	CC	_	4	cc	_	_
+4	surgery	surgery	NOUN	NN	Number=Sing	2	conj	_	_
+5	to	to	PART	TO	_	7	mark	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	cured	cure	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Cardiovascular disease caused by nicotine in cigarette smoke.
+1	Cardiovascular	Cardiovascular	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	disease	disease	NOUN	NN	Number=Sing	0	root	_	_
+3	caused	cause	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	_
+4	by	by	ADP	IN	_	5	case	_	_
+5	nicotine	nicotine	NUM	CD	NumType=Card	3	obl	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	cigarette	cigarette	NOUN	NN	Number=Sing	8	compound	_	_
+8	smoke	smoke	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = A toxic substance.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	toxic	toxic	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	substance	substance	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = And harm the cardiovascular system, nervous stomach, intestines and malfunction.
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	harm	harm	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	cardiovascular	cardiovascular	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	system	system	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	nervous	nervous	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	stomach	stomach	NOUN	NN	Number=Sing	2	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	intestines	intestine	NOUN	NNS	Number=Plur	8	conj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	malfunction	malfunction	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 11
+# text = The blood pressure increase.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	blood	blood	NOUN	NN	Number=Sing	3	compound	_	_
+3	pressure	pressure	NOUN	NN	Number=Sing	4	compound	_	_
+4	increase	increase	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 12
+# text = Heart beats faster.
+1	Heart	heart	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	beats	beat	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	faster	faster	ADJ	JJR	Degree=Cmp	2	xcomp	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 13
+# text = Irritant to the heart muscle.
+1	Irrita	Irrita	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	nt	not	PART	RB	_	1	advmod	_	_
+3	to	to	ADP	IN	_	6	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	heart	heart	NOUN	NN	Number=Sing	6	compound	_	_
+6	muscle	muscle	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 14
+# text = Severe vascular and general decline.
+1	Severe	severe	ADJ	JJ	Degree=Pos	5	amod	_	_
+2	vascular	vascular	ADJ	JJ	Degree=Pos	5	amod	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	general	general	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	decline	decline	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 15
+# text = Rate of ischemic heart disease in men who smoke are more than the man who is not high.
+1	Rate	rate	NOUN	NN	Number=Sing	11	nsubj	_	_
+2	of	of	ADP	IN	_	5	case	_	_
+3	ischemic	ischemic	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	heart	heart	NOUN	NN	Number=Sing	5	compound	_	_
+5	disease	disease	NOUN	NN	Number=Sing	1	nmod	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	men	man	NOUN	NNS	Number=Plur	1	nmod	_	_
+8	who	who	PRON	WP	PronType=Rel	9	nsubj	_	_
+9	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	more	more	ADJ	JJR	Degree=Cmp	0	root	_	_
+12	than	than	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	man	man	NOUN	NN	Number=Sing	11	obl	_	_
+15	who	who	PRON	WP	PronType=Rel	18	nsubj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	not	not	PART	RB	_	18	advmod	_	_
+18	high	high	ADJ	JJ	Degree=Pos	14	acl:relcl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 16
+# text = Smoking and 60-70 percent in women who smoke contraceptive medication which will have a chance with this disease.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	and	and	CCONJ	CC	_	6	cc	_	_
+3	60	60	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
+4	-	-	SYM	SYM	_	5	case	_	SpaceAfter=No
+5	70	70	NUM	CD	NumType=Card	3	nmod	_	_
+6	percent	percent	NOUN	NN	Number=Sing	1	conj	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	women	woman	NOUN	NNS	Number=Plur	1	obl	_	_
+9	who	who	PRON	WP	PronType=Rel	10	nsubj	_	_
+10	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	contraceptive	contraceptive	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	medication	medication	NOUN	NN	Number=Sing	10	obj	_	_
+13	which	which	PRON	WDT	PronType=Rel	15	nsubj	_	_
+14	will	will	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	have	have	VERB	VB	VerbForm=Inf	12	acl:relcl	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	chance	chance	NOUN	NN	Number=Sing	15	obj	_	_
+18	with	with	ADP	IN	_	20	case	_	_
+19	this	this	DET	DT	Number=Sing|PronType=Dem	20	det	_	_
+20	disease	disease	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 17
+# text = More than female non-smokers.
+1	More	more	ADJ	JJR	Degree=Cmp	0	root	_	_
+2	than	than	ADP	IN	_	4	case	_	_
+3	female	female	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	non-smokers	non-smoker	NOUN	NNS	Number=Plur	1	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 18
+# text = And not birth control medication and 10 In addition, smoking also causes blood vessels in stroke paralyzed
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	not	not	ADV	RB	_	5	advmod	_	_
+3	birth	birth	NOUN	NN	Number=Sing	4	compound	_	_
+4	control	control	NOUN	NN	Number=Sing	5	compound	_	_
+5	medication	medication	NOUN	NN	Number=Sing	0	root	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	10	10	NUM	CD	NumType=Card	5	conj	_	_
+8	In	in	ADP	IN	_	9	case	_	_
+9	addition	addition	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	5	punct	_	_
+11	smoking	smoke	VERB	VBG	VerbForm=Ger	13	csubj	_	_
+12	also	also	ADV	RB	_	13	advmod	_	_
+13	causes	cause	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+14	blood	blood	NOUN	NN	Number=Sing	15	compound	_	_
+15	vessels	vessel	NOUN	NNS	Number=Plur	13	obj	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	stroke	stroke	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	paralyzed	paralyzed	NOUN	NN	Number=Sing	15	nmod	_	_
+
+# sent_id = 19
+# text = The limb vessels are clogged by skin ulcers from ischemia.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	limb	limb	NOUN	NN	Number=Sing	3	compound	_	_
+3	vessels	vessel	NOUN	NNS	Number=Plur	5	nsubj:pass	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	clogged	clog	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	by	by	ADP	IN	_	8	case	_	_
+7	skin	skin	NOUN	NN	Number=Sing	8	compound	_	_
+8	ulcers	ulcer	NOUN	NNS	Number=Plur	5	obl	_	_
+9	from	from	ADP	IN	_	10	case	_	_
+10	ischemia	ischemia	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 20
+# text = And the accumulation of fat under the walls of medium and large blood vessels.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	accumulation	accumulation	NOUN	NN	Number=Sing	0	root	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	fat	fat	NOUN	NN	Number=Sing	3	nmod	_	_
+6	under	under	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	walls	wall	NOUN	NNS	Number=Plur	3	nmod	_	_
+9	of	of	ADP	IN	_	14	case	_	_
+10	medium	medium	ADJ	JJ	Degree=Pos	14	amod	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	large	large	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	blood	blood	NOUN	NN	Number=Sing	14	compound	_	_
+14	vessels	vessel	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 21
+# text = In Thailand, there is legal not to selling cigarettes to children under 18 year.
+1	In	in	ADP	IN	_	2	case	_	_
+2	Thailand	Thailand	PROPN	NNP	Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	there	there	PRON	EX	_	5	expl	_	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	legal	legal	ADJ	JJ	Degree=Pos	10	amod	_	_
+7	not	not	ADV	RB	_	9	advmod	_	_
+8	to	to	SCONJ	IN	_	9	mark	_	_
+9	selling	sell	VERB	VBG	VerbForm=Ger	10	amod	_	_
+10	cigarettes	cigarette	NOUN	NNS	Number=Plur	5	nsubj	_	_
+11	to	to	ADP	IN	_	12	case	_	_
+12	children	child	NOUN	NNS	Number=Plur	10	nmod	_	_
+13	under	under	ADP	IN	_	15	case	_	_
+14	18	18	NUM	CD	NumType=Card	15	nummod	_	_
+15	year	year	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 22
+# text = Who disobey will be fined or prosecuted.
+1	Who	who	PRON	WP	PronType=Int	5	nsubj:pass	_	_
+2	disobey	disobey	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj:pass	_	_
+3	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	fined	fine	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	or	or	CCONJ	CC	_	7	cc	_	_
+7	prosecuted	prosecute	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 23
+# text = Having laws that prohibit smoking in public have benefits for non-smokers who.
+1	Having	have	VERB	VBG	VerbForm=Ger	2	amod	_	_
+2	laws	law	NOUN	NNS	Number=Plur	8	nsubj	_	_
+3	that	that	PRON	WDT	PronType=Rel	4	nsubj	_	_
+4	prohibit	prohibit	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	4	obj	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	public	public	ADJ	JJ	Degree=Pos	4	obl	_	_
+8	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	benefits	benefit	NOUN	NNS	Number=Plur	8	obj	_	_
+10	for	for	ADP	IN	_	11	case	_	_
+11	non-smokers	non-smoker	NOUN	NNS	Number=Plur	9	nmod	_	_
+12	who	who	PRON	WP	PronType=Rel	11	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 24
+# text = Places are ban smoking; sample, school, hospital, nursery, on bus, official place and other.
+1	Places	place	NOUN	NNS	Number=Plur	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	ban	ban	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	4	punct	_	_
+6	sample	sample	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	school	school	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	hospital	hospital	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	nursery	nursery	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	18	punct	_	_
+14	on	on	ADP	IN	_	15	case	_	_
+15	bus	bus	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	official	official	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	place	place	NOUN	NN	Number=Sing	6	conj	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	other	other	ADJ	JJ	Degree=Pos	6	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 25
+# text = "Smoking should be completely banned at all the restaurants in the country. "
+1	"	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Smoking	smoking	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
+3	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+5	completely	completely	ADV	RB	_	6	advmod	_	_
+6	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	at	at	ADP	IN	_	10	case	_	_
+8	all	all	DET	PDT	_	10	det:predet	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	restaurants	restaurant	NOUN	NNS	Number=Plur	6	obl	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	country	country	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	_
+15	"	"	PUNCT	''	_	6	punct	_	_
+
+# sent_id = 26
+# text = For I agree with this topic.
+1	For	for	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	topic	topic	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 27
+# text = Because I don't like smoke.
+1	Because	because	SCONJ	IN	_	5	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n't	not	PART	RB	_	5	advmod	_	_
+5	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+6	smoke	smoke	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 28
+# text = When I get cigarette smoke can have a stuffed nose.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+4	cigarette	cigarette	NOUN	NN	Number=Sing	5	compound	_	_
+5	smoke	smoke	NOUN	NN	Number=Sing	3	obj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	stuffed	stuffed	VERB	VBN	Tense=Past|VerbForm=Part	10	amod	_	_
+10	nose	nose	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 29
+# text = My father and brother never are smoking.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	father	father	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	brother	brother	NOUN	NN	Number=Sing	2	conj	_	_
+5	never	never	ADV	RB	_	7	advmod	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 30
+# text = So I agree with this topic.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	topic	topic	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

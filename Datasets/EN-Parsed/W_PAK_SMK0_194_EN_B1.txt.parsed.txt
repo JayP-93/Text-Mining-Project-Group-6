@@ -1,0 +1,323 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PAK_SMK0_194_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Interval, gradual, healthy way of life, change of brand fruit, mouth wash.
+1	﻿Interval	﻿Interval	ADJ	JJ	Degree=Pos	6	amod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	gradual	gradual	ADJ	JJ	Degree=Pos	6	amod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	healthy	healthy	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	way	way	NOUN	NN	Number=Sing	10	obl:npmod	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	life	life	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	change	change	NOUN	NN	Number=Sing	0	root	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	brand	brand	NOUN	NN	Number=Sing	13	compound	_	_
+13	fruit	fruit	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	mouth	mouth	NOUN	NN	Number=Sing	16	nsubj	_	_
+16	wash	wash	VERB	VB	VerbForm=Inf	10	parataxis	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = By smoking we usually mean smoking of tobacco.
+1	By	by	ADP	IN	_	2	case	_	_
+2	smoking	smoking	NOUN	NN	Number=Sing	5	obl	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+4	usually	usually	ADV	RB	_	5	advmod	_	_
+5	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	5	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	tobacco	tobacco	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = There are many people who are addicted to the smoking of opium and other intoxicating drugs.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	people	people	NOUN	NNS	Number=Plur	2	nsubj	_	_
+5	who	who	PRON	WP	PronType=Rel	7	nsubj:pass	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	addicted	addicte	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl:relcl	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	7	obl	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	opium	opium	NOUN	NN	Number=Sing	10	nmod	_	_
+13	and	and	CCONJ	CC	_	16	cc	_	_
+14	other	other	ADJ	JJ	Degree=Pos	16	amod	_	_
+15	intoxicating	intoxicating	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	drugs	drug	NOUN	NNS	Number=Plur	12	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = People use various kinds of apparatus for tobacco-smoking such as hookah, pipes, cigars, cigarettes and cheroots.
+1	People	people	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	use	use	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	various	various	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	kinds	kind	NOUN	NNS	Number=Plur	2	obj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	apparatus	apparatus	NOUN	NN	Number=Sing	4	nmod	_	_
+7	for	for	ADP	IN	_	10	case	_	_
+8	tobacco	tobacco	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	smoking	smoking	NOUN	NN	Number=Sing	2	obl	_	_
+11	such	such	ADJ	JJ	Degree=Pos	13	case	_	_
+12	as	as	ADP	IN	_	11	fixed	_	_
+13	hookah	hookah	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	pipes	pipe	NOUN	NNS	Number=Plur	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	_
+17	cigars	cigar	NOUN	NNS	Number=Plur	13	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	_	_
+19	cigarettes	cigarette	NOUN	NNS	Number=Plur	13	conj	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	cheroots	cheroot	NOUN	NNS	Number=Plur	13	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Tobacco was first brought from America to Europe Early one day in 1492, Columbus's shipmates saw the people of island (now known as Cuba) smoking bundles of rolled leaves.
+1	Tobacco	Tobacco	PROPN	NNP	Number=Sing	4	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+3	first	first	ADV	RB	_	4	advmod	_	_
+4	brought	brotch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	from	from	ADP	IN	_	6	case	_	_
+6	America	America	PROPN	NNP	Number=Sing	4	obl	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	Europe	Europe	PROPN	NNP	Number=Sing	4	obl	_	_
+9	Early	early	ADV	RB	_	11	advmod	_	_
+10	one	one	NUM	CD	NumType=Card	11	nummod	_	_
+11	day	day	NOUN	NN	Number=Sing	4	obl:tmod	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	1492	1492	NUM	CD	NumType=Card	4	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	4	punct	_	_
+15	Columbus	Columbus	PROPN	NNP	Number=Sing	17	nmod:poss	_	SpaceAfter=No
+16	's	's	PART	POS	_	15	case	_	_
+17	shipmates	shipmate	NOUN	NNS	Number=Plur	18	nsubj	_	_
+18	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	people	people	NOUN	NNS	Number=Plur	18	obj	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	island	island	NOUN	NN	Number=Sing	20	nmod	_	_
+23	(	(	PUNCT	-LRB-	_	25	punct	_	SpaceAfter=No
+24	now	now	ADV	RB	_	25	advmod	_	_
+25	known	know	VERB	VBN	Tense=Past|VerbForm=Part	22	acl	_	_
+26	as	as	ADP	IN	_	30	case	_	_
+27	Cuba	Cuba	PROPN	NNP	Number=Sing	30	compound	_	SpaceAfter=No
+28	)	)	PUNCT	-RRB-	_	27	punct	_	_
+29	smoking	smoke	NOUN	NN	Number=Sing	30	compound	_	_
+30	bundles	bundle	NOUN	NNS	Number=Plur	25	obl	_	_
+31	of	of	ADP	IN	_	33	case	_	_
+32	rolled	roll	VERB	VBN	Tense=Past|VerbForm=Part	33	amod	_	_
+33	leaves	leave	NOUN	NNS	Number=Plur	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = They copied this habit and became smoking.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	copied	copy	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	habit	habit	NOUN	NN	Number=Sing	2	obj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	6	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Later on Sir Walter Raleigh introduced tobacco and smoking in Europe.
+1	Later	later	ADV	RBR	Degree=Cmp	6	advmod	_	_
+2	on	on	ADP	IN	_	5	case	_	_
+3	Sir	Sir	PROPN	NNP	Number=Sing	5	compound	_	_
+4	Walter	Walter	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Raleigh	Raleigh	PROPN	NNP	Number=Sing	6	nsubj	_	_
+6	introduced	introduce	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	tobacco	tobacco	NOUN	NN	Number=Sing	6	obj	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	smoking	smoke	NOUN	NN	Number=Sing	7	conj	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	Europe	Europe	PROPN	NNP	Number=Sing	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 8
+# text = Hookah-smoking was known to Eastern Kings.
+1	Hookah	Hookah	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+2	-	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+3	smoking	smoking	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	Eastern	Eastern	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Kings	kings	PROPN	NNP	Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = The Physicians used it as a cure for stomach-troubles.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	Physicians	Physicians	PROPN	NNPS	Number=Plur	3	nsubj	_	_
+3	used	use	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	as	as	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	cure	cure	NOUN	NN	Number=Sing	3	obl	_	_
+8	for	for	ADP	IN	_	11	case	_	_
+9	stomach	stomach	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	troubles	trouble	NOUN	NNS	Number=Plur	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Now smoking is one of the most popular habits.
+1	Now	now	ADV	RB	_	4	advmod	_	_
+2	smoking	smoke	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	one	one	NUM	CD	NumType=Card	0	root	_	_
+5	of	of	ADP	IN	_	9	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+7	most	most	ADV	RBS	_	8	advmod	_	_
+8	popular	popular	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	habits	habit	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = Even women have caught up this habit.
+1	Even	even	ADV	RB	_	2	advmod	_	_
+2	women	woman	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	caught	catch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	up	up	ADP	IN	_	4	compound:prt	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	habit	habit	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 12
+# text = The new issue of no smoking in restaurants is a very controversial topic that people feel is unfair and unconstitutional.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	new	new	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	issue	issue	NOUN	NN	Number=Sing	13	nsubj	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	no	no	DET	DT	_	6	det	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	3	nmod	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	restaurants	restaurant	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+11	very	very	ADV	RB	_	12	advmod	_	_
+12	controversial	controversial	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	topic	topic	NOUN	NN	Number=Sing	0	root	_	_
+14	that	that	SCONJ	IN	_	16	mark	_	_
+15	people	people	NOUN	NNS	Number=Plur	16	nsubj	_	_
+16	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	unfair	unfair	ADJ	JJ	Degree=Pos	16	xcomp	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	unconstitutional	unconstitutional	ADJ	JJ	Degree=Pos	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 13
+# text = People believe it is unconstitutional because it is against the constitution to tell people what they can and cannot do.
+1	People	people	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	unconstitutional	unconstitutional	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+6	because	because	SCONJ	IN	_	11	mark	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	against	against	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	constitution	constitution	NOUN	NN	Number=Sing	5	advcl	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	tell	tell	VERB	VB	VerbForm=Inf	11	acl	_	_
+14	people	people	NOUN	NNS	Number=Plur	13	obj	_	_
+15	what	what	PRON	WP	PronType=Int	13	obj	_	_
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+17	can	can	AUX	MD	VerbForm=Fin	15	acl:relcl	_	_
+18	and	and	CCONJ	CC	_	21	cc	_	_
+19	can	can	AUX	MD	VerbForm=Fin	21	aux	_	SpaceAfter=No
+20	not	not	PART	RB	_	21	advmod	_	_
+21	do	do	VERB	VB	VerbForm=Inf	13	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 14
+# text = I agree with this law because with cigarettes particularly, the most harm is done to the non-smoker, an innocent bystander.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	with	with	ADP	IN	_	5	case	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	law	law	NOUN	NN	Number=Sing	2	obl	_	_
+6	because	because	SCONJ	IN	_	15	mark	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	cigarettes	cigarette	NOUN	NNS	Number=Plur	15	obl	_	_
+9	particularly	particularly	ADV	RB	_	15	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	15	punct	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	most	most	ADJ	JJS	Degree=Sup	13	amod	_	_
+13	harm	harm	NOUN	NN	Number=Sing	15	nsubj:pass	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	advcl	_	_
+16	to	to	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	non-smoker	non-smoker	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	an	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+21	innocent	innocent	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	bystander	bystander	NOUN	NN	Number=Sing	18	appos	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 15
+# text = In restaurants these bystanders are usually the employees.
+1	In	in	ADP	IN	_	2	case	_	_
+2	restaurants	restaurant	NOUN	NNS	Number=Plur	8	obl	_	_
+3	these	these	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+4	bystanders	bystander	NOUN	NNS	Number=Plur	8	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	usually	usually	ADV	RB	_	8	advmod	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	employees	employee	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 16
+# text = Employees that don't smoke don't have the choice to sit in the non-smoking section, they must work in the entire restaurant and subject themselves to second-hand smoke which is more harmful than actually smoking.
+1	Employees	employee	NOUN	NNS	Number=Plur	8	nsubj	_	_
+2	that	that	PRON	WDT	PronType=Rel	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n't	not	PART	RB	_	5	advmod	_	_
+5	smoke	smoke	VERB	VB	VerbForm=Inf	1	acl:relcl	_	_
+6	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
+7	n't	not	PART	RB	_	8	advmod	_	_
+8	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	choice	choice	NOUN	NN	Number=Sing	8	obj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	sit	sit	VERB	VB	VerbForm=Inf	10	acl	_	_
+13	in	in	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	non-smoking	non-smoking	NOUN	NN	Number=Sing	16	compound	_	_
+16	section	section	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	8	punct	_	_
+18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+19	must	must	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	work	work	VERB	VB	VerbForm=Inf	8	parataxis	_	_
+21	in	in	ADP	IN	_	24	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	entire	entire	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	restaurant	restaurant	NOUN	NN	Number=Sing	20	obl	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	subject	subject	VERB	VB	VerbForm=Inf	20	conj	_	_
+27	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	26	obj	_	_
+28	to	to	ADP	IN	_	32	case	_	_
+29	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	31	amod	_	SpaceAfter=No
+30	-	-	PUNCT	HYPH	_	31	punct	_	SpaceAfter=No
+31	hand	hand	NOUN	NN	Number=Sing	32	compound	_	_
+32	smoke	smoke	NOUN	NN	Number=Sing	26	obl	_	_
+33	which	which	PRON	WDT	PronType=Rel	36	nsubj	_	_
+34	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
+35	more	more	ADV	RBR	_	36	advmod	_	_
+36	harmful	harmful	ADJ	JJ	Degree=Pos	32	acl:relcl	_	_
+37	than	than	SCONJ	IN	_	39	mark	_	_
+38	actually	actually	ADV	RB	_	39	advmod	_	_
+39	smoking	smoke	VERB	VBG	VerbForm=Ger	36	advcl	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

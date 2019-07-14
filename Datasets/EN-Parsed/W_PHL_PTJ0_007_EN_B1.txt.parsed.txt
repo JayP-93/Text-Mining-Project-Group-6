@@ -1,0 +1,338 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PHL_PTJ0_007_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Part time jobs can help you financially especially when you're in college.
+1	﻿Part	﻿Part	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	time	time	NOUN	NN	Number=Sing	3	compound	_	_
+3	jobs	job	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	help	help	VERB	VB	VerbForm=Inf	0	root	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obj	_	_
+7	financially	financially	ADV	RB	_	5	advmod	_	_
+8	especially	especially	ADV	RB	_	13	advmod	_	_
+9	when	when	ADV	WRB	PronType=Int	13	mark	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	SpaceAfter=No
+11	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	college	college	NOUN	NN	Number=Sing	5	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = College tuition fees vary on your course and of course, the school you are going to study at.
+1	College	college	NOUN	NN	Number=Sing	3	compound	_	_
+2	tuition	tuition	NOUN	NN	Number=Sing	3	compound	_	_
+3	fees	fee	NOUN	NNS	Number=Plur	0	root	_	_
+4	vary	vary	ADJ	JJ	Degree=Pos	3	amod	_	_
+5	on	on	ADP	IN	_	7	case	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	course	course	NOUN	NN	Number=Sing	3	nmod	_	_
+8	and	and	CCONJ	CC	_	13	cc	_	_
+9	of	of	ADV	RB	_	13	advmod	_	_
+10	course	course	ADV	RB	_	9	fixed	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	school	school	NOUN	NN	Number=Sing	3	conj	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+15	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	13	acl:relcl	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	study	study	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	at	at	ADP	IN	_	18	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = If the university you are going to study at is well-known and has good standards, the more it is expensive.
+1	If	if	SCONJ	IN	_	10	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	university	university	NOUN	NN	Number=Sing	10	nsubj	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	study	study	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	at	at	ADP	IN	_	8	obl	_	_
+10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	well	well	ADV	RB	Degree=Pos	10	advmod	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+13	known	know	ADJ	JJ	Degree=Pos	10	parataxis	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+16	good	good	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	standards	standard	NOUN	NNS	Number=Plur	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	23	punct	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+20	more	more	ADV	RBR	_	23	advmod	_	_
+21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	expensive	expensive	ADJ	JJ	Degree=Pos	13	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 4
+# text = Though there are universities that offer scholarships, there are just chosen students who can commit to it.
+1	Though	though	SCONJ	IN	_	3	mark	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+4	universities	universities	NOUN	NNS	Number=Plur	3	nsubj	_	_
+5	that	that	PRON	WDT	PronType=Rel	6	nsubj	_	_
+6	offer	offer	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	scholarships	scholarship	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	there	there	PRON	EX	_	10	expl	_	_
+10	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	just	just	ADV	RB	_	12	advmod	_	_
+12	chosen	choose	NUM	CD	NumType=Card	13	nummod	_	_
+13	students	student	NOUN	NNS	Number=Plur	10	nsubj	_	_
+14	who	who	PRON	WP	PronType=Rel	16	nsubj	_	_
+15	can	can	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	commit	commit	VERB	VB	VerbForm=Inf	13	acl:relcl	_	_
+17	to	to	ADP	IN	_	18	case	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 5
+# text = Some public schools offer less tuition fees but you still pay them.
+1	Some	some	DET	DT	_	3	det	_	_
+2	public	public	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	schools	school	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	offer	offer	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	less	less	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	tuition	tuition	NOUN	NN	Number=Sing	7	compound	_	_
+7	fees	fee	NOUN	NNS	Number=Plur	4	obj	_	_
+8	but	but	CCONJ	CC	_	11	cc	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+10	still	still	ADV	RB	_	11	advmod	_	_
+11	pay	pay	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Having a part-time job can help you especially when you applied to a job that has great amount of salary but as a student, I doubt you're going to find a job that offers a lot of money.
+1	Having	have	VERB	VBG	VerbForm=Ger	8	csubj	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+3	part	part	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	time	time	NOUN	NN	Number=Sing	6	compound	_	_
+6	job	job	NOUN	NN	Number=Sing	1	obj	_	_
+7	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	help	help	VERB	VB	VerbForm=Inf	0	root	_	_
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	obj	_	_
+10	especially	especially	ADV	RB	_	13	advmod	_	_
+11	when	when	ADV	WRB	PronType=Int	13	mark	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+13	applied	apply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	_
+14	to	to	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	job	job	NOUN	NN	Number=Sing	13	obl	_	_
+17	that	that	PRON	WDT	PronType=Rel	18	nsubj	_	_
+18	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	great	great	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	amount	amount	NOUN	NN	Number=Sing	18	obj	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	salary	salary	NOUN	NN	Number=Sing	20	nmod	_	_
+23	but	but	CCONJ	CC	_	26	cc	_	_
+24	as	as	ADP	IN	_	26	case	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	student	student	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	29	punct	_	_
+28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
+29	doubt	doubt	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+30	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	32	nsubj	_	SpaceAfter=No
+31	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	29	ccomp	_	_
+33	to	to	PART	TO	_	34	mark	_	_
+34	find	find	VERB	VB	VerbForm=Inf	32	xcomp	_	_
+35	a	a	DET	DT	Definite=Ind|PronType=Art	36	det	_	_
+36	job	job	NOUN	NN	Number=Sing	34	obj	_	_
+37	that	that	PRON	WDT	PronType=Rel	38	nsubj	_	_
+38	offers	offer	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	_
+39	a	a	DET	DT	Definite=Ind|PronType=Art	40	det	_	_
+40	lot	lot	NOUN	NN	Number=Sing	38	obj	_	_
+41	of	of	ADP	IN	_	42	case	_	_
+42	money	money	NOUN	NN	Number=Sing	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 7
+# text = Studying while working can cause you difficulties on your time and schedule.
+1	Studying	study	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	while	while	SCONJ	IN	_	3	mark	_	_
+3	working	work	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	cause	cause	VERB	VB	VerbForm=Inf	1	conj	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	iobj	_	_
+7	difficulties	difficulty	NOUN	NNS	Number=Plur	5	obj	_	_
+8	on	on	ADP	IN	_	10	case	_	_
+9	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	time	time	NOUN	NN	Number=Sing	5	obl	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	schedule	schedule	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 8
+# text = It is either you're going to sacrifice time for your studies or your job.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	either	either	CCONJ	CC	_	0	root	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	SpaceAfter=No
+5	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	sacrifice	sacrifice	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	time	time	NOUN	NN	Number=Sing	8	obj	_	_
+10	for	for	ADP	IN	_	12	case	_	_
+11	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	studies	study	NOUN	NNS	Number=Plur	9	nmod	_	_
+13	or	or	CCONJ	CC	_	15	cc	_	_
+14	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	job	job	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = Working isn't really needed in college when you still have your parents to support you.
+1	Working	Working	NOUN	NN	Number=Sing	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+3	n't	not	PART	RB	_	5	advmod	_	_
+4	really	really	ADV	RB	_	5	advmod	_	_
+5	needed	need	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	college	college	NOUN	NN	Number=Sing	5	obl	_	_
+8	when	when	ADV	WRB	PronType=Int	11	mark	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+10	still	still	ADV	RB	_	11	advmod	_	_
+11	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+12	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	parents	parent	NOUN	NNS	Number=Plur	11	obj	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	support	support	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 10
+# text = It doesn't mean that you'll let them pay until you have children.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	mean	mean	VERB	VB	VerbForm=Inf	0	root	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	SpaceAfter=No
+7	'll	will	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	let	let	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+10	pay	pay	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	until	until	SCONJ	IN	_	13	mark	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+13	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+14	children	child	NOUN	NNS	Number=Plur	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = You'll just have to pay them back by doing little things for them like washing the dishes and stuff, especially when your grades are high.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	'll	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	just	just	ADV	RB	_	4	advmod	_	_
+4	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	pay	pay	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+8	back	back	ADV	RB	_	6	advmod	_	_
+9	by	by	SCONJ	IN	_	10	mark	_	_
+10	doing	do	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+11	little	little	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	things	thing	NOUN	NNS	Number=Plur	10	obj	_	_
+13	for	for	ADP	IN	_	14	case	_	_
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	nmod	_	_
+15	like	like	SCONJ	IN	_	16	mark	_	_
+16	washing	wash	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	dishes	dish	NOUN	NNS	Number=Plur	16	obj	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	stuff	stuff	NOUN	NN	Number=Sing	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	4	punct	_	_
+22	especially	especially	ADV	RB	_	27	advmod	_	_
+23	when	when	ADV	WRB	PronType=Int	27	mark	_	_
+24	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	grades	grade	NOUN	NNS	Number=Plur	27	nsubj	_	_
+26	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	27	cop	_	_
+27	high	high	ADJ	JJ	Degree=Pos	4	advcl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 12
+# text = Your parents will really appreciate it.
+1	Your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	parents	parent	NOUN	NNS	Number=Plur	5	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	really	really	ADV	RB	_	5	advmod	_	_
+5	appreciate	appreciate	VERB	VB	VerbForm=Inf	0	root	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 13
+# text = They won't regret giving you the money to study in a prestigious university.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	wo	will	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	regret	regret	VERB	VB	VerbForm=Inf	0	root	_	_
+5	giving	give	VERB	VBG	VerbForm=Ger	4	xcomp	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	iobj	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	money	money	NOUN	NN	Number=Sing	5	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	study	study	VERB	VB	VerbForm=Inf	5	advcl	_	_
+11	in	in	ADP	IN	_	14	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	prestigious	prestigious	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	university	university	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 14
+# text = So for me, part-time job isn't really needed unless you're family needs money and you have to sacrifice a little bit of time for working in place of studying.
+1	So	so	ADV	RB	_	12	advmod	_	_
+2	for	for	ADP	IN	_	3	case	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	12	punct	_	_
+5	part	part	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	time	time	NOUN	NN	Number=Sing	8	compound	_	_
+8	job	job	NOUN	NN	Number=Sing	12	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
+10	n't	not	PART	RB	_	12	advmod	_	_
+11	really	really	ADV	RB	_	12	advmod	_	_
+12	needed	need	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+13	unless	unless	SCONJ	IN	_	18	mark	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	SpaceAfter=No
+15	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	family	family	NOUN	NN	Number=Sing	17	compound	_	_
+17	needs	need	NOUN	NNS	Number=Plur	18	compound	_	_
+18	money	money	NOUN	NN	Number=Sing	12	advcl	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	21	nsubj	_	_
+21	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	conj	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	sacrifice	sacrifice	VERB	VB	VerbForm=Inf	21	xcomp	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+25	little	little	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	bit	bit	NOUN	NN	Number=Sing	23	obj	_	_
+27	of	of	ADP	IN	_	28	case	_	_
+28	time	time	NOUN	NN	Number=Sing	26	nmod	_	_
+29	for	for	SCONJ	IN	_	30	mark	_	_
+30	working	work	VERB	VBG	VerbForm=Ger	23	advcl	_	_
+31	in	in	ADP	IN	_	32	case	_	_
+32	place	place	NOUN	NN	Number=Sing	30	obl	_	_
+33	of	of	SCONJ	IN	_	34	mark	_	_
+34	studying	studying	VERB	VBG	VerbForm=Ger	32	acl	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 15
+# text = You must be determined to do both at the same time.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	_
+4	determined	determined	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	do	do	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	both	both	CCONJ	CC	_	6	obj	_	_
+8	at	at	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	same	same	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	time	time	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

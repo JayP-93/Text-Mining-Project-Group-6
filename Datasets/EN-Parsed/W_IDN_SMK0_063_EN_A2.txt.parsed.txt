@@ -1,0 +1,305 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_IDN_SMK0_063_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿We know that smoking is not health.
+1	﻿We	﻿we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	7	mark	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	7	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	not	not	PART	RB	_	7	advmod	_	_
+7	health	health	NOUN	NN	Number=Sing	2	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = But many people smokes everyday.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	many	many	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	smokes	smoke	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	every	every	DET	DT	_	6	det	_	SpaceAfter=No
+6	day	day	NOUN	NN	Number=Sing	4	obl:tmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Smoking is not good, because smoke from cigarette can destroy your brain.
+1	Smoking	smoking	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	good	good	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	because	because	SCONJ	IN	_	11	mark	_	_
+7	smoke	smoke	NOUN	NN	Number=Sing	11	nsubj	_	_
+8	from	from	ADP	IN	_	9	case	_	_
+9	cigarette	cigarette	NOUN	NN	Number=Sing	7	nmod	_	_
+10	can	can	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	destroy	destroy	VERB	VB	VerbForm=Inf	4	advcl	_	_
+12	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	brain	brain	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Smoking makes heart attack, impotency, and other disease.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	2	csubj	_	_
+2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	heart	heart	NOUN	NN	Number=Sing	4	compound	_	_
+4	attack	attack	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	impotency	impotency	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	other	other	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	disease	disease	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Many smoking area in everywhere.
+1	Many	many	ADJ	JJ	Degree=Pos	3	amod	_	_
+2	smoking	smok	NOUN	NN	Number=Sing	3	compound	_	_
+3	area	area	NOUN	NN	Number=Sing	0	root	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	everywhere	everywhere	ADV	RB	_	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = But just some people use the smoking area.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	just	just	ADV	RB	_	5	advmod	_	_
+3	some	some	DET	DT	_	4	det	_	_
+4	people	people	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	use	use	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	8	compound	_	_
+8	area	area	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 7
+# text = Many people can attack the disease from smoking, because we breath smoke from cigarette, and we call passive smoker.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	attack	attack	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	disease	disease	NOUN	NN	Number=Sing	4	obj	_	_
+7	from	from	ADP	IN	_	8	case	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	because	because	SCONJ	IN	_	13	mark	_	_
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+12	breath	breath	ADJ	JJ	Degree=Pos|NumType=Ord	13	amod	_	_
+13	smoke	smoke	NOUN	NN	Number=Sing	4	advcl	_	_
+14	from	from	ADP	IN	_	15	case	_	_
+15	cigarette	cigarette	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
+19	call	call	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+20	passive	passive	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	smoker	smoker	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = But the smokers call active smoker.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	smoker	smoker	NOUN	NN	Number=Sing	5	nsubj	_	SpaceAfter=No
+4	s	s	PART	POS	_	5	advmod	_	_
+5	call	call	VERB	VB	VerbForm=Inf	0	root	_	_
+6	active	active	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	smoker	smoker	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = It's dangerous from passive smokers then active smokers.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	dangerous	dangerous	ADJ	JJ	Degree=Pos	9	amod	_	_
+4	from	from	ADP	IN	_	6	case	_	_
+5	passive	passive	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	smokers	smoker	NOUN	NNS	Number=Plur	3	obl	_	_
+7	then	then	ADV	RB	PronType=Dem	8	advmod	_	_
+8	active	active	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	smokers	smoker	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 10
+# text = Because we breath smoke from cigarette no filter.
+1	Because	because	SCONJ	IN	_	4	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	breath	breath	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	_	_
+4	smoke	smoke	NOUN	NN	Number=Sing	0	root	_	_
+5	from	from	ADP	IN	_	6	case	_	_
+6	cigarette	cigarette	NOUN	NN	Number=Sing	8	nmod	_	_
+7	no	no	DET	DT	_	8	det	_	_
+8	filter	filter	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = And can make destroy our brain.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+4	destroy	destroy	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+5	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	brain	brain	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 12
+# text = We must carefully in the place many smokers.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	carefully	carefully	VERB	VB	VerbForm=Inf	0	root	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	place	place	NOUN	NN	Number=Sing	3	obl	_	_
+7	many	many	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	smokers	smoker	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 13
+# text = we do not the active smoker or passive smoker, because both of active smoker and passive smoker is dangerous for our life.
+1	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+3	not	not	PART	RB	_	9	advmod	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+5	active	active	ADJ	JJ	Degree=Pos	9	amod	_	_
+6	smoker	smoker	NOUN	NN	Number=Sing	9	compound	_	_
+7	or	or	CCONJ	CC	_	8	cc	_	_
+8	passive	passive	NOUN	NN	Number=Sing	6	conj	_	_
+9	smoker	smoker	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	because	because	SCONJ	IN	_	20	mark	_	_
+12	both	both	DET	DT	_	18	det	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	active	active	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	smoker	smoker	NOUN	NN	Number=Sing	12	nmod	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	passive	passive	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	smoker	smoker	NOUN	NN	Number=Sing	20	nsubj	_	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	dangerous	dangerous	ADJ	JJ	Degree=Pos	9	advcl	_	_
+21	for	for	ADP	IN	_	23	case	_	_
+22	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	life	life	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 14
+# text = We must practice to life in many place smokers.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	practice	practice	VERB	VB	VerbForm=Inf	0	root	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	life	life	NOUN	NN	Number=Sing	3	obl	_	_
+6	in	in	ADP	IN	_	9	case	_	_
+7	many	many	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	place	place	NOUN	NN	Number=Sing	9	compound	_	_
+9	smokers	smoker	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 15
+# text = Smoking is not good for woman pregnant.
+1	Smoking	smoking	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	good	good	ADJ	JJ	Degree=Pos	0	root	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	woman	woman	NOUN	NN	Number=Sing	7	compound	_	_
+7	pregnant	pregnant	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 16
+# text = Because effect from smoke cigarette not good for woman pregnant.
+1	Because	because	SCONJ	IN	_	7	mark	_	_
+2	effect	effect	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	from	from	ADP	IN	_	5	case	_	_
+4	smoke	smoke	NOUN	NN	Number=Sing	5	compound	_	_
+5	cigarette	cigarette	NOUN	NN	Number=Sing	2	nmod	_	_
+6	not	not	ADV	RB	_	7	advmod	_	_
+7	good	good	ADJ	JJ	Degree=Pos	0	root	_	_
+8	for	for	ADP	IN	_	10	case	_	_
+9	woman	woman	NOUN	NN	Number=Sing	10	compound	_	_
+10	pregnant	pregnant	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 17
+# text = We must guard the woman pregnant from smoke of cigarette.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	guard	guard	VERB	VB	VerbForm=Inf	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	woman	woman	NOUN	NN	Number=Sing	6	compound	_	_
+6	pregnant	pregnant	NOUN	NN	Number=Sing	3	obj	_	_
+7	from	from	ADP	IN	_	8	case	_	_
+8	smoke	smoke	NOUN	NN	Number=Sing	3	obl	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	cigarette	cigarette	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 18
+# text = Many disease from smoke of cigarette, but many people smokes cigarette everyday, everywhere, and every time.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	disease	disease	NOUN	NN	Number=Sing	0	root	_	_
+3	from	from	ADP	IN	_	4	case	_	_
+4	smoke	smoke	NOUN	NN	Number=Sing	2	nmod	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	cigarette	cigarette	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	but	but	CCONJ	CC	_	12	cc	_	_
+9	many	many	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	people	people	NOUN	NNS	Number=Plur	11	compound	_	_
+11	smokes	smoke	NOUN	NNS	Number=Plur	12	nsubj	_	_
+12	cigarette	cigarette	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13	everyday	everyday	ADV	RB	_	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	12	punct	_	_
+15	everywhere	everywhere	ADV	RB	_	12	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	every	every	DET	DT	_	19	det	_	_
+19	time	time	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 19
+# text = Many people smoke cigarette because he or her stress.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	people	people	NOUN	NNS	Number=Plur	4	compound	_	_
+3	smoke	smoke	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	cigarette	cigarette	NOUN	NN	Number=Sing	0	root	_	_
+5	because	because	SCONJ	IN	_	6	case	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nmod	_	_
+7	or	or	CCONJ	CC	_	9	cc	_	_
+8	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	stress	stress	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 20
+# text = And with smoke cigarette, he or her can be solve problem, but for me that is a bad idea.
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	with	with	ADP	IN	_	4	case	_	_
+3	smoke	smoke	NOUN	NN	Number=Sing	4	compound	_	_
+4	cigarette	cigarette	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	12	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+7	or	or	CCONJ	CC	_	8	cc	_	_
+8	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	conj	_	_
+9	can	can	AUX	MD	VerbForm=Fin	12	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+11	solve	solve	NUM	CD	NumType=Card	12	nummod	_	_
+12	problem	problem	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	but	but	CCONJ	CC	_	21	cc	_	_
+15	for	for	ADP	IN	_	16	case	_	_
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	21	obl	_	_
+17	that	that	PRON	DT	Number=Sing|PronType=Dem	21	nsubj	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+20	bad	bad	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	idea	idea	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 21
+# text = Not good solve.
+1	Not	not	ADV	RB	_	2	advmod	_	_
+2	good	good	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	solve	solve	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,391 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PHL_PTJ0_018_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Education is the most important key to success.
+1	﻿Education	﻿Education	NOUN	NN	Number=Sing	6	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+4	most	most	ADV	RBS	_	5	advmod	_	_
+5	important	important	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	key	key	NOUN	NN	Number=Sing	0	root	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	success	success	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Quality education is a right and not a privilege.
+1	Quality	quality	NOUN	NN	Number=Sing	2	compound	_	_
+2	education	education	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	right	right	NOUN	NN	Number=Sing	0	root	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	not	not	PART	RB	_	9	advmod	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	privilege	privilege	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = However, this right is not always granted to those who truly need it.
+1	However	however	ADV	RB	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	8	punct	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	right	right	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+6	not	not	PART	RB	_	8	advmod	_	_
+7	always	always	ADV	RB	_	8	advmod	_	_
+8	granted	grant	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	those	those	PRON	DT	Number=Plur|PronType=Dem	8	obl	_	_
+11	who	who	PRON	WP	PronType=Rel	13	nsubj	_	_
+12	truly	truly	ADV	RB	_	13	advmod	_	_
+13	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 4
+# text = To remedy this dilemma, students of the Philippines, rally to the Department of Education to negotiate with the department's chairperson a solution to benefit all.
+1	To	to	PART	TO	_	2	mark	_	_
+2	remedy	remedy	VERB	VB	VerbForm=Inf	6	advcl	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	dilemma	dilemma	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	students	student	NOUN	NNS	Number=Plur	0	root	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	Philippines	Philippines	PROPN	NNPS	Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	6	punct	_	_
+11	rally	rally	ADV	RB	_	14	advmod	_	_
+12	to	to	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	Department	Department	PROPN	NNP	Number=Sing	6	nmod	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	Education	education	PROPN	NNP	Number=Sing	14	nmod	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	negotiate	negotiate	VERB	VB	VerbForm=Inf	6	acl	_	_
+19	with	with	ADP	IN	_	23	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	department	department	NOUN	NN	Number=Sing	23	nmod:poss	_	SpaceAfter=No
+22	's	's	PART	POS	_	21	case	_	_
+23	chairperson	chairperson	NOUN	NN	Number=Sing	18	obl	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	solution	solution	NOUN	NN	Number=Sing	23	obj	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	benefit	benefit	VERB	VB	VerbForm=Inf	25	acl	_	_
+28	all	all	DET	DT	_	27	obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = Quality Education is expensive, was the reply to the students.
+1	Quality	quality	NOUN	NN	Number=Sing	2	compound	_	_
+2	Education	Education	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	expensive	expensive	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	reply	reply	NOUN	NN	Number=Sing	4	parataxis	_	_
+9	to	to	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	students	student	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s \s
+
+# sent_id = 6
+# text = There have been many great efforts to provide quality education for those who cannot afford it.
+1	There	there	PRON	EX	_	6	expl	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	_
+4	many	many	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	great	great	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	efforts	effort	NOUN	NNS	Number=Plur	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	provide	provide	VERB	VB	VerbForm=Inf	6	acl	_	_
+9	quality	quality	NOUN	NN	Number=Sing	10	compound	_	_
+10	education	education	NOUN	NN	Number=Sing	8	obj	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	those	those	PRON	DT	Number=Plur|PronType=Dem	10	nmod	_	_
+13	who	who	PRON	WP	PronType=Rel	16	nsubj	_	_
+14	can	can	AUX	MD	VerbForm=Fin	16	aux	_	SpaceAfter=No
+15	not	not	PART	RB	_	16	advmod	_	_
+16	afford	afford	VERB	VB	VerbForm=Inf	12	acl:relcl	_	_
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 7
+# text = The greatest effort (other than those of the parents ') made is that by the students themselves.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	greatest	greatest	ADJ	JJS	Degree=Sup	3	amod	_	_
+3	effort	effort	NOUN	NN	Number=Sing	15	nsubj	_	_
+4	(	(	PUNCT	-LRB-	_	5	punct	_	SpaceAfter=No
+5	other	other	ADJ	JJ	Degree=Pos	3	amod	_	_
+6	than	than	ADP	IN	_	7	case	_	_
+7	those	those	PRON	DT	Number=Plur|PronType=Dem	5	obl	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	parents	parent	NOUN	NNS	Number=Plur	7	nmod	_	_
+11	'	'	PUNCT	''	_	5	punct	_	SpaceAfter=No
+12	)	)	PUNCT	-RRB-	_	5	punct	_	_
+13	made	make	VERB	VBN	Tense=Past|VerbForm=Part	3	acl	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	that	that	PRON	DT	Number=Sing|PronType=Dem	0	root	_	_
+16	by	by	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	students	student	NOUN	NNS	Number=Plur	15	nmod	_	_
+19	themselves	themselves	PRON	PRP	Number=Plur|Person=3|PronType=Prs	18	nmod:npmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 8
+# text = They take it upon themselves to find jobs in order to finance their education and to meet the costs for their living.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	upon	upon	ADP	IN	_	5	case	_	_
+5	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	2	obl	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	find	find	VERB	VB	VerbForm=Inf	2	advcl	_	_
+8	jobs	job	NOUN	NNS	Number=Plur	7	obj	_	_
+9	in	in	ADP	IN	_	12	mark	_	_
+10	order	order	NOUN	NN	Number=Sing	9	fixed	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	finance	finance	VERB	VB	VerbForm=Inf	7	advcl	_	_
+13	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	education	education	NOUN	NN	Number=Sing	12	obj	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	meet	meet	VERB	VB	VerbForm=Inf	12	conj	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	costs	cost	NOUN	NNS	Number=Plur	17	obj	_	_
+20	for	for	ADP	IN	_	22	case	_	_
+21	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	living	living	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Students search high and low to find jobs, sacrificing their precious time and energy which could have been utilized to study for their upcoming exams or to finish their projects which could be due the next day.
+1	Students	student	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	search	search	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	high	high	ADJ	JJ	Degree=Pos	2	obj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	low	low	ADJ	JJ	Degree=Pos	3	conj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	find	find	VERB	VB	VerbForm=Inf	2	advcl	_	_
+8	jobs	job	NOUN	NNS	Number=Plur	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	sacrificing	sacrifice	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+11	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+12	precious	precious	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	time	time	NOUN	NN	Number=Sing	10	obj	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	energy	energy	NOUN	NN	Number=Sing	13	conj	_	_
+16	which	which	PRON	WDT	PronType=Rel	20	nsubj:pass	_	_
+17	could	could	AUX	MD	VerbForm=Fin	20	aux	_	_
+18	have	have	AUX	VB	VerbForm=Inf	20	aux	_	_
+19	been	be	AUX	VBN	Tense=Past|VerbForm=Part	20	aux:pass	_	_
+20	utilized	utilize	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	acl:relcl	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	study	study	VERB	VB	VerbForm=Inf	20	advcl	_	_
+23	for	for	ADP	IN	_	26	case	_	_
+24	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+25	upcoming	upcoming	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	exams	exam	NOUN	NNS	Number=Plur	22	obl	_	_
+27	or	or	CCONJ	CC	_	29	cc	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	finish	finish	VERB	VB	VerbForm=Inf	26	conj	_	_
+30	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	projects	project	NOUN	NNS	Number=Plur	29	obj	_	_
+32	which	which	PRON	WDT	PronType=Rel	38	nsubj	_	_
+33	could	could	AUX	MD	VerbForm=Fin	38	aux	_	_
+34	be	be	AUX	VB	VerbForm=Inf	38	cop	_	_
+35	due	due	ADP	IN	_	38	case	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+37	next	next	ADJ	JJ	Degree=Pos	38	amod	_	_
+38	day	day	NOUN	NN	Number=Sing	31	acl:relcl	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = As exasperating as having to take on a part time job while studying for college is, it does have its importance.
+1	As	as	SCONJ	IN	_	2	mark	_	_
+2	exasperating	exasperat	VERB	VBG	VerbForm=Ger	16	csubj	_	_
+3	as	as	SCONJ	IN	_	4	mark	_	_
+4	having	have	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	take	take	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	on	on	ADP	RP	_	11	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+9	part	part	NOUN	NN	Number=Sing	10	compound	_	_
+10	time	time	NOUN	NN	Number=Sing	11	compound	_	_
+11	job	job	NOUN	NN	Number=Sing	6	obl	_	_
+12	while	while	SCONJ	IN	_	13	mark	_	_
+13	studying	study	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+14	for	for	ADP	IN	_	15	case	_	_
+15	college	college	NOUN	NN	Number=Sing	13	obl	_	_
+16	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+19	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+21	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	importance	importance	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = 11
+# text = Not only does taking on a part time job help the student sustain him or her but it also teaches him or her responsibility.
+1	Not	not	ADV	RB	_	2	advmod	_	_
+2	only	only	ADV	RB	_	3	advmod	_	_
+3	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	taking	take	VERB	VBG	VerbForm=Ger	3	xcomp	_	_
+5	on	on	ADP	IN	_	9	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+7	part	part	NOUN	NN	Number=Sing	8	compound	_	_
+8	time	time	NOUN	NN	Number=Sing	9	compound	_	_
+9	job	job	NOUN	NN	Number=Sing	4	obj	_	_
+10	help	help	VERB	VB	VerbForm=Inf	9	acl	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	student	student	NOUN	NN	Number=Sing	10	obj	_	_
+13	sustain	sustain	VERB	VB	VerbForm=Inf	12	acl	_	_
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	or	or	CCONJ	CC	_	16	cc	_	_
+16	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	conj	_	_
+17	but	but	CCONJ	CC	_	20	cc	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+19	also	also	ADV	RB	_	20	advmod	_	_
+20	teaches	teach	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+21	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	or	or	CCONJ	CC	_	24	cc	_	_
+23	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	responsibility	responsibility	NOUN	NN	Number=Sing	21	conj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 12
+# text = Through earning their own money, students learn the value of thriftiness.
+1	Through	through	SCONJ	IN	_	2	mark	_	_
+2	earning	earn	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+3	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	own	own	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	money	money	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	students	student	NOUN	NNS	Number=Plur	8	nsubj	_	_
+8	learn	learn	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	value	value	NOUN	NN	Number=Sing	8	obj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	thriftiness	thriftiness	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 13
+# text = They learn to be more self-efficient.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	learn	learn	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	8	mark	_	_
+4	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+5	more	more	ADV	RBR	_	8	advmod	_	_
+6	self	self	NOUN	NN	Number=Sing	8	obl:npmod	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	efficient	efficient	ADJ	JJ	Degree=Pos	2	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 14
+# text = They also learn to appreciate all that they have and all that is given to them.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	also	also	ADV	RB	_	3	advmod	_	_
+3	learn	learn	VERB	VB	VerbForm=Inf	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	appreciate	appreciate	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	all	all	DET	PDT	_	5	obj	_	_
+7	that	that	SCONJ	IN	_	9	mark	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+9	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	all	all	DET	DT	_	6	conj	_	_
+12	that	that	PRON	WDT	PronType=Rel	14	nsubj:pass	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	given	give	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s \s
+
+# sent_id = 15
+# text = Having to juggle a part-time job and the difficulties of college may not be the most ideal life for the college student but it does not mean that it is all bad.
+1	Having	have	VERB	VBG	VerbForm=Ger	20	csubj	_	_
+2	to	to	PART	TO	_	3	mark	_	_
+3	juggle	juggle	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+5	part	part	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	time	time	NOUN	NN	Number=Sing	8	compound	_	_
+8	job	job	NOUN	NN	Number=Sing	3	obj	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	difficulties	difficulty	NOUN	NNS	Number=Plur	8	conj	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	college	college	NOUN	NN	Number=Sing	11	nmod	_	_
+14	may	may	AUX	MD	VerbForm=Fin	20	aux	_	_
+15	not	not	PART	RB	_	20	advmod	_	_
+16	be	be	AUX	VB	VerbForm=Inf	20	cop	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+18	most	most	ADV	RBS	_	19	advmod	_	_
+19	ideal	ideal	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	life	life	NOUN	NN	Number=Sing	0	root	_	_
+21	for	for	ADP	IN	_	24	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	college	college	NOUN	NN	Number=Sing	24	compound	_	_
+24	student	student	NOUN	NN	Number=Sing	20	nmod	_	_
+25	but	but	CCONJ	CC	_	29	cc	_	_
+26	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+27	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	not	not	PART	RB	_	29	advmod	_	_
+29	mean	mean	VERB	VB	VerbForm=Inf	20	conj	_	_
+30	that	that	SCONJ	IN	_	34	mark	_	_
+31	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
+32	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+33	all	all	ADV	RB	_	34	advmod	_	_
+34	bad	bad	ADJ	JJ	Degree=Pos	29	ccomp	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = 16
+# text = Quality education is a right and not a privilege.
+1	Quality	quality	NOUN	NN	Number=Sing	2	compound	_	_
+2	education	education	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	right	right	NOUN	NN	Number=Sing	0	root	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	not	not	PART	RB	_	9	advmod	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	privilege	privilege	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 17
+# text = But it does not mean we should just sit around waiting for it to come to us.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	mean	mean	VERB	VB	VerbForm=Inf	0	root	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+7	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	just	just	ADV	RB	_	9	advmod	_	_
+9	sit	sit	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+10	around	around	ADV	RB	_	9	advmod	_	_
+11	waiting	wait	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+12	for	for	ADP	IN	_	13	case	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	come	come	VERB	VB	VerbForm=Inf	11	advcl	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 18
+# text = Quality education is something we must work hard for.
+1	Quality	quality	NOUN	NN	Number=Sing	2	compound	_	_
+2	education	education	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	something	something	PRON	NN	Number=Sing	0	root	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+6	must	must	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	work	work	VERB	VB	VerbForm=Inf	4	acl:relcl	_	_
+8	hard	hard	ADV	RB	Degree=Pos	7	advmod	_	_
+9	for	for	ADP	IN	_	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

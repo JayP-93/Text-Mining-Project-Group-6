@@ -1,0 +1,300 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_PTJ0_012_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I think it is important for college students to have a part-time job.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	important	important	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+6	for	for	SCONJ	IN	_	10	mark	_	_
+7	college	college	NOUN	NN	Number=Sing	8	compound	_	_
+8	students	student	NOUN	NNS	Number=Plur	10	nsubj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	have	have	VERB	VB	VerbForm=Inf	5	csubj	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+12	part	part	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+14	time	time	NOUN	NN	Number=Sing	15	compound	_	_
+15	job	job	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I have three reasons why it is important.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	three	three	NUM	CD	NumType=Card	4	nummod	_	_
+4	reasons	reason	NOUN	NNS	Number=Plur	2	obj	_	_
+5	why	why	ADV	WRB	PronType=Rel	8	advmod	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	important	important	ADJ	JJ	Degree=Pos	4	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = First of all,
+1	First	first	ADV	RB	_	0	root	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	all	all	DET	DT	_	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 4
+# text = In order to maintain their livelihood.
+1	In	in	ADP	IN	_	4	mark	_	_
+2	order	order	NOUN	NN	Number=Sing	1	fixed	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	maintain	maintain	VERB	VB	VerbForm=Inf	0	root	_	_
+5	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	livelihood	livelihood	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = There is many students who under difficult.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	students	student	NOUN	NNS	Number=Plur	2	nsubj	_	_
+5	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+6	under	under	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	difficult	difficult	ADJ	JJ	Degree=Pos	6	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = We can't live if you do not eat something.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	ca	can	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	live	live	VERB	VB	VerbForm=Inf	0	root	_	_
+5	if	if	SCONJ	IN	_	9	mark	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+7	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	not	not	PART	RB	_	9	advmod	_	_
+9	eat	eat	VERB	VB	VerbForm=Inf	4	advcl	_	_
+10	something	something	PRON	NN	Number=Sing	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = If there is no energy, no life can live.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	energy	energy	NOUN	NN	Number=Sing	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	no	no	DET	DT	_	8	det	_	_
+8	life	life	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	can	can	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	live	live	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 8
+# text = Second reason is conversation skill.
+1	Second	second	ADJ	JJ	Degree=Pos|NumType=Ord	2	amod	_	_
+2	reason	reason	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	conversation	conversation	NOUN	NN	Number=Sing	5	compound	_	_
+5	skill	skill	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = It is very important because we need social skill in social.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+5	because	because	SCONJ	IN	_	7	mark	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+8	social	social	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	skill	skill	NOUN	NN	Number=Sing	7	obj	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	social	social	ADJ	JJ	Degree=Pos	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 10
+# text = We should talk to other people what you need.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	talk	talk	VERB	VB	VerbForm=Inf	0	root	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	other	other	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	people	people	NOUN	NNS	Number=Plur	3	obl	_	_
+7	what	what	PRON	WP	PronType=Int	9	obj	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = It will learn from real life rather than learning.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	learn	learn	VERB	VB	VerbForm=Inf	0	root	_	_
+4	from	from	ADP	IN	_	6	case	_	_
+5	real	real	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	life	life	NOUN	NN	Number=Sing	3	obl	_	_
+7	rather	rather	ADV	RB	_	9	cc	_	_
+8	than	than	SCONJ	IN	_	7	fixed	_	_
+9	learning	learning	VERB	VBG	VerbForm=Ger	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 12
+# text = I believe that this help to prove this skill in Part-time job.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	7	mark	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	help	help	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	prove	prove	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	skill	skill	NOUN	NN	Number=Sing	7	obj	_	_
+10	in	in	ADP	IN	_	14	case	_	_
+11	Part	part	PROPN	NNP	Number=Sing	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	13	punct	_	SpaceAfter=No
+13	time	time	NOUN	NN	Number=Sing	14	compound	_	_
+14	job	job	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 13
+# text = When it is important you do not tell, cannot get what you need.
+1	When	when	ADV	WRB	PronType=Int	4	mark	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	important	important	ADJ	JJ	Degree=Pos	8	advcl	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+6	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	tell	tell	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	can	can	AUX	MD	VerbForm=Fin	12	aux	_	SpaceAfter=No
+11	not	not	PART	RB	_	12	advmod	_	_
+12	get	get	VERB	VB	VerbForm=Inf	8	conj	_	_
+13	what	what	PRON	WP	PronType=Int	12	obj	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+15	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 14
+# text = You can continue to say that the opportunity is at part time job.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	continue	continue	VERB	VB	VerbForm=Inf	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	say	say	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	that	that	SCONJ	IN	_	13	mark	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	opportunity	opportunity	NOUN	NN	Number=Sing	13	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+10	at	at	ADP	IN	_	13	case	_	_
+11	part	part	NOUN	NN	Number=Sing	12	compound	_	_
+12	time	time	NOUN	NN	Number=Sing	13	compound	_	_
+13	job	job	NOUN	NN	Number=Sing	5	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 15
+# text = And last reason is Univ.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	last	last	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	reason	reason	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	Univ.	Univ.	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 16
+# text = Major.
+1	Major	major	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 17
+# text = I hope that if you want to have a part time job, consider what your major is and what kind of part time job will help us.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	14	mark	_	_
+4	if	if	SCONJ	IN	_	6	mark	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	have	have	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+10	part	part	NOUN	NN	Number=Sing	11	compound	_	_
+11	time	time	NOUN	NN	Number=Sing	12	compound	_	_
+12	job	job	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	consider	consider	VERB	VB	Mood=Imp|VerbForm=Fin	2	ccomp	_	_
+15	what	what	PRON	WP	PronType=Int	27	nsubj	_	_
+16	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	major	major	NOUN	NN	Number=Sing	21	nsubj	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	what	what	DET	WDT	PronType=Int	21	det	_	_
+21	kind	kind	NOUN	NN	Number=Sing	15	acl:relcl	_	_
+22	of	of	ADP	IN	_	25	case	_	_
+23	part	part	NOUN	NN	Number=Sing	24	compound	_	_
+24	time	time	NOUN	NN	Number=Sing	25	compound	_	_
+25	job	job	NOUN	NN	Number=Sing	21	nmod	_	_
+26	will	will	AUX	MD	VerbForm=Fin	27	aux	_	_
+27	help	help	VERB	VB	VerbForm=Inf	14	conj	_	_
+28	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	27	obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 18
+# text = For example my case, my major is English literature.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	10	obl	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	case	case	NOUN	NN	Number=Sing	10	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	major	major	NOUN	NN	Number=Sing	10	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	English	english	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	literature	literature	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 19
+# text = To study English and to level up my, I will find kind of part time job which is related English.
+1	To	to	PART	TO	_	2	mark	_	_
+2	study	study	VERB	VB	VerbForm=Inf	12	advcl	_	_
+3	English	english	PROPN	NNP	Number=Sing	2	obj	_	_
+4	and	and	CCONJ	CC	_	6	cc	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	level	level	VERB	VB	VerbForm=Inf	2	conj	_	_
+7	up	up	ADP	RP	_	6	compound:prt	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	find	find	VERB	VB	VerbForm=Inf	0	root	_	_
+13	kind	kind	NOUN	NN	Number=Sing	12	obj	_	_
+14	of	of	ADP	IN	_	17	case	_	_
+15	part	part	NOUN	NN	Number=Sing	16	compound	_	_
+16	time	time	NOUN	NN	Number=Sing	17	compound	_	_
+17	job	job	NOUN	NN	Number=Sing	13	nmod	_	_
+18	which	which	PRON	WDT	PronType=Rel	21	nsubj	_	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	related	related	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	English	English	PROPN	NNP	Number=Sing	13	acl:relcl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 20
+# text = As these reason, I think it is important for college students to have a part-time job.
+1	As	as	SCONJ	IN	_	3	case	_	_
+2	these	these	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+3	reason	reason	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	important	important	ADJ	JJ	Degree=Pos	6	ccomp	_	_
+10	for	for	SCONJ	IN	_	14	mark	_	_
+11	college	college	NOUN	NN	Number=Sing	12	compound	_	_
+12	students	student	NOUN	NNS	Number=Plur	14	nsubj	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	have	have	VERB	VB	VerbForm=Inf	9	csubj	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+16	part	part	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	18	punct	_	SpaceAfter=No
+18	time	time	NOUN	NN	Number=Sing	19	compound	_	_
+19	job	job	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

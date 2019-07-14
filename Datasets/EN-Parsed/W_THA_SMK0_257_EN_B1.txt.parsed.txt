@@ -1,0 +1,270 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_THA_SMK0_257_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿When you list the serious problems of the all restaurant, the subject of smoking is right up there with the big ones.
+1	﻿When	﻿When	ADV	WRB	PronType=Int	3	advmod	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	list	list	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	serious	serious	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	problems	problem	NOUN	NNS	Number=Plur	3	obj	_	_
+7	of	of	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	all	all	DET	DT	_	10	det	_	_
+10	restaurant	restaurant	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	19	punct	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	subject	subject	NOUN	NN	Number=Sing	19	nsubj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	smoking	smoking	NOUN	NN	Number=Sing	13	nmod	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+17	right	right	ADV	RB	_	19	advmod	_	_
+18	up	up	ADP	IN	_	19	case	_	_
+19	there	there	ADV	RB	PronType=Dem	3	advmod	_	_
+20	with	with	ADP	IN	_	23	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	big	big	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	ones	one	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Smoking is annoyed for many people in restaurant.
+1	Smoking	smoking	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	annoyed	annoyed	ADJ	JJ	Degree=Pos	0	root	_	_
+4	for	for	ADP	IN	_	6	case	_	_
+5	many	many	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	people	people	NOUN	NNS	Number=Plur	3	obl	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	restaurant	restaurant	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Many people think that smoking in restaurant is loutish.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	people	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	9	mark	_	_
+5	smoking	smoke	VERB	VBG	VerbForm=Ger	9	csubj	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	restaurant	restaurant	NOUN	NN	Number=Sing	5	obl	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	loutish	loutish	ADJ	JJ	Degree=Pos	3	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Smoking in restaurant, it causes lung cancer, heart disease and may complicate pregnancy.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+2	in	in	ADP	IN	_	3	case	_	_
+3	restaurant	restaurant	PROPN	NNP	Number=Sing	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	causes	cause	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	lung	lung	ADP	IN	_	11	case	_	_
+8	cancer	cancer	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	heart	heart	NOUN	NN	Number=Sing	11	compound	_	_
+11	disease	disease	NOUN	NN	Number=Sing	6	obl	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	may	may	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	complicate	ecomplicat	VERB	VB	VerbForm=Inf	6	conj	_	_
+15	pregnancy	pregnancy	ADJ	JJ	Degree=Pos	14	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = Smoking not only smelly and foul the taste of the food and image of the restaurant is not too good.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	20	csubj	_	_
+2	not	not	ADV	RB	_	3	advmod	_	_
+3	only	only	ADV	RB	_	4	cc:preconj	_	_
+4	smelly	smelly	ADV	RB	_	1	advmod	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	foul	foul	VERB	VB	VerbForm=Inf	1	conj	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	taste	taste	NOUN	NN	Number=Sing	6	obj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	food	food	NOUN	NN	Number=Sing	6	obl	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	image	image	NOUN	NN	Number=Sing	11	conj	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	restaurant	restaurant	NOUN	NN	Number=Sing	11	nmod	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+18	not	not	PART	RB	_	20	advmod	_	_
+19	too	too	ADV	RB	_	20	advmod	_	_
+20	good	good	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = 6
+# text = A smell from a cigarette will combine with a smell of food.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	smell	smell	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	from	from	ADP	IN	_	5	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	cigarette	cigarette	NOUN	NN	Number=Sing	2	nmod	_	_
+6	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	combine	combine	VERB	VB	VerbForm=Inf	0	root	_	_
+8	with	with	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	smell	smell	NOUN	NN	Number=Sing	7	obl	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	food	food	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 7
+# text = That will be the end of the restaurant.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	end	end	NOUN	NN	Number=Sing	0	root	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	restaurant	restaurant	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = The law should make this problem disappear.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	law	law	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	problem	problem	NOUN	NN	Number=Sing	4	obj	_	_
+7	disappear	disappear	VERB	VB	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Like it or not, it's inevitable that smoking will be illegal in all restaurants.
+1	Like	like	VERB	VB	VerbForm=Inf	8	advcl	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	or	or	CCONJ	CC	_	4	cc	_	_
+4	not	not	PART	RB	_	1	conj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	SpaceAfter=No
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	inevitable	inevitable	ADJ	JJ	Degree=Pos	0	root	_	_
+9	that	that	SCONJ	IN	_	13	mark	_	_
+10	smoking	smoke	NOUN	NN	Number=Sing	13	nsubj	_	_
+11	will	will	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	be	be	AUX	VB	VerbForm=Inf	13	cop	_	_
+13	illegal	illegal	ADJ	JJ	Degree=Pos	8	ccomp	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	all	all	DET	DT	_	16	det	_	_
+16	restaurants	restaurant	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 10
+# text = This law takes effect for all restaurants.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	law	law	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	effect	effect	NOUN	NN	Number=Sing	3	obj	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	all	all	DET	DT	_	7	det	_	_
+7	restaurants	restaurant	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = If you go inside a restaurant and the only thing you see is a smoke.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	inside	inside	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	restaurant	restaurant	NOUN	NN	Number=Sing	3	obl	_	_
+7	and	and	CCONJ	CC	_	15	cc	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	only	only	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	thing	thing	NOUN	NN	Number=Sing	15	nsubj	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+12	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	smoke	smoke	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 12
+# text = Do you still want to have some meal there?
+1	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	still	still	ADV	RB	_	4	advmod	_	_
+4	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	have	have	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	some	some	DET	DT	_	8	det	_	_
+8	meal	meal	NOUN	NN	Number=Sing	6	obj	_	_
+9	there	there	ADV	RB	PronType=Dem	6	advmod	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = Imagine that you have some food in front of your face and you are going to put something in your mouth.
+1	Imagine	imagine	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	that	that	SCONJ	IN	_	4	mark	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5	some	some	DET	DT	_	6	det	_	_
+6	food	food	NOUN	NN	Number=Sing	4	obj	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	front	front	NOUN	NN	Number=Sing	4	obl	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	face	face	NOUN	NN	Number=Sing	8	nmod	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	1	conj	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	put	put	VERB	VB	VerbForm=Inf	15	xcomp	_	_
+18	something	something	PRON	NN	Number=Sing	17	obj	_	_
+19	in	in	ADP	IN	_	21	case	_	_
+20	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	mouth	mouth	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 14
+# text = Then some people that sit next to your table take out a cigarette and stir up.
+1	Then	then	ADV	RB	PronType=Dem	10	advmod	_	_
+2	some	some	DET	DT	_	3	det	_	_
+3	people	people	NOUN	NNS	Number=Plur	10	nsubj	_	_
+4	that	that	PRON	WDT	PronType=Rel	5	nsubj	_	_
+5	sit	sit	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	next	next	ADV	RB	_	5	advmod	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	table	table	NOUN	NN	Number=Sing	5	obl	_	_
+10	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+11	out	out	ADP	RP	_	10	compound:prt	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	cigarette	cigarette	NOUN	NN	Number=Sing	10	obj	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	stir	stir	VERB	VB	VerbForm=Inf	10	conj	_	_
+16	up	up	ADP	RP	_	15	compound:prt	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 15
+# text = The waiter may not see everything in the restaurant clearly which can cause an accident even to the waiter or to costumers.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	waiter	waiter	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	may	may	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+6	everything	everything	PRON	NN	Number=Sing	5	obj	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	restaurant	restaurant	NOUN	NN	Number=Sing	5	obl	_	_
+10	clearly	clearly	ADV	RB	_	9	advmod	_	_
+11	which	which	PRON	WDT	PronType=Rel	13	nsubj	_	_
+12	can	can	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	cause	cause	VERB	VB	VerbForm=Inf	9	acl:relcl	_	_
+14	an	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	accident	accident	NOUN	NN	Number=Sing	13	obj	_	_
+16	even	even	ADV	RB	_	19	advmod	_	_
+17	to	to	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	waiter	waiter	NOUN	NN	Number=Sing	13	obl	_	_
+20	or	or	CCONJ	CC	_	22	cc	_	_
+21	to	to	ADP	IN	_	22	case	_	_
+22	costumers	costumer	NOUN	NNS	Number=Plur	19	conj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,381 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PHL_SMK0_116_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I think smoking should be prohibited in all public places.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
+4	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+6	prohibited	prohibit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+7	in	in	ADP	IN	_	10	case	_	_
+8	all	all	DET	DT	_	10	det	_	_
+9	public	public	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	places	place	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = It is a unhealthy habit, which should be immediately banned.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	unhealthy	unhealthy	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	habit	habit	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	which	which	PRON	WDT	PronType=Rel	11	nsubj:pass	_	_
+8	should	should	AUX	MD	VerbForm=Fin	11	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	_	_
+10	immediately	immediately	ADV	RB	_	11	advmod	_	_
+11	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Smoking should only be allowed on personal property and land.
+1	Smoking	smoking	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+2	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	only	only	ADV	RB	_	5	advmod	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	on	on	ADP	IN	_	8	case	_	_
+7	personal	personal	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	property	property	NOUN	NN	Number=Sing	5	obl	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	land	land	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = There have been numerous reports, linking cigarette smoking to heart disease; lung disease; cancers of the lung, mouth, and other tissues; and other ailments.
+1	There	there	PRON	EX	_	3	expl	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	been	be	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	numerous	numerous	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	reports	report	NOUN	NNS	Number=Plur	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	linking	linking	NOUN	NN	Number=Sing	9	compound	_	_
+8	cigarette	cigarette	NOUN	NN	Number=Sing	9	compound	_	_
+9	smoking	smoke	NOUN	NN	Number=Sing	5	appos	_	_
+10	to	to	ADP	IN	_	12	case	_	_
+11	heart	heart	NOUN	NN	Number=Sing	12	compound	_	_
+12	disease	disease	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	3	punct	_	_
+14	lung	lung	NOUN	NN	Number=Sing	15	compound	_	_
+15	disease	disease	NOUN	NN	Number=Sing	3	parataxis	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	3	punct	_	_
+17	cancers	cancer	NOUN	NNS	Number=Plur	3	parataxis	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	lung	lung	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	_	_
+22	mouth	mouth	NOUN	NN	Number=Sing	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	26	punct	_	_
+24	and	and	CCONJ	CC	_	26	cc	_	_
+25	other	other	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	tissues	tissue	NOUN	NNS	Number=Plur	20	conj	_	SpaceAfter=No
+27	;	;	PUNCT	,	_	3	punct	_	_
+28	and	and	CCONJ	CC	_	30	cc	_	_
+29	other	other	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	ailments	ailments	NOUN	NNS	Number=Plur	3	conj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Cigarette smoke contains thousands of chemical substances, many of which have been linked to the development of diseases.
+1	Cigarette	cigarette	NOUN	NN	Number=Sing	2	compound	_	_
+2	smoke	smoke	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	contains	contain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	thousands	thousand	NOUN	NNS	Number=Plur	3	obj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	chemical	chemical	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	substances	substance	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	many	many	ADJ	JJ	Degree=Pos	14	nsubj:pass	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	which	which	PRON	WDT	PronType=Int	9	nmod	_	_
+12	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	been	be	AUX	VBN	Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	linked	link	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl:relcl	_	_
+15	to	to	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	development	development	NOUN	NN	Number=Sing	14	obl	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	diseases	disease	NOUN	NNS	Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Chemical substances occur in cigarette smoke as gases or as particals.
+1	Chemical	Chemical	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	substances	substance	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	occur	occur	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	cigarette	cigarette	NOUN	NN	Number=Sing	6	compound	_	_
+6	smoke	smoke	NOUN	NN	Number=Sing	3	obl	_	_
+7	as	as	ADP	IN	_	8	case	_	_
+8	gases	gase	NOUN	NNS	Number=Plur	3	obl	_	_
+9	or	or	CCONJ	CC	_	11	cc	_	_
+10	as	as	ADP	IN	_	11	case	_	_
+11	particals	partical	NOUN	NNS	Number=Plur	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Many places in which smoking should be banned are in pubs, clubs and working places.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	places	place	NOUN	NNS	Number=Plur	11	nsubj	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	which	which	PRON	WDT	PronType=Rel	8	obl	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+6	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	pubs	pub	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	clubs	club	NOUN	NNS	Number=Plur	11	conj	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	16	conj	_	_
+16	places	place	NOUN	NNS	Number=Plur	11	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 8
+# text = Pubs are very important places for people in communities, especially small communities.
+1	Pubs	Pubs	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	important	important	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	places	place	NOUN	NNS	Number=Plur	0	root	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	people	people	NOUN	NNS	Number=Plur	5	nmod	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	communities	community	NOUN	NNS	Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	5	punct	_	_
+11	especially	especially	ADV	RB	_	13	advmod	_	_
+12	small	small	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	communities	community	NOUN	NNS	Number=Plur	5	appos	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = It is a place for people to socialize and be entertained.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	place	place	NOUN	NN	Number=Sing	0	root	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	people	people	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	socialize	socialize	VERB	VB	VerbForm=Inf	4	acl	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	cop	_	_
+11	entertained	entertained	ADJ	JJ	Degree=Pos	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 10
+# text = In some communities the pub is the town meeting place for the locals.
+1	In	in	ADP	IN	_	3	case	_	_
+2	some	some	DET	DT	_	3	det	_	_
+3	communities	community	NOUN	NNS	Number=Plur	10	obl	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	pub	pub	NOUN	NN	Number=Sing	10	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+8	town	town	NOUN	NN	Number=Sing	9	compound	_	_
+9	meeting	meeting	NOUN	NN	Number=Sing	10	compound	_	_
+10	place	place	NOUN	NN	Number=Sing	0	root	_	_
+11	for	for	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	locals	local	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 11
+# text = There are no non-smoking pubs and very few non-smoking front bars.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	5	det	_	_
+4	non-smoking	non-smoking	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	pubs	pub	NOUN	NNS	Number=Plur	2	nsubj	_	_
+6	and	and	CCONJ	CC	_	11	cc	_	_
+7	very	very	ADV	RB	_	8	advmod	_	_
+8	few	few	ADJ	JJ	Degree=Pos	11	amod	_	_
+9	non-smoking	non-smoking	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	front	front	NOUN	NN	Number=Sing	11	compound	_	_
+11	bars	bar	NOUN	NNS	Number=Plur	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = Although the eating areas in pubs are non-smoking sometimes there is so much smoke it drifts everywhere.
+1	Although	although	SCONJ	IN	_	8	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	eating	eat	VERB	VBG	VerbForm=Ger	4	amod	_	_
+4	areas	area	NOUN	NNS	Number=Plur	8	nsubj	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	pubs	pub	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	non-smoking	non-smoking	VERB	VBG	Tense=Pres|VerbForm=Part	11	advcl	_	_
+9	sometimes	sometimes	ADV	RB	_	11	advmod	_	_
+10	there	there	PRON	EX	_	11	expl	_	_
+11	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	so	so	ADV	RB	_	13	advmod	_	_
+13	much	much	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	smoke	smoke	NOUN	NN	Number=Sing	11	nsubj	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	drifts	drift	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17	everywhere	everywhere	ADV	RB	_	16	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 13
+# text = Smoking in pubs is a hazard to non-smokers and the workers.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	6	csubj	_	_
+2	in	in	ADP	IN	_	3	case	_	_
+3	pubs	pub	NOUN	NNS	Number=Plur	1	obl	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	hazard	hazard	NOUN	NN	Number=Sing	0	root	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	non-smokers	non-smoker	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	workers	worker	NOUN	NNS	Number=Plur	6	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 14
+# text = It is unhealthy and not fair on the people that don't smoke and want to have a good time.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	unhealthy	unhealthy	ADJ	JJ	Degree=Pos	0	root	_	_
+4	and	and	CCONJ	CC	_	6	cc	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	fair	fair	ADJ	JJ	Degree=Pos	3	conj	_	_
+7	on	on	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	people	people	NOUN	NNS	Number=Plur	6	obl	_	_
+10	that	that	PRON	WDT	PronType=Rel	13	nsubj	_	_
+11	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
+12	n't	not	PART	RB	_	13	advmod	_	_
+13	smoke	smoke	VERB	VB	VerbForm=Inf	9	acl:relcl	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	want	want	VERB	VB	VerbForm=Inf	13	conj	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	have	have	VERB	VB	VerbForm=Inf	15	xcomp	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	good	good	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	time	time	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 15
+# text = These days smoking is a popular craze in pubs but should be quickly stopped.
+1	These	these	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+2	days	day	NOUN	NNS	Number=Plur	3	compound	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	popular	popular	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	craze	craze	NOUN	NN	Number=Sing	0	root	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	pubs	pub	NOUN	NNS	Number=Plur	7	nmod	_	_
+10	but	but	CCONJ	CC	_	14	cc	_	_
+11	should	should	AUX	MD	VerbForm=Fin	14	aux	_	_
+12	be	be	AUX	VB	VerbForm=Inf	14	aux:pass	_	_
+13	quickly	quickly	ADV	RB	_	14	advmod	_	_
+14	stopped	stop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 16
+# text = Clubs are another place you would avoid if you felt strongly about smoke.
+1	Clubs	club	NOUN	NNS	Number=Plur	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	another	another	DET	DT	_	4	det	_	_
+4	place	place	NOUN	NN	Number=Sing	0	root	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+6	would	would	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	avoid	avoid	VERB	VB	VerbForm=Inf	4	acl:relcl	_	_
+8	if	if	SCONJ	IN	_	10	mark	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	_
+11	strongly	strongly	ADV	RB	_	10	advmod	_	_
+12	about	about	ADP	IN	_	13	case	_	_
+13	smoke	smoke	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 17
+# text = Cigarette's contain health-damaging particles and are a health hazard to many..
+1	Cigarette	cigarette	PROPN	NNP	Number=Sing	7	nmod:poss	_	SpaceAfter=No
+2	's	's	PART	POS	_	1	case	_	_
+3	contain	contain	NOUN	NN	Number=Sing	7	compound	_	_
+4	health	health	NOUN	NN	Number=Sing	6	obl:npmod	_	SpaceAfter=No
+5	-	-	PUNCT	,	_	6	punct	_	SpaceAfter=No
+6	damaging	damaging	VERB	VBG	VerbForm=Ger	7	amod	_	_
+7	particles	particle	NOUN	NNS	Number=Plur	12	nsubj	_	_
+8	and	and	CCONJ	CC	_	12	cc	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	health	health	NOUN	NN	Number=Sing	12	compound	_	_
+12	hazard	hazard	NOUN	NN	Number=Sing	15	conj	_	_
+13	to	to	ADP	IN	_	14	case	_	_
+14	many	many	ADJ	JJ	Degree=Pos	12	nmod	_	SpaceAfter=No
+15	..	..	PUNCT	.	_	0	root	_	_
+
+# sent_id = 18
+# text = Smoking is the leading cause of life-threatening diseases and should be done away from public places.
+1	Smoking	smoking	NOUN	NN	Number=Sing	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	leading	lead	VERB	VBG	VerbForm=Ger	5	amod	_	_
+5	cause	cause	NOUN	NN	Number=Sing	0	root	_	_
+6	of	of	ADP	IN	_	10	case	_	_
+7	life	life	NOUN	NN	Number=Sing	9	obl:npmod	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	_	SpaceAfter=No
+9	threatening	threatening	VERB	VBG	VerbForm=Ger	10	amod	_	_
+10	diseases	disease	NOUN	NNS	Number=Plur	5	nmod	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	should	should	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	be	be	AUX	VB	VerbForm=Inf	14	aux:pass	_	_
+14	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	_
+15	away	away	ADV	RB	_	14	advmod	_	_
+16	from	from	ADP	IN	_	18	case	_	_
+17	public	public	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	places	place	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 19
+# text = More young people go to clubs and it is a bad habit for them to be breathing in smoke.
+1	More	more	ADJ	JJR	Degree=Cmp	3	amod	_	_
+2	young	young	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	clubs	club	NOUN	NNS	Number=Plur	4	obl	_	_
+7	and	and	CCONJ	CC	_	12	cc	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	bad	bad	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	habit	habit	NOUN	NN	Number=Sing	4	conj	_	_
+13	for	for	ADP	IN	_	14	case	_	_
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	nmod	_	_
+15	to	to	PART	TO	_	17	mark	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	aux	_	_
+17	breathing	breath	VERB	VBG	Tense=Pres|VerbForm=Part	12	acl	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	smoke	smoke	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 20
+# text = One of the most dangerous things is passive smoking and in clubs this is what non-smokers are doing.
+1	One	one	NUM	CD	NumType=Card	9	nsubj	_	_
+2	of	of	ADP	IN	_	6	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+4	most	most	ADV	RBS	_	5	advmod	_	_
+5	dangerous	dangerous	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	things	thing	NOUN	NNS	Number=Plur	1	nmod	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	passive	passive	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	0	root	_	_
+10	and	and	CCONJ	CC	_	14	cc	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	clubs	club	NOUN	NNS	Number=Plur	14	obl	_	_
+13	this	this	PRON	DT	Number=Sing|PronType=Dem	14	nsubj	_	_
+14	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+15	what	what	PRON	WP	PronType=Int	18	obj	_	_
+16	non-smokers	non-smokers	NOUN	NNS	Number=Plur	18	nsubj	_	_
+17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	14	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

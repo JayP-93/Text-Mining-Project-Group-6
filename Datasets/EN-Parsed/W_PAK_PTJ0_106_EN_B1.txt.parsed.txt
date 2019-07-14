@@ -1,0 +1,370 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PAK_PTJ0_106_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Part time job is necessary for students.
+1	﻿Part	﻿Part	ADJ	JJ	Degree=Pos	3	amod	_	_
+2	time	time	NOUN	NN	Number=Sing	3	compound	_	_
+3	job	job	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	necessary	necessary	ADJ	JJ	Degree=Pos	0	root	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	students	student	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = College life is transition period of student life from dependence to independence. .
+1	College	college	NOUN	NN	Number=Sing	2	compound	_	_
+2	life	life	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	transition	transition	NOUN	NN	Number=Sing	5	compound	_	_
+5	period	period	NOUN	NN	Number=Sing	0	root	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	student	student	NOUN	NN	Number=Sing	8	compound	_	_
+8	life	life	NOUN	NN	Number=Sing	5	nmod	_	_
+9	from	from	ADP	IN	_	10	case	_	_
+10	dependence	dependence	NOUN	NN	Number=Sing	5	obl	_	_
+11	to	to	ADP	IN	_	12	case	_	_
+12	independence	independence	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = They want to become independent.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	become	become	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	independent	independent	ADJ	JJ	Degree=Pos	4	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = The life is that time of life when student feel guilty to depend on parents.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	life	life	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	time	time	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	life	life	NOUN	NN	Number=Sing	5	nmod	_	_
+8	when	when	ADV	WRB	PronType=Int	10	mark	_	_
+9	student	student	NOUN	NN	Number=Sing	10	nsubj	_	_
+10	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl	_	_
+11	guilty	guilty	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	depend	depend	VERB	VB	VerbForm=Inf	11	advcl	_	_
+14	on	on	ADP	IN	_	15	case	_	_
+15	parents	parent	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = In our country mostly parents can not afford the higher education academic expenses of their children so student should want to do job in college life.
+1	In	in	ADP	IN	_	3	case	_	_
+2	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	country	country	NOUN	NN	Number=Sing	8	obl	_	_
+4	mostly	mostly	ADV	RB	_	5	advmod	_	_
+5	parents	parent	NOUN	NNS	Number=Plur	8	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	afford	afford	VERB	VB	VerbForm=Inf	0	root	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+10	higher	higher	ADJ	JJR	Degree=Cmp	11	amod	_	_
+11	education	education	NOUN	NN	Number=Sing	13	compound	_	_
+12	academic	academic	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	expenses	expense	NOUN	NNS	Number=Plur	8	obj	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	children	child	NOUN	NNS	Number=Plur	13	nmod	_	_
+17	so	so	ADV	RB	_	20	advmod	_	_
+18	student	student	NOUN	NN	Number=Sing	20	nsubj	_	_
+19	should	should	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	want	want	VERB	VB	VerbForm=Inf	8	conj	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	do	do	VERB	VB	VerbForm=Inf	20	xcomp	_	_
+23	job	job	NOUN	NN	Number=Sing	22	obj	_	_
+24	in	in	ADP	IN	_	26	case	_	_
+25	college	college	NOUN	NN	Number=Sing	26	compound	_	_
+26	life	life	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 6
+# text = Their co-circular activities also need more income.
+1	Their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	co-circular	co-circular	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	activities	activity	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	also	also	ADV	RB	_	5	advmod	_	_
+5	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	more	more	ADJ	JJR	Degree=Cmp	7	amod	_	_
+7	income	income	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 7
+# text = In school life students feel themselves dependent on their parents but in college life the student wants to become independent.
+1	In	in	ADP	IN	_	5	mark	_	_
+2	school	school	NOUN	NN	Number=Sing	3	compound	_	_
+3	life	life	NOUN	NN	Number=Sing	4	compound	_	_
+4	students	student	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	_
+7	dependent	dependent	ADJ	JJ	Degree=Pos	5	xcomp	_	_
+8	on	on	ADP	IN	_	10	case	_	_
+9	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	parents	parent	NOUN	NNS	Number=Plur	7	obl	_	_
+11	but	but	CCONJ	CC	_	17	cc	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	college	college	NOUN	NN	Number=Sing	14	compound	_	_
+14	life	life	NOUN	NN	Number=Sing	17	obl	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	student	student	NOUN	NN	Number=Sing	17	nsubj	_	_
+17	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	become	become	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+20	independent	independent	ADJ	JJ	Degree=Pos	19	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = There are more implication in college life.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	more	more	ADJ	JJR	Degree=Cmp	4	amod	_	_
+4	implication	implication	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	college	college	NOUN	NN	Number=Sing	7	compound	_	_
+7	life	life	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Student needs more money in college life.
+1	Student	student	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	more	more	ADJ	JJR	Degree=Cmp	4	amod	_	_
+4	money	money	NOUN	NN	Number=Sing	2	obj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	college	college	NOUN	NN	Number=Sing	7	compound	_	_
+7	life	life	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = They need part time job through their income they can easily pay their fesses.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	part	part	NOUN	NN	Number=Sing	4	compound	_	_
+4	time	time	NOUN	NN	Number=Sing	5	compound	_	_
+5	job	job	NOUN	NN	Number=Sing	2	obj	_	_
+6	through	through	ADP	IN	_	8	case	_	_
+7	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	income	income	NOUN	NN	Number=Sing	5	nmod	_	_
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
+10	can	can	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	easily	easily	ADV	RB	_	12	advmod	_	_
+12	pay	pay	VERB	VB	VerbForm=Inf	5	acl:relcl	_	_
+13	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	fesses	fess	NOUN	NNS	Number=Plur	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 11
+# text = In college life students need more income.
+1	In	in	ADP	IN	_	4	case	_	_
+2	college	college	NOUN	NN	Number=Sing	4	compound	_	_
+3	life	life	NOUN	NN	Number=Sing	4	compound	_	_
+4	students	student	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	more	more	ADJ	JJR	Degree=Cmp	7	amod	_	_
+7	income	income	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 12
+# text = Now a day's computer is the great invention of science.
+1	Now	now	ADV	RB	_	9	advmod	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	day	day	NOUN	NN	Number=Sing	5	nmod:poss	_	SpaceAfter=No
+4	's	's	PART	POS	_	3	case	_	_
+5	computer	computer	NOUN	NN	Number=Sing	9	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	great	great	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	invention	invention	NOUN	NN	Number=Sing	0	root	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	science	science	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 13
+# text = We are living in the scientific word.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	living	live	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	in	in	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	scientific	scientific	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	word	word	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 14
+# text = Computer becomes the central part of every kind of study so students need it.
+1	Computer	computer	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	becomes	become	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	central	central	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	part	part	NOUN	NN	Number=Sing	2	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	every	every	DET	DT	_	8	det	_	_
+8	kind	kind	NOUN	NN	Number=Sing	5	nmod	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	study	study	NOUN	NN	Number=Sing	8	nmod	_	_
+11	so	so	ADV	RB	_	13	advmod	_	_
+12	students	student	NOUN	NNS	Number=Plur	13	nsubj	_	_
+13	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 15
+# text = Parents can not afford the all expenses of the students.
+1	Parents	Parents	NOUN	NNS	Number=Plur	4	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	afford	afford	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	all	all	DET	DT	_	7	det	_	_
+7	expenses	expense	NOUN	NNS	Number=Plur	4	obj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	students	student	NOUN	NNS	Number=Plur	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 16
+# text = Internet and many other advancement increased the need of students.
+1	Internet	internet	NOUN	NN	Number=Sing	6	nsubj	_	_
+2	and	and	CCONJ	CC	_	5	cc	_	_
+3	many	many	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	other	other	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	advancement	advancement	NOUN	NN	Number=Sing	1	conj	_	_
+6	increased	increase	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	need	need	NOUN	NN	Number=Sing	6	obj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	students	student	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 17
+# text = In college life academic expenses of students increased.
+1	In	in	ADP	IN	_	5	case	_	_
+2	college	college	NOUN	NN	Number=Sing	5	compound	_	_
+3	life	life	NOUN	NN	Number=Sing	5	compound	_	_
+4	academic	academic	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	expenses	expenses	NOUN	NNS	Number=Plur	0	root	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	students	student	NOUN	NNS	Number=Plur	5	nmod	_	_
+8	increased	increase	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 18
+# text = They need tuition, computer and many other things.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tuition	tuition	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	computer	computer	NOUN	NN	Number=Sing	3	conj	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	many	many	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	other	other	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	things	thing	NOUN	NNS	Number=Plur	3	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 19
+# text = Parents are some time not able to pay payment.
+1	Parents	Parents	NOUN	NNS	Number=Plur	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	some	some	DET	DT	_	4	det	_	_
+4	time	time	NOUN	NN	Number=Sing	0	root	_	_
+5	not	not	ADV	RB	_	6	advmod	_	_
+6	able	able	ADJ	JJ	Degree=Pos	4	acl:relcl	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	pay	pay	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	payment	payment	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 20
+# text = At that time students need part time jobs.
+1	At	at	ADP	IN	_	3	case	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	time	time	NOUN	NN	Number=Sing	5	obl	_	_
+4	students	student	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	part	part	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	time	time	NOUN	NN	Number=Sing	8	compound	_	_
+8	jobs	job	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 21
+# text = Part time jobs can help the student to become more independent and self sufficient.
+1	Part	part	NOUN	NN	Number=Sing	2	compound	_	_
+2	time	time	NOUN	NN	Number=Sing	5	obl:tmod	_	_
+3	jobs	job	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	help	help	VERB	VB	VerbForm=Inf	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	student	student	NOUN	NN	Number=Sing	5	obj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	become	become	VERB	VB	VerbForm=Inf	5	advcl	_	_
+10	more	more	ADV	RBR	_	11	advmod	_	_
+11	independent	independent	ADJ	JJ	Degree=Pos	9	xcomp	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	self	self	PRON	PRP	_	14	conj	_	_
+14	sufficient	sufficient	ADJ	JJ	Degree=Pos	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 22
+# text = It creates self dependent in students they do not begged their hand in the front of any one in whole life.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	creates	create	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	self	self	PRON	PRP	_	2	appos	_	_
+4	dependent	dependent	ADJ	JJ	Degree=Pos	3	amod	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	students	student	NOUN	NNS	Number=Plur	4	obl	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+8	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	begged	beg	VERB	VBN	Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+11	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	hand	hand	NOUN	NN	Number=Sing	10	obj	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	front	front	NOUN	NN	Number=Sing	10	obl	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	any	any	DET	DT	_	18	det	_	_
+18	one	one	NOUN	NN	Number=Sing	15	nmod	_	_
+19	in	in	ADP	IN	_	21	case	_	_
+20	whole	whole	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	life	life	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 23
+# text = When student reached college life then it is their moral duty and the need to become self dependent so part time job is necessary for college students.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	student	student	NOUN	NN	Number=Sing	3	obl:npmod	_	_
+3	reached	reach	VERB	VBN	Tense=Past|VerbForm=Part	5	amod	_	_
+4	college	college	NOUN	NN	Number=Sing	5	compound	_	_
+5	life	life	NOUN	NN	Number=Sing	0	root	_	_
+6	then	then	ADV	RB	PronType=Dem	11	advmod	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	moral	moral	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	duty	duty	NOUN	NN	Number=Sing	5	parataxis	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	need	need	NOUN	NN	Number=Sing	5	conj	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	become	become	VERB	VB	VerbForm=Inf	14	acl	_	_
+17	self	self	PRON	PRP	_	22	nmod:poss	_	_
+18	dependent	dependent	ADJ	JJ	Degree=Pos	22	amod	_	_
+19	so	so	ADV	RB	_	20	advmod	_	_
+20	part	part	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	time	time	NOUN	NN	Number=Sing	22	compound	_	_
+22	job	job	NOUN	NN	Number=Sing	24	nsubj	_	_
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	necessary	necessary	ADJ	JJ	Degree=Pos	16	ccomp	_	_
+25	for	for	ADP	IN	_	27	case	_	_
+26	college	college	NOUN	NN	Number=Sing	27	compound	_	_
+27	students	student	NOUN	NNS	Number=Plur	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

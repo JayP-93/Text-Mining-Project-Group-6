@@ -1,0 +1,265 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PAK_SMK0_071_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿The word smoking comes from smoke smoke comprises of many harmful gases are injuries to health of a person.
+1	﻿The	﻿the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	word	word	NOUN	NN	Number=Sing	14	nsubj	_	_
+3	smoking	smoke	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	from	from	ADP	IN	_	8	case	_	_
+6	smoke	smoke	NOUN	NN	Number=Sing	8	compound	_	_
+7	smoke	smoke	NOUN	NN	Number=Sing	8	compound	_	_
+8	comprises	comprise	NOUN	NNS	Number=Plur	4	obl	_	_
+9	of	of	ADP	IN	_	12	case	_	_
+10	many	many	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	harmful	harmful	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	gases	gas	NOUN	NNS	Number=Plur	8	nmod	_	_
+13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	injuries	injury	NOUN	NNS	Number=Plur	0	root	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	health	health	NOUN	NN	Number=Sing	14	nmod	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	person	person	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = A person moves gradually towards death when he starts to smoke.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	person	person	NOUN	NN	Number=Sing	3	compound	_	_
+3	moves	move	NOUN	NNS	Number=Plur	0	root	_	_
+4	gradually	gradually	ADV	RB	_	6	advmod	_	_
+5	towards	towards	ADP	IN	_	6	case	_	_
+6	death	death	NOUN	NN	Number=Sing	3	nmod	_	_
+7	when	when	ADV	WRB	PronType=Int	9	mark	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	starts	start	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	smoke	smoke	VERB	VB	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = it is a proverb that bullet kill immediately and cigarette kills gradually.
+1	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	proverb	proverb	NOUN	NN	Number=Sing	0	root	_	_
+5	that	that	PRON	WDT	PronType=Rel	6	nsubj	_	_
+6	bullet	bullet	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+7	kill	kill	NOUN	NN	Number=Sing	6	obj	_	_
+8	immediately	immediately	ADV	RB	_	6	advmod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	cigarette	cigarette	VERB	VB	VerbForm=Inf	6	conj	_	_
+11	kills	kill	NOUN	NNS	Number=Plur	10	obj	_	_
+12	gradually	gradually	ADV	RB	_	10	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Now a days our youth in getting very attracted towards smoking.
+1	Now	now	ADV	RB	_	3	advmod	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	days	day	NOUN	NNS	Number=Plur	0	root	_	_
+4	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	youth	youth	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
+6	in	in	SCONJ	IN	_	9	mark	_	_
+7	getting	get	VERB	VBG	VerbForm=Ger	9	aux:pass	_	_
+8	very	very	ADV	RB	_	9	advmod	_	_
+9	attracted	attracted	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	_
+10	towards	towards	ADP	IN	_	11	case	_	_
+11	smoking	smoking	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = They think of smoking as a status symbol and fashion.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	2	obl	_	_
+5	as	as	ADP	IN	_	8	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	status	status	NOUN	NN	Number=Sing	8	compound	_	_
+8	symbol	symbol	NOUN	NN	Number=Sing	4	nmod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	fashion	fashion	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = When they see any of their friends smoking a cigarette with style they get impressed and starts smoking then it is very difficult for him to quit it.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	29	advcl	_	_
+4	any	any	DET	DT	_	3	obj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	friends	friend	NOUN	NNS	Number=Plur	4	nmod	_	_
+8	smoking	smoke	VERB	VBG	VerbForm=Ger	3	acl	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	cigarette	cigarette	NOUN	NN	Number=Sing	8	obj	_	_
+11	with	with	ADP	IN	_	12	case	_	_
+12	style	style	NOUN	NN	Number=Sing	10	nmod	_	_
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+14	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+15	impressed	impressed	ADJ	JJ	Degree=Pos	14	xcomp	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	starts	start	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+18	smoking	smoke	VERB	VBG	VerbForm=Ger	23	advcl	_	_
+19	then	then	ADV	RB	PronType=Dem	23	advmod	_	_
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	expl	_	_
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	very	very	ADV	RB	_	23	advmod	_	_
+23	difficult	difficult	ADJ	JJ	Degree=Pos	17	xcomp	_	_
+24	for	for	ADP	IN	_	25	case	_	_
+25	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obl	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	quit	quit	VERB	VB	VerbForm=Inf	23	advcl	_	_
+28	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 7
+# text = He becomes addicted to it without thinking its side effects.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	becomes	become	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	addicted	addicte	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	without	without	SCONJ	IN	_	7	mark	_	_
+7	thinking	think	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+8	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	side	side	NOUN	NN	Number=Sing	10	compound	_	_
+10	effects	effect	NOUN	NNS	Number=Plur	7	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = According to scientific research's the cigarette smoke consist of nicotine.
+1	According	accord	VERB	VBG	VerbForm=Ger	4	case	_	_
+2	to	to	ADP	IN	_	4	case	_	_
+3	scientific	scientific	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	research	research	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+7	cigarette	cigarette	NOUN	NN	Number=Sing	8	compound	_	_
+8	smoke	smoke	NOUN	NN	Number=Sing	9	compound	_	_
+9	consist	consist	NOUN	NN	Number=Sing	0	root	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	nicotine	nicotine	NUM	CD	NumType=Card	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 9
+# text = Nicotine is a very harmful compound which starts to damage our lungs.
+1	Nicotine	Nicotine	PROPN	NNP	Number=Sing	6	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	harmful	harmful	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	compound	compound	NOUN	NN	Number=Sing	0	root	_	_
+7	which	which	PRON	WDT	PronType=Rel	8	nsubj	_	_
+8	starts	start	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	damage	damage	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	lungs	lung	NOUN	NNS	Number=Plur	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 10
+# text = Due to smoking a person can have cancer or tuberculosis which is almost incurable diseases.
+1	Due	due	ADP	IN	_	3	mark	_	_
+2	to	to	SCONJ	IN	_	1	fixed	_	_
+3	smoking	smoke	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	person	person	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+8	cancer	cancer	NOUN	NN	Number=Sing	7	obj	_	_
+9	or	or	CCONJ	CC	_	10	cc	_	_
+10	tuberculosis	tuberculosis	NOUN	NNS	Number=Plur	8	conj	_	_
+11	which	which	PRON	WDT	PronType=Rel	15	nsubj	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	almost	almost	ADV	RB	_	14	advmod	_	_
+14	incurable	incurable	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	diseases	disease	NOUN	NNS	Number=Plur	8	acl:relcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 11
+# text = Smoking should be strictly prohibited in ever aspects.
+1	Smoking	smoking	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+2	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+4	strictly	strictly	ADV	RB	_	5	advmod	_	_
+5	prohibited	prohibit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	ever	ever	ADV	RB	_	8	advmod	_	_
+8	aspects	aspect	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 12
+# text = Everyone should take responsibility to eliminate this curse from our society.
+1	Everyone	everyone	PRON	NN	Number=Sing	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+4	responsibility	responsibility	NOUN	NN	Number=Sing	3	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	eliminate	eliminate	VERB	VB	VerbForm=Inf	3	advcl	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	curse	curse	NOUN	NN	Number=Sing	6	obj	_	_
+9	from	from	ADP	IN	_	11	case	_	_
+10	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	society	society	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 13
+# text = Steps should also be taken at Govt. level to eradicate smoking.
+1	Steps	step	NOUN	NNS	Number=Plur	5	nsubj:pass	_	_
+2	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	also	also	ADV	RB	_	5	advmod	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	at	at	ADP	IN	_	7	case	_	_
+7	Govt	govt	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+9	level	level	NOUN	NN	Number=Sing	5	parataxis	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	eradicate	eradicate	VERB	VB	VerbForm=Inf	9	acl	_	_
+12	smoking	smoking	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 14
+# text = It should be prohibited to smoke at public places.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	_	_
+4	prohibited	prohibit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	smoke	smoke	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	at	at	ADP	IN	_	9	case	_	_
+8	public	public	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	places	place	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 15
+# text = Sale of cigarettes should also be discouraged by taking these steps we can eliminate smoking from our society and can have a healthy future.
+1	Sale	sale	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	cigarettes	cigarettes	NOUN	NNS	Number=Plur	1	nmod	_	_
+4	should	should	AUX	MD	VerbForm=Fin	7	aux	_	_
+5	also	also	ADV	RB	_	7	advmod	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	discouraged	discourage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	by	by	SCONJ	IN	_	9	mark	_	_
+9	taking	take	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+10	these	these	DET	DT	Number=Plur|PronType=Dem	11	det	_	_
+11	steps	step	NOUN	NNS	Number=Plur	9	obj	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
+13	can	can	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	eliminate	eliminate	VERB	VB	VerbForm=Inf	11	acl:relcl	_	_
+15	smoking	smoke	VERB	VBG	VerbForm=Ger	14	xcomp	_	_
+16	from	from	ADP	IN	_	18	case	_	_
+17	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	society	society	NOUN	NN	Number=Sing	15	obl	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	can	can	AUX	MD	VerbForm=Fin	21	aux	_	_
+21	have	have	VERB	VB	VerbForm=Inf	15	conj	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+23	healthy	healthy	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	future	future	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

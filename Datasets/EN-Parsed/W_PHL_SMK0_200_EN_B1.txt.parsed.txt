@@ -1,0 +1,256 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PHL_SMK0_200_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Pleasure + happiness + satisfactory = smoking Asthma +cancer + lung cancer + heart disease = smoking
+1	﻿Pleasure	﻿Pleasure	NOUN	NN	Number=Sing	3	compound	_	_
+2	+	+	SYM	SYM	_	3	punct	_	_
+3	happiness	happiness	NOUN	NN	Number=Sing	0	root	_	_
+4	+	+	SYM	SYM	_	3	punct	_	_
+5	satisfactory	satisfactory	ADJ	JJ	Degree=Pos	3	amod	_	_
+6	=	=	PUNCT	,	_	3	punct	_	_
+7	smoking	smoke	VERB	VBG	VerbForm=Ger	16	amod	_	_
+8	Asthma	Asthma	PROPN	NNP	Number=Sing	13	compound	_	_
+9	+	+	SYM	SYM	_	13	punct	_	SpaceAfter=No
+10	cancer	cancer	NOUN	NN	Number=Sing	13	compound	_	_
+11	+	+	SYM	SYM	_	13	punct	_	_
+12	lung	lung	NOUN	NN	Number=Sing	13	compound	_	_
+13	cancer	cancer	NOUN	NN	Number=Sing	16	compound	_	_
+14	+	+	SYM	SYM	_	13	compound	_	_
+15	heart	heart	NOUN	NN	Number=Sing	16	compound	_	_
+16	disease	disease	NOUN	NN	Number=Sing	18	compound	_	_
+17	=	=	PUNCT	,	_	16	punct	_	_
+18	smoking	smoke	NOUN	NN	Number=Sing	3	parataxis	_	_
+
+# sent_id = 2
+# text = Now a days's many people are smoking for pleasure, happiness, and for satisfactory, smoking is a bad habit especially for young people.
+1	Now	now	ADV	RB	_	8	advmod	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	days	day	NOUN	NNS	Number=Plur	6	nmod:poss	_	SpaceAfter=No
+4	's	's	PART	POS	_	3	case	_	_
+5	many	many	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	people	people	NOUN	NNS	Number=Plur	8	nsubj	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	pleasure	pleasure	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	happiness	happiness	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	22	punct	_	_
+14	and	and	CCONJ	CC	_	22	cc	_	_
+15	for	for	ADP	IN	_	16	case	_	_
+16	satisfactory	satisfactory	ADJ	JJ	Degree=Pos	22	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	22	punct	_	_
+18	smoking	smoking	NOUN	NN	Number=Sing	22	nsubj	_	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+21	bad	bad	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	habit	habit	NOUN	NN	Number=Sing	8	conj	_	_
+23	especially	especially	ADV	RB	_	22	advmod	_	_
+24	for	for	ADP	IN	_	26	case	_	_
+25	young	young	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	people	people	NOUN	NNS	Number=Plur	22	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = Some have tried to quit but have returned to cigarettes because smoking is such a strong addiction.
+1	Some	some	DET	DT	_	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	tried	try	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	quit	quit	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	but	but	CCONJ	CC	_	8	cc	_	_
+7	have	have	AUX	VB	VerbForm=Inf	8	aux	_	_
+8	returned	return	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	cigarettes	cigarette	NOUN	NNS	Number=Plur	8	obl	_	_
+11	because	because	SCONJ	IN	_	17	mark	_	_
+12	smoking	smoking	NOUN	NN	Number=Sing	17	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+14	such	such	DET	PDT	_	17	det:predet	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	strong	strong	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	addiction	addiction	NOUN	NN	Number=Sing	8	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = It is a habit that is very difficult to break.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	habit	habit	NOUN	NN	Number=Sing	0	root	_	_
+5	that	that	PRON	WDT	PronType=Rel	8	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	very	very	ADV	RB	_	8	advmod	_	_
+8	difficult	difficult	ADJ	JJ	Degree=Pos	4	acl:relcl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	break	break	VERB	VB	VerbForm=Inf	8	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Smoking must be banned in restaurants because of many reasons one is for the satisfaction and cozy condition for visitors while eating, their relaxation and impression from his (the owner) place, the most important thing and he the owner should take care of their health ( banned the people who smoke in the restaurant), he should not allow them to smoke in a hall, where there's a lot of non-smokers.
+1	Smoking	smoking	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+2	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	_	_
+4	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	restaurants	restaurant	NOUN	NNS	Number=Plur	4	obl	_	_
+7	because	because	ADP	IN	_	10	case	_	_
+8	of	of	ADP	IN	_	7	fixed	_	_
+9	many	many	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	reasons	reason	NOUN	NNS	Number=Plur	15	obl	_	_
+11	one	one	NUM	CD	NumType=Card	15	nsubj	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	for	for	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	satisfaction	satisfaction	NOUN	NN	Number=Sing	4	obl	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	cozy	cozy	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	condition	condition	NOUN	NN	Number=Sing	15	conj	_	_
+19	for	for	ADP	IN	_	20	case	_	_
+20	visitors	visitor	NOUN	NNS	Number=Plur	15	nmod	_	_
+21	while	while	SCONJ	IN	_	22	mark	_	_
+22	eating	eat	VERB	VBG	VerbForm=Ger	15	advcl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	15	punct	_	_
+24	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	relaxation	relaxation	NOUN	NN	Number=Sing	15	appos	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	impression	impression	NOUN	NN	Number=Sing	25	conj	_	_
+28	from	from	ADP	IN	_	34	case	_	_
+29	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+30	(	(	PUNCT	-LRB-	_	32	punct	_	SpaceAfter=No
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	owner	owner	NOUN	NN	Number=Sing	34	compound	_	SpaceAfter=No
+33	)	)	PUNCT	-RRB-	_	32	punct	_	_
+34	place	place	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	15	punct	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+37	most	most	ADV	RBS	_	38	advmod	_	_
+38	important	important	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	thing	thing	NOUN	NN	Number=Sing	15	appos	_	_
+40	and	and	CCONJ	CC	_	45	cc	_	_
+41	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	45	obj	_	_
+42	the	the	DET	DT	Definite=Def|PronType=Art	43	det	_	_
+43	owner	owner	NOUN	NN	Number=Sing	45	nsubj	_	_
+44	should	should	AUX	MD	VerbForm=Fin	45	aux	_	_
+45	take	take	VERB	VB	VerbForm=Inf	64	conj	_	_
+46	care	care	NOUN	NN	Number=Sing	45	obj	_	_
+47	of	of	ADP	IN	_	49	case	_	_
+48	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	49	nmod:poss	_	_
+49	health	health	NOUN	NN	Number=Sing	46	nmod	_	_
+50	(	(	PUNCT	-LRB-	_	51	punct	_	_
+51	banned	ban	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	45	parataxis	_	_
+52	the	the	DET	DT	Definite=Def|PronType=Art	53	det	_	_
+53	people	people	NOUN	NNS	Number=Plur	51	obj	_	_
+54	who	who	PRON	WP	PronType=Rel	55	nsubj	_	_
+55	smoke	smoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	53	acl:relcl	_	_
+56	in	in	ADP	IN	_	58	case	_	_
+57	the	the	DET	DT	Definite=Def|PronType=Art	58	det	_	_
+58	restaurant	restaurant	NOUN	NN	Number=Sing	55	obl	_	SpaceAfter=No
+59	)	)	PUNCT	-RRB-	_	51	punct	_	SpaceAfter=No
+60	,	,	PUNCT	,	_	64	punct	_	_
+61	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	64	nsubj	_	_
+62	should	should	AUX	MD	VerbForm=Fin	64	aux	_	_
+63	not	not	PART	RB	_	64	advmod	_	_
+64	allow	allow	VERB	VB	VerbForm=Inf	39	conj	_	_
+65	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	64	obj	_	_
+66	to	to	PART	TO	_	67	mark	_	_
+67	smoke	smoke	VERB	VB	VerbForm=Inf	64	xcomp	_	_
+68	in	in	ADP	IN	_	70	case	_	_
+69	a	a	DET	DT	Definite=Ind|PronType=Art	70	det	_	_
+70	hall	hall	NOUN	NN	Number=Sing	67	obl	_	SpaceAfter=No
+71	,	,	PUNCT	,	_	70	punct	_	_
+72	where	where	ADV	WRB	PronType=Rel	74	advmod	_	_
+73	there	there	PRON	EX	_	74	expl	_	SpaceAfter=No
+74	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	70	acl:relcl	_	_
+75	a	a	DET	DT	Definite=Ind|PronType=Art	76	det	_	_
+76	lot	lot	NOUN	NN	Number=Sing	74	nsubj	_	_
+77	of	of	ADP	IN	_	78	case	_	_
+78	non-smokers	non-smoker	NOUN	NNS	Number=Plur	76	nmod	_	SpaceAfter=No
+79	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Because many people die in smoking even though other people dont smoke they die because of the bad environment or the smoke they inhaled.
+1	Because	because	SCONJ	IN	_	4	mark	_	_
+2	many	many	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	die	die	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	4	obl	_	_
+7	even	even	ADV	RB	_	13	advmod	_	_
+8	though	though	SCONJ	IN	_	13	mark	_	_
+9	other	other	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	people	people	NOUN	NNS	Number=Plur	13	nsubj	_	_
+11	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
+12	nt	not	PART	RB	_	13	advmod	_	_
+13	smoke	smoke	VERB	VB	VerbForm=Inf	4	advcl	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+15	die	die	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+16	because	because	ADP	IN	_	20	case	_	_
+17	of	of	ADP	IN	_	16	fixed	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	bad	bad	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	environment	environment	NOUN	NN	Number=Sing	15	obl	_	_
+21	or	or	CCONJ	CC	_	23	cc	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	smoke	smoke	NOUN	NN	Number=Sing	20	conj	_	_
+24	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	_
+25	inhaled	inhal	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	acl:relcl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Restaurant must have division for non-smoking area and smoking area so that people will enjoy their meal and be comfortable while eating.
+1	Restaurant	restaurant	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+4	division	division	NOUN	NN	Number=Sing	3	obj	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	non-smoking	non-smoking	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	area	area	NOUN	NN	Number=Sing	4	nmod	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	smoking	smoke	NOUN	NN	Number=Sing	10	compound	_	_
+10	area	area	NOUN	NN	Number=Sing	4	conj	_	_
+11	so	so	ADV	RB	_	15	advmod	_	_
+12	that	that	SCONJ	IN	_	11	fixed	_	_
+13	people	people	NOUN	NNS	Number=Plur	15	nsubj	_	_
+14	will	will	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	enjoy	enjoy	VERB	VB	VerbForm=Inf	3	conj	_	_
+16	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	meal	meal	NOUN	NN	Number=Sing	15	obj	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	20	cop	_	_
+20	comfortable	comfortable	ADJ	JJ	Degree=Pos	3	conj	_	_
+21	while	while	SCONJ	IN	_	22	mark	_	_
+22	eating	eat	VERB	VBG	VerbForm=Ger	20	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Smokers must also be responsible for their actions and must also be concerned with others.
+1	Smokers	smoker	NOUN	NNS	Number=Plur	5	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	also	also	ADV	RB	_	5	advmod	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	responsible	responsible	ADJ	JJ	Degree=Pos	0	root	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	actions	action	NOUN	NNS	Number=Plur	5	obl	_	_
+9	and	and	CCONJ	CC	_	13	cc	_	_
+10	must	must	AUX	MD	VerbForm=Fin	13	aux	_	_
+11	also	also	ADV	RB	_	13	advmod	_	_
+12	be	be	AUX	VB	VerbForm=Inf	13	cop	_	_
+13	concerned	concerned	ADJ	JJ	Degree=Pos	5	conj	_	_
+14	with	with	ADP	IN	_	15	case	_	_
+15	others	other	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = People should not be indifferent to each others.
+1	People	people	NOUN	NNS	Number=Plur	5	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	indifferent	indifferent	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	each	each	DET	DT	_	8	det	_	_
+8	others	other	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

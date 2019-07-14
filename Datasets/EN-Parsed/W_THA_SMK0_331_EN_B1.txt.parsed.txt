@@ -1,0 +1,260 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_THA_SMK0_331_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking should be completely banned at all the restaurants in the country?
+1	﻿Smoking	﻿Smoking	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+2	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+4	completely	completely	ADV	RB	_	5	advmod	_	_
+5	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	at	at	ADP	IN	_	9	case	_	_
+7	all	all	DET	PDT	_	9	det:predet	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	restaurants	restaurant	NOUN	NNS	Number=Plur	5	obl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	country	country	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = In my opinion
+1	In	in	ADP	IN	_	3	case	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	opinion	opinion	NOUN	NN	Number=Sing	0	root	_	_
+
+# sent_id = 3
+# text = I think it should be that because smoking leads to many health problems such as lung cancer and many problems about lung.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+6	that	that	ADV	RB	_	2	ccomp	_	_
+7	because	because	SCONJ	IN	_	8	mark	_	_
+8	smoking	smoke	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+9	leads	lead	NOUN	NNS	Number=Plur	8	obj	_	_
+10	to	to	ADP	IN	_	13	case	_	_
+11	many	many	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	health	health	NOUN	NN	Number=Sing	13	compound	_	_
+13	problems	problem	NOUN	NNS	Number=Plur	9	nmod	_	_
+14	such	such	ADJ	JJ	Degree=Pos	17	case	_	_
+15	as	as	ADP	IN	_	14	fixed	_	_
+16	lung	lung	NOUN	NN	Number=Sing	17	compound	_	_
+17	cancer	cancer	NOUN	NN	Number=Sing	13	nmod	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	many	many	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	problems	problem	NOUN	NNS	Number=Plur	17	conj	_	_
+21	about	about	ADP	IN	_	22	case	_	_
+22	lung	lung	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = The disease occurs because in the cigarette has a Tar, Nicotine which is a "Cacinogen" (substance that leads to cancer).
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	disease	disease	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	occurs	occur	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	because	because	SCONJ	IN	_	8	mark	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	cigarette	cigarette	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	Tar	Tar	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	Nicotine	Nicotine	PROPN	NNP	Number=Sing	10	appos	_	_
+13	which	which	PRON	WDT	PronType=Rel	17	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	"	"	PUNCT	``	_	17	punct	_	SpaceAfter=No
+17	Cacinogen	Cacinogen	NOUN	NN	Number=Sing	12	acl:relcl	_	SpaceAfter=No
+18	"	"	PUNCT	''	_	17	punct	_	_
+19	(	(	PUNCT	-LRB-	_	20	punct	_	SpaceAfter=No
+20	substance	substance	NOUN	NN	Number=Sing	10	appos	_	_
+21	that	that	PRON	WDT	PronType=Rel	22	nsubj	_	_
+22	leads	lead	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	cancer	cancer	VERB	VB	VerbForm=Inf	22	xcomp	_	SpaceAfter=No
+25	)	)	PUNCT	-RRB-	_	20	punct	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = However, I will not talk about the person who usually smokes because they also surely know that what will happen with their health in the future when they decide to smoke.
+1	However	however	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	talk	talk	VERB	VB	VerbForm=Inf	0	root	_	_
+7	about	about	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	person	person	NOUN	NN	Number=Sing	6	obl	_	_
+10	who	who	PRON	WP	PronType=Rel	12	nsubj	_	_
+11	usually	usually	ADV	RB	_	12	advmod	_	_
+12	smokes	smoke	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+13	because	because	SCONJ	IN	_	17	mark	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+15	also	also	ADV	RB	_	17	advmod	_	_
+16	surely	surely	ADV	RB	_	17	advmod	_	_
+17	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+18	that	that	SCONJ	IN	_	21	mark	_	_
+19	what	what	PRON	WP	PronType=Int	21	nsubj	_	_
+20	will	will	AUX	MD	VerbForm=Fin	21	aux	_	_
+21	happen	happen	VERB	VB	VerbForm=Inf	17	ccomp	_	_
+22	with	with	ADP	IN	_	24	case	_	_
+23	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	health	health	NOUN	NN	Number=Sing	21	obl	_	_
+25	in	in	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	future	future	NOUN	NN	Number=Sing	21	obl	_	_
+28	when	when	ADV	WRB	PronType=Int	30	mark	_	_
+29	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	30	nsubj	_	_
+30	decide	decide	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+31	to	to	PART	TO	_	32	mark	_	_
+32	smoke	smoke	VERB	VB	VerbForm=Inf	30	xcomp	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 6
+# text = On the other way I will talk about the person who does not smoke but is affected by smoking because of smoking in public such as restaurants, subway station, bus stop, taxi stand or something like that.
+1	On	on	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	other	other	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	way	way	NOUN	NN	Number=Sing	7	obl	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	talk	talk	VERB	VB	VerbForm=Inf	0	root	_	_
+8	about	about	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	person	person	NOUN	NN	Number=Sing	7	obl	_	_
+11	who	who	PRON	WP	PronType=Rel	14	nsubj	_	_
+12	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	not	not	PART	RB	_	14	advmod	_	_
+14	smoke	smoke	VERB	VB	VerbForm=Inf	10	acl:relcl	_	_
+15	but	but	CCONJ	CC	_	17	cc	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	affected	affect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	conj	_	_
+18	by	by	SCONJ	IN	_	19	mark	_	_
+19	smoking	smoke	VERB	VBG	VerbForm=Ger	17	advcl	_	_
+20	because	because	ADP	IN	_	22	case	_	_
+21	of	of	ADP	IN	_	20	fixed	_	_
+22	smoking	smoking	NOUN	NN	Number=Sing	19	obl	_	_
+23	in	in	ADP	IN	_	24	case	_	_
+24	public	public	ADJ	JJ	Degree=Pos	27	nmod	_	_
+25	such	such	ADJ	JJ	Degree=Pos	27	case	_	_
+26	as	as	ADP	IN	_	25	fixed	_	_
+27	restaurants	restaurant	NOUN	NNS	Number=Plur	22	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	30	punct	_	_
+29	subway	subway	NOUN	NN	Number=Sing	30	compound	_	_
+30	station	station	NOUN	NN	Number=Sing	27	conj	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	33	punct	_	_
+32	bus	bus	NOUN	NN	Number=Sing	33	compound	_	_
+33	stop	stop	NOUN	NN	Number=Sing	27	conj	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	36	punct	_	_
+35	taxi	taxi	NOUN	NN	Number=Sing	36	compound	_	_
+36	stand	stand	NOUN	NN	Number=Sing	27	conj	_	_
+37	or	or	CCONJ	CC	_	38	cc	_	_
+38	something	something	PRON	NN	Number=Sing	36	conj	_	_
+39	like	like	ADP	IN	_	40	case	_	_
+40	that	that	PRON	DT	Number=Sing|PronType=Dem	38	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 7
+# text = I think the government should aware about this problem because people who do not smoke are affected although they do not smoke but they just stand in wrong place and wrong time.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	government	government	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	aware	aware	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+7	about	about	ADP	IN	_	9	case	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	problem	problem	NOUN	NN	Number=Sing	6	obl	_	_
+10	because	because	SCONJ	IN	_	17	mark	_	_
+11	people	people	NOUN	NNS	Number=Plur	17	nsubj:pass	_	_
+12	who	who	PRON	WP	PronType=Rel	13	nsubj	_	_
+13	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	not	not	PART	RB	_	15	advmod	_	_
+15	smoke	smoke	NOUN	NN	Number=Sing	13	obj	_	_
+16	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	affected	affect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	_	_
+18	although	although	SCONJ	IN	_	22	mark	_	_
+19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
+20	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	not	not	PART	RB	_	22	advmod	_	_
+22	smoke	smoke	VERB	VB	VerbForm=Inf	17	advcl	_	_
+23	but	but	CCONJ	CC	_	26	cc	_	_
+24	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	_
+25	just	just	ADV	RB	_	26	advmod	_	_
+26	stand	stand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	_
+27	in	in	ADP	IN	_	29	case	_	_
+28	wrong	wrong	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	place	place	NOUN	NN	Number=Sing	26	obl	_	_
+30	and	and	CCONJ	CC	_	32	cc	_	_
+31	wrong	wrong	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	time	time	NOUN	NN	Number=Sing	26	conj	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 8
+# text = So the national rate of people who die with lung cancer or lung disease is increasing in nowadays.
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	national	national	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	rate	rate	NOUN	NN	Number=Sing	16	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	people	people	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+8	die	die	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+9	with	with	ADP	IN	_	11	case	_	_
+10	lung	lung	NOUN	NN	Number=Sing	11	compound	_	_
+11	cancer	cancer	NOUN	NN	Number=Sing	8	obl	_	_
+12	or	or	CCONJ	CC	_	14	cc	_	_
+13	lung	lung	NOUN	NN	Number=Sing	14	compound	_	_
+14	disease	disease	NOUN	NN	Number=Sing	11	conj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	increasing	increase	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+17	in	in	ADP	IN	_	16	compound:prt	_	_
+18	nowadays	nowadays	ADV	RB	_	16	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 9
+# text = To solve this problem I think the government should write the law of smoking and strict with it.
+1	To	to	PART	TO	_	2	mark	_	_
+2	solve	solve	VERB	VB	VerbForm=Inf	6	advcl	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	problem	problem	NOUN	NN	Number=Sing	2	obj	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	government	government	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	write	write	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	law	law	NOUN	NN	Number=Sing	10	obj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	smoking	smoking	NOUN	NN	Number=Sing	12	nmod	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	strict	strict	NOUN	NN	Number=Sing	14	conj	_	_
+17	with	with	ADP	IN	_	18	case	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 10
+# text = In order to decrease the national rate of people who die with lung cancer or lung disease.
+1	In	in	ADP	IN	_	4	mark	_	_
+2	order	order	NOUN	NN	Number=Sing	1	fixed	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	decrease	decrease	VERB	VB	VerbForm=Inf	18	advcl	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	national	national	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	rate	rate	NOUN	NN	Number=Sing	4	obj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	people	people	NOUN	NNS	Number=Plur	7	nmod	_	_
+10	who	who	PRON	WP	PronType=Rel	11	nsubj	_	_
+11	die	die	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	lung	lung	NOUN	NN	Number=Sing	14	compound	_	_
+14	cancer	cancer	NOUN	NN	Number=Sing	11	obl	_	_
+15	or	or	CCONJ	CC	_	17	cc	_	_
+16	lung	lung	NOUN	NN	Number=Sing	17	compound	_	_
+17	disease	disease	NOUN	NN	Number=Sing	14	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	0	root	_	SpacesAfter=\n
+

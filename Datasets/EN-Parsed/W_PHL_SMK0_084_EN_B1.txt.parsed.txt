@@ -1,0 +1,278 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PHL_SMK0_084_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I consider myself as someone who is health conscious.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	consider	consider	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	as	as	ADP	IN	_	5	case	_	_
+5	someone	someone	PRON	NN	Number=Sing	2	obl	_	_
+6	who	who	PRON	WP	PronType=Rel	9	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	health	health	NOUN	NN	Number=Sing	9	obl:npmod	_	_
+9	conscious	conscious	ADJ	JJ	Degree=Pos	5	acl:relcl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Every time I walk past smokers, I always remember to pull out my handkerchief and cover my nose, or in some instances, hold my breath for a few seconds.
+1	Every	every	DET	DT	_	2	det	_	_
+2	time	time	NOUN	NN	Number=Sing	10	obl:tmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	walk	walk	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	past	past	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	smokers	smoker	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	always	always	ADV	RB	_	10	advmod	_	_
+10	remember	remember	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	pull	pull	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	out	out	ADP	RP	_	12	compound:prt	_	_
+14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	handkerchief	handkerchief	NOUN	NN	Number=Sing	12	obj	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	cover	cover	VERB	VB	VerbForm=Inf	12	conj	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	nose	nose	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	24	punct	_	_
+21	or	or	CCONJ	CC	_	24	cc	_	_
+22	in	in	ADP	IN	_	24	case	_	_
+23	some	some	DET	DT	_	24	det	_	_
+24	instances	instanx	NOUN	NNS	Number=Plur	17	conj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	10	punct	_	_
+26	hold	hold	VERB	VB	Mood=Imp|VerbForm=Fin	10	parataxis	_	_
+27	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	breath	breath	NOUN	NN	Number=Sing	26	obj	_	_
+29	for	for	ADP	IN	_	32	case	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
+31	few	few	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	seconds	seconds	NOUN	NNS	Number=Plur	26	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = According to studies second hand smoking is much more dangerous than first hand.
+1	According	accord	VERB	VBG	VerbForm=Ger	3	case	_	_
+2	to	to	ADP	IN	_	3	case	_	_
+3	studies	study	NOUN	NNS	Number=Plur	10	obl	_	_
+4	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	6	amod	_	_
+5	hand	hand	NOUN	NN	Number=Sing	6	compound	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	10	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	much	much	ADV	RB	_	9	advmod	_	_
+9	more	more	ADV	RBR	_	10	advmod	_	_
+10	dangerous	dangerous	ADJ	JJ	Degree=Pos	0	root	_	_
+11	than	than	ADP	IN	_	13	case	_	_
+12	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	13	amod	_	_
+13	hand	hand	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 4
+# text = That is why it is important to ban smoking in restaurants.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	why	why	ADV	WRB	PronType=Int	6	advmod	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	ban	ban	VERB	VB	VerbForm=Inf	6	csubj	_	_
+9	smoking	smoke	NOUN	NN	Number=Sing	8	obj	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	restaurants	restaurant	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = Think about it, if you inhale second hand smoke, you sustain more damage than the first hand smoker.
+1	Think	think	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	about	about	ADP	IN	_	3	case	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	if	if	SCONJ	IN	_	7	mark	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	inhale	inhale	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+8	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	10	amod	_	_
+9	hand	hand	NOUN	NN	Number=Sing	10	compound	_	_
+10	smoke	smoke	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+13	sustain	sustain	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+14	more	more	ADJ	JJR	Degree=Cmp	15	amod	_	_
+15	damage	damage	NOUN	NN	Number=Sing	13	obj	_	_
+16	than	than	ADP	IN	_	20	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+18	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	19	amod	_	_
+19	hand	hand	NOUN	NN	Number=Sing	20	compound	_	_
+20	smoker	smoker	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = Most smokers tend to smoke inside or outside restaurants, usually with their friends.
+1	Most	most	ADJ	JJS	Degree=Sup	2	amod	_	_
+2	smokers	smoker	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	tend	tend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	smoke	smoke	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	inside	inside	ADV	RB	_	5	advmod	_	_
+7	or	or	CCONJ	CC	_	9	cc	_	_
+8	outside	outside	ADV	RB	_	9	advmod	_	_
+9	restaurants	restaurant	NOUN	NNS	Number=Plur	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	usually	usually	ADV	RB	_	14	advmod	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	friends	friend	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = This must stop.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	stop	stop	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = There are a lot of customers which the restaurants attend to, not only adults but children as well.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	lot	lot	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	customers	customer	NOUN	NNS	Number=Plur	10	nmod	_	_
+7	which	which	PRON	WDT	PronType=Rel	10	obj	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	restaurants	restaurant	NOUN	NNS	Number=Plur	10	nsubj	_	_
+10	attend	attend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+11	to	to	PART	TO	_	15	mark	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	not	not	ADV	RB	_	15	advmod	_	_
+14	only	only	ADV	RB	_	15	advmod	_	_
+15	adults	adult	NOUN	NNS	Number=Plur	2	nsubj	_	_
+16	but	but	CCONJ	CC	_	17	cc	_	_
+17	children	child	NOUN	NNS	Number=Plur	15	conj	_	_
+18	as	as	ADV	RB	_	15	advmod	_	_
+19	well	well	ADV	RB	Degree=Pos	18	fixed	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = It would be wrong if children, at a tender age, would inhale the second hand smoke of the smokers in restaurants.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	_
+4	wrong	wrong	ADJ	JJ	Degree=Pos	0	root	_	_
+5	if	if	SCONJ	IN	_	14	mark	_	_
+6	children	child	NOUN	NNS	Number=Plur	14	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	at	at	ADP	IN	_	11	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	tender	tender	NOUN	NN	Number=Sing	11	compound	_	_
+11	age	age	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	would	would	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	inhale	inhale	VERB	VB	VerbForm=Inf	4	advcl	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+16	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	17	amod	_	_
+17	hand	hand	NOUN	NN	Number=Sing	18	compound	_	_
+18	smoke	smoke	NOUN	NN	Number=Sing	14	obj	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	smokers	smoker	NOUN	NNS	Number=Plur	18	nmod	_	_
+22	in	in	ADP	IN	_	23	case	_	_
+23	restaurants	restaurant	NOUN	NNS	Number=Plur	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 10
+# text = Smoking shall be banned in restaurants, for it will affect the health condition of the other customers that are being served.
+1	Smoking	smoke	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+2	shall	shall	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	_	_
+4	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	restaurants	restaurant	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	for	for	SCONJ	IN	_	11	mark	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	will	will	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	affect	affect	VERB	VB	VerbForm=Inf	4	advcl	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	health	health	NOUN	NN	Number=Sing	14	compound	_	_
+14	condition	condition	NOUN	NN	Number=Sing	11	obj	_	_
+15	of	of	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	other	other	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	customers	customer	NOUN	NNS	Number=Plur	14	nmod	_	_
+19	that	that	PRON	WDT	PronType=Rel	22	nsubj:pass	_	_
+20	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	being	be	AUX	VBG	VerbForm=Ger	22	aux:pass	_	_
+22	served	serve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	acl:relcl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = These customers may not fully realize that their health condition is already suffering from second hand smoking.
+1	These	these	DET	DT	Number=Plur|PronType=Dem	2	det	_	_
+2	customers	customer	NOUN	NNS	Number=Plur	6	nsubj	_	_
+3	may	may	AUX	MD	VerbForm=Fin	6	aux	_	_
+4	not	not	PART	RB	_	6	advmod	_	_
+5	fully	fully	ADV	RB	_	6	advmod	_	_
+6	realize	realize	VERB	VB	VerbForm=Inf	0	root	_	_
+7	that	that	SCONJ	IN	_	13	mark	_	_
+8	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	health	health	NOUN	NN	Number=Sing	10	compound	_	_
+10	condition	condition	NOUN	NN	Number=Sing	13	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	already	already	ADV	RB	_	13	advmod	_	_
+13	suffering	suffer	VERB	VBG	Tense=Pres|VerbForm=Part	6	ccomp	_	_
+14	from	from	ADP	IN	_	17	case	_	_
+15	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	17	amod	_	_
+16	hand	hand	NOUN	NN	Number=Sing	17	compound	_	_
+17	smoking	smoke	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 12
+# text = A good approach to this problem, would be requiring smokers to move in private areas were their actions would not harm other individuals.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	good	good	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	approach	approach	NOUN	NN	Number=Sing	10	nsubj	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	problem	problem	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	would	would	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux	_	_
+10	requiring	require	VERB	VBG	Tense=Pres|VerbForm=Part	19	csubj	_	_
+11	smokers	smoker	NOUN	NNS	Number=Plur	10	obj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	move	move	VERB	VB	VerbForm=Inf	11	acl	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	private	private	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	areas	area	NOUN	NNS	Number=Plur	13	obl	_	_
+17	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	cop	_	_
+18	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	actions	action	NOUN	NNS	Number=Plur	22	nsubj	_	_
+20	would	would	AUX	MD	VerbForm=Fin	22	aux	_	_
+21	not	not	PART	RB	_	22	advmod	_	_
+22	harm	harm	VERB	VB	VerbForm=Inf	0	root	_	_
+23	other	other	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	individuals	individual	NOUN	NNS	Number=Plur	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 13
+# text = Therefore, other customers would no longer be affected by the serious case of second hand smoking.
+1	Therefore	therefore	ADV	RB	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	9	punct	_	_
+3	other	other	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	customers	customer	NOUN	NNS	Number=Plur	9	nsubj:pass	_	_
+5	would	would	AUX	MD	VerbForm=Fin	9	aux	_	_
+6	no	no	ADV	RB	_	7	advmod	_	_
+7	longer	longer	ADV	RBR	Degree=Cmp	9	advmod	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+9	affected	affect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+10	by	by	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	serious	serious	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	case	case	NOUN	NN	Number=Sing	9	obl	_	_
+14	of	of	ADP	IN	_	17	case	_	_
+15	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	16	amod	_	_
+16	hand	hand	NOUN	NN	Number=Sing	17	compound	_	_
+17	smoking	smoke	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,294 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_JPN_PTJ0_310_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿I agree with this statement.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	with	with	ADP	IN	_	5	case	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	statement	statement	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = One of the reasons is that college students have to earn money than ever before.
+1	One	one	NUM	CD	NumType=Card	5	nsubj	_	_
+2	of	of	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	reasons	reason	NOUN	NNS	Number=Plur	1	nmod	_	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	that	that	SCONJ	IN	_	9	mark	_	_
+7	college	college	NOUN	NN	Number=Sing	8	compound	_	_
+8	students	student	NOUN	NNS	Number=Plur	9	nsubj	_	_
+9	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	earn	earn	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	money	money	NOUN	NN	Number=Sing	11	obj	_	_
+13	than	than	ADP	IN	_	14	case	_	_
+14	ever	ever	ADV	RB	_	11	obl	_	_
+15	before	before	ADV	RB	_	11	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = For instance, they have to buy a lot of textbooks which are expensive and they have to wear clothes which are not uniform Monday to Friday and so on.
+1	For	for	ADP	IN	_	2	case	_	_
+2	instance	instance	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	buy	buy	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	lot	lot	NOUN	NN	Number=Sing	7	obj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	textbooks	textbook	NOUN	NNS	Number=Plur	9	nmod	_	_
+12	which	which	PRON	WDT	PronType=Rel	14	nsubj	_	_
+13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	expensive	expensive	ADJ	JJ	Degree=Pos	9	acl:relcl	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+17	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	wear	wear	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+20	clothes	clothes	NOUN	NNS	Number=Plur	19	obj	_	_
+21	which	which	PRON	WDT	PronType=Rel	24	nsubj	_	_
+22	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	not	not	PART	RB	_	24	advmod	_	_
+24	uniform	uniform	ADJ	JJ	Degree=Pos	20	acl:relcl	_	_
+25	Monday	Monday	PROPN	NNP	Number=Sing	24	obl:tmod	_	_
+26	to	to	ADP	IN	_	27	case	_	_
+27	Friday	Friday	PROPN	NNP	Number=Sing	19	obl	_	_
+28	and	and	CCONJ	CC	_	30	cc	_	_
+29	so	so	ADV	RB	_	30	advmod	_	_
+30	on	on	ADV	RB	_	19	advmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = So they have to have a part-time job to earn money.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	have	have	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+7	part	part	NOUN	NN	Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	_	SpaceAfter=No
+9	time	time	NOUN	NN	Number=Sing	10	compound	_	_
+10	job	job	NOUN	NN	Number=Sing	5	obj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	earn	earn	VERB	VB	VerbForm=Inf	10	acl	_	_
+13	money	money	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = And main reason why I agree with this statement is that they can go through various things in part-time job before they get a job.
+1	And	and	CCONJ	CC	_	10	cc	_	_
+2	main	main	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	reason	reason	NOUN	NN	Number=Sing	10	nsubj	_	_
+4	why	why	ADV	WRB	PronType=Int	6	advmod	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	statement	statement	NOUN	NN	Number=Sing	6	obl	_	_
+10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	that	that	SCONJ	IN	_	14	mark	_	_
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+13	can	can	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	go	go	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+15	through	through	ADP	IN	_	17	case	_	_
+16	various	various	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	things	thing	NOUN	NNS	Number=Plur	14	obl	_	_
+18	in	in	ADP	IN	_	22	case	_	_
+19	part	part	ADJ	JJ	Degree=Pos	21	amod	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	_	21	punct	_	SpaceAfter=No
+21	time	time	NOUN	NN	Number=Sing	22	compound	_	_
+22	job	job	NOUN	NN	Number=Sing	14	obl	_	_
+23	before	before	SCONJ	IN	_	25	mark	_	_
+24	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	_
+25	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	job	job	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 6
+# text = I had part-time job in spring vacation.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	part	part	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	time	time	NOUN	NN	Number=Sing	6	compound	_	_
+6	job	job	NOUN	NN	Number=Sing	2	obj	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	spring	spring	NOUN	NN	Number=Sing	9	compound	_	_
+9	vacation	vacation	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = I worked as a clerk in gift shop.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	as	as	ADP	IN	_	5	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	clerk	clerk	NOUN	NN	Number=Sing	2	obl	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	gift	gift	NOUN	NN	Number=Sing	8	compound	_	_
+8	shop	shop	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = The shop sold gift of Sumo Tournament in Osaka.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	shop	shop	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	sold	sell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	gift	gift	NOUN	NN	Number=Sing	3	obj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	Sumo	sumo	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Tournament	tournament	PROPN	NNP	Number=Sing	4	nmod	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	Osaka	Osaka	PROPN	NNP	Number=Sing	3	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = I experienced a lot of things in the job.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	experienced	experience	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	lot	lot	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	things	thing	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	job	job	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = Since Sumo is Japanese traditional sport, a number of foreigners came the shop and asked us about use of goods in English or Chinese and so on.
+1	Since	since	SCONJ	IN	_	6	mark	_	_
+2	Sumo	sumo	PROPN	NNP	Number=Sing	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	Japanese	japanese	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	traditional	traditional	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	sport	sport	NOUN	NN	Number=Sing	12	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	number	number	NOUN	NN	Number=Sing	12	nsubj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	foreigners	foreigner	NOUN	NNS	Number=Plur	9	nmod	_	_
+12	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	shop	shop	NOUN	NN	Number=Sing	12	obj	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
+17	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	16	obj	_	_
+18	about	about	ADP	IN	_	19	case	_	_
+19	use	use	NOUN	NN	Number=Sing	16	obl	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	goods	good	NOUN	NNS	Number=Plur	19	nmod	_	_
+22	in	in	ADP	IN	_	23	case	_	_
+23	English	English	PROPN	NNP	Number=Sing	21	nmod	_	_
+24	or	or	CCONJ	CC	_	25	cc	_	_
+25	Chinese	chinese	ADJ	JJ	Degree=Pos	23	conj	_	_
+26	and	and	CCONJ	CC	_	28	cc	_	_
+27	so	so	ADV	RB	_	28	advmod	_	_
+28	on	on	ADV	RB	_	19	conj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 11
+# text = So I couldn't speak foreign languages but I had to tell them as a clerk.
+1	So	so	ADV	RB	_	5	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	could	could	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n't	not	PART	RB	_	5	advmod	_	_
+5	speak	speak	VERB	VB	VerbForm=Inf	0	root	_	_
+6	foreign	foreign	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	languages	language	NOUN	NNS	Number=Plur	5	obj	_	_
+8	but	but	CCONJ	CC	_	10	cc	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	tell	tell	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
+14	as	as	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	clerk	clerk	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 12
+# text = Each time I explained to them with gesture.
+1	Each	each	DET	DT	_	2	det	_	_
+2	time	time	NOUN	NN	Number=Sing	0	root	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	explained	explain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obl	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	gesture	gesture	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 13
+# text = To speak with gesture is a first experience for me and this experience would not go through without I worked the shop.
+1	To	to	PART	TO	_	2	mark	_	_
+2	speak	speak	VERB	VB	VerbForm=Inf	8	csubj	_	_
+3	with	with	ADP	IN	_	4	case	_	_
+4	gesture	gesture	NOUN	NN	Number=Sing	2	obl	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	8	amod	_	_
+8	experience	experience	NOUN	NN	Number=Sing	0	root	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	nmod	_	_
+11	and	and	CCONJ	CC	_	16	cc	_	_
+12	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	experience	experience	NOUN	NN	Number=Sing	16	nsubj	_	_
+14	would	would	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	not	not	PART	RB	_	16	advmod	_	_
+16	go	go	VERB	VB	VerbForm=Inf	8	conj	_	_
+17	through	through	ADV	RB	_	16	advmod	_	_
+18	without	without	SCONJ	IN	_	20	mark	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+20	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	advcl	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	shop	shop	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 14
+# text = I experienced any other valuable things.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	experienced	experience	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	any	any	DET	DT	_	6	det	_	_
+4	other	other	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	valuable	valuable	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	things	thing	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 15
+# text = I think that they can learn by a lot of experiences through part-time job.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	6	mark	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	learn	learn	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+7	by	by	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	lot	lot	NOUN	NN	Number=Sing	6	obl	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	experiences	experiences	NOUN	NNS	Number=Plur	9	nmod	_	_
+12	through	through	ADP	IN	_	16	case	_	_
+13	part	part	NOUN	NN	Number=Sing	15	compound	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	15	punct	_	SpaceAfter=No
+15	time	time	NOUN	NN	Number=Sing	16	compound	_	_
+16	job	job	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 16
+# text = Therefore I really agree with this statement.
+1	Therefore	therefore	SCONJ	IN	_	4	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	really	really	ADV	RB	_	4	advmod	_	_
+4	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	statement	statement	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

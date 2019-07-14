@@ -1,0 +1,342 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_IDN_SMK0_160_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I definitely agree that smoking should be banned in all public areas, such as restaurants, malls, etc.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	definitely	definitely	ADV	RB	_	3	advmod	_	_
+3	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+6	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+9	in	in	ADP	IN	_	12	case	_	_
+10	all	all	DET	DT	_	12	det	_	_
+11	public	public	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	areas	area	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	such	such	ADJ	JJ	Degree=Pos	16	case	_	_
+15	as	as	ADP	IN	_	14	fixed	_	_
+16	restaurants	restaurant	NOUN	NNS	Number=Plur	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	malls	mall	NOUN	NNS	Number=Plur	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	_
+20	etc	etc	X	FW	_	16	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = It's because the smoke from the cigarettes can cause the inconvenience, bad smell, and health problems to the other people around the smokers.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	because	because	SCONJ	IN	_	10	mark	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	smoke	smoke	NOUN	NN	Number=Sing	10	nsubj	_	_
+6	from	from	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	cigarettes	cigarette	NOUN	NNS	Number=Plur	5	nmod	_	_
+9	can	can	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	cause	cause	VERB	VB	VerbForm=Inf	2	advcl	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	inconvenience	inconvenience	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	bad	bad	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	smell	smell	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	health	health	NOUN	NN	Number=Sing	19	compound	_	_
+19	problems	problem	NOUN	NNS	Number=Plur	12	conj	_	_
+20	to	to	ADP	IN	_	23	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	other	other	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	people	people	NOUN	NNS	Number=Plur	19	nmod	_	_
+24	around	around	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	smokers	smoker	NOUN	NNS	Number=Plur	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = First of all, the smoking habit in public areas can cause the inconvenience for other people.
+1	First	first	ADV	RB	_	12	advmod	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	all	all	DET	DT	_	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	12	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	smoking	smoke	NOUN	NN	Number=Sing	7	compound	_	_
+7	habit	habit	NOUN	NN	Number=Sing	12	nsubj	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	public	public	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	areas	area	NOUN	NNS	Number=Plur	7	nmod	_	_
+11	can	can	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	cause	cause	VERB	VB	VerbForm=Inf	0	root	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	inconvenience	inconvenience	NOUN	NN	Number=Sing	12	obj	_	_
+15	for	for	ADP	IN	_	17	case	_	_
+16	other	other	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	people	people	NOUN	NNS	Number=Plur	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 4
+# text = The smoke from the cigarettes and which the smokers exhale can make other people feel horrible when they inhale it.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	smoke	smoke	NOUN	NN	Number=Sing	0	root	_	_
+3	from	from	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	cigarettes	cigarettes	NOUN	NNS	Number=Plur	2	nmod	_	_
+6	and	and	CCONJ	CC	_	12	cc	_	_
+7	which	which	PRON	WDT	PronType=Int	12	obj	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	smokers	smoker	NOUN	NNS	Number=Plur	10	compound	_	_
+10	exhale	exhale	NOUN	NN	Number=Sing	12	nsubj	_	_
+11	can	can	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	make	make	VERB	VB	VerbForm=Inf	5	conj	_	_
+13	other	other	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	people	people	NOUN	NNS	Number=Plur	15	nsubj	_	_
+15	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+16	horrible	horrible	ADJ	JJ	Degree=Pos	15	xcomp	_	_
+17	when	when	ADV	WRB	PronType=Int	19	mark	_	_
+18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+19	inhale	inhale	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Besides, it is not such a great thing to be exposed by the smoke from the smokers continuously.
+1	Besides	besides	ADV	RB	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	9	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+5	not	not	PART	RB	_	9	advmod	_	_
+6	such	such	DET	PDT	_	9	det:predet	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	great	great	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	thing	thing	NOUN	NN	Number=Sing	0	root	_	_
+10	to	to	PART	TO	_	12	mark	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	aux:pass	_	_
+12	exposed	expose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	_
+13	by	by	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	smoke	smoke	NOUN	NN	Number=Sing	12	obl	_	_
+16	from	from	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	smoker	smoker	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+19	s	s	PART	POS	_	18	case	_	_
+20	continuously	continuously	ADV	RB	_	18	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 6
+# text = Secondly, the smoke also can cause bad smell in our body.
+1	Secondly	secondly	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	smoke	smoke	NOUN	NN	Number=Sing	7	nsubj	_	_
+5	also	also	ADV	RB	_	7	advmod	_	_
+6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	cause	cause	VERB	VB	VerbForm=Inf	0	root	_	_
+8	bad	bad	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	smell	smell	NOUN	NN	Number=Sing	7	obj	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	body	body	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 7
+# text = The smell of the smoke usually sticks in our body, hair, and clothes.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	smell	smell	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	smoke	smoke	NOUN	NN	Number=Sing	2	nmod	_	_
+6	usually	usually	ADV	RB	_	7	advmod	_	_
+7	sticks	stick	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	body	body	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	hair	hair	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	clothes	clothes	NOUN	NNS	Number=Plur	10	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 8
+# text = It is not a good thing to keep sniffing the smell of the smoke all day long because we cannot change our clothes or take a bath immediately.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	not	not	PART	RB	_	6	advmod	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	good	good	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	thing	thing	NOUN	NN	Number=Sing	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	keep	keep	VERB	VB	VerbForm=Inf	6	acl	_	_
+9	sniffing	sniff	VERB	VBG	VerbForm=Ger	8	xcomp	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	smell	smell	NOUN	NN	Number=Sing	9	obj	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	smoke	smoke	NOUN	NN	Number=Sing	11	nmod	_	_
+15	all	all	DET	DT	_	16	det	_	_
+16	day	day	NOUN	NN	Number=Sing	17	obl:npmod	_	_
+17	long	long	ADJ	JJ	Degree=Pos	11	amod	_	_
+18	because	because	SCONJ	IN	_	22	mark	_	_
+19	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
+20	can	can	AUX	MD	VerbForm=Fin	22	aux	_	SpaceAfter=No
+21	not	not	PART	RB	_	22	advmod	_	_
+22	change	change	VERB	VB	VerbForm=Inf	17	advcl	_	_
+23	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	clothes	clothes	NOUN	NNS	Number=Plur	22	obj	_	_
+25	or	or	CCONJ	CC	_	26	cc	_	_
+26	take	take	VERB	VB	VerbForm=Inf	22	conj	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	bath	bath	NOUN	NN	Number=Sing	26	obj	_	_
+29	immediately	immediately	ADV	RB	_	26	advmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 9
+# text = Especially, if we only become the victims of the smokers' bad habits.
+1	Especially	especially	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	if	if	SCONJ	IN	_	6	mark	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+5	only	only	ADV	RB	_	6	advmod	_	_
+6	become	become	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	victims	victim	NOUN	NNS	Number=Plur	6	obj	_	_
+9	of	of	ADP	IN	_	14	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	smokers	smoker	NOUN	NNS	Number=Plur	14	nmod:poss	_	SpaceAfter=No
+12	'	'	PART	POS	_	11	case	_	_
+13	bad	bad	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	habits	habit	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 10
+# text = The third reason is because the smoke can cause health problems.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
+3	reason	reason	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	because	because	SCONJ	IN	_	9	mark	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	smoke	smoke	NOUN	NN	Number=Sing	9	nsubj	_	_
+8	can	can	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	cause	cause	VERB	VB	VerbForm=Inf	4	advcl	_	_
+10	health	health	NOUN	NN	Number=Sing	11	compound	_	_
+11	problems	problem	NOUN	NNS	Number=Plur	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = The smoke from cigarettes contains a lot of dangerous chemical substance.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	smoke	smoke	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	from	from	ADP	IN	_	4	case	_	_
+4	cigarettes	cigarettes	NOUN	NNS	Number=Plur	2	nmod	_	_
+5	contains	contain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	lot	lot	NOUN	NN	Number=Sing	5	obj	_	_
+8	of	of	ADP	IN	_	11	case	_	_
+9	dangerous	dangerous	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	chemical	chemical	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	substance	substance	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 12
+# text = It is even more dangerous to people who directly inhale it, or we can say them as passive smokers.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	even	even	ADV	RB	_	5	advmod	_	_
+4	more	more	ADV	RBR	_	5	advmod	_	_
+5	dangerous	dangerous	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	people	people	NOUN	NNS	Number=Plur	5	obl	_	_
+8	who	who	PRON	WP	PronType=Rel	10	nsubj	_	_
+9	directly	directly	ADV	RB	_	10	advmod	_	_
+10	inhale	inhale	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	or	or	CCONJ	CC	_	16	cc	_	_
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
+15	can	can	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	say	say	VERB	VB	VerbForm=Inf	10	conj	_	_
+17	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
+18	as	as	ADP	IN	_	20	case	_	_
+19	passive	passive	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	smokers	smoker	NOUN	NNS	Number=Plur	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 13
+# text = Though they do not smoke at all, but they have more chances to have serious disease, such as lung cancer.
+1	Though	though	SCONJ	IN	_	5	mark	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	smoke	smoke	VERB	VB	VerbForm=Inf	11	advcl	_	_
+6	at	at	ADV	RB	_	7	case	_	_
+7	all	all	ADV	RB	_	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	but	but	CCONJ	CC	_	11	cc	_	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+11	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	more	more	ADJ	JJR	Degree=Cmp	13	amod	_	_
+13	chances	chance	NOUN	NNS	Number=Plur	11	obj	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	have	have	VERB	VB	VerbForm=Inf	13	acl	_	_
+16	serious	serious	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	disease	disease	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	such	such	ADJ	JJ	Degree=Pos	22	case	_	_
+20	as	as	ADP	IN	_	19	fixed	_	_
+21	lung	lung	NOUN	NN	Number=Sing	22	compound	_	_
+22	cancer	cancer	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 14
+# text = Because of the three reasons above, I believe that smoking should be banned in public areas.
+1	Because	because	ADP	IN	_	5	case	_	_
+2	of	of	ADP	IN	_	1	fixed	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	three	three	NUM	CD	NumType=Card	5	nummod	_	_
+5	reasons	reason	NOUN	NNS	Number=Plur	9	obl	_	_
+6	above	above	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	that	that	SCONJ	IN	_	14	mark	_	_
+11	smoking	smoking	NOUN	NN	Number=Sing	14	nsubj:pass	_	_
+12	should	should	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	be	be	AUX	VB	VerbForm=Inf	14	aux:pass	_	_
+14	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	ccomp	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	public	public	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	areas	area	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 15
+# text = It is because the smoke from cigarettes can cause the inconvenience, bad smell, and also health problems to the other people around the smokers.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	because	because	SCONJ	IN	_	9	mark	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	smoke	smoke	NOUN	NN	Number=Sing	9	nsubj	_	_
+6	from	from	ADP	IN	_	7	case	_	_
+7	cigarettes	cigarette	NOUN	NNS	Number=Plur	5	nmod	_	_
+8	can	can	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	cause	cause	VERB	VB	VerbForm=Inf	2	advcl	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	inconvenience	inconvenience	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	bad	bad	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	smell	smell	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	and	and	CCONJ	CC	_	19	cc	_	_
+17	also	also	ADV	RB	_	19	advmod	_	_
+18	health	health	NOUN	NN	Number=Sing	19	compound	_	_
+19	problems	problem	NOUN	NNS	Number=Plur	2	conj	_	_
+20	to	to	ADP	IN	_	23	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	other	other	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	people	people	NOUN	NNS	Number=Plur	19	nmod	_	_
+24	around	around	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	smokers	smoker	NOUN	NNS	Number=Plur	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

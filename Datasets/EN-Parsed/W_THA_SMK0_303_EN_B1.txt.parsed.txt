@@ -1,0 +1,287 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_THA_SMK0_303_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I agree that it should ban smoking in public areas since smoking is dangerous for health such as cancer, bad smell breath, and easily tired.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	6	mark	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	ban	ban	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+7	smoking	smoke	NOUN	NN	Number=Sing	6	obj	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	public	public	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	areas	area	NOUN	NNS	Number=Plur	6	obl	_	_
+11	since	since	SCONJ	IN	_	14	mark	_	_
+12	smoking	smoke	NOUN	NN	Number=Sing	14	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	dangerous	dangerous	ADJ	JJ	Degree=Pos	6	advcl	_	_
+15	for	for	ADP	IN	_	16	case	_	_
+16	health	health	NOUN	NN	Number=Sing	14	obl	_	_
+17	such	such	ADJ	JJ	Degree=Pos	19	case	_	_
+18	as	as	ADP	IN	_	17	fixed	_	_
+19	cancer	cancer	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	bad	bad	ADJ	JJ	Degree=Pos	23	amod	_	_
+22	smell	smell	NOUN	NN	Number=Sing	23	compound	_	_
+23	breath	breath	NOUN	NN	Number=Sing	19	conj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	27	punct	_	_
+25	and	and	CCONJ	CC	_	27	cc	_	_
+26	easily	easily	ADV	RB	_	27	advmod	_	_
+27	tired	tire	ADJ	JJ	Degree=Pos	19	conj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 2
+# text = What is more if you smoke several cigarettes per day, you will be faster died.
+1	What	what	PRON	WP	PronType=Int	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	more	more	ADJ	JJR	Degree=Cmp	16	advmod	_	_
+4	if	if	SCONJ	IN	_	6	mark	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7	several	several	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	cigarettes	cigarette	NOUN	NNS	Number=Plur	6	obj	_	_
+9	per	per	ADP	IN	_	10	case	_	_
+10	day	day	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj:pass	_	_
+13	will	will	AUX	MD	VerbForm=Fin	16	aux	_	_
+14	be	be	AUX	VB	VerbForm=Inf	16	aux:pass	_	_
+15	faster	faster	ADV	RBR	Degree=Cmp	16	advmod	_	_
+16	died	die	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 3
+# text = Smoking not only devastates your healthy but also disturbs others surrounded.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	4	csubj	_	_
+2	not	not	ADV	RB	_	3	advmod	_	_
+3	only	only	ADV	RB	_	4	cc:preconj	_	_
+4	devastates	devastate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	healthy	healthy	ADJ	JJ	Degree=Pos	4	obj	_	_
+7	but	but	CCONJ	CC	_	9	cc	_	_
+8	also	also	ADV	RB	_	9	advmod	_	_
+9	disturbs	disturbs	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+10	others	other	NOUN	NNS	Number=Plur	11	nsubj	_	_
+11	surrounded	surround	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = It, moreover, is more dangerous for others' health that is near you while smoking than yours.
+1	It	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	moreover	moreover	NOUN	NN	Number=Sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	more	more	ADV	RBR	_	7	advmod	_	_
+7	dangerous	dangerous	ADJ	JJ	Degree=Pos	0	root	_	_
+8	for	for	ADP	IN	_	11	case	_	_
+9	others	other	NOUN	NNS	Number=Plur	11	nmod:poss	_	SpaceAfter=No
+10	'	'	PART	POS	_	9	case	_	_
+11	health	health	NOUN	NN	Number=Sing	7	obl	_	_
+12	that	that	PRON	WDT	PronType=Rel	15	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	near	near	ADP	IN	_	15	case	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	acl:relcl	_	_
+16	while	while	SCONJ	IN	_	17	mark	_	_
+17	smoking	smoke	VERB	VBG	VerbForm=Ger	15	advcl	_	_
+18	than	than	ADP	IN	_	19	case	_	_
+19	yours	yours	PRON	PRP	_	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = It is importance to save rights for people who is not smoke because they do not smoke but they have to have a lung cancer or other diseases concerning respiration system.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	importance	importance	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	save	save	VERB	VB	VerbForm=Inf	3	csubj	_	_
+6	rights	rights	NOUN	NNS	Number=Plur	5	obj	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	people	people	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	who	who	PRON	WP	PronType=Rel	12	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	not	not	PART	RB	_	12	advmod	_	_
+12	smoke	smoke	ADJ	JJ	Degree=Pos	8	acl:relcl	_	_
+13	because	because	SCONJ	IN	_	17	mark	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+15	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	not	not	PART	RB	_	17	advmod	_	_
+17	smoke	smoke	VERB	VB	VerbForm=Inf	12	advcl	_	_
+18	but	but	CCONJ	CC	_	20	cc	_	_
+19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+20	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	have	have	VERB	VB	VerbForm=Inf	20	xcomp	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+24	lung	lung	NOUN	NN	Number=Sing	25	compound	_	_
+25	cancer	cancer	NOUN	NN	Number=Sing	22	obj	_	_
+26	or	or	CCONJ	CC	_	28	cc	_	_
+27	other	other	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	diseases	diseases	NOUN	NNS	Number=Plur	25	conj	_	_
+29	concerning	concern	VERB	VBG	VerbForm=Ger	31	case	_	_
+30	respiration	respiration	NOUN	NN	Number=Sing	31	compound	_	_
+31	system	system	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = I think it is not fair for them so we should find methods to solve this problem.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	fair	fair	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obl	_	_
+9	so	so	ADV	RB	_	12	advmod	_	_
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+11	should	should	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	find	find	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+13	methods	methods	NOUN	NNS	Number=Plur	12	obj	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	solve	solve	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+16	this	this	DET	DT	Number=Sing|PronType=Dem	17	det	_	_
+17	problem	problem	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Banning smoking is one way to clear the problem.
+1	Banning	Banning	VERB	VBG	VerbForm=Ger	2	amod	_	_
+2	smoking	smoke	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	one	one	NUM	CD	NumType=Card	5	nummod	_	_
+5	way	way	NOUN	NN	Number=Sing	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	clear	clear	VERB	VB	VerbForm=Inf	5	acl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	problem	problem	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = Now we have rules about prohibited smoking in the public although smokers do not care it.
+1	Now	now	ADV	RB	_	3	advmod	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	rules	rule	NOUN	NNS	Number=Plur	3	obj	_	_
+5	about	about	ADP	IN	_	7	case	_	_
+6	prohibited	prohibit	VERB	VBN	Tense=Past|VerbForm=Part	7	amod	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	4	nmod	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	public	public	NOUN	NN	Number=Sing	7	nmod	_	_
+11	although	although	SCONJ	IN	_	15	mark	_	_
+12	smokers	smoker	NOUN	NNS	Number=Plur	15	nsubj	_	_
+13	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	not	not	PART	RB	_	15	advmod	_	_
+15	care	care	VERB	VB	VerbForm=Inf	3	advcl	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = I, for example, have ever seen a man, who is a teacher, smoking in my school despite of prohibited smoking sign in front of him.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	8	punct	_	_
+3	for	for	ADP	IN	_	4	case	_	_
+4	example	example	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	ever	ever	ADV	RB	_	8	advmod	_	_
+8	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	man	man	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	who	who	PRON	WP	PronType=Rel	15	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	teacher	teacher	NOUN	NN	Number=Sing	10	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	smoking	smoke	VERB	VBG	VerbForm=Ger	15	acl	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	school	school	NOUN	NN	Number=Sing	17	obl	_	_
+21	despite	despite	ADP	IN	_	25	case	_	_
+22	of	of	ADP	IN	_	25	case	_	_
+23	prohibited	prohibit	VERB	VBN	Tense=Past|VerbForm=Part	25	amod	_	_
+24	smoking	smoking	NOUN	NN	Number=Sing	25	compound	_	_
+25	sign	sign	NOUN	NN	Number=Sing	17	obl	_	_
+26	in	in	ADP	IN	_	27	case	_	_
+27	front	front	NOUN	NN	Number=Sing	25	nmod	_	_
+28	of	of	ADP	IN	_	29	case	_	_
+29	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 10
+# text = If he were worker, could not read, I had not had blamed him but he is teacher.
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	worker	worker	ADJ	JJR	Degree=Cmp	8	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	could	could	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	read	read	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	_
+12	not	not	PART	RB	_	14	advmod	_	_
+13	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
+14	blamed	blame	VERB	VBN	Tense=Past|VerbForm=Part	11	xcomp	_	_
+15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	but	but	CCONJ	CC	_	19	cc	_	_
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	teacher	teacher	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 11
+# text = I felt very disappointed.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	disappointed	disappointed	ADJ	JJ	Degree=Pos	2	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = From this situation I think government must have absolute punishments for them.
+1	From	from	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	situation	situation	NOUN	NN	Number=Sing	5	obl	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	government	government	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	must	must	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	have	have	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+9	absolute	absolute	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	punishments	punishment	NOUN	NNS	Number=Plur	8	obj	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 13
+# text = Another good way that I see is cabinet provides smoking rooms in the several public place such as airport, hotel, and etc.
+1	Another	another	DET	DT	_	3	det	_	_
+2	good	good	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	way	way	NOUN	NN	Number=Sing	9	nsubj	_	_
+4	that	that	PRON	WDT	PronType=Rel	6	obj	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	cabinet	cabinet	NOUN	NN	Number=Sing	9	nsubj	_	_
+9	provides	provide	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	11	compound	_	_
+11	rooms	room	NOUN	NNS	Number=Plur	9	obj	_	_
+12	in	in	ADP	IN	_	16	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+14	several	several	ADJ	JJ	Degree=Pos	16	amod	_	_
+15	public	public	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	place	place	NOUN	NN	Number=Sing	9	obl	_	_
+17	such	such	ADJ	JJ	Degree=Pos	19	case	_	_
+18	as	as	ADP	IN	_	17	fixed	_	_
+19	airport	airport	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	_
+21	hotel	hotel	NOUN	NN	Number=Sing	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	etc.	etc.	X	FW	_	19	conj	_	SpacesAfter=\n
+

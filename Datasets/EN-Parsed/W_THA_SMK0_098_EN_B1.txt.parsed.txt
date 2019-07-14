@@ -1,0 +1,388 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_THA_SMK0_098_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking?
+1	﻿Smoking	﻿Smok	VERB	VBG	VerbForm=Ger	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Well, I never understand of the person who enjoyed smoke.
+1	Well	well	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	never	never	ADV	RB	_	5	advmod	_	_
+5	understand	understand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	person	person	NOUN	NN	Number=Sing	5	obl	_	_
+9	who	who	PRON	WP	PronType=Rel	10	nsubj	_	_
+10	enjoyed	enjoy	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+11	smoke	smoke	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = I know that they're smoke for some reason, but I actually can't understand them at all.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	6	mark	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+5	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	smoke	smoke	NOUN	NN	Number=Sing	2	ccomp	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	some	some	DET	DT	_	9	det	_	_
+9	reason	reason	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	16	punct	_	_
+11	but	but	CCONJ	CC	_	16	cc	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+13	actually	actually	ADV	RB	_	16	advmod	_	_
+14	ca	can	AUX	MD	VerbForm=Fin	16	aux	_	SpaceAfter=No
+15	n't	not	PART	RB	_	16	advmod	_	_
+16	understand	understand	VERB	VB	VerbForm=Inf	2	conj	_	_
+17	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
+18	at	at	ADV	RB	_	19	case	_	_
+19	all	all	ADV	RB	_	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Smoke have many bad thing to tell, for example, you have to spent a lot of money to buy cigarette and your healthy will get worse when you're smoking.
+1	Smoke	smoke	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	many	many	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	bad	bad	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	thing	thing	NOUN	NN	Number=Sing	2	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	tell	tell	VERB	VB	VerbForm=Inf	5	acl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	example	example	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	2	punct	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+13	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	spent	spend	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	lot	lot	NOUN	NN	Number=Sing	15	obj	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	money	money	NOUN	NN	Number=Sing	17	nmod	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	buy	buy	VERB	VB	VerbForm=Inf	15	advcl	_	_
+22	cigarette	cigarette	NOUN	NN	Number=Sing	21	obj	_	_
+23	and	and	CCONJ	CC	_	27	cc	_	_
+24	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	healthy	healthy	ADJ	JJ	Degree=Pos	27	nsubj	_	_
+26	will	will	AUX	MD	VerbForm=Fin	27	aux	_	_
+27	get	get	VERB	VB	VerbForm=Inf	15	conj	_	_
+28	worse	worse	ADJ	JJR	Degree=Cmp	27	obj	_	_
+29	when	when	ADV	WRB	PronType=Int	32	mark	_	_
+30	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	32	nsubj	_	SpaceAfter=No
+31	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	27	advcl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = I asked my friend why he's smoking and the answer is: It can make him calm.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	friend	friend	NOUN	NN	Number=Sing	2	obj	_	_
+5	why	why	ADV	WRB	PronType=Int	8	advmod	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	2	ccomp	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	answer	answer	NOUN	NN	Number=Sing	12	nsubj	_	_
+12	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	SpaceAfter=No
+13	:	:	PUNCT	:	_	2	punct	_	_
+14	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+15	can	can	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	make	make	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+17	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	calm	calm	VERB	VB	VerbForm=Inf	16	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = It can't make me clear with that reason!
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	ca	can	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	clear	clear	ADJ	JJ	Degree=Pos	4	xcomp	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	that	that	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	reason	reason	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Well, I never smoke before and don't want to, so, maybe I can't understand them for the whole life of mine.
+1	Well	well	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	never	never	ADV	RB	_	5	advmod	_	_
+5	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	before	before	ADV	RB	_	5	advmod	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
+9	n't	not	PART	RB	_	10	advmod	_	_
+10	want	want	VERB	VB	VerbForm=Inf	5	conj	_	_
+11	to	to	PART	TO	_	19	mark	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	19	punct	_	_
+13	so	so	ADV	RB	_	19	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	19	punct	_	_
+15	maybe	maybe	ADV	RB	_	19	advmod	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+17	ca	can	AUX	MD	VerbForm=Fin	19	aux	_	SpaceAfter=No
+18	n't	not	PART	RB	_	19	advmod	_	_
+19	understand	understand	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+20	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
+21	for	for	ADP	IN	_	24	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	whole	whole	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	life	life	NOUN	NN	Number=Sing	19	obl	_	_
+25	of	of	ADP	IN	_	26	case	_	_
+26	mine	mine	PRON	PRP	_	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = When I saw someone is smoking, I will go to another place or make some distance with them.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	_
+4	someone	someone	PRON	NN	Number=Sing	6	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	3	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+11	to	to	ADP	IN	_	13	case	_	_
+12	another	another	DET	DT	_	13	det	_	_
+13	place	place	NOUN	NN	Number=Sing	10	obl	_	_
+14	or	or	CCONJ	CC	_	15	cc	_	_
+15	make	make	VERB	VB	VerbForm=Inf	10	conj	_	_
+16	some	some	DET	DT	_	17	det	_	_
+17	distance	distance	NOUN	NN	Number=Sing	15	obj	_	_
+18	with	with	ADP	IN	_	19	case	_	_
+19	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 9
+# text = I don't like smoke from smoking.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+5	smoke	smoke	NOUN	NN	Number=Sing	4	obj	_	_
+6	from	from	ADP	IN	_	7	case	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 10
+# text = Smoke isn't only do bad thing to person that have it, but it also cause trouble to everybody next to you!
+1	Smoke	smoke	NOUN	NN	Number=Sing	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+3	n't	not	PART	RB	_	5	advmod	_	_
+4	only	only	ADV	RB	_	5	advmod	_	_
+5	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+6	bad	bad	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	thing	thing	NOUN	NN	Number=Sing	5	obj	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	person	person	NOUN	NN	Number=Sing	5	obl	_	_
+10	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	_
+11	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	but	but	CCONJ	CC	_	17	cc	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+16	also	also	ADV	RB	_	17	advmod	_	_
+17	cause	cause	VERB	VB	VerbForm=Inf	5	conj	_	_
+18	trouble	trouble	NOUN	NN	Number=Sing	17	obj	_	_
+19	to	to	ADP	IN	_	20	case	_	_
+20	everybody	everybody	PRON	NN	Number=Sing	17	obl	_	_
+21	next	next	ADJ	JJ	Degree=Pos	20	amod	_	_
+22	to	to	ADP	IN	_	23	case	_	_
+23	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	21	obl	_	SpaceAfter=No
+24	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 11
+# text = I hope smoker think of this and care of us for a little.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	smoker	smoker	ADJ	JJR	Degree=Cmp	4	amod	_	_
+4	think	think	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	4	nmod	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	care	care	NOUN	NN	Number=Sing	6	conj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	nmod	_	_
+11	for	for	ADP	IN	_	13	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	little	little	ADJ	JJ	Degree=Pos	4	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = I know that every person have their own reason to do a thing.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	6	mark	_	_
+4	every	every	DET	DT	_	5	det	_	_
+5	person	person	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+8	own	own	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	reason	reason	NOUN	NN	Number=Sing	6	obj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	do	do	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	thing	thing	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 13
+# text = But sometimes, you should open your eyes and see the good and bad thing of what you do.
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	sometimes	sometimes	ADV	RB	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+5	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	open	open	VERB	VB	VerbForm=Inf	0	root	_	_
+7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	eyes	eye	NOUN	NNS	Number=Plur	6	obj	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	see	see	VERB	VB	VerbForm=Inf	6	conj	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+12	good	good	ADJ	JJ	Degree=Pos	15	amod	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	bad	bad	ADJ	JJ	Degree=Pos	12	conj	_	_
+15	thing	thing	NOUN	NN	Number=Sing	10	obj	_	_
+16	of	of	SCONJ	IN	_	17	case	_	_
+17	what	what	PRON	WP	PronType=Int	15	nmod	_	_
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	_
+19	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 14
+# text = I don't say that smoking is bad thing or good thing, every coin have two sides.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+5	that	that	SCONJ	IN	_	9	mark	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	9	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	bad	bad	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	thing	thing	NOUN	NN	Number=Sing	4	ccomp	_	_
+10	or	or	CCONJ	CC	_	12	cc	_	_
+11	good	good	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	thing	thing	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	4	punct	_	_
+14	every	every	DET	DT	_	15	det	_	_
+15	coin	coin	NOUN	NN	Number=Sing	16	nsubj	_	_
+16	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+17	two	two	NUM	CD	NumType=Card	18	nummod	_	_
+18	sides	side	NOUN	NNS	Number=Plur	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 15
+# text = Person who sees one side of the coin won't see another side.
+1	Person	person	PROPN	NNP	Number=Sing	11	nsubj	_	_
+2	who	who	PRON	WP	PronType=Rel	3	nsubj	_	_
+3	sees	see	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	one	one	NUM	CD	NumType=Card	5	nummod	_	_
+5	side	side	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	coin	coin	NOUN	NN	Number=Sing	5	nmod	_	_
+9	wo	will	AUX	MD	VerbForm=Fin	11	aux	_	SpaceAfter=No
+10	n't	not	PART	RB	_	11	advmod	_	_
+11	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+12	another	another	DET	DT	_	13	det	_	_
+13	side	side	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 16
+# text = It's like the smoking.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	like	like	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 17
+# text = The one who smoke can understand the good point of smoke but person who doesn't smoke won't know.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	one	one	NOUN	NN	Number=Sing	0	root	_	_
+3	who	who	PRON	WP	PronType=Rel	4	nsubj	_	_
+4	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	understand	understand	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	good	good	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	point	point	NOUN	NN	Number=Sing	6	obj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	smoke	smoke	NOUN	NN	Number=Sing	20	nmod	_	_
+12	but	but	CCONJ	CC	_	20	cc	_	_
+13	person	person	NOUN	NN	Number=Sing	20	nsubj	_	_
+14	who	who	PRON	WP	PronType=Rel	17	nsubj	_	_
+15	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No
+16	n't	not	PART	RB	_	17	advmod	_	_
+17	smoke	smoke	VERB	VB	VerbForm=Inf	13	acl:relcl	_	_
+18	wo	will	AUX	MD	VerbForm=Fin	20	aux	_	SpaceAfter=No
+19	n't	not	PART	RB	_	20	advmod	_	_
+20	know	know	VERB	VB	VerbForm=Inf	9	acl:relcl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 18
+# text = So, I think that we should understand smoker for the reason they're smoke so we can understand each other.
+1	So	so	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+7	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	understand	understand	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+9	smoker	smoker	NOUN	NN	Number=Sing	8	obj	_	_
+10	for	for	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	reason	reason	NOUN	NN	Number=Sing	8	obl	_	_
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	SpaceAfter=No
+14	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	smoke	smoke	VERB	VB	VerbForm=Inf	12	acl:relcl	_	_
+16	so	so	ADV	RB	_	19	advmod	_	_
+17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
+18	can	can	AUX	MD	VerbForm=Fin	19	aux	_	_
+19	understand	understand	VERB	VB	VerbForm=Inf	15	advcl	_	_
+20	each	each	DET	DT	_	21	det	_	_
+21	other	other	ADJ	JJ	Degree=Pos	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 19
+# text = Not everybody can do that.
+1	Not	not	PART	RB	_	4	advmod	_	_
+2	everybody	everybody	PRON	NN	Number=Sing	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 20
+# text = But I sure I'm the one who can't understand them at all!
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
+5	'm	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	one	one	NOUN	NN	Number=Sing	3	ccomp	_	_
+8	who	who	PRON	WP	PronType=Rel	11	nsubj	_	_
+9	ca	can	AUX	MD	VerbForm=Fin	11	aux	_	SpaceAfter=No
+10	n't	not	PART	RB	_	11	advmod	_	_
+11	understand	understand	VERB	VB	VerbForm=Inf	7	acl:relcl	_	_
+12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obj	_	_
+13	at	at	ADV	RB	_	14	case	_	_
+14	all	all	ADV	RB	_	11	obl	_	SpaceAfter=No
+15	!	!	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

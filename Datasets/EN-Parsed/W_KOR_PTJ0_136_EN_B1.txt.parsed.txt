@@ -1,0 +1,289 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_PTJ0_136_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I need part time job.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	part	part	NOUN	NN	Number=Sing	4	compound	_	_
+4	time	time	NOUN	NN	Number=Sing	5	compound	_	_
+5	job	job	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = My parent often said to me.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	parent	parent	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	often	often	ADV	RB	_	4	advmod	_	_
+4	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = You should do par time job when you are young.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+4	par	par	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	time	time	NOUN	NN	Number=Sing	6	compound	_	_
+6	job	job	NOUN	NN	Number=Sing	3	obj	_	_
+7	when	when	ADV	WRB	PronType=Int	10	mark	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	young	young	ADJ	JJ	Degree=Pos	3	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = That was hard to you and painful. \
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	hard	hard	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obl	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	painful.	painful.	NOUN	NN	Number=Sing	3	conj	_	_
+8	\	\	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = But It will grow up you very nicely.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	grow	grow	VERB	VB	VerbForm=Inf	0	root	_	_
+5	up	up	ADP	IN	_	6	case	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obl	_	_
+7	very	very	ADV	RB	_	8	advmod	_	_
+8	nicely	nicely	ADV	RB	_	4	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = I agree my parent's opinion.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	parent	parent	NOUN	NN	Number=Sing	6	nmod:poss	_	SpaceAfter=No
+5	's	's	PART	POS	_	4	case	_	_
+6	opinion	opinion	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = So I want to get a part time job this summer vacation.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	get	get	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+7	part	part	NOUN	NN	Number=Sing	8	compound	_	_
+8	time	time	NOUN	NN	Number=Sing	9	compound	_	_
+9	job	job	NOUN	NN	Number=Sing	5	obj	_	_
+10	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+11	summer	summer	NOUN	NN	Number=Sing	12	compound	_	_
+12	vacation	vacation	NOUN	NN	Number=Sing	5	obl:tmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Already I got a part time job.
+1	Already	already	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+5	part	part	NOUN	NN	Number=Sing	6	compound	_	_
+6	time	time	NOUN	NN	Number=Sing	7	compound	_	_
+7	job	job	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = My part time job is our country working scholarships.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+2	part	part	NOUN	NN	Number=Sing	3	compound	_	_
+3	time	time	NOUN	NN	Number=Sing	4	compound	_	_
+4	job	job	NOUN	NN	Number=Sing	9	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	country	country	NOUN	NN	Number=Sing	9	compound	_	_
+8	working	work	VERB	VBG	VerbForm=Ger	9	amod	_	_
+9	scholarships	scholarship	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 10
+# text = So I will work in our school's library.
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	work	work	VERB	VB	VerbForm=Inf	0	root	_	_
+5	in	in	ADP	IN	_	9	case	_	_
+6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	school	school	NOUN	NN	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+8	's	's	PART	POS	_	7	case	_	_
+9	library	library	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = I was so lucky guy.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	so	so	ADV	RB	_	5	advmod	_	_
+4	lucky	lucky	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	guy	guy	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 12
+# text = Het a part time job in our library many competitions apply but I win that is very happy.
+1	Het	Het	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+3	part	part	NOUN	NN	Number=Sing	4	compound	_	_
+4	time	time	NOUN	NN	Number=Sing	5	compound	_	_
+5	job	job	NOUN	NN	Number=Sing	1	obj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	library	library	NOUN	NN	Number=Sing	11	obl	_	_
+9	many	many	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	competitions	competitions	NOUN	NNS	Number=Plur	11	nsubj	_	_
+11	apply	apply	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+12	but	but	CCONJ	CC	_	14	cc	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	win	win	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	conj	_	_
+15	that	that	PRON	DT	Number=Sing|PronType=Dem	18	nsubj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	very	very	ADV	RB	_	18	advmod	_	_
+18	happy	happy	ADJ	JJ	Degree=Pos	14	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 13
+# text = I am very proud and think me really hard and hard to work never disappointment to worker in library.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	proud	proud	ADJ	JJ	Degree=Pos	0	root	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	think	think	VERB	VB	VerbForm=Inf	4	conj	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+8	really	really	ADV	RB	_	9	advmod	_	_
+9	hard	hard	ADJ	JJ	Degree=Pos	15	amod	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	hard	hard	ADJ	JJ	Degree=Pos	15	conj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	work	work	VERB	VB	VerbForm=Inf	15	advcl	_	_
+14	never	never	ADV	RB	_	15	advmod	_	_
+15	disappointment	disappointment	ADJ	JJ	Degree=Pos	6	xcomp	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	worker	worker	VERB	VB	VerbForm=Inf	15	advcl	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	library	library	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 14
+# text = I want to be very useful person and worker holmic and career man.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	7	mark	_	_
+4	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	useful	useful	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	person	person	NOUN	NN	Number=Sing	2	xcomp	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	worker	worker	NOUN	NN	Number=Sing	10	compound	_	_
+10	holmic	holmic	NOUN	NN	Number=Sing	7	conj	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	career	career	NOUN	NN	Number=Sing	13	compound	_	_
+13	man	man	NOUN	NN	Number=Sing	7	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 15
+# text = I do not know that I want to be not yet, but I can imagine my future and my future's job.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+5	that	that	SCONJ	IN	_	7	mark	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	to	to	PART	TO	_	11	mark	_	_
+9	be	be	AUX	VB	VerbForm=Inf	11	cop	_	_
+10	not	not	PART	RB	_	11	advmod	_	_
+11	yet	yet	ADV	RB	_	7	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	but	but	CCONJ	CC	_	16	cc	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+15	can	can	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	imagine	imagine	VERB	VB	VerbForm=Inf	4	conj	_	_
+17	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	future	future	NOUN	NN	Number=Sing	16	obj	_	_
+19	and	and	CCONJ	CC	_	23	cc	_	_
+20	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	future	future	NOUN	NN	Number=Sing	23	nmod:poss	_	SpaceAfter=No
+22	's	's	PART	POS	_	21	case	_	_
+23	job	job	NOUN	NN	Number=Sing	18	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 16
+# text = I have an on dream...
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	on	on	ADP	IN	_	5	case	_	_
+5	dream	dream	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	...	...	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 17
+# text = That is I want to be a doctor.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	want	want	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	8	mark	_	_
+6	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	doctor	doctor	NOUN	NN	Number=Sing	4	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 18
+# text = In this time I will work library.
+1	In	in	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	time	time	NOUN	NN	Number=Sing	6	obl	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	work	work	VERB	VB	VerbForm=Inf	0	root	_	_
+7	library	library	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 19
+# text = That's experience must be my basic and save my body and my brain.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	experience	experience	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	must	must	AUX	MD	VerbForm=Fin	7	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	basic	basic	NOUN	NN	Number=Sing	0	root	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	save	save	VERB	VB	VerbForm=Inf	7	conj	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	body	body	NOUN	NN	Number=Sing	9	obj	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	brain	brain	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 20
+# text = So Whenever I get a chance to work part time job, I will do everything.
+1	So	so	ADV	RB	_	2	advmod	_	_
+2	Whenever	whenever	ADV	WRB	PronType=Int	4	advmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	chance	chance	NOUN	NN	Number=Sing	4	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	work	work	VERB	VB	VerbForm=Inf	6	acl	_	_
+9	part	part	NOUN	NN	Number=Sing	10	compound	_	_
+10	time	time	NOUN	NN	Number=Sing	11	compound	_	_
+11	job	job	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	will	will	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+16	everything	everything	PRON	NN	Number=Sing	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\n
+

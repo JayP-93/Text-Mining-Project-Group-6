@@ -1,0 +1,259 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PAK_SMK0_002_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿It is great delima of our age is that the numbers of smokers are increase in our country.
+1	﻿It	﻿It	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	great	great	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	delima	delima	NOUN	NN	Number=Sing	8	nsubj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	age	age	NOUN	NN	Number=Sing	4	nmod	_	_
+8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	that	that	SCONJ	IN	_	15	mark	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	numbers	number	NOUN	NNS	Number=Plur	15	nsubj	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	smokers	smoker	NOUN	NNS	Number=Plur	11	nmod	_	_
+14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	increase	increase	VERB	VB	VerbForm=Inf	8	ccomp	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	country	country	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = The person who is addicted of smoking cannot get rid of from his habit.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	person	person	NOUN	NN	Number=Sing	10	nsubj	_	_
+3	who	who	PRON	WP	PronType=Rel	5	nsubj:pass	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	addicted	addicte	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	5	obl	_	_
+8	can	can	AUX	MD	VerbForm=Fin	10	aux	_	SpaceAfter=No
+9	not	not	PART	RB	_	10	advmod	_	_
+10	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+11	rid	rid	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+12	of	of	ADP	IN	_	15	case	_	_
+13	from	from	ADP	IN	_	15	case	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	habit	habit	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = Where, he fined a lonely place he started smoking.
+1	Where	where	ADV	WRB	PronType=Int	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	fined	fi	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	lonely	lonely	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	place	place	NOUN	NN	Number=Sing	4	obj	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	started	start	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+10	smoking	smoke	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = He is totally ignorant from the danger of smoking for him his fellow beings.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	totally	totally	ADV	RB	_	4	advmod	_	_
+4	ignorant	ignorant	ADJ	JJ	Degree=Pos	0	root	_	_
+5	from	from	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	danger	danger	NOUN	NN	Number=Sing	4	obl	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	7	nmod	_	_
+10	for	for	ADP	IN	_	11	case	_	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nmod	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+13	fellow	fellow	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	beings	being	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = A great and danger aspect of smoking is the use of smoking in hotels and near the food place.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+2	great	great	ADJ	JJ	Degree=Pos	5	amod	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	danger	danger	NOUN	NN	Number=Sing	2	conj	_	_
+5	aspect	aspect	NOUN	NN	Number=Sing	10	nsubj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	5	nmod	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	use	use	NOUN	NN	Number=Sing	0	root	_	_
+11	of	of	SCONJ	IN	_	12	mark	_	_
+12	smoking	smoking	VERB	VBG	VerbForm=Ger	10	acl	_	_
+13	in	in	ADP	RP	_	14	case	_	_
+14	hotels	hotel	NOUN	NNS	Number=Plur	12	obl	_	_
+15	and	and	CCONJ	CC	_	19	cc	_	_
+16	near	near	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	food	food	NOUN	NN	Number=Sing	19	compound	_	_
+19	place	place	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 6
+# text = The smoke of cegrate spoiled the food items and when, we eat it cause many disease.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	smoke	smoke	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	cegrate	cegrate	NOUN	NN	Number=Sing	2	nmod	_	_
+5	spoiled	spoil	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	food	food	NOUN	NN	Number=Sing	8	compound	_	_
+8	items	item	NOUN	NNS	Number=Plur	5	obj	_	_
+9	and	and	CCONJ	CC	_	15	cc	_	_
+10	when	when	ADV	WRB	PronType=Int	13	mark	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+13	eat	eat	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	cause	cause	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+16	many	many	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	disease	disease	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 7
+# text = Smoking not only harmful for him but also harmful for the citizen of the country.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	not	not	ADV	RB	_	3	advmod	_	_
+3	only	only	ADV	RB	_	4	advmod	_	_
+4	harmful	harmful	ADJ	JJ	Degree=Pos	1	xcomp	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
+7	but	but	CCONJ	CC	_	9	cc	_	_
+8	also	also	ADV	RB	_	9	advmod	_	_
+9	harmful	harmful	ADJ	JJ	Degree=Pos	1	conj	_	_
+10	for	for	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	citizen	citizen	NOUN	NN	Number=Sing	9	obl	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	country	country	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 8
+# text = Smoker spread the durty and poisious smoker all around them.
+1	Smoker	smoker	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	spread	spread	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	durty	durty	NOUN	NN	Number=Sing	2	obj	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	poisious	poisious	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	smoker	smoker	NOUN	NN	Number=Sing	4	conj	_	_
+8	all	all	ADV	RB	_	10	advmod	_	_
+9	around	around	ADP	IN	_	10	case	_	_
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Vegetable fruit and other food items and the has a natural capesity to obsoube the dangers gasses, which smokers spread in the atmosphere.
+1	Vegetable	vegetable	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	fruit	fruit	NOUN	NN	Number=Sing	0	root	_	_
+3	and	and	CCONJ	CC	_	6	cc	_	_
+4	other	other	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	food	food	NOUN	NN	Number=Sing	6	compound	_	_
+6	items	item	NOUN	NNS	Number=Plur	2	conj	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	natural	natural	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	capesity	capesity	NOUN	NN	Number=Sing	9	obj	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	obsoube	obsoube	VERB	VB	VerbForm=Inf	12	acl	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	dangers	dangers	NOUN	NNS	Number=Plur	17	compound	_	_
+17	gasses	gass	NOUN	NNS	Number=Plur	14	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	which	which	DET	WDT	PronType=Int	20	det	_	_
+20	smokers	smoker	NOUN	NNS	Number=Plur	21	obj	_	_
+21	spread	spread	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	acl	_	_
+22	in	in	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	atmosphere	atmosphere	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = It is our moral duty to keep safe our hotels restaurant and other foods shops from these smokers.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	moral	moral	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	duty	duty	NOUN	NN	Number=Sing	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	keep	keep	VERB	VB	VerbForm=Inf	5	csubj	_	_
+8	safe	safe	ADJ	JJ	Degree=Pos	7	xcomp	_	_
+9	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	hotels	hotel	NOUN	NNS	Number=Plur	11	compound	_	_
+11	restaurant	restaurant	NOUN	NN	Number=Sing	7	obj	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	other	other	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	foods	food	NOUN	NNS	Number=Plur	15	compound	_	_
+15	shops	shop	NOUN	NNS	Number=Plur	11	conj	_	_
+16	from	from	ADP	IN	_	18	case	_	_
+17	these	these	DET	DT	Number=Plur|PronType=Dem	18	det	_	_
+18	smokers	smoker	NOUN	NNS	Number=Plur	11	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 11
+# text = It is government responsibility to ban the use of smoking and tabackoo in the country specially in the hotels and food places.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	government	government	NOUN	NN	Number=Sing	4	compound	_	_
+4	responsibility	responsibility	NOUN	NN	Number=Sing	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	ban	ban	VERB	VB	VerbForm=Inf	4	acl	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	use	use	NOUN	NN	Number=Sing	6	obj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	8	nmod	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	tabackoo	tabackoo	NOUN	NN	Number=Sing	10	conj	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	country	country	NOUN	NN	Number=Sing	4	nmod	_	_
+16	specially	specially	ADV	RB	_	19	advmod	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	hotels	hotel	NOUN	NNS	Number=Plur	4	nmod	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	food	food	NOUN	NN	Number=Sing	22	compound	_	_
+22	places	place	NOUN	NNS	Number=Plur	19	conj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 12
+# text = Due to act upon these principles we can reduce the great chance of many great diseases because it is the big cause of pollution specially food production.
+1	Due	due	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	to	to	PART	TO	_	3	mark	_	_
+3	act	act	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+4	upon	upon	ADP	IN	_	6	case	_	_
+5	these	these	DET	DT	Number=Plur|PronType=Dem	6	det	_	_
+6	principles	principle	NOUN	NNS	Number=Plur	9	obl	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+8	can	can	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	reduce	reduce	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	great	great	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	chance	chance	NOUN	NN	Number=Sing	9	obj	_	_
+13	of	of	ADP	IN	_	16	case	_	_
+14	many	many	ADJ	JJ	Degree=Pos	16	amod	_	_
+15	great	great	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	diseases	diseases	NOUN	NNS	Number=Plur	12	nmod	_	_
+17	because	because	SCONJ	IN	_	22	mark	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	big	big	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	cause	cause	NOUN	NN	Number=Sing	9	advcl	_	_
+23	of	of	ADP	IN	_	27	case	_	_
+24	pollution	pollution	NOUN	NN	Number=Sing	27	compound	_	_
+25	specially	specially	ADV	RB	_	27	advmod	_	_
+26	food	food	NOUN	NN	Number=Sing	27	compound	_	_
+27	production	production	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

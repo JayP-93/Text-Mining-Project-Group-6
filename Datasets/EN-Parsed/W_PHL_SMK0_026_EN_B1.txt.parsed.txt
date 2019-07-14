@@ -1,0 +1,270 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PHL_SMK0_026_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Yes, I definitely agree that smoking should be banned, but not just in all the restaurants.
+1	﻿Yes	﻿yes	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	definitely	definitely	ADV	RB	_	5	advmod	_	_
+5	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	10	nsubj:pass	_	_
+8	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+10	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	18	punct	_	_
+12	but	but	CCONJ	CC	_	18	cc	_	_
+13	not	not	ADV	RB	_	18	advmod	_	_
+14	just	just	ADV	RB	_	18	advmod	_	_
+15	in	in	ADV	RB	_	18	case	_	_
+16	all	all	DET	PDT	_	18	det:predet	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	restaurants	restaurant	NOUN	NNS	Number=Plur	5	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Smoking should be banned everywhere, for the main reason that it is dangerous to one's health, not only for the smoker, but also for the person who inhales the smoke from the cigarette.
+1	Smoking	smoking	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	_	_
+4	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	everywhere	everywhere	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	for	for	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	main	main	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	reason	reason	NOUN	NN	Number=Sing	4	obl	_	_
+11	that	that	SCONJ	IN	_	14	mark	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	dangerous	dangerous	ADJ	JJ	Degree=Pos	10	acl	_	_
+15	to	to	SCONJ	IN	_	18	case	_	_
+16	one	one	PRON	PRP	_	18	nmod:poss	_	SpaceAfter=No
+17	's	's	PART	POS	_	16	case	_	_
+18	health	health	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	not	not	ADV	RB	_	21	advmod	_	_
+21	only	only	ADV	RB	_	14	conj	_	_
+22	for	for	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	smoker	smoker	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	30	punct	_	_
+26	but	but	CCONJ	CC	_	30	cc	_	_
+27	also	also	ADV	RB	_	30	advmod	_	_
+28	for	for	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	person	person	NOUN	NN	Number=Sing	4	conj	_	_
+31	who	who	PRON	WP	PronType=Rel	32	nsubj	_	_
+32	inhales	inhale	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	smoke	smoke	NOUN	NN	Number=Sing	32	obj	_	_
+35	from	from	ADP	IN	_	37	case	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	cigarette	cigarette	NOUN	NN	Number=Sing	32	obl	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I believe that every person should be sensitive enough and should care for other person's health, not just for their pleasure.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	9	mark	_	_
+4	every	every	DET	DT	_	5	det	_	_
+5	person	person	NOUN	NN	Number=Sing	9	nsubj	_	_
+6	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+8	sensitive	sensitive	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	enough	enough	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	should	should	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	care	care	VERB	VB	VerbForm=Inf	9	conj	_	_
+13	for	for	ADP	IN	_	17	case	_	_
+14	other	other	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	person	person	NOUN	NN	Number=Sing	17	nmod:poss	_	SpaceAfter=No
+16	's	's	PART	POS	_	15	case	_	_
+17	health	health	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	2	punct	_	_
+19	not	not	ADV	RB	_	20	advmod	_	_
+20	just	just	ADV	RB	_	23	advmod	_	_
+21	for	for	ADP	IN	_	23	case	_	_
+22	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	pleasure	pleasure	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = They say that smoking is one way to ease their stress, and for them to forget their problems.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	7	mark	_	_
+4	smoking	smoke	NOUN	NN	Number=Sing	7	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	one	one	NUM	CD	NumType=Card	7	nummod	_	_
+7	way	way	NOUN	NN	Number=Sing	2	ccomp	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	ease	ease	VERB	VB	VerbForm=Inf	7	acl	_	_
+10	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	stress	stress	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	17	punct	_	_
+13	and	and	CCONJ	CC	_	17	cc	_	_
+14	for	for	SCONJ	IN	_	17	mark	_	_
+15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	forget	forget	VERB	VB	VerbForm=Inf	2	conj	_	_
+18	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	problems	problem	NOUN	NNS	Number=Plur	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = But for me, cigarette smoking doesn't solve problems; it only makes things worst.
+1	But	but	CCONJ	CC	_	9	cc	_	_
+2	for	for	ADP	IN	_	3	case	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	9	punct	_	_
+5	cigarette	cigarette	NOUN	NN	Number=Sing	6	compound	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	9	nsubj	_	_
+7	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
+8	n't	not	PART	RB	_	9	advmod	_	_
+9	solve	solve	VERB	VB	VerbForm=Inf	0	root	_	_
+10	problems	problem	NOUN	NNS	Number=Plur	9	obj	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	9	punct	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	only	only	ADV	RB	_	14	advmod	_	_
+14	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+15	things	thing	NOUN	NNS	Number=Plur	14	obj	_	_
+16	worst	worst	ADV	RBS	Degree=Sup	14	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 6
+# text = You might not see it at first, but smoking kills the smoker slowly inside.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	might	might	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	at	at	ADV	RB	_	7	advmod	_	_
+7	first	first	ADV	RBS	_	4	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	but	but	CCONJ	CC	_	11	cc	_	_
+10	smoking	smoke	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	kills	kill	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	smoker	smoker	NOUN	NN	Number=Sing	11	obj	_	_
+14	slowly	slowly	ADV	RB	_	15	advmod	_	_
+15	inside	inside	ADV	RB	_	11	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = One thing that should also be banned is the commercials that have something to do with people smoking.
+1	One	one	NUM	CD	NumType=Card	2	nummod	_	_
+2	thing	thing	NOUN	NN	Number=Sing	10	nsubj	_	_
+3	that	that	PRON	WDT	PronType=Rel	7	nsubj:pass	_	_
+4	should	should	AUX	MD	VerbForm=Fin	7	aux	_	_
+5	also	also	ADV	RB	_	7	advmod	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	commercials	commercials	NOUN	NNS	Number=Plur	0	root	_	_
+11	that	that	PRON	WDT	PronType=Rel	12	nsubj	_	_
+12	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	something	something	PRON	NN	Number=Sing	12	obj	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	do	do	VERB	VB	VerbForm=Inf	13	acl	_	_
+16	with	with	ADP	IN	_	18	case	_	_
+17	people	people	NOUN	NN	Number=Sing	18	compound	_	_
+18	smoking	smoke	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 8
+# text = Media should be used to promote good health, and not products which destroys life.
+1	Media	media	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	_	_
+4	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	promote	promote	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	good	good	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	health	health	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	not	not	ADV	RB	_	12	advmod	_	_
+12	products	product	NOUN	NNS	Number=Plur	4	conj	_	_
+13	which	which	PRON	WDT	PronType=Rel	14	nsubj	_	_
+14	destroys	destroy	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	life	life	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Every time you smoke, your life span shortens.
+1	Every	every	DET	DT	_	2	det	_	_
+2	time	time	NOUN	NN	Number=Sing	9	obl:tmod	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+7	life	life	NOUN	NN	Number=Sing	9	compound	_	_
+8	span	span	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	shortens	shorten	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 10
+# text = Life is too short; why make it shorter?
+1	Life	life	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	too	too	ADV	RB	_	4	advmod	_	_
+4	short	short	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	4	punct	_	_
+6	why	why	ADV	WRB	PronType=Int	7	advmod	_	_
+7	make	make	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	shorter	shorter	NOUN	NN	Number=Sing	7	xcomp	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = We should enjoy every moment we have to live life to the fullest and not just waste it over things that destroy us.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	enjoy	enjoy	VERB	VB	VerbForm=Inf	0	root	_	_
+4	every	every	DET	DT	_	5	det	_	_
+5	moment	moment	NOUN	NN	Number=Sing	3	obj	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	live	live	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	life	life	NOUN	NN	Number=Sing	17	obl:npmod	_	_
+11	to	to	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	fullest	fullest	NOUN	NN	Number=Sing	10	nmod	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	not	not	PART	RB	_	17	advmod	_	_
+16	just	just	ADV	RB	_	17	advmod	_	_
+17	waste	waste	VERB	VB	VerbForm=Inf	9	conj	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	over	over	ADP	RP	_	20	case	_	_
+20	things	thing	NOUN	NNS	Number=Plur	17	obl	_	_
+21	that	that	PRON	WDT	PronType=Rel	22	nsubj	_	_
+22	destroy	destroy	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+23	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 12
+# text = Our life is a gift from God, so we should take care of it and love it.
+1	Our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	life	life	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	gift	gift	NOUN	NN	Number=Sing	0	root	_	_
+6	from	from	ADP	IN	_	7	case	_	_
+7	God	God	PROPN	NNP	Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	so	so	ADV	RB	_	12	advmod	_	_
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+11	should	should	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	take	take	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+13	care	care	NOUN	NN	Number=Sing	12	obj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	love	love	VERB	VB	VerbForm=Inf	12	conj	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

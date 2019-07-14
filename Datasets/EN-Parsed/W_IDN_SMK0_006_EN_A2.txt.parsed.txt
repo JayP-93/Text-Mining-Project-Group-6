@@ -1,0 +1,288 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_IDN_SMK0_006_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿You are absolutely wrong if you think nicotine is only hazardous substance of cigarettes.
+1	﻿You	﻿You	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	absolutely	absolutely	ADV	RB	_	4	advmod	_	_
+4	wrong	wrong	ADJ	JJ	Degree=Pos	0	root	_	_
+5	if	if	SCONJ	IN	_	7	mark	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+8	nicotine	nicotine	PRON	PRP	_	12	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	only	only	ADV	RB	_	12	advmod	_	_
+11	hazardous	hazardous	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	substance	substance	NOUN	NN	Number=Sing	7	ccomp	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	cigarettes	cigarette	NOUN	NNS	Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Nicotine is a tobacco addictive component which absorbs into blood and influence the brain within 10 seconds.
+1	Nicotine	Nicotine	PROPN	NNP	Number=Sing	6	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+4	tobacco	tobacco	NOUN	NN	Number=Sing	6	compound	_	_
+5	addictive	addictive	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	component	component	NOUN	NN	Number=Sing	0	root	_	_
+7	which	which	PRON	WDT	PronType=Rel	8	nsubj	_	_
+8	absorbs	absorb	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	into	into	ADP	IN	_	10	case	_	_
+10	blood	blood	NOUN	NN	Number=Sing	8	obl	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	influence	influence	VERB	VB	VerbForm=Inf	8	conj	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	brain	brain	NOUN	NN	Number=Sing	12	obj	_	_
+15	within	within	ADP	IN	_	17	case	_	_
+16	10	10	NUM	CD	NumType=Card	17	nummod	_	_
+17	seconds	seconds	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Overall, cigarettes are consists of complex compounds caused incineration of tobacco and addictive components.
+1	Overall	overall	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	cigarettes	cigarettes	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	consists	consist	NOUN	NNS	Number=Plur	9	nsubj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	complex	complex	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	compounds	compound	NOUN	NNS	Number=Plur	5	nmod	_	_
+9	caused	cause	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	incineration	incineration	NOUN	NN	Number=Sing	9	obj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	tobacco	tobacco	NOUN	NN	Number=Sing	10	nmod	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	addictive	addictive	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	components	component	NOUN	NNS	Number=Plur	12	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = Cigarettes also contain tar and 4000 more chemical compounds including 60 dangerous carcinogenic chemical compounds.
+1	Cigarettes	Cigarettes	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	also	also	ADV	RB	_	3	advmod	_	_
+3	contain	contain	VERB	VB	VerbForm=Inf	0	root	_	_
+4	tar	tar	NOUN	NN	Number=Sing	3	obj	_	_
+5	and	and	CCONJ	CC	_	9	cc	_	_
+6	4000	4000	NUM	CD	NumType=Card	9	nummod	_	_
+7	more	more	ADJ	JJR	Degree=Cmp	9	amod	_	_
+8	chemical	chemical	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	compounds	compound	NOUN	NNS	Number=Plur	4	conj	_	_
+10	including	include	VERB	VBG	VerbForm=Ger	15	case	_	_
+11	60	60	NUM	CD	NumType=Card	15	nummod	_	_
+12	dangerous	dangerous	ADJ	JJ	Degree=Pos	15	amod	_	_
+13	carcinogenic	carcinogenic	NOUN	NN	Number=Sing	15	compound	_	_
+14	chemical	chemical	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	compounds	compound	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Almost of them are deadly poisonous.
+1	Almost	almost	ADV	RB	_	6	advmod	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	nmod	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	deadly	deadly	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	poisonous	poisonous	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 6
+# text = There are two kinds of smoker.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	two	two	NUM	CD	NumType=Card	4	nummod	_	_
+4	kinds	kind	NOUN	NNS	Number=Plur	2	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	smoker	smoker	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = They are passive smoker and active smoker.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	passive	passive	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	smoker	smoker	NOUN	NN	Number=Sing	0	root	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	active	active	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	smoker	smoker	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = When a cigarette was being burned, the smoke released nicotine 2 times, 60 times more ammonia and 100 times more chemical compounds causing cancer.
+1	When	when	ADV	WRB	PronType=Int	6	mark	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	cigarette	cigarette	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+5	being	be	AUX	VBG	VerbForm=Ger	6	aux:pass	_	_
+6	burned	burn	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	smoke	smoke	NOUN	NN	Number=Sing	0	root	_	_
+10	released	release	VERB	VBN	Tense=Past|VerbForm=Part	9	acl	_	_
+11	nicotine	nicotine	NUM	CD	NumType=Card	13	nummod	_	_
+12	2	2	NUM	CD	NumType=Card	13	nummod	_	_
+13	times	time	NOUN	NNS	Number=Plur	10	obl:npmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	10	punct	_	_
+15	60	60	NUM	CD	NumType=Card	16	nummod	_	_
+16	times	time	NOUN	NNS	Number=Plur	17	obl:npmod	_	_
+17	more	more	ADJ	JJR	Degree=Cmp	18	amod	_	_
+18	ammonia	ammonia	NOUN	NN	Number=Sing	24	compound	_	_
+19	and	and	CCONJ	CC	_	23	cc	_	_
+20	100	100	NUM	CD	NumType=Card	21	nummod	_	_
+21	times	time	NOUN	NNS	Number=Plur	22	obl:npmod	_	_
+22	more	more	ADV	RBR	_	23	advmod	_	_
+23	chemical	chemical	ADJ	JJ	Degree=Pos	18	conj	_	_
+24	compounds	compound	NOUN	NNS	Number=Plur	10	obj	_	_
+25	causing	cause	VERB	VBG	VerbForm=Ger	24	acl	_	_
+26	cancer	cancer	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 9
+# text = It indicates that passive smokers have become more risky than active smokers.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	indicates	indicate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	7	mark	_	_
+4	passive	passive	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	smokers	smoker	NOUN	NNS	Number=Plur	7	nsubj	_	_
+6	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	become	become	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+8	more	more	ADV	RBR	_	9	advmod	_	_
+9	risky	risky	ADJ	JJ	Degree=Pos	7	xcomp	_	_
+10	than	than	ADP	IN	_	12	case	_	_
+11	active	active	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	smokers	smoker	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = They have a big risk of lung cancer, coroner heart and respiration disorder.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	big	big	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	risk	risk	NOUN	NN	Number=Sing	2	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	lung	lung	NOUN	NN	Number=Sing	8	compound	_	_
+8	cancer	cancer	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	coroner	coroner	NOUN	NN	Number=Sing	11	compound	_	_
+11	heart	heart	NOUN	NN	Number=Sing	8	appos	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	respiration	respiration	NOUN	NN	Number=Sing	14	compound	_	_
+14	disorder	disorder	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 11
+# text = Even they have 3 times more risky than active smokers.
+1	Even	even	ADV	RB	_	3	advmod	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	3	3	NUM	CD	NumType=Card	5	nummod	_	_
+5	times	time	NOUN	NNS	Number=Plur	6	obl:npmod	_	_
+6	more	more	ADV	RBR	_	7	advmod	_	_
+7	risky	risky	ADJ	JJ	Degree=Pos	3	xcomp	_	_
+8	than	than	ADP	IN	_	10	case	_	_
+9	active	active	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	smokers	smoker	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 12
+# text = An active smoker kills 200, 000 passive smokers within a year.
+1	An	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+2	active	active	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	smoker	smoker	NOUN	NN	Number=Sing	4	compound	_	_
+4	kills	kill	NOUN	NNS	Number=Plur	0	root	_	_
+5	200	200	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	000	000	NUM	CD	NumType=Card	9	nummod	_	_
+8	passive	passive	NUM	CD	NumType=Card	9	nummod	_	_
+9	smokers	smoker	NOUN	NNS	Number=Plur	4	appos	_	_
+10	within	within	ADP	IN	_	12	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	year	year	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = It's really fantastic and awful.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	really	really	ADV	RB	_	4	advmod	_	_
+4	fantastic	fantastic	ADJ	JJ	Degree=Pos	0	root	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	awful	awful	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 14
+# text = But it's a truth!
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	truth	truth	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 15
+# text = Smoke free environment is only way to make a shield for passive smoker because smoking area not fully protected them from dangerous smoking.
+1	Smoke	smoke	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	free	free	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	environment	environment	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	only	only	ADV	RB	_	6	advmod	_	_
+6	way	way	NOUN	NN	Number=Sing	1	parataxis	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	make	make	VERB	VB	VerbForm=Inf	6	acl	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	shield	shield	NOUN	NN	Number=Sing	8	obj	_	_
+11	for	for	ADP	IN	_	13	case	_	_
+12	passive	passive	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	smoker	smoker	NOUN	NN	Number=Sing	10	nmod	_	_
+14	because	because	SCONJ	IN	_	15	mark	_	_
+15	smoking	smoke	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+16	area	area	NOUN	NN	Number=Sing	15	obj	_	_
+17	not	not	ADV	RB	_	19	advmod	_	_
+18	fully	fully	ADV	RB	_	19	advmod	_	_
+19	protected	protect	VERB	VBN	Tense=Past|VerbForm=Part	16	acl	_	_
+20	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
+21	from	from	ADP	IN	_	23	case	_	_
+22	dangerous	dangerous	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	smoking	smoking	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 16
+# text = Closed location and public place are expected 100% free of smoke.
+1	Closed	close	VERB	VBN	Tense=Past|VerbForm=Part	2	amod	_	_
+2	location	location	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	public	public	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	place	place	NOUN	NN	Number=Sing	2	conj	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	100	100	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No
+9	%	%	SYM	NN	Number=Sing	10	obl:npmod	_	_
+10	free	free	ADJ	JJ	Degree=Pos	7	xcomp	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	smoke	smoke	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 17
+# text = Banning of smoking should be completely at all the place and it should be aware of smoking dangerous.
+1	Banning	Banning	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	1	obl	_	_
+4	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+6	completely	completely	ADV	RB	_	1	advmod	_	_
+7	at	at	ADP	IN	_	10	case	_	_
+8	all	all	DET	PDT	_	10	det:predet	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	place	place	NOUN	NN	Number=Sing	6	obl	_	_
+11	and	and	CCONJ	CC	_	15	cc	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	should	should	AUX	MD	VerbForm=Fin	15	aux	_	_
+14	be	be	AUX	VB	VerbForm=Inf	15	cop	_	_
+15	aware	aware	ADJ	JJ	Degree=Pos	1	conj	_	_
+16	of	of	SCONJ	IN	_	17	mark	_	_
+17	smoking	smoke	VERB	VBG	VerbForm=Ger	15	advcl	_	_
+18	dangerous	dangerous	ADJ	JJ	Degree=Pos	17	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

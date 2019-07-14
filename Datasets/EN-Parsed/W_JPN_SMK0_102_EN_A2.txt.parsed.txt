@@ -1,0 +1,293 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_JPN_SMK0_102_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿I do not agree this opinion that Smoking should be completely banned at all the restaurants in the country.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	agree	agree	VERB	VB	VerbForm=Inf	0	root	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	opinion	opinion	NOUN	NN	Number=Sing	4	obj	_	_
+7	that	that	SCONJ	IN	_	12	mark	_	_
+8	Smoking	smoke	PROPN	NNP	Number=Sing	12	nsubj:pass	_	_
+9	should	should	AUX	MD	VerbForm=Fin	12	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	12	aux:pass	_	_
+11	completely	completely	ADV	RB	_	12	advmod	_	_
+12	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	ccomp	_	_
+13	at	at	ADP	IN	_	16	case	_	_
+14	all	all	DET	PDT	_	16	det:predet	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	restaurants	restaurant	NOUN	NNS	Number=Plur	12	obl	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	country	country	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Certainly, Smoking makes air dirty and bad smell.
+1	Certainly	certainly	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	Smoking	smoke	PROPN	NNP	Number=Sing	4	nsubj	_	_
+4	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	air	air	NOUN	NN	Number=Sing	4	obj	_	_
+6	dirty	dirty	ADJ	JJ	Degree=Pos	9	amod	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	bad	bad	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	smell	smell	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Cigarette is bad for the body.
+1	Cigarette	cigarette	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	bad	bad	ADJ	JJ	Degree=Pos	0	root	_	_
+4	for	for	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	body	body	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = It is contain many material that causes cancer.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	contain	contain	VERB	VB	VerbForm=Inf	0	root	_	_
+4	many	many	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	material	material	NOUN	NN	Number=Sing	3	obj	_	_
+6	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	_
+7	causes	cause	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	cancer	cancer	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Many smokers are died because of cancers.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	smokers	smoker	NOUN	NNS	Number=Plur	4	nsubj:pass	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	died	die	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	because	because	ADP	IN	_	7	case	_	_
+6	of	of	ADP	IN	_	5	fixed	_	_
+7	cancers	cancer	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = But the best reason of person not smoking hate Smokers is that smoke from smokers is bud for bodies too when people breathes it in.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	best	best	ADJ	JJS	Degree=Sup	4	amod	_	_
+4	reason	reason	NOUN	NN	Number=Sing	11	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	person	person	NOUN	NN	Number=Sing	4	nmod	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	11	csubj	_	_
+9	hate	hate	NOUN	NN	Number=Sing	10	compound	_	_
+10	Smokers	smoker	NOUN	NNS	Number=Plur	8	obj	_	_
+11	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	that	that	SCONJ	IN	_	17	mark	_	_
+13	smoke	smoke	ADJ	JJ	Degree=Pos	17	nsubj	_	_
+14	from	from	ADP	IN	_	15	case	_	_
+15	smokers	smoker	NOUN	NNS	Number=Plur	13	obl	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	bud	bud	NOUN	NNS	Number=Plur	11	ccomp	_	_
+18	for	for	ADP	IN	_	19	case	_	_
+19	bodies	body	NOUN	NNS	Number=Plur	17	nmod	_	_
+20	too	too	ADV	RB	_	17	advmod	_	_
+21	when	when	ADV	WRB	PronType=Int	23	mark	_	_
+22	people	people	NOUN	NNS	Number=Plur	23	nsubj	_	_
+23	breathes	breathe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+24	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+25	in	in	ADP	RP	_	23	compound:prt	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 7
+# text = This is more effective than smoke themselves.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	more	more	ADV	RBR	_	4	advmod	_	_
+4	effective	effective	ADJ	JJ	Degree=Pos	0	root	_	_
+5	than	than	ADP	IN	_	7	case	_	_
+6	smoke	smoke	NOUN	NN	Number=Sing	7	compound	_	_
+7	themselves	themselves	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = So that, recently, smokers are disliked at almost places.
+1	So	so	ADV	RB	_	8	advmod	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	8	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	recently	recently	ADV	RB	_	8	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	smokers	smoker	NOUN	NNS	Number=Plur	8	nsubj:pass	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	disliked	dislike	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	at	at	ADP	IN	_	11	case	_	_
+10	almost	almost	ADV	RB	_	11	advmod	_	_
+11	places	place	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 9
+# text = However, I think smoking prohibited all the restaurants is not best way.
+1	However	however	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	smoking	smoke	NOUN	NN	Number=Sing	13	nsubj	_	_
+6	prohibited	prohibit	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	_	_
+7	all	all	DET	PDT	_	9	det:predet	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	restaurants	restaurant	NOUN	NNS	Number=Plur	6	obj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	not	not	PART	RB	_	13	advmod	_	_
+12	best	best	ADJ	JJS	Degree=Sup	13	amod	_	_
+13	way	way	NOUN	NN	Number=Sing	4	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 10
+# text = Certainly smokers and people who don't smoke must be completely separated but cigarettes have been already the heavy part of our culture.
+1	Certainly	certainly	ADV	RB	_	2	advmod	_	_
+2	smokers	smoker	NOUN	NNS	Number=Plur	12	nsubj:pass	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	people	people	NOUN	NNS	Number=Plur	8	conj	_	_
+5	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+6	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
+7	n't	not	PART	RB	_	8	advmod	_	_
+8	smoke	smoke	VERB	VB	VerbForm=Inf	2	acl:relcl	_	_
+9	must	must	AUX	MD	VerbForm=Fin	12	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	12	aux:pass	_	_
+11	completely	completely	ADV	RB	_	12	advmod	_	_
+12	separated	separate	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+13	but	but	CCONJ	CC	_	20	cc	_	_
+14	cigarettes	cigarette	NOUN	NNS	Number=Plur	20	nsubj	_	_
+15	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	_
+16	been	be	AUX	VBN	Tense=Past|VerbForm=Part	20	cop	_	_
+17	already	already	ADV	RB	_	20	advmod	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	heavy	heavy	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	part	part	NOUN	NN	Number=Sing	12	conj	_	_
+21	of	of	ADP	IN	_	23	case	_	_
+22	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	culture	culture	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 11
+# text = Most important thing is that alarm the risk of smoking.
+1	Most	most	ADJ	JJS	Degree=Sup	3	amod	_	_
+2	important	important	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	thing	thing	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	alarm	alarm	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	risk	risk	NOUN	NN	Number=Sing	4	ccomp	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 12
+# text = So if smokers know
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	if	if	SCONJ	IN	_	4	mark	_	_
+3	smokers	smoker	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+
+# sent_id = 13
+# text = It's danger enough, we should allow their smoking places.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	danger	danger	NOUN	NN	Number=Sing	4	obl:npmod	_	_
+4	enough	enough	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+7	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	allow	allow	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+9	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	11	compound	_	_
+11	places	place	NOUN	NNS	Number=Plur	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 14
+# text = Like restaurant we can enter with our pet, that we can make smoke can be made.
+1	Like	like	ADP	IN	_	2	case	_	_
+2	restaurant	restaurant	NOUN	NN	Number=Sing	5	obl	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	enter	enter	VERB	VB	VerbForm=Inf	0	root	_	_
+6	with	with	ADP	IN	_	8	case	_	_
+7	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	pet	pet	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	5	punct	_	_
+10	that	that	SCONJ	IN	_	13	mark	_	_
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+12	can	can	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	make	make	VERB	VB	VerbForm=Inf	5	advcl	_	_
+14	smoke	smoke	NOUN	NN	Number=Sing	17	nsubj:pass	_	_
+15	can	can	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	aux:pass	_	_
+17	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	ccomp	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 15
+# text = Some of my friends are smokers.
+1	Some	some	DET	DT	_	6	nsubj	_	_
+2	of	of	ADP	IN	_	4	case	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	friends	friend	NOUN	NNS	Number=Plur	1	nmod	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	smokers	smoker	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 16
+# text = They are good people.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	good	good	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	people	people	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 17
+# text = It is not good thing hate people because they are smoking.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	good	good	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	thing	thing	NOUN	NN	Number=Sing	0	root	_	_
+6	hate	hate	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+7	people	people	NOUN	NNS	Number=Plur	6	obj	_	_
+8	because	because	SCONJ	IN	_	11	mark	_	_
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	6	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 18
+# text = When they save smoking manner, for example don't smoke at public spaces, and don't make trouble to us, we should get along with them.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	save	save	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+4	smoking	smoke	NOUN	NN	Number=Sing	5	compound	_	_
+5	manner	manner	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	example	example	NOUN	NN	Number=Sing	11	obl	_	_
+9	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
+10	n't	not	PART	RB	_	11	advmod	_	_
+11	smoke	smoke	VERB	VB	VerbForm=Inf	0	root	_	_
+12	at	at	ADP	IN	_	14	case	_	_
+13	public	public	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	spaces	space	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	and	and	CCONJ	CC	_	19	cc	_	_
+17	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	SpaceAfter=No
+18	n't	not	PART	RB	_	19	advmod	_	_
+19	make	make	VERB	VB	VerbForm=Inf	11	conj	_	_
+20	trouble	trouble	ADJ	JJ	Degree=Pos	19	xcomp	_	_
+21	to	to	ADP	IN	_	22	case	_	_
+22	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	11	punct	_	_
+24	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	26	nsubj	_	_
+25	should	should	AUX	MD	VerbForm=Fin	26	aux	_	_
+26	get	get	VERB	VB	VerbForm=Inf	11	parataxis	_	_
+27	along	along	ADV	RB	_	26	advmod	_	_
+28	with	with	ADP	IN	_	29	case	_	_
+29	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	26	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n
+

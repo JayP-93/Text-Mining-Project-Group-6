@@ -1,0 +1,283 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_PTJ0_210_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Part-time job is optional thing for college student, but almost college student have it obligatorily.
+1	﻿Part	﻿Part	NOUN	NN	Number=Sing	3	compound	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No
+3	time	time	NOUN	NN	Number=Sing	4	compound	_	_
+4	job	job	NOUN	NN	Number=Sing	7	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	optional	optional	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	thing	thing	NOUN	NN	Number=Sing	0	root	_	_
+8	for	for	ADP	IN	_	10	case	_	_
+9	college	college	NOUN	NN	Number=Sing	10	compound	_	_
+10	student	student	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	_	_
+12	but	but	CCONJ	CC	_	16	cc	_	_
+13	almost	almost	ADV	RB	_	15	advmod	_	_
+14	college	college	NOUN	NN	Number=Sing	15	compound	_	_
+15	student	student	NOUN	NN	Number=Sing	16	nsubj	_	_
+16	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	_	_
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	obligatorily	obligatorily	ADV	RB	_	16	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = The first reason why they should have the part-time job is that they need lots of money for college tuition and college life.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
+3	reason	reason	NOUN	NN	Number=Sing	13	nsubj	_	_
+4	why	why	ADV	WRB	PronType=Rel	7	advmod	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+6	should	should	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	have	have	VERB	VB	VerbForm=Inf	3	acl:relcl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+9	part	part	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	time	time	NOUN	NN	Number=Sing	12	compound	_	_
+12	job	job	NOUN	NN	Number=Sing	7	obj	_	_
+13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	that	that	SCONJ	IN	_	16	mark	_	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+16	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+17	lots	lot	NOUN	NNS	Number=Plur	16	obj	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	money	money	NOUN	NN	Number=Sing	17	nmod	_	_
+20	for	for	ADP	IN	_	22	case	_	_
+21	college	college	NOUN	NN	Number=Sing	22	compound	_	_
+22	tuition	tuition	NOUN	NN	Number=Sing	16	nmod	_	_
+23	and	and	CCONJ	CC	_	25	cc	_	_
+24	college	college	NOUN	NN	Number=Sing	25	compound	_	_
+25	life	life	NOUN	NN	Number=Sing	22	conj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 3
+# text = Tuition is very high in my country.
+1	Tuition	Tuition	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	high	high	ADJ	JJ	Degree=Pos	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	country	country	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = So some students take off the school to earn the tuition.
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	some	some	DET	DT	_	3	det	_	_
+3	students	student	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	off	off	ADP	RP	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	school	school	NOUN	NN	Number=Sing	4	obl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	earn	earn	VERB	VB	VerbForm=Inf	4	advcl	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	tuition	tuition	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Other students have part-time job and go to school at the same time in order to supplement tuition.
+1	Other	other	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	students	student	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	part	part	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	time	time	NOUN	NN	Number=Sing	7	compound	_	_
+7	job	job	NOUN	NN	Number=Sing	3	obj	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	school	school	NOUN	NN	Number=Sing	9	obl	_	_
+12	at	at	ADP	IN	_	15	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	same	same	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	time	time	NOUN	NN	Number=Sing	9	obl	_	_
+16	in	in	ADP	IN	_	19	mark	_	_
+17	order	order	NOUN	NN	Number=Sing	16	fixed	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	supplement	supplement	VERB	VB	VerbForm=Inf	9	advcl	_	_
+20	tuition	tuition	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Also college students need more money to get together with their friends and enjoy cultural life.
+1	Also	also	ADV	RB	_	2	advmod	_	_
+2	college	college	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	students	student	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	more	more	ADJ	JJR	Degree=Cmp	6	amod	_	_
+6	money	money	NOUN	NN	Number=Sing	4	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	get	get	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+9	together	together	ADV	RB	_	8	advmod	_	_
+10	with	with	ADP	IN	_	12	case	_	_
+11	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	friends	friend	NOUN	NNS	Number=Plur	8	obl	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	enjoy	enjoy	VERB	VB	VerbForm=Inf	8	conj	_	_
+15	cultural	cultural	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	life	life	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = They usually earn extra money by doing part-time job.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	usually	usually	ADV	RB	_	3	advmod	_	_
+3	earn	earn	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	extra	extra	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	money	money	NOUN	NN	Number=Sing	3	obj	_	_
+6	by	by	SCONJ	IN	_	7	mark	_	_
+7	doing	do	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+8	part	part	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	time	time	NOUN	NN	Number=Sing	11	compound	_	_
+11	job	job	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = The second reason is to live by oneself.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
+3	reason	reason	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	live	live	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+7	by	by	ADP	IN	_	8	case	_	_
+8	oneself	oneself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Some students, especially men, have to earn money to live without economical help from their parents.
+1	Some	some	DET	DT	_	2	det	_	_
+2	students	student	NOUN	NNS	Number=Plur	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	especially	especially	ADV	RB	_	5	advmod	_	_
+5	men	man	NOUN	NNS	Number=Plur	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	earn	earn	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	money	money	NOUN	NN	Number=Sing	9	obj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	live	live	VERB	VB	VerbForm=Inf	9	advcl	_	_
+13	without	without	ADP	IN	_	15	case	_	_
+14	economical	economical	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	help	help	NOUN	NN	Number=Sing	12	obl	_	_
+16	from	from	ADP	IN	_	18	case	_	_
+17	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	parents	parent	NOUN	NNS	Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 10
+# text = They achieve financial independence so they have to have part-time job for living.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	achieve	achieve	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	financial	financial	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	independence	independence	NOUN	NN	Number=Sing	2	obj	_	_
+5	so	so	SCONJ	IN	_	7	mark	_	_
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+7	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	have	have	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	part	part	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	time	time	NOUN	NN	Number=Sing	13	compound	_	_
+13	job	job	NOUN	NN	Number=Sing	9	obj	_	_
+14	for	for	ADP	IN	_	15	case	_	_
+15	living	living	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 11
+# text = Therefore, having a part-time job is obligatory for some students in this situation.
+1	Therefore	therefore	ADV	RB	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	10	punct	_	_
+3	having	have	VERB	VBG	VerbForm=Ger	10	mark	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+5	part	part	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	time	time	NOUN	NN	Number=Sing	8	compound	_	_
+8	job	job	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	obligatory	obligatory	ADJ	JJ	Degree=Pos	0	root	_	_
+11	for	for	ADP	IN	_	13	case	_	_
+12	some	some	DET	DT	_	13	det	_	_
+13	students	student	NOUN	NNS	Number=Plur	10	obl	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+16	situation	situation	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 12
+# text = The third reason is to experience all kinds of thing through part-time job.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
+3	reason	reason	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	experience	experience	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+7	all	all	DET	DT	_	8	det	_	_
+8	kinds	kind	NOUN	NNS	Number=Plur	6	obj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	thing	thing	NOUN	NN	Number=Sing	8	nmod	_	_
+11	through	through	ADP	IN	_	15	case	_	_
+12	part	part	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+14	time	time	NOUN	NN	Number=Sing	15	compound	_	_
+15	job	job	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = There are thousands of part-time job, ranging from a physical work to a delicate work.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	thousands	thousand	NOUN	NNS	Number=Plur	2	nsubj	_	_
+4	of	of	ADP	IN	_	8	case	_	_
+5	part	part	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	time	time	NOUN	NN	Number=Sing	8	compound	_	_
+8	job	job	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	ranging	range	VERB	VBG	VerbForm=Ger	2	acl	_	_
+11	from	from	ADP	IN	_	14	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	physical	physical	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	work	work	NOUN	NN	Number=Sing	10	obl	_	_
+15	to	to	ADP	IN	_	18	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	delicate	delicate	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	work	work	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 14
+# text = College students can experience various works according to choosing what kind of work.
+1	College	college	NOUN	NN	Number=Sing	2	compound	_	_
+2	students	student	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	experience	experience	VERB	VB	VerbForm=Inf	0	root	_	_
+5	various	various	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	works	work	NOUN	NNS	Number=Plur	4	obj	_	_
+7	according	accord	VERB	VBG	VerbForm=Ger	6	acl	_	_
+8	to	to	SCONJ	IN	_	9	mark	_	_
+9	choosing	choose	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+10	what	what	DET	WDT	PronType=Int	11	det	_	_
+11	kind	kind	NOUN	NN	Number=Sing	9	obj	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	work	work	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 15
+# text = It can help them consider what they want to do.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	help	help	VERB	VB	VerbForm=Inf	0	root	_	_
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	consider	consider	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+6	what	what	PRON	WP	PronType=Int	8	obj	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+8	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	do	do	VERB	VB	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

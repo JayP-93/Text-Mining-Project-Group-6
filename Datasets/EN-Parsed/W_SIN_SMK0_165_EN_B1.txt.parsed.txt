@@ -1,0 +1,280 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_SIN_SMK0_165_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿ In Singapore, there are smoking areas and non-smoking areas clearly mapped out in many public places, such as in coffee shops, clubs, and restaurants.
+1	﻿	﻿	NOUN	NN	Number=Sing	0	root	_	_
+2	In	in	ADP	IN	_	3	case	_	_
+3	Singapore	Singapore	PROPN	NNP	Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	there	there	PRON	EX	_	6	expl	_	_
+6	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	8	compound	_	_
+8	areas	area	NOUN	NNS	Number=Plur	6	nsubj	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	non-smoking	non-smok	VERB	VBG	VerbForm=Ger	8	conj	_	_
+11	areas	area	NOUN	NNS	Number=Plur	10	obj	_	_
+12	clearly	clearly	ADV	RB	_	13	advmod	_	_
+13	mapped	map	VERB	VBN	Tense=Past|VerbForm=Part	11	acl	_	_
+14	out	out	ADP	RP	_	13	compound:prt	_	_
+15	in	in	ADP	IN	_	18	case	_	_
+16	many	many	ADJ	JJ	Degree=Pos	18	amod	_	_
+17	public	public	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	places	place	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	such	such	ADJ	JJ	Degree=Pos	24	case	_	_
+21	as	as	ADP	IN	_	20	fixed	_	_
+22	in	in	ADP	IN	_	24	case	_	_
+23	coffee	coffee	NOUN	NN	Number=Sing	24	compound	_	_
+24	shops	shop	NOUN	NNS	Number=Plur	18	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	26	punct	_	_
+26	clubs	club	NOUN	NNS	Number=Plur	24	conj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	29	punct	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	restaurants	restaurant	NOUN	NNS	Number=Plur	24	conj	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = This was part of the latest initiative pushed out by the government in order to curb smoking in Singapore.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	part	part	NOUN	NN	Number=Sing	0	root	_	_
+4	of	of	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	latest	latest	ADJ	JJS	Degree=Sup	7	amod	_	_
+7	initiative	initiative	NOUN	NN	Number=Sing	3	nmod	_	_
+8	pushed	push	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	_	_
+9	out	out	ADP	RP	_	8	compound:prt	_	_
+10	by	by	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	government	government	NOUN	NN	Number=Sing	8	obl	_	_
+13	in	in	ADP	IN	_	16	mark	_	_
+14	order	order	NOUN	NN	Number=Sing	13	fixed	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	curb	curb	VERB	VB	VerbForm=Inf	8	advcl	_	_
+17	smoking	smoke	VERB	VBG	VerbForm=Ger	16	xcomp	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	Singapore	Singapore	PROPN	NNP	Number=Sing	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = In this essay, I argue that smoking should not be completely banned at all restaurants in Singapore and I will be providing two main arguments to support my stand.
+1	In	in	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	essay	essay	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	argue	argue	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	that	that	SCONJ	IN	_	13	mark	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	13	nsubj:pass	_	_
+9	should	should	AUX	MD	VerbForm=Fin	13	aux	_	_
+10	not	not	PART	RB	_	13	advmod	_	_
+11	be	be	AUX	VB	VerbForm=Inf	13	aux:pass	_	_
+12	completely	completely	ADV	RB	_	13	advmod	_	_
+13	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	ccomp	_	_
+14	at	at	ADP	IN	_	16	case	_	_
+15	all	all	DET	DT	_	16	det	_	_
+16	restaurants	restaurant	NOUN	NNS	Number=Plur	13	obl	_	_
+17	in	in	ADP	IN	_	18	case	_	_
+18	Singapore	Singapore	PROPN	NNP	Number=Sing	16	nmod	_	_
+19	and	and	CCONJ	CC	_	23	cc	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+21	will	will	AUX	MD	VerbForm=Fin	23	aux	_	_
+22	be	be	AUX	VB	VerbForm=Inf	23	aux	_	_
+23	providing	provide	VERB	VBG	Tense=Pres|VerbForm=Part	13	conj	_	_
+24	two	two	NUM	CD	NumType=Card	26	nummod	_	_
+25	main	main	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	arguments	argument	NOUN	NNS	Number=Plur	23	obj	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	support	support	VERB	VB	VerbForm=Inf	26	acl	_	_
+29	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	stand	stand	NOUN	NN	Number=Sing	28	obj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Firstly, in banning smoking at all restaurants in Singapore, it can be seen that certain rights of these smokers are taken away from them.
+1	Firstly	firstly	ADV	RB	_	15	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	15	punct	_	_
+3	in	in	SCONJ	IN	_	4	mark	_	_
+4	banning	banning	VERB	VBG	VerbForm=Ger	15	advcl	_	_
+5	smoking	smoke	NOUN	NN	Number=Sing	4	obj	_	_
+6	at	at	ADP	IN	_	8	case	_	_
+7	all	all	DET	DT	_	8	det	_	_
+8	restaurants	restaurant	NOUN	NNS	Number=Plur	4	obl	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	Singapore	Singapore	PROPN	NNP	Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj:pass	_	_
+13	can	can	AUX	MD	VerbForm=Fin	15	aux	_	_
+14	be	be	AUX	VB	VerbForm=Inf	15	aux:pass	_	_
+15	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+16	that	that	SCONJ	IN	_	23	mark	_	_
+17	certain	certain	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	rights	rights	NOUN	NNS	Number=Plur	23	nsubj:pass	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	these	these	DET	DT	Number=Plur|PronType=Dem	21	det	_	_
+21	smokers	smoker	NOUN	NNS	Number=Plur	18	nmod	_	_
+22	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux:pass	_	_
+23	taken	take	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	ccomp	_	_
+24	away	away	ADV	RB	_	23	advmod	_	_
+25	from	from	ADP	IN	_	26	case	_	_
+26	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 5
+# text = Although the adverse effects of smoking and second-hand smoke had been fully advocated by the state, it would be unfair to these smokers to take away the space for them to smoke at certain places (i.
+1	Although	although	SCONJ	IN	_	15	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	adverse	adverse	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	effects	effect	NOUN	NNS	Number=Plur	15	nsubj:pass	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	4	nmod	_	_
+7	and	and	CCONJ	CC	_	11	cc	_	_
+8	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	10	amod	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	hand	hand	NOUN	NN	Number=Sing	11	compound	_	_
+11	smoke	smoke	NOUN	NN	Number=Sing	6	conj	_	_
+12	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+13	been	be	AUX	VBN	Tense=Past|VerbForm=Part	15	aux:pass	_	_
+14	fully	fully	ADV	RB	_	15	advmod	_	_
+15	advocated	advocate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	advcl	_	_
+16	by	by	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	state	state	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	23	punct	_	_
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+21	would	would	AUX	MD	VerbForm=Fin	23	aux	_	_
+22	be	be	AUX	VB	VerbForm=Inf	23	cop	_	_
+23	unfair	unfair	ADJ	JJ	Degree=Pos	0	root	_	_
+24	to	to	ADP	IN	_	26	case	_	_
+25	these	these	DET	DT	Number=Plur|PronType=Dem	26	det	_	_
+26	smokers	smoker	NOUN	NNS	Number=Plur	23	obl	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	take	take	VERB	VB	VerbForm=Inf	23	advcl	_	_
+29	away	away	ADP	RP	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	space	space	NOUN	NN	Number=Sing	28	obl	_	_
+32	for	for	SCONJ	IN	_	35	mark	_	_
+33	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	35	nsubj	_	_
+34	to	to	PART	TO	_	35	mark	_	_
+35	smoke	smoke	VERB	VB	VerbForm=Inf	28	advcl	_	_
+36	at	at	ADP	IN	_	38	case	_	_
+37	certain	certain	ADJ	JJ	Degree=Pos	38	amod	_	_
+38	places	place	NOUN	NNS	Number=Plur	35	obl	_	_
+39	(	(	PUNCT	-LRB-	_	40	punct	_	SpaceAfter=No
+40	i	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	41	nsubj	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	23	punct	_	_
+
+# sent_id = 6
+# text = e. restaurants).
+1	e.	e.	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	restaurants	restaurant	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	-RRB-	_	2	punct	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Another reason that I proposed is that if the state were to ban smoking at all restaurants in Singapore, this would quickly expand to all public places in Singapore.
+1	Another	another	DET	DT	_	2	det	_	_
+2	reason	reason	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	that	that	PRON	WDT	PronType=Rel	5	obj	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	proposed	propose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	that	that	SCONJ	IN	_	24	mark	_	_
+8	if	if	SCONJ	IN	_	11	mark	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	state	state	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	advcl	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	ban	ban	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+14	smoking	smoke	NOUN	NN	Number=Sing	13	obj	_	_
+15	at	at	ADP	IN	_	17	case	_	_
+16	all	all	DET	DT	_	17	det	_	_
+17	restaurants	restaurant	NOUN	NNS	Number=Plur	13	obl	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	Singapore	Singapore	PROPN	NNP	Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	24	punct	_	_
+21	this	this	PRON	DT	Number=Sing|PronType=Dem	24	nsubj	_	_
+22	would	would	AUX	MD	VerbForm=Fin	24	aux	_	_
+23	quickly	quickly	ADV	RB	_	24	advmod	_	_
+24	expand	expand	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+25	to	to	ADP	IN	_	28	case	_	_
+26	all	all	DET	DT	_	28	det	_	_
+27	public	public	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	places	place	NOUN	NNS	Number=Plur	24	obl	_	_
+29	in	in	ADP	IN	_	30	case	_	_
+30	Singapore	Singapore	PROPN	NNP	Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 8
+# text = This would leave smokers with no place to go and law enforcement of such measures would also take a toll on the law enforcement officers.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	leave	leave	VERB	VB	VerbForm=Inf	0	root	_	_
+4	smokers	smoker	NOUN	NNS	Number=Plur	3	obj	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	no	no	DET	DT	_	7	det	_	_
+7	place	place	NOUN	NN	Number=Sing	3	obl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	go	go	VERB	VB	VerbForm=Inf	7	acl	_	_
+10	and	and	CCONJ	CC	_	18	cc	_	_
+11	law	law	NOUN	NN	Number=Sing	12	compound	_	_
+12	enforcement	enforcement	NOUN	NN	Number=Sing	18	nsubj	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	such	such	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	measures	measure	NOUN	NNS	Number=Plur	12	nmod	_	_
+16	would	would	AUX	MD	VerbForm=Fin	18	aux	_	_
+17	also	also	ADV	RB	_	18	advmod	_	_
+18	take	take	VERB	VB	VerbForm=Inf	9	conj	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	toll	toll	NOUN	NN	Number=Sing	18	obj	_	_
+21	on	on	ADP	IN	_	25	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+23	law	law	NOUN	NN	Number=Sing	24	compound	_	_
+24	enforcement	enforcement	NOUN	NN	Number=Sing	25	compound	_	_
+25	officers	officer	NOUN	NNS	Number=Plur	18	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = In conclusion, it would be infringement on the basic rights of smokers if such measures were enforced, and that the law enforcement would definitely lag behind such measures which in turns take a toll on law enforcement officers.
+1	In	in	ADP	IN	_	2	case	_	_
+2	conclusion	conclusion	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	would	would	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+7	infringement	infringement	NOUN	NN	Number=Sing	0	root	_	_
+8	on	on	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	basic	basic	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	rights	rights	NOUN	NNS	Number=Plur	7	nmod	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	smokers	smoker	NOUN	NNS	Number=Plur	11	nmod	_	_
+14	if	if	SCONJ	IN	_	18	mark	_	_
+15	such	such	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	measures	measure	NOUN	NNS	Number=Plur	18	nsubj:pass	_	_
+17	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux:pass	_	_
+18	enforced	enforce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	27	punct	_	_
+20	and	and	CCONJ	CC	_	27	cc	_	_
+21	that	that	SCONJ	IN	_	27	mark	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	law	law	NOUN	NN	Number=Sing	24	compound	_	_
+24	enforcement	enforcement	NOUN	NN	Number=Sing	27	nsubj	_	_
+25	would	would	AUX	MD	VerbForm=Fin	27	aux	_	_
+26	definitely	definitely	ADV	RB	_	27	advmod	_	_
+27	lag	lag	VERB	VB	VerbForm=Inf	7	conj	_	_
+28	behind	behind	ADP	IN	_	30	case	_	_
+29	such	such	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	measures	measure	NOUN	NNS	Number=Plur	27	obl	_	_
+31	which	which	PRON	WDT	PronType=Rel	34	nsubj	_	_
+32	in	in	ADP	IN	_	33	case	_	_
+33	turns	turn	NOUN	NNS	Number=Plur	34	obl	_	_
+34	take	take	VERB	VB	VerbForm=Inf	30	acl:relcl	_	_
+35	a	a	DET	DT	Definite=Ind|PronType=Art	36	det	_	_
+36	toll	toll	NOUN	NN	Number=Sing	34	obj	_	_
+37	on	on	ADP	IN	_	40	case	_	_
+38	law	law	NOUN	NN	Number=Sing	40	compound	_	_
+39	enforcement	enforcement	NOUN	NN	Number=Sing	40	compound	_	_
+40	officers	officer	NOUN	NNS	Number=Plur	36	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+

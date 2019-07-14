@@ -1,0 +1,367 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_179_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I don't agree with the idea that smoking should be banned at all of the restaurants because of following reasons:
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	agree	agree	VERB	VB	VerbForm=Inf	0	root	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	idea	idea	NOUN	NN	Number=Sing	4	obl	_	_
+8	that	that	SCONJ	IN	_	12	mark	_	_
+9	smoking	smoke	NOUN	NN	Number=Sing	12	nsubj:pass	_	_
+10	should	should	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	aux:pass	_	_
+12	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	ccomp	_	_
+13	at	at	ADP	IN	_	14	case	_	_
+14	all	all	DET	DT	_	12	obl	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	restaurants	restaurant	NOUN	NNS	Number=Plur	14	nmod	_	_
+18	because	because	ADP	IN	_	21	case	_	_
+19	of	of	SCONJ	IN	_	18	fixed	_	_
+20	following	follow	VERB	VBG	VerbForm=Ger	21	amod	_	_
+21	reasons	reason	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+22	:	:	PUNCT	:	_	4	punct	_	_
+
+# sent_id = 2
+# text = Banning smoking at all of the restaurants cannot stop people smoking at the public place which has more serious problems; the owner of the restaurant might have difficulties when customer smokes at the restaurant.
+1	Banning	Bann	VERB	VBG	VerbForm=Ger	2	amod	_	_
+2	smoking	smoke	NOUN	NN	Number=Sing	10	nsubj	_	_
+3	at	at	ADP	IN	_	4	case	_	_
+4	all	all	DET	DT	_	2	nmod	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	restaurants	restaurant	NOUN	NNS	Number=Plur	4	nmod	_	_
+8	can	can	AUX	MD	VerbForm=Fin	10	aux	_	SpaceAfter=No
+9	not	not	PART	RB	_	10	advmod	_	_
+10	stop	stop	VERB	VB	VerbForm=Inf	0	root	_	_
+11	people	people	NOUN	NNS	Number=Plur	10	obj	_	_
+12	smoking	smoke	VERB	VBG	VerbForm=Ger	11	acl	_	_
+13	at	at	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	public	public	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	place	place	NOUN	NN	Number=Sing	12	obl	_	_
+17	which	which	PRON	WDT	PronType=Rel	18	nsubj	_	_
+18	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	more	more	ADJ	JJR	Degree=Cmp	21	amod	_	_
+20	serious	serious	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	problems	problem	NOUN	NNS	Number=Plur	18	obj	_	SpaceAfter=No
+22	;	;	PUNCT	,	_	10	punct	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	owner	owner	NOUN	NN	Number=Sing	29	nsubj	_	_
+25	of	of	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	restaurant	restaurant	NOUN	NN	Number=Sing	24	nmod	_	_
+28	might	might	AUX	MD	VerbForm=Fin	29	aux	_	_
+29	have	have	VERB	VB	VerbForm=Inf	10	parataxis	_	_
+30	difficulties	difficulty	NOUN	NNS	Number=Plur	29	obj	_	_
+31	when	when	ADV	WRB	PronType=Int	33	mark	_	_
+32	customer	customer	NOUN	NN	Number=Sing	33	compound	_	_
+33	smokes	smoke	NOUN	NNS	Number=Plur	29	obj	_	_
+34	at	at	ADP	IN	_	36	case	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+36	restaurant	restaurant	NOUN	NN	Number=Sing	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = Firstly, smoking at the restaurant shouldn't be banned because if smoking at the restaurant is banned, they would smoke the outside of the restaurant which has serious problems such as indirect harm toward people who don't smoke as much as smoking inside of the restaurant.
+1	Firstly	firstly	ADV	RB	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	10	punct	_	_
+3	smoking	smoke	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	restaurant	restaurant	NOUN	NN	Number=Sing	3	obl	_	_
+7	should	should	AUX	MD	VerbForm=Fin	10	aux	_	SpaceAfter=No
+8	n't	not	PART	RB	_	10	advmod	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+10	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+11	because	because	SCONJ	IN	_	18	mark	_	_
+12	if	if	SCONJ	IN	_	13	mark	_	_
+13	smoking	smoke	VERB	VBG	VerbForm=Ger	18	advcl	_	_
+14	at	at	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	restaurant	restaurant	NOUN	NN	Number=Sing	13	obl	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+18	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
+21	would	would	AUX	MD	VerbForm=Fin	22	aux	_	_
+22	smoke	smoke	VERB	VB	VerbForm=Inf	10	conj	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	outside	outside	NOUN	NN	Number=Sing	22	obj	_	_
+25	of	of	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	restaurant	restaurant	NOUN	NN	Number=Sing	24	nmod	_	_
+28	which	which	PRON	WDT	PronType=Rel	29	nsubj	_	_
+29	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+30	serious	serious	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	problems	problem	NOUN	NNS	Number=Plur	29	obj	_	_
+32	such	such	ADJ	JJ	Degree=Pos	35	case	_	_
+33	as	as	ADP	IN	_	32	fixed	_	_
+34	indirect	indirect	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	harm	harm	NOUN	NN	Number=Sing	31	nmod	_	_
+36	toward	toward	ADP	IN	_	37	case	_	_
+37	people	people	NOUN	NNS	Number=Plur	35	nmod	_	_
+38	who	who	PRON	WP	PronType=Rel	41	nsubj	_	_
+39	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	41	aux	_	SpaceAfter=No
+40	n't	not	PART	RB	_	41	advmod	_	_
+41	smoke	smoke	VERB	VB	VerbForm=Inf	37	acl:relcl	_	_
+42	as	as	ADV	RB	_	43	advmod	_	_
+43	much	much	ADJ	JJ	Degree=Pos	41	obj	_	_
+44	as	as	SCONJ	IN	_	45	mark	_	_
+45	smoking	smoke	VERB	VBG	VerbForm=Ger	41	advcl	_	_
+46	inside	inside	ADP	IN	_	49	case	_	_
+47	of	of	ADP	IN	_	49	case	_	_
+48	the	the	DET	DT	Definite=Def|PronType=Art	49	det	_	_
+49	restaurant	restaurant	NOUN	NN	Number=Sing	45	obl	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 4
+# text = Therefore it's no use banning smoking at all of the restaurants.
+1	Therefore	therefore	SCONJ	IN	_	7	mark	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	no	no	DET	DT	_	7	det	_	_
+5	use	use	NOUN	NN	Number=Sing	7	compound	_	_
+6	banning	ban	VERB	VBG	VerbForm=Ger	7	amod	_	_
+7	smoking	smoke	NOUN	NN	Number=Sing	0	root	_	_
+8	at	at	ADP	IN	_	9	case	_	_
+9	all	all	DET	DT	_	7	nmod	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	restaurants	restaurant	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = The other reason for being disagree with the idea that smoking at the restaurant should be banned is that the owner of the restaurant would encounter difficulties if the customer smokes at the restaurant.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	other	other	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	reason	reason	NOUN	NN	Number=Sing	18	nsubj	_	_
+4	for	for	SCONJ	IN	_	6	mark	_	_
+5	being	be	AUX	VBG	VerbForm=Ger	6	cop	_	_
+6	disagree	disagree	ADJ	JJ	Degree=Pos	17	advcl	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	idea	idea	NOUN	NN	Number=Sing	6	obl	_	_
+10	that	that	SCONJ	IN	_	17	mark	_	_
+11	smoking	smoke	VERB	VBG	VerbForm=Ger	17	nsubj:pass	_	_
+12	at	at	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	restaurant	restaurant	NOUN	NN	Number=Sing	11	obl	_	_
+15	should	should	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	aux:pass	_	_
+17	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	_
+18	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	that	that	SCONJ	IN	_	26	mark	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	owner	owner	NOUN	NN	Number=Sing	26	nsubj	_	_
+22	of	of	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	restaurant	restaurant	NOUN	NN	Number=Sing	21	nmod	_	_
+25	would	would	AUX	MD	VerbForm=Fin	26	aux	_	_
+26	encounter	encounter	VERB	VB	VerbForm=Inf	18	ccomp	_	_
+27	difficulties	difficulty	NOUN	NNS	Number=Plur	26	obj	_	_
+28	if	if	SCONJ	IN	_	31	mark	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+30	customer	customer	NOUN	NN	Number=Sing	31	compound	_	_
+31	smokes	smoke	NOUN	NNS	Number=Plur	26	advcl	_	_
+32	at	at	ADP	IN	_	34	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	restaurant	restaurant	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 6
+# text = Even if smoking at the restaurant is banned, some people might smoke at the restaurant.
+1	Even	even	ADV	RB	_	3	advmod	_	_
+2	if	if	SCONJ	IN	_	3	mark	_	_
+3	smoking	smoke	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	restaurant	restaurant	NOUN	NN	Number=Sing	3	obl	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	some	some	DET	DT	_	11	det	_	_
+11	people	people	NOUN	NNS	Number=Plur	13	nsubj	_	_
+12	might	might	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	smoke	smoke	VERB	VB	VerbForm=Inf	8	conj	_	_
+14	at	at	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	restaurant	restaurant	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 7
+# text = This situation would make the owner as well as other customers uncomfortable and persuading not to smoke would be difficult to the owner.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	situation	situation	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	make	make	VERB	VB	VerbForm=Inf	17	aux	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	owner	owner	NOUN	NN	Number=Sing	4	obj	_	_
+7	as	as	ADV	RB	_	11	cc	_	_
+8	well	well	ADV	RB	Degree=Pos	7	fixed	_	_
+9	as	as	ADP	IN	_	7	fixed	_	_
+10	other	other	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	customers	customer	NOUN	NNS	Number=Plur	12	conj	_	_
+12	uncomfortable	uncomfortable	ADJ	JJ	Degree=Pos	4	xcomp	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	persuading	persuade	VERB	VBG	VerbForm=Ger	12	conj	_	_
+15	not	not	ADV	RB	_	17	advmod	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	smoke	smoke	VERB	VB	VerbForm=Inf	20	csubj	_	_
+18	would	would	AUX	MD	VerbForm=Fin	20	aux	_	_
+19	be	be	AUX	VB	VerbForm=Inf	20	cop	_	_
+20	difficult	difficult	ADJ	JJ	Degree=Pos	0	root	_	_
+21	to	to	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	owner	owner	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = 8
+# text = Therefore it would be not beneficial to ban smoking for the owner of the restaurant.
+1	Therefore	therefore	SCONJ	IN	_	6	mark	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	6	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	beneficial	beneficial	ADJ	JJ	Degree=Pos	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	ban	ban	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	smoking	smoke	NOUN	NN	Number=Sing	8	obj	_	_
+10	for	for	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	owner	owner	NOUN	NN	Number=Sing	9	nmod	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	restaurant	restaurant	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 9
+# text = To conclude, I completely disagree with people who claim that smoking at all the restaurant should be banned due to Banning smoking at all of the restaurant cannot stop people smoking at the public place which has more serious problems; The owner of the restaurant might have difficulties when customer smoke at the restaurant.
+1	To	to	PART	TO	_	2	mark	_	_
+2	conclude	conclude	VERB	VB	VerbForm=Inf	6	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	completely	completely	ADV	RB	_	6	advmod	_	_
+6	disagree	disagree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	31	conj	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	people	people	NOUN	NNS	Number=Plur	6	obl	_	_
+9	who	who	PRON	WP	PronType=Rel	10	nsubj	_	_
+10	claim	claim	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	that	that	SCONJ	IN	_	19	mark	_	_
+12	smoking	smoke	VERB	VBG	VerbForm=Ger	19	nsubj:pass	_	_
+13	at	at	ADP	IN	_	16	case	_	_
+14	all	all	DET	PDT	_	16	det:predet	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	restaurant	restaurant	NOUN	NN	Number=Sing	12	obl	_	_
+17	should	should	AUX	MD	VerbForm=Fin	19	aux	_	_
+18	be	be	AUX	VB	VerbForm=Inf	19	aux:pass	_	_
+19	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	ccomp	_	_
+20	due	due	ADP	IN	_	22	mark	_	_
+21	to	to	SCONJ	IN	_	20	fixed	_	_
+22	Banning	Banning	VERB	VBG	VerbForm=Ger	19	advcl	_	_
+23	smoking	smoke	NOUN	NN	Number=Sing	22	obj	_	_
+24	at	at	ADP	IN	_	25	case	_	_
+25	all	all	DET	DT	_	22	obl	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	restaurant	restaurant	NOUN	NN	Number=Sing	25	nmod	_	_
+29	can	can	AUX	MD	VerbForm=Fin	31	aux	_	SpaceAfter=No
+30	not	not	PART	RB	_	31	advmod	_	_
+31	stop	stop	VERB	VB	VerbForm=Inf	0	root	_	_
+32	people	people	NOUN	NNS	Number=Plur	31	obj	_	_
+33	smoking	smoke	VERB	VBG	VerbForm=Ger	32	acl	_	_
+34	at	at	ADP	IN	_	37	case	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+36	public	public	ADJ	JJ	Degree=Pos	37	amod	_	_
+37	place	place	NOUN	NN	Number=Sing	33	obl	_	_
+38	which	which	PRON	WDT	PronType=Rel	39	nsubj	_	_
+39	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	_
+40	more	more	ADJ	JJR	Degree=Cmp	42	amod	_	_
+41	serious	serious	ADJ	JJ	Degree=Pos	42	amod	_	_
+42	problems	problem	NOUN	NNS	Number=Plur	39	obj	_	SpaceAfter=No
+43	;	;	PUNCT	,	_	31	punct	_	_
+44	The	the	DET	DT	Definite=Def|PronType=Art	45	det	_	_
+45	owner	owner	NOUN	NN	Number=Sing	50	nsubj	_	_
+46	of	of	ADP	IN	_	48	case	_	_
+47	the	the	DET	DT	Definite=Def|PronType=Art	48	det	_	_
+48	restaurant	restaurant	NOUN	NN	Number=Sing	45	nmod	_	_
+49	might	might	AUX	MD	VerbForm=Fin	50	aux	_	_
+50	have	have	VERB	VB	VerbForm=Inf	31	parataxis	_	_
+51	difficulties	difficulty	NOUN	NNS	Number=Plur	50	obj	_	_
+52	when	when	ADV	WRB	PronType=Int	54	mark	_	_
+53	customer	customer	NOUN	NN	Number=Sing	54	compound	_	_
+54	smoke	smoke	NOUN	NN	Number=Sing	50	obl	_	_
+55	at	at	ADP	IN	_	57	case	_	_
+56	the	the	DET	DT	Definite=Def|PronType=Art	57	det	_	_
+57	restaurant	restaurant	NOUN	NN	Number=Sing	54	nmod	_	SpaceAfter=No
+58	.	.	PUNCT	.	_	31	punct	_	_
+
+# sent_id = 10
+# text = Some people would disagree with my opinion because smoking at the restaurant is harmful for people's health.
+1	Some	some	DET	DT	_	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	disagree	disagree	VERB	VB	VerbForm=Inf	0	root	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	opinion	opinion	NOUN	NN	Number=Sing	4	obl	_	_
+8	because	because	SCONJ	IN	_	9	mark	_	_
+9	smoking	smoke	VERB	VBG	VerbForm=Ger	14	csubj	_	_
+10	at	at	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	restaurant	restaurant	NOUN	NN	Number=Sing	9	obl	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	harmful	harmful	ADJ	JJ	Degree=Pos	4	advcl	_	_
+15	for	for	ADP	IN	_	18	case	_	_
+16	people	people	NOUN	NNS	Number=Plur	18	nmod:poss	_	SpaceAfter=No
+17	's	's	PART	POS	_	16	case	_	_
+18	health	health	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = It could be.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 12
+# text = But it would be better if the restaurants make sections for non-smoke people and for smoking people instead of banning.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	better	better	ADJ	JJR	Degree=Cmp	0	root	_	_
+6	if	if	SCONJ	IN	_	9	mark	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	restaurants	restaurant	NOUN	NNS	Number=Plur	9	nsubj	_	_
+9	make	make	VERB	VB	VerbForm=Inf	5	advcl	_	_
+10	sections	section	NOUN	NNS	Number=Plur	9	obj	_	_
+11	for	for	ADP	IN	_	13	case	_	_
+12	non-smoke	non-smoke	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	people	people	NOUN	NNS	Number=Plur	9	obl	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	for	for	SCONJ	IN	_	16	mark	_	_
+16	smoking	smoke	VERB	VBG	VerbForm=Ger	9	conj	_	_
+17	people	people	NOUN	NNS	Number=Plur	16	obj	_	_
+18	instead	instead	ADV	RB	_	20	mark	_	_
+19	of	of	SCONJ	IN	_	20	mark	_	_
+20	banning	banning	VERB	VBG	VerbForm=Ger	16	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 13
+# text = Therefore smoking at the restaurant shouldn't be banned.
+1	Therefore	therefore	SCONJ	IN	_	2	mark	_	_
+2	smoking	smoke	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+3	at	at	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	restaurant	restaurant	NOUN	NN	Number=Sing	2	obl	_	_
+6	should	should	AUX	MD	VerbForm=Fin	9	aux	_	SpaceAfter=No
+7	n't	not	PART	RB	_	9	advmod	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+9	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

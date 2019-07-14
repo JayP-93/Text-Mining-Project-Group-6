@@ -1,0 +1,283 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_CHN_SMK0_126_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿There are still a lot of people smoking nowadays, though it is obviously harmful not only to the smoker's health but also to the nonsmokers'.
+1	﻿There	﻿There	PRON	EX	_	2	nsubj	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	still	still	ADV	RB	_	2	advmod	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	lot	lot	NOUN	NN	Number=Sing	2	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	people	people	NOUN	NNS	Number=Plur	5	nmod	_	_
+8	smoking	smoke	VERB	VBG	VerbForm=Ger	5	acl	_	_
+9	nowadays	nowadays	ADV	RB	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	though	though	SCONJ	IN	_	15	mark	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	obviously	obviously	ADV	RB	_	15	advmod	_	_
+15	harmful	harmful	ADJ	JJ	Degree=Pos	2	advcl	_	_
+16	not	not	ADV	RB	_	17	advmod	_	_
+17	only	only	ADV	RB	_	22	cc:preconj	_	_
+18	to	to	ADP	IN	_	22	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	smoker	smoker	NOUN	NN	Number=Sing	22	nmod:poss	_	SpaceAfter=No
+21	's	's	PART	POS	_	20	case	_	_
+22	health	health	NOUN	NN	Number=Sing	15	obl	_	_
+23	but	but	CCONJ	CC	_	27	cc	_	_
+24	also	also	ADV	RB	_	27	advmod	_	_
+25	to	to	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	nonsmokers	nonsmoker	NOUN	NNS	Number=Plur	22	conj	_	SpaceAfter=No
+28	'	'	PUNCT	''	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = When a cigarette is fired, it releases much harmful gases.
+1	When	when	ADV	WRB	PronType=Int	5	mark	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	cigarette	cigarette	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	fired	fire	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	releases	release	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	much	much	ADV	RB	_	10	advmod	_	_
+10	harmful	harmful	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	gases	gas	NOUN	NNS	Number=Plur	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = Also cigarettes contain a lot of chemicals which are poisonous enough to make the smokers be ill.
+1	Also	also	ADV	RB	_	3	advmod	_	_
+2	cigarettes	cigarettes	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	contain	contain	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	lot	lot	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	chemicals	chemical	NOUN	NNS	Number=Plur	5	nmod	_	_
+8	which	which	PRON	WDT	PronType=Rel	10	nsubj	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	poisonous	poisonous	ADJ	JJ	Degree=Pos	7	acl:relcl	_	_
+11	enough	enough	ADV	RB	_	10	advmod	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	make	make	VERB	VB	VerbForm=Inf	10	advcl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	smokers	smoker	NOUN	NNS	Number=Plur	17	nsubj	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	cop	_	_
+17	ill	ill	ADJ	JJ	Degree=Pos	13	ccomp	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = They could get diseases such as lung diseases, cancer and so on.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+4	diseases	disease	NOUN	NNS	Number=Plur	3	obj	_	_
+5	such	such	ADJ	JJ	Degree=Pos	8	case	_	_
+6	as	as	ADP	IN	_	5	fixed	_	_
+7	lung	lung	NOUN	NN	Number=Sing	8	compound	_	_
+8	diseases	disease	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	cancer	cancer	NOUN	NN	Number=Sing	8	conj	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	so	so	ADV	RB	_	13	advmod	_	_
+13	on	on	ADV	RB	_	8	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = What's more, smoking will damage the smokers' beauty because one's teeth will become yellow when smoking regularly.
+1	What	what	PRON	WP	PronType=Int	3	nsubj	_	SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	more	more	ADJ	JJR	Degree=Cmp	7	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	smoking	smoke	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	damage	damage	VERB	VB	VerbForm=Inf	0	root	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	smokers	smoker	NOUN	NNS	Number=Plur	11	nmod:poss	_	SpaceAfter=No
+10	'	'	PART	POS	_	9	case	_	_
+11	beauty	beauty	NOUN	NN	Number=Sing	7	obj	_	_
+12	because	because	SCONJ	IN	_	17	mark	_	_
+13	one	one	PRON	PRP	_	15	nmod:poss	_	SpaceAfter=No
+14	's	's	PART	POS	_	13	case	_	_
+15	teeth	tooth	NOUN	NNS	Number=Plur	17	nsubj	_	_
+16	will	will	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	become	become	VERB	VB	VerbForm=Inf	7	advcl	_	_
+18	yellow	yellow	ADJ	JJ	Degree=Pos	17	xcomp	_	_
+19	when	when	ADV	WRB	PronType=Int	20	mark	_	_
+20	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	17	advcl	_	_
+21	regularly	regularly	ADV	RB	_	20	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 6
+# text = So except the damage to the body, nothing will it bring to the smokers.
+1	So	so	ADV	RB	_	12	advmod	_	_
+2	except	except	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	damage	damage	NOUN	NN	Number=Sing	1	obl	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	body	body	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	nothing	nothing	PRON	NN	Number=Sing	12	obj	_	_
+10	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	bring	br	VERB	VB	VerbForm=Inf	0	root	_	_
+13	to	to	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	smokers	smoker	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 7
+# text = Aside from the damages to the smokers, it also does harm to the non smokers who are called second-hand smokers.
+1	Aside	aside	ADV	RB	_	11	advmod	_	_
+2	from	from	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	damages	damage	NOUN	NNS	Number=Plur	1	obl	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	smokers	smoker	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	also	also	ADV	RB	_	11	advmod	_	_
+11	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	harm	harm	NOUN	NN	Number=Sing	11	obj	_	_
+13	to	to	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	non	non	X	AFX	_	16	compound	_	_
+16	smokers	smoker	NOUN	NNS	Number=Plur	11	obl	_	_
+17	who	who	PRON	WP	PronType=Rel	19	nsubj:pass	_	_
+18	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	acl:relcl	_	_
+20	second	second	ADV	RB	_	22	advmod	_	SpaceAfter=No
+21	-	-	PUNCT	,	_	22	punct	_	SpaceAfter=No
+22	hand	hand	NOUN	NN	Number=Sing	23	compound	_	_
+23	smokers	smoker	NOUN	NNS	Number=Plur	19	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 8
+# text = The second-hand smokers breathe the smoke unconsciously.
+1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+2	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+4	hand	hand	NOUN	NN	Number=Sing	5	compound	_	_
+5	smokers	smoker	NOUN	NNS	Number=Plur	6	nsubj	_	_
+6	breathe	breathe	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	smoke	smoke	NOUN	NN	Number=Sing	6	obj	_	_
+9	unconsciously	unconsciously	ADV	RB	_	6	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 9
+# text = But they breathe into the harmful chemicals after all.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	breathe	breathe	VERB	VB	VerbForm=Inf	0	root	_	_
+4	into	into	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	harmful	harmful	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	chemicals	chemical	NOUN	NNS	Number=Plur	3	obl	_	_
+8	after	after	ADV	RB	_	9	advmod	_	_
+9	all	all	ADV	RB	_	3	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = And these chemicals will bring more damages to the nonsmokers than to the smokers.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	these	these	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+3	chemicals	chemical	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	bring	bring	VERB	VB	VerbForm=Inf	0	root	_	_
+6	more	more	ADJ	JJR	Degree=Cmp	7	amod	_	_
+7	damages	damage	NOUN	NNS	Number=Plur	5	obj	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	nonsmokers	nonsmoker	NOUN	NNS	Number=Plur	5	obl	_	_
+11	than	than	ADP	IN	_	14	case	_	_
+12	to	to	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	smokers	smoker	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 11
+# text = Meanwhile, it has been proven that if the second hand smoker happened to be a woman who has a baby, the baby will get more chance to be dead or abnormal when born.
+1	Meanwhile	meanwhile	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	_
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	proven	prove	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	that	that	SCONJ	IN	_	13	mark	_	_
+8	if	if	SCONJ	IN	_	13	mark	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+10	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	11	amod	_	_
+11	hand	hand	NOUN	NN	Number=Sing	12	compound	_	_
+12	smoker	smoker	NOUN	NN	Number=Sing	13	nsubj	_	_
+13	happened	happen	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	_
+14	to	to	PART	TO	_	17	mark	_	_
+15	be	be	AUX	VB	VerbForm=Inf	17	cop	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	woman	woman	NOUN	NN	Number=Sing	13	xcomp	_	_
+18	who	who	PRON	WP	PronType=Rel	19	nsubj	_	_
+19	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	baby	baby	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	baby	baby	NOUN	NN	Number=Sing	26	nsubj	_	_
+25	will	will	AUX	MD	VerbForm=Fin	26	aux	_	_
+26	get	get	VERB	VB	VerbForm=Inf	21	acl:relcl	_	_
+27	more	more	ADJ	JJR	Degree=Cmp	28	amod	_	_
+28	chance	chance	NOUN	NN	Number=Sing	26	obj	_	_
+29	to	to	PART	TO	_	31	mark	_	_
+30	be	be	AUX	VB	VerbForm=Inf	31	cop	_	_
+31	dead	dead	ADJ	JJ	Degree=Pos	26	xcomp	_	_
+32	or	or	CCONJ	CC	_	33	cc	_	_
+33	abnormal	abnormal	ADJ	JJ	Degree=Pos	31	conj	_	_
+34	when	when	ADV	WRB	PronType=Int	35	mark	_	_
+35	born	bear	VERB	VBN	Tense=Past|VerbForm=Part	26	advcl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 12
+# text = Harmful as it is, smoking should be completely banned at all the restaurants in the country.
+1	Harmful	Harmful	ADJ	JJ	Degree=Pos	0	root	_	_
+2	as	as	SCONJ	IN	_	4	mark	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	smoking	smoking	VERB	VBG	Tense=Pres|VerbForm=Part	10	nsubj:pass	_	_
+7	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+9	completely	completely	ADV	RB	_	10	advmod	_	_
+10	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	conj	_	_
+11	at	at	ADP	IN	_	14	case	_	_
+12	all	all	DET	PDT	_	14	det:predet	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	restaurants	restaurant	NOUN	NNS	Number=Plur	10	obl	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	country	country	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 13
+# text = In that way, we can have a healthy meal and enjoy our meal to the fullest.
+1	In	in	ADP	IN	_	3	case	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	way	way	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	healthy	healthy	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	meal	meal	NOUN	NN	Number=Sing	7	obj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	enjoy	enjoy	VERB	VB	VerbForm=Inf	7	conj	_	_
+13	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	meal	meal	NOUN	NN	Number=Sing	12	obj	_	_
+15	to	to	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	fullest	fullest	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,291 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_IDN_PTJ0_030_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Now, A part time of job is important for college students.
+1	﻿Now	﻿Now	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	9	punct	_	_
+3	A	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	part	part	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	time	time	NOUN	NN	Number=Sing	9	nsubj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	job	job	NOUN	NN	Number=Sing	5	nmod	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+10	for	for	ADP	IN	_	12	case	_	_
+11	college	college	NOUN	NN	Number=Sing	12	compound	_	_
+12	students	student	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Because we need it for benefit in our life.
+1	Because	because	SCONJ	IN	_	3	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	benefit	benefit	NOUN	NN	Number=Sing	3	obl	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	life	life	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = And then, every day we have some activity which don't important.
+1	And	and	CCONJ	CC	_	7	cc	_	_
+2	then	then	ADV	RB	PronType=Dem	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	every	every	DET	DT	_	5	det	_	_
+5	day	day	NOUN	NN	Number=Sing	7	obl:tmod	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	some	some	DET	DT	_	9	det	_	_
+9	activity	activity	NOUN	NN	Number=Sing	7	obj	_	_
+10	which	which	PRON	WDT	PronType=Rel	13	nsubj	_	_
+11	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
+12	n't	not	PART	RB	_	13	advmod	_	_
+13	important	important	ADJ	JJ	Degree=Pos	9	acl:relcl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = Example: playing game, browsing, etc.
+1	Example	example	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	_	_
+3	playing	play	VERB	VBG	VerbForm=Ger	1	acl	_	_
+4	game	game	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	browsing	browsing	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	etc	etc	X	FW	_	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Because of that we need a part time of job, we as college students must doing some usefully activity.
+1	Because	because	ADP	IN	_	3	case	_	_
+2	of	of	ADP	IN	_	1	fixed	_	_
+3	that	that	PRON	WDT	PronType=Rel	5	obl	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+5	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	part	part	NOUN	NN	Number=Sing	8	compound	_	_
+8	time	time	NOUN	NN	Number=Sing	5	obj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	job	job	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	5	punct	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	root	_	_
+13	as	as	SCONJ	IN	_	17	mark	_	_
+14	college	college	NOUN	NN	Number=Sing	15	compound	_	_
+15	students	student	NOUN	NNS	Number=Plur	17	nsubj	_	_
+16	must	must	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	12	advcl	_	_
+18	some	some	DET	DT	_	20	det	_	_
+19	usefully	usefully	ADV	RB	_	20	advmod	_	_
+20	activity	activity	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 6
+# text = Not only working but only get experience in our life.
+1	Not	not	ADV	RB	_	2	advmod	_	_
+2	only	only	ADV	RB	_	3	advmod	_	_
+3	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	but	but	CCONJ	CC	_	6	cc	_	_
+5	only	only	ADV	RB	_	6	advmod	_	_
+6	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	experience	experience	NOUN	NN	Number=Sing	6	obj	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	life	life	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = In Indonesia, many people don't have a job because they don't have experience in their job.
+1	In	in	ADP	IN	_	2	case	_	_
+2	Indonesia	Indonesia	PROPN	NNP	Number=Sing	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	many	many	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	people	people	NOUN	NNS	Number=Plur	8	nsubj	_	_
+6	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
+7	n't	not	PART	RB	_	8	advmod	_	_
+8	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	job	job	NOUN	NN	Number=Sing	8	obj	_	_
+11	because	because	SCONJ	IN	_	15	mark	_	_
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+13	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
+14	n't	not	PART	RB	_	15	advmod	_	_
+15	have	have	VERB	VB	VerbForm=Inf	8	advcl	_	_
+16	experience	experience	NOUN	NN	Number=Sing	15	obj	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	job	job	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 8
+# text = So they don't accept in office.
+1	So	so	ADV	RB	_	5	advmod	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n't	not	PART	RB	_	5	advmod	_	_
+5	accept	accept	VERB	VB	VerbForm=Inf	0	root	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	office	office	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = A part time is a way for us to have a job and benefit in our life.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	part	part	NOUN	NN	Number=Sing	3	compound	_	_
+3	time	time	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	way	way	NOUN	NN	Number=Sing	0	root	_	_
+7	for	for	SCONJ	IN	_	10	mark	_	_
+8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	have	have	VERB	VB	VerbForm=Inf	6	acl	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	job	job	NOUN	NN	Number=Sing	10	obj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	benefit	benefit	NOUN	NN	Number=Sing	12	conj	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	life	life	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 10
+# text = Every day, in home we always doing something that is don't important.
+1	Every	every	DET	DT	_	2	det	_	_
+2	day	day	NOUN	NN	Number=Sing	8	obl:tmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	home	home	NOUN	NN	Number=Sing	8	obl	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+7	always	always	ADV	RB	_	8	advmod	_	_
+8	doing	do	VERB	VBG	VerbForm=Ger	0	root	_	_
+9	something	something	PRON	NN	Number=Sing	8	obj	_	_
+10	that	that	PRON	WDT	PronType=Rel	14	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	do	do	AUX	VB	VerbForm=Inf	14	aux	_	SpaceAfter=No
+13	n't	not	PART	RB	_	14	advmod	_	_
+14	important	important	ADJ	JJ	Degree=Pos	9	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 11
+# text = We are lazy for doing something is important.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	lazy	lazy	ADJ	JJ	Degree=Pos	0	root	_	_
+4	for	for	SCONJ	IN	_	5	mark	_	_
+5	doing	do	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+6	something	something	PRON	NN	Number=Sing	8	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	important	important	ADJ	JJ	Degree=Pos	5	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 12
+# text = A part time of job is solution for us to get experience.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	part	part	NOUN	NN	Number=Sing	3	compound	_	_
+3	time	time	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	job	job	NOUN	NN	Number=Sing	3	nmod	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	solution	solution	NOUN	NN	Number=Sing	0	root	_	_
+8	for	for	SCONJ	IN	_	11	mark	_	_
+9	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	get	get	VERB	VB	VerbForm=Inf	7	advcl	_	_
+12	experience	experience	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 13
+# text = We need some job to get some money, to buy some life of material or others.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	some	some	DET	DT	_	4	det	_	_
+4	job	job	NOUN	NN	Number=Sing	2	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	get	get	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+7	some	some	DET	DT	_	8	det	_	_
+8	money	money	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	buy	buy	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+12	some	some	DET	DT	_	13	det	_	_
+13	life	life	NOUN	NN	Number=Sing	11	obj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	material	material	NOUN	NN	Number=Sing	13	nmod	_	_
+16	or	or	CCONJ	CC	_	17	cc	_	_
+17	others	other	NOUN	NNS	Number=Plur	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 14
+# text = Every day, we need food.
+1	Every	every	DET	DT	_	2	det	_	_
+2	day	day	NOUN	NN	Number=Sing	5	obl:tmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+5	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	food	food	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 15
+# text = And ours parent aren't always given money to us.
+1	And	and	CCONJ	CC	_	7	cc	_	_
+2	ours	ours	PRON	PRP	_	3	nmod:poss	_	_
+3	parent	parent	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
+5	n't	not	PART	RB	_	7	advmod	_	_
+6	always	always	ADV	RB	_	7	advmod	_	_
+7	given	give	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	money	money	NOUN	NN	Number=Sing	7	obj	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 16
+# text = Because of that we need a part time of job.
+1	Because	because	ADP	IN	_	3	case	_	_
+2	of	of	ADP	IN	_	1	fixed	_	_
+3	that	that	PRON	WDT	PronType=Rel	5	obl	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+5	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	part	part	NOUN	NN	Number=Sing	8	compound	_	_
+8	time	time	NOUN	NN	Number=Sing	5	obj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	job	job	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 17
+# text = A part time of job, it is important for college student to get experience in their life.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	part	part	NOUN	NN	Number=Sing	3	compound	_	_
+3	time	time	NOUN	NN	Number=Sing	9	obl:tmod	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	job	job	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+10	for	for	ADP	IN	_	12	case	_	_
+11	college	college	NOUN	NN	Number=Sing	12	compound	_	_
+12	student	student	NOUN	NN	Number=Sing	9	obl	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	get	get	VERB	VB	VerbForm=Inf	9	advcl	_	_
+15	experience	experience	NOUN	NN	Number=Sing	14	obj	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	life	life	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 18
+# text = So we need a part time of job
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	part	part	NOUN	NN	Number=Sing	6	compound	_	_
+6	time	time	NOUN	NN	Number=Sing	3	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	job	job	NOUN	NN	Number=Sing	6	nmod	_	SpacesAfter=\n
+

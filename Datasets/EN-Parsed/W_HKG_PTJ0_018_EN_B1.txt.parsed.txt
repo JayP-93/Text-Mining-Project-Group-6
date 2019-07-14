@@ -1,0 +1,297 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_HKG_PTJ0_018_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Many parents claim that students should focus on their study.
+1	﻿Many	﻿Many	DET	DT	_	2	det	_	_
+2	parents	parent	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	claim	claim	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	students	student	NOUN	NNS	Number=Plur	7	nsubj	_	_
+6	should	should	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	focus	focus	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+8	on	on	ADP	IN	_	10	case	_	_
+9	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	study	study	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = True, studying is of prime importance to a student.
+1	True	true	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	studying	studying	VERB	VBG	VerbForm=Ger	7	csubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	prime	prime	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	importance	importance	NOUN	NN	Number=Sing	1	parataxis	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	student	student	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = However, focusing on studying solely is not enough to a university student.
+1	However	however	ADV	RB	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	9	punct	_	_
+3	focusing	focus	VERB	VBG	VerbForm=Ger	9	csubj	_	_
+4	on	on	SCONJ	IN	_	5	mark	_	_
+5	studying	study	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+6	solely	solely	ADV	RB	_	5	advmod	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	not	not	PART	RB	_	9	advmod	_	_
+9	enough	enough	ADJ	JJ	Degree=Pos	0	root	_	_
+10	to	to	ADP	IN	_	13	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	university	university	NOUN	NN	Number=Sing	13	compound	_	_
+13	student	student	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = It is also important for university students to have a part-time job.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	also	also	ADV	RB	_	4	advmod	_	_
+4	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	university	university	NOUN	NN	Number=Sing	7	compound	_	_
+7	students	student	NOUN	NNS	Number=Plur	4	obl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	have	have	VERB	VB	VerbForm=Inf	7	acl	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+11	part	part	NOUN	NN	Number=Sing	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	13	punct	_	SpaceAfter=No
+13	time	time	NOUN	NN	Number=Sing	14	compound	_	_
+14	job	job	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = University students will jump into the job market very soon.
+1	University	University	PROPN	NNP	Number=Sing	2	compound	_	_
+2	students	student	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	jump	jump	VERB	VB	VerbForm=Inf	0	root	_	_
+5	into	into	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	job	job	NOUN	NN	Number=Sing	8	compound	_	_
+8	market	market	NOUN	NN	Number=Sing	4	obl	_	_
+9	very	very	ADV	RB	_	10	advmod	_	_
+10	soon	soon	ADV	RB	Degree=Pos	4	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Working experience is one of the concerns of employers.
+1	Working	Working	VERB	VBG	VerbForm=Ger	2	amod	_	_
+2	experience	experience	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	one	one	NUM	CD	NumType=Card	0	root	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	concerns	concern	NOUN	NNS	Number=Plur	4	nmod	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	employers	employer	NOUN	NNS	Number=Plur	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Having a part-time job equips undergraduates for their future as they are preferable to employers than the one who has no working experience.
+1	Having	have	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+3	part	part	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	time	time	NOUN	NN	Number=Sing	6	compound	_	_
+6	job	job	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	equips	equip	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	undergraduates	undergraduate	NOUN	NNS	Number=Plur	7	obj	_	_
+9	for	for	ADP	IN	_	11	case	_	_
+10	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	future	future	NOUN	NN	Number=Sing	7	obl	_	_
+12	as	as	SCONJ	IN	_	15	mark	_	_
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	preferable	preferable	ADJ	JJ	Degree=Pos	7	advcl	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	employers	employer	NOUN	NNS	Number=Plur	15	obl	_	_
+18	than	than	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	one	one	NOUN	NN	Number=Sing	7	obl	_	_
+21	who	who	PRON	WP	PronType=Rel	22	nsubj	_	_
+22	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+23	no	no	DET	DT	_	25	det	_	_
+24	working	working	NOUN	NN	Number=Sing	25	compound	_	_
+25	experience	experience	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 8
+# text = It will be one of the advantages surely if students have part-time job in university life.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	_
+4	one	one	NUM	CD	NumType=Card	0	root	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	advantages	advantag	NOUN	NNS	Number=Plur	4	nmod	_	_
+8	surely	surely	ADV	RB	_	11	advmod	_	_
+9	if	if	SCONJ	IN	_	11	mark	_	_
+10	students	student	NOUN	NNS	Number=Plur	11	nsubj	_	_
+11	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+12	part	part	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+14	time	time	NOUN	NN	Number=Sing	15	compound	_	_
+15	job	job	NOUN	NN	Number=Sing	11	obj	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	university	university	NOUN	NN	Number=Sing	18	compound	_	_
+18	life	life	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Students will become more mature if they have working experience.
+1	Students	student	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	become	become	VERB	VB	VerbForm=Inf	0	root	_	_
+4	more	more	ADV	RBR	_	5	advmod	_	_
+5	mature	mature	ADJ	JJ	Degree=Pos	3	xcomp	_	_
+6	if	if	SCONJ	IN	_	8	mark	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+8	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+9	working	work	VERB	VBG	VerbForm=Ger	10	amod	_	_
+10	experience	experience	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Under the protection of parents, many university students do not understand the hardships of working.
+1	Under	under	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	protection	protection	NOUN	NN	Number=Sing	12	obl	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	parents	parent	NOUN	NNS	Number=Plur	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	12	punct	_	_
+7	many	many	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	university	university	NOUN	NN	Number=Sing	9	compound	_	_
+9	students	student	NOUN	NNS	Number=Plur	12	nsubj	_	_
+10	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	not	not	PART	RB	_	12	advmod	_	_
+12	understand	understand	VERB	VB	VerbForm=Inf	0	root	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	hardships	hardship	NOUN	NNS	Number=Plur	12	obj	_	_
+15	of	of	SCONJ	IN	_	16	mark	_	_
+16	working	work	VERB	VBG	VerbForm=Ger	14	acl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 11
+# text = In workplace, they have to solve the problems by themselves.
+1	In	in	ADP	IN	_	2	case	_	_
+2	workplace	workplace	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	solve	solve	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	problems	problem	NOUN	NNS	Number=Plur	7	obj	_	_
+10	by	by	ADP	IN	_	11	case	_	_
+11	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 12
+# text = Through the part-time job, they will become more independent.
+1	Through	through	ADP	IN	_	6	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+3	part	part	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	time	time	NOUN	NN	Number=Sing	6	compound	_	_
+6	job	job	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+9	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	become	become	VERB	VB	VerbForm=Inf	0	root	_	_
+11	more	more	ADV	RBR	_	12	advmod	_	_
+12	independent	independent	ADJ	JJ	Degree=Pos	10	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 13
+# text = Furthermore, they have to cooperate with different groups of people, such as different ages and different positions.
+1	Furthermore	furthermore	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+4	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	cooperate	cooperate	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	different	different	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	groups	group	NOUN	NNS	Number=Plur	6	obl	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	people	people	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	such	such	ADJ	JJ	Degree=Pos	16	case	_	_
+14	as	as	ADP	IN	_	13	fixed	_	_
+15	different	different	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	ages	age	NOUN	NNS	Number=Plur	9	nmod	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	different	different	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	positions	position	NOUN	NNS	Number=Plur	16	conj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 14
+# text = Some of the communication skills learnt from this cannot be learnt from schools.
+1	Some	some	DET	DT	_	6	nsubj	_	_
+2	of	of	ADP	IN	_	5	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	communication	communication	NOUN	NN	Number=Sing	5	compound	_	_
+5	skills	skill	NOUN	NNS	Number=Plur	1	nmod	_	_
+6	learnt	learn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	from	from	ADP	IN	_	8	case	_	_
+8	this	this	PRON	DT	Number=Sing|PronType=Dem	6	obl	_	_
+9	can	can	AUX	MD	VerbForm=Fin	12	aux	_	SpaceAfter=No
+10	not	not	PART	RB	_	12	advmod	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	aux:pass	_	_
+12	learnt	learn	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	ccomp	_	_
+13	from	from	ADP	IN	_	14	case	_	_
+14	schools	school	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 15
+# text = I am not denying that university students should not focus on their study.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	denying	deny	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+6	university	university	NOUN	NN	Number=Sing	7	compound	_	_
+7	students	student	NOUN	NNS	Number=Plur	10	nsubj	_	_
+8	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	focus	focus	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+11	on	on	ADP	IN	_	13	case	_	_
+12	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	study	study	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 16
+# text = However, studying should not be the only concern.
+1	However	however	ADV	RB	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	9	punct	_	_
+3	studying	study	VERB	VBG	VerbForm=Ger	9	csubj	_	_
+4	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+5	not	not	PART	RB	_	9	advmod	_	_
+6	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	only	only	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	concern	concern	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 17
+# text = It is also very important for university students to broaden their horizon before graduation.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	also	also	ADV	RB	_	5	advmod	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	university	university	NOUN	NN	Number=Sing	8	compound	_	_
+8	students	student	NOUN	NNS	Number=Plur	5	obl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	broaden	broae	VERB	VB	VerbForm=Inf	8	acl	_	_
+11	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	horizon	horizon	NOUN	NN	Number=Sing	10	obj	_	_
+13	before	before	ADP	IN	_	14	case	_	_
+14	graduation	graduation	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

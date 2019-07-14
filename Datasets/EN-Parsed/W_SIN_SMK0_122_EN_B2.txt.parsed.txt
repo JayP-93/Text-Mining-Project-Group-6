@@ -1,0 +1,372 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_SIN_SMK0_122_EN_B2.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking is discouraged in many countries.
+1	﻿Smoking	﻿Smoking	NOUN	NN	Number=Sing	3	nsubj:pass	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	discouraged	discourage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	many	many	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	countries	country	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Singapore is one such country.
+1	Singapore	Singapore	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	one	one	NUM	CD	NumType=Card	5	nummod	_	_
+4	such	such	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	country	country	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = In Singapore, smokers are often discriminated.
+1	In	in	ADP	IN	_	2	case	_	_
+2	Singapore	Singapore	PROPN	NNP	Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	smokers	smoker	NOUN	NNS	Number=Plur	7	nsubj:pass	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+6	often	often	ADV	RB	_	7	advmod	_	_
+7	discriminated	discriminate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = In many public places, smoking is simply banned or small areas are drawn up in the periphery for the smokers to congregate at.
+1	In	in	ADP	IN	_	4	case	_	_
+2	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	public	public	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	places	place	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+8	simply	simply	ADV	RB	_	9	advmod	_	_
+9	banned	banned	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+10	or	or	CCONJ	CC	_	14	cc	_	_
+11	small	small	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	areas	area	NOUN	NNS	Number=Plur	14	nsubj:pass	_	_
+13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	drawn	draw	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	conj	_	_
+15	up	up	ADP	RP	_	14	compound:prt	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	periphery	periphery	NOUN	NN	Number=Sing	14	obl	_	_
+19	for	for	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	smokers	smoker	NOUN	NNS	Number=Plur	18	nmod	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	congregate	congregate	VERB	VB	VerbForm=Inf	21	acl	_	_
+24	at	at	ADP	IN	_	23	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 5
+# text = The price of cigarette is artificially increased by heavy government taxes on cigarettes.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	price	price	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	cigarette	cigarette	NOUN	NN	Number=Sing	2	nmod	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+6	artificially	artificially	ADV	RB	_	7	advmod	_	_
+7	increased	increase	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	by	by	ADP	IN	_	11	case	_	_
+9	heavy	heavy	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	government	government	NOUN	NN	Number=Sing	11	compound	_	_
+11	taxes	tax	NOUN	NNS	Number=Plur	7	obl	_	_
+12	on	on	ADP	IN	_	13	case	_	_
+13	cigarettes	cigarette	NOUN	NNS	Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 6
+# text = Socially, advertisements and education often paint smoking in a bad light and smokers are generally viewed unfavorably in the Singaporean society as a result.
+1	Socially	socially	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	advertisements	advertisement	NOUN	NNS	Number=Plur	1	conj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	education	education	NOUN	NN	Number=Sing	1	conj	_	_
+6	often	often	ADV	RB	_	7	advmod	_	_
+7	paint	paint	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	17	nsubj:pass	_	_
+9	in	in	ADP	IN	_	12	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	bad	bad	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	light	light	NOUN	NN	Number=Sing	8	nmod	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	smokers	smoker	NOUN	NNS	Number=Plur	12	conj	_	_
+15	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+16	generally	generally	ADV	RB	_	17	advmod	_	_
+17	viewed	view	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	parataxis	_	_
+18	unfavorably	unfavorably	ADV	RB	_	17	advmod	_	_
+19	in	in	ADP	IN	_	22	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	Singaporean	Singaporean	PROPN	NNP	Number=Sing	22	compound	_	_
+22	society	society	NOUN	NN	Number=Sing	17	obl	_	_
+23	as	as	ADP	IN	_	25	case	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	result	result	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 7
+# text = So why do people still smoke?
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	why	why	ADV	WRB	PronType=Int	3	advmod	_	_
+3	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+4	people	people	NOUN	NNS	Number=Plur	6	nsubj	_	_
+5	still	still	ADV	RB	_	6	advmod	_	_
+6	smoke	smoke	VERB	VB	VerbForm=Inf	3	parataxis	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = I believe that apart from the conventional reason of addiction, there is another more important factor.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	13	nsubj	_	_
+4	apart	apart	ADV	RB	_	13	advmod	_	_
+5	from	from	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	conventional	conventional	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	reason	reason	NOUN	NN	Number=Sing	4	obl	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	addiction	addiction	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	there	there	PRON	EX	_	13	expl	_	_
+13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+14	another	another	DET	DT	_	17	det	_	_
+15	more	more	ADV	RBR	_	16	advmod	_	_
+16	important	important	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	factor	factor	NOUN	NN	Number=Sing	13	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = After all, to put it crudely, if addiction is the one and only reason, after the current batch of smokers die, there should be no more smokers.
+1	After	after	ADV	RB	_	2	advmod	_	_
+2	all	all	ADV	RB	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	put	put	VERB	VB	VerbForm=Inf	31	advcl	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	crudely	crudely	ADV	RB	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	if	if	SCONJ	IN	_	13	mark	_	_
+10	addiction	addiction	NOUN	NN	Number=Sing	13	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	one	one	NOUN	NN	Number=Sing	5	advcl	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	only	only	ADV	RB	_	16	advmod	_	_
+16	reason	reason	NOUN	NN	Number=Sing	13	conj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	after	after	ADP	IN	_	21	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	current	current	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	batch	batch	NOUN	NN	Number=Sing	24	nsubj	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	smokers	smoker	NOUN	NNS	Number=Plur	21	nmod	_	_
+24	die	die	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	parataxis	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	31	punct	_	_
+26	there	there	PRON	EX	_	31	expl	_	_
+27	should	should	AUX	MD	VerbForm=Fin	31	aux	_	_
+28	be	be	AUX	VB	VerbForm=Inf	31	cop	_	_
+29	no	no	ADV	RB	_	31	advmod	_	_
+30	more	more	ADJ	JJR	Degree=Cmp	31	amod	_	_
+31	smokers	smoker	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	31	punct	_	_
+
+# sent_id = 10
+# text = I think that the other important factor is that smoking is generally viewed as a "cool" deviant act.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	8	mark	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+5	other	other	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	important	important	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	factor	factor	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+9	that	that	SCONJ	IN	_	13	mark	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	13	nsubj:pass	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+12	generally	generally	ADV	RB	_	13	advmod	_	_
+13	viewed	view	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	ccomp	_	_
+14	as	as	ADP	IN	_	20	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+16	"	"	PUNCT	``	_	20	punct	_	SpaceAfter=No
+17	cool	cool	ADJ	JJ	Degree=Pos	20	amod	_	SpaceAfter=No
+18	"	"	PUNCT	''	_	20	punct	_	_
+19	deviant	deviant	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	act	act	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 11
+# text = The more the society and government persecutes smokers (short of totally banning smoking), the more smokers will be seen as deviants.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	more	more	ADJ	JJR	Degree=Cmp	4	amod	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	society	society	NOUN	NN	Number=Sing	22	nsubj:pass	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	government	government	NOUN	NN	Number=Sing	4	conj	_	_
+7	persecutes	persecute	NOUN	NNS	Number=Plur	8	compound	_	_
+8	smokers	smoker	NOUN	NNS	Number=Plur	4	conj	_	_
+9	(	(	PUNCT	-LRB-	_	10	punct	_	SpaceAfter=No
+10	short	short	ADJ	JJ	Degree=Pos	8	amod	_	_
+11	of	of	SCONJ	IN	_	13	mark	_	_
+12	totally	totally	ADV	RB	_	13	advmod	_	_
+13	banning	ban	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+14	smoking	smoking	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+15	)	)	PUNCT	-RRB-	_	10	punct	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	22	punct	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	more	more	ADJ	JJR	Degree=Cmp	19	amod	_	_
+19	smokers	smoker	NOUN	NNS	Number=Plur	22	nsubj:pass	_	_
+20	will	will	AUX	MD	VerbForm=Fin	22	aux	_	_
+21	be	be	AUX	VB	VerbForm=Inf	22	aux:pass	_	_
+22	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+23	as	as	ADP	IN	_	24	case	_	_
+24	deviants	deviant	NOUN	NNS	Number=Plur	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 12
+# text = People marginalized by society might therefore turn to smoking simply to find an identity.
+1	People	people	NOUN	NNS	Number=Plur	7	nsubj	_	_
+2	marginalized	marginalize	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	_	_
+3	by	by	ADP	IN	_	4	case	_	_
+4	society	society	NOUN	NN	Number=Sing	2	obl	_	_
+5	might	might	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	therefore	therefore	ADV	RB	_	7	advmod	_	_
+7	turn	turn	VERB	VB	VerbForm=Inf	0	root	_	_
+8	to	to	SCONJ	IN	_	9	mark	_	_
+9	smoking	smoke	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+10	simply	simply	ADV	RB	_	9	advmod	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	find	find	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+13	an	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	identity	identity	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 13
+# text = Otherwise, it could simply be because smoking is "cool".
+1	Otherwise	otherwise	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	could	could	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	simply	simply	ADV	RB	_	6	advmod	_	_
+6	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+7	because	because	SCONJ	IN	_	9	mark	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	9	nsubj	_	_
+9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+10	"	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+11	cool	cool	ADJ	JJ	Degree=Pos	9	ccomp	_	SpaceAfter=No
+12	"	"	PUNCT	''	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 14
+# text = After all, everyone loves an underdog, and in this case, smokers form the class suppressed by the society and government.
+1	After	after	ADV	RB	_	2	advmod	_	_
+2	all	all	ADV	RB	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	everyone	everyone	PRON	NN	Number=Sing	5	nsubj	_	_
+5	loves	love	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	underdog	underdog	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	15	punct	_	_
+9	and	and	CCONJ	CC	_	15	cc	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	case	case	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	smokers	smoker	NOUN	NNS	Number=Plur	15	nsubj	_	_
+15	form	form	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	class	class	NOUN	NN	Number=Sing	15	obj	_	_
+18	suppressed	suppress	VERB	VBN	Tense=Past|VerbForm=Part	17	acl	_	_
+19	by	by	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	society	society	NOUN	NN	Number=Sing	18	obl	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	government	government	NOUN	NN	Number=Sing	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 15
+# text = Think of original hippie fashion in this sense, it was a counter-culture developed by the marginalised portion of society that eventually developed into something mainstream.
+1	Think	think	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	of	of	ADP	IN	_	5	case	_	_
+3	original	original	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	hippie	hippie	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	fashion	fashion	NOUN	NN	Number=Sing	1	obl	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	sense	sense	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	1	punct	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	counter-culture	counter-culture	NOUN	NN	Number=Sing	1	parataxis	_	_
+14	developed	develop	VERB	VBN	Tense=Past|VerbForm=Part	13	acl	_	_
+15	by	by	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	marginalised	marginalised	VERB	VBN	Tense=Past|VerbForm=Part	18	amod	_	_
+18	portion	portion	NOUN	NN	Number=Sing	14	obl	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	society	society	NOUN	NN	Number=Sing	18	nmod	_	_
+21	that	that	PRON	WDT	PronType=Rel	23	nsubj	_	_
+22	eventually	eventually	ADV	RB	_	23	advmod	_	_
+23	developed	develop	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	acl:relcl	_	_
+24	into	into	ADP	IN	_	25	case	_	_
+25	something	something	PRON	NN	Number=Sing	23	obl	_	_
+26	mainstream	mainstream	ADJ	JJ	Degree=Pos	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 16
+# text = Since we must have some form of discrimination to discourage smoking, I feel that ironically, this is exactly why it is inevitable that we will always have smokers.
+1	Since	since	SCONJ	IN	_	4	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	have	have	VERB	VB	VerbForm=Inf	14	advcl	_	_
+5	some	some	DET	DT	_	6	det	_	_
+6	form	form	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	discrimination	discrimination	NOUN	NN	Number=Sing	6	nmod	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	discourage	discourage	VERB	VB	VerbForm=Inf	4	acl	_	_
+11	smoking	smoke	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	that	that	PRON	DT	Number=Sing|PronType=Dem	14	obj	_	_
+16	ironically	ironically	ADV	RB	_	14	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	21	punct	_	_
+18	this	this	PRON	DT	Number=Sing|PronType=Dem	21	nsubj	_	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	exactly	exactly	ADV	RB	_	21	advmod	_	_
+21	why	why	ADV	WRB	PronType=Int	14	advmod	_	_
+22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	expl	_	_
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	inevitable	inevitable	ADJ	JJ	Degree=Pos	21	acl:relcl	_	_
+25	that	that	SCONJ	IN	_	29	mark	_	_
+26	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	29	nsubj	_	_
+27	will	will	AUX	MD	VerbForm=Fin	29	aux	_	_
+28	always	always	ADV	RB	_	29	advmod	_	_
+29	have	have	VERB	VB	VerbForm=Inf	24	csubj	_	_
+30	smokers	smoker	NOUN	NNS	Number=Plur	29	obj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 17
+# text = People should therefore not place too much emphasis in eliminating the smoking problem and focus more on managing it.
+1	People	people	NOUN	NNS	Number=Plur	5	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	therefore	therefore	ADV	RB	_	5	advmod	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	place	place	VERB	VB	VerbForm=Inf	0	root	_	_
+6	too	too	ADV	RB	_	7	advmod	_	_
+7	much	much	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	emphasis	emphasis	NOUN	NN	Number=Sing	5	obj	_	_
+9	in	in	SCONJ	IN	_	10	mark	_	_
+10	eliminating	eliminate	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	smoking	smoking	NOUN	NN	Number=Sing	13	compound	_	_
+13	problem	problem	NOUN	NN	Number=Sing	10	obj	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	focus	focus	ADV	RB	_	16	advmod	_	_
+16	more	more	ADJ	JJR	Degree=Cmp	10	conj	_	_
+17	on	on	SCONJ	IN	_	18	mark	_	_
+18	managing	manage	VERB	VBG	VerbForm=Ger	16	advcl	_	_
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

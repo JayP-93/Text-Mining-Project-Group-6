@@ -1,0 +1,307 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_TWN_SMK0_085_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Some people may think that smoking is a behavior, symbolized as a mature person.
+1	﻿Some	﻿some	DET	DT	_	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	may	may	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+5	that	that	SCONJ	IN	_	9	mark	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	9	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	behavior	behavior	NOUN	NN	Number=Sing	4	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	symbolized	symbolize	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	_
+12	as	as	ADP	IN	_	15	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	mature	mature	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	person	person	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Some people may think that when they are smoking, they can release their stress and heavy burden for a while.
+1	Some	some	DET	DT	_	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	may	may	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+5	that	that	SCONJ	IN	_	13	mark	_	_
+6	when	when	ADV	WRB	PronType=Int	9	mark	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	13	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+12	can	can	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	release	release	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+14	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	stress	stress	NOUN	NN	Number=Sing	13	obj	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	heavy	heavy	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	burden	burden	NOUN	NN	Number=Sing	15	conj	_	_
+19	for	for	ADP	IN	_	21	case	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	while	while	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = However, smoking is harmful to not only smokers' health but also others'.
+1	However	however	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	harmful	harmful	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	ADP	IN	_	11	case	_	_
+7	not	not	ADV	RB	_	9	advmod	_	_
+8	only	only	ADV	RB	_	9	advmod	_	_
+9	smokers	smoker	NOUN	NNS	Number=Plur	11	nmod:poss	_	SpaceAfter=No
+10	'	'	PART	POS	_	9	case	_	_
+11	health	health	NOUN	NN	Number=Sing	5	obl	_	_
+12	but	but	CCONJ	CC	_	14	cc	_	_
+13	also	also	ADV	RB	_	14	advmod	_	_
+14	others	other	NOUN	NNS	Number=Plur	5	conj	_	SpaceAfter=No
+15	'	'	PUNCT	''	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Therefore, it is actually not mature if you smoke in order to look mature.
+1	Therefore	therefore	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	actually	actually	ADV	RB	_	7	advmod	_	_
+6	not	not	PART	RB	_	7	advmod	_	_
+7	mature	mature	ADJ	JJ	Degree=Pos	0	root	_	_
+8	if	if	SCONJ	IN	_	10	mark	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+11	in	in	ADP	IN	_	14	mark	_	_
+12	order	order	NOUN	NN	Number=Sing	11	fixed	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	look	look	VERB	VB	VerbForm=Inf	10	advcl	_	_
+15	mature	mature	ADJ	JJ	Degree=Pos	14	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = You do not care about your health.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	care	care	VERB	VB	VerbForm=Inf	0	root	_	_
+5	about	about	ADP	IN	_	7	case	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	health	health	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Besides, you do not care about the people around you.
+1	Besides	besides	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	care	care	VERB	VB	VerbForm=Inf	0	root	_	_
+7	about	about	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	people	people	NOUN	NNS	Number=Plur	6	obl	_	_
+10	around	around	ADP	IN	_	11	case	_	_
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 7
+# text = The real mature people will take care of themselves and others, because health is the pyramidal cornerstone of life.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	real	real	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	mature	mature	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	people	people	NOUN	NNS	Number=Plur	6	nsubj	_	_
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+7	care	care	NOUN	NN	Number=Sing	6	obj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	themselves	themselves	NOUN	NNS	Number=Plur	7	nmod	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	others	other	NOUN	NNS	Number=Plur	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	6	punct	_	_
+13	because	because	SCONJ	IN	_	18	mark	_	_
+14	health	health	NOUN	NN	Number=Sing	18	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	pyramidal	pyramidal	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	cornerstone	cornerstone	NOUN	NN	Number=Sing	6	advcl	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	life	life	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 8
+# text = In addition, if you want to release yourself from tension and stress temporarily, you can chat with friends, see a movie, listen to music, have a journey and so on.
+1	In	in	ADP	IN	_	2	case	_	_
+2	addition	addition	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	18	punct	_	_
+4	if	if	SCONJ	IN	_	6	mark	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	release	release	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	8	obj	_	_
+10	from	from	ADP	IN	_	11	case	_	_
+11	tension	tension	NOUN	NN	Number=Sing	8	obl	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	stress	stress	NOUN	NN	Number=Sing	11	conj	_	_
+14	temporarily	temporarily	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	_
+17	can	can	AUX	MD	VerbForm=Fin	18	aux	_	_
+18	chat	chat	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+19	with	with	ADP	IN	_	20	case	_	_
+20	friends	friend	NOUN	NNS	Number=Plur	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	_	_
+22	see	see	VERB	VB	Mood=Imp|VerbForm=Fin	18	conj	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	movie	movie	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	18	punct	_	_
+26	listen	listen	VERB	VB	Mood=Imp|VerbForm=Fin	18	parataxis	_	_
+27	to	to	ADP	IN	_	28	case	_	_
+28	music	music	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	30	punct	_	_
+30	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	conj	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
+32	journey	journey	NOUN	NN	Number=Sing	30	obj	_	_
+33	and	and	CCONJ	CC	_	35	cc	_	_
+34	so	so	ADV	RB	_	35	advmod	_	_
+35	on	on	ADV	RB	_	32	conj	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 9
+# text = There are lots of things can replace smoking.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	lots	lot	NOUN	NNS	Number=Plur	2	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	things	thing	NOUN	NNS	Number=Plur	3	nmod	_	_
+6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	replace	replace	VERB	VB	VerbForm=Inf	2	conj	_	_
+8	smoking	smoke	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = Since smoking can do nothing but do harm to everyone's health.
+1	Since	since	SCONJ	IN	_	4	mark	_	_
+2	smoking	smoke	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+5	nothing	nothing	PRON	NN	Number=Sing	4	obj	_	_
+6	but	but	CCONJ	CC	_	7	cc	_	_
+7	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+8	harm	harm	NOUN	NN	Number=Sing	7	obj	_	_
+9	to	to	ADP	IN	_	12	case	_	_
+10	everyone	everyone	PRON	NN	Number=Sing	12	nmod:poss	_	SpaceAfter=No
+11	's	's	PART	POS	_	10	case	_	_
+12	health	health	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = Let's just quit it.
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	's	's	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	_
+3	just	just	ADV	RB	_	4	advmod	_	_
+4	quit	quit	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 12
+# text = It is hard to quit it, nevertheless, if you have been addicted to it for a long time.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	hard	hard	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	quit	quit	VERB	VB	VerbForm=Inf	3	csubj	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	nevertheless	nevertheless	ADV	RB	_	3	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	if	if	SCONJ	IN	_	14	mark	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj:pass	_	_
+12	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	been	be	AUX	VBN	Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	addicted	addicte	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obl	_	_
+17	for	for	ADP	IN	_	20	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	long	long	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	time	time	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 13
+# text = It is like the drug which makes you very uncomfortable when you do not take it.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	like	like	SCONJ	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	drug	drug	NOUN	NN	Number=Sing	2	nsubj	_	_
+6	which	which	PRON	WDT	PronType=Rel	7	nsubj	_	_
+7	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	obj	_	_
+9	very	very	ADV	RB	_	10	advmod	_	_
+10	uncomfortable	uncomfortable	ADJ	JJ	Degree=Pos	7	xcomp	_	_
+11	when	when	ADV	WRB	PronType=Int	15	mark	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+13	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	not	not	PART	RB	_	15	advmod	_	_
+15	take	take	VERB	VB	VerbForm=Inf	7	advcl	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 14
+# text = Worse yet, you may go crazy.
+1	Worse	worse	ADV	RBR	Degree=Cmp	2	advmod	_	_
+2	yet	yet	ADV	RB	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+5	may	may	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+7	crazy	crazy	ADJ	JJ	Degree=Pos	6	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 15
+# text = At this moment, all you need to do is to keep your perseverance.
+1	At	at	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	moment	moment	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	10	punct	_	_
+5	all	all	DET	DT	_	10	nsubj	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	do	do	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	keep	keep	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+13	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	perseverance	perseverance	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 16
+# text = As long as you stick to it and pass the most difficult time, you will win the better life.
+1	As	as	ADV	RB	_	2	advmod	_	_
+2	long	long	ADV	RB	Degree=Pos	17	advmod	_	_
+3	as	as	SCONJ	IN	_	5	mark	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	stick	stick	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	pass	pass	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+11	most	most	ADV	RBS	_	12	advmod	_	_
+12	difficult	difficult	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	time	time	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+16	will	will	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	win	win	VERB	VB	VerbForm=Inf	0	root	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	better	better	ADJ	JJR	Degree=Cmp	20	amod	_	_
+20	life	life	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\n
+

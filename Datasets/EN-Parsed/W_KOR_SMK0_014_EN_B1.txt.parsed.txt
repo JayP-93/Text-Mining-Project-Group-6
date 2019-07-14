@@ -1,0 +1,298 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_014_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿In front of each building, so many people smoke cigarette.
+1	﻿In	﻿In	ADP	IN	_	2	case	_	_
+2	front	front	NOUN	NN	Number=Sing	11	obl	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	each	each	DET	DT	_	5	det	_	_
+5	building	building	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	so	so	ADV	RB	_	8	advmod	_	_
+8	many	many	ADJ	JJ	Degree=Pos	11	amod	_	_
+9	people	people	NOUN	NNS	Number=Plur	11	compound	_	_
+10	smoke	smoke	NOUN	NN	Number=Sing	11	compound	_	_
+11	cigarette	cigarette	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = Some people said when they smoke cigarette; they feel free and can rest easily between work times.
+1	Some	some	DET	DT	_	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	when	when	ADV	WRB	PronType=Int	6	mark	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	smoke	smoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+7	cigarette	cigarette	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	3	punct	_	_
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+10	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+11	free	free	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	can	can	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	rest	rest	VERB	VB	VerbForm=Inf	10	conj	_	_
+15	easily	easily	ADV	RB	_	14	advmod	_	_
+16	between	between	ADP	IN	_	18	case	_	_
+17	work	work	NOUN	NN	Number=Sing	18	compound	_	_
+18	times	time	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = However, I think it's not a suitable way to prove their behaviors.
+1	However	however	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	not	not	PART	RB	_	10	advmod	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	suitable	suitable	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	way	way	NOUN	NN	Number=Sing	4	ccomp	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	prove	prove	VERB	VB	VerbForm=Inf	10	acl	_	_
+13	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	behaviors	behavior	NOUN	NNS	Number=Plur	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = No matter how they feel, it's really harmful way everybody including none smoking cigarette.
+1	No	no	ADV	RB	_	2	advmod	_	_
+2	matter	matter	ADV	RB	_	11	advmod	_	_
+3	how	how	ADV	WRB	PronType=Int	5	advmod	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	SpaceAfter=No
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	really	really	ADV	RB	_	11	advmod	_	_
+10	harmful	harmful	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	way	way	NOUN	NN	Number=Sing	12	obl:npmod	_	_
+12	everybody	everybody	PRON	NN	Number=Sing	0	root	_	_
+13	including	include	VERB	VBG	VerbForm=Ger	16	case	_	_
+14	none	none	NOUN	NN	Number=Sing	16	compound	_	_
+15	smoking	smoking	NOUN	NN	Number=Sing	16	compound	_	_
+16	cigarette	cigarette	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 5
+# text = So I want to insist that we should prohibit smoking cigarette with several reason.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	insist	insist	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	that	that	SCONJ	IN	_	9	mark	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+8	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	prohibit	prohibit	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+10	smoking	smoke	NOUN	NN	Number=Sing	11	compound	_	_
+11	cigarette	cigarette	NOUN	NN	Number=Sing	9	obj	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	several	several	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	reason	reason	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = First, if someone smoke cigarette next to others, they couldn't avoid potential dangers.
+1	First	first	ADV	RB	_	14	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	14	punct	_	_
+3	if	if	SCONJ	IN	_	6	mark	_	_
+4	someone	someone	PRON	NN	Number=Sing	6	nsubj	_	_
+5	smoke	smoke	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	cigarette	cigarette	NOUN	NN	Number=Sing	14	advcl	_	_
+7	next	next	ADJ	JJ	Degree=Pos	6	amod	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	others	other	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+12	could	could	AUX	MD	VerbForm=Fin	14	aux	_	SpaceAfter=No
+13	n't	not	PART	RB	_	14	advmod	_	_
+14	avoid	avoid	VERB	VB	VerbForm=Inf	0	root	_	_
+15	potential	potential	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	dangers	dangers	NOUN	NNS	Number=Plur	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 7
+# text = We always advice smoking people that their children, family could leave with potential harmful situation.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	always	always	ADV	RB	_	3	advmod	_	_
+3	advice	advice	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	smoking	smoke	VERB	VBG	VerbForm=Ger	5	amod	_	_
+5	people	people	NOUN	NNS	Number=Plur	3	obj	_	_
+6	that	that	SCONJ	IN	_	12	mark	_	_
+7	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	children	child	NOUN	NNS	Number=Plur	12	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	family	family	NOUN	NN	Number=Sing	12	nsubj	_	_
+11	could	could	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	leave	leave	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+13	with	with	ADP	IN	_	16	case	_	_
+14	potential	potential	ADJ	JJ	Degree=Pos	16	amod	_	_
+15	harmful	harmful	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	situation	situation	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = their family could have lung cancer, and could get some disease in respiration organs.
+1	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	family	family	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	could	could	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	have	have	AUX	VB	VerbForm=Inf	5	aux	_	_
+5	lung	lung	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	cancer	cancer	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	could	could	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	get	get	VERB	VB	VerbForm=Inf	5	conj	_	_
+11	some	some	DET	DT	_	12	det	_	_
+12	disease	disease	NOUN	NN	Number=Sing	10	obj	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	respiration	respiration	NOUN	NN	Number=Sing	15	compound	_	_
+15	organs	organ	NOUN	NNS	Number=Plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = For own family, smoking people always think of smoking cigarette.
+1	For	for	ADP	IN	_	3	case	_	_
+2	own	own	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	family	family	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	smoking	smoke	VERB	VBG	VerbForm=Ger	0	root	_	_
+6	people	people	NOUN	NNS	Number=Plur	5	appos	_	_
+7	always	always	ADV	RB	_	6	advmod	_	_
+8	think	think	ADP	IN	_	11	case	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	11	compound	_	_
+11	cigarette	cigarette	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 10
+# text = Second, when someone smoke cigarette, they couldn't easily stop smoking because of addicting symptom.
+1	Second	second	ADV	RB	_	12	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	12	punct	_	_
+3	when	when	ADV	WRB	PronType=Int	6	mark	_	_
+4	someone	someone	PRON	NN	Number=Sing	6	nmod:poss	_	_
+5	smoke	smoke	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	cigarette	cigarette	NOUN	NN	Number=Sing	12	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
+9	could	could	AUX	MD	VerbForm=Fin	12	aux	_	SpaceAfter=No
+10	n't	not	PART	RB	_	12	advmod	_	_
+11	easily	easily	ADV	RB	_	12	advmod	_	_
+12	stop	stop	VERB	VB	VerbForm=Inf	0	root	_	_
+13	smoking	smoke	VERB	VBG	VerbForm=Ger	12	xcomp	_	_
+14	because	because	ADP	IN	_	16	mark	_	_
+15	of	of	SCONJ	IN	_	16	mark	_	_
+16	addicting	addicting	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+17	symptom	symptom	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 11
+# text = According to several researches, when smoking people stop smoking, they could shake their hand or get weight suddenly.
+1	According	accord	VERB	VBG	VerbForm=Ger	4	case	_	_
+2	to	to	ADP	IN	_	4	case	_	_
+3	several	several	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	researches	research	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	when	when	ADV	WRB	PronType=Int	7	mark	_	_
+7	smoking	smoke	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+8	people	people	NOUN	NNS	Number=Plur	9	nsubj	_	_
+9	stop	stop	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	smoking	smoke	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	9	punct	_	_
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+13	could	could	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	shake	shake	VERB	VB	VerbForm=Inf	9	parataxis	_	_
+15	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	hand	hand	NOUN	NN	Number=Sing	14	obj	_	_
+17	or	or	CCONJ	CC	_	18	cc	_	_
+18	get	get	VERB	VB	VerbForm=Inf	14	conj	_	_
+19	weight	weight	ADV	RB	_	18	advmod	_	_
+20	suddenly	suddenly	ADV	RB	_	18	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 12
+# text = Also, they think that they could do anything without smoking; however, their thought is perfectly wrong.
+1	Also	also	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+4	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+7	could	could	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	do	do	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+9	anything	anything	PRON	NN	Number=Sing	8	obj	_	_
+10	without	without	ADP	IN	_	11	case	_	_
+11	smoking	smoke	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	4	punct	_	_
+13	however	however	ADV	RB	_	19	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	19	punct	_	_
+15	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	thought	thought	NOUN	NN	Number=Sing	19	nsubj	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	perfectly	perfectly	ADV	RB	_	19	advmod	_	_
+19	wrong	wrong	ADJ	JJ	Degree=Pos	4	ccomp	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = If they continuously smoke cigarette, they would get mental and physical disease compared to none smoker.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	continuously	continuously	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+4	smoke	smoke	NOUN	NN	Number=Sing	5	compound	_	_
+5	cigarette	cigarette	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+8	would	would	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+10	mental	mental	ADJ	JJ	Degree=Pos	13	amod	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	physical	physical	ADJ	JJ	Degree=Pos	10	conj	_	_
+13	disease	disease	NOUN	NN	Number=Sing	9	obj	_	_
+14	compared	compare	VERB	VBN	Tense=Past|VerbForm=Part	17	case	_	_
+15	to	to	ADP	IN	_	17	case	_	_
+16	none	none	NOUN	NN	Number=Sing	17	compound	_	_
+17	smoker	smoker	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 14
+# text = I totally agree that government make cigarette price higher in cigarette market.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	totally	totally	ADV	RB	_	3	advmod	_	_
+3	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	government	government	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	cigarette	cigarette	NOUN	NN	Number=Sing	8	compound	_	_
+8	price	price	NOUN	NN	Number=Sing	6	obj	_	_
+9	higher	higher	ADV	RBR	Degree=Cmp	12	advmod	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	cigarette	cigarette	NOUN	NN	Number=Sing	12	compound	_	_
+12	market	market	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 15
+# text = If it spontaneously make smoking people decrease, cigarette market have to get more tax and Fix price products higher.
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	spontaneously	spontaneously	ADV	RB	_	4	advmod	_	_
+4	make	make	VERB	VB	VerbForm=Inf	21	advcl	_	_
+5	smoking	smoke	VERB	VBG	VerbForm=Ger	4	xcomp	_	_
+6	people	people	NOUN	NNS	Number=Plur	11	nsubj	_	_
+7	decrease	decrease	NOUN	NN	Number=Sing	11	obl:npmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	cigarette	cigarette	NOUN	NN	Number=Sing	10	compound	_	_
+10	market	market	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	get	get	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+14	more	more	ADJ	JJR	Degree=Cmp	15	amod	_	_
+15	tax	tax	NOUN	NN	Number=Sing	13	obj	_	_
+16	and	and	CCONJ	CC	_	19	cc	_	_
+17	Fix	fix	NUM	CD	NumType=Card	18	nummod	_	_
+18	price	price	NOUN	NN	Number=Sing	19	compound	_	_
+19	products	product	NOUN	NNS	Number=Plur	15	conj	_	_
+20	higher	higher	ADV	RBR	Degree=Cmp	19	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	0	root	_	SpacesAfter=\n
+

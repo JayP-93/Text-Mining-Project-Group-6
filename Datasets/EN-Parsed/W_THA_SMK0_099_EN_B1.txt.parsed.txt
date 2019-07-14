@@ -1,0 +1,300 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_THA_SMK0_099_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I hate smoking from cigarette.
+1	﻿I	﻿i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hate	hate	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	smoking	smoke	VERB	VBG	VerbForm=Ger	2	xcomp	_	_
+4	from	from	ADP	IN	_	5	case	_	_
+5	cigarette	cigarette	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I feel unhappy and uncomfortable from smoking.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	unhappy	unhappy	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	uncomfortable	uncomfortable	ADJ	JJ	Degree=Pos	3	conj	_	_
+6	from	from	ADP	IN	_	7	case	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I don't like smoking but my father does it.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	4	obj	_	_
+6	but	but	CCONJ	CC	_	9	cc	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	father	father	NOUN	NN	Number=Sing	9	nsubj	_	_
+9	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = I really don't know how to tell him to stop smoking.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	really	really	ADV	RB	_	5	advmod	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n't	not	PART	RB	_	5	advmod	_	_
+5	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+6	how	how	ADV	WRB	PronType=Int	8	advmod	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	tell	tell	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	stop	stop	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+12	smoking	smoke	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Smoking makes air pollution and a bad air.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	2	csubj	_	_
+2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	air	air	NOUN	NN	Number=Sing	4	compound	_	_
+4	pollution	pollution	NOUN	NN	Number=Sing	2	obj	_	_
+5	and	and	CCONJ	CC	_	8	cc	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	bad	bad	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	air	air	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = The air isn't not fresh and many time I can't breath.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	air	air	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
+4	n't	not	PART	RB	_	6	advmod	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	fresh	fresh	ADJ	JJ	Degree=Pos	0	root	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	many	many	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	time	time	NOUN	NN	Number=Sing	6	conj	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+11	ca	can	AUX	MD	VerbForm=Fin	13	aux	_	SpaceAfter=No
+12	n't	not	PART	RB	_	13	advmod	_	_
+13	breath	breath	NOUN	NN	Number=Sing	9	acl:relcl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 7
+# text = Who does smoking looks not good and not handsome.
+1	Who	who	PRON	WP	PronType=Int	3	nsubj	_	_
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+5	not	not	ADV	RB	_	6	advmod	_	_
+6	good	good	ADJ	JJ	Degree=Pos	4	xcomp	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	not	not	ADV	RB	_	9	advmod	_	_
+9	handsome	handsome	ADJ	JJ	Degree=Pos	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = It's not attractive any more.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	attractive	attractive	ADJ	JJ	Degree=Pos	0	root	_	_
+5	any	any	ADV	RB	_	6	advmod	_	_
+6	more	more	ADV	RBR	_	4	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Someone think smoking make them smart, good looking and handsome.
+1	Someone	someone	PRON	NN	Number=Sing	2	nsubj	_	_
+2	think	think	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	2	obj	_	_
+4	make	make	VERB	VB	Mood=Imp|VerbForm=Fin	3	acl:relcl	_	_
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+6	smart	smart	ADJ	JJ	Degree=Pos	9	amod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	good	good	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	looking	looking	NOUN	NN	Number=Sing	4	xcomp	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	handsome	handsome	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = It totally wrong think because smoking is very bad and destroy your health.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	totally	totally	ADV	RB	_	4	advmod	_	_
+3	wrong	wrong	ADV	RB	_	4	advmod	_	_
+4	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+5	because	because	SCONJ	IN	_	9	mark	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	9	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	very	very	ADV	RB	_	9	advmod	_	_
+9	bad	bad	ADJ	JJ	Degree=Pos	4	advcl	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	destroy	destroy	VERB	VB	Mood=Imp|VerbForm=Fin	9	conj	_	_
+12	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	health	health	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = Smoking makes cyst in lung and mouth.
+1	Smoking	smoke	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	cyst	cyst	ADV	RBS	Degree=Sup	5	advmod	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	lung	lung	NOUN	NN	Number=Sing	2	obl	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	mouth	mouth	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = You also got very bad smell.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	also	also	ADV	RB	_	3	advmod	_	_
+3	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	bad	bad	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	smell	smell	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 13
+# text = Smoking dangerous for who use it and people around area.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	dangerous	dangerous	ADJ	JJ	Degree=Pos	1	xcomp	_	_
+3	for	for	SCONJ	IN	_	5	mark	_	_
+4	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+5	use	use	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	people	people	NOUN	NNS	Number=Plur	5	conj	_	_
+9	around	around	ADP	IN	_	10	case	_	_
+10	area	area	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 14
+# text = Smoking dangerous in people around area more who use it.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	dangerous	dangerous	ADJ	JJ	Degree=Pos	1	xcomp	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	people	people	NOUN	NNS	Number=Plur	1	obl	_	_
+5	around	around	ADP	IN	_	6	case	_	_
+6	area	area	NOUN	NN	Number=Sing	4	nmod	_	_
+7	more	more	ADV	RBR	_	4	advmod	_	_
+8	who	who	PRON	WP	PronType=Rel	9	nsubj	_	_
+9	use	use	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 15
+# text = I think our country should serious law about smoking.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	country	country	NOUN	NN	Number=Sing	7	nsubj	_	_
+5	should	should	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	serious	serious	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	law	law	NOUN	NN	Number=Sing	2	ccomp	_	_
+8	about	about	ADP	IN	_	9	case	_	_
+9	smoking	smoke	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 16
+# text = Smoking damage beautiful natural.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	damage	damage	NOUN	NN	Number=Sing	1	obj	_	_
+3	beautiful	beautiful	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	natural	natural	ADJ	JJ	Degree=Pos	2	amod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 17
+# text = Smoking make your money more lost and damage your health is bad.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	make	make	VERB	VB	Mood=Imp|VerbForm=Fin	1	ccomp	_	_
+3	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	money	money	NOUN	NN	Number=Sing	2	obj	_	_
+5	more	more	ADV	RBR	_	6	advmod	_	_
+6	lost	lose	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	damage	damage	VERB	VB	Mood=Imp|VerbForm=Fin	2	conj	_	_
+9	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	health	health	NOUN	NN	Number=Sing	12	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	bad	bad	ADJ	JJ	Degree=Pos	8	ccomp	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 18
+# text = Who don't smoking will strong good health and feel fresh more who smoking very much.
+1	Who	who	PRON	WP	PronType=Int	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	will	will	AUX	MD	VerbForm=Fin	8	aux	_	_
+6	strong	strong	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	good	good	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	health	health	NOUN	NN	Number=Sing	4	obj	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	feel	feel	VERB	VB	VerbForm=Inf	4	conj	_	_
+11	fresh	fresh	ADV	RB	_	10	advmod	_	_
+12	more	more	ADJ	JJR	Degree=Cmp	10	obj	_	_
+13	who	who	SCONJ	IN	_	14	mark	_	_
+14	smoking	smoke	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+15	very	very	ADV	RB	_	16	advmod	_	_
+16	much	much	ADV	RB	_	14	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 19
+# text = I think who smoking should none smoking for good healthy and strong.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	who	who	PRON	WP	PronType=Int	2	ccomp	_	_
+4	smoking	smoke	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+6	none	none	NOUN	NN	Number=Sing	7	compound	_	_
+7	smoking	smoke	NOUN	NN	Number=Sing	5	obj	_	_
+8	for	for	ADP	IN	_	10	case	_	_
+9	good	good	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	healthy	healthy	ADJ	JJ	Degree=Pos	7	nmod	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	strong	strong	ADJ	JJ	Degree=Pos	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 20
+# text = You should none smoking for your lover people and your family.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	none	none	VERB	VB	VerbForm=Inf	0	root	_	_
+4	smoking	smoke	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+5	for	for	ADP	IN	_	8	case	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	lover	lover	NOUN	NN	Number=Sing	8	compound	_	_
+8	people	people	NOUN	NNS	Number=Plur	4	obl	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	family	family	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 21
+# text = It not difficult if you attention none smoking.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	not	not	PART	RB	_	3	advmod	_	_
+3	difficult	difficult	ADJ	JJ	Degree=Pos	0	root	_	_
+4	if	if	SCONJ	IN	_	6	mark	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	attention	attention	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7	none	none	NOUN	NN	Number=Sing	8	compound	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 22
+# text = In the world the man smoking more woman and more dread.
+1	In	in	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	world	world	NOUN	NN	Number=Sing	5	obl	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	man	man	NOUN	NN	Number=Sing	0	root	_	_
+6	smoking	smoke	VERB	VBG	VerbForm=Ger	5	acl	_	_
+7	more	more	ADJ	JJR	Degree=Cmp	8	amod	_	_
+8	woman	woman	NOUN	NN	Number=Sing	6	obj	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	more	more	ADJ	JJR	Degree=Cmp	11	amod	_	_
+11	dread	dread	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

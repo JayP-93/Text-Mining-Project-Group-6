@@ -1,0 +1,274 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_JPN_SMK0_187_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I think smoking should be completely banned at all the restaurants in the country, too.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+4	should	should	AUX	MD	VerbForm=Fin	7	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+6	completely	completely	ADV	RB	_	7	advmod	_	_
+7	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+8	at	at	ADP	IN	_	11	case	_	_
+9	all	all	DET	PDT	_	11	det:predet	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	restaurants	restaurant	NOUN	NNS	Number=Plur	7	obl	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	country	country	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	2	punct	_	_
+16	too	too	ADV	RB	_	2	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = At a restaurant if when people who dislike mystify or smell of tobacco come, people around them begin to smoke, they probably feel unpleasant.
+1	At	at	ADP	IN	_	3	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	restaurant	restaurant	NOUN	NN	Number=Sing	25	obl	_	_
+4	if	if	SCONJ	IN	_	19	mark	_	_
+5	when	when	ADV	WRB	PronType=Int	14	mark	_	_
+6	people	people	NOUN	NNS	Number=Plur	14	nsubj	_	_
+7	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+8	dislike	dislike	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	mystify	mystify	NOUN	NN	Number=Sing	8	obj	_	_
+10	or	or	CCONJ	CC	_	11	cc	_	_
+11	smell	smell	NOUN	NN	Number=Sing	9	conj	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	tobacco	tobacco	NOUN	NN	Number=Sing	11	nmod	_	_
+14	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	people	people	NOUN	NNS	Number=Plur	19	nsubj	_	_
+17	around	around	ADV	RB	_	18	advmod	_	_
+18	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	nmod	_	_
+19	begin	begin	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	advcl	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	smoke	smoke	VERB	VB	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	25	punct	_	_
+23	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	_
+24	probably	probably	ADV	RB	_	25	advmod	_	_
+25	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+26	unpleasant	unpleasant	ADJ	JJ	Degree=Pos	25	xcomp	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	25	punct	_	_
+
+# sent_id = 3
+# text = This spoils their hope to eat delicious dish.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	spoils	spoil	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	hope	hope	NOUN	NN	Number=Sing	2	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	eat	eat	VERB	VB	VerbForm=Inf	4	acl	_	_
+7	delicious	delicious	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	dish	dish	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = And people who don't feel unpleasant even if someone is smoking near them when they are eating are few.
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	people	people	NOUN	NNS	Number=Plur	20	nsubj	_	_
+3	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	n't	not	PART	RB	_	6	advmod	_	_
+6	feel	feel	VERB	VB	VerbForm=Inf	2	acl:relcl	_	_
+7	unpleasant	unpleasant	ADJ	JJ	Degree=Pos	6	xcomp	_	_
+8	even	even	ADV	RB	_	12	advmod	_	_
+9	if	if	SCONJ	IN	_	12	mark	_	_
+10	someone	someone	PRON	NN	Number=Sing	12	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	6	advcl	_	_
+13	near	near	ADP	IN	_	14	case	_	_
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	obl	_	_
+15	when	when	ADV	WRB	PronType=Int	18	mark	_	_
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
+17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part	12	advcl	_	_
+19	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	few	few	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = 5
+# text = Rather usually most of people hate it.
+1	Rather	Rather	ADV	RB	_	3	advmod	_	_
+2	usually	usually	ADV	RB	_	3	advmod	_	_
+3	most	most	ADJ	JJS	Degree=Sup	6	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	people	people	NOUN	NNS	Number=Plur	3	nmod	_	_
+6	hate	hate	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 6
+# text = As many people know, indeed mystify of tobacco influence people who smoke than people who influenced by second smoking.
+1	As	as	SCONJ	IN	_	4	mark	_	_
+2	many	many	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	indeed	indeed	ADV	RB	_	7	advmod	_	_
+7	mystify	mystify	NUM	CD	NumType=Card	0	root	_	_
+8	of	of	ADP	IN	_	11	case	_	_
+9	tobacco	tobacco	NOUN	NN	Number=Sing	10	compound	_	_
+10	influence	influence	NOUN	NN	Number=Sing	11	compound	_	_
+11	people	people	NOUN	NNS	Number=Plur	7	nmod	_	_
+12	who	who	PRON	WP	PronType=Rel	13	nsubj	_	_
+13	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	than	than	SCONJ	IN	_	15	case	_	_
+15	people	people	NOUN	NNS	Number=Plur	13	obl	_	_
+16	who	who	PRON	WP	PronType=Rel	17	nsubj:pass	_	_
+17	influenced	influence	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	acl:relcl	_	_
+18	by	by	ADP	IN	_	20	case	_	_
+19	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	20	amod	_	_
+20	smoking	smoking	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 7
+# text = This is very troublesome problem for people who care a lot about their health and keep off alcohols, tobaccos and so on.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	troublesome	troublesome	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	problem	problem	NOUN	NN	Number=Sing	0	root	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	people	people	NOUN	NNS	Number=Plur	5	nmod	_	_
+8	who	who	PRON	WP	PronType=Rel	9	nsubj	_	_
+9	care	care	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	lot	lot	NOUN	NN	Number=Sing	9	obj	_	_
+12	about	about	ADP	IN	_	14	case	_	_
+13	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	health	health	NOUN	NN	Number=Sing	11	nmod	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	keep	keep	VERB	VB	VerbForm=Inf	9	conj	_	_
+17	off	off	ADP	RP	_	16	compound:prt	_	_
+18	alcohols	alcohol	NOUN	NNS	Number=Plur	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	_
+20	tobaccos	tobacco	NOUN	NNS	Number=Plur	18	conj	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	so	so	ADV	RB	_	23	advmod	_	_
+23	on	on	ADV	RB	_	18	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = There is a people smoke tobacco more than one case a day that is what is called heavy smoker.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	people	people	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	smoke	smoke	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+6	tobacco	tobacco	ADV	RB	_	5	advmod	_	_
+7	more	more	ADJ	JJR	Degree=Cmp	12	advmod	_	_
+8	than	than	ADP	IN	_	10	case	_	_
+9	one	one	NUM	CD	NumType=Card	10	nummod	_	_
+10	case	case	NOUN	NN	Number=Sing	7	fixed	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	day	day	NOUN	NN	Number=Sing	5	obl:tmod	_	_
+13	that	that	PRON	WDT	PronType=Rel	14	nsubj	_	_
+14	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	what	what	PRON	WP	PronType=Int	17	nsubj:pass	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	ccomp	_	_
+18	heavy	heavy	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	smoker	smoker	NOUN	NN	Number=Sing	17	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Recently smoke ward and city forbid people to walk in the town when they are smoking by ordinance.
+1	Recently	recently	ADV	RB	_	3	advmod	_	_
+2	smoke	smoke	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	ward	ward	NOUN	NN	Number=Sing	0	root	_	_
+4	and	and	CCONJ	CC	_	7	cc	_	_
+5	city	city	NOUN	NN	Number=Sing	7	conj	_	_
+6	forbid	forbid	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	people	people	NOUN	NNS	Number=Plur	3	conj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	walk	walk	VERB	VB	VerbForm=Inf	7	acl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	town	town	NOUN	NN	Number=Sing	9	obl	_	_
+13	when	when	ADV	WRB	PronType=Int	16	mark	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+15	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	9	advcl	_	_
+17	by	by	ADP	IN	_	18	case	_	_
+18	ordinance	ordinance	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = And so in addition to this if all restaurants forbid people to smoke, smokers may be sorry.
+1	And	and	CCONJ	CC	_	18	cc	_	_
+2	so	so	ADV	RB	_	18	advmod	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	addition	addition	NOUN	NN	Number=Sing	18	obl	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	4	nmod	_	_
+7	if	if	SCONJ	IN	_	10	mark	_	_
+8	all	all	DET	DT	_	9	det	_	_
+9	restaurants	restaurant	NOUN	NNS	Number=Plur	10	nsubj	_	_
+10	forbid	forbid	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+11	people	people	NOUN	NNS	Number=Plur	10	obj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	smoke	smoke	VERB	VB	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	smokers	smoker	NOUN	NNS	Number=Plur	18	nsubj	_	_
+16	may	may	AUX	MD	VerbForm=Fin	18	aux	_	_
+17	be	be	AUX	VB	VerbForm=Inf	18	cop	_	_
+18	sorry	sorry	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 11
+# text = But it is clear that to smoke tobacco is not good for smokers and people around smokers, too.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	clear	clear	ADJ	JJ	Degree=Pos	0	root	_	_
+5	that	that	SCONJ	IN	_	11	mark	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	smoke	smoke	VERB	VB	VerbForm=Inf	11	csubj	_	_
+8	tobacco	tobacco	NOUN	NN	Number=Sing	7	obj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	not	not	PART	RB	_	11	advmod	_	_
+11	good	good	ADJ	JJ	Degree=Pos	4	ccomp	_	_
+12	for	for	ADP	IN	_	13	case	_	_
+13	smokers	smoker	NOUN	NNS	Number=Plur	11	obl	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	people	people	NOUN	NNS	Number=Plur	13	conj	_	_
+16	around	around	ADP	IN	_	17	case	_	_
+17	smokers	smoker	NOUN	NNS	Number=Plur	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	11	punct	_	_
+19	too	too	ADV	RB	_	11	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 12
+# text = And by this chance, I hope smokers will decrease the number of tobacco they smoke a day, keep off smoking at the table and think about their health.
+1	And	and	CCONJ	CC	_	7	cc	_	_
+2	by	by	ADP	IN	_	4	case	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	chance	chance	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	smokers	smoker	NOUN	NNS	Number=Plur	10	nsubj	_	_
+9	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	decrease	decrease	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	number	number	NOUN	NN	Number=Sing	10	obj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	tobacco	tobacco	NOUN	NN	Number=Sing	12	nmod	_	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+16	smoke	smoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	day	day	NOUN	NN	Number=Sing	16	obl:tmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	_
+20	keep	keep	VERB	VB	VerbForm=Inf	10	conj	_	_
+21	off	off	ADP	RP	_	20	compound:prt	_	_
+22	smoking	smoking	NOUN	NN	Number=Sing	20	obj	_	_
+23	at	at	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	table	table	NOUN	NN	Number=Sing	22	nmod	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	think	think	VERB	VB	VerbForm=Inf	10	conj	_	_
+28	about	about	ADP	IN	_	30	case	_	_
+29	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	health	health	NOUN	NN	Number=Sing	27	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

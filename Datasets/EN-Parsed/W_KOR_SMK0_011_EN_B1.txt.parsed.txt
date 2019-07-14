@@ -1,0 +1,294 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_011_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I completely agree this statement.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	completely	completely	ADV	RB	_	3	advmod	_	_
+3	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	statement	statement	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = In the restaurant visit the variety an age group.
+1	In	in	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	restaurant	restaurant	NOUN	NN	Number=Sing	4	obl	_	_
+4	visit	visit	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+6	variety	variety	NOUN	NN	Number=Sing	9	compound	_	_
+7	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	age	age	NOUN	NN	Number=Sing	9	compound	_	_
+9	group	group	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = For example.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Kids,
+1	Kids	kid	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 5
+# text = Juveniles, adult who stop smoking, old person who don't like smoke smell etc.
+1	Juveniles	Juvenile	NOUN	NNS	Number=Plur	3	compound	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	adult	adult	NOUN	NN	Number=Sing	0	root	_	_
+4	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+5	stop	stop	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	old	old	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	person	person	NOUN	NN	Number=Sing	6	appos	_	_
+10	who	who	PRON	WP	PronType=Rel	13	nsubj	_	_
+11	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
+12	n't	not	PART	RB	_	13	advmod	_	_
+13	like	like	VERB	VB	VerbForm=Inf	9	acl:relcl	_	_
+14	smoke	smoke	NOUN	NN	Number=Sing	15	compound	_	_
+15	smell	smell	NOUN	NN	Number=Sing	13	obj	_	_
+16	etc	etc	X	FW	_	15	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = If kids and juveniles were sent the smoke smell or see smoking, Smoking is very harmful for them.
+1	If	if	SCONJ	IN	_	6	mark	_	_
+2	kids	kid	NOUN	NNS	Number=Plur	6	nsubj:pass	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	juveniles	juvenile	NOUN	NNS	Number=Plur	2	conj	_	_
+5	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	sent	send	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	smoke	smoke	NOUN	NN	Number=Sing	9	compound	_	_
+9	smell	smell	NOUN	NN	Number=Sing	6	obj	_	_
+10	or	or	CCONJ	CC	_	11	cc	_	_
+11	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	conj	_	_
+12	smoking	smoking	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	9	punct	_	_
+14	Smoking	smoking	NOUN	NN	Number=Sing	17	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	very	very	ADV	RB	_	17	advmod	_	_
+17	harmful	harmful	ADJ	JJ	Degree=Pos	9	parataxis	_	_
+18	for	for	ADP	IN	_	19	case	_	_
+19	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 7
+# text = Some curiosity the kids, juveniles think "I want to smoke".
+1	Some	some	DET	DT	_	2	det	_	_
+2	curiosity	curiosity	NOUN	NN	Number=Sing	7	obl:npmod	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	kids	kid	NOUN	NNS	Number=Plur	2	appos	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	juveniles	juvenile	NOUN	NNS	Number=Plur	7	nsubj	_	_
+7	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	"	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	smoke	smoke	VERB	VB	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+13	"	"	PUNCT	''	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 8
+# text = & if adults who stop smoking were scent the smell, they want smoke, finally they again smoke and they lose health.
+1	&	&	CCONJ	CC	_	13	cc	_	_
+2	if	if	SCONJ	IN	_	8	mark	_	_
+3	adults	adult	NOUN	NNS	Number=Plur	8	nsubj:pass	_	_
+4	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+5	stop	stop	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	5	obj	_	_
+7	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	scent	scent	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	advcl	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	smell	smell	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+13	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	smoke	smoke	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	13	punct	_	_
+16	finally	finally	ADV	RB	_	19	advmod	_	_
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+18	again	again	ADV	RB	_	19	advmod	_	_
+19	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	parataxis	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
+22	lose	lose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	conj	_	_
+23	health	health	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 9
+# text = Expense of tobacco is expensive.
+1	Expense	expense	NOUN	NN	Number=Sing	5	nsubj	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	tobacco	tobacco	NOUN	NN	Number=Sing	1	nmod	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	expensive	expensive	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 10
+# text = So if they (smoking) were stops smoking, they save money and they spend meaningfully.
+1	So	so	ADV	RB	_	12	advmod	_	_
+2	if	if	SCONJ	IN	_	9	mark	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+4	(	(	PUNCT	-LRB-	_	5	punct	_	SpaceAfter=No
+5	smoking	smoke	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+6	)	)	PUNCT	-RRB-	_	5	punct	_	_
+7	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+8	stops	stop	ADV	RB	_	9	advmod	_	_
+9	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	12	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
+12	save	save	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	money	money	NOUN	NN	Number=Sing	12	obj	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+16	spend	spend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	conj	_	_
+17	meaningfully	meaningfully	ADV	RB	_	16	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 11
+# text = For example they donation for African who they don't money and don't have food water and medicine that they save their life from disease.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	4	obl	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+4	donation	donation	NOUN	NN	Number=Sing	0	root	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	African	African	PROPN	NNP	Number=Sing	4	nmod	_	_
+7	who	who	PRON	WP	PronType=Rel	11	obj	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+9	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
+10	n't	not	PART	RB	_	11	advmod	_	_
+11	money	money	NOUN	NN	Number=Sing	6	acl:relcl	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
+14	n't	not	PART	RB	_	15	advmod	_	_
+15	have	have	VERB	VB	VerbForm=Inf	11	conj	_	_
+16	food	food	NOUN	NN	Number=Sing	17	compound	_	_
+17	water	water	NOUN	NN	Number=Sing	15	obj	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	medicine	medicine	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	conj	_	_
+20	that	that	SCONJ	IN	_	22	mark	_	_
+21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
+22	save	save	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+23	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	life	life	NOUN	NN	Number=Sing	22	obj	_	_
+25	from	from	ADP	IN	_	26	case	_	_
+26	disease	disease	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 12
+# text = Or spend for family and buy the house.
+1	Or	or	CCONJ	CC	_	2	cc	_	_
+2	spend	spend	VERB	VB	VerbForm=Inf	0	root	_	_
+3	for	for	ADP	IN	_	4	case	_	_
+4	family	family	NOUN	NN	Number=Sing	2	obl	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	buy	buy	VERB	VB	VerbForm=Inf	2	conj	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	house	house	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 13
+# text = Also tobacco is very addictive.
+1	Also	also	ADV	RB	_	5	advmod	_	_
+2	tobacco	tobacco	ADV	RB	_	5	advmod	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	addictive	addictive	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 14
+# text = They so called "be sold drug ".
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	so	so	ADV	RB	_	3	advmod	_	_
+3	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	"	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+6	sold	sell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	drug	drug	NOUN	NN	Number=Sing	3	xcomp	_	_
+8	"	"	PUNCT	''	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 15
+# text = Above all smoking is very harmful and secondhand smoking is very hazard for health.
+1	Above	above	ADP	IN	_	3	case	_	_
+2	all	all	DET	DT	_	3	det	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	harmful	harmful	ADJ	JJ	Degree=Pos	0	root	_	_
+7	and	and	CCONJ	CC	_	12	cc	_	_
+8	secondhand	secondhand	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	12	nsubj:pass	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+11	very	very	ADV	RB	_	12	advmod	_	_
+12	hazard	hazard	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	conj	_	_
+13	for	for	ADP	IN	_	14	case	_	_
+14	health	health	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 16
+# text = So I insist ban smoking in restaurant.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	insist	insist	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ban	ban	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	3	obj	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	restaurant	restaurant	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 17
+# text = If Smoking ban was not ban at law, the nation is appointment that smoking area.
+1	If	if	SCONJ	IN	_	6	mark	_	_
+2	Smoking	smoking	VERB	VBG	VerbForm=Ger	3	amod	_	_
+3	ban	ban	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	ban	ban	ADJ	JJ	Degree=Pos	13	advcl	_	_
+7	at	at	ADP	IN	_	8	case	_	_
+8	law	law	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	nation	nation	NOUN	NN	Number=Sing	13	nsubj	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	appointment	appointment	NOUN	NN	Number=Sing	0	root	_	_
+14	that	that	SCONJ	IN	_	15	mark	_	_
+15	smoking	smoke	VERB	VBG	VerbForm=Ger	13	acl	_	_
+16	area	area	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 18
+# text = And if they were disobeying the law, the government is punishing ruthlessly or considerably penalty that jail and community service that period is very long.
+1	And	and	CCONJ	CC	_	12	cc	_	_
+2	if	if	SCONJ	IN	_	5	mark	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	disobeying	disobey	VERB	VBG	Tense=Pres|VerbForm=Part	12	advcl	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	law	law	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	government	government	NOUN	NN	Number=Sing	12	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	punishing	punish	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+13	ruthlessly	ruthlessly	ADV	RB	_	26	advmod	_	_
+14	or	or	CCONJ	CC	_	26	cc	_	_
+15	considerably	considerably	ADV	RB	_	26	advmod	_	_
+16	penalty	penalty	ADV	RB	_	26	advmod	_	_
+17	that	that	DET	DT	Number=Sing|PronType=Dem	21	det	_	_
+18	jail	jail	NOUN	NN	Number=Sing	21	compound	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	community	community	NOUN	NN	Number=Sing	18	conj	_	_
+21	service	service	NOUN	NN	Number=Sing	26	nsubj	_	_
+22	that	that	DET	DT	Number=Sing|PronType=Dem	23	det	_	_
+23	period	period	NOUN	NN	Number=Sing	26	nsubj	_	_
+24	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	very	very	ADV	RB	_	26	advmod	_	_
+26	long	long	ADJ	JJ	Degree=Pos	12	conj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n
+

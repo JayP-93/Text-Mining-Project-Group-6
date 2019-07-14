@@ -1,0 +1,330 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_SIN_PTJ0_137_EN_B2.txt
+# newpar
+# sent_id = 1
+# text = ﻿I disagree to the statement given in Topic A.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	disagree	disagree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	statement	statement	NOUN	NN	Number=Sing	2	obl	_	_
+6	given	give	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	Topic	topic	NOUN	NN	Number=Sing	9	compound	_	_
+9	A	A	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = College students have busy schedules that make it difficult for them to maintain a part-time job while pursuing their education.
+1	College	college	NOUN	NN	Number=Sing	2	compound	_	_
+2	students	student	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	busy	busy	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	schedules	schedule	NOUN	NNS	Number=Plur	3	obj	_	_
+6	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	_
+7	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	difficult	difficult	ADJ	JJ	Degree=Pos	7	xcomp	_	_
+10	for	for	SCONJ	IN	_	13	mark	_	_
+11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	maintain	maintain	VERB	VB	VerbForm=Inf	7	advcl	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+15	part	part	NOUN	NN	Number=Sing	17	compound	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	_	17	punct	_	SpaceAfter=No
+17	time	time	NOUN	NN	Number=Sing	18	compound	_	_
+18	job	job	NOUN	NN	Number=Sing	13	obj	_	_
+19	while	while	SCONJ	IN	_	20	mark	_	_
+20	pursuing	pursue	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+21	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	education	education	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Apart from attending daily lessons, students have to juggle between completing assignments within deadlines and preparing for frequent tests.
+1	Apart	apart	ADV	RB	_	8	advmod	_	_
+2	from	from	SCONJ	IN	_	3	mark	_	_
+3	attending	attend	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+4	daily	daily	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	lessons	lesson	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	students	student	NOUN	NNS	Number=Plur	8	nsubj	_	_
+8	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	juggle	juggle	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	between	between	ADP	IN	_	13	case	_	_
+12	completing	completing	VERB	VBG	VerbForm=Ger	13	amod	_	_
+13	assignments	assignment	NOUN	NNS	Number=Plur	10	obl	_	_
+14	within	within	ADP	IN	_	15	case	_	_
+15	deadlines	deadline	NOUN	NNS	Number=Plur	10	obl	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	preparing	prepare	VERB	VBG	VerbForm=Ger	10	conj	_	_
+18	for	for	ADP	IN	_	20	case	_	_
+19	frequent	frequent	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	tests	test	NOUN	NNS	Number=Plur	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 4
+# text = Having a part-time job will divert students' attention away from school work and reduces the time available for students to revise their work.
+1	Having	have	VERB	VBG	VerbForm=Ger	7	csubj	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+3	part	part	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-time	-time	NOUN	NN	Number=Sing	5	compound	_	_
+5	job	job	NOUN	NN	Number=Sing	1	obj	_	_
+6	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	divert	divert	VERB	VB	VerbForm=Inf	0	root	_	_
+8	students	student	NOUN	NNS	Number=Plur	10	nmod:poss	_	SpaceAfter=No
+9	'	'	PART	POS	_	8	case	_	_
+10	attention	attention	NOUN	NN	Number=Sing	7	obj	_	_
+11	away	away	ADV	RB	_	7	advmod	_	_
+12	from	from	ADP	IN	_	14	case	_	_
+13	school	school	NOUN	NN	Number=Sing	14	compound	_	_
+14	work	work	NOUN	NN	Number=Sing	11	obl	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	reduces	reduce	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	time	time	NOUN	NN	Number=Sing	16	obj	_	_
+19	available	available	ADJ	JJ	Degree=Pos	18	amod	_	_
+20	for	for	SCONJ	IN	_	23	mark	_	_
+21	students	student	NOUN	NNS	Number=Plur	23	nsubj	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	revise	revise	VERB	VB	VerbForm=Inf	19	advcl	_	_
+24	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	work	work	NOUN	NN	Number=Sing	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = Furthermore, students working part-time will suffer from fatigue from their work.
+1	Furthermore	furthermore	ADV	RB	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	9	punct	_	_
+3	students	student	NOUN	NNS	Number=Plur	7	compound	_	_
+4	working	work	VERB	VBG	VerbForm=Ger	5	amod	_	_
+5	part	part	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	time	time	NOUN	NN	Number=Sing	9	nsubj	_	_
+8	will	will	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	suffer	suffer	VERB	VB	VerbForm=Inf	0	root	_	_
+10	from	from	ADP	IN	_	11	case	_	_
+11	fatigue	fatigue	NOUN	NN	Number=Sing	9	obl	_	_
+12	from	from	ADP	IN	_	14	case	_	_
+13	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	work	work	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 6
+# text = Since the main priority of students should be focused on excelling in school work, having a part-time job is not important as it could adversely affect the academic performance of students in school.
+1	Since	since	SCONJ	IN	_	9	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	main	main	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	priority	priority	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	students	student	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+9	focused	focus	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	37	advcl	_	_
+10	on	on	SCONJ	IN	_	11	mark	_	_
+11	excelling	excelling	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	school	school	NOUN	NN	Number=Sing	14	compound	_	_
+14	work	work	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	9	punct	_	_
+16	having	have	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+18	part	part	NOUN	NN	Number=Sing	20	compound	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	20	punct	_	SpaceAfter=No
+20	time	time	NOUN	NN	Number=Sing	21	compound	_	_
+21	job	job	NOUN	NN	Number=Sing	24	nsubj	_	_
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	not	not	PART	RB	_	24	advmod	_	_
+24	important	important	ADJ	JJ	Degree=Pos	16	ccomp	_	_
+25	as	as	SCONJ	IN	_	29	mark	_	_
+26	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+27	could	could	AUX	MD	VerbForm=Fin	29	aux	_	_
+28	adversely	adversely	ADV	RB	_	29	advmod	_	_
+29	affect	affect	VERB	VB	VerbForm=Inf	24	advcl	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+31	academic	academic	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	performance	performance	NOUN	NN	Number=Sing	29	obj	_	_
+33	of	of	ADP	IN	_	34	case	_	_
+34	students	student	NOUN	NNS	Number=Plur	32	nmod	_	_
+35	in	in	ADP	IN	_	36	case	_	_
+36	school	school	NOUN	NN	Number=Sing	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 7
+# text = Nevertheless, some may argue that it is important for college students to have a part-time job to become more independent and mature individuals through handling the high levels of stress arising from balancing commitment between the part-time job and studies.
+1	Nevertheless	nevertheless	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	some	some	DET	DT	_	5	nsubj	_	_
+4	may	may	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	argue	argue	VERB	VB	VerbForm=Inf	0	root	_	_
+6	that	that	SCONJ	IN	_	9	mark	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	important	important	ADJ	JJ	Degree=Pos	5	ccomp	_	_
+10	for	for	SCONJ	IN	_	14	mark	_	_
+11	college	college	NOUN	NN	Number=Sing	12	compound	_	_
+12	students	student	NOUN	NNS	Number=Plur	14	nsubj	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	have	have	VERB	VB	VerbForm=Inf	9	advcl	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+16	part	part	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	18	punct	_	SpaceAfter=No
+18	time	time	NOUN	NN	Number=Sing	19	compound	_	_
+19	job	job	NOUN	NN	Number=Sing	14	obj	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	become	become	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+22	more	more	ADV	RBR	_	23	advmod	_	_
+23	independent	independent	ADJ	JJ	Degree=Pos	26	amod	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	mature	mature	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	individuals	individual	NOUN	NNS	Number=Plur	21	obj	_	_
+27	through	through	SCONJ	IN	_	28	mark	_	_
+28	handling	handle	VERB	VBG	VerbForm=Ger	26	acl	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+30	high	high	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	levels	level	NOUN	NNS	Number=Plur	28	obj	_	_
+32	of	of	ADP	IN	_	33	case	_	_
+33	stress	stress	NOUN	NN	Number=Sing	31	nmod	_	_
+34	arising	arise	VERB	VBG	VerbForm=Ger	33	acl	_	_
+35	from	from	SCONJ	IN	_	36	mark	_	_
+36	balancing	balancing	VERB	VBG	VerbForm=Ger	34	advcl	_	_
+37	commitment	commitment	NOUN	NN	Number=Sing	36	obj	_	_
+38	between	between	ADP	IN	_	43	case	_	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	43	det	_	_
+40	part	part	NOUN	NN	Number=Sing	42	compound	_	SpaceAfter=No
+41	-	-	PUNCT	HYPH	_	42	punct	_	SpaceAfter=No
+42	time	time	NOUN	NN	Number=Sing	43	compound	_	_
+43	job	job	NOUN	NN	Number=Sing	37	nmod	_	_
+44	and	and	CCONJ	CC	_	45	cc	_	_
+45	studies	study	NOUN	NNS	Number=Plur	43	conj	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = However, one should note that college students can learn to be more independent and mature through their school commitments.
+1	However	however	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	one	one	PRON	PRP	_	5	nsubj	_	_
+4	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	note	note	VERB	VB	VerbForm=Inf	0	root	_	_
+6	that	that	SCONJ	IN	_	10	mark	_	_
+7	college	college	NOUN	NN	Number=Sing	8	compound	_	_
+8	students	student	NOUN	NNS	Number=Plur	10	nsubj	_	_
+9	can	can	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	learn	learn	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+11	to	to	PART	TO	_	14	mark	_	_
+12	be	be	AUX	VB	VerbForm=Inf	14	cop	_	_
+13	more	more	ADV	RBR	_	14	advmod	_	_
+14	independent	independent	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	mature	mature	ADJ	JJ	Degree=Pos	14	conj	_	_
+17	through	through	ADP	IN	_	20	case	_	_
+18	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+19	school	school	NOUN	NN	Number=Sing	20	compound	_	_
+20	commitments	commitment	NOUN	NNS	Number=Plur	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = Many students are actively involved in non-academic work in school that provides opportunities for them to grow as an individual.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	students	student	NOUN	NNS	Number=Plur	5	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	actively	actively	ADV	RB	_	5	advmod	_	_
+5	involved	involved	ADJ	JJ	Degree=Pos	0	root	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	non-academic	non-academic	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	work	work	NOUN	NN	Number=Sing	5	obl	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	school	school	NOUN	NN	Number=Sing	8	nmod	_	_
+11	that	that	PRON	WDT	PronType=Rel	12	nsubj	_	_
+12	provides	provide	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+13	opportunities	opportunity	NOUN	NNS	Number=Plur	12	obj	_	_
+14	for	for	SCONJ	IN	_	17	mark	_	_
+15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	grow	grow	VERB	VB	VerbForm=Inf	13	acl	_	_
+18	as	as	ADP	IN	_	20	case	_	_
+19	an	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	individual	individual	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 10
+# text = For instance, many students participate in activities organised by student clubs and societies.
+1	For	for	ADP	IN	_	2	case	_	_
+2	instance	instance	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	many	many	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	students	student	NOUN	NNS	Number=Plur	6	nsubj	_	_
+6	participate	participate	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	activities	activity	NOUN	NNS	Number=Plur	6	obl	_	_
+9	organised	organise	VERB	VBN	Tense=Past|VerbForm=Part	8	acl	_	_
+10	by	by	ADP	IN	_	12	case	_	_
+11	student	student	NOUN	NN	Number=Sing	12	compound	_	_
+12	clubs	club	NOUN	NNS	Number=Plur	9	obl	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	societies	societie	NOUN	NNS	Number=Plur	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 11
+# text = This allows students to widen their social circles, manage work-life balance and even assume leadership roles occasionally.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	allows	allow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	students	student	NOUN	NNS	Number=Plur	2	obj	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	widen	wie	VERB	VB	VerbForm=Inf	3	acl	_	_
+6	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	social	social	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	circles	circle	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	manage	manage	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	work	work	NOUN	NN	Number=Sing	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	13	punct	_	SpaceAfter=No
+13	life	life	NOUN	NN	Number=Sing	14	compound	_	_
+14	balance	balance	NOUN	NN	Number=Sing	10	obj	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	even	even	ADV	RB	_	17	advmod	_	_
+17	assume	assume	VERB	VB	VerbForm=Inf	14	conj	_	_
+18	leadership	leadership	NOUN	NN	Number=Sing	19	compound	_	_
+19	roles	role	NOUN	NNS	Number=Plur	17	obj	_	_
+20	occasionally	occasionally	ADV	RB	_	17	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = Hence, it is not important for college students to have a part-time job given the busy schedules of students and their ability to achieve well-rounded development through other school activities.
+1	Hence	hence	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	college	college	NOUN	NN	Number=Sing	9	compound	_	_
+9	students	student	NOUN	NNS	Number=Plur	6	obl	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	have	have	VERB	VB	VerbForm=Inf	9	acl	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+13	part	part	NOUN	NN	Number=Sing	15	compound	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	15	punct	_	SpaceAfter=No
+15	time	time	NOUN	NN	Number=Sing	16	compound	_	_
+16	job	job	NOUN	NN	Number=Sing	11	obj	_	_
+17	given	give	VERB	VBN	Tense=Past|VerbForm=Part	20	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	busy	busy	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	schedules	schedule	NOUN	NNS	Number=Plur	16	nmod	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	students	student	NOUN	NNS	Number=Plur	20	nmod	_	_
+23	and	and	CCONJ	CC	_	25	cc	_	_
+24	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	ability	ability	NOUN	NN	Number=Sing	20	conj	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	achieve	achieve	VERB	VB	VerbForm=Inf	25	acl	_	_
+28	well	well	ADV	RB	Degree=Pos	30	advmod	_	SpaceAfter=No
+29	-	-	PUNCT	HYPH	_	30	punct	_	SpaceAfter=No
+30	rounded	round	VERB	VBN	Tense=Past|VerbForm=Part	31	amod	_	_
+31	development	development	NOUN	NN	Number=Sing	27	obj	_	_
+32	through	through	ADP	IN	_	35	case	_	_
+33	other	other	ADJ	JJ	Degree=Pos	35	amod	_	_
+34	school	school	NOUN	NN	Number=Sing	35	compound	_	_
+35	activities	activity	NOUN	NNS	Number=Plur	31	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+

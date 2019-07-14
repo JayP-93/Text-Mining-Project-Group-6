@@ -1,0 +1,303 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_JPN_SMK0_354_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Recently, many regulations about smoking are enforced.
+1	﻿Recently	﻿Recently	ADV	RB	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	8	punct	_	_
+3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	regulations	regulation	NOUN	NNS	Number=Plur	8	nsubj:pass	_	_
+5	about	about	ADP	IN	_	6	case	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	4	nmod	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	enforced	enforce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = For instance, in some area if people walk with smoking, they are fined.
+1	For	for	ADP	IN	_	2	case	_	_
+2	instance	instance	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	some	some	DET	DT	_	6	det	_	_
+6	area	area	NOUN	NN	Number=Sing	2	nmod	_	_
+7	if	if	SCONJ	IN	_	9	mark	_	_
+8	people	people	NOUN	NNS	Number=Plur	9	nsubj	_	_
+9	walk	walk	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+10	with	with	ADP	IN	_	11	case	_	_
+11	smoking	smoking	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj:pass	_	_
+14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	fined	fine	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 3
+# text = This rule is wonderful for non-smokers!
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	rule	rule	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	wonderful	wonderful	ADJ	JJ	Degree=Pos	0	root	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	non-smokers	non-smoker	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = I'm 18 years old so I cannot smoke.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+2	'm	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	18	18	NUM	CD	NumType=Card	4	nummod	_	_
+4	years	year	NOUN	NNS	Number=Plur	5	obl:npmod	_	_
+5	old	old	ADJ	JJ	Degree=Pos	0	root	_	_
+6	so	so	SCONJ	IN	_	10	mark	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	can	can	AUX	MD	VerbForm=Fin	10	aux	_	SpaceAfter=No
+9	not	not	PART	RB	_	10	advmod	_	_
+10	smoke	smoke	VERB	VB	VerbForm=Inf	5	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = But I don't want to smoke.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n't	not	PART	RB	_	5	advmod	_	_
+5	want	want	VERB	VB	VerbForm=Inf	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	smoke	smoke	VERB	VB	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = Smoking hurt feelings.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+2	hurt	hurt	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	feelings	feeling	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = When you eat lunch with your friends, next customer is smoking.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	eat	eat	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+4	lunch	lunch	NOUN	NN	Number=Sing	3	obj	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	friends	friend	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	next	next	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	customer	customer	NOUN	NN	Number=Sing	12	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 8
+# text = Then what do you think?
+1	Then	then	ADV	RB	PronType=Dem	5	advmod	_	_
+2	what	what	PRON	WP	PronType=Int	5	obj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	think	think	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = Perhaps you think nasty, you do nothing but complain about the smoker with them.
+1	Perhaps	perhaps	ADV	RB	_	3	advmod	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	nasty	nasty	ADJ	JJ	Degree=Pos	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	nothing	nothing	PRON	NN	Number=Sing	7	obj	_	_
+9	but	but	CCONJ	CC	_	10	cc	_	_
+10	complain	complain	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	_	_
+11	about	about	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	smoker	smoker	NOUN	NN	Number=Sing	10	obl	_	_
+14	with	with	ADP	IN	_	15	case	_	_
+15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Eventually you spoil lunch time.
+1	Eventually	eventually	ADV	RB	_	3	advmod	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	spoil	spoil	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	lunch	lunch	NOUN	NN	Number=Sing	5	compound	_	_
+5	time	time	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = What's more, smoking destroys our body.
+1	What	what	PRON	WP	PronType=Int	3	nsubj	_	SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	more	more	ADJ	JJR	Degree=Cmp	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	smoking	smoke	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	destroys	destroy	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	body	body	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 12
+# text = By smoking, our stomach is dirty.
+1	By	by	ADP	IN	_	2	case	_	_
+2	smoking	smoking	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	stomach	stomach	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	dirty	dirty	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 13
+# text = And compared with non-smokers, smokers are apt to get cancer.
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	compared	compare	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+3	with	with	ADP	IN	_	4	case	_	_
+4	non-smokers	non-smoker	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	smokers	smoker	NOUN	NNS	Number=Plur	8	nsubj	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	apt	apt	ADJ	JJ	Degree=Pos	2	parataxis	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	get	get	VERB	VB	VerbForm=Inf	8	advcl	_	_
+11	cancer	cancer	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 14
+# text = The death rate of smokers is also very high than non-smokers.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	death	death	NOUN	NN	Number=Sing	3	compound	_	_
+3	rate	rate	NOUN	NN	Number=Sing	9	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	smokers	smoker	NOUN	NNS	Number=Plur	3	nmod	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	also	also	ADV	RB	_	9	advmod	_	_
+8	very	very	ADV	RB	_	9	advmod	_	_
+9	high	high	ADJ	JJ	Degree=Pos	0	root	_	_
+10	than	than	ADP	IN	_	11	case	_	_
+11	non-smokers	non-smoker	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 15
+# text = That is to say, smokers want to die quickly.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	say	say	VERB	VB	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	smokers	smoker	NOUN	NNS	Number=Plur	7	nsubj	_	_
+7	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	die	die	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	quickly	quickly	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 16
+# text = Smokers say that smoking is our pleasure.
+1	Smokers	smoker	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	7	mark	_	_
+4	smoking	smoke	NOUN	NN	Number=Sing	7	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	pleasure	pleasure	NOUN	NN	Number=Sing	2	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 17
+# text = But I cannot understand their words.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	not	not	PART	RB	_	5	advmod	_	_
+5	understand	understand	VERB	VB	VerbForm=Inf	0	root	_	_
+6	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	words	word	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 18
+# text = When I was 8 years old, I smoked once.
+1	When	when	ADV	WRB	PronType=Int	6	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	8	8	NUM	CD	NumType=Card	5	nummod	_	_
+5	years	year	NOUN	NNS	Number=Plur	6	obl:npmod	_	_
+6	old	old	ADJ	JJ	Degree=Pos	9	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	smoked	smoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	once	once	ADV	RB	NumType=Mult	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 19
+# text = It was too hard for me to smoke to end.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	too	too	ADV	RB	_	4	advmod	_	_
+4	hard	hard	ADJ	JJ	Degree=Pos	0	root	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	smoke	smoke	VERB	VB	VerbForm=Inf	4	csubj	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	end	end	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 20
+# text = What on earth is pleasure?
+1	What	what	PRON	WP	PronType=Int	5	nsubj	_	_
+2	on	on	ADP	IN	_	3	case	_	_
+3	earth	earth	NOUN	NN	Number=Sing	1	nmod	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	pleasure	pleasure	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 21
+# text = Probably, there is no advantage to smoke.
+1	Probably	probably	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	there	there	PRON	EX	_	4	expl	_	_
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	no	no	DET	DT	_	6	det	_	_
+6	advantage	advantage	NOUN	NN	Number=Sing	4	nsubj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	smoke	smoke	VERB	VB	VerbForm=Inf	6	acl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 22
+# text = I hope that one day tobacco will be clear completely.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	9	mark	_	_
+4	one	one	NUM	CD	NumType=Card	6	nummod	_	_
+5	day	day	NOUN	NN	Number=Sing	6	compound	_	_
+6	tobacco	tobacco	NOUN	NN	Number=Sing	9	nsubj	_	_
+7	will	will	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+9	clear	clear	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+10	completely	completely	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 23
+# text = It is the best means for the world.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	best	best	ADJ	JJS	Degree=Sup	5	amod	_	_
+5	means	mean	NOUN	NNS	Number=Plur	0	root	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	world	world	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 24
+# text = We want to get very clear air.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	get	get	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	clear	clear	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	air	air	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,308 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_JPN_SMK0_073_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I disagree to smoking.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	disagree	disagree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	smoking	smoke	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = So I want to show you some my thinks.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	show	show	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	iobj	_	_
+7	some	some	DET	DT	_	9	obj	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nsubj	_	_
+9	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = First, I think you get no merit with smoking.
+1	First	first	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+7	no	no	DET	DT	_	8	det	_	_
+8	merit	merit	NOUN	NN	Number=Sing	6	obj	_	_
+9	with	with	ADP	IN	_	10	case	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = I heard that it has more than 300 bad influents.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	5	mark	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	more	more	ADJ	JJR	Degree=Cmp	5	obj	_	_
+7	than	than	ADP	IN	_	10	case	_	_
+8	300	300	NUM	CD	NumType=Card	10	nummod	_	_
+9	bad	bad	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	influents	influent	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Cuzz of those, it is to be feared that you'll be ill.
+1	Cuzz	Cuzz	NOUN	NN	Number=Sing	6	obl:tmod	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	those	those	PRON	DT	Number=Plur|PronType=Dem	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	to	to	PART	TO	_	9	mark	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+9	feared	fear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	ccomp	_	_
+10	that	that	SCONJ	IN	_	14	mark	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	SpaceAfter=No
+12	'll	will	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	be	be	AUX	VB	VerbForm=Inf	14	cop	_	_
+14	ill	ill	ADJ	JJ	Degree=Pos	9	ccomp	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 6
+# text = For example, heart disease, lungs disease, cancer, and so on.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	heart	heart	NOUN	NN	Number=Sing	5	compound	_	_
+5	disease	disease	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	lungs	lung	NOUN	NNS	Number=Plur	8	compound	_	_
+8	disease	disease	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	cancer	cancer	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	so	so	ADV	RB	_	14	advmod	_	_
+14	on	on	ADV	RB	_	2	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Does it only effect to you own who is smoking?
+1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	only	only	ADV	RB	_	4	advmod	_	_
+4	effect	effect	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obl	_	_
+7	own	own	ADJ	JJ	Degree=Pos	6	amod	_	_
+8	who	who	PRON	WP	PronType=Rel	10	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	4	acl:relcl	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = The answer is No.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	answer	answer	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	No.	no.	NOUN	NN	Number=Sing	0	root	_	_
+
+# sent_id = 9
+# text = Probably you smoke from a filter, but others who are near you, makes to smoke, moreover with no filter.
+1	Probably	probably	ADV	RB	_	3	advmod	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	smoke	smoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	from	from	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	filter	filter	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	15	punct	_	_
+8	but	but	CCONJ	CC	_	15	cc	_	_
+9	others	other	NOUN	NNS	Number=Plur	15	nsubj	_	_
+10	who	who	PRON	WP	PronType=Rel	13	nsubj	_	_
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	near	near	ADP	IN	_	13	case	_	_
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	smoke	smoke	VERB	VB	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	moreover	moreover	ADV	RB	_	22	advmod	_	_
+20	with	with	ADP	IN	_	22	case	_	_
+21	no	no	DET	DT	_	22	det	_	_
+22	filter	filter	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Do you know the influences about smoking to infants or children who are still in mother's stomach?
+1	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	influences	influence	NOUN	NNS	Number=Plur	3	obj	_	_
+6	about	about	SCONJ	IN	_	7	mark	_	_
+7	smoking	smoke	VERB	VBG	VerbForm=Ger	5	acl	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	infants	infant	NOUN	NNS	Number=Plur	7	obl	_	_
+10	or	or	CCONJ	CC	_	11	cc	_	_
+11	children	child	NOUN	NNS	Number=Plur	9	conj	_	_
+12	who	who	PRON	WP	PronType=Rel	18	nsubj	_	_
+13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	_
+14	still	still	ADV	RB	_	18	advmod	_	_
+15	in	in	ADP	IN	_	18	case	_	_
+16	mother	mother	NOUN	NN	Number=Sing	18	nmod:poss	_	SpaceAfter=No
+17	's	's	PART	POS	_	16	case	_	_
+18	stomach	stomach	NOUN	NN	Number=Sing	9	acl:relcl	_	SpaceAfter=No
+19	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = The percentage of children with smoking parents become foolish is much more higher than the children with normal parents.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	percentage	percentage	NOUN	NN	Number=Sing	8	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	children	child	NOUN	NNS	Number=Plur	2	nmod	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	7	compound	_	_
+7	parents	parent	NOUN	NNS	Number=Plur	2	nmod	_	_
+8	become	become	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	foolish	foolish	NOUN	NN	Number=Sing	13	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	much	much	ADV	RB	_	12	advmod	_	_
+12	more	more	ADV	RBR	_	13	advmod	_	_
+13	higher	higher	ADJ	JJR	Degree=Cmp	8	ccomp	_	_
+14	than	than	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	children	child	NOUN	NNS	Number=Plur	13	obl	_	_
+17	with	with	ADP	IN	_	19	case	_	_
+18	normal	normal	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	parents	parent	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 12
+# text = This is second reason.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	_	_
+4	reason	reason	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = If you want to, or NEED to smoke, You MUST smoke at smoking area.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+4	to	to	PART	TO	_	7	mark	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	or	or	CCONJ	CC	_	7	cc	_	_
+7	NEED	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	xcomp	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	smoke	smoke	VERB	VB	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+12	MUST	must	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	smoke	smoke	VERB	VB	VerbForm=Inf	0	root	_	_
+14	at	at	ADP	IN	_	16	case	_	_
+15	smoking	smoking	NOUN	NN	Number=Sing	16	compound	_	_
+16	area	area	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 14
+# text = I think it is the least manor for public.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	least	least	ADJ	JJS	Degree=Sup	7	amod	_	_
+7	manor	manor	NOUN	NN	Number=Sing	2	ccomp	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	public	public	ADJ	JJ	Degree=Pos	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 15
+# text = And the third reason is the dust problem.
+1	And	and	CCONJ	CC	_	8	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	_	_
+4	reason	reason	NOUN	NN	Number=Sing	8	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	dust	dust	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	problem	problem	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 16
+# text = I think you have seen many or some dust about cigarettes any where.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+6	many	many	ADJ	JJ	Degree=Pos	9	amod	_	_
+7	or	or	CCONJ	CC	_	9	cc	_	_
+8	some	some	DET	DT	_	9	det	_	_
+9	dust	dust	NOUN	NN	Number=Sing	5	obj	_	_
+10	about	about	ADP	IN	_	11	case	_	_
+11	cigarettes	cigarette	NOUN	NNS	Number=Plur	9	nmod	_	_
+12	any	any	DET	DT	_	13	det	_	_
+13	where	where	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 17
+# text = Cigarettes which are end, boxes of cigarettes, lighter, and so on.
+1	Cigarettes	Cigarette	NOUN	NNS	Number=Plur	0	root	_	_
+2	which	which	PRON	WDT	PronType=Rel	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	end	end	NOUN	NN	Number=Sing	1	acl:relcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	boxes	box	NOUN	NNS	Number=Plur	4	conj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	cigarettes	cigarettes	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	lighter	lighter	ADJ	JJR	Degree=Cmp	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	so	so	ADV	RB	_	14	advmod	_	_
+14	on	on	ADV	RB	_	4	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 18
+# text = Those make bad visual, bad mood, and bad feelings.
+1	Those	those	PRON	DT	Number=Plur|PronType=Dem	2	nsubj	_	_
+2	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bad	bad	ADJ	JJ	Degree=Pos	7	amod	_	_
+4	visual	visual	ADJ	JJ	Degree=Pos	7	amod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	bad	bad	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	mood	mood	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	bad	bad	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	feelings	feeling	NOUN	NNS	Number=Plur	2	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 19
+# text = I cunt believe that those people throw away those dust.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	cunt	cunt	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+4	that	that	SCONJ	IN	_	10	mark	_	_
+5	those	those	DET	DT	Number=Plur|PronType=Dem	6	det	_	_
+6	people	people	NOUN	NNS	Number=Plur	10	nsubj	_	_
+7	throw	throw	ADV	RB	_	10	advmod	_	_
+8	away	away	ADV	RB	_	10	advmod	_	_
+9	those	those	DET	DT	Number=Plur|PronType=Dem	10	det	_	_
+10	dust	dust	NOUN	NN	Number=Sing	3	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 20
+# text = In these wards, I disagree to smoking.
+1	In	in	ADP	IN	_	3	case	_	_
+2	these	these	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+3	wards	wards	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	disagree	disagree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	smoking	smoke	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

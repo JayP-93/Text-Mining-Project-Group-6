@@ -1,0 +1,308 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_SIN_PTJ0_105_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Personally, I do not think that it is important for college students to have a part-time job.
+1	﻿Personally	﻿Personally	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+7	that	that	SCONJ	IN	_	10	mark	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	important	important	ADJ	JJ	Degree=Pos	6	ccomp	_	_
+11	for	for	SCONJ	IN	_	15	mark	_	_
+12	college	college	NOUN	NN	Number=Sing	13	compound	_	_
+13	students	student	NOUN	NNS	Number=Plur	15	nsubj	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	have	have	VERB	VB	VerbForm=Inf	10	advcl	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+17	part	part	NOUN	NN	Number=Sing	19	compound	_	SpaceAfter=No
+18	-	-	PUNCT	HYPH	_	19	punct	_	SpaceAfter=No
+19	time	time	NOUN	NN	Number=Sing	20	compound	_	_
+20	job	job	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = The importance must be compared relative to something.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	importance	importance	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+3	must	must	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	compared	compare	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	relative	relative	ADJ	JJ	Degree=Pos	5	xcomp	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	something	something	PRON	NN	Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Why is it important?
+1	Why	why	ADV	WRB	PronType=Int	4	advmod	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	important	important	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Is it important because the student needs it to support himself and his family?
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+4	because	because	SCONJ	IN	_	7	mark	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	student	student	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	support	support	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+11	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	family	family	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Or is it important because the student needs to buy the upcoming Chanel bag?
+1	Or	or	CCONJ	CC	_	4	cc	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+5	because	because	SCONJ	IN	_	8	mark	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	student	student	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	buy	buy	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+12	upcoming	upcoming	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	Chanel	Chanel	NOUN	NN	Number=Sing	14	compound	_	_
+14	bag	bag	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = If it is the former, it will be considered important.
+1	If	if	SCONJ	IN	_	5	mark	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	former	former	ADJ	JJ	Degree=Pos	10	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj:pass	_	_
+8	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+10	considered	consider	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+11	important	important	ADJ	JJ	Degree=Pos	10	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 7
+# text = Also, the student must also be able to make sure that he/she is able to deal with the amount of school work and have good time management before he/she decides to commit to a part-time job.
+1	Also	also	ADV	RB	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	8	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	student	student	NOUN	NN	Number=Sing	8	nsubj	_	_
+5	must	must	AUX	MD	VerbForm=Fin	8	aux	_	_
+6	also	also	ADV	RB	_	8	advmod	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+8	able	able	ADJ	JJ	Degree=Pos	0	root	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	make	make	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	sure	sure	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+12	that	that	SCONJ	IN	_	17	mark	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	SpaceAfter=No
+14	/	/	PUNCT	,	_	15	cc	_	SpaceAfter=No
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	conj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	able	able	ADJ	JJ	Degree=Pos	11	ccomp	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	deal	deal	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+20	with	with	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	amount	amount	NOUN	NN	Number=Sing	19	obl	_	_
+23	of	of	ADP	IN	_	25	case	_	_
+24	school	school	NOUN	NN	Number=Sing	25	compound	_	_
+25	work	work	NOUN	NN	Number=Sing	22	nmod	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	_
+28	good	good	ADJ	JJ	Degree=Pos	30	amod	_	_
+29	time	time	NOUN	NN	Number=Sing	30	compound	_	_
+30	management	management	NOUN	NN	Number=Sing	27	obj	_	_
+31	before	before	SCONJ	IN	_	35	mark	_	_
+32	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	SpaceAfter=No
+33	/	/	PUNCT	,	_	34	cc	_	SpaceAfter=No
+34	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	conj	_	_
+35	decides	decide	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	_
+36	to	to	PART	TO	_	37	mark	_	_
+37	commit	commit	VERB	VB	VerbForm=Inf	35	xcomp	_	_
+38	to	to	ADP	IN	_	43	case	_	_
+39	a	a	DET	DT	Definite=Ind|PronType=Art	43	det	_	_
+40	part	part	NOUN	NN	Number=Sing	42	compound	_	SpaceAfter=No
+41	-	-	PUNCT	HYPH	_	42	punct	_	SpaceAfter=No
+42	time	time	NOUN	NN	Number=Sing	43	compound	_	_
+43	job	job	NOUN	NN	Number=Sing	37	obl	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 8
+# text = For example, I had a part time job when I was in NUS year 1.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+7	part	part	NOUN	NN	Number=Sing	8	compound	_	_
+8	time	time	NOUN	NN	Number=Sing	9	compound	_	_
+9	job	job	NOUN	NN	Number=Sing	5	obj	_	_
+10	when	when	ADV	WRB	PronType=Int	15	mark	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	NUS	NUS	PROPN	NNP	Number=Sing	15	compound	_	_
+15	year	year	NOUN	NN	Number=Sing	5	advcl	_	_
+16	1	1	NUM	CD	NumType=Card	15	nummod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = I realized that my grades actually suffered for the first semester because I was too preoccupied with my part time job.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	realized	realize	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	7	mark	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	grades	grade	NOUN	NNS	Number=Plur	7	nsubj	_	_
+6	actually	actually	ADV	RB	_	7	advmod	_	_
+7	suffered	suffer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+8	for	for	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	11	amod	_	_
+11	semester	semester	NOUN	NN	Number=Sing	7	obl	_	_
+12	because	because	SCONJ	IN	_	16	mark	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+15	too	too	ADV	RB	_	16	advmod	_	_
+16	preoccupied	preoccupied	ADJ	JJ	Degree=Pos	7	advcl	_	_
+17	with	with	ADP	IN	_	21	case	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+19	part	part	NOUN	NN	Number=Sing	20	compound	_	_
+20	time	time	NOUN	NN	Number=Sing	21	compound	_	_
+21	job	job	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = Although it was a job at a bookstore and I enjoyed working there and interacting with my colleagues, I had to make a decision to quit the job.
+1	Although	although	SCONJ	IN	_	5	mark	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	job	job	NOUN	NN	Number=Sing	21	advcl	_	_
+6	at	at	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	bookstore	bookstore	NOUN	NN	Number=Sing	5	nmod	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	enjoyed	enjoy	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+12	working	work	VERB	VBG	VerbForm=Ger	11	xcomp	_	_
+13	there	there	ADV	RB	PronType=Dem	12	advmod	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	interacting	interact	VERB	VBG	VerbForm=Ger	12	conj	_	_
+16	with	with	ADP	IN	_	18	case	_	_
+17	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	colleagues	colleague	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	make	make	VERB	VB	VerbForm=Inf	21	xcomp	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	decision	decision	NOUN	NN	Number=Sing	23	obj	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	quit	quit	VERB	VB	VerbForm=Inf	23	xcomp	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	job	job	NOUN	NN	Number=Sing	27	obj	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	21	punct	_	_
+
+# sent_id = 11
+# text = It was a job that was important to me because I do not receive any allowances from my parents, hence I had to make money on my own in order to purchase school books, afford transportation and daily expenses.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	job	job	NOUN	NN	Number=Sing	0	root	_	_
+5	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+7	important	important	ADJ	JJ	Degree=Pos	4	acl:relcl	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+10	because	because	SCONJ	IN	_	14	mark	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+12	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	not	not	PART	RB	_	14	advmod	_	_
+14	receive	receive	VERB	VB	VerbForm=Inf	7	advcl	_	_
+15	any	any	DET	DT	_	16	det	_	_
+16	allowances	allowances	NOUN	NNS	Number=Plur	14	obj	_	_
+17	from	from	ADP	IN	_	19	case	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	parents	parent	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	4	punct	_	_
+21	hence	hence	ADV	RB	_	23	advmod	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+23	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	make	make	VERB	VB	VerbForm=Inf	23	xcomp	_	_
+26	money	money	NOUN	NN	Number=Sing	25	obj	_	_
+27	on	on	ADP	IN	_	29	case	_	_
+28	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	own	own	ADJ	JJ	Degree=Pos	25	obl	_	_
+30	in	in	ADP	IN	_	33	mark	_	_
+31	order	order	NOUN	NN	Number=Sing	30	fixed	_	_
+32	to	to	PART	TO	_	33	mark	_	_
+33	purchase	purchase	VERB	VB	VerbForm=Inf	25	advcl	_	_
+34	school	school	NOUN	NN	Number=Sing	35	compound	_	_
+35	books	book	NOUN	NNS	Number=Plur	33	obj	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	37	punct	_	_
+37	afford	afford	VERB	VB	VerbForm=Inf	4	conj	_	_
+38	transportation	transportation	NOUN	NN	Number=Sing	37	obj	_	_
+39	and	and	CCONJ	CC	_	41	cc	_	_
+40	daily	daily	ADJ	JJ	Degree=Pos	41	amod	_	_
+41	expenses	expense	NOUN	NNS	Number=Plur	38	conj	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 12
+# text = Fortunately, I was eligible to apply for bursaries so my life is much easier.
+1	Fortunately	fortunately	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	eligible	eligible	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	apply	apply	VERB	VB	VerbForm=Inf	5	advcl	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	bursaries	bursary	NOUN	NNS	Number=Plur	7	obl	_	_
+10	so	so	ADV	RB	_	15	advmod	_	_
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	life	life	NOUN	NN	Number=Sing	15	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	much	much	ADV	RB	_	15	advmod	_	_
+15	easier	easier	ADJ	JJR	Degree=Cmp	7	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 13
+# text = I can't wait to graduate so I can get a full time job and support my family!
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	ca	can	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	wait	wait	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	graduate	graduate	VERB	VB	VerbForm=Inf	4	advcl	_	_
+7	so	so	SCONJ	IN	_	10	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	can	can	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	get	get	VERB	VB	VerbForm=Inf	6	advcl	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+12	full	full	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	time	time	NOUN	NN	Number=Sing	14	compound	_	_
+14	job	job	NOUN	NN	Number=Sing	10	obj	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	support	support	VERB	VB	VerbForm=Inf	10	conj	_	_
+17	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	family	family	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+19	!	!	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

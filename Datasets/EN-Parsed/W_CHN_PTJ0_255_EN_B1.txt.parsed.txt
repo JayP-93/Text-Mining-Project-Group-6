@@ -1,0 +1,356 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_CHN_PTJ0_255_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿For what reasons do we go in to university?
+1	﻿For	﻿For	SCONJ	IN	_	6	mark	_	_
+2	what	what	PRON	WP	PronType=Int	3	det	_	_
+3	reasons	reason	NOUN	NNS	Number=Plur	6	obj	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+6	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	university	university	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Some students are gifted talents in science, and they love academic research out of nature and want to spend their life in this honorable thing.
+1	Some	some	DET	DT	_	2	det	_	_
+2	students	student	NOUN	NNS	Number=Plur	4	nsubj:pass	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	gifted	gif	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	talents	talent	NOUN	NNS	Number=Plur	4	conj	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	science	science	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+11	love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+12	academic	academic	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	research	research	NOUN	NN	Number=Sing	11	obj	_	_
+14	out	out	ADP	IN	_	16	case	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	nature	nature	NOUN	NN	Number=Sing	13	nmod	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	spend	spend	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+21	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	life	life	NOUN	NN	Number=Sing	20	obj	_	_
+23	in	in	ADP	IN	_	26	case	_	_
+24	this	this	DET	DT	Number=Sing|PronType=Dem	26	det	_	_
+25	honorable	honorable	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	thing	thing	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = But for most of us, we go to schools because we want a promising future.
+1	But	but	CCONJ	CC	_	8	cc	_	_
+2	for	for	ADP	IN	_	3	case	_	_
+3	most	most	ADJ	JJS	Degree=Sup	8	obl	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+8	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	schools	school	NOUN	NNS	Number=Plur	8	obl	_	_
+11	because	because	SCONJ	IN	_	13	mark	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+13	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	promising	promising	NOUN	NN	Number=Sing	16	compound	_	_
+16	future	future	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 4
+# text = Because of this motivation, we come to university for higher education, to prepare for our coming career.
+1	Because	because	ADP	IN	_	4	case	_	_
+2	of	of	ADP	IN	_	1	fixed	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	motivation	motivation	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	university	university	NOUN	NN	Number=Sing	7	obl	_	_
+10	for	for	ADP	IN	_	12	case	_	_
+11	higher	higher	ADJ	JJR	Degree=Cmp	12	amod	_	_
+12	education	education	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	7	punct	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	prepare	prepare	VERB	VB	VerbForm=Inf	7	advcl	_	_
+16	for	for	ADP	IN	_	19	case	_	_
+17	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+18	coming	come	VERB	VBG	VerbForm=Ger	19	amod	_	_
+19	career	career	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = So, if we want to learn some survival skills in college, then it is important for us to take a part time job outside the campus.
+1	So	so	ADV	RB	_	17	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	17	punct	_	_
+3	if	if	SCONJ	IN	_	5	mark	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+5	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	learn	learn	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	some	some	DET	DT	_	10	det	_	_
+9	survival	survival	NOUN	NN	Number=Sing	10	compound	_	_
+10	skills	skill	NOUN	NNS	Number=Plur	7	obj	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	college	college	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	then	then	ADV	RB	PronType=Dem	17	advmod	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+18	for	for	SCONJ	IN	_	21	mark	_	_
+19	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	take	take	VERB	VB	VerbForm=Inf	17	csubj	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+23	part	part	NOUN	NN	Number=Sing	24	compound	_	_
+24	time	time	NOUN	NN	Number=Sing	25	compound	_	_
+25	job	job	NOUN	NN	Number=Sing	21	obj	_	_
+26	outside	outside	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	campus	campus	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 6
+# text = Here are some reasons below.
+1	Here	here	ADV	RB	PronType=Dem	0	root	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	some	some	DET	DT	_	4	det	_	_
+4	reasons	reason	NOUN	NNS	Number=Plur	1	nsubj	_	_
+5	below	below	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = First and foremost, what we learn in schools are just some theories.
+1	First	first	ADJ	JJ	Degree=Pos|NumType=Ord	0	root	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	foremost	foremost	ADJ	JJ	Degree=Pos	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	what	what	PRON	WP	PronType=Int	13	nsubj	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	learn	learn	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	schools	school	NOUN	NNS	Number=Plur	7	obl	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	just	just	ADV	RB	_	13	advmod	_	_
+12	some	some	DET	DT	_	13	det	_	_
+13	theories	theory	NOUN	NNS	Number=Plur	1	parataxis	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 8
+# text = Only after we apply them in social practice can we properly handle them.
+1	Only	only	ADV	RB	_	4	advmod	_	_
+2	after	after	SCONJ	IN	_	4	mark	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	apply	apply	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	social	social	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	practice	practice	NOUN	NN	Number=Sing	4	obl	_	_
+9	can	can	AUX	MD	VerbForm=Fin	12	aux	_	_
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+11	properly	properly	ADV	RB	_	12	advmod	_	_
+12	handle	handle	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 9
+# text = So part time job will help us enhance our college performance.
+1	So	so	ADV	RB	_	6	advmod	_	_
+2	part	part	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	time	time	NOUN	NN	Number=Sing	4	compound	_	_
+4	job	job	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	help	help	VERB	VB	VerbForm=Inf	0	root	_	_
+7	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	obj	_	_
+8	enhance	enhance	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	college	college	NOUN	NN	Number=Sing	11	compound	_	_
+11	performance	performance	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 10
+# text = As for me, a student with major in finance, I really want an internship of famous accounting companies, like the winter internship of ****.
+1	As	as	ADP	IN	_	3	case	_	_
+2	for	for	ADP	IN	_	1	fixed	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	student	student	NOUN	NN	Number=Sing	3	conj	_	_
+7	with	with	ADP	IN	_	10	case	_	_
+8	major	major	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	finance	finance	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	really	really	ADV	RB	_	14	advmod	_	_
+14	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	an	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	internship	internship	NOUN	NN	Number=Sing	14	obj	_	_
+17	of	of	ADP	IN	_	20	case	_	_
+18	famous	famous	ADJ	JJ	Degree=Pos	20	amod	_	_
+19	accounting	accounting	NOUN	NN	Number=Sing	20	compound	_	_
+20	companies	company	NOUN	NNS	Number=Plur	16	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	14	punct	_	_
+22	like	like	ADP	IN	_	25	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+24	winter	winter	NOUN	NN	Number=Sing	25	compound	_	_
+25	internship	internship	NOUN	NN	Number=Sing	14	obl	_	_
+26	of	of	ADP	IN	_	25	nmod	_	_
+27	****.	****.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 11
+# text = After working in such a company, I would have a better idea of what I am interesting in and what is needed much attention in my study process.
+1	After	after	SCONJ	IN	_	2	mark	_	_
+2	working	work	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+3	in	in	ADP	IN	_	6	case	_	_
+4	such	such	DET	PDT	_	6	det:predet	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	company	company	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	would	would	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	better	better	ADJ	JJR	Degree=Cmp	13	amod	_	_
+13	idea	idea	NOUN	NN	Number=Sing	10	obj	_	_
+14	of	of	SCONJ	IN	_	15	case	_	_
+15	what	what	PRON	WP	PronType=Int	13	nmod	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+17	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	interesting	interesting	ADJ	JJ	Degree=Pos	15	acl:relcl	_	_
+19	in	in	ADP	IN	_	18	obl	_	_
+20	and	and	CCONJ	CC	_	23	cc	_	_
+21	what	what	PRON	WP	PronType=Int	23	nsubj:pass	_	_
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	_	_
+23	needed	need	VERB	VBN	Tense=Past|VerbForm=Part	10	conj	_	_
+24	much	much	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	attention	attention	NOUN	NN	Number=Sing	23	obj	_	_
+26	in	in	ADP	IN	_	29	case	_	_
+27	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+28	study	study	NOUN	NN	Number=Sing	29	compound	_	_
+29	process	process	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 12
+# text = Secondly, doing part time job will provide one with better preparation in his future career and make him more competent in the job interviewing.
+1	Secondly	secondly	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	doing	do	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+4	part	part	NOUN	NN	Number=Sing	5	compound	_	_
+5	time	time	NOUN	NN	Number=Sing	6	compound	_	_
+6	job	job	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	will	will	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	provide	provide	VERB	VB	VerbForm=Inf	0	root	_	_
+9	one	one	NUM	CD	NumType=Card	8	obj	_	_
+10	with	with	ADP	IN	_	12	case	_	_
+11	better	better	ADJ	JJR	Degree=Cmp	12	amod	_	_
+12	preparation	preparation	NOUN	NN	Number=Sing	9	nmod	_	_
+13	in	in	ADP	IN	_	16	case	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+15	future	future	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	career	career	NOUN	NN	Number=Sing	8	obl	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	make	make	VERB	VB	VerbForm=Inf	8	conj	_	_
+19	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+20	more	more	ADV	RBR	_	21	advmod	_	_
+21	competent	competent	ADJ	JJ	Degree=Pos	18	xcomp	_	_
+22	in	in	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	job	job	NOUN	NN	Number=Sing	21	obl	_	_
+25	interviewing	interview	VERB	VBG	VerbForm=Ger	24	acl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 13
+# text = Companies would always like applicant with professional experience.
+1	Companies	company	NOUN	NNS	Number=Plur	4	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	always	always	ADV	RB	_	4	advmod	_	_
+4	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+5	applicant	applicant	NOUN	NN	Number=Sing	4	obj	_	_
+6	with	with	ADP	IN	_	8	case	_	_
+7	professional	professional	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	experience	experience	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 14
+# text = It is because the part time job would not only equip him with professional knowledge, but also make him more mature and more dependable.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	because	because	SCONJ	IN	_	11	mark	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+5	part	part	NOUN	NN	Number=Sing	6	compound	_	_
+6	time	time	NOUN	NN	Number=Sing	7	compound	_	_
+7	job	job	NOUN	NN	Number=Sing	11	nsubj	_	_
+8	would	would	AUX	MD	VerbForm=Fin	11	aux	_	_
+9	not	not	PART	RB	_	11	advmod	_	_
+10	only	only	ADV	RB	_	11	advmod	_	_
+11	equip	equip	VERB	VB	VerbForm=Inf	2	advcl	_	_
+12	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	with	with	ADP	IN	_	15	case	_	_
+14	professional	professional	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	knowledge	knowledge	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	but	but	CCONJ	CC	_	19	cc	_	_
+18	also	also	ADV	RB	_	19	advmod	_	_
+19	make	make	VERB	VB	VerbForm=Inf	2	conj	_	_
+20	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	more	more	ADV	RBR	_	22	advmod	_	_
+22	mature	mature	ADJ	JJ	Degree=Pos	19	xcomp	_	_
+23	and	and	CCONJ	CC	_	25	cc	_	_
+24	more	more	ADV	RBR	_	25	advmod	_	_
+25	dependable	dependable	ADJ	JJ	Degree=Pos	22	conj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 15
+# text = In conclusion, a part time job is much meaningful to a student who wants to make advanced preparation for career.
+1	In	in	ADP	IN	_	2	case	_	_
+2	conclusion	conclusion	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	10	punct	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+5	part	part	NOUN	NN	Number=Sing	6	compound	_	_
+6	time	time	NOUN	NN	Number=Sing	7	compound	_	_
+7	job	job	NOUN	NN	Number=Sing	10	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	much	much	ADV	RB	_	10	advmod	_	_
+10	meaningful	meaningful	ADJ	JJ	Degree=Pos	0	root	_	_
+11	to	to	ADP	IN	_	13	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	student	student	NOUN	NN	Number=Sing	10	obl	_	_
+14	who	who	PRON	WP	PronType=Rel	15	nsubj	_	_
+15	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	make	make	VERB	VB	VerbForm=Inf	15	xcomp	_	_
+18	advanced	advanced	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	preparation	preparation	NOUN	NN	Number=Sing	17	obj	_	_
+20	for	for	ADP	IN	_	21	case	_	_
+21	career	career	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 16
+# text = The part time job will enhance his academic performance and expand the professional experience as well.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	part	part	NOUN	NN	Number=Sing	3	compound	_	_
+3	time	time	NOUN	NN	Number=Sing	4	compound	_	_
+4	job	job	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	enhance	enhance	VERB	VB	VerbForm=Inf	0	root	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+8	academic	academic	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	performance	performance	NOUN	NN	Number=Sing	6	obj	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	expand	expand	VERB	VB	VerbForm=Inf	6	conj	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	professional	professional	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	experience	experience	NOUN	NN	Number=Sing	11	obj	_	_
+15	as	as	ADV	RB	_	11	advmod	_	_
+16	well	well	ADV	RB	Degree=Pos	15	fixed	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

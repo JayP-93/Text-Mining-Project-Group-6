@@ -1,0 +1,305 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_101_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking damages your health.
+1	﻿Smoking	﻿Smok	VERB	VBG	VerbForm=Ger	2	amod	_	_
+2	damages	damage	NOUN	NNS	Number=Plur	0	root	_	_
+3	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	health	health	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = But second-hand smoking more harmful than smoking.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+4	hand	hand	NOUN	NN	Number=Sing	5	compound	_	_
+5	smoking	smoke	NOUN	NN	Number=Sing	0	root	_	_
+6	more	more	ADV	RBR	_	7	advmod	_	_
+7	harmful	harmful	ADJ	JJ	Degree=Pos	5	amod	_	_
+8	than	than	ADP	IN	_	9	case	_	_
+9	smoking	smoke	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = And second-hand smoking more than smoking is many died by cancer of the lungs.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+4	hand	hand	NOUN	NN	Number=Sing	5	compound	_	_
+5	smoking	smoke	NOUN	NN	Number=Sing	0	root	_	_
+6	more	more	ADJ	JJR	Degree=Cmp	5	amod	_	_
+7	than	than	SCONJ	IN	_	11	mark	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+10	many	many	ADJ	JJ	Degree=Pos	11	advmod	_	_
+11	died	die	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	_	_
+12	by	by	ADP	IN	_	13	case	_	_
+13	cancer	cancer	NOUN	NN	Number=Sing	11	obl	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	lungs	lung	NOUN	NNS	Number=Plur	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Therefore I think prohibition of smoking is very important.
+1	Therefore	therefore	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	prohibition	prohibition	NOUN	NN	Number=Sing	9	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	4	nmod	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	very	very	ADV	RB	_	9	advmod	_	_
+9	important	important	ADJ	JJ	Degree=Pos	3	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Many People are damaged by smoker.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	People	people	NOUN	NNS	Number=Plur	4	nsubj:pass	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	damaged	damage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	by	by	ADP	IN	_	6	case	_	_
+6	smoker	smoker	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = So I think Government make smoking area or non-smoking section in the school.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Government	government	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	smoking	smoke	NOUN	NN	Number=Sing	7	compound	_	_
+7	area	area	NOUN	NN	Number=Sing	5	obj	_	_
+8	or	or	CCONJ	CC	_	9	cc	_	_
+9	non-smoking	non-smok	VERB	VBG	VerbForm=Ger	5	conj	_	_
+10	section	section	NOUN	NN	Number=Sing	9	obj	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	school	school	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = It decided on the second-hand smoke damage to the people will decrease.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	decided	decide	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	on	on	ADP	IN	_	9	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+5	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	7	amod	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	hand	hand	NOUN	NN	Number=Sing	9	compound	_	_
+8	smoke	smoke	NOUN	NN	Number=Sing	9	compound	_	_
+9	damage	damage	NOUN	NN	Number=Sing	2	obl	_	_
+10	to	to	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	people	people	NOUN	NNS	Number=Plur	9	nmod	_	_
+13	will	will	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	decrease	decrease	VERB	VB	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Then healthier people will be many.
+1	Then	then	ADV	RB	PronType=Dem	2	advmod	_	_
+2	healthier	healthier	ADJ	JJR	Degree=Cmp	3	amod	_	_
+3	people	people	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+6	many	many	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 9
+# text = Also, my carelessness is should be no damage with others.
+1	Also	also	ADV	RB	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	9	punct	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	carelessness	carelessness	NOUN	NN	Number=Sing	9	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+6	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+8	no	no	DET	DT	_	9	det	_	_
+9	damage	damage	NOUN	NN	Number=Sing	0	root	_	_
+10	with	with	ADP	IN	_	11	case	_	_
+11	others	other	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 10
+# text = Stopping smoking is not so difficult.
+1	Stopping	stop	NOUN	NN	Number=Sing	2	compound	_	_
+2	smoking	smoking	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	not	not	PART	RB	_	6	advmod	_	_
+5	so	so	ADV	RB	_	6	advmod	_	_
+6	difficult	difficult	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 11
+# text = If you have confidence, you can do anything.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+4	confidence	confidence	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+7	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+9	anything	anything	PRON	NN	Number=Sing	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 12
+# text = To be frankly with this essay, it's harder to quit smoking than to quit drinking.
+1	To	to	PART	TO	_	3	mark	_	_
+2	be	be	AUX	VB	VerbForm=Inf	3	cop	_	_
+3	frankly	frankly	ADV	RB	_	10	advmod	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	essay	essay	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	harder	harder	ADJ	JJR	Degree=Cmp	0	root	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	quit	quit	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+13	smoking	smoke	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+14	than	than	ADP	IN	_	17	case	_	_
+15	to	to	ADP	IN	_	17	case	_	_
+16	quit	quit	NOUN	NN	Number=Sing	17	compound	_	_
+17	drinking	drink	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 13
+# text = Just I think.
+1	Just	just	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 14
+# text = Because Drink alcohol is feeling better sometimes but Smoking cigarette is disgusting.
+1	Because	because	SCONJ	IN	_	5	mark	_	_
+2	Drink	drink	NOUN	NN	Number=Sing	3	compound	_	_
+3	alcohol	alcohol	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	feeling	feel	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	better	better	ADJ	JJR	Degree=Cmp	5	xcomp	_	_
+7	sometimes	sometimes	ADV	RB	_	5	advmod	_	_
+8	but	but	CCONJ	CC	_	12	cc	_	_
+9	Smoking	smoke	VERB	VBG	VerbForm=Ger	10	amod	_	_
+10	cigarette	cigarette	NOUN	NN	Number=Sing	12	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	disgusting	disgust	ADJ	JJ	Degree=Pos	5	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 15
+# text = Exercising, eating a healthy diet, and stopping smoking, researchers have long known that doing each of these protects the heart.
+1	Exercising	Exercise	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	eating	eat	VERB	VBG	VerbForm=Ger	1	conj	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	healthy	healthy	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	diet	diet	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	15	punct	_	_
+8	and	and	CCONJ	CC	_	15	cc	_	_
+9	stopping	stop	NOUN	NN	Number=Sing	10	compound	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	15	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	researchers	researchers	NOUN	NNS	Number=Plur	15	nsubj	_	_
+13	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	long	long	ADV	RB	Degree=Pos	15	advmod	_	_
+15	known	know	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+16	that	that	SCONJ	IN	_	17	mark	_	_
+17	doing	do	VERB	VBG	VerbForm=Ger	15	ccomp	_	_
+18	each	each	DET	DT	_	23	det:predet	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	these	these	DET	DT	Number=Plur|PronType=Dem	21	det	_	_
+21	protects	protect	NOUN	NNS	Number=Plur	18	nmod	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	heart	heart	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 16
+# text = Most important thing is stop smoking.
+1	Most	most	ADJ	JJS	Degree=Sup	3	amod	_	_
+2	important	important	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	thing	thing	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	stop	stop	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 17
+# text = Nowadays many teenagers smoke cigarette, so, the campaign against smoking should be aimed at teenagers.
+1	Nowadays	nowadays	ADV	RB	_	2	advmod	_	_
+2	many	many	ADJ	JJ	Degree=Pos	5	amod	_	_
+3	teenagers	teenager	NOUN	NNS	Number=Plur	5	compound	_	_
+4	smoke	smoke	NOUN	NN	Number=Sing	5	compound	_	_
+5	cigarette	cigarette	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	so	so	ADV	RB	_	15	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	15	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	campaign	campaign	NOUN	NN	Number=Sing	15	nsubj:pass	_	_
+11	against	against	ADP	IN	_	12	case	_	_
+12	smoking	smoking	NOUN	NN	Number=Sing	10	nmod	_	_
+13	should	should	AUX	MD	VerbForm=Fin	15	aux	_	_
+14	be	be	AUX	VB	VerbForm=Inf	15	aux:pass	_	_
+15	aimed	aim	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	parataxis	_	_
+16	at	at	ADP	IN	_	17	case	_	_
+17	teenagers	teenager	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 18
+# text = And Korea's government has plans to extend the no-smoking area.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	Korea	Korea	PROPN	NNP	Number=Sing	4	nmod:poss	_	SpaceAfter=No
+3	's	's	PART	POS	_	2	case	_	_
+4	government	government	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	plans	plan	NOUN	NNS	Number=Plur	5	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	extend	extend	VERB	VB	VerbForm=Inf	6	acl	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+10	no-	no-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+11	smoking	smoking	NOUN	NN	Number=Sing	12	compound	_	_
+12	area	area	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 19
+# text = Anti-smoking information is one of them.
+1	Anti-smoking	Anti-smoking	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	information	information	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	one	one	NUM	CD	NumType=Card	0	root	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 20
+# text = But there's a lot of anti-smoking information floating around out there, and people still smoke.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	there	there	PRON	EX	_	3	expl	_	SpaceAfter=No
+3	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	lot	lot	NOUN	NN	Number=Sing	3	nsubj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	anti-smoking	anti-smoking	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	information	information	NOUN	NN	Number=Sing	5	nmod	_	_
+9	floating	float	VERB	VBG	VerbForm=Ger	5	acl	_	_
+10	around	around	ADV	RB	_	11	advmod	_	_
+11	out	out	ADV	RB	_	9	advmod	_	_
+12	there	there	ADV	RB	PronType=Dem	9	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	people	people	NOUN	NNS	Number=Plur	17	nsubj	_	_
+16	still	still	ADV	RB	_	17	advmod	_	_
+17	smoke	smoke	VERB	VB	VerbForm=Inf	3	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 21
+# text = I hate them.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hate	hate	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,349 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_THA_SMK0_032_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿I agree with it that all restaurants should ban smoking.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	with	with	ADP	IN	_	4	case	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5	that	that	SCONJ	IN	_	9	mark	_	_
+6	all	all	DET	DT	_	7	det	_	_
+7	restaurants	restaurant	NOUN	NNS	Number=Plur	9	nsubj	_	_
+8	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	ban	ban	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+10	smoking	smoke	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Actually, not should but must ban smoking.
+1	Actually	actually	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	should	should	AUX	MD	VerbForm=Fin	0	root	_	_
+5	but	but	CCONJ	CC	_	7	cc	_	_
+6	must	must	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	ban	ban	VERB	VB	VerbForm=Inf	4	conj	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = But most of people they still don't care at all.
+1	But	but	CCONJ	CC	_	9	cc	_	_
+2	most	most	ADJ	JJS	Degree=Sup	9	advmod	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	people	people	NOUN	NNS	Number=Plur	2	nmod	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+6	still	still	ADV	RB	_	9	advmod	_	_
+7	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
+8	n't	not	PART	RB	_	9	advmod	_	_
+9	care	care	VERB	VB	VerbForm=Inf	0	root	_	_
+10	at	at	ADP	IN	_	11	case	_	_
+11	all	all	DET	DT	_	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = Majority of Thai people smoked 4 out of 10.
+1	Majority	majority	NOUN	NN	Number=Sing	5	nsubj	_	_
+2	of	of	ADP	IN	_	4	case	_	_
+3	Thai	thai	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	people	people	NOUN	NNS	Number=Plur	1	nmod	_	_
+5	smoked	smoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	4	4	NUM	CD	NumType=Card	5	obj	_	_
+7	out	out	ADP	IN	_	9	case	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	10	10	NUM	CD	NumType=Card	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = It is serious problem in Thailand.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	serious	serious	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	problem	problem	NOUN	NN	Number=Sing	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	Thailand	Thailand	PROPN	NNP	Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = The smoking problem getting worse and worse every year.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	smoking	smoke	NOUN	NN	Number=Sing	3	compound	_	_
+3	problem	problem	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	getting	get	VERB	VBG	VerbForm=Ger	5	aux	_	_
+5	worse	worse	ADJ	JJR	Degree=Cmp	0	root	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	worse	worse	ADJ	JJR	Degree=Cmp	5	conj	_	_
+8	every	every	DET	DT	_	9	det	_	_
+9	year	year	NOUN	NN	Number=Sing	7	obl:tmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 7
+# text = Kids that around thirteen years old start to smoke because member of their family smoked.
+1	Kids	kid	NOUN	NNS	Number=Plur	0	root	_	_
+2	that	that	SCONJ	IN	_	7	mark	_	_
+3	around	around	ADV	RB	_	4	advmod	_	_
+4	thirteen	thirteen	NUM	CD	NumType=Card	5	nummod	_	_
+5	years	year	NOUN	NNS	Number=Plur	7	obl:npmod	_	_
+6	old	old	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	start	start	NOUN	NN	Number=Sing	1	acl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	smoke	smoke	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	because	because	SCONJ	IN	_	15	mark	_	_
+11	member	member	NOUN	NN	Number=Sing	15	nsubj	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	family	family	NOUN	NN	Number=Sing	11	nmod	_	_
+15	smoked	smoke	VERB	VBN	Tense=Past|VerbForm=Part	9	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 8
+# text = The law is so weak.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	law	law	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	so	so	ADV	RB	_	5	advmod	_	_
+5	weak	weak	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = Nobody cared or obey the law I think Thailand should be more serious about this problem since the percentage of people died from cancer are increased.
+1	Nobody	nobody	PRON	NN	Number=Sing	2	nsubj	_	_
+2	cared	care	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	or	or	CCONJ	CC	_	4	cc	_	_
+4	obey	obey	VERB	VB	VerbForm=Inf	2	conj	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	law	law	NOUN	NN	Number=Sing	26	nsubj:pass	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	Thailand	Thailand	PROPN	NNP	Number=Sing	13	nsubj	_	_
+10	should	should	AUX	MD	VerbForm=Fin	13	aux	_	_
+11	be	be	AUX	VB	VerbForm=Inf	13	cop	_	_
+12	more	more	ADV	RBR	_	13	advmod	_	_
+13	serious	serious	ADJ	JJ	Degree=Pos	8	ccomp	_	_
+14	about	about	ADP	IN	_	16	case	_	_
+15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+16	problem	problem	NOUN	NN	Number=Sing	13	obl	_	_
+17	since	since	SCONJ	IN	_	22	mark	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	percentage	percentage	NOUN	NN	Number=Sing	22	nsubj	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	people	people	NOUN	NNS	Number=Plur	19	nmod	_	_
+22	died	die	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	_
+23	from	from	ADP	IN	_	24	case	_	_
+24	cancer	cancer	NOUN	NN	Number=Sing	22	obl	_	_
+25	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	26	aux:pass	_	_
+26	increased	increase	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = The law just wrote on the paper and announced for looking good but in practical no one follow the law.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	law	law	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	just	just	ADV	RB	_	4	advmod	_	_
+4	wrote	write	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	on	on	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	paper	paper	NOUN	NN	Number=Sing	4	obl	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	announced	announce	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+10	for	for	SCONJ	IN	_	11	mark	_	_
+11	looking	look	VERB	VBG	VerbForm=Ger	9	acl	_	_
+12	good	good	ADJ	JJ	Degree=Pos	11	xcomp	_	_
+13	but	but	CCONJ	CC	_	17	cc	_	_
+14	in	in	ADP	IN	_	17	case	_	_
+15	practical	practical	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	no	no	DET	DT	_	17	det	_	_
+17	one	one	NOUN	NN	Number=Sing	4	conj	_	_
+18	follow	follow	SCONJ	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	law	law	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = This is what happen in Thailand.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	what	what	PRON	WP	PronType=Int	0	root	_	_
+4	happen	happen	VERB	VB	VerbForm=Inf	3	acl:relcl	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	Thailand	Thailand	PROPN	NNP	Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 12
+# text = We ask for many thing, we wish to be on top in this area but it can't be because we don't respect the rules.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	ask	ask	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	for	for	ADP	IN	_	5	case	_	_
+4	many	many	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	thing	thing	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+8	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+9	to	to	PART	TO	_	12	mark	_	_
+10	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+11	on	on	ADP	IN	_	12	case	_	_
+12	top	top	NOUN	NN	Number=Sing	8	xcomp	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	area	area	NOUN	NN	Number=Sing	12	nmod	_	_
+16	but	but	CCONJ	CC	_	25	cc	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+18	ca	can	AUX	MD	VerbForm=Fin	25	aux	_	SpaceAfter=No
+19	n't	not	PART	RB	_	25	advmod	_	_
+20	be	be	AUX	VB	VerbForm=Inf	25	cop	_	_
+21	because	because	SCONJ	IN	_	25	mark	_	_
+22	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	_
+23	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	SpaceAfter=No
+24	n't	not	PART	RB	_	25	advmod	_	_
+25	respect	respect	VERB	VB	VerbForm=Inf	2	conj	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	rules	rule	NOUN	NNS	Number=Plur	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 13
+# text = When we got arrested we just use money or refer to the family that is very famous.
+1	When	when	ADV	WRB	PronType=Int	4	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj:pass	_	_
+3	got	get	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	arrested	arrest	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+6	just	just	ADV	RB	_	7	advmod	_	_
+7	use	use	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	money	money	NOUN	NN	Number=Sing	7	obj	_	_
+9	or	or	CCONJ	CC	_	10	cc	_	_
+10	refer	refer	NOUN	NN	Number=Sing	8	conj	_	_
+11	to	to	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	family	family	NOUN	NN	Number=Sing	7	obl	_	_
+14	that	that	PRON	WDT	PronType=Rel	17	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	very	very	ADV	RB	_	17	advmod	_	_
+17	famous	famous	ADJ	JJ	Degree=Pos	13	acl:relcl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 14
+# text = So nothing happen.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	nothing	nothing	PRON	NN	Number=Sing	3	nsubj	_	_
+3	happen	happen	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 15
+# text = Why Thai people don't follow the law so we can be developed.
+1	Why	why	ADV	WRB	PronType=Int	2	advmod	_	_
+2	Thai	thai	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	people	people	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	n't	not	PART	RB	_	6	advmod	_	_
+6	follow	follow	VERB	VB	VerbForm=Inf	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	law	law	NOUN	NN	Number=Sing	6	obj	_	_
+9	so	so	SCONJ	IN	_	13	mark	_	_
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj:pass	_	_
+11	can	can	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	be	be	AUX	VB	VerbForm=Inf	13	aux:pass	_	_
+13	developed	develop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 16
+# text = People just do as their desire but not what social want.
+1	People	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	just	just	ADV	RB	_	3	advmod	_	_
+3	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	as	as	ADP	IN	_	6	case	_	_
+5	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	desire	desire	NOUN	NN	Number=Sing	3	obl	_	_
+7	but	but	CCONJ	CC	_	9	cc	_	_
+8	not	not	ADV	RB	_	9	advmod	_	_
+9	what	what	PRON	WP	PronType=Int	6	conj	_	_
+10	social	social	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 17
+# text = When people getting separate and don't care about the law, it is worse to stop them and to develop country.
+1	When	when	ADV	WRB	PronType=Int	4	mark	_	_
+2	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	getting	get	VERB	VBG	VerbForm=Ger	4	aux	_	_
+4	separate	separate	ADJ	JJ	Degree=Pos	15	advcl	_	_
+5	and	and	CCONJ	CC	_	8	cc	_	_
+6	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
+7	n't	not	PART	RB	_	8	advmod	_	_
+8	care	care	VERB	VB	VerbForm=Inf	4	conj	_	_
+9	about	about	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	law	law	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	expl	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	worse	worse	ADJ	JJR	Degree=Cmp	0	root	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	stop	stop	VERB	VB	VerbForm=Inf	15	csubj	_	_
+18	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	obj	_	_
+19	and	and	CCONJ	CC	_	17	cc	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	develop	develop	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+22	country	country	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 18
+# text = Please do something serious and start from our owns.
+1	Please	please	INTJ	UH	_	2	discourse	_	_
+2	do	do	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	something	something	PRON	NN	Number=Sing	2	obj	_	_
+4	serious	serious	ADJ	JJ	Degree=Pos	3	amod	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	start	start	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	from	from	ADP	IN	_	9	case	_	_
+8	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	owns	own	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 19
+# text = We can teach the followers and do as the model for them so all these problems can be solves.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	teach	teach	VERB	VB	VerbForm=Inf	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	followers	follower	NOUN	NNS	Number=Plur	3	obj	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	conj	_	_
+8	as	as	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	model	model	NOUN	NN	Number=Sing	3	obl	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	nmod	_	_
+13	so	so	ADV	RB	_	14	advmod	_	_
+14	all	all	ADV	RB	_	19	advmod	_	_
+15	these	these	DET	DT	Number=Plur|PronType=Dem	16	det	_	_
+16	problems	problem	NOUN	NNS	Number=Plur	19	nsubj	_	_
+17	can	can	AUX	MD	VerbForm=Fin	19	aux	_	_
+18	be	be	AUX	VB	VerbForm=Inf	19	cop	_	_
+19	solves	solve	NOUN	NNS	Number=Plur	3	parataxis	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 20
+# text = It is hard to ban smoking if people still don't care and even I agree with the topic to do.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	hard	hard	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	ban	ban	VERB	VB	VerbForm=Inf	3	csubj	_	_
+6	smoking	smoke	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+7	if	if	SCONJ	IN	_	12	mark	_	_
+8	people	people	NOUN	NNS	Number=Plur	12	nsubj	_	_
+9	still	still	ADV	RB	_	12	advmod	_	_
+10	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
+11	n't	not	PART	RB	_	12	advmod	_	_
+12	care	care	VERB	VB	VerbForm=Inf	6	advcl	_	_
+13	and	and	CCONJ	CC	_	16	cc	_	_
+14	even	even	ADV	RB	_	16	advmod	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	conj	_	_
+17	with	with	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	topic	topic	NOUN	NN	Number=Sing	16	obl	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	do	do	VERB	VB	VerbForm=Inf	19	acl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

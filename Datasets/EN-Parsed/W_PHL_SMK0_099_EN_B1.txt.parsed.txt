@@ -1,0 +1,291 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PHL_SMK0_099_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Cigarette smoking is dangerous to your health, a popular phrase exploited in almost every part of the world.
+1	﻿Cigarette	﻿Cigarette	NOUN	NN	Number=Sing	2	compound	_	_
+2	smoking	smoking	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	dangerous	dangerous	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	health	health	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	popular	popular	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	phrase	phrase	NOUN	NN	Number=Sing	4	parataxis	_	_
+12	exploited	exploit	VERB	VBN	Tense=Past|VerbForm=Part	11	acl	_	_
+13	in	in	ADP	IN	_	16	case	_	_
+14	almost	almost	ADV	RB	_	16	advmod	_	_
+15	every	every	DET	DT	_	16	det	_	_
+16	part	part	NOUN	NN	Number=Sing	12	obl	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	world	world	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = But does it really mean anything to people, especially to smokers?
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	really	really	ADV	RB	_	5	advmod	_	_
+5	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	anything	anything	PRON	NN	Number=Sing	5	obj	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	people	people	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	5	punct	_	_
+10	especially	especially	ADV	RB	_	12	advmod	_	_
+11	to	to	ADP	IN	_	12	case	_	_
+12	smokers	smoker	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+13	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Everybody knows that smoking is a serious cause of disease and in extreme cases, death.
+1	Everybody	everybody	PRON	NN	Number=Sing	2	nsubj	_	_
+2	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	serious	serious	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	cause	cause	NOUN	NN	Number=Sing	2	ccomp	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	disease	disease	NOUN	NN	Number=Sing	8	nmod	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	extreme	extreme	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	cases	case	NOUN	NNS	Number=Plur	8	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	death	death	NOUN	NN	Number=Sing	14	appos	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = That is why I wonder why people still gets lured and committed to it.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	why	why	ADV	WRB	PronType=Int	0	root	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	wonder	wonder	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	why	why	ADV	WRB	PronType=Int	9	advmod	_	_
+7	people	people	NOUN	NNS	Number=Plur	9	nsubj	_	_
+8	still	still	ADV	RB	_	9	advmod	_	_
+9	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+10	lured	lured	ADJ	JJ	Degree=Pos	9	xcomp	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	committed	commit	ADJ	JJ	Degree=Pos	10	conj	_	_
+13	to	to	ADP	IN	_	14	case	_	_
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = There are many to be put up as a reason for it but most probably, the implementation of a banning law is lacking.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	to	to	PART	TO	_	6	mark	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+6	put	put	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
+7	up	up	ADP	RP	_	6	compound:prt	_	_
+8	as	as	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	reason	reason	NOUN	NN	Number=Sing	6	obl	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nmod	_	_
+13	but	but	CCONJ	CC	_	24	cc	_	_
+14	most	most	ADV	RBS	_	15	advmod	_	_
+15	probably	probably	ADV	RB	_	24	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	24	punct	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	implementation	implementation	NOUN	NN	Number=Sing	24	nsubj	_	_
+19	of	of	ADP	IN	_	22	case	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+21	banning	banning	NOUN	NN	Number=Sing	22	compound	_	_
+22	law	law	NOUN	NN	Number=Sing	18	nmod	_	_
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	lacking	lack	VERB	VBG	Tense=Pres|VerbForm=Part	2	conj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Since we consider nicotine as being addicting, why not forbid it?
+1	Since	since	SCONJ	IN	_	3	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	consider	consider	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+4	nicotine	nicotine	NUM	CD	NumType=Card	3	obj	_	_
+5	as	as	SCONJ	IN	_	7	mark	_	_
+6	being	be	AUX	VBG	VerbForm=Ger	7	cop	_	_
+7	addicting	addict	ADJ	JJ	Degree=Pos	3	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	why	why	ADV	WRB	PronType=Int	11	advmod	_	_
+10	not	not	PART	RB	_	11	advmod	_	_
+11	forbid	forbid	VERB	VB	VerbForm=Inf	0	root	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+13	?	?	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 7
+# text = There is no good out of it, so why maintain it?
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	5	det	_	_
+4	good	good	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	out	out	NOUN	NN	Number=Sing	2	nsubj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	so	so	ADV	RB	_	11	advmod	_	_
+10	why	why	ADV	WRB	PronType=Int	11	advmod	_	_
+11	maintain	maintain	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+13	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = It'll be a difficult process to actually extinguish cigarettes but in a long run, it would benefit us in the highest essence.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+2	'll	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	difficult	difficult	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	process	process	NOUN	NN	Number=Sing	0	root	_	_
+7	to	to	PART	TO	_	9	mark	_	_
+8	actually	actually	ADV	RB	_	9	advmod	_	_
+9	extinguish	extinguish	VERB	VB	VerbForm=Inf	6	acl	_	_
+10	cigarettes	cigarette	NOUN	NNS	Number=Plur	9	obj	_	_
+11	but	but	CCONJ	CC	_	19	cc	_	_
+12	in	in	ADP	IN	_	15	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	long	long	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	run	run	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+18	would	would	AUX	MD	VerbForm=Fin	19	aux	_	_
+19	benefit	benefit	VERB	VB	VerbForm=Inf	9	conj	_	_
+20	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	19	obj	_	_
+21	in	in	ADP	IN	_	24	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	highest	highest	ADJ	JJS	Degree=Sup	24	amod	_	_
+24	essence	essence	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 9
+# text = Therefore, starting on a small scale would be advisable.
+1	Therefore	therefore	ADV	RB	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	10	punct	_	_
+3	starting	start	VERB	VBG	VerbForm=Ger	10	csubj	_	_
+4	on	on	ADP	IN	_	7	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	small	small	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	scale	scale	NOUN	NN	Number=Sing	3	obl	_	_
+8	would	would	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+10	advisable	advisable	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 10
+# text = Forbidding cigarettes from places where people tend to hang out like restaurants, is a great way to head start it.
+1	Forbidding	forbid	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	cigarettes	cigarette	NOUN	NNS	Number=Plur	1	obj	_	_
+3	from	from	ADP	IN	_	4	case	_	_
+4	places	place	NOUN	NNS	Number=Plur	1	obl	_	_
+5	where	where	ADV	WRB	PronType=Int	7	advmod	_	_
+6	people	people	NOUN	NNS	Number=Plur	7	nsubj	_	_
+7	tend	tend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	hang	hang	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	out	out	ADP	RP	_	9	compound:prt	_	_
+11	like	like	ADP	IN	_	12	case	_	_
+12	restaurants	restaurant	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	great	great	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	way	way	NOUN	NN	Number=Sing	7	conj	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	head	head	VERB	VB	VerbForm=Inf	17	acl	_	_
+20	start	start	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+21	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 11
+# text = Some people would always be irritated with others smoking their lungs out as they do their own business in certain establishments.
+1	Some	some	DET	DT	_	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	6	nsubj:pass	_	_
+3	would	would	AUX	MD	VerbForm=Fin	6	aux	_	_
+4	always	always	ADV	RB	_	6	advmod	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+6	irritated	irritate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	others	other	NOUN	NNS	Number=Plur	6	obl	_	_
+9	smoking	smoke	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+10	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	lungs	lung	NOUN	NNS	Number=Plur	9	obj	_	_
+12	out	out	ADP	RP	_	9	compound:prt	_	_
+13	as	as	SCONJ	IN	_	15	mark	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+15	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+16	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+17	own	own	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	business	business	NOUN	NN	Number=Sing	15	obj	_	_
+19	in	in	ADP	IN	_	21	case	_	_
+20	certain	certain	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	establishments	establishment	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 12
+# text = So if the cigarette ban would start in public places such as cafés and restaurants, it would help both the smokers and the non-smokers.
+1	So	so	ADV	RB	_	7	advmod	_	_
+2	if	if	SCONJ	IN	_	7	mark	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	cigarette	cigarette	NOUN	NN	Number=Sing	5	compound	_	_
+5	ban	ban	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	would	would	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	start	start	VERB	VB	VerbForm=Inf	19	advcl	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	public	public	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	places	place	NOUN	NNS	Number=Plur	7	obl	_	_
+11	such	such	ADJ	JJ	Degree=Pos	13	case	_	_
+12	as	as	ADP	IN	_	11	fixed	_	_
+13	cafés	café	NOUN	NNS	Number=Plur	10	nmod	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	restaurants	restaurant	NOUN	NNS	Number=Plur	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+18	would	would	AUX	MD	VerbForm=Fin	19	aux	_	_
+19	help	help	VERB	VB	VerbForm=Inf	0	root	_	_
+20	both	both	CCONJ	CC	_	22	cc:preconj	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	smokers	smoker	NOUN	NNS	Number=Plur	19	obj	_	_
+23	and	and	CCONJ	CC	_	25	cc	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	non-smokers	non-smoker	NOUN	NNS	Number=Plur	22	conj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 13
+# text = As time will pass, and as a bigger scale would be tackled by this banning law, more problems, specially of health would be resolved.
+1	As	as	ADP	IN	_	2	case	_	_
+2	time	time	NOUN	NN	Number=Sing	4	obl	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	pass	pass	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	13	punct	_	_
+6	and	and	CCONJ	CC	_	13	cc	_	_
+7	as	as	ADP	IN	_	10	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	bigger	bigger	ADJ	JJR	Degree=Cmp	10	amod	_	_
+10	scale	scale	NOUN	NN	Number=Sing	13	nsubj:pass	_	_
+11	would	would	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	be	be	AUX	VB	VerbForm=Inf	13	aux:pass	_	_
+13	tackled	tackle	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
+14	by	by	ADP	IN	_	17	case	_	_
+15	this	this	DET	DT	Number=Sing|PronType=Dem	17	det	_	_
+16	banning	banning	NOUN	NN	Number=Sing	17	compound	_	_
+17	law	law	NOUN	NN	Number=Sing	27	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	more	more	ADJ	JJR	Degree=Cmp	20	amod	_	_
+20	problems	problem	NOUN	NNS	Number=Plur	27	nsubj:pass	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	20	punct	_	_
+22	specially	specially	ADV	RB	_	24	advmod	_	_
+23	of	of	ADP	IN	_	24	case	_	_
+24	health	health	NOUN	NN	Number=Sing	20	nmod	_	_
+25	would	would	AUX	MD	VerbForm=Fin	27	aux	_	_
+26	be	be	AUX	VB	VerbForm=Inf	27	aux:pass	_	_
+27	resolved	resolve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	ccomp	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

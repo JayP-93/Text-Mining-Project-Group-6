@@ -1,0 +1,395 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PAK_SMK0_011_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking is very bad and dangerous habit.
+1	﻿Smoking	﻿Smoking	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	bad	bad	ADJ	JJ	Degree=Pos	0	root	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	dangerous	dangerous	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	habit	habit	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Smoking is very harmful for our health.
+1	Smoking	smoke	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	harmful	harmful	ADJ	JJ	Degree=Pos	0	root	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	health	health	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = It destroys our health.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	destroys	destroy	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	health	health	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = When people smokes they are suffering from dangerous disease.
+1	When	when	ADV	WRB	PronType=Int	0	root	_	_
+2	people	people	NOUN	NNS	Number=Plur	3	compound	_	_
+3	smokes	smoke	NOUN	NNS	Number=Plur	1	nsubj	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	suffering	suffer	VERB	VBG	Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
+7	from	from	ADP	IN	_	9	case	_	_
+8	dangerous	dangerous	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	disease	disease	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Now smoking is one of the most popular habit.
+1	Now	now	ADV	RB	_	4	advmod	_	_
+2	smoking	smoke	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	one	one	NUM	CD	NumType=Card	0	root	_	_
+5	of	of	ADP	IN	_	9	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+7	most	most	ADV	RBS	_	8	advmod	_	_
+8	popular	popular	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	habit	habit	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Every person have caught this habit.
+1	Every	every	DET	DT	_	2	det	_	_
+2	person	person	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	caught	catch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	habit	habit	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = This habit has destroys our country.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	habit	habit	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	destroys	destroy	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	country	country	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = It has become a most explosive problem in all over the world especially in the third world countries like Pakistan.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	become	become	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+5	most	most	ADV	RBS	_	6	advmod	_	_
+6	explosive	explosive	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	problem	problem	NOUN	NN	Number=Sing	3	xcomp	_	_
+8	in	in	ADV	RB	_	9	advmod	_	_
+9	all	all	ADV	RB	_	12	advmod	_	_
+10	over	over	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	world	world	NOUN	NN	Number=Sing	7	nmod	_	_
+13	especially	especially	ADV	RB	_	18	advmod	_	_
+14	in	in	ADP	IN	_	18	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+16	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	18	amod	_	_
+17	world	world	NOUN	NN	Number=Sing	18	compound	_	_
+18	countries	country	NOUN	NNS	Number=Plur	7	nmod	_	_
+19	like	like	ADP	IN	_	20	case	_	_
+20	Pakistan	Pakistan	PROPN	NNP	Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 9
+# text = Mostly people in Pakistan are smokers.
+1	Mostly	mostly	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	people	people	NOUN	NNS	Number=Plur	6	nsubj	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	Pakistan	Pakistan	PROPN	NNP	Number=Sing	2	nmod	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	smokers	smoker	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 10
+# text = In the western countries like America and Europe smoking is very common habit.
+1	In	in	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	western	western	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	countries	country	NOUN	NNS	Number=Plur	13	obl	_	_
+5	like	like	ADP	IN	_	6	case	_	_
+6	America	America	PROPN	NNP	Number=Sing	4	nmod	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	Europe	Europe	PROPN	NNP	Number=Sing	9	compound	_	_
+9	smoking	smoke	NOUN	NN	Number=Sing	6	conj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	very	very	ADV	RB	_	12	advmod	_	_
+12	common	common	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	habit	habit	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 11
+# text = When they smoke they feel proud.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	proud	proud	ADJ	JJ	Degree=Pos	5	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 12
+# text = Western people consider that smoking is a good habit.
+1	Western	western	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	people	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	consider	consider	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	9	mark	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	9	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	good	good	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	habit	habit	NOUN	NN	Number=Sing	3	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 13
+# text = They smoke in their colleges and universities.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	colleges	college	NOUN	NNS	Number=Plur	2	obl	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	universities	universities	NOUN	NNS	Number=Plur	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 14
+# text = In this way they waste a lot of money.
+1	In	in	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	way	way	NOUN	NN	Number=Sing	5	obl	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	waste	waste	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	lot	lot	NOUN	NN	Number=Sing	5	obj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	money	money	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 15
+# text = In this era smoking is very common.
+1	In	in	ADP	IN	_	4	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+3	era	era	NOUN	NN	Number=Sing	4	compound	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	7	obl	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	very	very	ADV	RB	_	7	advmod	_	_
+7	common	common	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 16
+# text = Mostly Pakistanis are smokers.
+1	Mostly	mostly	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	Pakistanis	Pakistanis	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	smokers	smoker	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 17
+# text = Your young generation smokes.
+1	Your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+2	young	young	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	generation	generation	NOUN	NN	Number=Sing	4	compound	_	_
+4	smokes	smoke	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 18
+# text = Pakistan is a poor country.
+1	Pakistan	Pakistan	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	poor	poor	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	country	country	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 19
+# text = But they waste a lot of money in smoking.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	waste	waste	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	lot	lot	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	money	money	NOUN	NN	Number=Sing	5	nmod	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 20
+# text = The effects of smoking are very dangerous.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	effects	effect	NOUN	NNS	Number=Plur	7	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	2	nmod	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	very	very	ADV	RB	_	7	advmod	_	_
+7	dangerous	dangerous	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 21
+# text = It destroys our health.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	destroys	destroy	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	health	health	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 22
+# text = The throat and lung disease are very common.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	throat	throat	NOUN	NN	Number=Sing	8	nsubj	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	lung	lung	NOUN	NN	Number=Sing	5	compound	_	_
+5	disease	disease	NOUN	NN	Number=Sing	2	conj	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	very	very	ADV	RB	_	8	advmod	_	_
+8	common	common	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 23
+# text = The smokers suffer from cold and cough.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	smoker	smoker	NOUN	NN	Number=Sing	4	nsubj	_	SpaceAfter=No
+3	s	s	PART	POS	_	2	case	_	_
+4	suffer	suffer	VERB	VB	VerbForm=Inf	0	root	_	_
+5	from	from	ADP	IN	_	6	case	_	_
+6	cold	cold	ADJ	JJ	Degree=Pos	4	obl	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	cough	cough	ADJ	JJ	Degree=Pos	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 24
+# text = Smokers get bad and dirty teeth which cause other diseases.
+1	Smokers	smoker	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bad	bad	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+4	and	and	CCONJ	CC	_	6	cc	_	_
+5	dirty	dirty	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	teeth	tooth	NOUN	NNS	Number=Plur	2	conj	_	_
+7	which	which	PRON	WDT	PronType=Rel	8	nsubj	_	_
+8	cause	cause	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	other	other	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	diseases	disease	NOUN	NNS	Number=Plur	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 25
+# text = Many people has died.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	died	die	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 26
+# text = Our Government want to check this problem.
+1	Our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	Government	government	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	check	check	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	problem	problem	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 27
+# text = Government want to control this bad and dangerous habit.
+1	Government	government	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	want	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	control	control	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+6	bad	bad	ADJ	JJ	Degree=Pos	9	amod	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	dangerous	dangerous	ADJ	JJ	Degree=Pos	6	conj	_	_
+9	habit	habit	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 28
+# text = Government should provide good doctors who control this disease.
+1	Government	government	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	provide	provide	VERB	VB	VerbForm=Inf	0	root	_	_
+4	good	good	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	doctors	doctor	NOUN	NNS	Number=Plur	3	obj	_	_
+6	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+7	control	control	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	disease	disease	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 29
+# text = People should eat fruits because it had been proved that apples grapes, oranges and peas reduce the need to smoke.
+1	People	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	eat	eat	VERB	VB	VerbForm=Inf	0	root	_	_
+4	fruits	fruit	NOUN	NNS	Number=Plur	3	obj	_	_
+5	because	because	SCONJ	IN	_	9	mark	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj:pass	_	_
+7	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	proved	prove	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	_
+10	that	that	SCONJ	IN	_	17	mark	_	_
+11	apples	apple	NOUN	NNS	Number=Plur	12	compound	_	_
+12	grapes	grape	NOUN	NNS	Number=Plur	17	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	oranges	orang	NOUN	NNS	Number=Plur	12	conj	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	peas	pea	NOUN	NNS	Number=Plur	12	conj	_	_
+17	reduce	reduce	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	need	need	NOUN	NN	Number=Sing	17	obj	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	smoke	smoke	VERB	VB	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 30
+# text = Some people smoke when they are worry.
+1	Some	some	DET	DT	_	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	smoke	smoke	VERB	VB	VerbForm=Inf	0	root	_	_
+4	when	when	ADV	WRB	PronType=Int	7	mark	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	worry	worry	ADJ	JJ	Degree=Pos	3	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 31
+# text = Some people smoke when they feel boredom.
+1	Some	some	DET	DT	_	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	smoke	smoke	VERB	VB	VerbForm=Inf	0	root	_	_
+4	when	when	ADV	WRB	PronType=Int	6	mark	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7	boredom	boredom	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 32
+# text = When people feel restless they smoke.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	people	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	restless	restless	SCONJ	IN	_	6	mark	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 33
+# text = In this way smoking destroys their health.
+1	In	in	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	way	way	NOUN	NN	Number=Sing	5	obl	_	_
+4	smoking	smoke	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	destroys	destroy	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	health	health	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

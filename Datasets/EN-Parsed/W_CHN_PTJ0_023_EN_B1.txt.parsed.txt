@@ -1,0 +1,331 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_CHN_PTJ0_023_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I totally approve of this point.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	totally	totally	ADV	RB	_	3	advmod	_	_
+3	approve	approve	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	point	point	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Being current college students, we should take an active part in the part-time job, if we accomplish our study task first.
+1	Being	be	AUX	VBG	VerbForm=Ger	4	cop	_	_
+2	current	current	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	college	college	NOUN	NN	Number=Sing	4	compound	_	_
+4	students	student	NOUN	NNS	Number=Plur	8	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+7	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	active	active	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	part	part	NOUN	NN	Number=Sing	8	obj	_	_
+12	in	in	ADP	IN	_	17	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+14	part	part	NOUN	NN	Number=Sing	16	compound	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No
+16	time	time	NOUN	NN	Number=Sing	17	compound	_	_
+17	job	job	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	8	punct	_	_
+19	if	if	SCONJ	IN	_	21	mark	_	_
+20	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
+21	accomplish	accomplish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+22	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+23	study	study	NOUN	NN	Number=Sing	24	compound	_	_
+24	task	task	NOUN	NN	Number=Sing	21	obj	_	_
+25	first	first	ADV	RB	_	21	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = With the constant development of economy and society, everyone including students are faced with great challenges.
+1	With	with	SCONJ	IN	_	14	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	constant	constant	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	development	development	NOUN	NN	Number=Sing	14	nsubj:pass	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	economy	economy	NOUN	NN	Number=Sing	4	nmod	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	society	society	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	everyone	everyone	PRON	NN	Number=Sing	14	nsubj:pass	_	_
+11	including	include	VERB	VBG	VerbForm=Ger	12	case	_	_
+12	students	student	NOUN	NNS	Number=Plur	10	nmod	_	_
+13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	faced	face	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+15	with	with	ADP	IN	_	17	case	_	_
+16	great	great	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	challenges	challenge	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 4
+# text = Many students who graduate from university cannot find a satisfying job.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	students	student	NOUN	NNS	Number=Plur	9	nsubj	_	_
+3	who	who	PRON	WP	PronType=Rel	4	nsubj	_	_
+4	graduate	graduate	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	from	from	ADP	IN	_	6	case	_	_
+6	university	university	NOUN	NN	Number=Sing	4	obl	_	_
+7	can	can	AUX	MD	VerbForm=Fin	9	aux	_	SpaceAfter=No
+8	not	not	PART	RB	_	9	advmod	_	_
+9	find	find	VERB	VB	VerbForm=Inf	0	root	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	satisfying	satisfying	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	job	job	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 5
+# text = They also suffer great pressure.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	also	also	ADV	RB	_	3	advmod	_	_
+3	suffer	suffer	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	great	great	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	pressure	pressure	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Doing a part-time job can benefit students who will come into the society to some extent.
+1	Doing	do	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+3	part	part	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	time	time	NOUN	NN	Number=Sing	6	compound	_	_
+6	job	job	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	benefit	benefit	VERB	VB	VerbForm=Inf	0	root	_	_
+9	students	student	NOUN	NNS	Number=Plur	8	obj	_	_
+10	who	who	PRON	WP	PronType=Rel	12	nsubj	_	_
+11	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	come	come	VERB	VB	VerbForm=Inf	9	acl:relcl	_	_
+13	into	into	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	society	society	NOUN	NN	Number=Sing	12	obl	_	_
+16	to	to	ADP	IN	_	18	case	_	_
+17	some	some	DET	DT	_	18	det	_	_
+18	extent	extent	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 7
+# text = First of all, students can improve their other abilities through the experience.
+1	First	first	ADV	RB	_	7	advmod	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	all	all	DET	DT	_	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	students	student	NOUN	NNS	Number=Plur	7	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	improve	improve	VERB	VB	VerbForm=Inf	0	root	_	_
+8	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	other	other	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	abilities	ability	NOUN	NNS	Number=Plur	7	obj	_	_
+11	through	through	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	experience	experience	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 8
+# text = Moreover, they can realize the society in depth.
+1	Moreover	moreover	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	realize	realize	VERB	VB	VerbForm=Inf	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	society	society	NOUN	NN	Number=Sing	5	obj	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	depth	depth	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = Besides, students are informed of the fact that the society isn't favorable to everyone.
+1	Besides	besides	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	students	student	NOUN	NNS	Number=Plur	5	nsubj:pass	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	informed	inform	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	fact	fact	NOUN	NN	Number=Sing	5	obl	_	_
+9	that	that	SCONJ	IN	_	14	mark	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	society	society	NOUN	NN	Number=Sing	14	nsubj	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	SpaceAfter=No
+13	n't	not	PART	RB	_	14	advmod	_	_
+14	favorable	favorable	ADJ	JJ	Degree=Pos	8	acl	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	everyone	everyone	PRON	NN	Number=Sing	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 10
+# text = Those who long for a great success and a bright career must exert themselves to study hard.
+1	Those	those	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	who	who	PRON	WP	PronType=Int	7	nsubj	_	_
+3	long	long	ADV	RB	Degree=Pos	7	advmod	_	_
+4	for	for	ADP	IN	_	7	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	great	great	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	success	success	NOUN	NN	Number=Sing	1	ccomp	_	_
+8	and	and	CCONJ	CC	_	13	cc	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	bright	bright	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	career	career	NOUN	NN	Number=Sing	13	nsubj	_	_
+12	must	must	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	exert	exert	VERB	VB	VerbForm=Inf	7	conj	_	_
+14	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	13	obj	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	study	study	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+17	hard	hard	ADV	RB	Degree=Pos	16	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 11
+# text = In this sense, students are alerted through the part-time job.
+1	In	in	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	sense	sense	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	students	student	NOUN	NNS	Number=Plur	7	nsubj:pass	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	alerted	alert	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	through	through	ADP	IN	_	13	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+10	part	part	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	time	time	NOUN	NN	Number=Sing	13	compound	_	_
+13	job	job	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 12
+# text = Take me for example; I once acted as a waitress in a small hotel.
+1	Take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+3	for	for	ADP	IN	_	4	case	_	_
+4	example	example	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	1	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	once	once	ADV	RB	NumType=Mult	8	advmod	_	_
+8	acted	act	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+9	as	as	ADP	IN	_	11	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	waitress	waitress	NOUN	NN	Number=Sing	8	obl	_	_
+12	in	in	ADP	IN	_	15	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	small	small	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	hotel	hotel	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 13
+# text = During the period, I had to serve customers and take their orders.
+1	During	during	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	period	period	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	serve	serve	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	customers	customer	NOUN	NNS	Number=Plur	8	obj	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	take	take	VERB	VB	VerbForm=Inf	8	conj	_	_
+12	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	orders	order	NOUN	NNS	Number=Plur	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 14
+# text = I served dishes and rice for them.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	served	serve	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	dishes	dish	NOUN	NNS	Number=Plur	2	obj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	rice	rice	NOUN	NN	Number=Sing	3	conj	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 15
+# text = And I was rather tired within these days.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	rather	rather	ADV	RB	_	5	advmod	_	_
+5	tired	tired	ADJ	JJ	Degree=Pos	0	root	_	_
+6	within	within	ADP	IN	_	8	case	_	_
+7	these	these	DET	DT	Number=Plur|PronType=Dem	8	det	_	_
+8	days	day	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 16
+# text = Though the pays was low, I was excited.
+1	Though	though	SCONJ	IN	_	5	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	pays	pay	PROPN	NNPS	Number=Plur	5	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	low	low	ADJ	JJ	Degree=Pos	9	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+9	excited	excited	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 17
+# text = I learned that everyone should spare no efforts to do something if they hunger for a better life in the society.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	learned	learn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	6	mark	_	_
+4	everyone	everyone	PRON	NN	Number=Sing	6	nsubj	_	_
+5	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	spare	spare	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+7	no	no	DET	DT	_	8	det	_	_
+8	efforts	effort	NOUN	NNS	Number=Plur	6	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	do	do	VERB	VB	VerbForm=Inf	8	acl	_	_
+11	something	something	PRON	NN	Number=Sing	10	obj	_	_
+12	if	if	SCONJ	IN	_	14	mark	_	_
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+14	hunger	hunger	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+15	for	for	ADP	IN	_	18	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	better	better	ADJ	JJR	Degree=Cmp	18	amod	_	_
+18	life	life	NOUN	NN	Number=Sing	14	obl	_	_
+19	in	in	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	society	society	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 18
+# text = I will enforce myself to study hard.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	enforce	enforce	VERB	VB	VerbForm=Inf	0	root	_	_
+4	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	study	study	VERB	VB	VerbForm=Inf	3	advcl	_	_
+7	hard	hard	ADV	RB	Degree=Pos	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 19
+# text = All in all, there is point for college students to do a part-time job during the time in university.
+1	All	all	DET	DT	_	6	advcl	_	_
+2	in	in	ADP	IN	_	3	case	_	_
+3	all	all	DET	DT	_	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	there	there	PRON	EX	_	6	expl	_	_
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	point	point	NOUN	NN	Number=Sing	6	nsubj	_	_
+8	for	for	ADP	IN	_	10	case	_	_
+9	college	college	NOUN	NN	Number=Sing	10	compound	_	_
+10	students	student	NOUN	NNS	Number=Plur	7	nmod	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	do	do	VERB	VB	VerbForm=Inf	10	acl	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+14	part	part	NOUN	NN	Number=Sing	16	compound	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No
+16	time	time	NOUN	NN	Number=Sing	17	compound	_	_
+17	job	job	NOUN	NN	Number=Sing	12	obj	_	_
+18	during	during	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	time	time	NOUN	NN	Number=Sing	12	obl	_	_
+21	in	in	ADP	IN	_	22	case	_	_
+22	university	university	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

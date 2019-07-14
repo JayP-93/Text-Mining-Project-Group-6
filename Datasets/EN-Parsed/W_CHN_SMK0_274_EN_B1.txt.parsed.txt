@@ -1,0 +1,299 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_CHN_SMK0_274_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿
+1	﻿	﻿	NOUN	NN	Number=Sing	0	root	_	_
+
+# sent_id = 2
+# text = As we all knows, smoking is harmful to our lungs, which will lead our body worse and worse.
+1	As	as	SCONJ	IN	_	4	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	all	all	DET	DT	_	4	det	_	_
+4	knows	know	NOUN	NNS	Number=Plur	8	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	harmful	harmful	ADJ	JJ	Degree=Pos	0	root	_	_
+9	to	to	ADP	IN	_	11	case	_	_
+10	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	lungs	lung	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	which	which	PRON	WDT	PronType=Rel	15	nsubj	_	_
+14	will	will	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	lead	lead	VERB	VB	VerbForm=Inf	11	acl:relcl	_	_
+16	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	body	body	NOUN	NN	Number=Sing	15	obj	_	_
+18	worse	worse	ADJ	JJR	Degree=Cmp	15	xcomp	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	worse	worse	ADJ	JJR	Degree=Cmp	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = So I think it is necessary for us to let smoking be forbidden in public places.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	necessary	necessary	ADJ	JJ	Degree=Pos	3	ccomp	_	_
+7	for	for	SCONJ	IN	_	10	mark	_	_
+8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	let	let	VERB	VB	VerbForm=Inf	6	csubj	_	_
+11	smoking	smoke	NOUN	NN	Number=Sing	10	obj	_	_
+12	be	be	AUX	VB	VerbForm=Inf	13	aux:pass	_	_
+13	forbidden	forbidden	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	xcomp	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	public	public	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	places	place	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = First of all, public places are for not only smokers but also nonsmokers.
+1	First	first	ADV	RB	_	11	advmod	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	all	all	DET	DT	_	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	11	punct	_	_
+5	public	public	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	places	place	NOUN	NNS	Number=Plur	11	nsubj	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
+8	for	for	ADP	IN	_	11	case	_	_
+9	not	not	ADV	RB	_	10	advmod	_	_
+10	only	only	ADV	RB	_	11	cc:preconj	_	_
+11	smokers	smoker	NOUN	NNS	Number=Plur	0	root	_	_
+12	but	but	CCONJ	CC	_	14	cc	_	_
+13	also	also	ADV	RB	_	14	advmod	_	_
+14	nonsmokers	nonsmoker	NOUN	NNS	Number=Plur	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 5
+# text = However, if the smokers smoke in public places, the nonsmokers have to breath the smoke into their body, which called second-hand smoke, is also harmful to their body.
+1	However	however	ADV	RB	_	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	13	punct	_	_
+3	if	if	SCONJ	IN	_	6	mark	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	smokers	smoker	NOUN	NNS	Number=Plur	6	compound	_	_
+6	smoke	smoke	NOUN	NN	Number=Sing	13	advcl	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	public	public	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	places	place	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	nonsmokers	nonsmoker	NOUN	NNS	Number=Plur	13	nsubj	_	_
+13	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	to	to	PART	TO	_	17	mark	_	_
+15	breath	breath	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	smoke	smoke	NOUN	NN	Number=Sing	13	xcomp	_	_
+18	into	into	ADP	IN	_	20	case	_	_
+19	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	body	body	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	17	punct	_	_
+22	which	which	PRON	WDT	PronType=Rel	23	nsubj	_	_
+23	called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	acl:relcl	_	_
+24	second	second	ADV	RB	_	26	advmod	_	SpaceAfter=No
+25	-	-	PUNCT	HYPH	_	26	punct	_	SpaceAfter=No
+26	hand	hand	NOUN	NN	Number=Sing	27	compound	_	_
+27	smoke	smoke	NOUN	NN	Number=Sing	23	obj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	31	punct	_	_
+29	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+30	also	also	ADV	RB	_	31	advmod	_	_
+31	harmful	harmful	ADJ	JJ	Degree=Pos	13	conj	_	_
+32	to	to	ADP	IN	_	34	case	_	_
+33	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+34	body	body	NOUN	NN	Number=Sing	31	obl	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 6
+# text = It is very unfair for those nonsmokers.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	unfair	unfair	ADJ	JJ	Degree=Pos	0	root	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	those	those	DET	DT	Number=Plur|PronType=Dem	7	det	_	_
+7	nonsmokers	nonsmoker	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Why do they have to breath in these harmful smoke?
+1	Why	why	ADV	WRB	PronType=Int	4	advmod	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+4	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	breath	breath	NOUN	NN	Number=Sing	4	xcomp	_	_
+7	in	in	ADP	IN	_	10	case	_	_
+8	these	these	DET	DT	Number=Plur|PronType=Dem	10	det	_	_
+9	harmful	harmful	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	smoke	smoke	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = Secondly, I think smoking in public places is a very uncivilized behavior because this behavior will influence others in public places.
+1	Secondly	secondly	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	smoking	smoke	NOUN	NN	Number=Sing	13	nsubj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	public	public	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	places	place	NOUN	NNS	Number=Plur	5	nmod	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+11	very	very	ADV	RB	_	12	advmod	_	_
+12	uncivilized	uncivilized	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	behavior	behavior	NOUN	NN	Number=Sing	4	ccomp	_	_
+14	because	because	SCONJ	IN	_	18	mark	_	_
+15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+16	behavior	behavior	NOUN	NN	Number=Sing	18	nsubj	_	_
+17	will	will	AUX	MD	VerbForm=Fin	18	aux	_	_
+18	influence	influence	VERB	VB	VerbForm=Inf	13	advcl	_	_
+19	others	other	NOUN	NNS	Number=Plur	18	obj	_	_
+20	in	in	ADP	IN	_	22	case	_	_
+21	public	public	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	places	place	NOUN	NNS	Number=Plur	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Smoke will fill into the air and let the environment be very bad and uncomfortable.
+1	Smoke	smoke	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	fill	fill	VERB	VB	VerbForm=Inf	0	root	_	_
+4	into	into	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	air	air	NOUN	NN	Number=Sing	3	obl	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	let	let	VERB	VB	VerbForm=Inf	3	conj	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	environment	environment	NOUN	NN	Number=Sing	8	obj	_	_
+11	be	be	AUX	VB	VerbForm=Inf	13	cop	_	_
+12	very	very	ADV	RB	_	13	advmod	_	_
+13	bad	bad	ADJ	JJ	Degree=Pos	8	xcomp	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	uncomfortable	uncomfortable	ADJ	JJ	Degree=Pos	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Then the less and less people will go to these public places.
+1	Then	then	ADV	RB	PronType=Dem	8	advmod	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+3	less	less	ADJ	JJR	Degree=Cmp	6	amod	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	less	less	ADJ	JJR	Degree=Cmp	3	conj	_	_
+6	people	people	NOUN	NNS	Number=Plur	8	nsubj	_	_
+7	will	will	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+9	to	to	ADP	IN	_	12	case	_	_
+10	these	these	DET	DT	Number=Plur|PronType=Dem	12	det	_	_
+11	public	public	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	places	place	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 11
+# text = As a result this public place will be forgot and be useless.
+1	As	as	ADP	IN	_	3	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	result	result	NOUN	NN	Number=Sing	9	obl	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+5	public	public	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	place	place	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
+7	will	will	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+9	forgot	forget	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+12	useless	useless	ADJ	JJ	Degree=Pos	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 12
+# text = Besides, this will leave a very poor impression on the tourist.
+1	Besides	besides	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	leave	leave	VERB	VB	VerbForm=Inf	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+7	very	very	ADV	RB	_	8	advmod	_	_
+8	poor	poor	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	impression	impression	NOUN	NN	Number=Sing	5	obj	_	_
+10	on	on	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	tourist	tourist	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 13
+# text = Last, the cigarette butts are also a very big problem.
+1	Last	last	ADJ	JJ	Degree=Pos	11	amod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	11	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	cigarette	cigarette	NOUN	NN	Number=Sing	5	compound	_	_
+5	butts	butt	NOUN	NNS	Number=Plur	11	nsubj	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
+7	also	also	ADV	RB	_	11	advmod	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+9	very	very	ADV	RB	_	10	advmod	_	_
+10	big	big	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	problem	problem	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 14
+# text = Smokers always throw their cigarette butts promiscuously which let the ground looks naughty and cause the fire.
+1	Smokers	smoker	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	always	always	ADV	RB	_	3	advmod	_	_
+3	throw	throw	VERB	VB	VerbForm=Inf	0	root	_	_
+4	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	cigarette	cigarette	NOUN	NN	Number=Sing	6	compound	_	_
+6	butts	butt	NOUN	NNS	Number=Plur	3	obj	_	_
+7	promiscuously	promiscuously	ADV	RB	_	6	advmod	_	_
+8	which	which	PRON	WDT	PronType=Rel	9	nsubj	_	_
+9	let	let	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	ground	ground	NOUN	NN	Number=Sing	9	obj	_	_
+12	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	xcomp	_	_
+13	naughty	naughty	ADJ	JJ	Degree=Pos	12	xcomp	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	cause	cause	VERB	VB	VerbForm=Inf	12	conj	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	fire	fire	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 15
+# text = This will be dangerous.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	_
+4	dangerous	dangerous	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 16
+# text = To sum up, there are lots of harm but no benefit.
+1	To	to	PART	TO	_	2	mark	_	_
+2	sum	sum	VERB	VB	VerbForm=Inf	6	advcl	_	_
+3	up	up	ADP	RP	_	2	compound:prt	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	there	there	PRON	EX	_	6	expl	_	_
+6	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	lots	lot	NOUN	NNS	Number=Plur	6	nsubj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	harm	harm	NOUN	NN	Number=Sing	7	nmod	_	_
+10	but	but	CCONJ	CC	_	12	cc	_	_
+11	no	no	DET	DT	_	12	det	_	_
+12	benefit	benefit	NOUN	NN	Number=Sing	7	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 17
+# text = So why not let the smoking be forbidden in public places?
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	why	why	ADV	WRB	PronType=Int	4	advmod	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	let	let	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	4	obj	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	forbidden	forbide	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	xcomp	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	public	public	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	places	place	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,356 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_SIN_SMK0_084_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Yes, I agree that smoking should be completely banned in all restaurants in the country.
+1	﻿Yes	﻿yes	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	IN	_	10	mark	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	10	nsubj:pass	_	_
+7	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+9	completely	completely	ADV	RB	_	10	advmod	_	_
+10	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	ccomp	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	all	all	DET	DT	_	13	det	_	_
+13	restaurants	restaurant	NOUN	NNS	Number=Plur	10	obl	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	country	country	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = To be even more audacious, I believe that smoking should be abolished from this planet.
+1	To	to	PART	TO	_	5	mark	_	_
+2	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+3	even	even	ADV	RB	_	4	advmod	_	_
+4	more	more	ADV	RBR	_	5	advmod	_	_
+5	audacious	audacious	ADJ	JJ	Degree=Pos	8	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	that	that	SCONJ	IN	_	13	mark	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	13	nsubj:pass	_	_
+11	should	should	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	be	be	AUX	VB	VerbForm=Inf	13	aux:pass	_	_
+13	abolished	abolish	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	ccomp	_	_
+14	from	from	ADP	IN	_	16	case	_	_
+15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+16	planet	planet	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = After all, smoking has no benefits to the human body, besides giving one a temporary relief from stress, which can be eased through other means.
+1	After	after	ADV	RB	_	2	advmod	_	_
+2	all	all	ADV	RB	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	smoking	smoke	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	no	no	DET	DT	_	7	det	_	_
+7	benefits	benefit	NOUN	NNS	Number=Plur	5	obj	_	_
+8	to	to	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	human	human	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	body	body	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	5	punct	_	_
+13	besides	besides	SCONJ	IN	_	14	mark	_	_
+14	giving	give	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+15	one	one	NUM	CD	NumType=Card	18	nummod	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	temporary	temporary	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	relief	relief	NOUN	NN	Number=Sing	14	obj	_	_
+19	from	from	ADP	IN	_	20	case	_	_
+20	stress	stress	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	20	punct	_	_
+22	which	which	PRON	WDT	PronType=Rel	25	nsubj:pass	_	_
+23	can	can	AUX	MD	VerbForm=Fin	25	aux	_	_
+24	be	be	AUX	VB	VerbForm=Inf	25	aux:pass	_	_
+25	eased	ease	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	acl:relcl	_	_
+26	through	through	ADP	IN	_	28	case	_	_
+27	other	other	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	means	means	NOUN	NNS	Number=Plur	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = The only benefit smoking have for the world, is only an economical one, whereby the demand for cigarettes fuels jobs and trade.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	only	only	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	benefit	benefit	NOUN	NN	Number=Sing	4	compound	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	world	world	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+11	only	only	ADV	RB	_	14	advmod	_	_
+12	an	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	economical	economical	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	one	one	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	whereby	whereby	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	demand	demand	NOUN	NN	Number=Sing	14	nmod	_	_
+19	for	for	ADP	IN	_	22	case	_	_
+20	cigarettes	cigarette	NOUN	NNS	Number=Plur	21	compound	_	_
+21	fuels	fuel	NOUN	NNS	Number=Plur	22	compound	_	_
+22	jobs	job	NOUN	NNS	Number=Plur	18	nmod	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	trade	trade	NOUN	NN	Number=Sing	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 5
+# text = Yet, these economic benefits are negated by the medical fees one pays after develop lung cancer and various health complications smoking brings.
+1	Yet	yet	CCONJ	CC	_	7	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	these	these	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
+4	economic	economic	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	benefits	benefit	NOUN	NNS	Number=Plur	7	nsubj:pass	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	negated	negate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	by	by	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	medical	medical	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	fees	fee	NOUN	NNS	Number=Plur	7	obl	_	_
+12	one	one	NUM	CD	NumType=Card	13	nsubj	_	_
+13	pays	pay	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	after	after	ADP	IN	_	17	case	_	_
+15	develop	develop	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	lung	lung	NOUN	NN	Number=Sing	17	compound	_	_
+17	cancer	cancer	NOUN	NN	Number=Sing	13	obl	_	_
+18	and	and	CCONJ	CC	_	21	cc	_	_
+19	various	various	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	health	health	NOUN	NN	Number=Sing	21	compound	_	_
+21	complications	complication	NOUN	NNS	Number=Plur	17	conj	_	_
+22	smoking	smoking	VERB	VBG	VerbForm=Ger	23	amod	_	_
+23	brings	bring	NOUN	NNS	Number=Plur	13	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 6
+# text = Not only that, the death and psychological suffering that comes with the health implications is immeasurable.
+1	Not	not	ADV	RB	_	2	advmod	_	_
+2	only	only	ADV	RB	_	17	advmod	_	_
+3	that	that	DET	DT	Number=Sing|PronType=Dem	17	det	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	17	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	death	death	NOUN	NN	Number=Sing	17	nsubj	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	psychological	psychological	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	suffering	suffering	NOUN	NN	Number=Sing	6	conj	_	_
+10	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	_
+11	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	with	with	ADP	IN	_	15	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	health	health	NOUN	NN	Number=Sing	15	compound	_	_
+15	implications	implication	NOUN	NNS	Number=Plur	11	obl	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	immeasurable	immeasurable	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 7
+# text = I would confidently say that the world will be a better place if smoking is abolished and permanently extinguished from our planet.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	confidently	confidently	ADV	RB	_	4	advmod	_	_
+4	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+5	that	that	SCONJ	IN	_	12	mark	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	world	world	NOUN	NN	Number=Sing	12	nsubj	_	_
+8	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	better	better	ADJ	JJR	Degree=Cmp	12	amod	_	_
+12	place	place	NOUN	NN	Number=Sing	4	ccomp	_	_
+13	if	if	SCONJ	IN	_	16	mark	_	_
+14	smoking	smoke	NOUN	NN	Number=Sing	16	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	abolished	abolished	ADJ	JJ	Degree=Pos	12	advcl	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	permanently	permanently	ADV	RB	_	19	advmod	_	_
+19	extinguished	extinguish	VERB	VBN	Tense=Past|VerbForm=Part	16	conj	_	_
+20	from	from	ADP	IN	_	22	case	_	_
+21	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	planet	planet	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = Although the immediate implications would be a sudden loss of jobs and possible chaos in countries that specialize in trade of cigarettes, I firmly believe that the long term impacts will be positive.
+1	Although	although	SCONJ	IN	_	9	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	immediate	immediate	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	implications	implication	NOUN	NNS	Number=Plur	9	nsubj	_	_
+5	would	would	AUX	MD	VerbForm=Fin	9	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	sudden	sudden	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	loss	loss	NOUN	NN	Number=Sing	26	advcl	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	jobs	job	NOUN	NNS	Number=Plur	9	nmod	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	possible	possible	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	chaos	chaos	NOUN	NN	Number=Sing	9	conj	_	_
+15	in	in	ADP	IN	_	16	case	_	_
+16	countries	country	NOUN	NNS	Number=Plur	14	nmod	_	_
+17	that	that	PRON	WDT	PronType=Rel	18	nsubj	_	_
+18	specialize	specialize	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	in	in	ADP	IN	_	20	case	_	_
+20	trade	trade	NOUN	NN	Number=Sing	18	obl	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	cigarettes	cigarette	NOUN	NNS	Number=Plur	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	26	punct	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+25	firmly	firmly	ADV	RB	_	26	advmod	_	_
+26	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+27	that	that	SCONJ	IN	_	34	mark	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+29	long	long	ADJ	JJ	Degree=Pos	31	amod	_	_
+30	term	term	NOUN	NN	Number=Sing	31	compound	_	_
+31	impacts	impact	NOUN	NNS	Number=Plur	34	nsubj	_	_
+32	will	will	AUX	MD	VerbForm=Fin	34	aux	_	_
+33	be	be	AUX	VB	VerbForm=Inf	34	cop	_	_
+34	positive	positive	ADJ	JJ	Degree=Pos	26	ccomp	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	26	punct	_	_
+
+# sent_id = 9
+# text = That being said, the answer to whether smoking should be completely banned in restaurants, is obvious.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj:pass	_	_
+2	being	be	AUX	VBG	VerbForm=Ger	3	aux:pass	_	_
+3	said	say	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	18	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	answer	answer	NOUN	NN	Number=Sing	18	nsubj	_	_
+7	to	to	SCONJ	IN	_	13	mark	_	_
+8	whether	whether	SCONJ	IN	_	13	mark	_	_
+9	smoking	smoke	NOUN	NN	Number=Sing	13	nsubj:pass	_	_
+10	should	should	AUX	MD	VerbForm=Fin	13	aux	_	_
+11	be	be	AUX	VB	VerbForm=Inf	13	aux:pass	_	_
+12	completely	completely	ADV	RB	_	13	advmod	_	_
+13	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
+14	in	in	ADP	IN	_	15	case	_	_
+15	restaurants	restaurant	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	obvious	obvious	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 10
+# text = Smoking in restaurant not only irritates other customers and reflect bad social consciousness, it also brings great health implications to others.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	6	csubj	_	_
+2	in	in	ADP	IN	_	3	case	_	_
+3	restaurant	restaurant	NOUN	NN	Number=Sing	1	obl	_	_
+4	not	not	ADV	RB	_	6	advmod	_	_
+5	only	only	ADV	RB	_	6	advmod	_	_
+6	irritates	irritate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	other	other	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	customers	customer	NOUN	NNS	Number=Plur	6	obj	_	_
+9	and	and	CCONJ	CC	_	13	cc	_	_
+10	reflect	reflect	ADJ	JJ	Degree=Pos	13	amod	_	_
+11	bad	bad	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	social	social	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	consciousness	consciousness	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	6	punct	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+16	also	also	ADV	RB	_	17	advmod	_	_
+17	brings	bring	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+18	great	great	ADJ	JJ	Degree=Pos	20	amod	_	_
+19	health	health	NOUN	NN	Number=Sing	20	compound	_	_
+20	implications	implication	NOUN	NNS	Number=Plur	17	obj	_	_
+21	to	to	ADP	IN	_	22	case	_	_
+22	others	other	NOUN	NNS	Number=Plur	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 11
+# text = I believe the no greater emphasis has been placed on the dangers of secondhand smoke and everyone is well aware of it.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	greater	greater	NOUN	NN	Number=Sing	2	obj	_	_
+6	emphasis	emphasis	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nsubj:pass	_	_
+7	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	placed	place	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	_	_
+10	on	on	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	dangers	dangers	NOUN	NNS	Number=Plur	9	obl	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	secondhand	secondhand	NOUN	NN	Number=Sing	15	compound	_	_
+15	smoke	smoke	NOUN	NN	Number=Sing	12	nmod	_	_
+16	and	and	CCONJ	CC	_	20	cc	_	_
+17	everyone	everyone	PRON	NN	Number=Sing	20	nsubj	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	well	well	ADV	RB	Degree=Pos	20	advmod	_	_
+20	aware	aware	ADJ	JJ	Degree=Pos	9	conj	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = To continue smoking in public and even at home only goes to reveal the selfishness of the individual, to put everyone around him/her at risks.
+1	To	to	PART	TO	_	2	mark	_	_
+2	continue	continue	VERB	VB	VerbForm=Inf	0	root	_	_
+3	smoking	smoke	NOUN	NN	Number=Sing	2	obj	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	public	public	ADJ	JJ	Degree=Pos	3	nmod	_	_
+6	and	and	CCONJ	CC	_	11	cc	_	_
+7	even	even	ADV	RB	_	9	advmod	_	_
+8	at	at	ADP	IN	_	9	case	_	_
+9	home	home	NOUN	NN	Number=Sing	11	obl	_	_
+10	only	only	ADV	RB	_	11	advmod	_	_
+11	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	reveal	reveal	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	selfishness	selfishness	NOUN	NN	Number=Sing	13	obj	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	individual	individual	ADJ	JJ	Degree=Pos	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	13	punct	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	put	put	VERB	VB	VerbForm=Inf	13	advcl	_	_
+22	everyone	everyone	PRON	NN	Number=Sing	21	obj	_	_
+23	around	around	ADP	IN	_	24	case	_	_
+24	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	SpaceAfter=No
+25	/	/	PUNCT	,	_	26	cc	_	SpaceAfter=No
+26	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	conj	_	_
+27	at	at	ADP	IN	_	28	case	_	_
+28	risks	risk	NOUN	NNS	Number=Plur	21	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 13
+# text = It does not matter why one picked up smoking.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	matter	matter	VERB	VB	VerbForm=Inf	0	root	_	_
+5	why	why	ADV	WRB	PronType=Int	9	advmod	_	_
+6	one	one	NUM	CD	NumType=Card	9	nummod	_	_
+7	picked	pick	VERB	VBN	Tense=Past|VerbForm=Part	9	amod	_	_
+8	up	up	ADP	RP	_	7	compound:prt	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 14
+# text = What matters is the will to stop and to respect one's own body and other's around them.
+1	What	what	PRON	WP	PronType=Int	2	nsubj	_	_
+2	matters	matter	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	csubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	will	will	NOUN	NN	Number=Sing	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	stop	stop	VERB	VB	VerbForm=Inf	5	acl	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	respect	respect	VERB	VB	VerbForm=Inf	7	conj	_	_
+11	one	one	NUM	CD	NumType=Card	14	nmod:poss	_	SpaceAfter=No
+12	's	's	PART	POS	_	11	case	_	_
+13	own	own	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	body	body	NOUN	NN	Number=Sing	10	obj	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	other	other	ADJ	JJ	Degree=Pos	14	conj	_	SpaceAfter=No
+17	's	be	PART	POS	_	16	case	_	_
+18	around	around	ADP	IN	_	19	case	_	_
+19	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

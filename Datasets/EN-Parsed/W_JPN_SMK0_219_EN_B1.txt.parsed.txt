@@ -1,0 +1,294 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_JPN_SMK0_219_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking, of course, is bad for health not only of smoker but also of surroundings.
+1	﻿Smoking	﻿Smoking	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	of	of	ADV	RB	_	7	advmod	_	_
+4	course	course	ADV	RB	_	3	fixed	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	bad	bad	ADJ	JJ	Degree=Pos	0	root	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	health	health	NOUN	NN	Number=Sing	7	obl	_	_
+10	not	not	ADV	RB	_	11	advmod	_	_
+11	only	only	ADV	RB	_	13	cc:preconj	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	smoker	smoker	NOUN	NN	Number=Sing	7	obl	_	_
+14	but	but	CCONJ	CC	_	17	cc	_	_
+15	also	also	ADV	RB	_	17	advmod	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	surroundings	surroundings	NOUN	NNS	Number=Plur	13	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = However, if a low that smoking should be completely banned at all restaurants is provided, a rate of crime begin to rise rapidly.
+1	However	however	ADV	RB	_	22	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	22	punct	_	_
+3	if	if	SCONJ	IN	_	16	mark	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	low	low	NOUN	NN	Number=Sing	16	nsubj:pass	_	_
+6	that	that	PRON	WDT	PronType=Rel	11	obj	_	_
+7	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	11	nsubj:pass	_	_
+8	should	should	AUX	MD	VerbForm=Fin	11	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	_	_
+10	completely	completely	ADV	RB	_	11	advmod	_	_
+11	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
+12	at	at	ADP	IN	_	14	case	_	_
+13	all	all	DET	DT	_	14	det	_	_
+14	restaurants	restaurant	NOUN	NNS	Number=Plur	11	obl	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	provided	provide	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	22	punct	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	rate	rate	NOUN	NN	Number=Sing	22	nsubj	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	crime	crime	NOUN	NN	Number=Sing	19	nmod	_	_
+22	begin	begin	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	rise	rise	VERB	VB	VerbForm=Inf	22	xcomp	_	_
+25	rapidly	rapidly	ADV	RB	_	24	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 3
+# text = Nowadays, most of crime such as murder, theft, violence, and so on are due to stress.
+1	Nowadays	nowadays	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	most	most	ADJ	JJS	Degree=Sup	0	root	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	crime	crime	NOUN	NN	Number=Sing	3	nmod	_	_
+6	such	such	ADJ	JJ	Degree=Pos	8	case	_	_
+7	as	as	ADP	IN	_	6	fixed	_	_
+8	murder	murder	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	theft	theft	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	violence	violence	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	20	punct	_	_
+14	and	and	CCONJ	CC	_	20	cc	_	_
+15	so	so	ADV	RB	_	16	advmod	_	_
+16	on	on	ADV	RB	_	20	advmod	_	_
+17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	cop	_	_
+18	due	due	ADP	IN	_	20	case	_	_
+19	to	to	ADP	IN	_	18	fixed	_	_
+20	stress	stress	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Thinking about security of life for citizens is more precious than any other thing.
+1	Thinking	think	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+2	about	about	ADP	IN	_	3	case	_	_
+3	security	security	NOUN	NN	Number=Sing	1	obl	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	life	life	NOUN	NN	Number=Sing	3	nmod	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	citizens	citizen	NOUN	NNS	Number=Plur	1	nmod	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	more	more	ADV	RBR	_	10	advmod	_	_
+10	precious	precious	ADJ	JJ	Degree=Pos	0	root	_	_
+11	than	than	ADP	IN	_	14	case	_	_
+12	any	any	DET	DT	_	14	det	_	_
+13	other	other	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	thing	thing	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 5
+# text = Therefore, the idea should be changed to an idea that smoking should be partly banned at all restaurants in Japan.
+1	Therefore	therefore	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	idea	idea	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+5	should	should	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	changed	change	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	idea	idea	NOUN	NN	Number=Sing	7	obl	_	_
+11	that	that	SCONJ	IN	_	16	mark	_	_
+12	smoking	smoking	NOUN	NN	Number=Sing	16	nsubj:pass	_	_
+13	should	should	AUX	MD	VerbForm=Fin	16	aux	_	_
+14	be	be	AUX	VB	VerbForm=Inf	16	aux:pass	_	_
+15	partly	partly	ADV	RB	_	16	advmod	_	_
+16	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	_
+17	at	at	ADP	IN	_	19	case	_	_
+18	all	all	DET	DT	_	19	det	_	_
+19	restaurants	restaurant	NOUN	NNS	Number=Plur	16	obl	_	_
+20	in	in	ADP	IN	_	21	case	_	_
+21	Japan	Japan	PROPN	NNP	Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 6
+# text = Namely, it is important to establish restaurants for smokers and non-smokers separately.
+1	Namely	Namely	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	establish	establish	VERB	VB	VerbForm=Inf	5	csubj	_	_
+8	restaurants	restaurant	NOUN	NNS	Number=Plur	7	obj	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	smokers	smoker	NOUN	NNS	Number=Plur	8	nmod	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	non-smoker	non-smoker	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+13	s	s	PART	POS	_	12	case	_	_
+14	separately	separately	ADV	RB	_	12	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 7
+# text = By doing so, all smokers can smoke without thinking about trouble for surroundings and refresh themselves.
+1	By	by	SCONJ	IN	_	2	mark	_	_
+2	doing	do	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+3	so	so	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	all	all	DET	DT	_	6	det	_	_
+6	smokers	smoker	NOUN	NNS	Number=Plur	8	nsubj	_	_
+7	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	smoke	smoke	VERB	VB	VerbForm=Inf	0	root	_	_
+9	without	without	SCONJ	IN	_	10	mark	_	_
+10	thinking	think	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+11	about	about	ADP	IN	_	12	case	_	_
+12	trouble	trouble	NOUN	NN	Number=Sing	10	obl	_	_
+13	for	for	ADP	IN	_	14	case	_	_
+14	surroundings	surroundings	NOUN	NNS	Number=Plur	12	nmod	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	refresh	refresh	VERB	VB	VerbForm=Inf	10	conj	_	_
+17	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 8
+# text = Non-smokers can also enjoy eating food without stress that comes from putting up with smoke and worry about their health.
+1	Non-smokers	non-smoker	NOUN	NNS	Number=Plur	4	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	also	also	ADV	RB	_	4	advmod	_	_
+4	enjoy	enjoy	VERB	VB	VerbForm=Inf	0	root	_	_
+5	eating	eat	VERB	VBG	VerbForm=Ger	6	amod	_	_
+6	food	food	NOUN	NN	Number=Sing	4	obj	_	_
+7	without	without	ADP	IN	_	8	case	_	_
+8	stress	stress	NOUN	NN	Number=Sing	4	obl	_	_
+9	that	that	PRON	WDT	PronType=Rel	10	nsubj	_	_
+10	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	from	from	SCONJ	IN	_	12	mark	_	_
+12	putting	put	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+13	up	up	ADP	RP	_	12	compound:prt	_	_
+14	with	with	ADP	IN	_	15	case	_	_
+15	smoke	smoke	NOUN	NN	Number=Sing	12	obl	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	worry	worry	ADJ	JJ	Degree=Pos	15	conj	_	_
+18	about	about	ADP	IN	_	20	case	_	_
+19	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	health	health	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = What's more, not only reduce the rate of crime but improve national economy.
+1	What	what	PRON	WP	PronType=Int	3	nsubj	_	SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	more	more	ADJ	JJR	Degree=Cmp	7	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	not	not	ADV	RB	_	7	advmod	_	_
+6	only	only	ADV	RB	_	7	advmod	_	_
+7	reduce	reduce	VERB	VB	VerbForm=Inf	0	root	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	rate	rate	NOUN	NN	Number=Sing	7	obj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	crime	crime	NOUN	NN	Number=Sing	9	nmod	_	_
+12	but	but	CCONJ	CC	_	13	cc	_	_
+13	improve	improve	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	_	_
+14	national	national	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	economy	economy	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 10
+# text = For instance, if Japanese government provided the idea that I have just suggested, the sale of each restaurants would rise, and of cigarettes also would rise.
+1	For	for	ADP	IN	_	2	case	_	_
+2	instance	instance	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	22	punct	_	_
+4	if	if	SCONJ	IN	_	7	mark	_	_
+5	Japanese	japanese	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	government	government	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	provided	provide	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	advcl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	idea	idea	NOUN	NN	Number=Sing	7	obj	_	_
+10	that	that	PRON	WDT	PronType=Rel	14	obj	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+12	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	just	just	ADV	RB	_	14	advmod	_	_
+14	suggested	suggest	VERB	VBN	Tense=Past|VerbForm=Part	9	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	22	punct	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	sale	sale	NOUN	NN	Number=Sing	22	nsubj	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	each	each	DET	DT	_	20	det	_	_
+20	restaurants	restaurant	NOUN	NNS	Number=Plur	17	nmod	_	_
+21	would	would	AUX	MD	VerbForm=Fin	22	aux	_	_
+22	rise	rise	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	29	punct	_	_
+24	and	and	CCONJ	CC	_	29	cc	_	_
+25	of	of	ADP	IN	_	26	case	_	_
+26	cigarettes	cigarette	NOUN	NNS	Number=Plur	24	nmod	_	_
+27	also	also	ADV	RB	_	29	advmod	_	_
+28	would	would	AUX	MD	VerbForm=Fin	29	aux	_	_
+29	rise	rise	VERB	VB	VerbForm=Inf	22	conj	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 11
+# text = As a result, taxes that come from these sales are increase and are sent to government to improve life of citizens.
+1	As	as	ADP	IN	_	3	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	result	result	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	taxes	tax	NOUN	NNS	Number=Plur	12	nsubj	_	_
+6	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	_
+7	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	from	from	ADP	IN	_	10	case	_	_
+9	these	these	DET	DT	Number=Plur|PronType=Dem	10	det	_	_
+10	sales	sale	NOUN	NNS	Number=Plur	7	obl	_	_
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	increase	increase	NOUN	NN	Number=Sing	0	root	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	sent	send	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	conj	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	government	government	NOUN	NN	Number=Sing	15	obl	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	improve	improve	VERB	VB	VerbForm=Inf	15	advcl	_	_
+20	life	life	NOUN	NN	Number=Sing	19	obj	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	citizens	citizen	NOUN	NNS	Number=Plur	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 12
+# text = Thus, you will find that my idea is better than the theme.
+1	Thus	thus	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	find	find	VERB	VB	VerbForm=Inf	0	root	_	_
+6	that	that	SCONJ	IN	_	10	mark	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	idea	idea	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	better	better	ADJ	JJR	Degree=Cmp	5	ccomp	_	_
+11	than	than	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	theme	theme	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 13
+# text = When you understand my idea, you will also disagree with the theme.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	understand	understand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	idea	idea	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+8	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	also	also	ADV	RB	_	10	advmod	_	_
+10	disagree	disagree	VERB	VB	VerbForm=Inf	0	root	_	_
+11	with	with	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	theme	theme	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,302 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_JPN_SMK0_292_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿I think that smoking should be completely banned at all the restaurants in the country because smoking is bad for the health.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	8	mark	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+5	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+7	completely	completely	ADV	RB	_	8	advmod	_	_
+8	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+9	at	at	ADP	IN	_	12	case	_	_
+10	all	all	DET	PDT	_	12	det:predet	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	restaurants	restaurant	NOUN	NNS	Number=Plur	8	obl	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	country	country	NOUN	NN	Number=Sing	12	nmod	_	_
+16	because	because	SCONJ	IN	_	19	mark	_	_
+17	smoking	smoke	NOUN	NN	Number=Sing	19	nsubj	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	bad	bad	ADJ	JJ	Degree=Pos	8	advcl	_	_
+20	for	for	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	health	health	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Smoking harms not only smoker's health but also another person's health.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	2	amod	_	_
+2	harms	harm	NOUN	NNS	Number=Plur	0	root	_	_
+3	not	not	ADV	RB	_	7	advmod	_	_
+4	only	only	ADV	RB	_	7	advmod	_	_
+5	smoker	smoker	NOUN	NN	Number=Sing	7	nmod:poss	_	SpaceAfter=No
+6	's	's	PART	POS	_	5	case	_	_
+7	health	health	NOUN	NN	Number=Sing	2	conj	_	_
+8	but	but	CCONJ	CC	_	13	cc	_	_
+9	also	also	ADV	RB	_	13	advmod	_	_
+10	another	another	DET	DT	_	11	det	_	_
+11	person	person	NOUN	NN	Number=Sing	13	nmod:poss	_	SpaceAfter=No
+12	's	's	PART	POS	_	11	case	_	_
+13	health	health	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = So the Japanese government is beginning to prohibit smoking.
+1	So	so	ADV	RB	_	6	advmod	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	Japanese	japanese	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	government	government	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	beginning	begin	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	prohibit	prohibit	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = For example, school teachers are prohibited smoking inside an elementary school and a junior high school.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	school	school	NOUN	NN	Number=Sing	5	compound	_	_
+5	teachers	teacher	NOUN	NNS	Number=Plur	7	nsubj:pass	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	prohibited	prohibit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	smoking	smoke	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+9	inside	inside	ADP	IN	_	12	case	_	_
+10	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	elementary	elementary	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	school	school	NOUN	NN	Number=Sing	8	nmod	_	_
+13	and	and	CCONJ	CC	_	17	cc	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+15	junior	junior	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	high	high	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	school	school	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = When I was a junior high school student, school teachers are prohibited smoking not only inside buildings of school but also inside the others.
+1	When	when	ADV	WRB	PronType=Int	8	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+5	junior	junior	ADJ	JJ	Degree=Pos	8	amod	_	_
+6	high	high	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	school	school	NOUN	NN	Number=Sing	8	compound	_	_
+8	student	student	NOUN	NN	Number=Sing	13	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	school	school	NOUN	NN	Number=Sing	11	compound	_	_
+11	teachers	teacher	NOUN	NNS	Number=Plur	13	nsubj:pass	_	_
+12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	prohibited	prohibit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+14	smoking	smoke	NOUN	NN	Number=Sing	18	compound	_	_
+15	not	not	ADV	RB	_	16	advmod	_	_
+16	only	only	ADV	RB	_	18	cc:preconj	_	_
+17	inside	inside	ADV	RB	_	18	advmod	_	_
+18	buildings	building	NOUN	NNS	Number=Plur	13	obj	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	school	school	NOUN	NN	Number=Sing	18	nmod	_	_
+21	but	but	CCONJ	CC	_	22	cc	_	_
+22	also	also	ADV	RB	_	18	advmod	_	_
+23	inside	inside	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	others	other	NOUN	NNS	Number=Plur	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 6
+# text = In America, the state governments imposed a high tax on the cigarettes so that smokers try to give up smoking.
+1	In	in	ADP	IN	_	2	case	_	_
+2	America	America	PROPN	NNP	Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	state	state	NOUN	NN	Number=Sing	6	compound	_	_
+6	governments	government	NOUN	NNS	Number=Plur	7	nsubj	_	_
+7	imposed	impose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	high	high	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	tax	tax	NOUN	NN	Number=Sing	7	obj	_	_
+11	on	on	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	cigarettes	cigarette	NOUN	NNS	Number=Plur	10	nmod	_	_
+14	so	so	SCONJ	IN	_	17	mark	_	_
+15	that	that	SCONJ	IN	_	14	fixed	_	_
+16	smokers	smoker	NOUN	NNS	Number=Plur	17	nsubj	_	_
+17	try	try	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	give	give	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+20	up	up	ADP	RP	_	19	compound:prt	_	_
+21	smoking	smoking	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 7
+# text = As a result, the price of cigarettes rose and was more than 1, 000 yen, but the policy was effective in giving up smoking.
+1	As	as	ADP	IN	_	3	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	result	result	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	9	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	price	price	NOUN	NN	Number=Sing	9	nsubj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	cigarettes	cigarettes	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	rose	rose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	and	and	CCONJ	CC	_	17	cc	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+12	more	more	ADJ	JJR	Degree=Cmp	17	conj	_	_
+13	than	than	ADP	IN	_	14	case	_	_
+14	1	1	NUM	CD	NumType=Card	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	000	000	NUM	CD	NumType=Card	17	nummod	_	_
+17	yen	yen	NUM	CD	NumType=Card	9	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	23	punct	_	_
+19	but	but	CCONJ	CC	_	23	cc	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	policy	policy	NOUN	NN	Number=Sing	23	nsubj	_	_
+22	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	_	_
+23	effective	effective	ADJ	JJ	Degree=Pos	9	conj	_	_
+24	in	in	SCONJ	IN	_	25	mark	_	_
+25	giving	give	VERB	VBG	VerbForm=Ger	23	advcl	_	_
+26	up	up	ADP	RP	_	25	compound:prt	_	_
+27	smoking	smoking	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 8
+# text = Therefore smoking is considered to be bad for the health in a lot of countries and many governments begin to adopt a policy to smoking.
+1	Therefore	therefore	SCONJ	IN	_	4	mark	_	_
+2	smoking	smoking	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	considered	consider	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	to	to	PART	TO	_	7	mark	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+7	bad	bad	ADJ	JJ	Degree=Pos	4	xcomp	_	_
+8	for	for	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	health	health	NOUN	NN	Number=Sing	7	obl	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	lot	lot	NOUN	NN	Number=Sing	19	obl	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	countries	country	NOUN	NNS	Number=Plur	13	nmod	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	many	many	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	governments	government	NOUN	NNS	Number=Plur	19	nsubj	_	_
+19	begin	begin	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	adopt	adopt	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	policy	policy	NOUN	NN	Number=Sing	21	obj	_	_
+24	to	to	ADP	IN	_	25	case	_	_
+25	smoking	smoke	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = There is another reason why I think smoking should be completely banned at all the restaurants in the country.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	another	another	DET	DT	_	4	det	_	_
+4	reason	reason	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	why	why	ADV	WRB	PronType=Int	7	advmod	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	12	nsubj:pass	_	_
+9	should	should	AUX	MD	VerbForm=Fin	12	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	12	aux:pass	_	_
+11	completely	completely	ADV	RB	_	12	advmod	_	_
+12	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	ccomp	_	_
+13	at	at	ADP	IN	_	16	case	_	_
+14	all	all	DET	PDT	_	16	det:predet	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	restaurants	restaurant	NOUN	NNS	Number=Plur	12	obl	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	country	country	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = In Japan, there are seats in the smoking section and nonsmoking seats in restaurants.
+1	In	in	ADP	IN	_	2	case	_	_
+2	Japan	Japan	PROPN	NNP	Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	there	there	PRON	EX	_	5	expl	_	_
+5	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	seats	seat	NOUN	NNS	Number=Plur	5	nsubj	_	_
+7	in	in	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	10	compound	_	_
+10	section	section	NOUN	NN	Number=Sing	6	nmod	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	nonsmoking	nonsmok	VERB	VBG	VerbForm=Ger	13	amod	_	_
+13	seats	seat	NOUN	NNS	Number=Plur	6	conj	_	_
+14	in	in	ADP	IN	_	15	case	_	_
+15	restaurants	restaurant	NOUN	NNS	Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 11
+# text = But each seat doesn't completely be divided because we can't separate the air in seats in the smoking section from the air in nonsmoking seats.
+1	But	but	CCONJ	CC	_	8	cc	_	_
+2	each	each	DET	DT	_	3	det	_	_
+3	seat	seat	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
+5	n't	not	PART	RB	_	8	advmod	_	_
+6	completely	completely	ADV	RB	_	8	advmod	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	divided	divide	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	because	because	SCONJ	IN	_	13	mark	_	_
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+11	ca	can	AUX	MD	VerbForm=Fin	13	aux	_	SpaceAfter=No
+12	n't	not	PART	RB	_	13	advmod	_	_
+13	separate	separate	VERB	VB	VerbForm=Inf	8	advcl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	air	air	NOUN	NN	Number=Sing	13	obj	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	seats	seat	NOUN	NNS	Number=Plur	13	obl	_	_
+18	in	in	ADP	IN	_	21	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	smoking	smoking	NOUN	NN	Number=Sing	21	compound	_	_
+21	section	section	NOUN	NN	Number=Sing	13	obl	_	_
+22	from	from	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	air	air	NOUN	NN	Number=Sing	21	nmod	_	_
+25	in	in	SCONJ	IN	_	26	mark	_	_
+26	nonsmoking	nonsmoking	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+27	seats	seat	NOUN	NNS	Number=Plur	26	obj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 12
+# text = So people who sit a nonsmoking seat breathe in smoke of cigarette.
+1	So	so	ADV	RB	_	2	advmod	_	_
+2	people	people	NOUN	NNS	Number=Plur	0	root	_	_
+3	who	who	PRON	WP	PronType=Rel	4	nsubj	_	_
+4	sit	sit	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	nonsmoking	nonsmoking	NOUN	NN	Number=Sing	7	compound	_	_
+7	seat	seat	NOUN	NN	Number=Sing	4	obj	_	_
+8	breathe	breathe	VERB	VB	VerbForm=Inf	7	acl	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	smoke	smoke	NOUN	NN	Number=Sing	8	obl	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	cigarette	cigarette	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 13
+# text = Therefore I think that smoking should be completely banned at all the restaurants in the country.
+1	Therefore	therefore	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	9	mark	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
+6	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+8	completely	completely	ADV	RB	_	9	advmod	_	_
+9	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+10	at	at	ADP	IN	_	13	case	_	_
+11	all	all	DET	PDT	_	13	det:predet	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	restaurants	restaurant	NOUN	NNS	Number=Plur	9	obl	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	country	country	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

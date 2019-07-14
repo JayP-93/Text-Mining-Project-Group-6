@@ -1,0 +1,299 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PHL_PTJ0_162_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿We know that a lot of people are working to earn money for them to survive.
+1	﻿We	﻿we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	9	mark	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	lot	lot	NOUN	NN	Number=Sing	9	nsubj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	people	people	NOUN	NNS	Number=Plur	5	nmod	_	_
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	2	ccomp	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	earn	earn	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	money	money	NOUN	NN	Number=Sing	11	obj	_	_
+13	for	for	ADP	IN	_	14	case	_	_
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obl	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	survive	survive	VERB	VB	VerbForm=Inf	11	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Some of those people we know are employees of course, some are the owners of their own firm and some are students.
+1	Some	some	DET	DT	_	8	nsubj	_	_
+2	of	of	ADP	IN	_	4	case	_	_
+3	those	those	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+4	people	people	NOUN	NNS	Number=Plur	1	nmod	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+6	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	employees	employee	NOUN	NNS	Number=Plur	0	root	_	_
+9	of	of	ADV	RB	_	8	advmod	_	_
+10	course	course	ADV	RB	_	9	fixed	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	some	some	DET	DT	_	15	nsubj	_	_
+13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	owners	owner	NOUN	NNS	Number=Plur	8	parataxis	_	_
+16	of	of	ADP	IN	_	19	case	_	_
+17	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+18	own	own	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	firm	firm	NOUN	NN	Number=Sing	15	nmod	_	_
+20	and	and	CCONJ	CC	_	23	cc	_	_
+21	some	some	DET	DT	_	23	nsubj	_	_
+22	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	students	student	NOUN	NNS	Number=Plur	15	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = When a student wants to work to earn money they apply for part time jobs.
+1	When	when	ADV	WRB	PronType=Int	4	mark	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	student	student	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	work	work	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	earn	earn	VERB	VB	VerbForm=Inf	6	advcl	_	_
+9	money	money	NOUN	NN	Number=Sing	11	obj	_	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+11	apply	apply	VERB	VB	VerbForm=Inf	8	ccomp	_	_
+12	for	for	ADP	IN	_	15	case	_	_
+13	part	part	NOUN	NN	Number=Sing	14	compound	_	_
+14	time	time	NOUN	NN	Number=Sing	15	compound	_	_
+15	jobs	job	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = So they can work depends on their schedule whether to work in the afternoon after their class or in the morning before they go to class.
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	work	work	VERB	VB	VerbForm=Inf	0	root	_	_
+5	depends	depend	NOUN	NNS	Number=Plur	4	obj	_	_
+6	on	on	ADP	IN	_	8	case	_	_
+7	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	schedule	schedule	NOUN	NN	Number=Sing	4	obl	_	_
+9	whether	whether	SCONJ	IN	_	11	mark	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	work	work	VERB	VB	VerbForm=Inf	4	advcl	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	afternoon	afternoon	NOUN	NN	Number=Sing	11	obl	_	_
+15	after	after	ADP	IN	_	17	case	_	_
+16	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	class	class	NOUN	NN	Number=Sing	11	obl	_	_
+18	or	or	CCONJ	CC	_	21	cc	_	_
+19	in	in	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	morning	morning	NOUN	NN	Number=Sing	17	conj	_	_
+22	before	before	SCONJ	IN	_	24	mark	_	_
+23	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
+24	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+25	to	to	ADP	IN	_	26	case	_	_
+26	class	class	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Part time job is an employment that carries fewer hours per week than a full-time job.
+1	Part	part	NOUN	NN	Number=Sing	2	compound	_	_
+2	time	time	NOUN	NN	Number=Sing	3	compound	_	_
+3	job	job	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	employment	employment	NOUN	NN	Number=Sing	0	root	_	_
+7	that	that	PRON	WDT	PronType=Rel	8	nsubj	_	_
+8	carries	carry	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	fewer	fewer	ADJ	JJR	Degree=Cmp	10	amod	_	_
+10	hours	hour	NOUN	NNS	Number=Plur	8	obj	_	_
+11	per	per	ADP	IN	_	12	case	_	_
+12	week	week	NOUN	NN	Number=Sing	10	nmod	_	_
+13	than	than	ADP	IN	_	18	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+15	full	full	ADJ	JJ	Degree=Pos	17	amod	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	_	17	punct	_	SpaceAfter=No
+17	time	time	NOUN	NN	Number=Sing	18	compound	_	_
+18	job	job	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Sometimes people do part time jobs because they are not satisfied in what they get from their present job.
+1	Sometimes	sometimes	ADV	RB	_	3	advmod	_	_
+2	people	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	part	part	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	time	time	NOUN	NN	Number=Sing	6	compound	_	_
+6	jobs	job	NOUN	NNS	Number=Plur	3	obj	_	_
+7	because	because	SCONJ	IN	_	11	mark	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	not	not	PART	RB	_	11	advmod	_	_
+11	satisfied	satisfied	ADJ	JJ	Degree=Pos	3	advcl	_	_
+12	in	in	SCONJ	IN	_	13	case	_	_
+13	what	what	PRON	WP	PronType=Int	11	obl	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+15	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	from	from	ADP	IN	_	19	case	_	_
+17	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+18	present	present	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	job	job	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Others do part time jobs because they just want their time to be useful; they don't what to waste their time doing non-sense things so rather than killing time they want to spend their time wisely.
+1	Others	other	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	part	part	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	time	time	NOUN	NN	Number=Sing	5	compound	_	_
+5	jobs	job	NOUN	NNS	Number=Plur	2	obj	_	_
+6	because	because	SCONJ	IN	_	9	mark	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+8	just	just	ADV	RB	_	9	advmod	_	_
+9	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+10	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	time	time	NOUN	NN	Number=Sing	9	obj	_	_
+12	to	to	PART	TO	_	14	mark	_	_
+13	be	be	AUX	VB	VerbForm=Inf	14	cop	_	_
+14	useful	useful	ADJ	JJ	Degree=Pos	9	xcomp	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	2	punct	_	_
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+17	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+18	n't	not	PART	RB	_	17	advmod	_	_
+19	what	what	PRON	WP	PronType=Int	17	obj	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	waste	waste	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+22	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	time	time	NOUN	NN	Number=Sing	21	obj	_	_
+24	doing	do	VERB	VBG	VerbForm=Ger	21	advcl	_	_
+25	non-sense	non-sense	DET	DT	Number=Plur|PronType=Dem	26	det	_	_
+26	things	thing	NOUN	NNS	Number=Plur	24	obj	_	_
+27	so	so	ADV	RB	_	30	advmod	_	_
+28	rather	rather	ADV	RB	_	27	fixed	_	_
+29	than	than	SCONJ	IN	_	30	mark	_	_
+30	killing	kill	VERB	VBG	VerbForm=Ger	24	advcl	_	_
+31	time	time	NOUN	NN	Number=Sing	30	obj	_	_
+32	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	33	nsubj	_	_
+33	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	31	acl:relcl	_	_
+34	to	to	PART	TO	_	35	mark	_	_
+35	spend	spend	VERB	VB	VerbForm=Inf	33	xcomp	_	_
+36	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
+37	time	time	NOUN	NN	Number=Sing	35	obj	_	_
+38	wisely	wisely	ADV	RB	_	35	advmod	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Part time job helps people to earn more especially students.
+1	Part	part	NOUN	NN	Number=Sing	2	compound	_	_
+2	time	time	NOUN	NN	Number=Sing	4	obl:tmod	_	_
+3	job	job	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	helps	help	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	people	people	NOUN	NNS	Number=Plur	4	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	earn	earn	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+8	more	more	ADV	RBR	_	7	advmod	_	_
+9	especially	especially	ADV	RB	_	10	advmod	_	_
+10	students	student	NOUN	NNS	Number=Plur	7	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Students do part time job to support them while studying and to have solutions for their financial issues.
+1	Students	student	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	part	part	NOUN	NN	Number=Sing	5	compound	_	_
+4	time	time	NOUN	NN	Number=Sing	5	compound	_	_
+5	job	job	NOUN	NN	Number=Sing	2	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	support	support	VERB	VB	VerbForm=Inf	2	advcl	_	_
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+9	while	while	SCONJ	IN	_	10	mark	_	_
+10	studying	study	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	have	have	VERB	VB	VerbForm=Inf	10	conj	_	_
+14	solutions	solution	NOUN	NNS	Number=Plur	13	obj	_	_
+15	for	for	ADP	IN	_	18	case	_	_
+16	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+17	financial	financial	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	issues	issue	NOUN	NNS	Number=Plur	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = Part time job is not just to support the financial problems of the person, but it also helps the person to know what working hard means and feels like.
+1	Part	part	NOUN	NN	Number=Sing	2	compound	_	_
+2	time	time	NOUN	NN	Number=Sing	3	compound	_	_
+3	job	job	NOUN	NN	Number=Sing	8	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	not	not	PART	RB	_	8	advmod	_	_
+6	just	just	ADV	RB	_	8	advmod	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	support	support	VERB	VB	VerbForm=Inf	0	root	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	financial	financial	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	problems	problem	NOUN	NNS	Number=Plur	8	obj	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	person	person	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	but	but	CCONJ	CC	_	19	cc	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+18	also	also	ADV	RB	_	19	advmod	_	_
+19	helps	help	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	person	person	NOUN	NN	Number=Sing	19	obj	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	know	know	VERB	VB	VerbForm=Inf	21	acl	_	_
+24	what	what	PRON	WP	PronType=Int	27	obj	_	_
+25	working	work	VERB	VBG	VerbForm=Ger	27	amod	_	_
+26	hard	hard	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	means	mean	NOUN	NNS	Number=Plur	23	ccomp	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	feels	feel	NOUN	NNS	Number=Plur	30	nsubj	_	_
+30	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	27	conj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 11
+# text = It also serves as training for the person to know what will happen by the time he/she works and also to prepare him/her for the challenges that might happen while he/she's already working.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	also	also	ADV	RB	_	3	advmod	_	_
+3	serves	serve	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	as	as	SCONJ	IN	_	5	mark	_	_
+5	training	training	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	person	person	NOUN	NN	Number=Sing	5	obl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	know	know	VERB	VB	VerbForm=Inf	8	acl	_	_
+11	what	what	PRON	WP	PronType=Int	13	nsubj	_	_
+12	will	will	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	happen	happen	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+14	by	by	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	time	time	NOUN	NN	Number=Sing	13	obl	_	_
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	SpaceAfter=No
+18	/	/	PUNCT	,	_	19	cc	_	SpaceAfter=No
+19	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	conj	_	_
+20	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+21	and	and	CCONJ	CC	_	24	cc	_	_
+22	also	also	ADV	RB	_	24	advmod	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	prepare	prepare	VERB	VB	VerbForm=Inf	10	conj	_	_
+25	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	SpaceAfter=No
+26	/	/	PUNCT	,	_	27	cc	_	SpaceAfter=No
+27	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	conj	_	_
+28	for	for	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	challenges	challenge	NOUN	NNS	Number=Plur	24	obl	_	_
+31	that	that	PRON	WDT	PronType=Rel	33	nsubj	_	_
+32	might	might	AUX	MD	VerbForm=Fin	33	aux	_	_
+33	happen	happen	VERB	VB	VerbForm=Inf	30	acl:relcl	_	_
+34	while	while	SCONJ	IN	_	40	mark	_	_
+35	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	SpaceAfter=No
+36	/	/	PUNCT	,	_	37	cc	_	SpaceAfter=No
+37	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	conj	_	SpaceAfter=No
+38	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+39	already	already	ADV	RB	_	40	advmod	_	_
+40	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	33	advcl	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

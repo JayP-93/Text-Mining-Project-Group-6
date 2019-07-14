@@ -1,0 +1,272 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_079_EN_B2.txt
+# newpar
+# sent_id = 1
+# text = ﻿I think it should be banned in public places like restaurants because it causes more than 1000 deaths of lung cancers.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	_
+4	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+6	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	public	public	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	places	place	NOUN	NNS	Number=Plur	6	obl	_	_
+10	like	like	ADP	IN	_	11	case	_	_
+11	restaurants	restaurant	NOUN	NNS	Number=Plur	9	nmod	_	_
+12	because	because	SCONJ	IN	_	14	mark	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	causes	cause	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+15	more	more	ADJ	JJR	Degree=Cmp	17	advmod	_	_
+16	than	than	ADP	IN	_	15	fixed	_	_
+17	1000	1000	NUM	CD	NumType=Card	18	nummod	_	_
+18	deaths	death	NOUN	NNS	Number=Plur	14	obj	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	lung	lung	NOUN	NN	Number=Sing	21	compound	_	_
+21	cancers	cancer	NOUN	NNS	Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Second hand smoke affects pregnant women, children and elderly people more.
+1	Second	second	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	_	_
+2	hand	hand	NOUN	NN	Number=Sing	3	compound	_	_
+3	smoke	smoke	NOUN	NN	Number=Sing	4	compound	_	_
+4	affects	affect	NOUN	NNS	Number=Plur	6	compound	_	_
+5	pregnant	pregnant	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	women	woman	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	children	child	NOUN	NNS	Number=Plur	6	conj	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	elderly	elderly	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	people	people	NOUN	NNS	Number=Plur	6	conj	_	_
+12	more	more	ADV	RBR	_	6	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Smoking is also setting bad examples from teens and young adults.
+1	Smoking	smoking	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	also	also	ADV	RB	_	4	advmod	_	_
+4	setting	set	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	bad	bad	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	examples	example	NOUN	NNS	Number=Plur	4	obj	_	_
+7	from	from	ADP	IN	_	8	case	_	_
+8	teens	teens	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	young	young	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	adults	adult	NOUN	NNS	Number=Plur	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Also, scientists agree that smoking is dangerous.
+1	Also	also	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	scientists	scientist	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	dangerous	dangerous	ADJ	JJ	Degree=Pos	4	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Tobacco smoke can cause cancer, strokes and heart disease.
+1	Tobacco	Tobacco	NOUN	NN	Number=Sing	2	compound	_	_
+2	smoke	smoke	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	cause	cause	VERB	VB	VerbForm=Inf	0	root	_	_
+5	cancer	cancer	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	strokes	stroke	NOUN	NNS	Number=Plur	5	conj	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	heart	heart	NOUN	NN	Number=Sing	10	compound	_	_
+10	disease	disease	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Smoking does not just harm the smoker.
+1	Smoking	smoking	NOUN	NN	Number=Sing	5	nsubj	_	_
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	just	just	ADV	RB	_	5	advmod	_	_
+5	harm	harm	VERB	VB	VerbForm=Inf	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	smoker	smoker	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 7
+# text = It also harms people nearby, who breathe in the smoke called passive smoking.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	also	also	ADV	RB	_	3	advmod	_	_
+3	harms	harm	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	people	people	NOUN	NNS	Number=Plur	3	obj	_	_
+5	nearby	nearby	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+8	breathe	breathe	VERB	VB	Mood=Imp|VerbForm=Fin	4	acl:relcl	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	smoke	smoke	NOUN	NN	Number=Sing	8	obl	_	_
+12	called	call	VERB	VBN	Tense=Past|VerbForm=Part	8	advcl	_	_
+13	passive	passive	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	smoking	smoking	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Smokers choose to smoke, but people nearby do not choose to smoke passively.
+1	Smoker	smoker	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	s	s	PART	POS	_	1	case	_	_
+3	choose	choose	VERB	VB	VerbForm=Inf	1	acl	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	smoke	smoke	VERB	VB	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	12	punct	_	_
+7	but	but	CCONJ	CC	_	12	cc	_	_
+8	people	people	NOUN	NNS	Number=Plur	12	nsubj	_	_
+9	nearby	nearby	ADV	RB	_	8	advmod	_	_
+10	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	not	not	PART	RB	_	12	advmod	_	_
+12	choose	choose	VERB	VB	VerbForm=Inf	3	conj	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	smoke	smoke	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+15	passively	passively	ADV	RB	_	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = People should only be exposed to harm if they understand the risks and choose to accept them.
+1	People	people	NOUN	NNS	Number=Plur	5	nsubj:pass	_	_
+2	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	only	only	ADV	RB	_	5	advmod	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	exposed	expose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	harm	harm	NOUN	NN	Number=Sing	5	obl	_	_
+8	if	if	SCONJ	IN	_	10	mark	_	_
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+10	understand	understand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	risks	risk	NOUN	NNS	Number=Plur	10	obj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	choose	choose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	accept	accept	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+17	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 10
+# text = A complete ban on smoking in public is needed to protect people from passive smoking.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	complete	complete	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	ban	ban	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
+4	on	on	ADP	IN	_	5	case	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	3	nmod	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	public	public	ADJ	JJ	Degree=Pos	5	nmod	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	needed	need	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	protect	protect	VERB	VB	VerbForm=Inf	9	advcl	_	_
+12	people	people	NOUN	NNS	Number=Plur	11	obj	_	_
+13	from	from	ADP	IN	_	15	case	_	_
+14	passive	passive	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	smoking	smoking	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 11
+# text = Society accepts that adults can decide to harm themselves to some extent, so long as they do not harm others.
+1	Society	society	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	accepts	accept	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	6	mark	_	_
+4	adults	adult	NOUN	NNS	Number=Plur	6	nsubj	_	_
+5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	decide	decide	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	harm	harm	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	_
+10	to	to	ADP	IN	_	12	case	_	_
+11	some	some	DET	DT	_	12	det	_	_
+12	extent	extent	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	8	punct	_	_
+14	so	so	ADV	RB	_	15	advmod	_	_
+15	long	long	ADV	RB	Degree=Pos	8	advmod	_	_
+16	as	as	SCONJ	IN	_	20	mark	_	_
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+18	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	not	not	PART	RB	_	20	advmod	_	_
+20	harm	harm	VERB	VB	VerbForm=Inf	15	advcl	_	_
+21	others	other	NOUN	NNS	Number=Plur	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = This is why the proposition is not arguing that people should be banned from smoking in private.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+3	why	why	ADV	WRB	PronType=Int	8	advmod	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	proposition	proposition	NOUN	NN	Number=Sing	8	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	arguing	argue	VERB	VBG	VerbForm=Ger	0	root	_	_
+9	that	that	SCONJ	IN	_	13	mark	_	_
+10	people	people	NOUN	NNS	Number=Plur	13	nsubj:pass	_	_
+11	should	should	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	be	be	AUX	VB	VerbForm=Inf	13	aux:pass	_	_
+13	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	ccomp	_	_
+14	from	from	ADP	IN	_	15	case	_	_
+15	smoking	smoking	NOUN	NN	Number=Sing	13	obl	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	private	private	ADJ	JJ	Degree=Pos	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 13
+# text = Passive smokers do choose to breathe in other people's smoke.
+1	Passive	Passive	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	smokers	smoker	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	choose	choose	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	breathe	breathe	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	in	in	ADP	IN	_	11	case	_	_
+8	other	other	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	people	people	NOUN	NNS	Number=Plur	11	nmod:poss	_	SpaceAfter=No
+10	's	's	PART	POS	_	9	case	_	_
+11	smoke	smoke	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 14
+# text = If they do not want to smoke passively, they do not need to go to places where smoking is allowed.
+1	If	if	SCONJ	IN	_	5	mark	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	want	want	VERB	VB	VerbForm=Inf	13	advcl	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	smoke	smoke	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	passively	passively	ADV	RB	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+11	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	not	not	PART	RB	_	13	advmod	_	_
+13	need	need	VERB	VB	VerbForm=Inf	0	root	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	go	go	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	places	place	NOUN	NNS	Number=Plur	15	obl	_	_
+18	where	where	ADV	WRB	PronType=Rel	21	advmod	_	_
+19	smoking	smoking	NOUN	NN	Number=Sing	21	nsubj:pass	_	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+21	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	acl:relcl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 15
+# text = There is therefore no reason to ban smoking in public.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	therefore	therefore	ADV	RB	_	2	advmod	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	reason	reason	NOUN	NN	Number=Sing	2	nsubj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	ban	ban	VERB	VB	VerbForm=Inf	5	acl	_	_
+8	smoking	smoke	NOUN	NN	Number=Sing	7	obj	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	public	public	ADJ	JJ	Degree=Pos	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

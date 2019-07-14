@@ -1,0 +1,270 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_005_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿Of course, I agree.
+1	﻿Of	﻿Of	ADV	RB	_	5	advmod	_	_
+2	course	course	ADV	RB	_	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = They should not ever smoke in public places Someone who smoked cigarettes in public places, the people he or she may get sick due to tobacco, and, you know, secondhand smoke is more dangerous than direct smoke Because smoking in public places because of the obvious etiquette.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	ever	ever	ADV	RB	_	5	advmod	_	_
+5	smoke	smoke	VERB	VB	VerbForm=Inf	0	root	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	public	public	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	places	place	NOUN	NNS	Number=Plur	23	obl	_	_
+9	Someone	someone	PRON	NN	Number=Sing	23	obl	_	_
+10	who	who	PRON	WP	PronType=Rel	11	nsubj	_	_
+11	smoked	smoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
+12	cigarettes	cigarette	NOUN	NNS	Number=Plur	11	obj	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	public	public	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	places	place	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	23	punct	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	people	people	NOUN	NNS	Number=Plur	23	nsubj	_	_
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+20	or	or	CCONJ	CC	_	23	cc	_	_
+21	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	may	may	AUX	MD	VerbForm=Fin	23	aux	_	_
+23	get	get	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+24	sick	sick	ADJ	JJ	Degree=Pos	23	xcomp	_	_
+25	due	due	ADP	IN	_	27	case	_	_
+26	to	to	ADP	IN	_	25	fixed	_	_
+27	tobacco	tobacco	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	32	punct	_	_
+29	and	and	CCONJ	CC	_	32	cc	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	32	punct	_	_
+31	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	32	nsubj	_	_
+32	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	conj	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	38	punct	_	_
+34	secondhand	secondhand	CCONJ	CC	_	38	cc	_	_
+35	smoke	smoke	NOUN	NN	Number=Sing	38	nsubj	_	_
+36	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
+37	more	more	ADV	RBR	_	38	advmod	_	_
+38	dangerous	dangerous	ADJ	JJ	Degree=Pos	23	conj	_	_
+39	than	than	ADP	IN	_	41	case	_	_
+40	direct	direct	ADJ	JJ	Degree=Pos	41	amod	_	_
+41	smoke	smoke	NOUN	NN	Number=Sing	38	obl	_	_
+42	Because	because	SCONJ	IN	_	43	mark	_	_
+43	smoking	smoke	VERB	VBG	VerbForm=Ger	23	advcl	_	_
+44	in	in	ADP	IN	_	46	case	_	_
+45	public	public	ADJ	JJ	Degree=Pos	46	amod	_	_
+46	places	place	NOUN	NNS	Number=Plur	43	obl	_	_
+47	because	because	ADP	IN	_	51	case	_	_
+48	of	of	ADP	IN	_	47	fixed	_	_
+49	the	the	DET	DT	Definite=Def|PronType=Art	51	det	_	_
+50	obvious	obvious	ADJ	JJ	Degree=Pos	51	amod	_	_
+51	etiquette	etiquette	NOUN	NN	Number=Sing	43	obl	_	SpaceAfter=No
+52	.	.	PUNCT	.	_	23	punct	_	_
+
+# sent_id = 3
+# text = In addition, smoking in public places Give a relative sense, because the discomfort.
+1	In	in	ADP	IN	_	2	case	_	_
+2	addition	addition	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	public	public	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	places	place	NOUN	NNS	Number=Plur	4	obl	_	_
+8	Give	give	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	relative	relative	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	sense	sense	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	4	punct	_	_
+13	because	because	SCONJ	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	discomfort	discomfort	NOUN	NN	Number=Sing	4	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = First of all, smoking in public places gives go give enormous damage.
+1	First	first	ADV	RB	_	5	advmod	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	all	all	DET	DT	_	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	public	public	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	places	place	NOUN	NNS	Number=Plur	9	obl	_	_
+9	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+10	go	go	VERB	VB	VerbForm=Inf	5	acl	_	_
+11	give	give	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	enormous	enormous	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	damage	damage	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = The damage is just second-hand smoke.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	damage	damage	NOUN	NN	Number=Sing	8	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+4	just	just	ADV	RB	_	8	advmod	_	_
+5	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	7	amod	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	hand	hand	NOUN	NN	Number=Sing	8	compound	_	_
+8	smoke	smoke	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 6
+# text = Due to secondhand smoke in 1996 2, 277 people died from lung cancer were Korean women, if the husband did not smoke they would have been approximately 800 lung cancer deaths of women could have been prevented, he said.
+1	Due	due	ADP	IN	_	4	case	_	_
+2	to	to	ADP	IN	_	1	fixed	_	_
+3	secondhand	secondhand	DET	DT	_	4	det	_	_
+4	smoke	smoke	NOUN	NN	Number=Sing	11	obl	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	1996	1996	NUM	CD	NumType=Card	7	nummod	_	_
+7	2	2	NUM	CD	NumType=Card	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	277	277	NUM	CD	NumType=Card	10	nummod	_	_
+10	people	people	NOUN	NNS	Number=Plur	11	nsubj	_	_
+11	died	die	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	42	advcl	_	_
+12	from	from	ADP	IN	_	14	case	_	_
+13	lung	lung	NOUN	NN	Number=Sing	14	compound	_	_
+14	cancer	cancer	NOUN	NN	Number=Sing	17	obl	_	_
+15	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	cop	_	_
+16	Korean	Korean	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	women	woman	NOUN	NNS	Number=Plur	11	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	11	punct	_	_
+19	if	if	SCONJ	IN	_	24	mark	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	husband	husband	NOUN	NN	Number=Sing	24	nsubj	_	_
+22	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux	_	_
+23	not	not	PART	RB	_	24	advmod	_	_
+24	smoke	smoke	VERB	VB	VerbForm=Inf	11	advcl	_	_
+25	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	33	nsubj	_	_
+26	would	would	AUX	MD	VerbForm=Fin	33	aux	_	_
+27	have	have	AUX	VB	VerbForm=Inf	33	aux	_	_
+28	been	be	AUX	VBN	Tense=Past|VerbForm=Part	33	cop	_	_
+29	approximately	approximately	ADV	RB	_	33	advmod	_	_
+30	800	800	NUM	CD	NumType=Card	33	nummod	_	_
+31	lung	lung	NOUN	NN	Number=Sing	32	compound	_	_
+32	cancer	cancer	NOUN	NN	Number=Sing	33	compound	_	_
+33	deaths	death	NOUN	NNS	Number=Plur	24	obj	_	_
+34	of	of	ADP	IN	_	35	case	_	_
+35	women	woman	NOUN	NNS	Number=Plur	33	nmod	_	_
+36	could	could	AUX	MD	VerbForm=Fin	39	aux	_	_
+37	have	have	AUX	VB	VerbForm=Inf	39	aux	_	_
+38	been	be	AUX	VBN	Tense=Past|VerbForm=Part	39	aux:pass	_	_
+39	prevented	prevent	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	33	acl:relcl	_	SpaceAfter=No
+40	,	,	PUNCT	,	_	11	punct	_	_
+41	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	nsubj	_	_
+42	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	42	punct	_	_
+
+# sent_id = 7
+# text = So, smoking in public places, as well as smokers in public places that bring a lot of damage to people's behavior.
+1	So	so	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	public	public	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	places	place	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	as	as	ADV	RB	_	11	cc	_	_
+9	well	well	ADV	RB	Degree=Pos	8	fixed	_	_
+10	as	as	ADP	IN	_	8	fixed	_	_
+11	smokers	smoker	NOUN	NNS	Number=Plur	3	conj	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	public	public	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	places	place	NOUN	NNS	Number=Plur	11	nmod	_	_
+15	that	that	SCONJ	IN	_	16	mark	_	_
+16	bring	bring	VERB	VBG	VerbForm=Ger	11	acl	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	lot	lot	NOUN	NN	Number=Sing	16	obj	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	damage	damage	NOUN	NN	Number=Sing	18	nmod	_	_
+21	to	to	ADP	IN	_	24	case	_	_
+22	people	people	NOUN	NNS	Number=Plur	24	nmod:poss	_	SpaceAfter=No
+23	's	's	PART	POS	_	22	case	_	_
+24	behavior	behavior	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Second, because smokers in public places smoking law will be able to reduce the number of smokers.
+1	Second	second	ADV	RB	_	12	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	12	punct	_	_
+3	because	because	SCONJ	IN	_	12	mark	_	_
+4	smokers	smoker	NOUN	NNS	Number=Plur	12	nsubj	_	_
+5	in	in	ADP	IN	_	9	case	_	_
+6	public	public	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	places	place	NOUN	NNS	Number=Plur	9	compound	_	_
+8	smoking	smoke	NOUN	NN	Number=Sing	9	compound	_	_
+9	law	law	NOUN	NN	Number=Sing	4	nmod	_	_
+10	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+12	able	able	ADJ	JJ	Degree=Pos	0	root	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	reduce	reduce	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	number	number	NOUN	NN	Number=Sing	14	obj	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	smokers	smoker	NOUN	NNS	Number=Plur	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 9
+# text = Because in a public place away from public places smoke-free due to having to smoke, because the number of smokers would be able to give you one because I think.
+1	Because	because	SCONJ	IN	_	15	mark	_	_
+2	in	in	ADP	IN	_	5	case	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	public	public	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	place	place	NOUN	NN	Number=Sing	1	obl	_	_
+6	away	away	ADV	RB	_	9	advmod	_	_
+7	from	from	ADP	IN	_	9	case	_	_
+8	public	public	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	places	place	NOUN	NNS	Number=Plur	5	nmod	_	_
+10	smoke	smoke	NOUN	NN	Number=Sing	12	obl:npmod	_	SpaceAfter=No
+11	-	-	PUNCT	:	_	12	punct	_	SpaceAfter=No
+12	free	free	ADJ	JJ	Degree=Pos	9	nmod	_	_
+13	due	due	ADP	IN	_	15	mark	_	_
+14	to	to	SCONJ	IN	_	13	fixed	_	_
+15	having	have	VERB	VBG	VerbForm=Ger	18	advcl	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	smoke	smoke	VERB	VB	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	33	punct	_	_
+19	because	because	SCONJ	IN	_	26	mark	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	number	number	NOUN	NN	Number=Sing	26	nsubj	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	smokers	smoker	NOUN	NNS	Number=Plur	21	nmod	_	_
+24	would	would	AUX	MD	VerbForm=Fin	26	aux	_	_
+25	be	be	AUX	VB	VerbForm=Inf	26	cop	_	_
+26	able	able	ADJ	JJ	Degree=Pos	18	advcl	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	give	give	VERB	VB	VerbForm=Inf	26	xcomp	_	_
+29	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	28	iobj	_	_
+30	one	one	NUM	CD	NumType=Card	28	obj	_	_
+31	because	because	SCONJ	IN	_	33	mark	_	_
+32	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	33	nsubj	_	_
+33	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	33	punct	_	_
+
+# sent_id = 10
+# text = Smoking in public places to the end of the act that brings harm on you, so should smoking.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	in	in	ADP	IN	_	4	case	_	_
+3	public	public	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	places	place	NOUN	NNS	Number=Plur	1	obl	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	end	end	NOUN	NN	Number=Sing	1	obl	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	act	act	NOUN	NN	Number=Sing	7	nmod	_	_
+11	that	that	PRON	WDT	PronType=Rel	12	nsubj	_	_
+12	brings	bring	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+13	harm	harm	NOUN	NN	Number=Sing	12	obj	_	_
+14	on	on	ADP	IN	_	15	case	_	_
+15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	1	punct	_	_
+17	so	so	ADV	RB	_	19	advmod	_	_
+18	should	should	AUX	MD	VerbForm=Fin	19	aux	_	_
+19	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	1	parataxis	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

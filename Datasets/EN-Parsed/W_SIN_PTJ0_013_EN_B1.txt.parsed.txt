@@ -1,0 +1,304 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_SIN_PTJ0_013_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Yes it is important to have a part time job.
+1	﻿Yes	﻿yes	INTJ	UH	_	4	discourse	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	have	have	VERB	VB	VerbForm=Inf	4	csubj	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+8	part	part	NOUN	NN	Number=Sing	9	compound	_	_
+9	time	time	NOUN	NN	Number=Sing	10	compound	_	_
+10	job	job	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = A lot of people think that working while one is studying is tough work, that one's studies necessarily suffers.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	lot	lot	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	people	people	NOUN	NNS	Number=Plur	2	nmod	_	_
+5	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	that	that	SCONJ	IN	_	14	mark	_	_
+7	working	work	VERB	VBG	VerbForm=Ger	14	csubj	_	_
+8	while	while	SCONJ	IN	_	11	mark	_	_
+9	one	one	PRON	PRP	_	11	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	studying	study	VERB	VBG	Tense=Pres|VerbForm=Part	7	advcl	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	tough	tough	ADP	IN	_	14	case	_	_
+14	work	work	NOUN	NN	Number=Sing	5	ccomp	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	5	punct	_	_
+16	that	that	DET	DT	Number=Sing|PronType=Dem	17	det	_	_
+17	one	one	NOUN	NN	Number=Sing	21	nmod:poss	_	SpaceAfter=No
+18	's	's	PART	POS	_	17	case	_	_
+19	studies	study	NOUN	NNS	Number=Plur	21	compound	_	_
+20	necessarily	necessarily	ADV	RB	_	21	advmod	_	_
+21	suffers	suffer	NOUN	NNS	Number=Plur	5	appos	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = However, in my opinion I feel that having a part time job enriches one's life, not just in material terms, but in non-material terms.
+1	However	however	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	opinion	opinion	NOUN	NN	Number=Sing	7	obl	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	that	that	SCONJ	IN	_	14	mark	_	_
+9	having	have	VERB	VBG	VerbForm=Ger	14	csubj	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+11	part	part	NOUN	NN	Number=Sing	12	compound	_	_
+12	time	time	NOUN	NN	Number=Sing	13	compound	_	_
+13	job	job	NOUN	NN	Number=Sing	9	obj	_	_
+14	enriches	enrich	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+15	one	one	PRON	PRP	_	17	nmod:poss	_	SpaceAfter=No
+16	's	's	PART	POS	_	15	case	_	_
+17	life	life	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	14	punct	_	_
+19	not	not	ADV	RB	_	23	advmod	_	_
+20	just	just	ADV	RB	_	23	advmod	_	_
+21	in	in	ADP	IN	_	23	case	_	_
+22	material	material	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	terms	term	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	28	punct	_	_
+25	but	but	CCONJ	CC	_	28	cc	_	_
+26	in	in	ADP	IN	_	28	case	_	_
+27	non-material	non-material	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	terms	term	NOUN	NNS	Number=Plur	14	conj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = One takes away life's lessons, such as diligence, patience, team work and social skills.
+1	One	one	PRON	PRP	_	2	nsubj	_	_
+2	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	away	away	ADP	RP	_	2	compound:prt	_	_
+4	life	life	NOUN	NN	Number=Sing	6	nmod:poss	_	SpaceAfter=No
+5	's	's	PART	POS	_	4	case	_	_
+6	lessons	lesson	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	such	such	ADJ	JJ	Degree=Pos	10	case	_	_
+9	as	as	ADP	IN	_	8	fixed	_	_
+10	diligence	diligence	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	patience	patience	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	team	team	NOUN	NN	Number=Sing	15	compound	_	_
+15	work	work	NOUN	NN	Number=Sing	10	conj	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	social	social	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	skills	skill	NOUN	NNS	Number=Plur	10	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = This benefits the person for the entirety of his life, and so it is always better to start early.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	benefits	benefit	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	person	person	NOUN	NN	Number=Sing	2	obj	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	entirety	entirety	NOUN	NN	Number=Sing	4	nmod	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	life	life	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	17	punct	_	_
+12	and	and	CCONJ	CC	_	17	cc	_	_
+13	so	so	ADV	RB	_	17	advmod	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	always	always	ADV	RB	_	17	advmod	_	_
+17	better	better	ADJ	JJR	Degree=Cmp	2	conj	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	start	start	VERB	VB	VerbForm=Inf	17	advcl	_	_
+20	early	early	ADV	RB	Degree=Pos	19	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = College students are at the point of their lives where they are the most malleable in terms of their psychological outlook, so having them undergo some life lessons will definitely allow them to benefit for the rest of their life.
+1	College	college	NOUN	NN	Number=Sing	2	compound	_	_
+2	students	student	NOUN	NNS	Number=Plur	6	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	point	point	NOUN	NN	Number=Sing	0	root	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	lives	life	NOUN	NNS	Number=Plur	6	nmod	_	_
+10	where	where	ADV	WRB	PronType=Rel	15	advmod	_	_
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	most	most	ADV	RBS	_	15	advmod	_	_
+15	malleable	malleable	ADJ	JJ	Degree=Pos	9	acl:relcl	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	terms	term	NOUN	NNS	Number=Plur	15	obl	_	_
+18	of	of	ADP	IN	_	21	case	_	_
+19	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+20	psychological	psychological	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	outlook	outlook	PROPN	NNP	Number=Sing	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	6	punct	_	_
+23	so	so	SCONJ	IN	_	24	mark	_	_
+24	having	have	VERB	VBG	VerbForm=Ger	32	advcl	_	_
+25	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	24	obj	_	_
+26	undergo	undergo	ADP	IN	_	29	case	_	_
+27	some	some	DET	DT	_	29	det	_	_
+28	life	life	NOUN	NN	Number=Sing	29	compound	_	_
+29	lessons	lesson	NOUN	NNS	Number=Plur	32	nsubj	_	_
+30	will	will	AUX	MD	VerbForm=Fin	32	aux	_	_
+31	definitely	definitely	ADV	RB	_	32	advmod	_	_
+32	allow	allow	VERB	VB	VerbForm=Inf	6	parataxis	_	_
+33	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	32	obj	_	_
+34	to	to	PART	TO	_	35	mark	_	_
+35	benefit	benefit	VERB	VB	VerbForm=Inf	32	xcomp	_	_
+36	for	for	ADP	IN	_	38	case	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	rest	rest	NOUN	NN	Number=Sing	35	obl	_	_
+39	of	of	ADP	IN	_	41	case	_	_
+40	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	41	nmod:poss	_	_
+41	life	life	NOUN	NN	Number=Sing	38	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 7
+# text = The students also receive monetary benefits, which is always welcome, because tuition fees are always escalating, as with the cost of living and one's financial responsibility to support his/her aging parents.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	students	student	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	also	also	ADV	RB	_	4	advmod	_	_
+4	receive	receive	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	monetary	monetary	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	benefits	benefit	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	which	which	PRON	WDT	PronType=Rel	11	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	always	always	ADV	RB	_	11	advmod	_	_
+11	welcome	welcome	ADJ	JJ	Degree=Pos	6	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	4	punct	_	_
+13	because	because	SCONJ	IN	_	18	mark	_	_
+14	tuition	tuition	NOUN	NN	Number=Sing	15	compound	_	_
+15	fees	fee	NOUN	NNS	Number=Plur	18	nsubj	_	_
+16	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	always	always	ADV	RB	_	18	advmod	_	_
+18	escalating	escalat	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	as	as	SCONJ	IN	_	23	mark	_	_
+21	with	with	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	cost	cost	NOUN	NN	Number=Sing	18	obl	_	_
+24	of	of	ADP	IN	_	25	case	_	_
+25	living	living	NOUN	NN	Number=Sing	23	nmod	_	_
+26	and	and	CCONJ	CC	_	30	cc	_	_
+27	one	one	NUM	CD	NumType=Card	30	nmod:poss	_	SpaceAfter=No
+28	's	's	PART	POS	_	27	case	_	_
+29	financial	financial	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	responsibility	responsibility	NOUN	NN	Number=Sing	23	conj	_	_
+31	to	to	PART	TO	_	32	mark	_	_
+32	support	support	VERB	VB	VerbForm=Inf	30	acl	_	_
+33	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	36	obj	_	SpaceAfter=No
+34	/	/	PUNCT	,	_	36	punct	_	SpaceAfter=No
+35	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	36	nsubj	_	_
+36	aging	a	VERB	VBG	VerbForm=Ger	37	amod	_	_
+37	parents	parent	NOUN	NNS	Number=Plur	32	obj	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = Therefore it is imperative that students, wherever possible and physically able-bodied, be able to contribute to the household income by working part time.
+1	Therefore	therefore	SCONJ	IN	_	4	mark	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	imperative	imperative	ADJ	JJ	Degree=Pos	0	root	_	_
+5	that	that	SCONJ	IN	_	17	mark	_	_
+6	students	student	NOUN	NNS	Number=Plur	17	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	wherever	wherever	DET	WDT	PronType=Int	9	det	_	_
+9	possible	possible	ADJ	JJ	Degree=Pos	6	conj	_	_
+10	and	and	CCONJ	CC	_	14	cc	_	_
+11	physically	physically	ADV	RB	_	14	advmod	_	_
+12	able	able	ADJ	JJ	Degree=Pos	14	amod	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+14	bodied	bodi	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	17	cop	_	_
+17	able	able	ADJ	JJ	Degree=Pos	4	ccomp	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	contribute	contribute	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+20	to	to	ADP	IN	_	23	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	household	household	NOUN	NN	Number=Sing	23	compound	_	_
+23	income	income	NOUN	NN	Number=Sing	19	obl	_	_
+24	by	by	SCONJ	IN	_	25	mark	_	_
+25	working	work	VERB	VBG	VerbForm=Ger	19	advcl	_	_
+26	part	part	NOUN	NN	Number=Sing	27	compound	_	_
+27	time	time	NOUN	NN	Number=Sing	25	obl:tmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = One can also learn more skills on the job, and gain valuable contacts that can put him/her in good stead in future job hirings.
+1	One	one	PRON	PRP	_	4	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	also	also	ADV	RB	_	4	advmod	_	_
+4	learn	learn	VERB	VB	VerbForm=Inf	0	root	_	_
+5	more	more	ADJ	JJR	Degree=Cmp	6	amod	_	_
+6	skills	skill	NOUN	NNS	Number=Plur	4	obj	_	_
+7	on	on	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	job	job	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	gain	gain	VERB	VB	VerbForm=Inf	4	conj	_	_
+13	valuable	valuable	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	contacts	contact	NOUN	NNS	Number=Plur	12	obj	_	_
+15	that	that	PRON	WDT	PronType=Rel	17	nsubj	_	_
+16	can	can	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	put	put	VERB	VB	VerbForm=Inf	14	acl:relcl	_	_
+18	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	SpaceAfter=No
+19	/	/	PUNCT	,	_	20	cc	_	SpaceAfter=No
+20	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	conj	_	_
+21	in	in	ADP	IN	_	23	case	_	_
+22	good	good	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	stead	stead	NOUN	NN	Number=Sing	17	obl	_	_
+24	in	in	ADP	IN	_	27	case	_	_
+25	future	future	ADJ	JJ	Degree=Pos	27	amod	_	_
+26	job	job	NOUN	NN	Number=Sing	27	compound	_	_
+27	hirings	hirings	NOUN	NNS	Number=Plur	17	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 10
+# text = In my opinion, some are born with a silver spoon, and will never work part time.
+1	In	in	ADP	IN	_	3	case	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	opinion	opinion	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	some	some	DET	DT	_	7	nsubj:pass	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	with	with	ADP	IN	_	11	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	silver	silver	NOUN	NN	Number=Sing	11	compound	_	_
+11	spoon	spoon	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	and	and	CCONJ	CC	_	16	cc	_	_
+14	will	will	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	never	never	ADV	RB	_	16	advmod	_	_
+16	work	work	VERB	VB	VerbForm=Inf	7	conj	_	_
+17	part	part	NOUN	NN	Number=Sing	18	compound	_	_
+18	time	time	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 11
+# text = These are people who will never gain an appreciation for life.
+1	These	these	PRON	DT	Number=Plur|PronType=Dem	3	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	people	people	NOUN	NNS	Number=Plur	0	root	_	_
+4	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+5	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	never	never	ADV	RB	_	7	advmod	_	_
+7	gain	gain	VERB	VB	VerbForm=Inf	3	acl:relcl	_	_
+8	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	appreciation	appreciation	NOUN	NN	Number=Sing	7	obj	_	_
+10	for	for	ADP	IN	_	11	case	_	_
+11	life	life	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,330 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_104_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking should be completely banned at all the restaurants in the country.
+1	﻿Smoking	﻿Smoking	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+2	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+4	completely	completely	ADV	RB	_	5	advmod	_	_
+5	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	at	at	ADP	IN	_	9	case	_	_
+7	all	all	DET	PDT	_	9	det:predet	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	restaurants	restaurant	NOUN	NNS	Number=Plur	5	obl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	country	country	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = A few days ago, I saw the news about the harms of tobacco.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	few	few	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	days	day	NOUN	NNS	Number=Plur	4	obl:npmod	_	_
+4	ago	ago	ADV	RB	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	news	news	NOUN	NN	Number=Sing	7	obj	_	_
+10	about	about	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	harms	harm	NOUN	NNS	Number=Plur	9	nmod	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	tobacco	tobacco	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Cigarette smoke causes cancer, and to harm the lungs, when general population is more dangerous than someone smoker has found.
+1	Cigarette	cigarette	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	smoke	smoke	NOUN	NN	Number=Sing	3	compound	_	_
+3	causes	cause	NOUN	NNS	Number=Plur	4	compound	_	_
+4	cancer	cancer	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	harm	harm	VERB	VB	VerbForm=Inf	1	conj	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	lungs	lung	NOUN	NNS	Number=Plur	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	1	punct	_	_
+12	when	when	ADV	WRB	PronType=Int	17	mark	_	_
+13	general	general	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	population	population	NOUN	NN	Number=Sing	17	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	more	more	ADV	RBR	_	17	advmod	_	_
+17	dangerous	dangerous	ADJ	JJ	Degree=Pos	1	advcl	_	_
+18	than	than	ADP	IN	_	19	case	_	_
+19	someone	someone	PRON	NN	Number=Sing	17	obl	_	_
+20	smoker	smoker	NOUN	NN	Number=Sing	22	nsubj	_	_
+21	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	found	find	VERB	VBN	Tense=Past|VerbForm=Part	19	acl:relcl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = And knowing that people continue to smoke cigarettes.
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	knowing	know	VERB	VBG	VerbForm=Ger	0	root	_	_
+3	that	that	SCONJ	IN	_	5	mark	_	_
+4	people	people	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	continue	continue	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	smoke	smoke	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	cigarettes	cigarette	NOUN	NNS	Number=Plur	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Even in public, to the smokes.
+1	Even	even	ADV	RB	_	3	advmod	_	_
+2	in	in	ADP	IN	_	3	case	_	_
+3	public	public	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	smokes	smoke	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Those who do not smoke frowned eyes nose.
+1	Those	those	PRON	DT	Number=Plur|PronType=Dem	8	nsubj	_	_
+2	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	smoke	smoke	VERB	VB	VerbForm=Inf	1	acl:relcl	_	_
+6	frowned	frown	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	eyes	eye	NOUN	NNS	Number=Plur	5	obj	_	_
+8	nose	nose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 7
+# text = However, people who smoke do not know what harm.
+1	However	however	ADV	RB	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	8	punct	_	_
+3	people	people	NOUN	NNS	Number=Plur	8	nsubj	_	_
+4	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+5	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+6	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+9	what	what	DET	WDT	PronType=Int	10	det	_	_
+10	harm	harm	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 8
+# text = Naturally there are do not hang up a cigarette, Secondhand smoke is harmful, especially to children and the elderly.
+1	Naturally	naturally	ADV	RB	_	3	advmod	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	hang	hang	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+7	up	up	ADP	RP	_	6	compound:prt	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	cigarette	cigarette	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	Secondhand	Secondhand	CCONJ	CC	_	14	cc	_	_
+12	smoke	smoke	NOUN	NN	Number=Sing	14	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	harmful	harmful	ADJ	JJ	Degree=Pos	6	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	especially	especially	ADV	RB	_	18	advmod	_	_
+17	to	to	ADP	IN	_	18	case	_	_
+18	children	child	NOUN	NNS	Number=Plur	14	obl	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	elderly	elderly	NOUN	NN	Number=Sing	18	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = However, despite the phrase smoking, people smoke cigarettes.
+1	However	however	ADV	RB	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	10	punct	_	_
+3	despite	despite	ADP	IN	_	6	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	phrase	phrase	NOUN	NN	Number=Sing	6	compound	_	_
+6	smoking	smoke	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	people	people	NOUN	NNS	Number=Plur	10	compound	_	_
+9	smoke	smoke	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	cigarettes	cigarette	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 10
+# text = This is a serious problem.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	serious	serious	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	problem	problem	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 11
+# text = The problems that should be improved.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	problems	problem	NOUN	NNS	Number=Plur	0	root	_	_
+3	that	that	PRON	WDT	PronType=Rel	6	nsubj:pass	_	_
+4	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+6	improved	improve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	acl:relcl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = Smoking how can we do?
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	how	how	ADV	WRB	PronType=Int	5	advmod	_	_
+3	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+5	do	do	VERB	VB	VerbForm=Inf	1	ccomp	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 13
+# text = Perhaps they will never have to quit smoking.
+1	Perhaps	perhaps	ADV	RB	_	5	advmod	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	never	never	ADV	RB	_	5	advmod	_	_
+5	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	quit	quit	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 14
+# text = If you cut down to break, but the world is not seem possible that all people.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	cut	cut	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+4	down	down	ADP	RP	_	3	compound:prt	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	break	break	VERB	VB	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	13	punct	_	_
+8	but	but	CCONJ	CC	_	13	cc	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	world	world	NOUN	NN	Number=Sing	13	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	not	not	PART	RB	_	13	advmod	_	_
+13	seem	seem	VERB	VB	VerbForm=Inf	0	root	_	_
+14	possible	possible	ADJ	JJ	Degree=Pos	13	xcomp	_	_
+15	that	that	SCONJ	IN	_	17	advmod	_	_
+16	all	all	DET	DT	_	17	det	_	_
+17	people	people	NOUN	NNS	Number=Plur	13	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 15
+# text = Smoking is injurious to health, everyone knows it.
+1	Smoking	smoking	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	injurious	injurious	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	health	health	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	everyone	everyone	PRON	NN	Number=Sing	8	nsubj	_	_
+8	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 16
+# text = However, many people are curious and will start.
+1	However	however	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	people	people	NOUN	NNS	Number=Plur	6	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	curious	curious	ADJ	JJ	Degree=Pos	0	root	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	will	will	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	start	start	VERB	VB	VerbForm=Inf	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 17
+# text = Although some of them smoke, there are many youth.
+1	Although	although	SCONJ	IN	_	5	mark	_	_
+2	some	some	DET	DT	_	5	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
+5	smoke	smoke	NOUN	NN	Number=Sing	8	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	there	there	PRON	EX	_	8	expl	_	_
+8	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	many	many	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	youth	youth	NOUN	NNS	Number=Plur	8	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 18
+# text = Selling tobacco to people 20 years old.
+1	Selling	sell	VERB	VBG	VerbForm=Ger	2	amod	_	_
+2	tobacco	tobacco	NOUN	NN	Number=Sing	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	people	people	NOUN	NNS	Number=Plur	2	nmod	_	_
+5	20	20	NUM	CD	NumType=Card	6	nummod	_	_
+6	years	year	NOUN	NNS	Number=Plur	7	obl:npmod	_	_
+7	old	old	ADJ	JJ	Degree=Pos	2	amod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 19
+# text = Youth smoking, but also what can be seen easily.
+1	Youth	youth	NOUN	NN	Number=Sing	2	compound	_	_
+2	smoking	smoke	NOUN	NN	Number=Sing	9	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	but	but	CCONJ	CC	_	9	cc	_	_
+5	also	also	ADV	RB	_	9	advmod	_	_
+6	what	what	PRON	WP	PronType=Int	9	nsubj:pass	_	_
+7	can	can	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+9	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+10	easily	easily	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 20
+# text = When it is very sad.
+1	When	when	ADV	WRB	PronType=Int	5	mark	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	sad	sad	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 21
+# text = Does not mean that there is no way.
+1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	not	not	PART	RB	_	3	advmod	_	_
+3	mean	mean	VERB	VB	VerbForm=Inf	0	root	_	_
+4	that	that	SCONJ	IN	_	6	mark	_	_
+5	there	there	PRON	EX	_	6	expl	_	_
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	no	no	DET	DT	_	8	det	_	_
+8	way	way	NOUN	NN	Number=Sing	6	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 22
+# text = However, where security, it smokes.
+1	However	however	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	where	where	ADV	WRB	PronType=Int	4	advmod	_	_
+4	security	security	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	smokes	smoke	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 23
+# text = 190 Addiction is really scary, but all hope is loss of people smoking, Finish this essay.
+1	190	190	NUM	CD	NumType=Card	2	nummod	_	_
+2	Addiction	addiction	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	really	really	ADV	RB	_	5	advmod	_	_
+5	scary	scary	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	but	but	CCONJ	CC	_	11	cc	_	_
+8	all	all	DET	DT	_	9	det	_	_
+9	hope	hope	NOUN	NN	Number=Sing	11	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	loss	loss	NOUN	NN	Number=Sing	5	conj	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	people	people	NOUN	NNS	Number=Plur	14	compound	_	_
+14	smoking	smoke	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	5	punct	_	_
+16	Finish	finish	VERB	VB	Mood=Imp|VerbForm=Fin	5	parataxis	_	_
+17	this	this	DET	DT	Number=Sing|PronType=Dem	18	det	_	_
+18	essay	essay	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

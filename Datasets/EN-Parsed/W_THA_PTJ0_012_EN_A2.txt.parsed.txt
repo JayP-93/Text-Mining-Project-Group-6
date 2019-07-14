@@ -1,0 +1,292 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_THA_PTJ0_012_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿Part time work is important to students.
+1	﻿Part	﻿Part	ADJ	JJ	Degree=Pos	3	amod	_	_
+2	time	time	NOUN	NN	Number=Sing	3	compound	_	_
+3	work	work	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	students	student	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Although work is different, such as sales workers, etc.
+1	Although	although	SCONJ	IN	_	4	mark	_	_
+2	work	work	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	different	different	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	such	such	ADJ	JJ	Degree=Pos	9	case	_	_
+7	as	as	ADP	IN	_	6	fixed	_	_
+8	sales	sale	NOUN	NNS	Number=Plur	9	compound	_	_
+9	workers	worker	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	etc	etc	X	FW	_	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = But what is to come back.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	what	what	PRON	WP	PronType=Int	3	nsubj	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	come	come	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+6	back	back	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = A valuable experience not available in the classroom.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	valuable	valuable	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	experience	experience	NOUN	NN	Number=Sing	0	root	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	available	available	ADJ	JJ	Degree=Pos	3	amod	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	classroom	classroom	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Today, finding of new graduates is difficult for most companies work hard to individuals with experience.
+1	Today	today	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	8	punct	_	_
+3	finding	finding	NOUN	NN	Number=Sing	8	nsubj	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	new	new	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	graduates	graduate	NOUN	NNS	Number=Plur	3	nmod	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	difficult	difficult	ADJ	JJ	Degree=Pos	0	root	_	_
+9	for	for	ADP	IN	_	11	case	_	_
+10	most	most	ADJ	JJS	Degree=Sup	11	amod	_	_
+11	companies	company	NOUN	NNS	Number=Plur	12	nsubj	_	_
+12	work	work	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+13	hard	hard	ADV	RB	Degree=Pos	12	advmod	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	individuals	individual	NOUN	NNS	Number=Plur	12	obl	_	_
+16	with	with	ADP	IN	_	17	case	_	_
+17	experience	experience	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 6
+# text = To have work experience it is important to students.
+1	To	to	PART	TO	_	2	mark	_	_
+2	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+3	work	work	NOUN	NN	Number=Sing	4	compound	_	_
+4	experience	experience	NOUN	NN	Number=Sing	2	obj	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	important	important	ADJ	JJ	Degree=Pos	4	acl:relcl	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	students	student	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = In time to finish the university.
+1	In	in	ADP	IN	_	2	case	_	_
+2	time	time	NOUN	NN	Number=Sing	7	obl	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	finish	finish	VERB	VB	VerbForm=Inf	2	acl	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	university	university	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 8
+# text = Students then have not less.
+1	Students	student	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	not	not	ADV	RB	_	5	advmod	_	_
+5	less	less	ADV	RBR	Degree=Cmp	3	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = To find work during school.
+1	To	to	PART	TO	_	2	mark	_	_
+2	find	find	VERB	VB	VerbForm=Inf	0	root	_	_
+3	work	work	NOUN	NN	Number=Sing	2	obj	_	_
+4	during	during	ADP	IN	_	5	case	_	_
+5	school	school	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = This is a job for a lot.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	job	job	NOUN	NN	Number=Sing	0	root	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	lot	lot	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = May be employed through the university or find a supplier to the self.
+1	May	may	AUX	MD	VerbForm=Fin	3	aux	_	_
+2	be	be	AUX	VB	VerbForm=Inf	3	aux:pass	_	_
+3	employed	employ	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	through	through	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	university	university	NOUN	NN	Number=Sing	3	obl	_	_
+7	or	or	CCONJ	CC	_	8	cc	_	_
+8	find	find	VERB	VB	VerbForm=Inf	3	conj	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	supplier	supplier	NOUN	NN	Number=Sing	8	obj	_	_
+11	to	to	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	self	self	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 12
+# text = Examples of working part time at 7-eleven the service.
+1	Examples	example	NOUN	NNS	Number=Plur	0	root	_	_
+2	of	of	SCONJ	IN	_	5	case	_	_
+3	working	work	VERB	VBG	VerbForm=Ger	5	amod	_	_
+4	part	part	NOUN	NN	Number=Sing	5	compound	_	_
+5	time	time	NOUN	NN	Number=Sing	1	nmod	_	_
+6	at	at	ADP	IN	_	7	case	_	_
+7	7	7	NUM	CD	NumType=Card	5	nmod	_	SpaceAfter=No
+8	-	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+9	eleven	eleven	ADV	RB	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	service	service	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 13
+# text = Those from the expertise of working in your career, human relationships and learn to correct errors and self-development.
+1	Those	those	PRON	DT	Number=Plur|PronType=Dem	0	root	_	_
+2	from	from	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	expertise	expertise	NOUN	NN	Number=Sing	1	nmod	_	_
+5	of	of	SCONJ	IN	_	6	mark	_	_
+6	working	work	VERB	VBG	VerbForm=Ger	4	acl	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	career	career	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	human	human	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	relationships	relationship	NOUN	NNS	Number=Plur	1	conj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	learn	learn	VERB	VB	Mood=Imp|VerbForm=Fin	1	conj	_	_
+15	to	to	ADP	IN	_	17	case	_	_
+16	correct	correct	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	errors	error	NOUN	NNS	Number=Plur	14	obl	_	_
+18	and	and	CCONJ	CC	_	21	cc	_	_
+19	self	self	NOUN	NN	Number=Sing	21	compound	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	_	21	punct	_	SpaceAfter=No
+21	development	development	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 14
+# text = Therefore say that.
+1	Therefore	therefore	ADV	RB	_	2	advmod	_	_
+2	say	say	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 15
+# text = Experience from the work that has value.
+1	Experience	experience	NOUN	NN	Number=Sing	0	root	_	_
+2	from	from	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	work	work	NOUN	NN	Number=Sing	1	nmod	_	_
+5	that	that	PRON	WDT	PronType=Rel	6	nsubj	_	_
+6	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	value	value	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 16
+# text = Depending on the students themselves that are working hard.
+1	Depending	depend	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	on	on	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	students	student	NOUN	NNS	Number=Plur	1	obl	_	_
+5	themselves	themselves	PRON	PRP	Number=Plur|Person=3|PronType=Prs	4	nmod:npmod	_	_
+6	that	that	PRON	WDT	PronType=Rel	8	nsubj	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
+9	hard	hard	ADV	RB	Degree=Pos	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 17
+# text = To experience from working much.
+1	To	to	PART	TO	_	2	mark	_	_
+2	experience	experience	VERB	VB	VerbForm=Inf	0	root	_	_
+3	from	from	SCONJ	IN	_	4	mark	_	_
+4	working	work	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+5	much	much	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 18
+# text = Students have many different reasons to want to work like money to do anything for leisure.
+1	Students	student	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	many	many	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	different	different	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	reasons	reason	NOUN	NNS	Number=Plur	2	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	want	want	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	work	work	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	like	like	ADP	IN	_	11	case	_	_
+11	money	money	NOUN	NN	Number=Sing	9	obl	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	do	do	VERB	VB	VerbForm=Inf	9	advcl	_	_
+14	anything	anything	PRON	NN	Number=Sing	13	obj	_	_
+15	for	for	ADP	IN	_	16	case	_	_
+16	leisure	leisure	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 19
+# text = Concluded that experience by working part time are important things to be back is knowledge shall be self Human relationships with colleagues.
+1	Concluded	conclude	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	experience	experience	NOUN	NN	Number=Sing	20	nsubj	_	_
+4	by	by	SCONJ	IN	_	5	mark	_	_
+5	working	work	VERB	VBG	VerbForm=Ger	3	acl	_	_
+6	part	part	NOUN	NN	Number=Sing	7	compound	_	_
+7	time	time	NOUN	NN	Number=Sing	5	obj	_	_
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	important	important	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	things	thing	NOUN	NNS	Number=Plur	15	nsubj:pass	_	_
+11	to	to	PART	TO	_	13	mark	_	_
+12	be	be	AUX	VB	VerbForm=Inf	13	cop	_	_
+13	back	back	ADV	RB	_	10	acl	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	knowledge	knowledge	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	acl:relcl	_	_
+16	shall	shall	AUX	MD	VerbForm=Fin	20	aux	_	_
+17	be	be	AUX	VB	VerbForm=Inf	20	cop	_	_
+18	self	self	PRON	PRP	_	20	nmod:poss	_	_
+19	Human	human	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	relationships	relationship	NOUN	NNS	Number=Plur	1	ccomp	_	_
+21	with	with	ADP	IN	_	22	case	_	_
+22	colleagues	colleague	NOUN	NNS	Number=Plur	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 20
+# text = Learn about working hours and break time, knowledge and expertise in that line all to improve and develop their own following.
+1	Learn	learn	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	about	about	SCONJ	IN	_	3	mark	_	_
+3	working	work	VERB	VBG	VerbForm=Ger	1	advcl	_	_
+4	hours	hour	NOUN	NNS	Number=Plur	3	obj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	break	break	NOUN	NN	Number=Sing	4	conj	_	_
+7	time	time	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	knowledge	knowledge	NOUN	NN	Number=Sing	7	conj	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	expertise	expertise	NOUN	NN	Number=Sing	7	conj	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	that	that	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+14	line	line	NOUN	NN	Number=Sing	7	nmod	_	_
+15	all	all	ADV	RB	_	3	advmod	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	improve	improve	VERB	VB	VerbForm=Inf	3	advcl	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	develop	develop	VERB	VB	VerbForm=Inf	17	conj	_	_
+20	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	own	own	ADJ	JJ	Degree=Pos	19	obj	_	_
+22	following	follow	VERB	VBG	VerbForm=Ger	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

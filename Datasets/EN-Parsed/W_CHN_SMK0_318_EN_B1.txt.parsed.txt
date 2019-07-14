@@ -1,0 +1,388 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_CHN_SMK0_318_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I do agree that smoking should be completely banned at all the restaurants in the country.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	agree	agree	VERB	VB	VerbForm=Inf	0	root	_	_
+4	that	that	SCONJ	IN	_	9	mark	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
+6	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+8	completely	completely	ADV	RB	_	9	advmod	_	_
+9	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+10	at	at	ADP	IN	_	13	case	_	_
+11	all	all	DET	PDT	_	13	det:predet	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	restaurants	restaurant	NOUN	NNS	Number=Plur	9	obl	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	country	country	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Let's discuss the restaurant first.
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	's	's	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	_
+3	discuss	discuss	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	restaurant	restaurant	NOUN	NN	Number=Sing	3	obj	_	_
+6	first	first	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = So what dose restaurant mean?
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	what	what	PRON	WP	PronType=Int	3	nsubj	_	_
+3	dose	dose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	restaurant	restaurant	NOUN	NN	Number=Sing	3	obj	_	_
+5	mean	mean	NOUN	NN	Number=Sing	4	discourse	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = A restaurant means some place where you have a meal.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	restaurant	restaurant	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	some	some	DET	DT	_	5	det	_	_
+5	place	place	NOUN	NN	Number=Sing	3	obj	_	_
+6	where	where	ADV	WRB	PronType=Rel	8	advmod	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	meal	meal	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = After a lot of tiring work, you must be tired and hungry.
+1	After	after	ADP	IN	_	3	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	lot	lot	NOUN	NN	Number=Sing	11	obl	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	tiring	tiring	NOUN	NN	Number=Sing	6	compound	_	_
+6	work	work	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+9	must	must	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	cop	_	_
+11	tired	tired	ADJ	JJ	Degree=Pos	0	root	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	hungry	hungry	ADJ	JJ	Degree=Pos	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 6
+# text = You enter a restaurant and you feel better.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	enter	enter	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	restaurant	restaurant	NOUN	NN	Number=Sing	2	obj	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	better	better	ADJ	JJR	Degree=Cmp	7	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = You take a seat and figure out what you are going to eat, full of happy minds.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	seat	seat	NOUN	NN	Number=Sing	2	obj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	figure	figure	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	out	out	ADP	RP	_	6	compound:prt	_	_
+8	what	what	PRON	WP	PronType=Int	6	obj	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	8	acl:relcl	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	eat	eat	VERB	VB	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	6	punct	_	_
+15	full	full	ADJ	JJ	Degree=Pos	6	xcomp	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	happy	happy	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	minds	mind	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = However, God plays a joke.
+1	However	however	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	God	God	PROPN	NNP	Number=Sing	4	nsubj	_	_
+4	plays	play	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	joke	joke	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = A big man with a rude face, sitting next to you, smokes as if there is only himself in the restaurant.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	big	big	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	man	man	NOUN	NN	Number=Sing	0	root	_	_
+4	with	with	ADP	IN	_	7	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	rude	rude	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	face	face	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	sitting	sit	VERB	VBG	VerbForm=Ger	3	acl	_	_
+10	next	next	ADV	RB	_	9	advmod	_	_
+11	to	to	ADP	IN	_	12	case	_	_
+12	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	smokes	smoke	NOUN	NNS	Number=Plur	9	conj	_	_
+15	as	as	SCONJ	IN	_	18	mark	_	_
+16	if	if	SCONJ	IN	_	18	mark	_	_
+17	there	there	PRON	EX	_	18	expl	_	_
+18	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+19	only	only	ADV	RB	_	20	advmod	_	_
+20	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	18	nsubj	_	_
+21	in	in	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	restaurant	restaurant	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Unfortunately, the sick dirty cloud drives towards to you.
+1	Unfortunately	unfortunately	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+4	sick	sick	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	dirty	dirty	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	cloud	cloud	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	drives	drive	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	towards	towards	ADP	IN	_	10	case	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 11
+# text = I promise you will get bad emotions back as soon as you sniff it and you will never want to meet the big man again unless you are this kind of impolite people.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	promise	promise	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	get	get	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+6	bad	bad	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	emotions	emotion	NOUN	NNS	Number=Plur	5	obj	_	_
+8	back	back	ADV	RB	_	5	advmod	_	_
+9	as	as	ADV	RB	_	10	advmod	_	_
+10	soon	soon	ADV	RB	Degree=Pos	5	advmod	_	_
+11	as	as	SCONJ	IN	_	13	mark	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+13	sniff	sniff	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	and	and	CCONJ	CC	_	19	cc	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	_
+17	will	will	AUX	MD	VerbForm=Fin	19	aux	_	_
+18	never	never	ADV	RB	_	19	advmod	_	_
+19	want	want	VERB	VB	VerbForm=Inf	2	conj	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	meet	meet	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	big	big	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	man	man	NOUN	NN	Number=Sing	21	obj	_	_
+25	again	again	ADV	RB	_	21	advmod	_	_
+26	unless	unless	SCONJ	IN	_	30	mark	_	_
+27	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	30	nsubj	_	_
+28	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	this	this	DET	DT	Number=Sing|PronType=Dem	30	det	_	_
+30	kind	kind	NOUN	NN	Number=Sing	21	advcl	_	_
+31	of	of	ADP	IN	_	33	case	_	_
+32	impolite	impolite	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	people	people	NOUN	NNS	Number=Plur	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = If smoking can just disturb your minds without other harmful effect, we needn't take pains to ban it.
+1	If	if	SCONJ	IN	_	5	mark	_	_
+2	smoking	smoking	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	just	just	ADV	RB	_	5	advmod	_	_
+5	disturb	disturb	VERB	VB	VerbForm=Inf	14	advcl	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	minds	mind	NOUN	NNS	Number=Plur	5	obj	_	_
+8	without	without	ADP	IN	_	11	case	_	_
+9	other	other	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	harmful	harmful	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	effect	effect	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
+14	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	n't	not	PART	RB	_	16	advmod	_	_
+16	take	take	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+17	pains	pain	NOUN	NNS	Number=Plur	16	obj	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	ban	ban	VERB	VB	VerbForm=Inf	16	advcl	_	_
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 13
+# text = What's worse, smoking is consuming your life.
+1	What	what	PRON	WP	PronType=Int	3	nsubj	_	SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	worse	worse	ADJ	JJR	Degree=Cmp	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	consuming	consume	VERB	VBG	Tense=Pres|VerbForm=Part	3	parataxis	_	_
+8	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	life	life	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 14
+# text = You can google smoking & bad effect and there is no doubt that you will receive millions of results that tells you the deadly effect of smoking.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	google	google	VERB	VB	VerbForm=Inf	0	root	_	_
+4	smoking	smoke	VERB	VBG	VerbForm=Ger	3	conj	_	_
+5	&	&	CCONJ	CC	_	7	cc	_	_
+6	bad	bad	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	effect	effect	NOUN	NN	Number=Sing	4	conj	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	there	there	PRON	EX	_	10	expl	_	_
+10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+11	no	no	DET	DT	_	12	det	_	_
+12	doubt	doubt	NOUN	NN	Number=Sing	10	nsubj	_	_
+13	that	that	PRON	WDT	PronType=Rel	16	obj	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+15	will	will	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	receive	receive	VERB	VB	VerbForm=Inf	12	acl:relcl	_	_
+17	millions	million	NOUN	NNS	Number=Plur	16	obj	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	results	result	NOUN	NNS	Number=Plur	17	nmod	_	_
+20	that	that	PRON	WDT	PronType=Rel	21	nsubj	_	_
+21	tells	tell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+22	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	21	iobj	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+24	deadly	deadly	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	effect	effect	NOUN	NN	Number=Sing	21	obj	_	_
+26	of	of	ADP	IN	_	27	case	_	_
+27	smoking	smoking	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 15
+# text = The main cause is lung cancer.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	main	main	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	cause	cause	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	lung	lung	ADP	IN	_	6	case	_	_
+6	cancer	cancer	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 16
+# text = When you smoke, the smoke which contains thousands of harmful things goes into your lung and destroys your body from lung to every place in your body.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	13	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	smoke	smoke	NOUN	NN	Number=Sing	13	nsubj	_	_
+7	which	which	PRON	WDT	PronType=Rel	8	nsubj	_	_
+8	contains	contain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	thousands	thousand	NOUN	NNS	Number=Plur	8	obj	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	harmful	harmful	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	things	thing	NOUN	NNS	Number=Plur	9	nmod	_	_
+13	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	into	into	ADP	IN	_	16	case	_	_
+15	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	lung	lung	NOUN	NN	Number=Sing	13	obl	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	destroys	destroy	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+19	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	body	body	NOUN	NN	Number=Sing	18	obj	_	_
+21	from	from	ADP	IN	_	22	case	_	_
+22	lung	lung	NOUN	NN	Number=Sing	18	obl	_	_
+23	to	to	ADP	IN	_	25	case	_	_
+24	every	every	DET	DT	_	25	det	_	_
+25	place	place	NOUN	NN	Number=Sing	18	obl	_	_
+26	in	in	ADP	IN	_	28	case	_	_
+27	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	body	body	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 17
+# text = Just imagine that your cells, your tissues and even your heart are damaged by cigarettes you happily smoke.
+1	Just	just	ADV	RB	_	2	advmod	_	_
+2	imagine	imagine	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	14	mark	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	cells	cell	NOUN	NNS	Number=Plur	14	nsubj:pass	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	tissues	tissue	NOUN	NNS	Number=Plur	5	conj	_	_
+9	and	and	CCONJ	CC	_	14	cc	_	_
+10	even	even	ADV	RB	_	14	advmod	_	_
+11	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	heart	heart	NOUN	NN	Number=Sing	14	nsubj:pass	_	_
+13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	damaged	damage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+15	by	by	ADP	IN	_	16	case	_	_
+16	cigarettes	cigarette	NOUN	NNS	Number=Plur	14	obl	_	_
+17	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	_
+18	happily	happily	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
+19	smoke	smoke	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 18
+# text = You are killing yourself!
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	killing	kill	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	3	obj	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 19
+# text = It is much worse that you are murdering others through your pleasant cigarettes.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	much	much	ADV	RB	_	4	advmod	_	_
+4	worse	worse	ADJ	JJR	Degree=Cmp	0	root	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	murdering	murder	VERB	VBG	Tense=Pres|VerbForm=Part	4	ccomp	_	_
+9	others	other	NOUN	NNS	Number=Plur	8	obj	_	_
+10	through	through	ADP	IN	_	13	case	_	_
+11	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+12	pleasant	pleasant	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	cigarettes	cigarette	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 20
+# text = Due to those reasons, we can easily conclude that banning smoking is necessary.
+1	Due	due	ADP	IN	_	4	case	_	_
+2	to	to	ADP	IN	_	1	fixed	_	_
+3	those	those	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+4	reasons	reason	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+7	can	can	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	easily	easily	ADV	RB	_	9	advmod	_	_
+9	conclude	conclude	VERB	VB	VerbForm=Inf	0	root	_	_
+10	that	that	SCONJ	IN	_	14	mark	_	_
+11	banning	banning	VERB	VBG	VerbForm=Ger	12	amod	_	_
+12	smoking	smoking	NOUN	NN	Number=Sing	14	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	necessary	necessary	ADJ	JJ	Degree=Pos	9	ccomp	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 21
+# text = We all should say no to cigarettes to save ourselves and people around us.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	all	all	DET	DT	_	1	det	_	_
+3	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+5	no	no	INTJ	UH	_	7	discourse	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	cigarettes	cigarette	NOUN	NNS	Number=Plur	4	obl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	save	save	VERB	VB	VerbForm=Inf	7	acl	_	_
+10	ourselves	ourselves	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	9	obj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	people	people	NOUN	NNS	Number=Plur	10	conj	_	_
+13	around	around	ADP	IN	_	14	case	_	_
+14	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,380 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PHL_SMK0_177_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿The short term effects of smoking are higher blood pressure, rapid beating of the heart and dizziness.
+1	﻿The	﻿the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	short	short	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	term	term	NOUN	NN	Number=Sing	4	compound	_	_
+4	effects	effect	NOUN	NNS	Number=Plur	10	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	4	nmod	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	higher	higher	ADJ	JJR	Degree=Cmp	10	amod	_	_
+9	blood	blood	NOUN	NN	Number=Sing	10	compound	_	_
+10	pressure	pressure	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	rapid	rapid	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	beating	beating	NOUN	NN	Number=Sing	10	appos	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	heart	heart	NOUN	NN	Number=Sing	13	nmod	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	dizziness	dizziness	NOUN	NN	Number=Sing	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = On long term you can suffer for instance chronic bronchitis, which has a major impact on daily life.
+1	On	on	ADP	IN	_	3	case	_	_
+2	long	long	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	term	term	NOUN	NN	Number=Sing	6	obl	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	suffer	suffer	VERB	VB	VerbForm=Inf	0	root	_	_
+7	for	for	ADP	IN	_	10	case	_	_
+8	instance	instance	NOUN	NN	Number=Sing	10	compound	_	_
+9	chronic	chronic	NOUN	NN	Number=Sing	10	compound	_	_
+10	bronchitis	bronchitis	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	which	which	PRON	WDT	PronType=Rel	13	nsubj	_	_
+13	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	major	major	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	impact	impact	NOUN	NN	Number=Sing	13	obj	_	_
+17	on	on	ADP	IN	_	19	case	_	_
+18	daily	daily	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	life	life	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = By smoking the chance of getting certain diseases is increasingly, compared to people who do not smoke.
+1	By	by	SCONJ	IN	_	2	mark	_	_
+2	smoking	smoke	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	chance	chance	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	SCONJ	IN	_	6	mark	_	_
+6	getting	get	VERB	VBG	VerbForm=Ger	4	acl	_	_
+7	certain	certain	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	diseases	diseases	NOUN	NNS	Number=Plur	6	obj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	increasingly	increasingly	ADV	RB	_	2	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	compared	compare	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+13	to	to	ADP	IN	_	14	case	_	_
+14	people	people	NOUN	NNS	Number=Plur	12	obl	_	_
+15	who	who	PRON	WP	PronType=Rel	18	nsubj	_	_
+16	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	not	not	PART	RB	_	18	advmod	_	_
+18	smoke	smoke	VERB	VB	VerbForm=Inf	14	acl:relcl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 4
+# text = Smokers are twice as likely to have a heart attack and have a bigger chance of a cerebral hemorrhage or a stroke.
+1	Smokers	smoker	NOUN	NNS	Number=Plur	5	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	twice	twice	ADV	RB	NumType=Mult	5	advmod	_	_
+4	as	as	ADV	RB	_	5	advmod	_	_
+5	likely	likely	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	have	have	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	heart	heart	NOUN	NN	Number=Sing	10	compound	_	_
+10	attack	attack	NOUN	NN	Number=Sing	7	obj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	bigger	bigger	ADJ	JJR	Degree=Cmp	15	amod	_	_
+15	chance	chance	NOUN	NN	Number=Sing	12	obj	_	_
+16	of	of	ADP	IN	_	19	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+18	cerebral	cerebral	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	hemorrhage	hemorrhage	NOUN	NN	Number=Sing	15	nmod	_	_
+20	or	or	CCONJ	CC	_	22	cc	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	stroke	stroke	NOUN	NN	Number=Sing	19	conj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Another consequence of smoking is lung diseases, like lung cancer.
+1	Another	another	DET	DT	_	2	det	_	_
+2	consequence	consequence	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	smoking	smoking	NOUN	NN	Number=Sing	2	nmod	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	lung	lung	NOUN	NN	Number=Sing	7	compound	_	_
+7	diseases	disease	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	like	like	ADP	IN	_	11	case	_	_
+10	lung	lung	NOUN	NN	Number=Sing	11	compound	_	_
+11	cancer	cancer	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 6
+# text = Of all people with long cancer, ninety percent have smoked.
+1	Of	of	ADP	IN	_	3	case	_	_
+2	all	all	DET	DT	_	3	det	_	_
+3	people	people	NOUN	NNS	Number=Plur	11	obl	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	long	long	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	cancer	cancer	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	ninety	ninety	NUM	CD	NumType=Card	9	nummod	_	_
+9	percent	percent	NOUN	NN	Number=Sing	11	nsubj	_	_
+10	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	smoked	smoke	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 7
+# text = So is bad for our health.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	bad	bad	ADJ	JJ	Degree=Pos	0	root	_	_
+4	for	for	ADP	IN	_	6	case	_	_
+5	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	health	health	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Especially in eating places like Restaurant.
+1	Especially	especially	ADV	RB	_	3	advmod	_	_
+2	in	in	SCONJ	IN	_	3	mark	_	_
+3	eating	eating	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+4	places	place	NOUN	NNS	Number=Plur	3	obj	_	_
+5	like	like	ADP	IN	_	6	case	_	_
+6	Restaurant	Restaurant	PROPN	NNP	Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 9
+# text = To my mind every smoker should think about surrounding him people, first of all smoking hurts to them.
+1	To	to	ADP	IN	_	3	case	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	mind	mind	NOUN	NN	Number=Sing	7	obl	_	_
+4	every	every	DET	DT	_	5	det	_	_
+5	smoker	smoker	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	should	should	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+8	about	about	SCONJ	IN	_	9	mark	_	_
+9	surrounding	surround	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	people	people	NOUN	NNS	Number=Plur	10	appos	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	first	first	ADV	RB	_	17	advmod	_	_
+14	of	of	ADP	IN	_	17	case	_	_
+15	all	all	DET	DT	_	17	det	_	_
+16	smoking	smoke	NOUN	NN	Number=Sing	17	compound	_	_
+17	hurts	hurts	NOUN	NNS	Number=Plur	9	obl	_	_
+18	to	to	ADP	IN	_	19	case	_	_
+19	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 10
+# text = I think that manager when he makes project of his future restaurant should think not only about visitor's satisfactions from food or cozy conditions, their relaxation and impression from his place, the most important thing is that he should take care of their health, he should not allow them to smoke in a hall, where there a lot of non-smokers.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	manager	manager	NOUN	NN	Number=Sing	2	obj	_	_
+5	when	when	ADV	WRB	PronType=Int	7	mark	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+8	project	project	NOUN	NN	Number=Sing	7	obj	_	_
+9	of	of	ADP	IN	_	12	case	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+11	future	future	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	restaurant	restaurant	NOUN	NN	Number=Sing	8	nmod	_	_
+13	should	should	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	think	think	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+15	not	not	ADV	RB	_	16	advmod	_	_
+16	only	only	ADV	RB	_	14	advmod	_	_
+17	about	about	ADP	IN	_	20	case	_	_
+18	visitor	visitor	NOUN	NN	Number=Sing	20	nmod:poss	_	SpaceAfter=No
+19	's	's	PART	POS	_	18	case	_	_
+20	satisfactions	satisfaction	NOUN	NNS	Number=Plur	14	obl	_	_
+21	from	from	ADP	IN	_	22	case	_	_
+22	food	food	NOUN	NN	Number=Sing	20	nmod	_	_
+23	or	or	CCONJ	CC	_	25	cc	_	_
+24	cozy	cozy	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	conditions	condition	NOUN	NNS	Number=Plur	22	conj	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	14	punct	_	_
+27	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	relaxation	relaxation	NOUN	NN	Number=Sing	39	obj	_	_
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	impression	impression	NOUN	NN	Number=Sing	28	conj	_	_
+31	from	from	ADP	IN	_	33	case	_	_
+32	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	place	place	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	28	punct	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+36	most	most	ADV	RBS	_	37	advmod	_	_
+37	important	important	ADJ	JJ	Degree=Pos	38	amod	_	_
+38	thing	thing	NOUN	NN	Number=Sing	39	nsubj	_	_
+39	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+40	that	that	SCONJ	IN	_	43	mark	_	_
+41	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	43	nsubj	_	_
+42	should	should	AUX	MD	VerbForm=Fin	43	aux	_	_
+43	take	take	VERB	VB	VerbForm=Inf	39	ccomp	_	_
+44	care	care	NOUN	NN	Number=Sing	43	obj	_	_
+45	of	of	ADP	IN	_	47	case	_	_
+46	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	47	nmod:poss	_	_
+47	health	health	NOUN	NN	Number=Sing	43	obl	_	SpaceAfter=No
+48	,	,	PUNCT	,	_	52	punct	_	_
+49	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	52	nsubj	_	_
+50	should	should	AUX	MD	VerbForm=Fin	52	aux	_	_
+51	not	not	PART	RB	_	52	advmod	_	_
+52	allow	allow	VERB	VB	VerbForm=Inf	39	conj	_	_
+53	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	52	obj	_	_
+54	to	to	PART	TO	_	55	mark	_	_
+55	smoke	smoke	VERB	VB	VerbForm=Inf	52	xcomp	_	_
+56	in	in	ADP	IN	_	58	case	_	_
+57	a	a	DET	DT	Definite=Ind|PronType=Art	58	det	_	_
+58	hall	hall	NOUN	NN	Number=Sing	55	obl	_	SpaceAfter=No
+59	,	,	PUNCT	,	_	58	punct	_	_
+60	where	where	ADV	WRB	PronType=Rel	63	advmod	_	_
+61	there	there	PRON	EX	_	63	expl	_	_
+62	a	a	DET	DT	Definite=Ind|PronType=Art	63	det	_	_
+63	lot	lot	NOUN	NN	Number=Sing	58	acl:relcl	_	_
+64	of	of	ADP	IN	_	65	case	_	_
+65	non-smokers	non-smoker	NOUN	NNS	Number=Plur	63	nmod	_	SpaceAfter=No
+66	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 11
+# text = Even if there is a special separate hall for them, manager should take a responsibility and think just for a minute that money is not the first aim of his restaurant, it is that he wants to make people's life more interesting more various and carries joyful and piece to their life.
+1	Even	even	ADV	RB	_	4	advmod	_	_
+2	if	if	SCONJ	IN	_	4	mark	_	_
+3	there	there	PRON	EX	_	4	expl	_	_
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+6	special	special	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	separate	separate	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	hall	hall	NOUN	NN	Number=Sing	4	nsubj	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	manager	manager	NOUN	NN	Number=Sing	14	nsubj	_	_
+13	should	should	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	responsibility	responsibility	NOUN	NN	Number=Sing	14	obj	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	conj	_	_
+19	just	just	ADV	RB	_	22	advmod	_	_
+20	for	for	ADP	IN	_	22	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	minute	minute	NOUN	NN	Number=Sing	18	obl	_	_
+23	that	that	SCONJ	IN	_	29	mark	_	_
+24	money	money	NOUN	NN	Number=Sing	29	nsubj	_	_
+25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+26	not	not	PART	RB	_	29	advmod	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+28	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	29	amod	_	_
+29	aim	aim	NOUN	NN	Number=Sing	22	acl	_	_
+30	of	of	ADP	IN	_	32	case	_	_
+31	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	restaurant	restaurant	NOUN	NN	Number=Sing	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	18	punct	_	_
+34	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+35	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
+36	that	that	SCONJ	IN	_	38	mark	_	_
+37	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	nsubj	_	_
+38	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	ccomp	_	_
+39	to	to	PART	TO	_	40	mark	_	_
+40	make	make	VERB	VB	VerbForm=Inf	38	xcomp	_	_
+41	people	people	NOUN	NNS	Number=Plur	43	nmod:poss	_	SpaceAfter=No
+42	's	's	PART	POS	_	41	case	_	_
+43	life	life	NOUN	NN	Number=Sing	40	obj	_	_
+44	more	more	ADV	RBR	_	45	advmod	_	_
+45	interesting	interesting	ADJ	JJ	Degree=Pos	40	xcomp	_	_
+46	more	more	ADV	RBR	_	47	advmod	_	_
+47	various	various	ADJ	JJ	Degree=Pos	50	amod	_	_
+48	and	and	CCONJ	CC	_	49	cc	_	_
+49	carries	carry	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	conj	_	_
+50	joyful	joyful	ADJ	JJ	Degree=Pos	45	amod	_	_
+51	and	and	CCONJ	CC	_	52	cc	_	_
+52	piece	piece	NOUN	NN	Number=Sing	50	conj	_	_
+53	to	to	ADP	IN	_	55	case	_	_
+54	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	55	nmod:poss	_	_
+55	life	life	NOUN	NN	Number=Sing	50	obl	_	SpaceAfter=No
+56	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 12
+# text = Today we can see that where it is a smoking in restaurants there are alcohol drinks in it.
+1	Today	today	NOUN	NN	Number=Sing	4	obl:tmod	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+5	that	that	SCONJ	IN	_	10	mark	_	_
+6	where	where	ADV	WRB	PronType=Int	10	mark	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	4	ccomp	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	restaurants	restaurant	NOUN	NNS	Number=Plur	10	nmod	_	_
+13	there	there	PRON	EX	_	14	expl	_	_
+14	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+15	alcohol	alcohol	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	drinks	drink	NOUN	NNS	Number=Plur	14	nsubj	_	_
+17	in	in	ADP	IN	_	18	case	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = That is why we come up to the decision that every manager cares only about benefits for himself.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	why	why	ADV	WRB	PronType=Int	0	root	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+5	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	up	up	ADV	RB	_	5	advmod	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	decision	decision	NOUN	NN	Number=Sing	5	obl	_	_
+10	that	that	PRON	WDT	PronType=Rel	13	obj	_	_
+11	every	every	DET	DT	_	12	det	_	_
+12	manager	manager	NOUN	NN	Number=Sing	13	nsubj	_	_
+13	cares	care	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+14	only	only	ADV	RB	_	13	advmod	_	_
+15	about	about	ADP	IN	_	16	case	_	_
+16	benefits	benefit	NOUN	NNS	Number=Plur	13	obl	_	_
+17	for	for	ADP	IN	_	18	case	_	_
+18	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 14
+# text = Smoking is very bad for your health, and it has a major impact on your body.
+1	Smoking	smoke	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	bad	bad	ADJ	JJ	Degree=Pos	0	root	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	health	health	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	major	major	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	impact	impact	NOUN	NN	Number=Sing	11	obj	_	_
+15	on	on	ADP	IN	_	17	case	_	_
+16	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	body	body	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 15
+# text = 1 in 2 smokers will die sooner by smoking, so we should stop smoking.
+1	1	1	NUM	CD	NumType=Card	6	nsubj	_	_
+2	in	in	ADP	IN	_	4	case	_	_
+3	2	2	NUM	CD	NumType=Card	4	nummod	_	_
+4	smokers	smoker	NOUN	NNS	Number=Plur	1	nmod	_	_
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	die	die	VERB	VB	VerbForm=Inf	0	root	_	_
+7	sooner	sooner	ADV	RBR	Degree=Cmp	6	advmod	_	_
+8	by	by	ADP	IN	_	9	case	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	6	punct	_	_
+11	so	so	ADV	RB	_	14	advmod	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
+13	should	should	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	stop	stop	VERB	VB	VerbForm=Inf	6	parataxis	_	_
+15	smoking	smoke	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

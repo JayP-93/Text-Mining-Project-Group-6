@@ -1,0 +1,326 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_CHN_PTJ0_236_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿ I am now a freshman in the college.
+1	﻿	﻿	NOUN	NN	Number=Sing	0	root	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	now	now	ADV	RB	_	6	advmod	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	freshman	freshman	NOUN	NN	Number=Sing	1	acl:relcl	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	college	college	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = My family is not rich, so my parents have to work hard to pay for two children's education, my brother and me.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	family	family	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	rich	rich	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	so	so	ADV	RB	_	10	advmod	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	parents	parent	NOUN	NNS	Number=Plur	10	nsubj	_	_
+10	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	work	work	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	hard	hard	ADV	RB	Degree=Pos	12	advmod	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	pay	pay	VERB	VB	VerbForm=Inf	12	advcl	_	_
+16	for	for	ADP	IN	_	20	case	_	_
+17	two	two	NUM	CD	NumType=Card	18	nummod	_	_
+18	children	child	NOUN	NNS	Number=Plur	20	nmod:poss	_	SpaceAfter=No
+19	's	's	PART	POS	_	18	case	_	_
+20	education	education	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	brother	brother	NOUN	NN	Number=Sing	20	conj	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	20	conj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = So before I entered the university, I found a part time job to relieve their pressure.
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	before	before	SCONJ	IN	_	4	mark	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	university	university	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+11	part	part	NOUN	NN	Number=Sing	12	compound	_	_
+12	time	time	NOUN	NN	Number=Sing	13	compound	_	_
+13	job	job	NOUN	NN	Number=Sing	9	obj	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	relieve	relieve	VERB	VB	VerbForm=Inf	13	acl	_	_
+16	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	pressure	pressure	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = My part time job was to help students in high school learning.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+2	part	part	NOUN	NN	Number=Sing	3	compound	_	_
+3	time	time	NOUN	NN	Number=Sing	4	compound	_	_
+4	job	job	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	help	help	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+8	students	student	NOUN	NNS	Number=Plur	7	obj	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	high	high	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	school	school	NOUN	NN	Number=Sing	8	nmod	_	_
+12	learning	learn	VERB	VBG	VerbForm=Ger	8	acl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = As it was the first time I teaching others formally, I was a bit nervous at the beginning.
+1	As	as	SCONJ	IN	_	6	mark	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	6	amod	_	_
+6	time	time	NOUN	NN	Number=Sing	16	advcl	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	teaching	teach	VERB	VBG	VerbForm=Ger	6	acl:relcl	_	_
+9	others	other	NOUN	NNS	Number=Plur	8	obj	_	_
+10	formally	formally	ADV	RB	_	8	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	bit	bit	NOUN	NN	Number=Sing	16	obl:npmod	_	_
+16	nervous	nervous	ADJ	JJ	Degree=Pos	0	root	_	_
+17	at	at	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	beginning	beginning	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 6
+# text = And the preparation was not very rich.
+1	And	and	CCONJ	CC	_	7	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	preparation	preparation	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+5	not	not	PART	RB	_	7	advmod	_	_
+6	very	very	ADV	RB	_	7	advmod	_	_
+7	rich	rich	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 7
+# text = After several times, I came to get used to the job and have better and better performance.
+1	After	after	ADP	IN	_	3	case	_	_
+2	several	several	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	times	time	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	get	get	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	used	used	ADJ	JJ	Degree=Pos	8	xcomp	_	_
+10	to	to	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	job	job	NOUN	NN	Number=Sing	9	obl	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	_
+15	better	better	ADJ	JJR	Degree=Cmp	18	amod	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	better	better	ADJ	JJR	Degree=Cmp	15	conj	_	_
+18	performance	performance	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 8
+# text = When I got my first pay, though it's low, I feel really encouraged.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	advcl	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nsubj	_	_
+5	first	first	ADV	RB	_	6	advmod	_	_
+6	pay	pay	VERB	VB	VerbForm=Inf	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	though	though	SCONJ	IN	_	11	mark	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	SpaceAfter=No
+10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	low	low	ADJ	JJ	Degree=Pos	3	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	really	really	ADV	RB	_	16	advmod	_	_
+16	encouraged	encourage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 9
+# text = A part time job doesn't need to be very grate and formal.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+2	part	part	NOUN	NN	Number=Sing	3	compound	_	_
+3	time	time	NOUN	NN	Number=Sing	4	compound	_	_
+4	job	job	NOUN	NN	Number=Sing	7	nsubj	_	_
+5	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
+6	n't	not	PART	RB	_	7	advmod	_	_
+7	need	need	VERB	VB	VerbForm=Inf	0	root	_	_
+8	to	to	PART	TO	_	11	mark	_	_
+9	be	be	AUX	VB	VerbForm=Inf	11	cop	_	_
+10	very	very	ADV	RB	_	11	advmod	_	_
+11	grate	grate	ADJ	JJ	Degree=Pos	7	xcomp	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	formal	formal	ADJ	JJ	Degree=Pos	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 10
+# text = No matter how slight or dull it is, just do it.
+1	No	no	ADV	RB	_	2	advmod	_	_
+2	matter	matter	ADV	RB	_	4	advmod	_	_
+3	how	how	ADV	WRB	PronType=Int	4	advmod	_	_
+4	slight	slight	ADJ	JJ	Degree=Pos	0	root	_	_
+5	or	or	CCONJ	CC	_	6	cc	_	_
+6	dull	dull	ADJ	JJ	Degree=Pos	4	conj	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	just	just	ADV	RB	_	11	advmod	_	_
+11	do	do	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 11
+# text = And you will find something worth.
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	find	find	VERB	VB	VerbForm=Inf	0	root	_	_
+5	something	something	PRON	NN	Number=Sing	4	obj	_	_
+6	worth	worth	ADJ	JJ	Degree=Pos	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 12
+# text = There are the topmast masters in every profession.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	topmast	topmast	NOUN	NN	Number=Sing	5	compound	_	_
+5	masters	master	NOUN	NNS	Number=Plur	2	nsubj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	every	every	DET	DT	_	8	det	_	_
+8	profession	profession	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 13
+# text = As far as I am concerned, I like trying new things, no matter how difficult it is.
+1	As	as	ADV	RB	_	2	advmod	_	_
+2	far	far	ADV	RB	Degree=Pos	9	advmod	_	_
+3	as	as	SCONJ	IN	_	6	mark	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	concerned	concerned	ADJ	JJ	Degree=Pos	2	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+10	trying	try	VERB	VBG	VerbForm=Ger	9	xcomp	_	_
+11	new	new	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	things	thing	NOUN	NNS	Number=Plur	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	9	punct	_	_
+14	no	no	ADV	RB	_	15	advmod	_	_
+15	matter	matter	ADV	RBR	Degree=Cmp	0	root	_	_
+16	how	how	ADV	WRB	PronType=Int	17	advmod	_	_
+17	difficult	difficult	ADJ	JJ	Degree=Pos	15	ccomp	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 14
+# text = Finding difficulties and overcoming them is my enjoyment.
+1	Finding	find	VERB	VBG	VerbForm=Ger	2	amod	_	_
+2	difficulties	difficulty	NOUN	NNS	Number=Plur	8	nsubj	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	overcoming	overcom	VERB	VBG	VerbForm=Ger	2	conj	_	_
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	enjoyment	enjoyment	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 15
+# text = I think a part time job is a good experience which can not only resolve the financial problem, but also can enrich my life.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+4	part	part	NOUN	NN	Number=Sing	5	compound	_	_
+5	time	time	NOUN	NN	Number=Sing	6	compound	_	_
+6	job	job	NOUN	NN	Number=Sing	10	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	good	good	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	experience	experience	NOUN	NN	Number=Sing	2	ccomp	_	_
+11	which	which	PRON	WDT	PronType=Rel	15	nsubj	_	_
+12	can	can	AUX	MD	VerbForm=Fin	15	aux	_	_
+13	not	not	PART	RB	_	15	advmod	_	_
+14	only	only	ADV	RB	_	15	advmod	_	_
+15	resolve	resolve	VERB	VB	VerbForm=Inf	10	acl:relcl	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	financial	financial	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	problem	problem	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	23	punct	_	_
+20	but	but	CCONJ	CC	_	23	cc	_	_
+21	also	also	ADV	RB	_	23	advmod	_	_
+22	can	can	AUX	MD	VerbForm=Fin	23	aux	_	_
+23	enrich	enrich	VERB	VB	VerbForm=Inf	2	conj	_	_
+24	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	life	life	NOUN	NN	Number=Sing	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 16
+# text = From tension in the beginning till liking the job, what I really achieved is a valuable social experience which is significant in the future.
+1	From	from	ADP	IN	_	2	case	_	_
+2	tension	tension	NOUN	NN	Number=Sing	19	obl	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	beginning	beginning	NOUN	NN	Number=Sing	2	nmod	_	_
+6	till	till	SCONJ	IN	_	7	mark	_	_
+7	liking	like	VERB	VBG	VerbForm=Ger	5	acl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	job	job	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	19	punct	_	_
+11	what	what	PRON	WP	PronType=Int	19	nsubj	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	really	really	ADV	RB	_	14	advmod	_	_
+14	achieved	achieve	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+17	valuable	valuable	ADJ	JJ	Degree=Pos	19	amod	_	_
+18	social	social	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	experience	experience	NOUN	NN	Number=Sing	0	root	_	_
+20	which	which	PRON	WDT	PronType=Rel	22	nsubj	_	_
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	significant	significant	ADJ	JJ	Degree=Pos	19	acl:relcl	_	_
+23	in	in	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	future	future	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 17
+# text = So just wasting time to play or sleep is not better than finding a part time job.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	just	just	ADV	RB	_	3	advmod	_	_
+3	wasting	waste	VERB	VBG	Tense=Pres|VerbForm=Part	11	csubj	_	_
+4	time	time	NOUN	NN	Number=Sing	3	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	play	play	VERB	VB	VerbForm=Inf	4	acl	_	_
+7	or	or	CCONJ	CC	_	8	cc	_	_
+8	sleep	sleep	NOUN	NN	Number=Sing	6	conj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	not	not	PART	RB	_	11	advmod	_	_
+11	better	better	ADJ	JJR	Degree=Cmp	0	root	_	_
+12	than	than	SCONJ	IN	_	13	mark	_	_
+13	finding	find	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+15	part	part	NOUN	NN	Number=Sing	16	compound	_	_
+16	time	time	NOUN	NN	Number=Sing	17	compound	_	_
+17	job	job	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n
+

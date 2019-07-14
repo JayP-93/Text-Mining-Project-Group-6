@@ -1,0 +1,281 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_HKG_SMK0_011_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿It is no doubt that smoking should be banned in all restaurants because smoking is a selfish behavior.
+1	﻿It	﻿It	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	doubt	doubt	NOUN	NN	Number=Sing	0	root	_	_
+5	that	that	SCONJ	IN	_	9	mark	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
+7	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+9	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	all	all	DET	DT	_	12	det	_	_
+12	restaurants	restaurant	NOUN	NNS	Number=Plur	9	obl	_	_
+13	because	because	SCONJ	IN	_	18	mark	_	_
+14	smoking	smoke	VERB	VBG	VerbForm=Ger	18	csubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	selfish	selfish	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	behavior	behavior	NOUN	NN	Number=Sing	9	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = It definitely affects others and is annoying.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	definitely	definitely	ADV	RB	_	3	advmod	_	_
+3	affects	affect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	others	other	NOUN	NNS	Number=Plur	3	obj	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	annoying	annoying	ADJ	JJ	Degree=Pos	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = When nonsmokers are forced to second hand smoke, it is not fair and affects health.
+1	When	when	ADV	WRB	PronType=Int	4	mark	_	_
+2	nonsmokers	nonsmoker	NOUN	NNS	Number=Plur	4	nsubj:pass	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	forced	force	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	advcl	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	second	second	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	hand	hand	NOUN	NN	Number=Sing	8	compound	_	_
+8	smoke	smoke	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	16	punct	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+12	not	not	PART	RB	_	16	advmod	_	_
+13	fair	fair	ADJ	JJ	Degree=Pos	16	amod	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	affects	affect	NOUN	NNS	Number=Plur	13	conj	_	_
+16	health	health	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 4
+# text = People who are going to restaurants want to enjoy their meal not second hand smoke.
+1	People	people	NOUN	NNS	Number=Plur	0	root	_	_
+2	who	who	PRON	WP	PronType=Rel	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	1	acl:relcl	_	_
+5	to	to	PART	TO	_	7	mark	_	_
+6	restaurants	restaurant	NOUN	NNS	Number=Plur	7	nsubj	_	_
+7	want	want	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	enjoy	enjoy	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	meal	meal	NOUN	NN	Number=Sing	9	obj	_	_
+12	not	not	PART	RB	_	15	advmod	_	_
+13	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	14	amod	_	_
+14	hand	hand	NOUN	NN	Number=Sing	15	compound	_	_
+15	smoke	smoke	NOUN	NN	Number=Sing	11	appos	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Also, we need to consider the rights of the catering workers.
+1	Also	also	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	consider	consider	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	rights	rights	NOUN	NNS	Number=Plur	6	obj	_	_
+9	of	of	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	catering	catering	VERB	VBG	VerbForm=Ger	12	amod	_	_
+12	workers	worker	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Their jobs are serving people not inhaling second hand smoke.
+1	Their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	jobs	job	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	serving	serve	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	people	people	NOUN	NNS	Number=Plur	7	nsubj	_	_
+6	not	not	ADV	RB	_	7	advmod	_	_
+7	inhaling	inhal	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+8	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	10	amod	_	_
+9	hand	hand	NOUN	NN	Number=Sing	10	compound	_	_
+10	smoke	smoke	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Their health are deteriorating if the smoking ban is not applied.
+1	Their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	health	health	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	deteriorating	deteriorate	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	if	if	SCONJ	IN	_	11	mark	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	8	compound	_	_
+8	ban	ban	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+10	not	not	PART	RB	_	11	advmod	_	_
+11	applied	apply	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = Because they need to works all days long.
+1	Because	because	SCONJ	IN	_	3	mark	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	xcomp	_	_
+6	all	all	DET	DT	_	7	det	_	_
+7	days	day	NOUN	NNS	Number=Plur	5	obl:tmod	_	_
+8	long	long	ADV	RB	Degree=Pos	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = The inhaled concentration of smoke is thousands times of the smoker.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	inhaled	inhal	VERB	VBN	Tense=Past|VerbForm=Part	3	amod	_	_
+3	concentration	concentration	NOUN	NN	Number=Sing	8	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	smoke	smoke	NOUN	NN	Number=Sing	3	nmod	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	thousands	thousand	NOUN	NNS	Number=Plur	8	compound	_	_
+8	times	time	NOUN	NNS	Number=Plur	0	root	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	smoker	smoker	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 10
+# text = The smokers need to stop and be more considerate.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	smokers	smoker	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	stop	stop	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+8	more	more	ADV	RBR	_	9	advmod	_	_
+9	considerate	considerate	ADJ	JJ	Degree=Pos	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = Moreover, smoke particles will stick on the food which makes food poison because smoke particles are carcinogenic.
+1	Moreover	moreover	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	smoke	smoke	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	particles	particle	NOUN	NNS	Number=Plur	6	nsubj	_	_
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	stick	stick	VERB	VB	VerbForm=Inf	0	root	_	_
+7	on	on	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	food	food	NOUN	NN	Number=Sing	6	obl	_	_
+10	which	which	PRON	WDT	PronType=Rel	11	nsubj	_	_
+11	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	food	food	NOUN	NN	Number=Sing	11	obj	_	_
+13	poison	poison	ADJ	JJ	Degree=Pos	11	xcomp	_	_
+14	because	because	SCONJ	IN	_	18	mark	_	_
+15	smoke	smoke	NOUN	NN	Number=Sing	16	compound	_	_
+16	particles	particle	NOUN	NNS	Number=Plur	18	nsubj	_	_
+17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	carcinogenic	carcinogenic	ADJ	JJ	Degree=Pos	11	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 12
+# text = It worsens the food qualities and looks.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	worsens	worsen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	food	food	NOUN	NN	Number=Sing	5	compound	_	_
+5	qualities	quality	NOUN	NNS	Number=Plur	2	obj	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 13
+# text = When you pay for your meal but it ruins your health.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	pay	pay	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+4	for	for	ADP	IN	_	6	case	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	meal	meal	NOUN	NN	Number=Sing	3	obl	_	_
+7	but	but	CCONJ	CC	_	9	cc	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	ruins	ruin	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	health	health	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 14
+# text = Is it worth it?
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	worth	worth	ADJ	JJ	Degree=Pos	0	root	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 15
+# text = Some people argue that we can set up a smoking zone.
+1	Some	some	DET	DT	_	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	argue	argue	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	set	set	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+8	up	up	ADP	RP	_	7	compound:prt	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	11	compound	_	_
+11	zone	zone	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 16
+# text = But don't forget that smoke particles can diffuse from a high concentration to low concentration.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	forget	forget	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+6	smoke	smoke	NOUN	NN	Number=Sing	7	compound	_	_
+7	particles	particle	NOUN	NNS	Number=Plur	9	nsubj	_	_
+8	can	can	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	diffuse	diffuse	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+10	from	from	ADP	IN	_	13	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	high	high	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	concentration	concentration	NOUN	NN	Number=Sing	9	obl	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	low	low	VERB	VB	VerbForm=Inf	9	advcl	_	_
+16	concentration	concentration	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 17
+# text = It is no use of setting smoking zone.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	use	use	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	SCONJ	IN	_	6	mark	_	_
+6	setting	set	VERB	VBG	VerbForm=Ger	4	acl	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	8	compound	_	_
+8	zone	zone	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 18
+# text = It is only deceived the stupid guys.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	only	only	ADV	RB	_	4	advmod	_	_
+4	deceived	deceive	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	stupid	stupid	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	guys	guy	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 19
+# text = So, I agree.
+1	So	so	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

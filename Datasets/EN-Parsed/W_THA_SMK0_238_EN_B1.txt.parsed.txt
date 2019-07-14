@@ -1,0 +1,283 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_THA_SMK0_238_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿There are many reasons that people should stop smoking.
+1	﻿There	﻿There	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	reasons	reason	NOUN	NNS	Number=Plur	2	nsubj	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	people	people	NOUN	NNS	Number=Plur	8	nsubj	_	_
+7	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	stop	stop	VERB	VB	VerbForm=Inf	4	acl	_	_
+9	smoking	smoke	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Smoking has many disadvantages.
+1	Smoking	smoke	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	disadvantages	disadvantage	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Smoking should be completely banned at all the restaurants in the country.
+1	Smoking	smoking	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+2	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+4	completely	completely	ADV	RB	_	5	advmod	_	_
+5	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	at	at	ADP	IN	_	9	case	_	_
+7	all	all	DET	PDT	_	9	det:predet	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	restaurants	restaurant	NOUN	NNS	Number=Plur	5	obl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	country	country	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = That is very good for other customers in the restaurants because smoking is not good for health.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	good	good	ADJ	JJ	Degree=Pos	0	root	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	other	other	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	customers	customer	NOUN	NNS	Number=Plur	4	obl	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	restaurants	restaurant	NOUN	NNS	Number=Plur	7	nmod	_	_
+11	because	because	SCONJ	IN	_	15	mark	_	_
+12	smoking	smoking	NOUN	NN	Number=Sing	15	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	not	not	PART	RB	_	15	advmod	_	_
+15	good	good	ADJ	JJ	Degree=Pos	4	advcl	_	_
+16	for	for	ADP	IN	_	17	case	_	_
+17	health	health	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = People who smoke will be cancer and many other diseases.
+1	People	people	NOUN	NNS	Number=Plur	6	nsubj	_	_
+2	who	who	PRON	WP	PronType=Rel	3	nsubj	_	_
+3	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+4	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+6	cancer	cancer	ADJ	JJR	Degree=Cmp	0	root	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	many	many	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	other	other	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	diseases	disease	NOUN	NNS	Number=Plur	6	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Health of the people who smoke is bad.
+1	Health	health	PROPN	NNP	Number=Sing	0	root	_	_
+2	of	of	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	people	people	NOUN	NNS	Number=Plur	1	nmod	_	_
+5	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+6	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	bad	bad	ADJ	JJ	Degree=Pos	6	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = Beginners can stop smoking easier than people who smoke for a long time.
+1	Beginners	beginner	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	stop	stop	VERB	VB	VerbForm=Inf	0	root	_	_
+4	smoking	smoke	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+5	easier	easier	ADJ	JJR	Degree=Cmp	4	advcl	_	_
+6	than	than	SCONJ	IN	_	5	mark	_	_
+7	people	people	NOUN	NNS	Number=Plur	5	obj	_	_
+8	who	who	PRON	WP	PronType=Rel	9	nsubj	_	_
+9	smoke	smoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+10	for	for	ADP	IN	_	13	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	long	long	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	time	time	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = However all they should stop smoking for their health and the people around them.
+1	However	however	ADV	RB	_	5	advmod	_	_
+2	all	all	ADV	RB	_	5	advmod	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+4	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	stop	stop	VERB	VB	VerbForm=Inf	0	root	_	_
+6	smoking	smoke	VERB	VBG	VerbForm=Ger	5	xcomp	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	health	health	NOUN	NN	Number=Sing	6	obl	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	people	people	NOUN	NNS	Number=Plur	9	conj	_	_
+13	around	around	ADP	IN	_	14	case	_	_
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = Smoking is not good for everybody even the people that you love, for example your wife, children, etc.
+1	Smoking	smoking	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	good	good	ADJ	JJ	Degree=Pos	0	root	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	everybody	everybody	PRON	NN	Number=Sing	4	obl	_	_
+7	even	even	ADV	RB	_	9	advmod	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	people	people	NOUN	NNS	Number=Plur	4	parataxis	_	_
+10	that	that	PRON	WDT	PronType=Rel	12	obj	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+12	love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	9	punct	_	_
+14	for	for	ADP	IN	_	15	case	_	_
+15	example	example	NOUN	NN	Number=Sing	9	nmod	_	_
+16	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	wife	wife	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	_	_
+19	children	child	NOUN	NNS	Number=Plur	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	_
+21	etc	etc	X	FW	_	17	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 10
+# text = You must pay a lot of money to buy cigarettes in each years.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	pay	pay	VERB	VB	VerbForm=Inf	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	lot	lot	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	money	money	NOUN	NN	Number=Sing	5	nmod	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	buy	buy	VERB	VB	VerbForm=Inf	3	advcl	_	_
+10	cigarettes	cigarette	NOUN	NNS	Number=Plur	9	obj	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	each	each	DET	DT	_	13	det	_	_
+13	years	year	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = Many people around the world is death because of lung cancer.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	people	people	NOUN	NNS	Number=Plur	7	nsubj	_	_
+3	around	around	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	world	world	NOUN	NN	Number=Sing	2	nmod	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	death	death	NOUN	NN	Number=Sing	0	root	_	_
+8	because	because	ADP	IN	_	11	case	_	_
+9	of	of	ADP	IN	_	8	fixed	_	_
+10	lung	lung	NOUN	NN	Number=Sing	11	compound	_	_
+11	cancer	cancer	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 12
+# text = Smoking can kill you slowly.
+1	Smoking	smoking	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	kill	kill	VERB	VB	VerbForm=Inf	0	root	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	_
+5	slowly	slowly	ADV	RB	_	3	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 13
+# text = It will be make you bad health and give you many diseases.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux	_	_
+4	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	iobj	_	_
+6	bad	bad	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	health	health	NOUN	NN	Number=Sing	4	obj	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	give	give	VERB	VB	VerbForm=Inf	4	conj	_	_
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	iobj	_	_
+11	many	many	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	diseases	disease	NOUN	NNS	Number=Plur	9	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 14
+# text = however not only you but every person around you will be bad health and have many diseases.
+1	however	however	ADV	RB	_	3	advmod	_	_
+2	not	not	ADV	RB	_	3	advmod	_	_
+3	only	only	ADV	RB	_	4	cc:preconj	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	_
+5	but	but	CCONJ	CC	_	7	cc	_	_
+6	every	every	DET	DT	_	7	det	_	_
+7	person	person	NOUN	NN	Number=Sing	4	conj	_	_
+8	around	around	ADV	RB	_	7	advmod	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+10	will	will	AUX	MD	VerbForm=Fin	13	aux	_	_
+11	be	be	AUX	VB	VerbForm=Inf	13	cop	_	_
+12	bad	bad	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	health	health	NOUN	NN	Number=Sing	4	conj	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+16	many	many	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	diseases	disease	NOUN	NNS	Number=Plur	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 15
+# text = So people that smoke are very selfish.
+1	So	so	ADV	RB	_	7	advmod	_	_
+2	people	people	NOUN	NNS	Number=Plur	7	nsubj	_	_
+3	that	that	PRON	WDT	PronType=Rel	4	nsubj	_	_
+4	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	very	very	ADV	RB	_	7	advmod	_	_
+7	selfish	selfish	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 16
+# text = They are the devils that give bad health and diseases to other people around them.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	devils	devils	NOUN	NNS	Number=Plur	0	root	_	_
+5	that	that	PRON	WDT	PronType=Rel	6	nsubj	_	_
+6	give	give	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	bad	bad	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	health	health	NOUN	NN	Number=Sing	6	obj	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	diseases	disease	NOUN	NNS	Number=Plur	8	conj	_	_
+11	to	to	ADP	IN	_	13	case	_	_
+12	other	other	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	people	people	NOUN	NNS	Number=Plur	6	nmod	_	_
+14	around	around	ADP	IN	_	15	case	_	_
+15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 17
+# text = You should spend your time with other activities, for example play football etc.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	spend	spend	VERB	VB	VerbForm=Inf	0	root	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	time	time	NOUN	NN	Number=Sing	3	obj	_	_
+6	with	with	ADP	IN	_	8	case	_	_
+7	other	other	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	activities	activity	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	for	for	ADP	IN	_	13	case	_	_
+11	example	example	NOUN	NN	Number=Sing	13	compound	_	_
+12	play	play	NOUN	NN	Number=Sing	13	compound	_	_
+13	football	football	NOUN	NN	Number=Sing	3	obl	_	_
+14	etc	etc	X	FW	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 18
+# text = Stop smoking for you and your love.
+1	Stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	smoking	smoke	NOUN	NN	Number=Sing	1	obj	_	_
+3	for	for	ADP	IN	_	4	case	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	nmod	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	love	love	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

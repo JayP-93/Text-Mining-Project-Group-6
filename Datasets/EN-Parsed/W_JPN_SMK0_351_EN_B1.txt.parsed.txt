@@ -1,0 +1,258 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_JPN_SMK0_351_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿There are many arguments for and against smoking.
+1	﻿There	﻿There	PRON	EX	_	2	nsubj	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	arguments	argument	NOUN	NNS	Number=Plur	2	obl	_	_
+5	for	for	ADP	IN	_	4	case	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	against	against	ADP	IN	_	8	case	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = However, I agree this idea which smoking should be completely banned at all the restaurants in the country.
+1	However	however	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	idea	idea	NOUN	NN	Number=Sing	4	obj	_	_
+7	which	which	PRON	WDT	PronType=Rel	12	obj	_	_
+8	smoking	smoke	NOUN	NN	Number=Sing	12	nsubj:pass	_	_
+9	should	should	AUX	MD	VerbForm=Fin	12	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	12	aux:pass	_	_
+11	completely	completely	ADV	RB	_	12	advmod	_	_
+12	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+13	at	at	ADP	IN	_	16	case	_	_
+14	all	all	DET	PDT	_	16	det:predet	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	restaurants	restaurant	NOUN	NNS	Number=Plur	12	obl	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	country	country	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Firstly, I dislike the smell of the smoke and if I snuff up it, I maybe lose my appetite.
+1	Firstly	firstly	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	dislike	dislike	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	smell	smell	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	smoke	smoke	NOUN	NN	Number=Sing	6	nmod	_	_
+10	and	and	CCONJ	CC	_	19	cc	_	_
+11	if	if	SCONJ	IN	_	13	mark	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	snuff	snuff	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+14	up	up	ADP	RP	_	13	compound:prt	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+18	maybe	maybe	ADV	RB	_	19	advmod	_	_
+19	lose	lose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+20	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	appetite	appetite	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Secondly, smoking cause various disease such as lung cancer, stroke, asthma.
+1	Secondly	secondly	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	smoking	smoke	VERB	VBG	VerbForm=Ger	0	root	_	_
+4	cause	cause	SCONJ	IN	_	6	case	_	_
+5	various	various	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	disease	disease	NOUN	NN	Number=Sing	3	obl	_	_
+7	such	such	ADJ	JJ	Degree=Pos	10	case	_	_
+8	as	as	ADP	IN	_	7	fixed	_	_
+9	lung	lung	NOUN	NN	Number=Sing	10	compound	_	_
+10	cancer	cancer	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	stroke	stroke	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	asthma	asthma	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Smoker often cause these disease but if I snuff up smoking, I also cause such disease Moreover, passive smoker are more harmful than smoker.
+1	Smoker	smoker	NOUN	NN	Number=Sing	0	root	_	_
+2	often	often	ADV	RB	_	5	advmod	_	_
+3	cause	cause	SCONJ	IN	_	5	case	_	_
+4	these	these	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
+5	disease	disease	NOUN	NN	Number=Sing	1	nmod	_	_
+6	but	but	CCONJ	CC	_	15	cc	_	_
+7	if	if	SCONJ	IN	_	9	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	snuff	snuff	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+10	up	up	ADP	RP	_	9	compound:prt	_	_
+11	smoking	smoking	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	also	also	ADV	RB	_	15	advmod	_	_
+15	cause	cause	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	conj	_	_
+16	such	such	ADJ	JJ	Degree=Pos	18	amod	_	_
+17	disease	disease	NOUN	NN	Number=Sing	18	compound	_	_
+18	Moreover	moreover	NOUN	NN	Number=Sing	24	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	passive	passive	NUM	CD	NumType=Card	21	nummod	_	_
+21	smoker	smoker	NOUN	NN	Number=Sing	18	conj	_	_
+22	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	more	more	ADV	RBR	_	24	advmod	_	_
+24	harmful	harmful	ADJ	JJ	Degree=Pos	15	ccomp	_	_
+25	than	than	ADP	IN	_	26	case	_	_
+26	smoker	smoker	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = Because, passive smoking contain more harmful materials than smoking.
+1	Because	because	ADJ	JJ	Degree=Pos	4	amod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	passive	passive	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	smoking	smoke	NOUN	NN	Number=Sing	0	root	_	_
+5	contain	contain	ADV	RB	_	8	advmod	_	_
+6	more	more	ADV	RBR	_	7	advmod	_	_
+7	harmful	harmful	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	materials	material	NOUN	NNS	Number=Plur	4	appos	_	_
+9	than	than	ADP	IN	_	10	case	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = So, it is very unfair.
+1	So	so	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	unfair	unfair	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 8
+# text = Why I am damaged by smoker?
+1	Why	why	ADV	WRB	PronType=Int	4	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	damaged	damage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	by	by	ADP	IN	_	6	case	_	_
+6	smoker	smoker	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = I am very angry when people walk with smoke.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	angry	angry	ADJ	JJ	Degree=Pos	0	root	_	_
+5	when	when	ADV	WRB	PronType=Int	7	mark	_	_
+6	people	people	NOUN	NNS	Number=Plur	7	nsubj	_	_
+7	walk	walk	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+8	with	with	ADP	IN	_	9	case	_	_
+9	smoke	smoke	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 10
+# text = Finally, Smoking sometimes wound others badly.
+1	Finally	finally	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	Smoking	smoke	VERB	VBG	VerbForm=Ger	0	root	_	_
+4	sometimes	sometimes	ADV	RB	_	5	advmod	_	_
+5	wound	wound	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	others	other	NOUN	NNS	Number=Plur	3	obj	_	_
+7	badly	badly	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = For instantly, my junior high school friend has been troubled with asthma for long years.
+1	For	for	ADP	IN	_	2	case	_	_
+2	instantly	instantly	ADV	RB	_	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	11	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+5	junior	junior	ADJ	JJ	Degree=Pos	8	amod	_	_
+6	high	high	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	school	school	NOUN	NN	Number=Sing	8	compound	_	_
+8	friend	friend	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
+9	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	troubled	troublead	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+12	with	with	ADP	IN	_	13	case	_	_
+13	asthma	asthma	NOUN	NN	Number=Sing	11	obl	_	_
+14	for	for	ADP	IN	_	16	case	_	_
+15	long	long	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	years	year	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 12
+# text = One day I and he go to the shopping.
+1	One	one	NUM	CD	NumType=Card	2	nummod	_	_
+2	day	day	NOUN	NN	Number=Sing	3	obl:tmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+4	and	and	CCONJ	CC	_	6	cc	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	shopping	shopping	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 13
+# text = When we meet smokers in the restaurant, my friend suffer from smoke and finally his breathing is very slow and weakened.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	meet	meet	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+4	smokers	smoker	NOUN	NNS	Number=Plur	3	obj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	restaurant	restaurant	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	friend	friend	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	suffer	suffer	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	from	from	ADP	IN	_	13	case	_	_
+13	smoke	smoke	NOUN	NN	Number=Sing	11	obl	_	_
+14	and	and	CCONJ	CC	_	20	cc	_	_
+15	finally	finally	ADV	RB	_	20	advmod	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	breathing	breathing	NOUN	NN	Number=Sing	20	nsubj	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	very	very	ADV	RB	_	20	advmod	_	_
+20	slow	slow	ADJ	JJ	Degree=Pos	11	conj	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	weakened	weaken	VERB	VBN	Tense=Past|VerbForm=Part	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 14
+# text = So, I take him into the hospital.
+1	So	so	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	into	into	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	hospital	hospital	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 15
+# text = So, I perfectly agree that smoking should be banned at the restaurants in Japan.
+1	So	so	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	perfectly	perfectly	ADV	RB	_	5	advmod	_	_
+5	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	10	nsubj:pass	_	_
+8	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+10	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	ccomp	_	_
+11	at	at	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	restaurants	restaurant	NOUN	NNS	Number=Plur	10	obl	_	_
+14	in	in	ADP	IN	_	15	case	_	_
+15	Japan	Japan	PROPN	NNP	Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

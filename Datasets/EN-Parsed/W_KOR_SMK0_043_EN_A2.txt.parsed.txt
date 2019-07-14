@@ -1,0 +1,305 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_043_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking was practiced by Native Americans in both North and South America as far back as 100 A. D. Tobacco was originally used by these people in religious ceremonies, but later it became common to smoke for pleasure.
+1	﻿Smoking	﻿Smoking	NOUN	NN	Number=Sing	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	practiced	practice	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	by	by	ADP	IN	_	6	case	_	_
+5	Native	native	PROPN	NNP	Number=Sing	6	compound	_	_
+6	Americans	Americans	PROPN	NNPS	Number=Plur	3	obl	_	_
+7	in	in	ADP	IN	_	12	case	_	_
+8	both	both	CCONJ	CC	_	9	cc:preconj	_	_
+9	North	North	PROPN	NNP	Number=Sing	12	compound	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	South	South	PROPN	NNP	Number=Sing	12	compound	_	_
+12	America	America	PROPN	NNP	Number=Sing	3	obl	_	_
+13	as	as	ADV	RB	_	15	advmod	_	_
+14	far	far	ADV	RB	Degree=Pos	15	advmod	_	_
+15	back	back	ADV	RB	_	23	advmod	_	_
+16	as	as	ADP	IN	_	18	case	_	_
+17	100	100	NUM	CD	NumType=Card	18	nummod	_	_
+18	A.	A.	PROPN	NNP	Number=Sing	23	obl	_	_
+19	D.	D.	PROPN	NNP	Number=Sing	23	nsubj:pass	_	_
+20	Tobacco	Tobacco	PROPN	NNP	Number=Sing	19	flat	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
+22	originally	originally	ADV	RB	_	23	advmod	_	_
+23	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	_
+24	by	by	ADP	IN	_	26	case	_	_
+25	these	these	DET	DT	Number=Plur|PronType=Dem	26	det	_	_
+26	people	people	NOUN	NNS	Number=Plur	23	obl	_	_
+27	in	in	ADP	IN	_	29	case	_	_
+28	religious	religious	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	ceremonies	ceremony	NOUN	NNS	Number=Plur	23	obl	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	34	punct	_	_
+31	but	but	CCONJ	CC	_	34	cc	_	_
+32	later	later	ADV	RBR	Degree=Cmp	34	advmod	_	_
+33	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
+34	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+35	common	common	ADJ	JJ	Degree=Pos	34	xcomp	_	_
+36	to	to	PART	TO	_	37	mark	_	_
+37	smoke	smoke	VERB	VB	VerbForm=Inf	34	xcomp	_	_
+38	for	for	ADP	IN	_	39	case	_	_
+39	pleasure	pleasure	NOUN	NN	Number=Sing	37	obl	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Cigars are also rolled in tobacco leaves while cigarettes are rolled in paper.
+1	Cigars	Cigar	NOUN	NNS	Number=Plur	4	nsubj:pass	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	also	also	ADV	RB	_	4	advmod	_	_
+4	rolled	roll	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	tobacco	tobacco	NOUN	NN	Number=Sing	7	compound	_	_
+7	leaves	leave	NOUN	NNS	Number=Plur	4	obl	_	_
+8	while	while	SCONJ	IN	_	11	mark	_	_
+9	cigarettes	cigarette	NOUN	NNS	Number=Plur	11	nsubj:pass	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	rolled	roll	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	paper	paper	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = The leaves used to roll cigars must be thin, smooth, and of good color for the best cigar.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	leaves	leave	NOUN	NNS	Number=Plur	9	nsubj	_	_
+3	used	use	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	roll	roll	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	cigars	cigar	NOUN	NNS	Number=Plur	5	obj	_	_
+7	must	must	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+9	thin	thin	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	smooth	smooth	ADJ	JJ	Degree=Pos	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	and	and	CCONJ	CC	_	16	cc	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	good	good	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	color	color	NOUN	NN	Number=Sing	9	conj	_	_
+17	for	for	ADP	IN	_	20	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	best	best	ADJ	JJS	Degree=Sup	20	amod	_	_
+20	cigar	cigar	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = According to the study, chewing tobacco increased the risk of heart attack two-fold and smokers had a three-fold increased risk of a heart attack compared to people who had never smoked hate smoking.
+1	According	accord	VERB	VBG	VerbForm=Ger	4	case	_	_
+2	to	to	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	study	study	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	chewing	chew	VERB	VBG	VerbForm=Ger	4	acl	_	_
+7	tobacco	tobacco	SCONJ	IN	_	8	mark	_	_
+8	increased	increase	VERB	VBN	Tense=Past|VerbForm=Part	6	advcl	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	risk	risk	NOUN	NN	Number=Sing	8	obj	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	heart	heart	NOUN	NN	Number=Sing	13	compound	_	_
+13	attack	attack	NOUN	NN	Number=Sing	10	nmod	_	_
+14	two	two	NUM	CD	NumType=Card	16	nummod	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No
+16	fold	fold	NOUN	NN	Number=Sing	13	nmod	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	smokers	smoker	NOUN	NNS	Number=Plur	16	conj	_	_
+19	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+21	three	three	NUM	CD	NumType=Card	23	nummod	_	SpaceAfter=No
+22	-	-	PUNCT	HYPH	_	23	punct	_	SpaceAfter=No
+23	fold	fold	NOUN	NN	Number=Sing	25	compound	_	_
+24	increased	increase	VERB	VBN	Tense=Past|VerbForm=Part	25	amod	_	_
+25	risk	risk	NOUN	NN	Number=Sing	19	obj	_	_
+26	of	of	ADP	IN	_	29	case	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+28	heart	heart	NOUN	NN	Number=Sing	29	compound	_	_
+29	attack	attack	NOUN	NN	Number=Sing	25	nmod	_	_
+30	compared	compare	VERB	VBN	Tense=Past|VerbForm=Part	32	case	_	_
+31	to	to	ADP	IN	_	32	case	_	_
+32	people	people	NOUN	NNS	Number=Plur	29	nmod	_	_
+33	who	who	PRON	WP	PronType=Rel	36	nsubj	_	_
+34	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	36	aux	_	_
+35	never	never	ADV	RB	_	36	advmod	_	_
+36	smoked	smoke	VERB	VBN	Tense=Past|VerbForm=Part	29	acl:relcl	_	_
+37	hate	hate	NOUN	NN	Number=Sing	38	compound	_	_
+38	smoking	smoking	NOUN	NN	Number=Sing	36	obj	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 5
+# text = I don't understanding smoker.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+3	n't	not	PART	RB	_	5	advmod	_	_
+4	understanding	understand	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	smoker	smoker	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = They are why smoking.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	why	why	ADV	WRB	PronType=Int	4	advmod	_	_
+4	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Smoking is very bad thing.
+1	Smoking	smoke	NOUN	NN	Number=Sing	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	very	very	ADV	RB	_	5	advmod	_	_
+4	bad	bad	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	thing	thing	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = Smoking is hazardous to your health.
+1	Smoking	smoking	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	hazardous	hazardous	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	health	health	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = It certainly wasn't worth the money we paid to see it.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	certainly	certainly	ADV	RB	_	5	advmod	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	SpaceAfter=No
+4	n't	not	PART	RB	_	5	advmod	_	_
+5	worth	worth	ADJ	JJ	Degree=Pos	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	money	money	NOUN	NN	Number=Sing	5	obj	_	_
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+9	paid	pay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	see	see	VERB	VB	VerbForm=Inf	9	advcl	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 10
+# text = I hope to government outlawed smoking in all public buildings and street.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	government	government	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	outlawed	outlaw	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	smoking	smoke	NOUN	NN	Number=Sing	4	obj	_	_
+7	in	in	ADP	IN	_	10	case	_	_
+8	all	all	DET	DT	_	10	det	_	_
+9	public	public	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	buildings	building	NOUN	NNS	Number=Plur	4	obl	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	street	street	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 11
+# text = I want high taxes have recently been imposed on cigarettes.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	high	high	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	taxes	tax	NOUN	NNS	Number=Plur	2	obj	_	_
+5	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	recently	recently	ADV	RB	_	8	advmod	_	_
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	imposed	impose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	_
+9	on	on	ADP	IN	_	10	case	_	_
+10	cigarettes	cigarette	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = Many smokers are remembering informant fact.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	smokers	smoker	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	remembering	remembere	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	informant	informant	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	fact	fact	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = Don't forget active smokers are passive smokers too.
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	aux	_	SpaceAfter=No
+2	n't	not	PART	RB	_	3	advmod	_	_
+3	forget	forget	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	active	active	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	smokers	smoker	NOUN	NNS	Number=Plur	8	nsubj	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	passive	passive	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	smokers	smoker	NOUN	NNS	Number=Plur	3	ccomp	_	_
+9	too	too	ADV	RB	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 14
+# text = It's very disgusting and stressful.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	disgusting	disgusting	ADJ	JJ	Degree=Pos	0	root	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	stressful	stressful	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 15
+# text = Hang out with people who don't smoke.
+1	Hang	hang	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	out	out	ADP	RP	_	1	compound:prt	_	_
+3	with	with	ADP	IN	_	4	case	_	_
+4	people	people	NOUN	NNS	Number=Plur	1	obl	_	_
+5	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+6	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
+7	n't	not	PART	RB	_	8	advmod	_	_
+8	smoke	smoke	VERB	VB	VerbForm=Inf	4	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 16
+# text = I don't really understand any person who smokes.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	5	advmod	_	_
+4	really	really	ADV	RB	_	5	advmod	_	_
+5	understand	understand	VERB	VB	VerbForm=Inf	0	root	_	_
+6	any	any	DET	DT	_	7	det	_	_
+7	person	person	NOUN	NN	Number=Sing	5	obj	_	_
+8	who	who	PRON	WP	PronType=Rel	9	nsubj	_	_
+9	smokes	smoke	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 17
+# text = I can't stand it when people smoke as they walk down the street.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	ca	can	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	stand	stand	VERB	VB	VerbForm=Inf	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	when	when	ADV	WRB	PronType=Int	8	mark	_	_
+7	people	people	NOUN	NNS	Number=Plur	8	nsubj	_	_
+8	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+9	as	as	SCONJ	IN	_	11	mark	_	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+11	walk	walk	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+12	down	down	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	street	street	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 18
+# text = The air is already polluted, so I don't understand why people want to smoke
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	air	air	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	already	already	ADV	RB	_	5	advmod	_	_
+5	polluted	pollute	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	so	so	ADV	RB	_	11	advmod	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
+10	n't	not	PART	RB	_	11	advmod	_	_
+11	understand	understand	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+12	why	why	ADV	WRB	PronType=Int	14	advmod	_	_
+13	people	people	NOUN	NNS	Number=Plur	14	nsubj	_	_
+14	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	smoke	smoke	VERB	VB	VerbForm=Inf	14	xcomp	_	SpacesAfter=\n
+

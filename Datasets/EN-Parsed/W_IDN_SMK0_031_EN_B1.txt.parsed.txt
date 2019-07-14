@@ -1,0 +1,338 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_IDN_SMK0_031_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿In Indonesia smoking is not forbidden for most of people and most place.
+1	﻿In	﻿In	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Indonesia	Indonesia	PROPN	NNP	Number=Sing	3	compound	_	_
+3	smoking	smoking	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	forbidden	forbidden	ADJ	JJ	Degree=Pos	0	root	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	most	most	ADJ	JJS	Degree=Sup	6	obl	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	people	people	NOUN	NNS	Number=Plur	8	nmod	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	most	most	ADJ	JJS	Degree=Sup	13	amod	_	_
+13	place	place	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = People can smoke wherever they want in public.
+1	People	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	smoke	smoke	VERB	VB	VerbForm=Inf	0	root	_	_
+4	wherever	wherever	ADV	WRB	PronType=Int	6	advmod	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	public	public	ADJ	JJ	Degree=Pos	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = But in certain place, such as malls, restaurants, hospitals, and school forbid people to smoking.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	in	in	ADP	IN	_	4	case	_	_
+3	certain	certain	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	place	place	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	such	such	ADJ	JJ	Degree=Pos	8	case	_	_
+7	as	as	ADP	IN	_	6	fixed	_	_
+8	malls	mall	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	restaurants	restaurant	NOUN	NNS	Number=Plur	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	hospitals	hospital	NOUN	NNS	Number=Plur	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	school	school	NOUN	NN	Number=Sing	17	conj	_	_
+16	forbid	forbid	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	people	people	NOUN	NNS	Number=Plur	4	conj	_	_
+18	to	to	ADP	IN	_	19	case	_	_
+19	smoking	smoke	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = In my opinion, smoking in public places must be prohibited because of the disturbance they cause to others.
+1	In	in	ADP	IN	_	3	case	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	opinion	opinion	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	public	public	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	places	place	NOUN	NNS	Number=Plur	11	obl	_	_
+9	must	must	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	_	_
+11	prohibited	prohibit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	parataxis	_	_
+12	because	because	ADP	IN	_	15	case	_	_
+13	of	of	ADP	IN	_	12	fixed	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	disturbance	disturbance	NOUN	NN	Number=Sing	11	obl	_	_
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+17	cause	cause	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+18	to	to	ADP	IN	_	19	case	_	_
+19	others	other	NOUN	NNS	Number=Plur	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = The research says that passive smokers are 80% likely to suffer cancer than active smoker.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	research	research	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	10	mark	_	_
+5	passive	passive	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	smokers	smoker	NOUN	NNS	Number=Plur	10	nsubj	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	80	80	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No
+9	%	%	SYM	NN	Number=Sing	10	obl:npmod	_	_
+10	likely	likely	ADJ	JJ	Degree=Pos	3	ccomp	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	suffer	suffer	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	cancer	cancer	NOUN	NN	Number=Sing	12	obj	_	_
+14	than	than	ADP	IN	_	16	case	_	_
+15	active	active	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	smoker	smoker	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = After knowing the fact, people start to think how to overcome this kind of problems.
+1	After	after	SCONJ	IN	_	2	mark	_	_
+2	knowing	know	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	fact	fact	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	people	people	NOUN	NNS	Number=Plur	7	nsubj	_	_
+7	start	start	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	think	think	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	how	how	ADV	WRB	PronType=Int	12	advmod	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	overcome	overcome	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+13	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+14	kind	kind	NOUN	NN	Number=Sing	12	obj	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	problems	problem	NOUN	NNS	Number=Plur	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 7
+# text = For example, shopping centre usually provides smoking area for the smokers.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	shopping	shopping	NOUN	NN	Number=Sing	5	compound	_	_
+5	centre	centre	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	usually	usually	ADV	RB	_	7	advmod	_	_
+7	provides	provide	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	9	compound	_	_
+9	area	area	NOUN	NN	Number=Sing	7	obj	_	_
+10	for	for	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	smokers	smoker	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 8
+# text = Hospitals are strictly forbid smoking inside the hospital because can cause unfriendly environment and cause more bacterium and virus.
+1	Hospitals	Hospitals	NOUN	NNS	Number=Plur	5	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	strictly	strictly	ADV	RB	_	5	advmod	_	_
+4	forbid	forbid	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	smoking	smoke	NOUN	NN	Number=Sing	0	root	_	_
+6	inside	inside	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	hospital	hospital	NOUN	NN	Number=Sing	5	nmod	_	_
+9	because	because	SCONJ	IN	_	11	mark	_	_
+10	can	can	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	cause	cause	VERB	VB	VerbForm=Inf	5	advcl	_	_
+12	unfriendly	unfriendly	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	environment	environment	NOUN	NN	Number=Sing	11	obj	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	cause	cause	VERB	VB	VerbForm=Inf	11	conj	_	_
+16	more	more	ADJ	JJR	Degree=Cmp	17	amod	_	_
+17	bacterium	bacterium	NOUN	NN	Number=Sing	15	obj	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	virus	virus	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = Next the restaurant which will be explained more.
+1	Next	next	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	restaurant	restaurant	NOUN	NN	Number=Sing	0	root	_	_
+4	which	which	PRON	WDT	PronType=Rel	7	nsubj:pass	_	_
+5	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	explained	explain	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	acl:relcl	_	_
+8	more	more	ADJ	JJR	Degree=Cmp	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = I will divide the restaurant into three levels, the small scale, middle scale, and large scale restaurants.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	divide	divide	VERB	VB	VerbForm=Inf	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	restaurant	restaurant	NOUN	NN	Number=Sing	3	obj	_	_
+6	into	into	ADP	IN	_	8	case	_	_
+7	three	three	NUM	CD	NumType=Card	8	nummod	_	_
+8	levels	level	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	small	small	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	scale	scale	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	middle	middle	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	scale	scale	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	and	and	CCONJ	CC	_	20	cc	_	_
+18	large	large	ADJ	JJ	Degree=Pos	20	amod	_	_
+19	scale	scale	NOUN	NN	Number=Sing	20	compound	_	_
+20	restaurants	restaurant	NOUN	NNS	Number=Plur	12	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = Small scale restaurants usually allow the customer to smoke inside the restaurant.
+1	Small	small	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	scale	scale	NOUN	NN	Number=Sing	3	compound	_	_
+3	restaurants	restaurant	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	usually	usually	ADV	RB	_	5	advmod	_	_
+5	allow	allow	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	customer	customer	NOUN	NN	Number=Sing	5	obj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	smoke	smoke	VERB	VB	VerbForm=Inf	7	acl	_	_
+10	inside	inside	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	restaurant	restaurant	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 12
+# text = They didn't separate the place for the customer who is smoking and who is not smoking.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	separate	separate	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	place	place	NOUN	NN	Number=Sing	4	obj	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	customer	customer	NOUN	NN	Number=Sing	4	obl	_	_
+10	who	who	PRON	WP	PronType=Rel	12	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	9	acl:relcl	_	_
+13	and	and	CCONJ	CC	_	17	cc	_	_
+14	who	who	PRON	WP	PronType=Int	17	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	not	not	PART	RB	_	17	advmod	_	_
+17	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	12	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = Middle scale restaurant such as KFC, Pizza Hut, and McDonalds sometimes give the smoking area for the customer.
+1	Middle	Middle	PROPN	NNP	Number=Sing	3	compound	_	_
+2	scale	scale	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	restaurant	restaurant	NOUN	NN	Number=Sing	0	root	_	_
+4	such	such	ADJ	JJ	Degree=Pos	6	case	_	_
+5	as	as	ADP	IN	_	4	fixed	_	_
+6	KFC	KFC	PROPN	NNP	Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	Pizza	pizza	PROPN	NNP	Number=Sing	9	compound	_	_
+9	Hut	Hut	PROPN	NNP	Number=Sing	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	McDonalds	McDonalds	PROPN	NNPS	Number=Plur	14	nsubj	_	_
+13	sometimes	sometimes	ADV	RB	_	14	advmod	_	_
+14	give	give	VERB	VB	VerbForm=Inf	3	conj	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	smoking	smoking	NOUN	NN	Number=Sing	17	compound	_	_
+17	area	area	NOUN	NN	Number=Sing	14	obj	_	_
+18	for	for	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	customer	customer	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 14
+# text = For the example, they provide the outdoor seat for the customer who smokes.
+1	For	for	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	example	example	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	provide	provide	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	outdoor	outdoor	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	seat	seat	NOUN	NN	Number=Sing	6	obj	_	_
+10	for	for	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	customer	customer	NOUN	NN	Number=Sing	9	nmod	_	_
+13	who	who	PRON	WP	PronType=Rel	14	nsubj	_	_
+14	smokes	smoke	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 15
+# text = In this scale, usually after the customers enter the restaurant, they will be asked whether they smoke or not and will direct them to the smoking area if they smoke.
+1	In	in	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	scale	scale	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	9	punct	_	_
+5	usually	usually	ADV	RB	_	9	advmod	_	_
+6	after	after	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	customers	customer	NOUN	NNS	Number=Plur	9	nsubj	_	_
+9	enter	enter	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	restaurant	restaurant	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj:pass	_	_
+14	will	will	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	aux:pass	_	_
+16	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	parataxis	_	_
+17	whether	whether	SCONJ	IN	_	19	mark	_	_
+18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+19	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
+20	or	or	CCONJ	CC	_	21	cc	_	_
+21	not	not	PART	RB	_	19	conj	_	_
+22	and	and	CCONJ	CC	_	24	cc	_	_
+23	will	will	AUX	MD	VerbForm=Fin	24	aux	_	_
+24	direct	direct	VERB	VB	VerbForm=Inf	19	conj	_	_
+25	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	24	obj	_	_
+26	to	to	ADP	IN	_	29	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+28	smoking	smoke	NOUN	NN	Number=Sing	29	compound	_	_
+29	area	area	NOUN	NN	Number=Sing	24	obl	_	_
+30	if	if	SCONJ	IN	_	32	mark	_	_
+31	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	32	nsubj	_	_
+32	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	advcl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 16
+# text = For large scale restaurants, usually already forbid the smoking.
+1	For	for	ADP	IN	_	4	case	_	_
+2	large	large	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	scale	scale	NOUN	NN	Number=Sing	4	compound	_	_
+4	restaurants	restaurant	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	usually	usually	ADV	RB	_	8	advmod	_	_
+7	already	already	ADV	RB	_	8	advmod	_	_
+8	forbid	forbid	VERB	VB	VerbForm=Inf	0	root	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 17
+# text = They don't have the smoking area to prevent disturbance for other customer.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	smoking	smoking	NOUN	NN	Number=Sing	7	compound	_	_
+7	area	area	NOUN	NN	Number=Sing	4	obj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	prevent	prevent	VERB	VB	VerbForm=Inf	7	acl	_	_
+10	disturbance	disturbance	NOUN	NN	Number=Sing	9	obj	_	_
+11	for	for	ADP	IN	_	13	case	_	_
+12	other	other	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	customer	customer	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

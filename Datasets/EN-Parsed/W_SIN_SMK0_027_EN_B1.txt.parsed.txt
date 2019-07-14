@@ -1,0 +1,279 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_SIN_SMK0_027_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Imagine yourself confined to an area with polluted air.
+1	﻿Imagine	﻿Imagine	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	1	obj	_	_
+3	confined	confin	VERB	VBN	Tense=Past|VerbForm=Part	1	xcomp	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	area	area	NOUN	NN	Number=Sing	3	obl	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	polluted	polluted	VERB	VBN	Tense=Past|VerbForm=Part	9	amod	_	_
+9	air	air	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = You look at your food and it seems contaminated.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	look	look	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	at	at	ADP	IN	_	5	case	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	food	food	NOUN	NN	Number=Sing	2	obl	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	contaminated	contaminate	VERB	VBN	Tense=Past|VerbForm=Part	8	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = You slowly munch on the contaminated food and it tastes awful.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	slowly	slowly	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	munch	munch	NOUN	NN	Number=Sing	2	obj	_	_
+4	on	on	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	contaminated	contaminate	VERB	VBN	Tense=Past|VerbForm=Part	7	amod	_	_
+7	food	food	NOUN	NN	Number=Sing	2	obl	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	tastes	taste	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	awful	awful	ADJ	JJ	Degree=Pos	10	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = The surroundings are all filled with smoke dust and ashes.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	surroundings	surroundings	NOUN	NNS	Number=Plur	5	nsubj:pass	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	all	all	ADV	RB	_	5	advmod	_	_
+5	filled	fill	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	with	with	ADP	IN	_	8	case	_	_
+7	smoke	smoke	NOUN	NN	Number=Sing	8	compound	_	_
+8	dust	dust	NOUN	NN	Number=Sing	5	obl	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	ashes	ash	NOUN	NNS	Number=Plur	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = That was the exact scenario which happened to me when I was dining in a cafe in Europe.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	exact	exact	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	scenario	scenario	NOUN	NN	Number=Sing	0	root	_	_
+6	which	which	PRON	WDT	PronType=Rel	7	nsubj	_	_
+7	happened	happen	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+10	when	when	ADV	WRB	PronType=Int	13	mark	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	dining	dine	VERB	VBG	Tense=Pres|VerbForm=Part	7	advcl	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	cafe	cafe	NOUN	NN	Number=Sing	13	obl	_	_
+17	in	in	ADP	IN	_	18	case	_	_
+18	Europe	Europe	PROPN	NNP	Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = A Caucasian diner seated next to me lighted his cigarette and started puffing away.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	Caucasian	caucasian	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	diner	diner	NOUN	NN	Number=Sing	8	nsubj	_	_
+4	seated	seat	VERB	VBN	Tense=Past|VerbForm=Part	3	acl	_	_
+5	next	next	ADV	RB	_	7	advmod	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+8	lighted	light	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	cigarette	cigarette	NOUN	NN	Number=Sing	8	obj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	started	start	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	_
+13	puffing	puff	VERB	VBG	VerbForm=Ger	12	xcomp	_	_
+14	away	away	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 7
+# text = I was completely turned off because my food had subconsciously become poisonous to me.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+3	completely	completely	ADV	RB	_	4	advmod	_	_
+4	turned	turn	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	off	off	ADP	RP	_	4	compound:prt	_	_
+6	because	because	SCONJ	IN	_	11	mark	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	food	food	NOUN	NN	Number=Sing	11	nsubj	_	_
+9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
+10	subconsciously	subconsciously	ADV	RB	_	11	advmod	_	_
+11	become	become	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	_	_
+12	poisonous	poisonous	ADJ	JJ	Degree=Pos	11	xcomp	_	_
+13	to	to	ADP	IN	_	14	case	_	_
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = Therefore, I would vote for smoking to be completely banned at all the restaurants in Singapore.
+1	Therefore	therefore	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	vote	vote	VERB	VB	VerbForm=Inf	0	root	_	_
+6	for	for	SCONJ	IN	_	7	mark	_	_
+7	smoking	smoke	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+8	to	to	PART	TO	_	11	mark	_	_
+9	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	_	_
+10	completely	completely	ADV	RB	_	11	advmod	_	_
+11	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	_	_
+12	at	at	ADP	IN	_	15	case	_	_
+13	all	all	DET	PDT	_	15	det:predet	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	restaurants	restaurant	NOUN	NNS	Number=Plur	11	obl	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	Singapore	Singapore	PROPN	NNP	Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = I believe every diner would like to enjoy the ambience, quality food and excellence service while paying top dollars at a restaurant.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	every	every	DET	DT	_	4	det	_	_
+4	diner	diner	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	would	would	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	like	like	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	enjoy	enjoy	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	ambience	ambience	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	quality	quality	NOUN	NN	Number=Sing	13	compound	_	_
+13	food	food	NOUN	NN	Number=Sing	10	conj	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	excellence	excellence	NOUN	NN	Number=Sing	16	compound	_	_
+16	service	service	NOUN	NN	Number=Sing	10	conj	_	_
+17	while	while	SCONJ	IN	_	18	mark	_	_
+18	paying	pay	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+19	top	top	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	dollars	dollar	NOUN	NNS	Number=Plur	18	obj	_	_
+21	at	at	ADP	IN	_	23	case	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	restaurant	restaurant	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = However if someone were to smoke in the restaurant, none of us would be able to indulge in that perfect dining experience.
+1	However	however	ADV	RB	_	16	advmod	_	_
+2	if	if	SCONJ	IN	_	4	mark	_	_
+3	someone	someone	PRON	NN	Number=Sing	4	nsubj	_	_
+4	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	advcl	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	smoke	smoke	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	restaurant	restaurant	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	16	punct	_	_
+11	none	none	NOUN	NN	Number=Sing	16	nsubj	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	nmod	_	_
+14	would	would	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	cop	_	_
+16	able	able	ADJ	JJ	Degree=Pos	0	root	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	indulge	indulge	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	in	in	ADP	IN	_	23	case	_	_
+20	that	that	DET	DT	Number=Sing|PronType=Dem	23	det	_	_
+21	perfect	perfect	ADJ	JJ	Degree=Pos	23	amod	_	_
+22	dining	dining	NOUN	NN	Number=Sing	23	compound	_	_
+23	experience	experience	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 11
+# text = In addition, there is no need to discuss further about the negative and harmful impact of smoking on human health.
+1	In	in	ADP	IN	_	2	case	_	_
+2	addition	addition	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	there	there	PRON	EX	_	5	expl	_	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	no	no	DET	DT	_	7	det	_	_
+7	need	need	NOUN	NN	Number=Sing	5	nsubj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	discuss	discuss	VERB	VB	VerbForm=Inf	7	acl	_	_
+10	further	further	ADV	RB	_	9	advmod	_	_
+11	about	about	ADP	IN	_	16	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+13	negative	negative	ADJ	JJ	Degree=Pos	16	amod	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	harmful	harmful	ADJ	JJ	Degree=Pos	13	conj	_	_
+16	impact	impact	NOUN	NN	Number=Sing	9	obl	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	smoking	smoking	NOUN	NN	Number=Sing	16	nmod	_	_
+19	on	on	ADP	IN	_	21	case	_	_
+20	human	human	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	health	health	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 12
+# text = Therefore, smoking should be banned at all the restaurants for the good of the public.
+1	Therefore	therefore	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	smoking	smoking	VERB	VBG	Tense=Pres|VerbForm=Part	6	nsubj:pass	_	_
+4	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+6	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	at	at	ADP	IN	_	10	case	_	_
+8	all	all	DET	PDT	_	10	det:predet	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	restaurants	restaurant	NOUN	NNS	Number=Plur	6	obl	_	_
+11	for	for	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	good	good	NOUN	NN	Number=Sing	10	nmod	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	public	public	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 13
+# text = Lastly, it is essential to get the message across to all visitors and tourists too.
+1	Lastly	Lastly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	essential	essential	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	get	get	VERB	VB	VerbForm=Inf	5	csubj	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	message	message	NOUN	NN	Number=Sing	7	obj	_	_
+10	across	across	ADP	IN	_	13	case	_	_
+11	to	to	ADP	IN	_	13	case	_	_
+12	all	all	DET	DT	_	13	det	_	_
+13	visitors	visitor	NOUN	NNS	Number=Plur	7	obl	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	tourists	tourist	NOUN	NNS	Number=Plur	13	conj	_	_
+16	too	too	ADV	RB	_	7	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 14
+# text = No doubt they might perceive Singapore as a "fine" city, then again, we are uniquely Singapore.
+1	No	no	DET	DT	_	2	det	_	_
+2	doubt	doubt	NOUN	NN	Number=Sing	15	obl:npmod	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+4	might	might	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	perceive	perceive	VERB	VB	VerbForm=Inf	2	acl:relcl	_	_
+6	Singapore	Singapore	PROPN	NNP	Number=Sing	5	obj	_	_
+7	as	as	ADP	IN	_	12	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+9	"	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+10	fine	fine	ADJ	JJ	Degree=Pos	12	amod	_	SpaceAfter=No
+11	"	"	PUNCT	''	_	12	punct	_	_
+12	city	city	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	then	then	ADV	RB	PronType=Dem	15	advmod	_	_
+15	again	again	ADV	RB	_	20	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	_
+18	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	uniquely	uniquely	ADV	RB	_	20	advmod	_	_
+20	Singapore	Singapore	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	20	punct	_	SpacesAfter=\s\n
+

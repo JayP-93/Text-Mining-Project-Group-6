@@ -1,0 +1,248 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_220_EN_B2.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking is a personal habit, which must not violate the others' rights for clean air.
+1	﻿Smoking	﻿Smok	NOUN	NN	Number=Sing	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	personal	personal	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	habit	habit	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	which	which	PRON	WDT	PronType=Rel	10	nsubj	_	_
+8	must	must	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	violate	violate	VERB	VB	VerbForm=Inf	5	acl:relcl	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	others	other	NOUN	NNS	Number=Plur	14	nmod:poss	_	SpaceAfter=No
+13	'	'	PART	POS	_	12	case	_	_
+14	rights	rights	NOUN	NNS	Number=Plur	10	obj	_	_
+15	for	for	ADP	IN	_	17	case	_	_
+16	clean	clean	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	air	air	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Especially in restaurants people want to enjoy their meals in relaxed atmosphere and spend good time.
+1	Especially	especially	ADV	RB	_	5	advmod	_	_
+2	in	in	ADP	IN	_	3	case	_	_
+3	restaurants	restaurant	NOUN	NNS	Number=Plur	5	obl	_	_
+4	people	people	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	enjoy	enjoy	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	meals	meal	NOUN	NNS	Number=Plur	7	obj	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	relaxed	relaxed	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	atmosphere	atmosphere	NOUN	NN	Number=Sing	9	nmod	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	spend	spend	VERB	VB	VerbForm=Inf	7	conj	_	_
+15	good	good	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	time	time	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = While non-smoking customers are having their meals, the smoking customers should think of others' right to enjoy their time and meals as more important ones than smokers' rights in this case.
+1	While	while	SCONJ	IN	_	5	mark	_	_
+2	non-smoking	non-smoking	VERB	VBG	VerbForm=Ger	3	amod	_	_
+3	customers	customer	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	13	advcl	_	_
+6	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	meals	meal	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	13	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	11	compound	_	_
+11	customers	customer	NOUN	NNS	Number=Plur	13	nsubj	_	_
+12	should	should	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	others	other	NOUN	NNS	Number=Plur	17	nmod:poss	_	SpaceAfter=No
+16	'	'	PART	POS	_	15	case	_	_
+17	right	right	ADJ	JJ	Degree=Pos	13	xcomp	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	enjoy	enjoy	VERB	VB	VerbForm=Inf	17	csubj	_	_
+20	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	time	time	NOUN	NN	Number=Sing	19	obj	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	meals	meal	NOUN	NNS	Number=Plur	21	conj	_	_
+24	as	as	ADV	RB	_	26	advmod	_	_
+25	more	more	ADV	RBR	_	26	advmod	_	_
+26	important	important	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	ones	one	NOUN	NNS	Number=Plur	19	xcomp	_	_
+28	than	than	ADP	IN	_	31	case	_	_
+29	smokers	smoker	NOUN	NNS	Number=Plur	31	nmod:poss	_	SpaceAfter=No
+30	'	'	PART	POS	_	29	case	_	_
+31	rights	rights	NOUN	NNS	Number=Plur	27	nmod	_	_
+32	in	in	ADP	IN	_	34	case	_	_
+33	this	this	DET	DT	Number=Sing|PronType=Dem	34	det	_	_
+34	case	case	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 4
+# text = Because only when one does not violate the others own rights, he can claim his own right.
+1	Because	because	SCONJ	IN	_	7	mark	_	_
+2	only	only	ADV	RB	_	7	advmod	_	_
+3	when	when	ADV	WRB	PronType=Int	7	mark	_	_
+4	one	one	NUM	CD	NumType=Card	7	nsubj	_	_
+5	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	not	not	PART	RB	_	7	advmod	_	_
+7	violate	violate	VERB	VB	VerbForm=Inf	15	advcl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	others	other	NOUN	NNS	Number=Plur	7	obj	_	_
+10	own	own	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	rights	rights	NOUN	NNS	Number=Plur	9	appos	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	can	can	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	claim	claim	VERB	VB	VerbForm=Inf	0	root	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+17	own	own	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	right	right	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 5
+# text = In many coffee shops in Korea, there are many special cells for smoking people, which have tables and chairs.
+1	In	in	ADP	IN	_	4	case	_	_
+2	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	coffee	coffee	NOUN	NN	Number=Sing	4	compound	_	_
+4	shops	shop	NOUN	NNS	Number=Plur	9	obl	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	Korea	Korea	PROPN	NNP	Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	there	there	PRON	EX	_	9	expl	_	_
+9	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	many	many	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	special	special	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	cells	cell	NOUN	NNS	Number=Plur	9	nsubj	_	_
+13	for	for	SCONJ	IN	_	14	mark	_	_
+14	smoking	smoke	VERB	VBG	VerbForm=Ger	12	acl	_	_
+15	people	people	NOUN	NNS	Number=Plur	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	which	which	PRON	WDT	PronType=Rel	18	nsubj	_	_
+18	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+19	tables	table	NOUN	NNS	Number=Plur	18	obj	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	chairs	chair	NOUN	NNS	Number=Plur	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 6
+# text = The coffee shops want to protect non-smokers' rights to be separated from the smokers and also satisfy smoking customers at the same time.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	coffee	coffee	NOUN	NN	Number=Sing	3	compound	_	_
+3	shops	shop	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	protect	protect	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	non-smokers	non-smoker	NOUN	NNS	Number=Plur	9	compound	_	SpaceAfter=No
+8	'	'	PUNCT	''	_	7	punct	_	_
+9	rights	rights	NOUN	NNS	Number=Plur	6	obj	_	_
+10	to	to	PART	TO	_	12	mark	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	aux:pass	_	_
+12	separated	separate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	xcomp	_	_
+13	from	from	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	smokers	smoker	NOUN	NNS	Number=Plur	12	obl	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	also	also	ADV	RB	_	18	advmod	_	_
+18	satisfy	satisfy	VERB	VB	VerbForm=Inf	12	conj	_	_
+19	smoking	smoking	NOUN	NN	Number=Sing	20	compound	_	_
+20	customers	customer	NOUN	NNS	Number=Plur	18	obj	_	_
+21	at	at	ADP	IN	_	24	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	same	same	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	time	time	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = However, whenever the smoking customers enter and leave the cells, the smoke comes out of the cells and the people outside of the cells can smell the foul scent.
+1	However	however	ADV	RB	_	15	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	15	punct	_	_
+3	whenever	whenever	ADV	WRB	PronType=Int	7	advmod	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	6	compound	_	_
+6	customers	customer	NOUN	NNS	Number=Plur	7	nsubj	_	_
+7	enter	enter	VERB	VB	VerbForm=Inf	15	advcl	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	leave	leave	VERB	VB	VerbForm=Inf	7	conj	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	cells	cell	NOUN	NNS	Number=Plur	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	smoke	smoke	NOUN	NN	Number=Sing	15	nsubj	_	_
+15	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	out	out	ADP	IN	_	19	case	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	cells	cell	NOUN	NNS	Number=Plur	15	obl	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	people	people	NOUN	NNS	Number=Plur	28	nsubj	_	_
+23	outside	outside	ADP	IN	_	26	case	_	_
+24	of	of	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	cells	cell	NOUN	NNS	Number=Plur	22	nmod	_	_
+27	can	can	AUX	MD	VerbForm=Fin	28	aux	_	_
+28	smell	smell	VERB	VB	VerbForm=Inf	19	conj	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+30	foul	foul	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	scent	scent	NOUN	NN	Number=Sing	28	obj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 8
+# text = It still limit non-smokers' rights for clean air.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	still	still	ADV	RB	_	3	advmod	_	_
+3	limit	limit	VERB	VB	VerbForm=Inf	0	root	_	_
+4	non-smokers	non-smoker	NOUN	NNS	Number=Plur	6	compound	_	SpaceAfter=No
+5	'	'	PUNCT	''	_	4	punct	_	_
+6	rights	rights	NOUN	NNS	Number=Plur	3	obj	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	clean	clean	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	air	air	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = So I hope the restaurant not to choose the same policy as the coffee shops now have.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	restaurant	restaurant	NOUN	NN	Number=Sing	3	obj	_	_
+6	not	not	ADV	RB	_	8	advmod	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	choose	choose	VERB	VB	VerbForm=Inf	5	acl	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	same	same	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	policy	policy	NOUN	NN	Number=Sing	8	obj	_	_
+12	as	as	ADP	IN	_	15	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	coffee	coffee	NOUN	NN	Number=Sing	15	compound	_	_
+15	shops	shop	NOUN	NNS	Number=Plur	8	obl	_	_
+16	now	now	ADV	RB	_	17	advmod	_	_
+17	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = I want the restaurant have strict policy about smoking in their restaurants in order to protect non-smokers' rights.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	restaurant	restaurant	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	strict	strict	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	policy	policy	NOUN	NN	Number=Sing	5	obj	_	_
+8	about	about	SCONJ	IN	_	9	mark	_	_
+9	smoking	smoking	VERB	VBG	VerbForm=Ger	7	acl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	restaurants	restaurant	NOUN	NNS	Number=Plur	9	obl	_	_
+13	in	in	ADP	IN	_	16	mark	_	_
+14	order	order	NOUN	NN	Number=Sing	13	fixed	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	protect	protect	VERB	VB	VerbForm=Inf	12	acl	_	_
+17	non-smokers	non-smoker	NOUN	NNS	Number=Plur	19	compound	_	SpaceAfter=No
+18	'	'	PUNCT	''	_	19	punct	_	_
+19	rights	rights	NOUN	NNS	Number=Plur	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

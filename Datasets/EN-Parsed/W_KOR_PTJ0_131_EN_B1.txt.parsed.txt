@@ -1,0 +1,304 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_PTJ0_131_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Part time job is form of employment that works hours per week or month.
+1	﻿Part	﻿Part	ADJ	JJ	Degree=Pos	3	amod	_	_
+2	time	time	NOUN	NN	Number=Sing	3	compound	_	_
+3	job	job	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	form	form	ADP	IN	_	7	case	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	employment	employment	NOUN	NN	Number=Sing	0	root	_	_
+8	that	that	PRON	WDT	PronType=Rel	9	nsubj	_	_
+9	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	hours	hour	NOUN	NNS	Number=Plur	9	obl:tmod	_	_
+11	per	per	ADP	IN	_	12	case	_	_
+12	week	week	NOUN	NN	Number=Sing	10	nmod	_	_
+13	or	or	CCONJ	CC	_	14	cc	_	_
+14	month	month	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = There are many sort of work.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	sort	sort	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	work	work	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = For example, serve in restaurant, tutor students, work in cafe and so forth.
+1	For	for	ADP	IN	_	2	case	_	_
+2	example	example	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	serve	serve	VERB	VB	VerbForm=Inf	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	restaurant	restaurant	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	tutor	tutor	NOUN	NN	Number=Sing	9	compound	_	_
+9	students	student	NOUN	NNS	Number=Plur	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	work	work	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	cafe	cafe	NOUN	NN	Number=Sing	11	obl	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	so	so	ADV	RB	_	16	advmod	_	_
+16	forth	forth	ADV	RB	_	13	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Trough part time job, you experience new thing and job that want to work.
+1	Trough	Trough	ADJ	JJ	Degree=Pos	4	amod	_	_
+2	part	part	NOUN	NN	Number=Sing	3	compound	_	_
+3	time	time	NOUN	NN	Number=Sing	4	compound	_	_
+4	job	job	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	experience	experience	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+8	new	new	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	thing	thing	NOUN	NN	Number=Sing	7	obj	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	job	job	NOUN	NN	Number=Sing	9	conj	_	_
+12	that	that	PRON	WDT	PronType=Rel	13	nsubj	_	_
+13	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	work	work	VERB	VB	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = You can experience that can't feel at school.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	experience	experience	NOUN	NN	Number=Sing	0	root	_	_
+4	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	_
+5	ca	can	AUX	MD	VerbForm=Fin	7	aux	_	SpaceAfter=No
+6	n't	not	PART	RB	_	7	advmod	_	_
+7	feel	feel	VERB	VB	VerbForm=Inf	3	acl:relcl	_	_
+8	at	at	ADP	IN	_	9	case	_	_
+9	school	school	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Also you can make money yourself as an allowance or school expenses.
+1	Also	also	ADV	RB	_	4	advmod	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+5	money	money	NOUN	NN	Number=Sing	6	obj	_	_
+6	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	4	obj	_	_
+7	as	as	ADP	IN	_	12	case	_	_
+8	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+9	allowance	allowance	NOUN	NN	Number=Sing	12	compound	_	_
+10	or	or	CCONJ	CC	_	11	cc	_	_
+11	school	school	NOUN	NN	Number=Sing	9	conj	_	_
+12	expenses	expense	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Many university students do part time job for their tuition fees.
+1	Many	many	ADJ	JJ	Degree=Pos	3	amod	_	_
+2	university	university	NOUN	NN	Number=Sing	3	compound	_	_
+3	students	student	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	part	part	NOUN	NN	Number=Sing	6	compound	_	_
+6	time	time	NOUN	NN	Number=Sing	7	compound	_	_
+7	job	job	NOUN	NN	Number=Sing	4	obj	_	_
+8	for	for	ADP	IN	_	11	case	_	_
+9	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	tuition	tuition	NOUN	NN	Number=Sing	11	compound	_	_
+11	fees	fee	NOUN	NNS	Number=Plur	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = I worked in pizzamaru 1 year ago.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	pizzamaru	pizzamaru	NOUN	NN	Number=Sing	2	obl	_	_
+5	1	1	NUM	CD	NumType=Card	6	nummod	_	_
+6	year	year	NOUN	NN	Number=Sing	7	obl:npmod	_	_
+7	ago	ago	ADV	RB	_	2	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = I worked 11 hours on weekends.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	11	11	NUM	CD	NumType=Card	4	nummod	_	_
+4	hours	hour	NOUN	NNS	Number=Plur	2	obl:tmod	_	_
+5	on	on	ADP	IN	_	6	case	_	_
+6	weekends	weekend	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = I made pizza and worked in counter.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	pizza	pizza	NOUN	NN	Number=Sing	2	obj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	counter	counter	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 11
+# text = I had to stand all day.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	stand	stand	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	all	all	DET	DT	_	6	det	_	_
+6	day	day	NOUN	NN	Number=Sing	4	obl:tmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = Making pizza was difficult to me.
+1	Making	make	VERB	VBG	VerbForm=Ger	2	amod	_	_
+2	pizza	pizza	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	difficult	difficult	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = I worked in cafe.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	cafe	cafe	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 14
+# text = I took an order and made coffee.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	order	order	NOUN	NN	Number=Sing	2	obj	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	made	make	VERB	VBN	Tense=Past|VerbForm=Part	7	amod	_	_
+7	coffee	coffee	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 15
+# text = It was easier than pizzamaru.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	easier	easier	ADJ	JJR	Degree=Cmp	0	root	_	_
+4	than	than	ADP	IN	_	5	case	_	_
+5	pizzamaru	pizzamaru	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 16
+# text = I also worked in Amor pacific.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	also	also	ADV	RB	_	3	advmod	_	_
+3	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	Amor	Amor	PROPN	NNP	Number=Sing	6	compound	_	_
+6	pacific	pacific	PROPN	NNP	Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 17
+# text = In here, I packaged the products like shampoo, toothpaste and cosmetics and so on.
+1	In	in	ADP	IN	_	2	case	_	_
+2	here	here	ADV	RB	PronType=Dem	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	packaged	package	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	products	product	NOUN	NNS	Number=Plur	5	obj	_	_
+8	like	like	ADP	IN	_	9	case	_	_
+9	shampoo	shampoo	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	toothpaste	toothpaste	NOUN	NN	Number=Sing	9	conj	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	cosmetics	cosmetic	NOUN	NNS	Number=Plur	9	conj	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	so	so	ADV	RB	_	16	advmod	_	_
+16	on	on	ADV	RB	_	9	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 18
+# text = I worked in 8 hours a day.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	8	8	NUM	CD	NumType=Card	5	nummod	_	_
+5	hours	hour	NOUN	NNS	Number=Plur	2	obl	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	day	day	NOUN	NN	Number=Sing	5	nmod:npmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 19
+# text = I stood all day and took a break 15 minutes every 3 hours.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	all	all	DET	DT	_	4	det	_	_
+4	day	day	NOUN	NN	Number=Sing	2	obl:tmod	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	break	break	NOUN	NN	Number=Sing	6	obj	_	_
+9	15	15	NUM	CD	NumType=Card	10	nummod	_	_
+10	minutes	minute	NOUN	NNS	Number=Plur	6	obl:npmod	_	_
+11	every	every	DET	DT	_	13	det	_	_
+12	3	3	NUM	CD	NumType=Card	13	nummod	_	_
+13	hours	hour	NOUN	NNS	Number=Plur	6	obl:tmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 20
+# text = I was really tired.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	really	really	ADV	RB	_	4	advmod	_	_
+4	tired	tired	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 21
+# text = I felt that making money is very hard and doing service industry is very stressful.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	8	mark	_	_
+4	making	make	VERB	VBG	VerbForm=Ger	8	csubj	_	_
+5	money	money	NOUN	NN	Number=Sing	4	obj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	very	very	ADV	RB	_	8	advmod	_	_
+8	hard	hard	ADJ	JJ	Degree=Pos	12	amod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	doing	do	VERB	VBG	VerbForm=Ger	8	conj	_	_
+11	service	service	NOUN	NN	Number=Sing	12	compound	_	_
+12	industry	industry	NOUN	NN	Number=Sing	15	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	very	very	ADV	RB	_	15	advmod	_	_
+15	stressful	stressful	ADJ	JJ	Degree=Pos	2	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 22
+# text = I think part time job is should try for your experience.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	part	part	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	time	time	NOUN	NN	Number=Sing	5	compound	_	_
+5	job	job	NOUN	NN	Number=Sing	8	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	try	try	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+9	for	for	ADP	IN	_	11	case	_	_
+10	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	experience	experience	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 23
+# text = You have to experience more than once.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	experience	experience	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	more	more	ADJ	JJR	Degree=Cmp	4	obj	_	_
+6	than	than	ADP	IN	_	7	case	_	_
+7	once	once	ADV	RB	NumType=Mult	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

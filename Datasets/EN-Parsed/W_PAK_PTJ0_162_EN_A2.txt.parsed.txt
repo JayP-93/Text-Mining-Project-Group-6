@@ -1,0 +1,269 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PAK_PTJ0_162_EN_A2.txt
+# newpar
+# sent_id = 1
+# text = ﻿Some people are favor in this sentence about college student job but some people disagree.
+1	﻿Some	﻿some	DET	DT	_	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	favor	favor	ADJ	JJ	Degree=Pos	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	sentence	sentence	NOUN	NN	Number=Sing	4	obl	_	_
+8	about	about	ADP	IN	_	11	case	_	_
+9	college	college	NOUN	NN	Number=Sing	11	compound	_	_
+10	student	student	NOUN	NN	Number=Sing	11	compound	_	_
+11	job	job	NOUN	NN	Number=Sing	4	obl	_	_
+12	but	but	CCONJ	CC	_	15	cc	_	_
+13	some	some	DET	DT	_	14	det	_	_
+14	people	people	NOUN	NNS	Number=Plur	15	nsubj	_	_
+15	disagree	disagree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Why do they disagree, only one reason which is important for college student that is they become loss concentrate to their studies?
+1	Why	why	ADV	WRB	PronType=Int	4	advmod	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+4	disagree	disagree	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	only	only	ADV	RB	_	8	advmod	_	_
+7	one	one	NUM	CD	NumType=Card	8	nummod	_	_
+8	reason	reason	NOUN	NN	Number=Sing	4	obj	_	_
+9	which	which	PRON	WDT	PronType=Rel	11	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	important	important	ADJ	JJ	Degree=Pos	8	acl:relcl	_	_
+12	for	for	ADP	IN	_	14	case	_	_
+13	college	college	NOUN	NN	Number=Sing	14	compound	_	_
+14	student	student	NOUN	NN	Number=Sing	11	obl	_	_
+15	that	that	PRON	WDT	PronType=Rel	19	nsubj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+18	become	become	VERB	VB	VerbForm=Inf	19	amod	_	_
+19	loss	loss	NOUN	NN	Number=Sing	14	acl:relcl	_	_
+20	concentrate	concentrate	ADJ	JJ	Degree=Pos	19	amod	_	_
+21	to	to	ADP	IN	_	23	case	_	_
+22	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	studies	study	NOUN	NNS	Number=Plur	20	obl	_	SpaceAfter=No
+24	?	?	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 3
+# text = They do not equally pay their attention to studies and in this condition their attention is divided into different activities.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	equally	equally	ADV	RB	_	5	advmod	_	_
+5	pay	pay	VERB	VB	VerbForm=Inf	0	root	_	_
+6	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	attention	attention	NOUN	NN	Number=Sing	5	obj	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	studies	study	NOUN	NNS	Number=Plur	5	obl	_	_
+10	and	and	CCONJ	CC	_	17	cc	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	condition	condition	NOUN	NN	Number=Sing	17	obl	_	_
+14	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	attention	attention	NOUN	NN	Number=Sing	17	nsubj:pass	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	divided	divide	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	_
+18	into	into	ADP	IN	_	20	case	_	_
+19	different	different	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	activities	activity	NOUN	NNS	Number=Plur	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = But the people who are favors in this opinion that it should be necessary for the college students.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	people	people	NOUN	NNS	Number=Plur	0	root	_	_
+4	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	favors	favors	NOUN	NNS	Number=Plur	3	acl:relcl	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	opinion	opinion	NOUN	NN	Number=Sing	6	obl	_	_
+10	that	that	SCONJ	IN	_	14	mark	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+12	should	should	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	be	be	AUX	VB	VerbForm=Inf	14	cop	_	_
+14	necessary	necessary	ADJ	JJ	Degree=Pos	6	acl	_	_
+15	for	for	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	college	college	NOUN	NN	Number=Sing	18	compound	_	_
+18	students	student	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = They are agree with this opinion enter to going practical life and they also perform the duties of their elders so for regard, it is a positive disagree for them.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	with	with	ADP	IN	_	7	case	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+6	opinion	opinion	NOUN	NN	Number=Sing	7	compound	_	_
+7	enter	enter	NOUN	NN	Number=Sing	3	obl	_	_
+8	to	to	SCONJ	IN	_	9	mark	_	_
+9	going	go	VERB	VBG	VerbForm=Ger	15	advcl	_	_
+10	practical	practical	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	life	life	NOUN	NN	Number=Sing	9	obj	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+14	also	also	ADV	RB	_	15	advmod	_	_
+15	perform	perform	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	duties	duty	NOUN	NNS	Number=Plur	15	obj	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	elders	elder	NOUN	NNS	Number=Plur	17	nmod	_	_
+21	so	so	ADV	RB	_	15	advmod	_	_
+22	for	for	ADP	IN	_	23	case	_	_
+23	regard	regard	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	3	punct	_	_
+25	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+26	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+28	positive	positive	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	disagree	disagree	NOUN	NN	Number=Sing	3	parataxis	_	_
+30	for	for	ADP	IN	_	31	case	_	_
+31	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Moreover they can share the burden self-made teach them positive thinking and they learn from this fair use of money which they get from their parents at the time of necessity.
+1	Moreover	moreover	ADV	RB	_	4	advmod	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	share	share	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	burden	burden	VERB	VBN	Tense=Past|VerbForm=Part	7	amod	_	_
+7	self	self	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+9	made	make	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	_	_
+10	teach	teach	NOUN	NN	Number=Sing	11	compound	_	_
+11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+12	positive	positive	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	thinking	think	NOUN	NN	Number=Sing	9	xcomp	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+16	learn	learn	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+17	from	from	ADP	IN	_	20	case	_	_
+18	this	this	DET	DT	Number=Sing|PronType=Dem	20	det	_	_
+19	fair	fair	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	use	use	NOUN	NN	Number=Sing	16	obl	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	money	money	NOUN	NN	Number=Sing	20	nmod	_	_
+23	which	which	PRON	WDT	PronType=Rel	25	obj	_	_
+24	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	_
+25	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+26	from	from	ADP	IN	_	28	case	_	_
+27	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	parents	parent	NOUN	NNS	Number=Plur	25	obl	_	_
+29	at	at	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	time	time	NOUN	NN	Number=Sing	25	obl	_	_
+32	of	of	ADP	IN	_	33	case	_	_
+33	necessity	necessity	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = But according to my point of view a balanced students is always successful in this regard.
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	according	accord	VERB	VBG	VerbForm=Ger	5	case	_	_
+3	to	to	ADP	IN	_	2	fixed	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	point	point	NOUN	NN	Number=Sing	13	obl	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	view	view	NOUN	NN	Number=Sing	5	nmod	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	balanced	balanced	VERB	VBN	Tense=Past|VerbForm=Part	10	amod	_	_
+10	students	student	NOUN	NNS	Number=Plur	13	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	always	always	ADV	RB	_	13	advmod	_	_
+13	successful	successful	ADJ	JJ	Degree=Pos	0	root	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+16	regard	regard	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 8
+# text = He should equally pay his attention to his studies.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	equally	equally	ADV	RB	_	4	advmod	_	_
+4	pay	pay	VERB	VB	VerbForm=Inf	0	root	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	attention	attention	NOUN	NN	Number=Sing	4	obj	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	studies	study	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = One thing, which is important that is part time job should be according to his taste in which, he can't feel any burden.
+1	One	one	NUM	CD	NumType=Card	2	nummod	_	_
+2	thing	thing	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	which	which	PRON	WDT	PronType=Rel	6	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	important	important	ADJ	JJ	Degree=Pos	2	acl:relcl	_	_
+7	that	that	SCONJ	IN	_	14	mark	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+9	part	part	NOUN	NN	Number=Sing	10	compound	_	_
+10	time	time	NOUN	NN	Number=Sing	11	compound	_	_
+11	job	job	NOUN	NN	Number=Sing	14	nsubj	_	_
+12	should	should	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	be	be	AUX	VB	VerbForm=Inf	14	aux	_	_
+14	according	accord	VERB	VBG	Tense=Pres|VerbForm=Part	6	ccomp	_	_
+15	to	to	ADP	IN	_	17	case	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	taste	taste	NOUN	NN	Number=Sing	14	obl	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	which	which	PRON	WDT	PronType=Rel	24	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	24	punct	_	_
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+22	ca	can	AUX	MD	VerbForm=Fin	24	aux	_	SpaceAfter=No
+23	n't	not	PART	RB	_	24	advmod	_	_
+24	feel	feel	VERB	VB	VerbForm=Inf	17	acl:relcl	_	_
+25	any	any	DET	DT	_	26	det	_	_
+26	burden	burden	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = Part time job must not be imposed on the student when he is not in the mood.
+1	Part	part	NOUN	NN	Number=Sing	2	compound	_	_
+2	time	time	NOUN	NN	Number=Sing	3	compound	_	_
+3	job	job	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+4	must	must	AUX	MD	VerbForm=Fin	7	aux	_	_
+5	not	not	PART	RB	_	7	advmod	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	imposed	impose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	on	on	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	student	student	NOUN	NN	Number=Sing	7	obl	_	_
+11	when	when	ADV	WRB	PronType=Int	17	mark	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+14	not	not	PART	RB	_	17	advmod	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	mood	mood	NOUN	NN	Number=Sing	7	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 11
+# text = Let him study, whatever is according to his taste in all those concern activities.
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	study	study	VERB	VB	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	whatever	whatever	PRON	WP	PronType=Int	7	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	according	accord	VERB	VBG	VerbForm=Ger	1	parataxis	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	taste	taste	NOUN	NN	Number=Sing	7	obl	_	_
+11	in	in	ADP	IN	_	15	case	_	_
+12	all	all	DET	PDT	_	15	det:predet	_	_
+13	those	those	DET	DT	Number=Plur|PronType=Dem	15	det	_	_
+14	concern	concern	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	activities	activity	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

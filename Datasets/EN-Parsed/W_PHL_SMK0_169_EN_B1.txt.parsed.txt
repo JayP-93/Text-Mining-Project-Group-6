@@ -1,0 +1,280 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PHL_SMK0_169_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking should be banned at all restaurants in the country simply because restaurants are for eating while smoking areas are for smoking.
+1	﻿Smoking	﻿Smoking	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	_	_
+4	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	at	at	ADP	IN	_	7	case	_	_
+6	all	all	DET	DT	_	7	det	_	_
+7	restaurants	restaurant	NOUN	NNS	Number=Plur	4	obl	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	country	country	NOUN	NN	Number=Sing	4	obl	_	_
+11	simply	simply	ADV	RB	_	16	advmod	_	_
+12	because	because	SCONJ	IN	_	16	mark	_	_
+13	restaurants	restaurant	NOUN	NNS	Number=Plur	16	nsubj	_	_
+14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	for	for	ADP	IN	_	16	case	_	_
+16	eating	eating	NOUN	NN	Number=Sing	22	nsubj	_	_
+17	while	while	SCONJ	IN	_	18	mark	_	_
+18	smoking	smoke	VERB	VBG	VerbForm=Ger	16	advcl	_	_
+19	areas	area	NOUN	NNS	Number=Plur	18	obj	_	_
+20	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	for	for	ADP	IN	_	22	case	_	_
+22	smoking	smoking	NOUN	NN	Number=Sing	4	parataxis	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = There is a proper place for the right activity.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	proper	proper	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	place	place	NOUN	NN	Number=Sing	2	nsubj	_	_
+6	for	for	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	right	right	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	activity	activity	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Besides, who would want to smell second hand smoke while eating?
+1	Besides	besides	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+4	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	want	want	VERB	VB	VerbForm=Inf	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	smell	smell	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	10	amod	_	_
+9	hand	hand	NOUN	NN	Number=Sing	10	compound	_	_
+10	smoke	smoke	NOUN	NN	Number=Sing	7	obj	_	_
+11	while	while	SCONJ	IN	_	12	mark	_	_
+12	eating	eat	VERB	VBG	VerbForm=Ger	7	advcl	_	SpaceAfter=No
+13	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Not only is it dangerous to the health, it is unappetizing.
+1	Not	not	ADV	RB	_	2	advmod	_	_
+2	only	only	ADV	RB	_	5	advmod	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	dangerous	dangerous	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	health	health	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	unappetizing	unappetizing	ADJ	JJ	Degree=Pos	5	parataxis	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Moreover, assuming the role of the smoker, why would I eat while smoking?
+1	Moreover	moreover	ADV	RB	_	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	13	punct	_	_
+3	assuming	assume	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	role	role	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	smoker	smoker	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	why	why	ADV	WRB	PronType=Int	13	advmod	_	_
+11	would	would	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	eat	eat	VERB	VB	VerbForm=Inf	0	root	_	_
+14	while	while	SCONJ	IN	_	15	mark	_	_
+15	smoking	smoke	VERB	VBG	VerbForm=Ger	13	advcl	_	SpaceAfter=No
+16	?	?	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 6
+# text = It is illogical.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	illogical	illogical	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Imagine yourself going into a restaurant to eat.
+1	Imagine	imagine	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	3	obj	_	_
+3	going	go	VERB	VBG	VerbForm=Ger	1	xcomp	_	_
+4	into	into	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	restaurant	restaurant	NOUN	NN	Number=Sing	3	obl	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	eat	eat	VERB	VB	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 8
+# text = You smell the smoke, yet you can still resist it, so you proceed.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	smell	smell	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	smoke	smoke	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	yet	yet	CCONJ	CC	_	10	cc	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+8	can	can	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	still	still	ADV	RB	_	10	advmod	_	_
+10	resist	resist	VERB	VB	VerbForm=Inf	2	conj	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	so	so	SCONJ	IN	_	15	mark	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+15	proceed	proceed	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = While eating, you cannot smell the food because the smell of second hand smoke is stronger.
+1	While	while	SCONJ	IN	_	2	mark	_	_
+2	eating	eat	VERB	VBG	VerbForm=Ger	7	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+5	can	can	AUX	MD	VerbForm=Fin	7	aux	_	SpaceAfter=No
+6	not	not	PART	RB	_	7	advmod	_	_
+7	smell	smell	VERB	VB	VerbForm=Inf	0	root	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	food	food	NOUN	NN	Number=Sing	7	obj	_	_
+10	because	because	SCONJ	IN	_	18	mark	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	smell	smell	NOUN	NN	Number=Sing	18	nsubj	_	_
+13	of	of	ADP	IN	_	16	case	_	_
+14	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	16	amod	_	_
+15	hand	hand	NOUN	NN	Number=Sing	16	compound	_	_
+16	smoke	smoke	NOUN	NN	Number=Sing	12	nmod	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	stronger	stronger	ADJ	JJR	Degree=Cmp	7	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 10
+# text = You lose your appetite and left the restaurant, vowing to never come back ever again.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	lose	lose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	appetite	appetite	NOUN	NN	Number=Sing	2	obj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	restaurant	restaurant	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	_	_
+10	vowing	vow	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+11	to	to	PART	TO	_	13	mark	_	_
+12	never	never	ADV	RB	_	13	advmod	_	_
+13	come	come	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+14	back	back	ADV	RB	_	15	advmod	_	_
+15	ever	ever	ADV	RB	_	13	advmod	_	_
+16	again	again	ADV	RB	_	13	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 11
+# text = You visit another restaurant yet the scenery repeats.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	visit	visit	VERB	VB	VerbForm=Inf	0	root	_	_
+3	another	another	DET	DT	_	4	det	_	_
+4	restaurant	restaurant	NOUN	NN	Number=Sing	2	obj	_	_
+5	yet	yet	CCONJ	CC	_	8	cc	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	scenery	scenery	NOUN	NN	Number=Sing	8	compound	_	_
+8	repeats	repeat	NOUN	NNS	Number=Plur	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = In a parallel universe, imagine the country with a strict implementation of the no smoking policy in the restaurants.
+1	In	in	ADP	IN	_	4	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	parallel	parallel	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	universe	universe	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	imagine	imagine	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	country	country	NOUN	NN	Number=Sing	6	obj	_	_
+9	with	with	ADP	IN	_	12	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	strict	strict	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	implementation	implementation	NOUN	NN	Number=Sing	6	obl	_	_
+13	of	of	ADP	IN	_	17	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+15	no	no	DET	DT	_	17	det	_	_
+16	smoking	smoking	NOUN	NN	Number=Sing	17	compound	_	_
+17	policy	policy	NOUN	NN	Number=Sing	12	nmod	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	restaurants	restaurant	NOUN	NNS	Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 13
+# text = The world will be a better place for everyone, except for the smokers, of course.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	world	world	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	better	better	ADJ	JJR	Degree=Cmp	7	amod	_	_
+7	place	place	NOUN	NN	Number=Sing	0	root	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	everyone	everyone	PRON	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	except	except	ADP	IN	_	14	case	_	_
+12	for	for	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	smokers	smoker	NOUN	NNS	Number=Plur	7	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	7	punct	_	_
+16	of	of	ADV	RB	_	7	advmod	_	_
+17	course	course	ADV	RB	_	16	fixed	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 14
+# text = There is no doubt that the world will be a better place if this will be implemented.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	doubt	doubt	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	that	that	SCONJ	IN	_	12	mark	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	world	world	NOUN	NN	Number=Sing	12	nsubj	_	_
+8	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	better	better	ADJ	JJR	Degree=Cmp	12	amod	_	_
+12	place	place	NOUN	NN	Number=Sing	4	acl	_	_
+13	if	if	SCONJ	IN	_	17	mark	_	_
+14	this	this	PRON	DT	Number=Sing|PronType=Dem	17	nsubj:pass	_	_
+15	will	will	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	aux:pass	_	_
+17	implemented	implement	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 15
+# text = So what if the smokers lose a place to smoke?
+1	So	so	ADV	RB	_	2	advmod	_	_
+2	what	what	PRON	WP	PronType=Int	0	root	_	_
+3	if	if	SCONJ	IN	_	7	mark	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	smoker	smoker	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+6	s	s	PART	POS	_	5	case	_	_
+7	lose	lose	VERB	VB	VerbForm=Inf	2	advcl	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	place	place	NOUN	NN	Number=Sing	7	obj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	smoke	smoke	VERB	VB	VerbForm=Inf	9	acl	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 16
+# text = It discourages them from smoking thus preventing damage to their health.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	discourages	discourage	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+4	from	from	ADP	IN	_	5	case	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	2	obl	_	_
+6	thus	thus	ADV	RB	_	7	advmod	_	_
+7	preventing	prevent	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+8	damage	damage	NOUN	NN	Number=Sing	7	obj	_	_
+9	to	to	ADP	IN	_	11	case	_	_
+10	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	health	health	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

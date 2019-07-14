@@ -1,0 +1,251 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_PHL_SMK0_053_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿We all know that smoking is dangerous to our health.
+1	﻿We	﻿we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	all	all	DET	DT	_	1	det	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	dangerous	dangerous	ADJ	JJ	Degree=Pos	3	ccomp	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	health	health	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = We are now become more aware of how bad is smoking to our health.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	now	now	ADV	RB	_	4	advmod	_	_
+4	become	become	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	more	more	ADV	RBR	_	6	advmod	_	_
+6	aware	aware	ADJ	JJ	Degree=Pos	4	xcomp	_	_
+7	of	of	ADP	IN	_	11	mark	_	_
+8	how	how	ADV	WRB	PronType=Int	9	advmod	_	_
+9	bad	bad	ADJ	JJ	Degree=Pos	11	advmod	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	6	advcl	_	_
+12	to	to	ADP	IN	_	14	case	_	_
+13	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	health	health	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = It is a hard habit to stop because chemicals like tobacco contains nicotine, which is highly addictive.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	hard	hard	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	habit	habit	NOUN	NN	Number=Sing	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	stop	stop	VERB	VB	VerbForm=Inf	5	acl	_	_
+8	because	because	SCONJ	IN	_	12	mark	_	_
+9	chemicals	chemical	NOUN	NNS	Number=Plur	12	nsubj	_	_
+10	like	like	ADP	IN	_	11	case	_	_
+11	tobacco	tobacco	NOUN	NN	Number=Sing	9	nmod	_	_
+12	contains	contain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+13	nicotine	nicotine	NUM	CD	NumType=Card	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	5	punct	_	_
+15	which	which	PRON	WDT	PronType=Int	18	nsubj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	highly	highly	ADV	RB	_	18	advmod	_	_
+18	addictive	addictive	ADJ	JJ	Degree=Pos	5	parataxis	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Heroin or other addictive drugs, the body and mind quickly become so used in cigarettes that a person needs to feel normal.
+1	Heroin	Heroin	ADJ	JJ	Degree=Pos	5	amod	_	_
+2	or	or	CCONJ	CC	_	5	cc	_	_
+3	other	other	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	addictive	addictive	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	drugs	drug	NOUN	NNS	Number=Plur	12	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	body	body	NOUN	NN	Number=Sing	5	conj	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	mind	mind	NOUN	NN	Number=Sing	5	conj	_	_
+11	quickly	quickly	ADV	RB	_	12	advmod	_	_
+12	become	become	VERB	VB	VerbForm=Inf	0	root	_	_
+13	so	so	ADV	RB	_	14	advmod	_	_
+14	used	used	ADJ	JJ	Degree=Pos	12	xcomp	_	_
+15	in	in	ADP	IN	_	16	case	_	_
+16	cigarettes	cigarette	NOUN	NNS	Number=Plur	14	obl	_	_
+17	that	that	PRON	WDT	PronType=Rel	20	obj	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	person	person	NOUN	NN	Number=Sing	20	nsubj	_	_
+20	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	feel	feel	VERB	VB	VerbForm=Inf	20	xcomp	_	_
+23	normal	normal	ADJ	JJ	Degree=Pos	22	xcomp	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 5
+# text = Some think it is cool and one way to become popular.
+1	Some	some	DET	DT	_	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	cool	cool	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	one	one	NUM	CD	NumType=Card	8	nummod	_	_
+8	way	way	NOUN	NN	Number=Sing	5	conj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	become	become	VERB	VB	VerbForm=Inf	8	acl	_	_
+11	popular	popular	ADJ	JJ	Degree=Pos	10	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Other people start because they are influenced by the family members or friends.
+1	Other	other	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	people	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	start	start	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	because	because	SCONJ	IN	_	7	mark	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj:pass	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	influenced	influence	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	_
+8	by	by	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	family	family	NOUN	NN	Number=Sing	11	compound	_	_
+11	members	member	NOUN	NNS	Number=Plur	7	obl	_	_
+12	or	or	CCONJ	CC	_	13	cc	_	_
+13	friends	friend	NOUN	NNS	Number=Plur	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = It should be banned in all restaurants in our country because if it is continuously a habit of many people, as a second smoker it has a possibility that after a long years it will cause a cancer or heart disease because every time we inhale on a cigarette, we inhale extremely harmful chemicals.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	_	_
+4	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	all	all	DET	DT	_	7	det	_	_
+7	restaurants	restaurant	NOUN	NNS	Number=Plur	4	obl	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	country	country	NOUN	NN	Number=Sing	7	nmod	_	_
+11	because	because	SCONJ	IN	_	17	mark	_	_
+12	if	if	SCONJ	IN	_	17	mark	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	continuously	continuously	ADV	RB	_	17	advmod	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	habit	habit	NOUN	NN	Number=Sing	4	advcl	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	many	many	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	people	people	NOUN	NNS	Number=Plur	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	4	punct	_	_
+22	as	as	ADP	IN	_	25	case	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+24	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	25	amod	_	_
+25	smoker	smoker	NOUN	NN	Number=Sing	27	obl	_	_
+26	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+27	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+29	possibility	possibility	NOUN	NN	Number=Sing	27	obj	_	_
+30	that	that	PRON	WDT	PronType=Rel	37	obj	_	_
+31	after	after	ADP	IN	_	34	case	_	_
+32	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	_
+33	long	long	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	years	year	NOUN	NNS	Number=Plur	37	obl	_	_
+35	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
+36	will	will	AUX	MD	VerbForm=Fin	37	aux	_	_
+37	cause	cause	VERB	VB	VerbForm=Inf	29	acl:relcl	_	_
+38	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+39	cancer	cancer	NOUN	NN	Number=Sing	37	obj	_	_
+40	or	or	CCONJ	CC	_	42	cc	_	_
+41	heart	heart	NOUN	NN	Number=Sing	42	compound	_	_
+42	disease	disease	NOUN	NN	Number=Sing	39	conj	_	_
+43	because	because	SCONJ	IN	_	53	mark	_	_
+44	every	every	DET	DT	_	45	det	_	_
+45	time	time	NOUN	NN	Number=Sing	53	obl:tmod	_	_
+46	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	47	nsubj	_	_
+47	inhale	inhale	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	45	acl:relcl	_	_
+48	on	on	ADP	IN	_	50	case	_	_
+49	a	a	DET	DT	Definite=Ind|PronType=Art	50	det	_	_
+50	cigarette	cigarette	NOUN	NN	Number=Sing	47	obl	_	SpaceAfter=No
+51	,	,	PUNCT	,	_	53	punct	_	_
+52	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	53	nsubj	_	_
+53	inhale	inhale	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	37	advcl	_	_
+54	extremely	extremely	ADV	RB	_	55	advmod	_	_
+55	harmful	harmful	ADJ	JJ	Degree=Pos	56	amod	_	_
+56	chemicals	chemical	NOUN	NNS	Number=Plur	53	obj	_	SpaceAfter=No
+57	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = And it can also influence other people to use cigarette because they saw you using it especially teenagers.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	also	also	ADV	RB	_	5	advmod	_	_
+5	influence	influence	VERB	VB	VerbForm=Inf	0	root	_	_
+6	other	other	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	people	people	NOUN	NNS	Number=Plur	5	obj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	use	use	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+10	cigarette	cigarette	NOUN	NN	Number=Sing	9	obj	_	_
+11	because	because	SCONJ	IN	_	13	mark	_	_
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+13	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	obj	_	_
+15	using	use	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	especially	especially	ADV	RB	_	18	advmod	_	_
+18	teenagers	teenager	NOUN	NNS	Number=Plur	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 9
+# text = If in our country smoking is banned it will help us a lot.
+1	If	if	SCONJ	IN	_	7	mark	_	_
+2	in	in	ADP	IN	_	5	case	_	_
+3	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	country	country	NOUN	NN	Number=Sing	5	compound	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	help	help	VERB	VB	VerbForm=Inf	0	root	_	_
+11	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	obj	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	lot	lot	NOUN	NN	Number=Sing	10	obl:npmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 10
+# text = It is our protection in our health, it reduced health risk, protection to those non smokers and to those children, that's why smoking should be banned in the country.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	protection	protection	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	health	health	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	reduced	reduce	VERB	VBN	Tense=Past|VerbForm=Part	12	amod	_	_
+11	health	health	NOUN	NN	Number=Sing	12	compound	_	_
+12	risk	risk	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	protection	protection	NOUN	NN	Number=Sing	4	conj	_	_
+15	to	to	ADP	IN	_	18	case	_	_
+16	those	those	DET	DT	Number=Plur|PronType=Dem	18	det	_	_
+17	non	non	X	AFX	_	18	goeswith	_	_
+18	smokers	smoker	NOUN	NNS	Number=Plur	14	nmod	_	_
+19	and	and	CCONJ	CC	_	22	cc	_	_
+20	to	to	ADP	IN	_	22	case	_	_
+21	those	those	DET	DT	Number=Plur|PronType=Dem	22	det	_	_
+22	children	child	NOUN	NNS	Number=Plur	4	conj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	2	punct	_	_
+24	that	that	PRON	DT	Number=Sing|PronType=Dem	30	nsubj:pass	_	SpaceAfter=No
+25	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
+26	why	why	ADV	WRB	PronType=Int	30	advmod	_	_
+27	smoking	smoke	NOUN	NN	Number=Sing	30	nsubj:pass	_	_
+28	should	should	AUX	MD	VerbForm=Fin	30	aux	_	_
+29	be	be	AUX	VB	VerbForm=Inf	30	aux:pass	_	_
+30	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+31	in	in	ADP	IN	_	33	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	country	country	NOUN	NN	Number=Sing	30	obl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

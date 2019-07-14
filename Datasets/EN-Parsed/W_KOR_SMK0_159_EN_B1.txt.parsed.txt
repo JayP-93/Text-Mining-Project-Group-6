@@ -1,0 +1,282 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_159_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿I smoke, but I didn't really see the point in forcing the regulations on restaurants, which had smoking sections.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	but	but	CCONJ	CC	_	9	cc	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+6	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	SpaceAfter=No
+7	n't	not	PART	RB	_	9	advmod	_	_
+8	really	really	ADV	RB	_	9	advmod	_	_
+9	see	see	VERB	VB	VerbForm=Inf	2	conj	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	point	point	NOUN	NN	Number=Sing	9	obj	_	_
+12	in	in	SCONJ	IN	_	13	mark	_	_
+13	forcing	force	VERB	VBG	VerbForm=Ger	11	acl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	regulations	regulation	NOUN	NNS	Number=Plur	13	obj	_	_
+16	on	on	ADP	IN	_	17	case	_	_
+17	restaurants	restaurant	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	which	which	PRON	WDT	PronType=Rel	20	nsubj	_	_
+20	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	acl:relcl	_	_
+21	smoking	smoke	NOUN	NN	Number=Sing	22	compound	_	_
+22	sections	section	NOUN	NNS	Number=Plur	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Before I was a smoker, the smoking sections of restaurants were never an intrusion for me.
+1	Before	before	SCONJ	IN	_	5	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	smoker	smoker	NOUN	NN	Number=Sing	15	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	15	punct	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	smoking	smoke	NOUN	NN	Number=Sing	9	compound	_	_
+9	sections	section	NOUN	NNS	Number=Plur	15	nsubj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	restaurants	restaurant	NOUN	NNS	Number=Plur	9	nmod	_	_
+12	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	cop	_	_
+13	never	never	ADV	RB	_	15	advmod	_	_
+14	an	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	intrusion	intrusion	NOUN	NN	Number=Sing	0	root	_	_
+16	for	for	ADP	IN	_	17	case	_	_
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 3
+# text = And I was born with sensitive lungs, since my mother smoked during her pregnancy with me.
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	sensitive	sensitive	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	lungs	lung	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	since	since	ADP	IN	_	11	case	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	mother	mother	NOUN	NN	Number=Sing	4	obl	_	_
+12	smoked	smoke	VERB	VBN	Tense=Past|VerbForm=Part	11	acl	_	_
+13	during	during	ADP	IN	_	15	case	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	pregnancy	pregnancy	NOUN	NN	Number=Sing	12	obl	_	_
+16	with	with	ADP	IN	_	17	case	_	_
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Anyway, I don't like the regulations, but I could understand someone with worse problems than I have being affected worse, even if they're in the same room as smoke.
+1	Anyway	anyway	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	n't	not	PART	RB	_	6	advmod	_	_
+6	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	regulations	regulation	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	but	but	CCONJ	CC	_	13	cc	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	could	could	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	understand	understand	VERB	VB	VerbForm=Inf	6	conj	_	_
+14	someone	someone	PRON	NN	Number=Sing	13	obj	_	_
+15	with	with	ADP	IN	_	17	case	_	_
+16	worse	worse	ADJ	JJR	Degree=Cmp	17	amod	_	_
+17	problems	problem	NOUN	NNS	Number=Plur	14	nmod	_	_
+18	than	than	SCONJ	IN	_	22	mark	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj:pass	_	_
+20	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	being	be	AUX	VBG	VerbForm=Ger	22	aux:pass	_	_
+22	affected	affect	VERB	VBN	Tense=Past|VerbForm=Part	6	advcl	_	_
+23	worse	worse	ADJ	JJR	Degree=Cmp	22	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	6	punct	_	_
+25	even	even	ADV	RB	_	32	advmod	_	_
+26	if	if	SCONJ	IN	_	32	mark	_	_
+27	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	32	nsubj	_	SpaceAfter=No
+28	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	32	cop	_	_
+29	in	in	ADP	IN	_	32	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+31	same	same	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	room	room	NOUN	NN	Number=Sing	6	advcl	_	_
+33	as	as	ADP	IN	_	34	case	_	_
+34	smoke	smoke	NOUN	NN	Number=Sing	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = So that's something to think about.
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	SpaceAfter=No
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	something	something	PRON	NN	Number=Sing	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	think	think	VERB	VB	VerbForm=Inf	4	acl	_	_
+7	about	about	ADP	IN	_	6	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = But I do have a lot of friends who are waitresses, and they all agree that the regulations have caused a drop in their restaurants' business.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	lot	lot	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	friends	friend	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	who	who	PRON	WP	PronType=Rel	11	nsubj	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	waitresses	waitress	NOUN	NNS	Number=Plur	8	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	and	and	CCONJ	CC	_	16	cc	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+15	all	all	DET	DT	_	14	det	_	_
+16	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	conj	_	_
+17	that	that	SCONJ	IN	_	21	mark	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	regulations	regulation	NOUN	NNS	Number=Plur	21	nsubj	_	_
+20	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	caused	cause	VERB	VBN	Tense=Past|VerbForm=Part	16	ccomp	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	drop	drop	NOUN	NN	Number=Sing	21	obj	_	_
+24	in	in	ADP	IN	_	26	case	_	_
+25	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	restaurants	restaurant	NOUN	NNS	Number=Plur	28	nmod:poss	_	SpaceAfter=No
+27	'	'	PART	POS	_	26	case	_	_
+28	business	business	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = And I'm not sure if I'm comfortable with the government telling a business owner whether or not smoking can be permitted in their establishment.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+3	'm	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	_
+6	if	if	SCONJ	IN	_	9	mark	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	SpaceAfter=No
+8	'm	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	comfortable	comfortable	ADJ	JJ	Degree=Pos	5	ccomp	_	_
+10	with	with	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	government	government	NOUN	NN	Number=Sing	9	obl	_	_
+13	telling	tell	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	business	business	NOUN	NN	Number=Sing	16	compound	_	_
+16	owner	owner	NOUN	NN	Number=Sing	13	obj	_	_
+17	whether	whether	SCONJ	IN	_	23	mark	_	_
+18	or	or	CCONJ	CC	_	17	fixed	_	_
+19	not	not	ADV	RB	_	17	fixed	_	_
+20	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	23	nsubj:pass	_	_
+21	can	can	AUX	MD	VerbForm=Fin	23	aux	_	_
+22	be	be	AUX	VB	VerbForm=Inf	23	aux:pass	_	_
+23	permitted	permit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	acl	_	_
+24	in	in	ADP	IN	_	26	case	_	_
+25	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	establishment	establishment	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = We have one guy here, who owns a pool hall, and he lets you smoke inside as long as you put a donation in the tip jar, to help him pay off the fines.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	one	one	NUM	CD	NumType=Card	4	nummod	_	_
+4	guy	guy	NOUN	NN	Number=Sing	2	obj	_	_
+5	here	here	ADV	RB	PronType=Dem	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+8	owns	own	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	pool	pool	NOUN	NN	Number=Sing	11	compound	_	_
+11	hall	hall	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	lets	let	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+17	smoke	smoke	VERB	VB	VerbForm=Inf	15	ccomp	_	_
+18	inside	inside	ADV	RB	_	17	advmod	_	_
+19	as	as	ADV	RB	_	20	advmod	_	_
+20	long	long	ADV	RB	Degree=Pos	17	advmod	_	_
+21	as	as	SCONJ	IN	_	23	mark	_	_
+22	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	23	nsubj	_	_
+23	put	put	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	donation	donation	NOUN	NN	Number=Sing	23	obj	_	_
+26	in	in	ADP	IN	_	29	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+28	tip	tip	NOUN	NN	Number=Sing	29	compound	_	_
+29	jar	jar	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	17	punct	_	_
+31	to	to	PART	TO	_	32	mark	_	_
+32	help	help	VERB	VB	VerbForm=Inf	17	advcl	_	_
+33	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
+34	pay	pay	VERB	VB	VerbForm=Inf	32	xcomp	_	_
+35	off	off	ADP	RP	_	34	compound:prt	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	fines	fine	NOUN	NNS	Number=Plur	34	obj	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Otherwise, I'm always doing my best to keep my smoke away from strangers.
+1	Otherwise	otherwise	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
+4	'm	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	always	always	ADV	RB	_	6	advmod	_	_
+6	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	best	best	ADJ	JJS	Degree=Sup	6	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	keep	keep	VERB	VB	VerbForm=Inf	6	advcl	_	_
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	smoke	smoke	NOUN	NN	Number=Sing	10	obj	_	_
+13	away	away	ADV	RB	_	10	advmod	_	_
+14	from	from	ADP	IN	_	15	case	_	_
+15	strangers	stranger	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 10
+# text = When I see children approaching the door to wherever I am, during my smoke breaks, I immediately hold my cigarettes away from them, and I don't take another drag until they're gone.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+4	children	child	NOUN	NNS	Number=Plur	3	obj	_	_
+5	approaching	approach	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	door	door	NOUN	NN	Number=Sing	5	obj	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	wherever	wherever	PRON	WP	PronType=Int	11	obl	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	am	be	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	during	during	ADP	IN	_	16	case	_	_
+14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+15	smoke	smoke	NOUN	NN	Number=Sing	16	compound	_	_
+16	breaks	break	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	11	punct	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+19	immediately	immediately	ADV	RB	_	20	advmod	_	_
+20	hold	hold	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+21	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	cigarettes	cigarette	NOUN	NNS	Number=Plur	20	obj	_	_
+23	away	away	ADV	RB	_	20	advmod	_	_
+24	from	from	ADP	IN	_	25	case	_	_
+25	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	23	obl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	31	punct	_	_
+27	and	and	CCONJ	CC	_	31	cc	_	_
+28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	_
+29	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	31	aux	_	SpaceAfter=No
+30	n't	not	PART	RB	_	31	advmod	_	_
+31	take	take	VERB	VB	VerbForm=Inf	11	conj	_	_
+32	another	another	DET	DT	_	33	det	_	_
+33	drag	drag	NOUN	NN	Number=Sing	31	obj	_	_
+34	until	until	SCONJ	IN	_	37	mark	_	_
+35	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	37	nsubj	_	SpaceAfter=No
+36	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	37	cop	_	_
+37	gone	gone	ADJ	JJ	Degree=Pos	31	advcl	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n
+

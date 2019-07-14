@@ -1,0 +1,282 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_TWN_SMK0_183_EN_B1.txt
+# newpar
+# sent_id = 1
+# text = ﻿Smoking should be completely banned at all the restaurants in the country.
+1	﻿Smoking	﻿Smoking	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+2	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+4	completely	completely	ADV	RB	_	5	advmod	_	_
+5	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	at	at	ADP	IN	_	9	case	_	_
+7	all	all	DET	PDT	_	9	det:predet	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	restaurants	restaurant	NOUN	NNS	Number=Plur	5	obl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	country	country	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Smoking in restaurants should be banned in the country.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+2	in	in	ADP	IN	_	3	case	_	_
+3	restaurants	restaurant	NOUN	NNS	Number=Plur	1	obl	_	_
+4	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+6	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	country	country	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Smoking can affect health; it can cause cancer and brain disease.
+1	Smoking	smoke	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	affect	affect	VERB	VB	VerbForm=Inf	0	root	_	_
+4	health	health	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	3	punct	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	cause	cause	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+9	cancer	cancer	NOUN	NN	Number=Sing	8	obj	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	brain	brain	NOUN	NN	Number=Sing	12	compound	_	_
+12	disease	disease	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = People that smoking for a long time can relay tobacco and hard to refuge it, they can't live without tobacco.
+1	People	people	NOUN	NNS	Number=Plur	9	nsubj	_	_
+2	that	that	SCONJ	IN	_	3	mark	_	_
+3	smoking	smoke	VERB	VBG	VerbForm=Ger	1	acl	_	_
+4	for	for	ADP	IN	_	7	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	long	long	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	time	time	NOUN	NN	Number=Sing	3	obl	_	_
+8	can	can	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	relay	relay	VERB	VB	VerbForm=Inf	0	root	_	_
+10	tobacco	tobacco	PROPN	NNP	Number=Sing	9	obj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	hard	hard	ADJ	JJ	Degree=Pos	10	conj	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	refuge	refuge	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	9	punct	_	_
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+18	ca	can	AUX	MD	VerbForm=Fin	20	aux	_	SpaceAfter=No
+19	n't	not	PART	RB	_	20	advmod	_	_
+20	live	live	VERB	VB	VerbForm=Inf	9	parataxis	_	_
+21	without	without	ADP	IN	_	22	case	_	_
+22	tobacco	tobacco	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 5
+# text = People will spend much money in smoking, a pack of tobacco cost 70 NT dollars in Taiwan.
+1	People	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	spend	spend	VERB	VB	VerbForm=Inf	0	root	_	_
+4	much	much	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	money	money	NOUN	NN	Number=Sing	3	obj	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	smoking	smoking	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	pack	pack	NOUN	NN	Number=Sing	3	obj	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	tobacco	tobacco	NOUN	NN	Number=Sing	13	compound	_	_
+13	cost	cost	NOUN	NN	Number=Sing	10	nmod	_	_
+14	70	70	NUM	CD	NumType=Card	16	nummod	_	_
+15	NT	Nt	PART	RB	_	14	case	_	_
+16	dollars	dollar	NOUN	NNS	Number=Plur	13	nmod	_	_
+17	in	in	ADP	IN	_	18	case	_	_
+18	Taiwan	Taiwan	PROPN	NNP	Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = It is a lot of money on smoking in one year.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	lot	lot	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	money	money	NOUN	NN	Number=Sing	4	nmod	_	_
+7	on	on	ADP	IN	_	8	case	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	4	nmod	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	one	one	NUM	CD	NumType=Card	11	nummod	_	_
+11	year	year	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Tobacco companies can earn much net benefit during one year.
+1	Tobacco	Tobacco	NOUN	NN	Number=Sing	2	compound	_	_
+2	companies	company	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	earn	earn	VERB	VB	VerbForm=Inf	0	root	_	_
+5	much	much	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	net	net	NOUN	NN	Number=Sing	7	compound	_	_
+7	benefit	benefit	NOUN	NN	Number=Sing	4	obj	_	_
+8	during	during	ADP	IN	_	10	case	_	_
+9	one	one	NUM	CD	NumType=Card	10	nummod	_	_
+10	year	year	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = People smoke in restaurants not only cause the disease, it can affect other people's health.
+1	People	people	NOUN	NN	Number=Sing	2	compound	_	_
+2	smoke	smoke	NOUN	NN	Number=Sing	0	root	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	restaurants	restaurant	NOUN	NNS	Number=Plur	2	nmod	_	_
+5	not	not	ADV	RB	_	6	advmod	_	_
+6	only	only	ADV	RB	_	9	advmod	_	_
+7	cause	cause	SCONJ	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	disease	disease	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	can	can	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	affect	affect	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+14	other	other	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	people	people	NOUN	NNS	Number=Plur	17	nmod:poss	_	SpaceAfter=No
+16	's	's	PART	POS	_	15	case	_	_
+17	health	health	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = The reports point that second hand smoking cause more serious disease than the smoker.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	reports	report	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	point	point	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+5	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	7	amod	_	_
+6	hand	hand	NOUN	NN	Number=Sing	7	compound	_	_
+7	smoking	smoke	NOUN	NN	Number=Sing	3	obj	_	_
+8	cause	cause	SCONJ	IN	_	11	mark	_	_
+9	more	more	ADJ	JJR	Degree=Cmp	11	amod	_	_
+10	serious	serious	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	disease	disease	NOUN	NN	Number=Sing	3	advcl	_	_
+12	than	than	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	smoker	smoker	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Smoking can cause global warming effect, burning the tobacco will produce CO2 and other warming gases.
+1	Smoking	smoking	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	cause	cause	VERB	VB	VerbForm=Inf	0	root	_	_
+4	global	global	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	warming	warming	NOUN	NN	Number=Sing	6	compound	_	_
+6	effect	effect	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	burning	burn	VERB	VBG	VerbForm=Ger	12	csubj	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	tobacco	tobacco	NOUN	NN	Number=Sing	8	obj	_	_
+11	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	produce	produce	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+13	CO2	co2	NOUN	NN	Number=Sing	12	obj	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	other	other	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	warming	warming	NOUN	NN	Number=Sing	17	compound	_	_
+17	gases	gas	NOUN	NNS	Number=Plur	13	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = The tobacco companies will break down the tree in order to breed the tobacco, that will cause flooding and landslides.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	tobacco	tobacco	NOUN	NN	Number=Sing	3	compound	_	_
+3	companies	company	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	break	break	VERB	VB	VerbForm=Inf	0	root	_	_
+6	down	down	ADP	RP	_	5	compound:prt	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	tree	tree	NOUN	NN	Number=Sing	5	obj	_	_
+9	in	in	ADP	IN	_	12	mark	_	_
+10	order	order	NOUN	NN	Number=Sing	9	fixed	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	breed	breed	VERB	VB	VerbForm=Inf	5	advcl	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	tobacco	tobacco	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	5	punct	_	_
+16	that	that	PRON	DT	Number=Sing|PronType=Dem	18	nsubj	_	_
+17	will	will	AUX	MD	VerbForm=Fin	18	aux	_	_
+18	cause	cause	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+19	flooding	flooding	NOUN	NN	Number=Sing	18	obj	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	landslides	landslide	NOUN	NNS	Number=Plur	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 12
+# text = Smoking not only affects human's health but also affects earth's air; It is bad and not any benefit.
+1	Smoking	smoke	VERB	VBG	VerbForm=Ger	4	csubj	_	_
+2	not	not	ADV	RB	_	3	advmod	_	_
+3	only	only	ADV	RB	_	4	cc:preconj	_	_
+4	affects	affect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	human	human	ADJ	JJ	Degree=Pos	7	nmod:poss	_	SpaceAfter=No
+6	's	's	PART	POS	_	5	case	_	_
+7	health	health	NOUN	NN	Number=Sing	4	obj	_	_
+8	but	but	CCONJ	CC	_	10	cc	_	_
+9	also	also	ADV	RB	_	10	advmod	_	_
+10	affects	affect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+11	earth	earth	PROPN	NNP	Number=Sing	13	nmod:poss	_	SpaceAfter=No
+12	's	's	PART	POS	_	11	case	_	_
+13	air	air	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+14	;	;	PUNCT	,	_	4	punct	_	_
+15	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	bad	bad	ADJ	JJ	Degree=Pos	4	parataxis	_	_
+18	and	and	CCONJ	CC	_	21	cc	_	_
+19	not	not	ADV	RB	_	21	advmod	_	_
+20	any	any	DET	DT	_	21	det	_	_
+21	benefit	benefit	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = Therefore, smoking should de completely banned at all the restaurants in the country.
+1	Therefore	therefore	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	smoking	smoke	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+4	should	should	AUX	MD	VerbForm=Fin	7	aux	_	_
+5	de	de	VERB	VB	VerbForm=Inf	7	aux:pass	_	_
+6	completely	completely	ADV	RB	_	7	advmod	_	_
+7	banned	ban	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	at	at	ADP	IN	_	11	case	_	_
+9	all	all	DET	PDT	_	11	det:predet	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	restaurants	restaurant	NOUN	NNS	Number=Plur	7	obl	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	country	country	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 14
+# text = In any public places should ban smoking too.
+1	In	in	ADP	IN	_	4	case	_	_
+2	any	any	DET	DT	_	4	det	_	_
+3	public	public	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	places	place	NOUN	NNS	Number=Plur	6	obl	_	_
+5	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	ban	ban	VERB	VB	VerbForm=Inf	0	root	_	_
+7	smoking	smoke	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+8	too	too	ADV	RB	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 15
+# text = Every one has the responsibilities to ban other people smoking in the public place.
+1	Every	every	DET	DT	_	2	det	_	_
+2	one	one	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	responsibilities	responsibility	NOUN	NNS	Number=Plur	3	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	ban	ban	VERB	VB	VerbForm=Inf	5	acl	_	_
+8	other	other	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	people	people	NOUN	NNS	Number=Plur	7	obj	_	_
+10	smoking	smoke	VERB	VBG	VerbForm=Ger	7	xcomp	_	_
+11	in	in	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	public	public	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	place	place	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

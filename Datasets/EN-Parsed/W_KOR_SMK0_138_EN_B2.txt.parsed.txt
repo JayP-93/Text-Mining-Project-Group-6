@@ -1,0 +1,338 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_KOR_SMK0_138_EN_B2.txt
+# newpar
+# sent_id = 1
+# text = ﻿Teen smoking is on the rise more and more.
+1	﻿Teen	﻿Teen	AUX	VBN	Tense=Past|VerbForm=Part	2	amod	_	_
+2	smoking	smoke	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	on	on	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	rise	rise	NOUN	NN	Number=Sing	0	root	_	_
+7	more	more	ADJ	JJR	Degree=Cmp	6	amod	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	more	more	ADJ	JJR	Degree=Cmp	7	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = And teens are smoking much more than ever.
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	teens	teens	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	much	much	ADV	RB	_	6	advmod	_	_
+6	more	more	ADJ	JJR	Degree=Cmp	4	obj	_	_
+7	than	than	ADP	IN	_	8	case	_	_
+8	ever	ever	ADV	RB	_	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Teen smoking affects everyone, not just the teens that do it.
+1	Teen	teen	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	smoking	smoke	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	affects	affect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	everyone	everyone	PRON	NN	Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	not	not	ADV	RB	_	9	advmod	_	_
+7	just	just	ADV	RB	_	9	advmod	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	teens	teens	NOUN	NNS	Number=Plur	4	conj	_	_
+10	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	_
+11	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = If teens don't stop smoking, they should get cancer and die.
+1	If	if	SCONJ	IN	_	5	mark	_	_
+2	teens	teens	NOUN	NNS	Number=Plur	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n't	not	PART	RB	_	5	advmod	_	_
+5	stop	stop	VERB	VB	VerbForm=Inf	10	advcl	_	_
+6	smoking	smoke	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+9	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+11	cancer	cancer	NOUN	NN	Number=Sing	10	obj	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	die	die	VERB	VB	VerbForm=Inf	10	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 5
+# text = That could affect a whole entire generation.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	affect	affect	VERB	VB	VerbForm=Inf	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+5	whole	whole	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	entire	entire	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	generation	generation	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Also, secondhand smoke could be a problem too.
+1	Also	also	ADV	RB	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	8	punct	_	_
+3	secondhand	secondhand	DET	DT	_	4	det	_	_
+4	smoke	smoke	NOUN	NN	Number=Sing	8	nsubj	_	_
+5	could	could	AUX	MD	VerbForm=Fin	8	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	problem	problem	NOUN	NN	Number=Sing	0	root	_	_
+9	too	too	ADV	RB	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 7
+# text = A couple solutions to this problem are to stop the media promoting and to educate teens about smoking and how it's bad for you.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	couple	couple	NOUN	NN	Number=Sing	3	compound	_	_
+3	solutions	solution	NOUN	NNS	Number=Plur	7	nsubj	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	problem	problem	NOUN	NN	Number=Sing	3	nmod	_	_
+7	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	stop	stop	VERB	VB	VerbForm=Inf	7	advcl	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	media	media	NOUN	NN	Number=Sing	9	obj	_	_
+12	promoting	promote	VERB	VBG	VerbForm=Ger	11	acl	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	educate	eeducat	VERB	VB	VerbForm=Inf	12	conj	_	_
+16	teens	teens	NOUN	NNS	Number=Plur	12	obj	_	_
+17	about	about	ADP	IN	_	18	case	_	_
+18	smoking	smoking	NOUN	NN	Number=Sing	16	nmod	_	_
+19	and	and	CCONJ	CC	_	23	cc	_	_
+20	how	how	ADV	WRB	PronType=Int	23	advmod	_	_
+21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	SpaceAfter=No
+22	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	bad	bad	ADJ	JJ	Degree=Pos	12	conj	_	_
+24	for	for	ADP	IN	_	25	case	_	_
+25	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 8
+# text = The public image of smoking is making teens think it is cool to smoke.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	public	public	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	image	image	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	smoking	smoking	NOUN	NN	Number=Sing	3	nmod	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+8	teens	teens	NOUN	NNS	Number=Plur	9	nsubj	_	_
+9	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	cool	cool	ADJ	JJ	Degree=Pos	9	ccomp	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	smoke	smoke	VERB	VB	VerbForm=Inf	12	csubj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 9
+# text = Part of making the public image of smoking better is to ban the ads on billboards, and in magazines or anything else that advertises smoking.
+1	Part	part	NOUN	NN	Number=Sing	10	nsubj	_	_
+2	of	of	SCONJ	IN	_	3	mark	_	_
+3	making	make	VERB	VBG	VerbForm=Ger	1	acl	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	public	public	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	image	image	NOUN	NN	Number=Sing	3	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	smoking	smoking	NOUN	NN	Number=Sing	6	nmod	_	_
+9	better	better	ADJ	JJR	Degree=Cmp	3	xcomp	_	_
+10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	ban	ban	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	ads	ad	NOUN	NNS	Number=Plur	12	obj	_	_
+15	on	on	ADP	IN	_	16	case	_	_
+16	billboards	billboard	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	in	in	ADP	IN	_	20	case	_	_
+20	magazines	magazine	NOUN	NNS	Number=Plur	12	conj	_	_
+21	or	or	CCONJ	CC	_	22	cc	_	_
+22	anything	anything	PRON	NN	Number=Sing	20	conj	_	_
+23	else	else	ADJ	JJ	Degree=Pos	20	amod	_	_
+24	that	that	SCONJ	IN	_	26	case	_	_
+25	advertises	advertisis	NOUN	NNS	Number=Plur	26	compound	_	_
+26	smoking	smoke	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 10
+# text = The teens see those ads and see the people with lots of luxuries like money and friends in the ads and think that if they smoke, they will get those things.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	teens	teens	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	those	those	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
+5	ads	ad	NOUN	NNS	Number=Plur	3	obj	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	see	see	VERB	VB	VerbForm=Inf	3	conj	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	people	people	NOUN	NNS	Number=Plur	7	obj	_	_
+10	with	with	ADP	IN	_	11	case	_	_
+11	lots	lot	NOUN	NNS	Number=Plur	7	obl	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	luxuries	luxuries	NOUN	NNS	Number=Plur	11	nmod	_	_
+14	like	like	ADP	IN	_	15	case	_	_
+15	money	money	NOUN	NN	Number=Sing	13	nmod	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	friends	friend	NOUN	NNS	Number=Plur	15	conj	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	ads	ad	NOUN	NNS	Number=Plur	3	nmod	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	think	think	VERB	VB	VerbForm=Inf	3	conj	_	_
+23	that	that	SCONJ	IN	_	30	mark	_	_
+24	if	if	SCONJ	IN	_	26	mark	_	_
+25	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	_
+26	smoke	smoke	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	30	advcl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	30	punct	_	_
+28	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	30	nsubj	_	_
+29	will	will	AUX	MD	VerbForm=Fin	30	aux	_	_
+30	get	get	VERB	VB	VerbForm=Inf	22	ccomp	_	_
+31	those	those	DET	DT	Number=Plur|PronType=Dem	32	det	_	_
+32	things	thing	NOUN	NNS	Number=Plur	30	obj	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = If they stop those ads, teens will not think that smoking will help their self image.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	stop	stop	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+4	those	those	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
+5	ads	ad	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	teens	teens	NOUN	NNS	Number=Plur	10	nsubj	_	_
+8	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+11	that	that	SCONJ	IN	_	14	mark	_	_
+12	smoking	smoking	NOUN	NN	Number=Sing	14	nsubj	_	_
+13	will	will	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	help	help	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+15	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+16	self	self	NOUN	NN	Number=Sing	17	compound	_	_
+17	image	image	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 12
+# text = Another solution would be to stop apparel that promoting smoking.
+1	Another	another	DET	DT	_	2	det	_	_
+2	solution	solution	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	stop	stop	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+7	apparel	apparel	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+8	that	that	SCONJ	IN	_	9	mark	_	_
+9	promoting	promote	VERB	VBG	VerbForm=Ger	7	ccomp	_	_
+10	smoking	smoking	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 13
+# text = The teens see people wearing those shirts, hats and things and they think that they'll be mature and respected if they start smoking.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	teens	teens	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	people	people	NOUN	NNS	Number=Plur	3	obj	_	_
+5	wearing	wear	VERB	VBG	VerbForm=Ger	4	acl	_	_
+6	those	those	DET	DT	Number=Plur|PronType=Dem	7	det	_	_
+7	shirts	shirt	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	hats	hats	NOUN	NNS	Number=Plur	7	conj	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	things	thing	NOUN	NNS	Number=Plur	7	conj	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+14	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+15	that	that	SCONJ	IN	_	19	mark	_	_
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	SpaceAfter=No
+17	'll	will	AUX	MD	VerbForm=Fin	19	aux	_	_
+18	be	be	AUX	VB	VerbForm=Inf	19	cop	_	_
+19	mature	mature	ADJ	JJ	Degree=Pos	14	ccomp	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	respected	respect	ADJ	JJ	Degree=Pos	19	conj	_	_
+22	if	if	SCONJ	IN	_	24	mark	_	_
+23	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
+24	start	start	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+25	smoking	smoke	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 14
+# text = If the tobacco Companies stop the promotion of smoking on apparel, then they won't see it as something cool.
+1	If	if	SCONJ	IN	_	5	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	tobacco	tobacco	NOUN	NN	Number=Sing	4	compound	_	_
+4	Companies	company	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	stop	stop	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	promotion	promotion	NOUN	NN	Number=Sing	5	obj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	smoking	smoking	NOUN	NN	Number=Sing	7	nmod	_	_
+10	on	on	ADP	IN	_	11	case	_	_
+11	apparel	apparel	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	17	punct	_	_
+13	then	then	ADV	RB	PronType=Dem	17	advmod	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+15	wo	will	AUX	MD	VerbForm=Fin	17	aux	_	SpaceAfter=No
+16	n't	not	PART	RB	_	17	advmod	_	_
+17	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	as	as	ADP	IN	_	20	case	_	_
+20	something	something	PRON	NN	Number=Sing	17	obl	_	_
+21	cool	cool	ADJ	JJ	Degree=Pos	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 15
+# text = Finally, the action smoking on TV and in movies make smoking look good.
+1	Finally	finally	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	action	action	NOUN	NN	Number=Sing	5	compound	_	_
+5	smoking	smoke	NOUN	NN	Number=Sing	0	root	_	_
+6	on	on	ADP	IN	_	7	case	_	_
+7	TV	tv	NOUN	NN	Number=Sing	5	nmod	_	_
+8	and	and	CCONJ	CC	_	11	cc	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	movies	movie	NOUN	NNS	Number=Plur	11	nsubj	_	_
+11	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	_
+12	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	11	xcomp	_	_
+13	look	look	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+14	good	good	ADJ	JJ	Degree=Pos	13	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 16
+# text = If the action heroes and actors stop smoking, then when kids look up to them they promoting smoking.
+1	If	if	SCONJ	IN	_	7	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	action	action	NOUN	NN	Number=Sing	4	compound	_	_
+4	heroes	heroe	NOUN	NNS	Number=Plur	7	nsubj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	actors	actor	NOUN	NNS	Number=Plur	4	conj	_	_
+7	stop	stop	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+8	smoking	smoke	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	then	then	ADV	RB	PronType=Dem	13	advmod	_	_
+11	when	when	ADV	WRB	PronType=Int	13	advmod	_	_
+12	kids	kid	NOUN	NNS	Number=Plur	13	nsubj	_	_
+13	look	look	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	up	up	ADP	RP	_	13	compound:prt	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obl	_	_
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
+18	promoting	promote	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+19	smoking	smoking	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 17
+# text = Not as many people will do it.
+1	Not	not	PART	RB	_	3	advmod	_	_
+2	as	as	ADV	RB	_	3	advmod	_	_
+3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	people	people	NOUN	NNS	Number=Plur	6	nsubj	_	_
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

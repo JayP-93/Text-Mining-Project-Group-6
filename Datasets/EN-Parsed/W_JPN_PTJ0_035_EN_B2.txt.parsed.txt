@@ -1,0 +1,317 @@
+# newdoc id = C:/Users/Julia/PycharmProjects/DataScience/UniversalCEFRScoring2/Datasets/EN/W_JPN_PTJ0_035_EN_B2.txt
+# newpar
+# sent_id = 1
+# text = ﻿I agree with the statement.
+1	﻿I	﻿I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	with	with	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	statement	statement	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Some people may think that there are demerits for students to do a part-time job.
+1	Some	some	DET	DT	_	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	may	may	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+5	that	that	SCONJ	IN	_	7	mark	_	_
+6	there	there	PRON	EX	_	7	expl	_	_
+7	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	demerits	demerit	NOUN	NNS	Number=Plur	7	nsubj	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	students	student	NOUN	NNS	Number=Plur	8	nmod	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	do	do	VERB	VB	VerbForm=Inf	10	acl	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+14	part	part	NOUN	NN	Number=Sing	16	compound	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No
+16	time	time	NOUN	NN	Number=Sing	17	compound	_	_
+17	job	job	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = These people worry about that students spend a lot of time for the job and they will not have enough time to study.
+1	These	these	DET	DT	Number=Plur|PronType=Dem	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	worry	worry	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	about	about	ADP	IN	_	7	mark	_	_
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	_
+6	students	student	NOUN	NNS	Number=Plur	7	nsubj	_	_
+7	spend	spend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	lot	lot	NOUN	NN	Number=Sing	7	obj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	time	time	NOUN	NN	Number=Sing	9	nmod	_	_
+12	for	for	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	job	job	NOUN	NN	Number=Sing	7	obl	_	_
+15	and	and	CCONJ	CC	_	19	cc	_	_
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+17	will	will	AUX	MD	VerbForm=Fin	19	aux	_	_
+18	not	not	PART	RB	_	19	advmod	_	_
+19	have	have	VERB	VB	VerbForm=Inf	7	conj	_	_
+20	enough	enough	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	time	time	NOUN	NN	Number=Sing	19	obj	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	study	study	VERB	VB	VerbForm=Inf	21	acl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = However, I think that their worry is nonsense.
+1	However	however	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	IN	_	9	mark	_	_
+6	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	worry	worry	NOUN	NN	Number=Sing	9	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	nonsense	nonsense	ADJ	JJ	Degree=Pos	4	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = For, students know the importance of study, and they will study in vacant time.
+1	For	for	ADP	IN	_	4	case	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	students	student	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	importance	importance	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	study	study	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+12	will	will	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	study	study	VERB	VB	VerbForm=Inf	6	conj	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	vacant	vacant	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	time	time	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = I think there is more merit of doing a part-time job than the demerit because of the following reasons.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	there	there	PRON	EX	_	4	expl	_	_
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	more	more	ADJ	JJR	Degree=Cmp	6	amod	_	_
+6	merit	merit	NOUN	NN	Number=Sing	4	nsubj	_	_
+7	of	of	SCONJ	IN	_	8	mark	_	_
+8	doing	do	VERB	VBG	VerbForm=Ger	6	acl	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+10	part	part	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	time	time	NOUN	NN	Number=Sing	13	compound	_	_
+13	job	job	NOUN	NN	Number=Sing	8	obj	_	_
+14	than	than	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	demerit	demerit	NOUN	NN	Number=Sing	13	nmod	_	_
+17	because	because	ADP	IN	_	21	case	_	_
+18	of	of	ADP	IN	_	17	fixed	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	following	follow	VERB	VBG	VerbForm=Ger	21	amod	_	_
+21	reasons	reason	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = First, I think that doing a part-time job will help students' parents.
+1	First	first	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	IN	_	6	mark	_	_
+6	doing	do	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+8	part	part	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	time	time	NOUN	NN	Number=Sing	11	compound	_	_
+11	job	job	NOUN	NN	Number=Sing	13	nsubj	_	_
+12	will	will	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	help	help	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+14	students	student	NOUN	NNS	Number=Plur	16	compound	_	SpaceAfter=No
+15	'	'	PUNCT	''	_	14	punct	_	_
+16	parents	parent	NOUN	NNS	Number=Plur	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = Doing a part-time job makes students get extra money.
+1	Doing	do	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+3	part	part	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	time	time	NOUN	NN	Number=Sing	6	compound	_	_
+6	job	job	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	students	student	NOUN	NNS	Number=Plur	9	nsubj	_	_
+9	get	get	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+10	extra	extra	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	money	money	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 9
+# text = Thanks to that extra money, some poor parents who cannot earn enough money for their child to go to college can let their children to go there.
+1	Thanks	thanks	NOUN	NN	Number=Sing	0	root	_	_
+2	to	to	ADP	IN	_	5	case	_	_
+3	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+4	extra	extra	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	money	money	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	1	punct	_	_
+7	some	some	DET	DT	_	9	det	_	_
+8	poor	poor	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	parents	parent	NOUN	NNS	Number=Plur	24	nsubj	_	_
+10	who	who	PRON	WP	PronType=Rel	13	nsubj	_	_
+11	can	can	AUX	MD	VerbForm=Fin	13	aux	_	SpaceAfter=No
+12	not	not	PART	RB	_	13	advmod	_	_
+13	earn	earn	VERB	VB	VerbForm=Inf	9	acl:relcl	_	_
+14	enough	enough	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	money	money	NOUN	NN	Number=Sing	13	obj	_	_
+16	for	for	ADP	IN	_	18	case	_	_
+17	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	child	child	NOUN	NN	Number=Sing	13	obl	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	go	go	VERB	VB	VerbForm=Inf	13	advcl	_	_
+21	to	to	ADP	IN	_	22	case	_	_
+22	college	college	NOUN	NN	Number=Sing	20	obl	_	_
+23	can	can	AUX	MD	VerbForm=Fin	24	aux	_	_
+24	let	let	VERB	VB	VerbForm=Inf	1	parataxis	_	_
+25	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	children	child	NOUN	NNS	Number=Plur	24	obj	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	go	go	VERB	VB	VerbForm=Inf	24	xcomp	_	_
+29	there	there	ADV	RB	PronType=Dem	28	advmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 10
+# text = Second, doing a part-time job makes students promote independence from their parents in economical part, and they can realize the importance of money.
+1	Second	second	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	doing	do	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+5	part	part	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	time	time	NOUN	NN	Number=Sing	8	compound	_	_
+8	job	job	NOUN	NN	Number=Sing	9	nsubj	_	_
+9	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	students	student	NOUN	NNS	Number=Plur	11	nsubj	_	_
+11	promote	promote	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+12	independence	independence	ADV	RB	NumType=Mult	11	advmod	_	_
+13	from	from	ADP	IN	_	15	case	_	_
+14	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	parents	parent	NOUN	NNS	Number=Plur	12	obl	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	economical	economical	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	part	part	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	23	punct	_	_
+20	and	and	CCONJ	CC	_	23	cc	_	_
+21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
+22	can	can	AUX	MD	VerbForm=Fin	23	aux	_	_
+23	realize	realize	VERB	VB	VerbForm=Inf	9	conj	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	importance	importance	NOUN	NN	Number=Sing	23	obj	_	_
+26	of	of	ADP	IN	_	27	case	_	_
+27	money	money	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 11
+# text = Third, the most important reason I think, it is useful for them to experience job before they work at company.
+1	Third	third	ADV	RB	_	12	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	12	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+4	most	most	ADV	RBS	_	5	advmod	_	_
+5	important	important	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	reason	reason	NOUN	NN	Number=Sing	12	obl:tmod	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	useful	useful	ADJ	JJ	Degree=Pos	0	root	_	_
+13	for	for	SCONJ	IN	_	16	mark	_	_
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	experience	experience	VERB	VB	VerbForm=Inf	12	csubj	_	_
+17	job	job	NOUN	NN	Number=Sing	16	obj	_	_
+18	before	before	SCONJ	IN	_	20	mark	_	_
+19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+20	work	work	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+21	at	at	ADP	IN	_	22	case	_	_
+22	company	company	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 12
+# text = If they do a part-time job, they can take responsibility and get many skills for job, for example, greeting, conversation, presentation and so on.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+5	part	part	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	time	time	NOUN	NN	Number=Sing	8	compound	_	_
+8	job	job	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
+11	can	can	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+13	responsibility	responsibility	NOUN	NN	Number=Sing	12	obj	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	get	get	VERB	VB	VerbForm=Inf	12	conj	_	_
+16	many	many	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	skills	skill	NOUN	NNS	Number=Plur	15	obj	_	_
+18	for	for	ADP	IN	_	19	case	_	_
+19	job	job	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	15	punct	_	_
+21	for	for	ADP	IN	_	22	case	_	_
+22	example	example	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	24	punct	_	_
+24	greeting	greeting	NOUN	NN	Number=Sing	22	conj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	26	punct	_	_
+26	conversation	conversation	NOUN	NN	Number=Sing	22	conj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	28	punct	_	_
+28	presentation	presentation	NOUN	NN	Number=Sing	22	conj	_	_
+29	and	and	CCONJ	CC	_	31	cc	_	_
+30	so	so	ADV	RB	_	31	advmod	_	_
+31	on	on	ADV	RB	_	22	conj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 13
+# text = So, they will be able to work better than those who have never experienced a job.
+1	So	so	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+6	able	able	ADJ	JJ	Degree=Pos	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	work	work	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	better	better	ADJ	JJR	Degree=Cmp	8	advmod	_	_
+10	than	than	ADP	IN	_	11	case	_	_
+11	those	those	PRON	DT	Number=Plur|PronType=Dem	9	obl	_	_
+12	who	who	PRON	WP	PronType=Rel	15	nsubj	_	_
+13	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	never	never	ADV	RB	_	15	advmod	_	_
+15	experienced	experience	VERB	VBN	Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	job	job	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 14
+# text = That's why I think doing a part-time job is important for students.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	why	why	ADV	WRB	PronType=Int	5	advmod	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	doing	do	VERB	VBG	VerbForm=Ger	5	xcomp	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+8	part	part	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	time	time	NOUN	NN	Number=Sing	11	compound	_	_
+11	job	job	NOUN	NN	Number=Sing	13	nsubj	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	important	important	ADJ	JJ	Degree=Pos	6	ccomp	_	_
+14	for	for	ADP	IN	_	15	case	_	_
+15	students	student	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+
