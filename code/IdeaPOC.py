@@ -906,15 +906,15 @@ def main():
                         datefmt='%Y-%m-%d %H:%M:%S')
     logging.info('Script Begin')
 
-    # logging.info('Starting with single language --> EN')
-    # logging.info('Starting do_single_lang_all_features(endirpath, "en", "class")')
-    # do_single_lang_all_features(endirpath, "en", "class")
-    # logging.info('Finished do_single_lang_all_features(endirpath, "en", "class")')
-    #
-    # logging.info('Starting do_single_lang_all_features(endirpath, "en", "regr")')
-    # do_single_lang_all_features(endirpath, "en", "regr")
-    # logging.info('Finished do_single_lang_all_features(endirpath, "en", "regr")')
-    # logging.info('Finished with single language --> EN')
+    logging.info('Starting with single language --> EN')
+    logging.info('Starting do_single_lang_all_features(endirpath, "en", "class")')
+    do_single_lang_all_features(endirpath, "en", "class")
+    logging.info('Finished do_single_lang_all_features(endirpath, "en", "class")')
+
+    logging.info('Starting do_single_lang_all_features(endirpath, "en", "regr")')
+    do_single_lang_all_features(endirpath, "en", "regr")
+    logging.info('Finished do_single_lang_all_features(endirpath, "en", "regr")')
+    logging.info('Finished with single language --> EN')
 
     # logging.info('Starting with single language --> DE')
     # logging.info('Starting do_single_lang_all_features(dedirpath, "de", "class")')
@@ -946,55 +946,55 @@ def main():
     # logging.info('Finished do_single_lang_all_features(czdirpath, "cz", "regr")')
     # logging.info('Finished with single language --> cz')
 
-    # logging.info("Starting with concatenate label features --> True")
-    # logging.info(
-    #     'Starting do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "word", True)')
-    # do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "word", True)
-    # logging.info(
-    #     'Finished do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "word", True)')
-    # logging.info(
-    #     'Starting do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "pos", True)')
-    # do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "pos", True)
-    # logging.info(
-    #     'Finished do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "pos", True)')
-    #
-    # logging.info(
-    #     'Starting do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "dep", True)')
-    # do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "dep", True)
-    # logging.info(
-    #     'Finished do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "dep", True)')
-    #
-    # logging.info(
-    #     'Starting do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "domain", True)')
-    # do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "domain", True)
-    # logging.info(
-    #     'Finished do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "domain", True)')
-    # logging.info("Finished with concatenate label features --> True")
-    #
-    # logging.info("Starting with concatenate label features --> False")
-    # logging.info(
-    #     'Starting do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "word", False)')
-    # do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "word", False)
-    # logging.info(
-    #     'Finished do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "word", False)')
-    # logging.info(
-    #     'Starting do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "pos", False)')
-    # do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "pos", False)
-    # logging.info(
-    #     'Finished do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "pos", False)')
-    #
-    # logging.info(
-    #     'Starting do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "dep", False)')
-    # do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "dep", False)
-    # logging.info(
-    #     'Finished do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "dep", False)')
-    #
-    # logging.info(
-    #     'Starting do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "domain", False)')
-    # do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "domain", False)
-    # logging.info(
-    #     'Finished do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "domain", False)')
-    # logging.info("Finished with concatenate label features --> False")
+    logging.info("Starting with concatenate label features --> True")
+    logging.info(
+        'Starting do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "word", True)')
+    do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "word", True)
+    logging.info(
+        'Finished do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "word", True)')
+    logging.info(
+        'Starting do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "pos", True)')
+    do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "pos", True)
+    logging.info(
+        'Finished do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "pos", True)')
+
+    logging.info(
+        'Starting do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "dep", True)')
+    do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "dep", True)
+    logging.info(
+        'Finished do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "dep", True)')
+
+    logging.info(
+        'Starting do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "domain", True)')
+    do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "domain", True)
+    logging.info(
+        'Finished do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "domain", True)')
+    logging.info("Finished with concatenate label features --> True")
+
+    logging.info("Starting with concatenate label features --> False")
+    logging.info(
+        'Starting do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "word", False)')
+    do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "word", False)
+    logging.info(
+        'Finished do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "word", False)')
+    logging.info(
+        'Starting do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "pos", False)')
+    do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "pos", False)
+    logging.info(
+        'Finished do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "pos", False)')
+
+    logging.info(
+        'Starting do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "dep", False)')
+    do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "dep", False)
+    logging.info(
+        'Finished do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "dep", False)')
+
+    logging.info(
+        'Starting do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "domain", False)')
+    do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "domain", False)
+    logging.info(
+        'Finished do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", endirpath, "en", "domain", False)')
+    logging.info("Finished with concatenate label features --> False")
 
     logging.info("Starting cross language with DE as base language")
     # logging.info('Starting cross language from DE to IT do_cross_lang_all_features(dedirpath, "de", "class", itdirpath, "it")')
@@ -1008,40 +1008,40 @@ def main():
     logging.info('Finished cross language from DE to EN do_cross_lang_all_features(dedirpath, "de", "class", endirpath, "en")')
     logging.info("Finished cross language with DE as base language")
     #
-    # logging.info("Starting cross language with IT as base language")
+    logging.info("Starting cross language with IT as base language")
     # logging.info('Starting cross language from IT to DE do_cross_lang_all_features(itdirpath, "it", "class", dedirpath, "de")')
     # do_cross_lang_all_features(itdirpath, "it", "class", dedirpath, "de")
     # logging.info('Finished cross language from IT to DE do_cross_lang_all_features(itdirpath, "it", "class", dedirpath, "de")')
     # logging.info('Starting cross language from IT to CZ do_cross_lang_all_features(itdirpath, "it", "class", czdirpath, "cz")')
     # do_cross_lang_all_features(itdirpath, "it", "class", czdirpath, "cz")
     # logging.info('Finished cross language from IT to CZ do_cross_lang_all_features(itdirpath, "it", "class", czdirpath, "cz")')
-    # logging.info('Starting cross language from IT to EN do_cross_lang_all_features(itdirpath, "it", "class", endirpath, "en")')
-    # do_cross_lang_all_features(itdirpath, "it", "class", endirpath, "en")
-    # logging.info('Finished cross language from IT to EN do_cross_lang_all_features(itdirpath, "it", "class", endirpath, "en")')
-    # logging.info("Finished cross language with IT as base language")
-    #
-    # logging.info("Starting cross language with CZ as base language")
+    logging.info('Starting cross language from IT to EN do_cross_lang_all_features(itdirpath, "it", "class", endirpath, "en")')
+    do_cross_lang_all_features(itdirpath, "it", "class", endirpath, "en")
+    logging.info('Finished cross language from IT to EN do_cross_lang_all_features(itdirpath, "it", "class", endirpath, "en")')
+    logging.info("Finished cross language with IT as base language")
+
+    logging.info("Starting cross language with CZ as base language")
     # logging.info('Starting cross language from CZ to DE do_cross_lang_all_features(czdirpath, "cz", "class", dedirpath, "de")')
     # do_cross_lang_all_features(czdirpath, "cz", "class", dedirpath, "de")
     # logging.info('Finished cross language from CZ to DE do_cross_lang_all_features(czdirpath, "cz", "class", dedirpath, "de")')
     # logging.info('Starting cross language from CZ to IT do_cross_lang_all_features(czdirpath, "cz", "class", itdirpath, "it")')
     # do_cross_lang_all_features(czdirpath, "cz", "class", itdirpath, "it")
     # logging.info('Finished cross language from CZ to IT do_cross_lang_all_features(czdirpath, "cz", "class", itdirpath, "it")')
-    # logging.info('Starting cross language from CZ to EN do_cross_lang_all_features(czdirpath, "cz", "class", endirpath, "en")')
-    # do_cross_lang_all_features(czdirpath, "cz", "class", endirpath, "en")
-    # logging.info('Finished cross language from CZ to EN do_cross_lang_all_features(czdirpath, "cz", "class", endirpath, "en")')
-    # logging.info("Finished cross language with CZ as base language")
+    logging.info('Starting cross language from CZ to EN do_cross_lang_all_features(czdirpath, "cz", "class", endirpath, "en")')
+    do_cross_lang_all_features(czdirpath, "cz", "class", endirpath, "en")
+    logging.info('Finished cross language from CZ to EN do_cross_lang_all_features(czdirpath, "cz", "class", endirpath, "en")')
+    logging.info("Finished cross language with CZ as base language")
 
     logging.info("Starting cross language with EN as base language")
     logging.info('Starting cross language from EN to DE do_cross_lang_all_features(endirpath, "en", "class", dedirpath, "de")')
     do_cross_lang_all_features(endirpath, "en", "class", dedirpath, "de")
     logging.info('Finished cross language from EN to DE do_cross_lang_all_features(endirpath, "en", "class", dedirpath, "de")')
-    # logging.info('Starting cross language from EN to IT do_cross_lang_all_features(endirpath, "en", "class", itdirpath, "it")')
-    # do_cross_lang_all_features(endirpath, "en", "class", itdirpath, "it")
-    # logging.info('Finished cross language from EN to IT do_cross_lang_all_features(endirpath, "en", "class", itdirpath, "it")')
-    # logging.info('Starting cross language from EN to CZ do_cross_lang_all_features(endirpath, "en", "class", czdirpath, "cz")')
-    # do_cross_lang_all_features(endirpath, "en", "class", czdirpath, "cz")
-    # logging.info('Finished cross language from EN to CZ do_cross_lang_all_features(endirpath, "en", "class", czdirpath, "cz")')
+    logging.info('Starting cross language from EN to IT do_cross_lang_all_features(endirpath, "en", "class", itdirpath, "it")')
+    do_cross_lang_all_features(endirpath, "en", "class", itdirpath, "it")
+    logging.info('Finished cross language from EN to IT do_cross_lang_all_features(endirpath, "en", "class", itdirpath, "it")')
+    logging.info('Starting cross language from EN to CZ do_cross_lang_all_features(endirpath, "en", "class", czdirpath, "cz")')
+    do_cross_lang_all_features(endirpath, "en", "class", czdirpath, "cz")
+    logging.info('Finished cross language from EN to CZ do_cross_lang_all_features(endirpath, "en", "class", czdirpath, "cz")')
     logging.info("Finished cross language with EN as base language")
 
     logging.info('Script End')
