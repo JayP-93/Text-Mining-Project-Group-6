@@ -898,10 +898,10 @@ def do_single_lang_all_features(langdirpath, lang, modelas):
 
 def main():
     # TODO(JayP): adapt this when you want to run it!
-    itdirpath = "E:\\TMP\\UniversalCEFRScoring\\Datasets\\IT-Parsed"
-    dedirpath = "E:\\TMP\\UniversalCEFRScoring\\Datasets\\DE-Parsed"
-    czdirpath = "E:\\TMP\\UniversalCEFRScoring\\Datasets\\CZ-Parsed"
-    endirpath = "E:\\TMP\\UniversalCEFRScoring\\Datasets\\EN-Parsed"
+    itdirpath = "../Datasets/IT-Parsed"
+    dedirpath = "../Datasets/DE-Parsed"
+    czdirpath = "../Datasets/CZ-Parsed"
+    endirpath = "../Datasets/EN-Parsed"
     logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.DEBUG,
                         datefmt='%Y-%m-%d %H:%M:%S')
     logging.info('Script Begin')
