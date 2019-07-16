@@ -106,7 +106,7 @@ def crossLangClassificationWithoutVectorizer(train_vector, train_labels, test_ve
 
 def main():
     itdirpath = "../Datasets/IT-Parsed"
-    dedirpath = "../Datasets//DE-Parsed"
+    dedirpath = "../Datasets/DE-Parsed"
     czdirpath = "../Datasets/CZ-Parsed"
     endirpath = "../Datasets/EN-Parsed"
 
