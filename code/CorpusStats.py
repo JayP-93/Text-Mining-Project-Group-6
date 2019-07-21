@@ -1,5 +1,5 @@
 """
-Returns statistics about dataset
+Returns statistics about dataset (Number of documents per language, per label and average number of words per label)
 """
 
 

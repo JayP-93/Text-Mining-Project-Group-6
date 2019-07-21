@@ -791,21 +791,22 @@ def do_cross_lang_all_features(sourcelangdirpath, sourcelang, modelas, targetlan
         sourcelangfiles, sourcelangdomain = getScoringFeatures(sourcelangdirpath, sourcelang, False)
         targetlangfiles, targetlangdomain = getScoringFeatures(targetlangdirpath, targetlang, False)
 
+    # Remove testing data samples with a label that is not seen in the training
     diff_labels = set(targetlanglabels) - set(sourcelanglabels)
     if diff_labels:
         indices = [i for i, x in enumerate(targetlanglabels) if x in diff_labels]
         targetlangposngrams = [i for j, i in enumerate(targetlangposngrams) if j not in indices]
         targetlangdepngrams = [i for j, i in enumerate(targetlangdepngrams) if j not in indices]
         targetlanglabels = [x for x in targetlanglabels if x not in diff_labels]
-        targetlangdomain = [i for j,i in enumerate(targetlangdomain) if j not in indices]
+        targetlangdomain = [i for j, i in enumerate(targetlangdomain) if j not in indices]
 
-        # if targetlang == "it": #Those two files where langtool throws error
-        #   mean_imputer = Imputer(missing_values='NaN', strategy='mean', axis=0)
-        #   mean_imputer = mean_imputer.fit(targetlangdomain)
-        #   imputed_df = mean_imputer.transform(targetlangdomain)
-        #   targetlangdomain = imputed_df
-        #   print("Modified domain feature vector for Italian")
-        # TODO: it can be sourcelang too! I am ignoring that for now.
+    # if targetlang == "it": #Those two files where langtool throws error
+    #   mean_imputer = Imputer(missing_values='NaN', strategy='mean', axis=0)
+    #   mean_imputer = mean_imputer.fit(targetlangdomain)
+    #   imputed_df = mean_imputer.transform(targetlangdomain)
+    #   targetlangdomain = imputed_df
+    #   print("Modified domain feature vector for Italian")
+    # TODO: it can be sourcelang too! I am ignoring that for now.
 
     if modelas == "class":
         print("Printing cross-corpus classification evaluation results: ")

@@ -85,13 +85,12 @@ def crossLangClassificationWithoutVectorizer(train_vector, train_labels, test_ve
     :param test_labels: list with labels for testing
     """
 
-    # Begin of Cristina's code. Comment to delete at the end.
+    # Remove testing data samples with a label that is not seen in the training
     diff_labels = set(test_labels) - set(train_labels)
     if diff_labels:
         indices = [i for i, x in enumerate(test_labels) if x in diff_labels]
         test_vector = [i for j, i in enumerate(test_vector) if j not in indices]
         test_labels = [x for x in test_labels if x not in diff_labels]
-    # End of Cristina's code. Comment to delete at the end
 
     classifiers = [RandomForestClassifier(class_weight="balanced", n_estimators=300, random_state=seed),
                    LinearSVC(class_weight="balanced", random_state=seed),

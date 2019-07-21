@@ -1,5 +1,5 @@
 """
-Renaiming of files in new EN corpora (analog to CreateDataset.py
+Renaiming of files in new EN corpora (analog to CreateDataset.py)
 """
 
 import os
