@@ -32,7 +32,7 @@ def makePOSsentences(conllufilepath):
     :return:  a string which contains the sequence of sentences. words of a sentence represent
     its Part-Of-Speech tag(Example: Stadt - NOUN, habe - VERB).
     """
-    fh = open(conllufilepath, encoding="utf8")
+    fh = open(conllufilepath, encoding="utf-8")
     everything_POS = []
     pos_sentence = []
     sent_id = 0
@@ -59,7 +59,7 @@ def makeTextOnly(conllufilepath):
 
     :quetions: the idea of using sent_id
     """
-    fh = open(conllufilepath, encoding="utf8")
+    fh = open(conllufilepath, encoding="utf-8")
     allText = []
     this_sentence = []
     sent_id = 0
@@ -86,7 +86,7 @@ def makeDepRelSentences(conllufilepath):
     :param conllufilepath: path to the parsed file
     :return: a string which contains the sequence of sentences. words of a sentence represent
     """
-    fh = open(conllufilepath, encoding="utf8")
+    fh = open(conllufilepath, encoding="utf-8")
     wanted_features = []
     deprels_sentence = []
     sent_id = 0
@@ -151,7 +151,7 @@ def getLexFeatures(conllufilepath, lang, err):
     the frequency occurrence of verbs, the frequency occurrence of nouns, the frequency occurrence of adjectives,
     the frequency occurrence of adverbs,the frequency occurrence of modifier, total number of errors, total numbers of spelling mistakes]
     """
-    fh = open(conllufilepath, encoding="utf8")
+    fh = open(conllufilepath, encoding="utf-8")
     ndw = []  # To get number of distinct words
     ndn = []  # To get number of distinct nouns - includes propn
     ndv = []  # To get number of distinct verbs
@@ -733,6 +733,7 @@ def do_mega_multilingual_model_all_features(lang1path, lang1, lang2path, lang2, 
                    + enhance_features_withcat(lang3features, "cz")
     else:
         megadata = lang1features + lang2features + lang3features
+
     print("Mega classification for: ", setting, " features")
 
     print(len(megalabels), len(megadata), len(megalangs), len(megadata[0]))
@@ -783,15 +784,13 @@ def do_cross_lang_all_features(sourcelangdirpath, sourcelang, modelas, targetlan
         sourcelangfiles, sourcelangdomain = getScoringFeatures(sourcelangdirpath, sourcelang, False)
         targetlangfiles, targetlangdomain = getScoringFeatures(targetlangdirpath, targetlang, False)
 
-    # Begin of Cristina's code. Comment to delete at the end.
-    diff_labels = set(targetlanglabels) - set(sourcelanglabels)  # Cristina code
+    diff_labels = set(targetlanglabels) - set(sourcelanglabels)
     if diff_labels:
         indices = [i for i, x in enumerate(targetlanglabels) if x in diff_labels]
         targetlangposngrams = [i for j, i in enumerate(targetlangposngrams) if j not in indices]
         targetlangdepngrams = [i for j, i in enumerate(targetlangdepngrams) if j not in indices]
         targetlanglabels = [x for x in targetlanglabels if x not in diff_labels]
-        targetlangdomain = [i for j,i in enumerate(targetlangdomain) if j not in indices]
-    # End of Cristina's code. Comment to delete at the end
+        targetlangdomain = [i for j, i in enumerate(targetlangdomain) if j not in indices]
 
         # if targetlang == "it": #Those two files where langtool throws error
         #   mean_imputer = Imputer(missing_values='NaN', strategy='mean', axis=0)
@@ -890,9 +889,9 @@ def do_single_lang_all_features(langdirpath, lang, modelas):
 
 def main():
     # TODO(JayP): adapt this when you want to run it!
-    itdirpath = "E:\\TMP\\UniversalCEFRScoring\\Datasets\\IT-Parsed"
-    dedirpath = "E:\\TMP\\UniversalCEFRScoring\\Datasets\\DE-Parsed"
-    czdirpath = "E:\\TMP\\UniversalCEFRScoring\\Datasets\\CZ-Parsed"
+    itdirpath = "..\\Datasets\\IT-Parsed"
+    dedirpath = "..\\Datasets\\DE-Parsed"
+    czdirpath = "..\\Datasets\\CZ-Parsed"
     logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.DEBUG,
                         datefmt='%Y-%m-%d %H:%M:%S')
     logging.info('Script Begin')
@@ -953,11 +952,11 @@ def main():
     # logging.info("Finished with concatenate label features --> True")
     #
     # logging.info("Starting with concatenate label features --> False")
-    # logging.info(
-    #     'Starting do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", "class", "word", False)')
-    # do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", "class", "word", False)
-    # logging.info(
-    #     'Finished do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", "class", "word", False)')
+    logging.info(
+         'Starting do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", "class", "word", False)')
+    do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", "class", "word", False)
+    logging.info(
+        'Finished do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", "class", "word", False)')
     # logging.info(
     #     'Starting do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", "class", "pos", False)')
     # do_mega_multilingual_model_all_features(dedirpath, "de", itdirpath, "it", czdirpath, "cz", "class", "pos", False)
