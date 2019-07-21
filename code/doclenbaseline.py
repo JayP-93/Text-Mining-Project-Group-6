@@ -84,6 +84,15 @@ def crossLangClassificationWithoutVectorizer(train_vector, train_labels, test_ve
     :param test_vector: list with features for testing
     :param test_labels: list with labels for testing
     """
+
+    # Begin of Cristina's code. Comment to delete at the end.
+    diff_labels = set(test_labels) - set(train_labels)
+    if diff_labels:
+        indices = [i for i, x in enumerate(test_labels) if x in diff_labels]
+        test_vector = [i for j, i in enumerate(test_vector) if j not in indices]
+        test_labels = [x for x in test_labels if x not in diff_labels]
+    # End of Cristina's code. Comment to delete at the end
+
     classifiers = [RandomForestClassifier(class_weight="balanced", n_estimators=300, random_state=seed),
                    LinearSVC(class_weight="balanced", random_state=seed),
                    LogisticRegression(class_weight="balanced", random_state=seed)]
@@ -97,10 +106,12 @@ def crossLangClassificationWithoutVectorizer(train_vector, train_labels, test_ve
 
 def main():
     itdirpath = "../Datasets/IT-Parsed"
-    dedirpath = "../Datasets//DE-Parsed"
+    dedirpath = "../Datasets/DE-Parsed"
     czdirpath = "../Datasets/CZ-Parsed"
+    endirpath = "../Datasets/EN-Parsed"
 
     # Monolingual classification baseline
+    print("********* Start single language *********")
     print("************DE baseline:****************")
     defeats, delabels = getfeatures(dedirpath)
     singleLangClassificationWithoutVectorizer(defeats, delabels)
@@ -110,12 +121,44 @@ def main():
     print("************CZ baseline:****************")
     czfeats, czlabels = getfeatures(czdirpath)
     singleLangClassificationWithoutVectorizer(czfeats, czlabels)
+    print("************EN baseline:****************")
+    enfeats, enlabels = getfeatures(endirpath)
+    singleLangClassificationWithoutVectorizer(enfeats, enlabels)
+    print("********* End single language *********")
 
-    # Crosslingual classification baseline
+    print("********* Start cross language *********")
+    # Crosslingual classification baseline DE
     print("*** Train with DE, test with IT baseline******")
     crossLangClassificationWithoutVectorizer(defeats, delabels, itfeats, itlabels)
     print("*** Train with DE, test with CZ baseline ******")
     crossLangClassificationWithoutVectorizer(defeats, delabels, czfeats, czlabels)
+    print("*** Train with DE, test with EN baseline ******")
+    crossLangClassificationWithoutVectorizer(defeats, delabels, enfeats, enlabels)
+
+    # Crosslingual classification baseline IT
+    print("*** Train with IT, test with DE baseline******")
+    crossLangClassificationWithoutVectorizer(itfeats, itlabels, defeats, delabels)
+    print("*** Train with IT, test with CZ baseline ******")
+    crossLangClassificationWithoutVectorizer(itfeats, itlabels, czfeats, czlabels)
+    print("*** Train with IT, test with EN baseline ******")
+    crossLangClassificationWithoutVectorizer(itfeats, itlabels, enfeats, enlabels)
+
+    # Crosslingual classification baseline CZ
+    print("*** Train with CZ, test with IT baseline******")
+    crossLangClassificationWithoutVectorizer(czfeats, czlabels, itfeats, itlabels)
+    print("*** Train with CZ, test with DE baseline ******")
+    crossLangClassificationWithoutVectorizer(czfeats, czlabels, defeats, delabels)
+    print("*** Train with CZ, test with EN baseline ******")
+    crossLangClassificationWithoutVectorizer(czfeats, czlabels, enfeats, enlabels)
+
+    # Crosslingual classification baseline EN
+    print("*** Train with EN, test with IT baseline******")
+    crossLangClassificationWithoutVectorizer(enfeats, enlabels, itfeats, itlabels)
+    print("*** Train with EN, test with CZ baseline ******")
+    crossLangClassificationWithoutVectorizer(enfeats, enlabels, czfeats, czlabels)
+    print("*** Train with EN, test with DE baseline ******")
+    crossLangClassificationWithoutVectorizer(enfeats, enlabels, defeats, delabels)
+    print("********* End cross language *********")
 
     # Multilingual classification baseline
     bigfeats = []
@@ -123,9 +166,11 @@ def main():
     bigfeats.extend(defeats)
     bigfeats.extend(itfeats)
     bigfeats.extend(czfeats)
+    bigfeats.extend(enfeats)
     bigcats.extend(delabels)
     bigcats.extend(itlabels)
     bigcats.extend(czlabels)
+    bigcats.extend(enlabels)
     print("****Multilingual classification baseline*************")
     singleLangClassificationWithoutVectorizer(bigfeats, bigcats)
 

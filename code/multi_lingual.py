@@ -197,7 +197,7 @@ print("Transforming the labels... ", end="")
 sys.stdout.flush()
 pt = time.time()
 unique_labels = list(set(y_labels))
-lang_labels = ["CZ", "IT", "DE"]
+lang_labels = ["CZ", "IT", "DE", "EN"]
 print("Class labels = ", unique_labels)
 n_classes = len(unique_labels)
 n_grp_classes = len(lang_labels)
