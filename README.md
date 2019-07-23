@@ -1,3 +1,10 @@
+This repository presents the work of Group 6 of the Text Mining Project lecture at the University of Passau during SoSe2019:
+
+Original project GitHub repository: https://github.com/nishkalavallabhi/UniversalCEFRScoring
+
+
+Original README:
+----------------------------------------------------------------------------------------------------------
 This repository contains the code and some of the data and result files for the experiments described in the following paper:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1218081.svg)](https://doi.org/10.5281/zenodo.1218081)
