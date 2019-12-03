@@ -1,0 +1,361 @@
+= CLARIN-ERIC docker build workflow
+:caution-caption: ☡ CAUTION
+:important-caption: ❗ IMPORTANT
+:note-caption: 💡 NOTE
+:sectanchors:
+:sectlinks:
+:sectnumlevels: 6
+:sectnums:
+:source-highlighter: pygments
+:tip-caption: 💡 TIP
+:toc-placement: preamble
+:toc:
+:warning-caption: ⚠ WARNING
+
+This project contains basic instructions and scripts to create a git repository for developing, running
+and submitting a CLARIN reprolang experiment.
+
+== Dependencies
+
+[options="header",cols=",,,m"]
+|===
+| Conditions | Type | Name (URL) | Version constraint
+
+| by necessity
+| software
+| https://www.docker.com/[Docker Compose]
+| ==1.8.0
+
+| by necessity
+| software
+| https://www.docker.com/[Docker Engine]
+| ==1.11.2
+
+| by necessity
+| image
+| https://github.com/gliderlabs/docker-alpine[`gliderlabs/alpine`]
+| ==3.4
+
+| for releases
+| platform
+| https://about.gitlab.[GitLab CI]
+| ==8.10.4
+
+|===
+
+== Goals
+
+Provide a uniform build, test and release workflow, both locally and within the gitlab platform
+which allows customization where needed.
+
+== Installing
+
+=== Automated
+Install the build script in your git repo with the following, `curl pipe bash`, command:
+
+[source,sh]
+----
+curl -s -L https://gitlab.com/CLARIN-ERIC/build-script/raw/reprolang/init_repo.sh | bash
+----
+
+=== Manual initialization
+
+In the following sub-sections you'll find a breakdown of the commands run by the script.
+
+==== Initialize git local repo with https://gitlab.com/CLARIN-ERIC/build-script[build-script] as submodule
+
+[source,sh]
+----
+VERSION=reprolang-1.0.0 && \
+git init && \
+git submodule add https://gitlab.com/CLARIN-ERIC/build-script.git build-script && \
+cd build-script && \
+git checkout ${VERSION} && \
+cd .. && \
+ln -s build-script/build.sh build.sh && \
+ln -s build-script/copy_data_noop.sh copy_data.sh && \
+ln -s build-script/update_version_noop.sh update_version.sh && \
+cp build-script/_gitlab-ci_default.yml .gitlab-ci.yml
+----
+
+In order to update with changes from the submodule remote, issue the following command from the repository root:
+[source,sh]
+----
+git submodule update --recursive --remote
+----
+
+==== Prepare the directory structure
+
+[source.sh]
+----
+mkdir -p image input output/tables_and_plots output/datasets/
+touch image/.gitkeep
+touch input/.gitkeep
+touch output/tables_and_plots/.gitkeep
+touch output/datasets/.gitkeep
+echo 'input/*' >> .gitignore
+echo 'output/tables_and_plots/*' >> .gitignore
+echo 'output/datasets/*' >> .gitignore
+----
+
+==== Update local git repo
+
+[source,sh]
+----
+git add .
+git commit -m "Intialized empty repo with build script v${VERSION}"
+----
+
+=== Output
+
+Running the automated `curl pipe bash` command or doing it manually should result in a directory structure similar to
+the following (hidden files not shown):
+
+[source, sh]
+----
+.
+├── build-script
+│   ├── LICENSE.txt
+│   ├── README.adoc
+│   ├── build.sh
+│   └── copy_data_noop.sh
+├── build.sh -> build-script/build.sh
+├── copy_data.sh -> build-script/copy_data_noop.sh
+├── image
+├── input
+└── output
+    ├── datasets 
+    └── tables_and_plots 
+
+3 directories, 6 files
+----
+
+After adding files to the `image` directories, the `.gitkeep` files can be removed. However it does no harm
+to leave them be.
+
+== Upgrading
+
+From the parent project root directory, run:
+
+[source,sh]
+----
+git submodule update --recursive --remote
+----
+
+
+== Customizing
+
+=== Build parameters
+
+You can provide custom values for some of the parameters used in the build process by placing a `variables.sh` file in
+the root of your repository.
+
+Possible values:
+[source,sh]
+----
+IMAGE_DIR="your new image directory/"           #Make sure this ends with a "/"
+----
+
+=== Testing
+
+In order to test your dockerized environment a `docker-compose.yml` file should be created in the `test` subdirectory.
+Within this compose file the services to test together with a test suite should be defined and after running all tests all
+containers should exit succsfully (exit code 0) for the test to pass.
+
+Example for nginx:
+[source,sh]
+----
+version: '2'
+
+services:
+  nginx:
+    image: "${IMAGE_QUALIFIED_NAME}"
+    command: --test
+    volumes:
+      - test:/test
+      - ./default.conf:/nginx_conf.d/default.conf:ro
+  nginx-test:
+    image: "registry.gitlab.com/clarin-eric/docker-tester:1.2.0"
+    command: http multi -v -k
+    volumes:
+      - ./checker.conf:/etc/checker.conf
+      - test:/test
+volumes:
+  test:
+    external: false
+----
+
+Note that:
+
+- the `${IMAGE_QUALIFIED_NAME}` variable is set within the build script to reference the latest version of your image.
+- by using `command: --test` the services knows to shut down when all tests are finished by monitoring the shared `/test` volume, which is managed by docker compose (`external: false`).
+- checker.conf contains a list of URLs paired with expected response codes to test:
+[source,sh]
+----
+https://nginx/;200
+https://nginx/localhost/;404
+https://nginx/50x.html;200
+----
+
+== To use
+[IMPORTANT]
+.Cloning created repositories
+====
+In order to clone a project repository created by this build script and include the build script submodule files, use the '--recursive' parameter.
+[source,sh]
+git clone your_project_url.git --recursive
+====
+
+[source,sh]
+----
+build.sh [-lt]
+
+  -b, --build      Build docker image
+  -r, --release    Push docker image to registry
+  -t, --test       Execute tests
+
+  -l, --local      Run workflow locally in a local docker container
+  -v, --verbose    Run in verbose mode
+  -f, --force      Force running the build in a fresh environment, requires
+                   internet access to pull dependencies. Otherwise internet
+                   access is only needed for the first pull of the precompiled
+                   build environment image
+  -n, --no-export  Don't export the build artiface, this is used when running
+                   the build workflow locally
+
+  -h, --help       Show help
+----
+
+=== Managing external data
+
+During image building external data (e.g. releases) is often needed. In order to accomodate fetching external data the
+copy_data.sh script has been provided. Two methods are defined in this script:
+
+[source,sh]
+----
+#!/bin/bash
+
+init_data (){
+    LOCAL=0
+    if [ "$1" == "local" ]; then
+        LOCAL=1
+    fi
+
+    if [ "${LOCAL}" -eq 0 ]; then
+        #Remote / gitlab ci
+        echo -n ""
+    else
+        #Local copy
+        echo -n ""
+    fi
+}
+
+cleanup_data () {
+    echo -n ""
+}
+----
+
+As you can see `init_data` supports two scenarios. one for local copy actions and one for gitlab ci integrated copy
+actions. This distinction is typically used to download releases (e.g. from b2drop) during gitlab ci workflows and to
+copy in local files during local build / development cycles.
+
+`cleanup_data` should implement cleanup commands to remove all files created / downloaded during the `init_data` phase.
+
+An example can be found here: https://gitlab.com/CLARIN-ERIC/docker-aai-discovery/blob/master/copy_data.sh.
+
+=== Customizing
+
+A number of variables are supported to customize the docker build process. Any of these variables will be passed in to
+the docker build command and can be used in the docker file via the `ARG` directive.
+
+[source,sh]
+----
+ --build-arg VARIABLE=${VARIABLE}"
+----
+
+The following variables are supported:
+
+* DIST_VERSION
+
+=== Locally
+
+When building locally the image is build using the environment from https://gitlab.com/CLARIN-ERIC/build-image as defined
+in the build script (```build.sh```).
+
+==== Building
+
+[source,sh]
+----
+sh build.sh --build --local
+----
+
+==== Testing
+
+[source,sh]
+----
+sh build.sh --test --local
+----
+
+==== Releasing
+
+[source,sh]
+----
+sh build.sh --release --local
+----
+
+=== Integrated in GitLab CI
+
+When building remotely (within GitLab CI), the environment specified in the ```.gitlab-ci.yml``` file is used.
+
+To integrate GitLab CI add a ```.gitlab-ci.yml``` file to your repository with the following content:
+[source,sh]
+----
+#To avoid differences between local and remote builds, this version should be kept in sync with whatever is used from https://gitlab.com/CLARIN-ERIC/build-image/container_registry
+image: docker:17.05.0
+services:
+  - docker:17.05.0-dind
+
+variables:
+    GIT_SUBMODULE_STRATEGY: recursive
+
+stages:
+  - build
+  - test
+  - release
+
+build:
+  artifacts:
+    untracked: true
+  script: timeout -t 720 sh -x ./build.sh --build
+  stage: build
+  tags:
+    - docker
+
+test:
+  artifacts:
+    untracked: true
+  dependencies:
+    - build
+  script: timeout -t 720 sh -x ./build.sh --test
+  stage: test
+  tags:
+    - docker
+
+release:
+  artifacts:
+    untracked: true
+  dependencies:
+    - test
+  only:
+    - tags
+    - triggers
+  script: timeout -t 720 sh -x ./build.sh --release
+  stage: release
+  tags:
+    - docker
+----
+
+Note that all scripts are run with a predefined timeout of 720 seconds. If the 
+timeout is exceeded the job will typically exit with a `code 143`. If this happens
+increase the timeout values as needed.
+
