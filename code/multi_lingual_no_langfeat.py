@@ -45,7 +45,7 @@ def read_data():
     lg_labels = []
     documents = []
     for data_file in glob.iglob(sys.argv[1]+"/*/*"):
-        lang_label = data_file.split("\\")[-2]
+        lang_label = data_file.split("/")[-2]
 
         if "RemovedFiles" in data_file: continue
         if "parsed" in data_file: continue

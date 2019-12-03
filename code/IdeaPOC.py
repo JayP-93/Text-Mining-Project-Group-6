@@ -897,23 +897,13 @@ def do_single_lang_all_features(langdirpath, lang, modelas):
 
 def main():
     # TODO(JayP): adapt this when you want to run it!
-    itdirpath = "../Datasets/IT-Parsed"
-    dedirpath = "../Datasets/DE-Parsed"
-    czdirpath = "../Datasets/CZ-Parsed"
-    endirpath = "../Datasets/EN-Parsed"
+    itdirpath = "../input/IT-Parsed"
+    dedirpath = "../input/DE-Parsed"
+    czdirpath = "../input/CZ-Parsed"
+    endirpath = "../input/EN-Parsed"
     logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.DEBUG,
                         datefmt='%Y-%m-%d %H:%M:%S')
     logging.info('Script Begin')
-
-    logging.info('Starting with single language --> EN')
-    logging.info('Starting do_single_lang_all_features(endirpath, "en", "class")')
-    do_single_lang_all_features(endirpath, "en", "class")
-    logging.info('Finished do_single_lang_all_features(endirpath, "en", "class")')
-
-    logging.info('Starting do_single_lang_all_features(endirpath, "en", "regr")')
-    do_single_lang_all_features(endirpath, "en", "regr")
-    logging.info('Finished do_single_lang_all_features(endirpath, "en", "regr")')
-    logging.info('Finished with single language --> EN')
 
     logging.info('Starting with single language --> DE')
     logging.info('Starting do_single_lang_all_features(dedirpath, "de", "class")')
@@ -944,6 +934,16 @@ def main():
     do_single_lang_all_features(czdirpath, "cz", "regr")
     logging.info('Finished do_single_lang_all_features(czdirpath, "cz", "regr")')
     logging.info('Finished with single language --> cz')
+
+    logging.info('Starting with single language --> EN')
+    logging.info('Starting do_single_lang_all_features(endirpath, "en", "class")')
+    do_single_lang_all_features(endirpath, "en", "class")
+    logging.info('Finished do_single_lang_all_features(endirpath, "en", "class")')
+
+    logging.info('Starting do_single_lang_all_features(endirpath, "en", "regr")')
+    do_single_lang_all_features(endirpath, "en", "regr")
+    logging.info('Finished do_single_lang_all_features(endirpath, "en", "regr")')
+    logging.info('Finished with single language --> EN')
 
     logging.info("Starting with concatenate label features --> True")
     logging.info(
