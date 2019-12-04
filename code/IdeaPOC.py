@@ -199,11 +199,11 @@ def getLexFeatures(conllufilepath, lang, err):
             numSent = numSent + 1
         total = total + 1
     if err:  # get the error features of the text  if there is an exception that we ignore this text and set up null values
-        try:
-            error_features = getErrorFeatures(conllufilepath, lang)
-        except:
-            print("Ignoring file:", conllufilepath)
-            error_features = [0, 0]
+        # try:
+        error_features = getErrorFeatures(conllufilepath, lang)
+        # except:
+        #     print("Ignoring file:", conllufilepath)
+        #     error_features = [0, 0]
     else:
         error_features = ['NA', 'NA']
 
@@ -236,17 +236,17 @@ def getErrorFeatures(conllufilepath, lang):
     """
     numerr = 0
     numspellerr = 0
-    try:
-        checker = language_check.LanguageTool(lang)
-        text = makeTextOnly(conllufilepath)
-        matches = checker.check(text)
-        for match in matches:
-            if not match.locqualityissuetype == "whitespace":
-                numerr = numerr + 1
-                if match.locqualityissuetype == "typographical" or match.locqualityissuetype == "misspelling":
-                    numspellerr = numspellerr + 1
-    except:
-        print("Ignoring this text: ", conllufilepath)
+    # try:
+    checker = language_check.LanguageTool(lang)
+    text = makeTextOnly(conllufilepath)
+    matches = checker.check(text)
+    for match in matches:
+        if not match.locqualityissuetype == "whitespace":
+            numerr = numerr + 1
+            if match.locqualityissuetype == "typographical" or match.locqualityissuetype == "misspelling":
+                numspellerr = numspellerr + 1
+    # except:
+    #     print("Ignoring this text: ", conllufilepath)
 
     return [numerr, numspellerr]
 
@@ -390,12 +390,10 @@ def train_onelang_classification(train_labels, train_data, labelascat=False, lan
             # to covert a collection of text documents to term-document matrix. for each text we have vector,
             # the element represents features(words or n-grams) and the number of their occurrence
             train_vector = vectorizer.fit_transform(train_data).toarray()
-            print(len(train_vector[0]))
 
             if labelascat and len(langslist) > 1:
                 # extent training vector by adding labels vectors
                 train_vector = enhance_features_withcat(train_vector, language=None, langslist=langslist)
-            print(len(train_vector[0]))
 
             # print(vectorizer.get_feature_names()) #To see what features were selected.
             # to estimate the accuracy of a classification by splitting the data, fitting a model

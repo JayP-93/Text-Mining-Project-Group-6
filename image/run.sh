@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 python /code/monolingual_cv.py /input/IT > /output/datasets/monolingual_word_emb_it.txt
 python /code/monolingual_cv.py /input/EN > /output/datasets/monolingual_word_emb_en.txt
@@ -8,4 +8,4 @@ python /code/multi_lingual_no_langfeat.py /input > /output/datasets/multilingual
 python /code/multi_lingual.py /input > /output/dataset/multilingual_word_emb_langfeat_en.txt
 python /code/IdeaPOC.py > /output/datasets/mono_multi_cross.txt
 
-exec python "$@"
+#exec python "$@"

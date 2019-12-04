@@ -2,7 +2,7 @@
 # Choose an OS or runtime environment image that fits the needs of your experiment e.g.
 #FROM debian:jessie
 #Or:
-FROM python:3.7.2
+FROM rappdw/docker-java-python:latest
 #######################
 
 #Define input/output directories

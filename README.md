@@ -1,4 +1,48 @@
-This repository presents the work of Group 6 of the Text Mining Project lecture at the University of Passau during SoSe2019:
+This repository participates to [Reprolang 2020](https://www.clarin.eu/event/2020/reprolang-2020). It contains the source code files, the execution environment and the data used for experiments containing texts in 4 langauges: Italian, German, Czech and English.
+
+The build-script, image directories are created here according to the instructions for the docker provided by Reprolang.
+
+The container for the docker exceeds 1 GB, so it can not be uploaded on gitlab.
+
+In order to build the docker locally, go to the project location and execute
+
+`./build.sh --build --local`
+
+In order to test the built docker, execute:
+
+```
+    docker run \
+    -ti --rm --name=test \
+    -v ${PWD}/code:/code \
+    -v ${PWD}/input:/input \
+    -v ${PWD}/output/datasets:/output/datasets \
+    -v ${PWD}/output/tables_and_plots:/output/tables_and_plots \
+    <image-name>:<image-id>
+```
+
+The project requires a input and output folder in the root.
+
+The execution with the English language is taking a lot of time. If English is excluded, please delete the following lines:
+
+/image/run.sh
+`
+python /code/monolingual_cv.py /input/EN > /output/datasets/monolingual_word_emb_en.txt`
+
+/code/IdeaPOC.py
+`
+endirpath = "../input/EN-Parsed"
+`
+and all the lines using english for single language, cross-language. Delete English from mega_multilingual_model too.
+
+
+
+The dataset is in datasets.tar.gz . It should be extracted such that the input would contain directly the language folders.
+
+The md5 checksum for datasets.tar.gz is `52bd58d77e870c4db131d94d4f1f4146`.
+
+The tag to look for is `docker-version`
+
+
 
 Original project GitHub repository: https://github.com/nishkalavallabhi/UniversalCEFRScoring
 
